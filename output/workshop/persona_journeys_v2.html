@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Follow Their Order — Student Ordering Journeys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #f8f6f1;
+  --bg-warm: #f2efe8;
+  --text: #2c2a25;
+  --text-mid: #78746b;
+  --text-light: #a9a49a;
+  --border: #e8e4dc;
+
+  --optimizer: #1d7775;
+  --optimizer-soft: #e8f3f3;
+  --social: #b07328;
+  --social-soft: #f7f0e4;
+  --balancer: #3a7a55;
+  --balancer-soft: #e9f3ed;
+  --dependent: #6454a4;
+  --dependent-soft: #efedf7;
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'Plus Jakarta Sans', -apple-system, system-ui, sans-serif;
+}
+
+html {
+  font-size: clamp(17px, 1.35vw, 23px);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+  line-height: 1.6;
+}
+
+/* ---- SLIDE SYSTEM ---- */
+.slide {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 4rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s var(--ease-out-quart), visibility 0.5s;
+  background: var(--bg);
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+
+.slide .anim {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.55s var(--ease-out-quart), transform 0.55s var(--ease-out-quart);
+}
+
+.slide.active .anim {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide.active .anim:nth-child(1) { transition-delay: 0.06s; }
+.slide.active .anim:nth-child(2) { transition-delay: 0.14s; }
+.slide.active .anim:nth-child(3) { transition-delay: 0.22s; }
+.slide.active .anim:nth-child(4) { transition-delay: 0.30s; }
+.slide.active .anim:nth-child(5) { transition-delay: 0.38s; }
+
+/* ---- TITLE ---- */
+.title-slide {
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.title-slide h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 1.0;
+  letter-spacing: -0.03em;
+}
+
+.title-slide .subtitle {
+  font-weight: 300;
+  font-size: 1.05rem;
+  color: var(--text-mid);
+  letter-spacing: 0.04em;
+}
+
+.title-dots {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.title-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* ---- INTRO ---- */
+.intro-slide {
+  align-items: center;
+  text-align: center;
+  gap: 3.5rem;
+}
+
+.intro-slide h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  max-width: 18ch;
+}
+
+.persona-preview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 52rem;
+}
+
+.persona-preview-card {
+  text-align: left;
+  padding: 1.4rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.persona-preview-card h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.persona-preview-card p {
+  font-size: 0.72rem;
+  color: var(--text-mid);
+  line-height: 1.45;
+}
+
+/* ---- PERSONA INTRO ---- */
+.persona-intro {
+  align-items: flex-start;
+  padding: 4rem 6rem;
+  background: var(--accent-soft);
+}
+
+.persona-tag {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-mid);
+}
+
+.persona-intro h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  margin-top: 0.5rem;
+}
+
+.persona-intro .tagline {
+  font-size: 1rem;
+  color: var(--text-mid);
+  margin-top: 0.4rem;
+}
+
+.persona-intro .stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-mid);
+  letter-spacing: 0.02em;
+}
+
+.persona-intro blockquote {
+  margin-top: 2rem;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--accent);
+  max-width: 36ch;
+}
+
+.persona-intro blockquote p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.35rem;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.persona-intro blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.7rem;
+  color: var(--text-light);
+}
+
+/* ---- JOURNEY VIEW (graph + detail) ---- */
+.journey-view {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s var(--ease-out-quart), visibility 0.5s, background 0.5s var(--ease-out-quart);
+  z-index: 1;
+  padding: 5rem 3rem 2rem;
+}
+
+.journey-view.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+
+.journey-layout {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 72rem;
+  height: 80vh;
+  gap: 3rem;
+}
+
+.graph-panel {
+  flex: 1 1 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: flex 0.65s var(--ease-out-quart), max-width 0.65s var(--ease-out-quart);
+}
+
+.journey-view.detail-mode .graph-panel {
+  flex: 0 0 38%;
+  max-width: 38%;
+}
+
+.journey-persona-name {
+  position: absolute;
+  top: 1.8rem;
+  left: 3rem;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 3.4rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  z-index: 5;
+  transition: font-size 0.65s var(--ease-out-quart), opacity 0.4s;
+}
+
+.journey-view.detail-mode .journey-persona-name {
+  font-size: 1.05rem;
+}
+
+.graph-subtitle {
+  font-size: 0.72rem;
+  color: var(--text-mid);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  transition: opacity 0.4s var(--ease-out-quart), margin 0.5s var(--ease-out-quart);
+}
+
+.journey-view.detail-mode .graph-subtitle {
+  opacity: 0;
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.graph-container {
+  width: 100%;
+  max-width: 600px;
+  transition: max-width 0.65s var(--ease-out-quart);
+}
+
+.journey-view.detail-mode .graph-container {
+  max-width: 100%;
+}
+
+.graph-svg {
+  width: 100%;
+  display: block;
+}
+
+.graph-area {
+  transition: opacity 0.4s var(--ease-out-quart);
+}
+
+.graph-line-bg {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.graph-line-fg {
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-dashoffset 0.6s var(--ease-out-quart);
+}
+
+.graph-dot {
+  transition: opacity 0.35s var(--ease-out-quart);
+}
+
+.graph-dot.future { opacity: 0.35; }
+.graph-dot.done { opacity: 1; }
+.graph-dot.current { opacity: 1; }
+
+.graph-dot circle:not(.graph-dot-glow) {
+  transition: fill 0.35s var(--ease-out-quart), r 0.35s var(--ease-out-quart), stroke-width 0.35s var(--ease-out-quart);
+}
+
+.graph-dot-glow {
+  opacity: 0;
+  transition: opacity 0.4s var(--ease-out-quart);
+}
+
+.graph-dot.current .graph-dot-glow {
+  opacity: 0.25;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+}
+
+.graph-x-label {
+  font-family: var(--sans);
+  font-size: 9px;
+  fill: var(--text-light);
+  text-anchor: middle;
+  transform-box: fill-box;
+  transform-origin: center center;
+  transition: fill 0.4s var(--ease-out-quart), transform 0.4s var(--ease-out-quart);
+}
+
+.graph-x-label.current {
+  font-weight: 600;
+  transform: scale(1.8);
+}
+
+.graph-emotion-label {
+  font-family: var(--sans);
+  font-size: 8px;
+  font-weight: 500;
+  text-anchor: middle;
+  transition: opacity 0.35s;
+}
+
+.graph-y-label {
+  font-family: var(--sans);
+  font-size: 8px;
+  fill: var(--text-light);
+}
+
+.graph-grid-line {
+  stroke: var(--border);
+  stroke-width: 0.5;
+  opacity: 0.5;
+}
+
+/* ---- DETAIL PANEL ---- */
+.detail-panel {
+  flex: 0 0 0%;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: flex 0.65s var(--ease-out-quart), max-width 0.65s var(--ease-out-quart), opacity 0.5s var(--ease-out-quart) 0.15s;
+}
+
+.journey-view.detail-mode .detail-panel {
+  flex: 0 0 58%;
+  max-width: 58%;
+  opacity: 1;
+}
+
+.detail-inner {
+  padding: 2rem 1rem 2rem 3rem;
+  min-width: 0;
+  max-height: 76vh;
+  overflow-y: auto;
+  border-left: 1px solid rgba(44,42,37,0.12);
+}
+
+.detail-inner::-webkit-scrollbar { width: 4px; }
+.detail-inner::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.detail-stage-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+.detail-stage-name {
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-top: 0.3rem;
+  transition: opacity 0.4s var(--ease-out-quart), transform 0.4s var(--ease-out-quart);
+}
+
+.detail-emotion {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-mid);
+}
+
+.detail-emotion .e-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.detail-context {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-mid);
+  max-width: 42ch;
+  transition: opacity 0.4s var(--ease-out-quart);
+}
+
+.detail-quote {
+  margin-top: 1.5rem;
+  padding-left: 1.3rem;
+  border-left: 2px solid var(--accent);
+  transition: opacity 0.4s var(--ease-out-quart);
+}
+
+.detail-quote p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.48;
+  color: var(--text);
+}
+
+.detail-quote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.65rem;
+  color: var(--text-light);
+  letter-spacing: 0.03em;
+}
+
+.detail-limited {
+  margin-top: 1rem;
+  font-size: 0.72rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* ---- COMPARISON ---- */
+.comparison-slide {
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.comparison-slide .comp-stage {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+.comparison-slide h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 56rem;
+}
+
+.comp-card {
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+  background: #fff;
+}
+
+.comp-card h3 {
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+.comp-emotion {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.comp-emotion.positive { color: var(--accent); }
+.comp-emotion.negative { color: #b04a3a; }
+
+.comp-score {
+  font-size: 0.65rem;
+  color: var(--text-light);
+  margin-bottom: 0.8rem;
+}
+
+.comp-card blockquote {
+  padding-left: 0.8rem;
+  border-left: 1.5px solid var(--border);
+}
+
+.comp-card blockquote p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.comp-card blockquote cite {
+  display: block;
+  margin-top: 0.3rem;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.6rem;
+  color: var(--text-light);
+}
+
+.comp-card.outlier {
+  background: var(--bg-warm);
+  border-color: #b04a3a;
+}
+
+/* ---- CLOSING ---- */
+.closing-slide {
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.closing-slide h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.25;
+  max-width: 20ch;
+  letter-spacing: -0.01em;
+}
+
+.closing-slide p {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  max-width: 38ch;
+  line-height: 1.6;
+}
+
+/* ---- NAV UI ---- */
+.progress {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: var(--text-light);
+  z-index: 100;
+  transition: width 0.4s var(--ease-out-quart), background 0.4s;
+}
+
+.counter {
+  position: fixed;
+  bottom: 0.8rem;
+  right: 1.2rem;
+  font-size: 0.55rem;
+  font-weight: 500;
+  color: var(--text-light);
+  z-index: 100;
+  letter-spacing: 0.05em;
+}
+
+.nav-hint {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6rem;
+  color: var(--text-light);
+  z-index: 100;
+  transition: opacity 0.6s;
+  letter-spacing: 0.03em;
+}
+
+.nav-hint.hidden { opacity: 0; }
+
+/* ---- JUMP NAV ---- */
+.nav-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1.2rem;
+  z-index: 200;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(44,42,37,0.06);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0;
+  transition: background 0.25s;
+}
+.nav-btn:hover { background: rgba(44,42,37,0.12); }
+.nav-btn span {
+  display: block;
+  width: 16px;
+  height: 1.5px;
+  background: var(--text);
+  border-radius: 1px;
+  transition: transform 0.3s var(--ease-out-quart), opacity 0.3s;
+}
+.nav-btn.open span:nth-child(1) { transform: translateY(5.5px) rotate(45deg); }
+.nav-btn.open span:nth-child(2) { opacity: 0; }
+.nav-btn.open span:nth-child(3) { transform: translateY(-5.5px) rotate(-45deg); }
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.2);
+  z-index: 190;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s var(--ease-out-quart);
+}
+.nav-overlay.open { opacity: 1; pointer-events: auto; }
+
+.nav-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 280px;
+  max-width: 80vw;
+  height: 100vh;
+  background: var(--bg);
+  z-index: 195;
+  transform: translateX(100%);
+  transition: transform 0.4s var(--ease-out-quart);
+  overflow-y: auto;
+  padding: 4.5rem 1.4rem 2rem;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.08);
+}
+.nav-panel.open { transform: translateX(0); }
+
+.nav-section-label {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-light);
+  margin: 1.5rem 0 0.4rem;
+  font-weight: 600;
+}
+.nav-section-label:first-child { margin-top: 0; }
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.78rem;
+  color: var(--text);
+  transition: background 0.2s;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+}
+.nav-item:hover { background: rgba(44,42,37,0.06); }
+.nav-item.active { background: rgba(44,42,37,0.08); font-weight: 600; }
+.nav-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.nav-stage-list {
+  margin: 0 0 0 1.55rem;
+  padding: 0;
+  list-style: none;
+}
+.nav-stage-item {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.68rem;
+  color: var(--text-mid);
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  border-left: 2px solid transparent;
+}
+.nav-stage-item:hover { background: rgba(44,42,37,0.04); color: var(--text); }
+.nav-stage-item.active { border-left-color: var(--text-mid); color: var(--text); font-weight: 500; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ========== SECTION DIVIDER ========== -->
+<div class="slide active" data-slide="divider" style="align-items:center;text-align:center;justify-content:center;padding:0">
+  <div style="max-width:680px;margin:0 auto;padding:0 2rem">
+    <p class="anim" style="font-family:var(--sans);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.18em;color:var(--optimizer);margin-bottom:1.4rem">Part Four</p>
+    <h1 class="anim" style="font-family:var(--serif);font-size:clamp(2.4rem,5vw,3.8rem);font-weight:400;line-height:1.12;letter-spacing:-0.025em;color:var(--text);margin-bottom:1.2rem">Meet the&nbsp;students</h1>
+    <p class="anim" style="font-family:var(--sans);font-size:0.92rem;line-height:1.6;color:var(--text-mid);max-width:42ch;margin:0 auto">Four personas, each representing a distinct relationship with food, delivery, and student life.</p>
+    <div class="anim" style="width:48px;height:2px;background:var(--optimizer);margin:2rem auto 0;opacity:0.5"></div>
+  </div>
+</div>
+
+<!-- ========== TITLE ========== -->
+<div class="slide title-slide" data-slide="title">
+  <h1 class="anim">Follow<br>Their Order</h1>
+  <p class="subtitle anim">Four students. Six stages. One ordering journey.</p>
+  <div class="title-dots anim">
+    <span style="background: var(--optimizer)"></span>
+    <span style="background: var(--social)"></span>
+    <span style="background: var(--balancer)"></span>
+    <span style="background: var(--dependent)"></span>
+  </div>
+</div>
+
+<!-- ========== INTRO ========== -->
+<div class="slide intro-slide" data-slide="intro">
+  <h2 class="anim">Same app.<br>Four completely different experiences.</h2>
+  <div class="persona-preview anim">
+    <div class="persona-preview-card" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <h3>The Pragmatic Optimizer</h3>
+      <p>Systematic efficiency meets strategic deal-hunting</p>
+    </div>
+    <div class="persona-preview-card" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+      <h3>The Social Orderer</h3>
+      <p>Group dynamics drive delivery decisions</p>
+    </div>
+    <div class="persona-preview-card" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+      <h3>The Budget Balancer</h3>
+      <p>Careful financial management meets occasional treats</p>
+    </div>
+    <div class="persona-preview-card" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+      <h3>The Convenience Dependent</h3>
+      <p>Delivery as essential life infrastructure</p>
+    </div>
+  </div>
+</div>
+
+<!-- ========== PERSONA INTROS (generated by JS) ========== -->
+<div id="personaIntros"></div>
+
+<!-- ========== JOURNEY VIEWS (generated by JS) ========== -->
+<div id="journeyViews"></div>
+
+<!-- ========== COMPARISON ========== -->
+<div class="slide comparison-slide" data-slide="comparison">
+  <p class="comp-stage anim">Placing the order</p>
+  <h2 class="anim">Same moment.<br>Four reactions.</h2>
+  <div class="comparison-grid anim" id="compGrid"></div>
+</div>
+
+<!-- ========== CLOSING ========== -->
+<div class="slide closing-slide" data-slide="closing">
+  <h2 class="anim">What happens between wanting&nbsp;to&nbsp;order and actually ordering?</h2>
+  <p class="anim">Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap.</p>
+</div>
+
+<!-- ========== NAV UI ========== -->
+<div class="progress" id="progress"></div>
+<div class="counter" id="counter"></div>
+<div class="nav-hint" id="navHint">Arrow keys or click to navigate</div>
+
+<!-- ========== JUMP NAV ========== -->
+<button class="nav-btn" id="navBtn" aria-label="Open navigation"><span></span><span></span><span></span></button>
+<div class="nav-overlay" id="navOverlay"></div>
+<div class="nav-panel" id="navPanel"></div>
+
+<script>
+(function() {
+  var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
+  var STAGE_NAMES = ['Deciding to order', 'Choosing where & what', 'Placing the order', 'Waiting for delivery', 'Eating the food', 'After the meal'];
+
+  var PERSONAS = [
+    {
+      id: 'optimizer', name: 'The Pragmatic Optimizer', shortName: 'Optimizer',
+      color: '#1d7775', colorSoft: '#e8f3f3',
+      tagline: 'Systematic efficiency meets strategic deal-hunting',
+      stats: ['12 participants', 'Orders fortnightly', 'None hold Deliveroo Plus alone'],
+      introQuote: { text: 'Ordering a takeaway after an exam\u2026 that\u2019s an enjoyable meal. It\u2019s like a reward. You\u2019ve earned it.', cite: 'Joshua' },
+      stages: [
+        { emotion: 'Comfort', score: 4, context: 'It\u2019s Thursday evening. Lectures are done, the library is closed, and tomorrow\u2019s assignment can wait. The thought of cooking crosses their mind \u2014 and is immediately weighed against the effort.', quote: { text: 'It sort of takes you out from when you\u2019re doing, like, work all day. It\u2019s just something different that you can focus on.', cite: 'James' } },
+        { emotion: 'Stress', score: 2, context: 'Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don\u2019t really want to hit \u00a315.', quote: { text: 'I try to make it about \u00a315 to save delivery fees\u2026 it makes some changes in my delivery order.', cite: 'Suryansh' } },
+        { emotion: 'Excitement', score: 5, context: 'The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.', quote: null },
+        { emotion: 'Neutral', score: 3, context: 'Twenty-five minutes. Time to do something else. The waiting barely registers \u2014 the emotional work was in the decision, not the delivery.', quote: null, limited: true },
+        { emotion: 'Comfort', score: 4, context: 'The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction \u2014 a small, earned reward after a calculated decision.', quote: null },
+        { emotion: 'Excitement', score: 5, context: 'Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.', quote: { text: 'Whether that\u2019s through a productive day or I\u2019ve gone on a long hike or something. Where you\u2019ve earned it.', cite: 'Joshua' } }
+      ]
+    },
+    {
+      id: 'social', name: 'The Social Orderer', shortName: 'Social',
+      color: '#b07328', colorSoft: '#f7f0e4',
+      tagline: 'Group dynamics drive delivery decisions',
+      stats: ['9 participants', 'Orders fortnightly to monthly', 'Friday evenings & weekends'],
+      introQuote: { text: 'Oh, it\u2019s like an unspoken ritual\u2026 We\u2019re not meant to call it a \u2018ritual,\u2019 but it definitely is.', cite: 'Lee' },
+      stages: [
+        { emotion: 'Stress', score: 2, context: 'A friend mentions food. Another one pulls out their phone. The seed is planted. Now it\u2019s not about whether to order \u2014 it\u2019s about being part of the moment.', quote: { text: 'I sat next to my mate, and he was like, \u2018Oh, I just think I\u2019m going to order something.\u2019 And that\u2019s all, like, planted a seed in my head.', cite: 'Evan' } },
+        { emotion: 'Stress', score: 2, context: 'Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge \u2014 but deciding for the group means absorbing the blame if it\u2019s wrong.', quote: null },
+        { emotion: 'Connection', score: 5, context: 'One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.', quote: { text: 'I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four.', cite: 'Aayush' } },
+        { emotion: 'Neutral', score: 3, context: 'The group shifts to something else \u2014 a show, a conversation, a game. The food is coming. That\u2019s all that matters right now.', quote: null, limited: true },
+        { emotion: 'Guilt', score: 2, context: 'The food arrives. Everyone eats their own order. Even with friends around, the shared experience feels thinner than going out together \u2014 just individual meals in the same room. The social energy doesn\u2019t quite land.', quote: { text: 'Something about takeaways at home even with friends don\u2019t feel as social. Whereas if you\u2019re out and about together it feels more social for some reason.', cite: 'Katie' } },
+        { emotion: 'Comfort', score: 4, context: 'It\u2019s done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.', quote: { text: 'When you\u2019re going out with friends, it doesn\u2019t feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own.', cite: 'Lee' } }
+      ]
+    },
+    {
+      id: 'balancer', name: 'The Budget Balancer', shortName: 'Balancer',
+      color: '#3a7a55', colorSoft: '#e9f3ed',
+      tagline: 'Careful financial management meets occasional treats',
+      stats: ['6 participants', 'Orders monthly or less', 'Delivery reserved for special occasions'],
+      introQuote: { text: 'I\u2019m not really the kind of person that likes having subscriptions anyway because I just don\u2019t\u2026 like money coming out.', cite: 'Alexandra' },
+      stages: [
+        { emotion: 'Stress', score: 2, context: 'The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.', quote: { text: 'Justified is probably just when it\u2019s been a while, if it\u2019s something I\u2019ve been feeling like having, and if it\u2019s time to do another grocery shop.', cite: 'Chika' } },
+        { emotion: 'Comfort', score: 4, context: 'When the answer is yes, there\u2019s relief. The guilt of deciding to order is replaced by the comfort of choosing well \u2014 finding the right deal, the right restaurant, the right amount. The hard part is over.', quote: null },
+        { emotion: 'Frustration', score: 2, context: 'Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.', quote: null },
+        { emotion: 'Neutral', score: 3, context: 'The emotional weight was in the decision. Now there\u2019s just time. The waiting is empty \u2014 not anxious, not excited, just neutral.', quote: null, limited: true },
+        { emotion: 'Indifference', score: 3, context: 'The food is fine. It\u2019s eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat \u2014 and that flatness is the insight.', quote: null },
+        { emotion: 'Comfort', score: 4, context: 'It\u2019s over. The money is spent. And in the quiet aftermath, there\u2019s a gentle comfort: it was a while since the last one. It was justified.', quote: { text: 'I\u2019ve had quite a busy or stressful week as, like, a little reward.', cite: 'Anya' } }
+      ]
+    },
+    {
+      id: 'dependent', name: 'The Convenience Dependent', shortName: 'Dependent',
+      color: '#6454a4', colorSoft: '#efedf7',
+      tagline: 'Delivery as essential life infrastructure',
+      stats: ['8 participants', 'Orders multiple times per week', 'Up to \u00a3100/week on food delivery'],
+      introQuote: { text: 'Usually, when I\u2019m not at home, I\u2019m always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend\u2019s house. About pretty much five times a week.', cite: 'Adam' },
+      stages: [
+        { emotion: 'Frustration', score: 2, context: 'The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn\u2019t about food \u2014 it\u2019s about everything else getting in the way of eating.', quote: { text: 'I started noticing that we\u2019re running out of cereal, eggs, milk, porridge\u2026 I didn\u2019t feel like going down to the shop\u2026 and I didn\u2019t have the time.', cite: 'Adam' } },
+        { emotion: 'Comfort', score: 4, context: 'The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.', quote: { text: 'I have one main flatmate that I usually coordinate with, like when our lectures are, when we\u2019ll go to the gym, and so that we try to eat around the same time.', cite: 'Maya' } },
+        { emotion: 'Connection', score: 5, context: 'The order is placed \u2014 from a friend\u2019s house, between lectures, coordinated with a flatmate. Delivery isn\u2019t an event. It\u2019s infrastructure. The positive feeling comes from the routine itself working smoothly.', quote: null },
+        { emotion: 'Frustration', score: 2, context: 'The driver can\u2019t find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn\u2019t.', quote: { text: 'It\u2019s kind of difficult getting the deliveries actually where you want them. Maybe it\u2019s just the setup here at Oxford and the different colleges.', cite: 'Jade' } },
+        { emotion: 'Comfort', score: 4, context: 'Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.', quote: { text: 'Definitely winter. I think that\u2019s probably what started it\u2026 just not wanting to leave the house as much.', cite: 'Samuel' } },
+        { emotion: 'Stress', score: 2, context: 'Then the bank notification arrives. The total is higher than expected. The spending is visible, the pattern hard to ignore. The convenience was worth it in the moment, but the numbers are adding up.', quote: { text: 'I think I\u2019d have to go like full Marie Kondo and just\u2026 cut everything off with how much I\u2019m spending.', cite: 'Samuel' } }
+      ]
+    }
+  ];
+
+  var COMPARISON = [
+    { persona: 'The Pragmatic Optimizer', emotion: 'Excitement', positive: true, score: '5 / 5', quote: 'It\u2019s like a reward. You\u2019ve earned it.', cite: 'Joshua', color: '#1d7775' },
+    { persona: 'The Social Orderer', emotion: 'Connection', positive: true, score: '5 / 5', quote: 'I ordered from my account all together and then we split it.', cite: 'Aayush', color: '#b07328' },
+    { persona: 'The Budget Balancer', emotion: 'Frustration', positive: false, score: '2 / 5', quote: 'I just don\u2019t like money coming out.', cite: 'Alexandra', color: '#3a7a55', outlier: true },
+    { persona: 'The Convenience Dependent', emotion: 'Connection', positive: true, score: '5 / 5', quote: 'About pretty much five times a week.', cite: 'Adam', color: '#6454a4' }
+  ];
+
+  // ---- Build persona intro slides ----
+  var introContainer = document.getElementById('personaIntros');
+  PERSONAS.forEach(function(p, i) {
+    var div = document.createElement('div');
+    div.className = 'slide persona-intro';
+    div.setAttribute('data-slide', 'persona-intro-' + p.id);
+    div.style.setProperty('--accent', 'var(--' + p.id + ')');
+    div.style.setProperty('--accent-soft', 'var(--' + p.id + '-soft)');
+    div.innerHTML =
+      '<span class="persona-tag anim">Persona ' + (i + 1) + ' of 4</span>' +
+      '<h2 class="anim">' + p.name.replace(/(The\s)/, '$1<br>') + '</h2>' +
+      '<p class="tagline anim">' + p.tagline + '</p>' +
+      '<div class="stats anim">' + p.stats.map(function(s) { return '<span>' + s + '</span>'; }).join('') + '</div>' +
+      (p.introQuote ? '<blockquote class="anim"><p>\u201C' + p.introQuote.text + '\u201D</p><cite>\u2014 ' + p.introQuote.cite + '</cite></blockquote>' : '');
+    introContainer.appendChild(div);
+  });
+
+  // ---- Build comparison grid ----
+  var compGrid = document.getElementById('compGrid');
+  compGrid.innerHTML = COMPARISON.map(function(c) {
+    return '<div class="comp-card' + (c.outlier ? ' outlier' : '') + '" style="--accent: ' + c.color + '">' +
+      '<h3>' + c.persona + '</h3>' +
+      '<div class="comp-emotion ' + (c.positive ? 'positive' : 'negative') + '">' + c.emotion + '</div>' +
+      '<div class="comp-score">' + c.score + '</div>' +
+      '<blockquote><p>\u201C' + c.quote + '\u201D</p><cite>\u2014 ' + c.cite + '</cite></blockquote></div>';
+  }).join('');
+
+  // ---- Build journey views ----
+  var journeyContainer = document.getElementById('journeyViews');
+  var SVG_W = 560, SVG_H = 280;
+  var PAD = { top: 30, right: 20, bottom: 40, left: 40 };
+  var PLOT_W = SVG_W - PAD.left - PAD.right;
+  var PLOT_H = SVG_H - PAD.top - PAD.bottom;
+
+  function scoreToY(s) { return PAD.top + (1 - (s - 1) / 4) * PLOT_H; }
+  function stageToX(i) { return PAD.left + (i / 5) * PLOT_W; }
+
+  function buildSmoothPath(coords) {
+    if (coords.length < 2) return '';
+    var d = 'M ' + coords[0].x + ' ' + coords[0].y;
+    for (var i = 0; i < coords.length - 1; i++) {
+      var p0 = i > 0 ? coords[i - 1] : coords[0];
+      var p1 = coords[i];
+      var p2 = coords[i + 1];
+      var p3 = i + 2 < coords.length ? coords[i + 2] : coords[coords.length - 1];
+      var cp1x = p1.x + (p2.x - p0.x) / 6;
+      var cp1y = p1.y + (p2.y - p0.y) / 6;
+      var cp2x = p2.x - (p3.x - p1.x) / 6;
+      var cp2y = p2.y - (p3.y - p1.y) / 6;
+      d += ' C ' + cp1x + ' ' + cp1y + ' ' + cp2x + ' ' + cp2y + ' ' + p2.x + ' ' + p2.y;
+    }
+    return d;
+  }
+
+  PERSONAS.forEach(function(persona) {
+    var coords = persona.stages.map(function(s, i) { return { x: stageToX(i), y: scoreToY(s.score) }; });
+    var linePath = buildSmoothPath(coords);
+    var areaPath = linePath + ' L ' + coords[5].x + ' ' + (PAD.top + PLOT_H) + ' L ' + coords[0].x + ' ' + (PAD.top + PLOT_H) + ' Z';
+
+    var gridLines = '';
+    for (var v = 1; v <= 5; v++) {
+      var gy = scoreToY(v);
+      gridLines += '<line class="graph-grid-line" x1="' + PAD.left + '" y1="' + gy + '" x2="' + (PAD.left + PLOT_W) + '" y2="' + gy + '"/>';
+      gridLines += '<text class="graph-y-label" x="' + (PAD.left - 8) + '" y="' + (gy + 3) + '" text-anchor="end">' + v + '</text>';
+    }
+
+    var xLabels = STAGES.map(function(s, i) {
+      return '<text class="graph-x-label" data-stage="' + i + '" x="' + stageToX(i) + '" y="' + (SVG_H - 10) + '">' + s + '</text>';
+    }).join('');
+
+    var emotionLabels = persona.stages.map(function(s, i) {
+      return '<text class="graph-emotion-label" data-stage="' + i + '" x="' + stageToX(i) + '" y="' + (scoreToY(s.score) - 16) + '" fill="' + persona.color + '">' + s.emotion + '</text>';
+    }).join('');
+
+    var dots = persona.stages.map(function(s, i) {
+      var cx = stageToX(i), cy = scoreToY(s.score);
+      return '<g class="graph-dot future" data-stage="' + i + '">' +
+        '<circle class="graph-dot-glow" cx="' + cx + '" cy="' + cy + '" r="16" fill="' + persona.color + '" opacity="0"/>' +
+        '<circle cx="' + cx + '" cy="' + cy + '" r="5" fill="' + persona.colorSoft + '" stroke="' + persona.color + '" stroke-width="2"/>' +
+        '</g>';
+    }).join('');
+
+    var svg = '<svg class="graph-svg" viewBox="0 0 ' + SVG_W + ' ' + SVG_H + '" preserveAspectRatio="xMidYMid meet">' +
+      '<defs><linearGradient id="grad-' + persona.id + '" x1="0" y1="1" x2="0" y2="0">' +
+      '<stop offset="0%" stop-color="' + persona.color + '" stop-opacity="0.35"/>' +
+      '<stop offset="100%" stop-color="' + persona.color + '" stop-opacity="0.03"/>' +
+      '</linearGradient></defs>' +
+      gridLines +
+      '<path class="graph-area" d="' + areaPath + '" fill="url(#grad-' + persona.id + ')"/>' +
+      '<path class="graph-line-bg" d="' + linePath + '"/>' +
+      '<path class="graph-line-fg" d="' + linePath + '" stroke="' + persona.color + '" data-total-length="0"/>' +
+      emotionLabels + dots + xLabels +
+      '</svg>';
+
+    var view = document.createElement('div');
+    view.className = 'journey-view';
+    view.setAttribute('data-slide', 'journey-' + persona.id);
+    view.setAttribute('data-persona', persona.id);
+    view.style.background = persona.colorSoft;
+    view.innerHTML =
+      '<h2 class="journey-persona-name" style="color: ' + persona.color + '">' + persona.name + '</h2>' +
+      '<div class="journey-layout">' +
+        '<div class="graph-panel">' +
+          '<div class="graph-subtitle">Emotional journey across six ordering stages</div>' +
+          '<div class="graph-container">' + svg + '</div>' +
+        '</div>' +
+        '<div class="detail-panel">' +
+          '<div class="detail-inner" id="detail-' + persona.id + '"></div>' +
+        '</div>' +
+      '</div>';
+    journeyContainer.appendChild(view);
+  });
+
+  // ---- Measure SVG line lengths ----
+  document.querySelectorAll('.graph-line-fg').forEach(function(line) {
+    var len = line.getTotalLength();
+    line.setAttribute('data-total-length', len);
+    line.style.strokeDasharray = len;
+    line.style.strokeDashoffset = len;
+  });
+
+  // ---- Navigation state ----
+  var allScreens = [];
+
+  // Build screen sequence: divider, title, intro, then per-persona: [intro, journey×7], then comparison, closing
+  allScreens.push({ type: 'slide', el: document.querySelector('[data-slide="divider"]') });
+  allScreens.push({ type: 'slide', el: document.querySelector('[data-slide="title"]') });
+  allScreens.push({ type: 'slide', el: document.querySelector('[data-slide="intro"]') });
+
+  PERSONAS.forEach(function(p) {
+    allScreens.push({ type: 'slide', el: document.querySelector('[data-slide="persona-intro-' + p.id + '"]'), persona: p });
+    allScreens.push({ type: 'journey', el: document.querySelector('[data-slide="journey-' + p.id + '"]'), persona: p, stage: -1 });
+    for (var s = 0; s < 6; s++) {
+      allScreens.push({ type: 'journey', el: document.querySelector('[data-slide="journey-' + p.id + '"]'), persona: p, stage: s });
+    }
+  });
+
+  allScreens.push({ type: 'slide', el: document.querySelector('[data-slide="comparison"]') });
+  allScreens.push({ type: 'slide', el: document.querySelector('[data-slide="closing"]') });
+
+  var currentIdx = 0;
+  var totalSteps = allScreens.length;
+  var progressEl = document.getElementById('progress');
+  var counterEl = document.getElementById('counter');
+  var hintEl = document.getElementById('navHint');
+
+  function getAccentForScreen(screen) {
+    if (screen.persona) return screen.persona.color;
+    return null;
+  }
+
+  function updateGraph(persona, stageIdx) {
+    var view = document.querySelector('[data-slide="journey-' + persona.id + '"]');
+    var line = view.querySelector('.graph-line-fg');
+    var totalLen = parseFloat(line.getAttribute('data-total-length'));
+
+    if (stageIdx < 0) {
+      view.classList.remove('detail-mode');
+      line.style.strokeDashoffset = 0;
+      view.querySelectorAll('.graph-dot').forEach(function(d) {
+        d.className = 'graph-dot done';
+        var innerCircle = d.querySelectorAll('circle')[1];
+        innerCircle.setAttribute('r', '5');
+        innerCircle.setAttribute('fill', persona.color);
+        innerCircle.setAttribute('stroke-width', '2');
+      });
+      view.querySelectorAll('.graph-x-label').forEach(function(l) { l.classList.remove('current'); });
+      view.querySelectorAll('.graph-emotion-label').forEach(function(l) { l.style.opacity = '1'; });
+      return;
+    }
+
+    view.classList.add('detail-mode');
+
+    var fraction = (stageIdx + 0.15) / 5.15;
+    line.style.strokeDashoffset = totalLen * (1 - fraction);
+
+    view.querySelectorAll('.graph-dot').forEach(function(d, i) {
+      d.classList.remove('current', 'done', 'future');
+      var innerCircle = d.querySelectorAll('circle')[1];
+      if (i < stageIdx) {
+        d.classList.add('done');
+        innerCircle.setAttribute('r', '5');
+        innerCircle.setAttribute('fill', persona.color);
+        innerCircle.setAttribute('stroke-width', '2');
+      } else if (i === stageIdx) {
+        d.classList.add('current');
+        innerCircle.setAttribute('r', '7');
+        innerCircle.setAttribute('fill', persona.color);
+        innerCircle.setAttribute('stroke-width', '2.5');
+      } else {
+        d.classList.add('future');
+        innerCircle.setAttribute('r', '5');
+        innerCircle.setAttribute('fill', persona.colorSoft);
+        innerCircle.setAttribute('stroke-width', '2');
+      }
+    });
+
+    view.querySelectorAll('.graph-x-label').forEach(function(l, i) {
+      if (i === stageIdx) {
+        l.classList.add('current');
+        l.style.fill = persona.color;
+      } else {
+        l.classList.remove('current');
+        l.style.fill = '';
+      }
+    });
+
+    view.querySelectorAll('.graph-emotion-label').forEach(function(l, i) {
+      l.style.opacity = i === stageIdx ? '1' : '0.3';
+    });
+
+    var stage = persona.stages[stageIdx];
+    var detail = view.querySelector('.detail-inner');
+    detail.style.opacity = '0';
+    detail.style.transform = 'translateY(10px)';
+
+    setTimeout(function() {
+      var quoteHtml = stage.quote
+        ? '<div class="detail-quote" style="--accent: ' + persona.color + '"><p>\u201C' + stage.quote.text + '\u201D</p><cite>\u2014 ' + stage.quote.cite + '</cite></div>'
+        : '';
+      var limitedHtml = stage.limited ? '<p class="detail-limited">Limited data at this stage across participants.</p>' : '';
+
+      detail.innerHTML =
+        '<div class="detail-stage-label">Stage ' + (stageIdx + 1) + ' of 6</div>' +
+        '<div class="detail-stage-name">' + STAGE_NAMES[stageIdx] + '</div>' +
+        '<div class="detail-emotion"><span class="e-dot" style="background: ' + persona.color + '"></span>' + stage.emotion + ' \u00b7 ' + stage.score + '/5</div>' +
+        '<p class="detail-context">' + stage.context + '</p>' +
+        quoteHtml + limitedHtml;
+
+      detail.style.transition = 'opacity 0.4s var(--ease-out-quart), transform 0.4s var(--ease-out-quart)';
+      detail.style.opacity = '1';
+      detail.style.transform = 'translateY(0)';
+    }, 180);
+  }
+
+  function showScreen(idx) {
+    if (idx < 0 || idx >= totalSteps) return;
+
+    var prev = allScreens[currentIdx];
+    var next = allScreens[idx];
+    var changingElement = prev.el !== next.el;
+
+    if (changingElement) {
+      prev.el.classList.remove('active');
+      if (prev.type === 'journey') prev.el.classList.remove('detail-mode');
+    }
+
+    if (next.type === 'journey' && changingElement) {
+      next.el.style.transition = 'none';
+      next.el.querySelectorAll('.graph-panel, .detail-panel, .journey-persona-name, .graph-subtitle, .graph-container').forEach(function(el) {
+        el.style.transition = 'none';
+      });
+      updateGraph(next.persona, next.stage);
+      next.el.offsetHeight;
+      next.el.style.transition = '';
+      next.el.querySelectorAll('.graph-panel, .detail-panel, .journey-persona-name, .graph-subtitle, .graph-container').forEach(function(el) {
+        el.style.transition = '';
+      });
+    }
+
+    next.el.classList.add('active');
+
+    if (next.type === 'journey' && !changingElement) {
+      updateGraph(next.persona, next.stage);
+    }
+
+    currentIdx = idx;
+
+    var pct = ((idx + 1) / totalSteps) * 100;
+    progressEl.style.width = pct + '%';
+    var accent = getAccentForScreen(next);
+    progressEl.style.background = accent || 'var(--text-light)';
+    counterEl.textContent = (idx + 1) + ' / ' + totalSteps;
+  }
+
+  function next() { showScreen(currentIdx + 1); }
+  function prev() { showScreen(currentIdx - 1); }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && navOpen) { toggleNav(false); return; }
+    if (navOpen) return;
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); next(); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); prev(); }
+    if (e.key === 'Home') { e.preventDefault(); showScreen(0); }
+    if (e.key === 'End') { e.preventDefault(); showScreen(totalSteps - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('button') || e.target.closest('a') || e.target.closest('svg') || e.target.closest('.nav-panel') || e.target.closest('.nav-overlay')) return;
+    var w = window.innerWidth;
+    if (e.clientX > w * 0.65) next();
+    else if (e.clientX < w * 0.35) prev();
+  });
+
+  setTimeout(function() { hintEl.classList.add('hidden'); }, 4000);
+
+  // ---- Jump nav ----
+  var navBtn = document.getElementById('navBtn');
+  var navOverlay = document.getElementById('navOverlay');
+  var navPanel = document.getElementById('navPanel');
+  var navOpen = false;
+
+  function toggleNav(force) {
+    navOpen = typeof force === 'boolean' ? force : !navOpen;
+    navBtn.classList.toggle('open', navOpen);
+    navOverlay.classList.toggle('open', navOpen);
+    navPanel.classList.toggle('open', navOpen);
+  }
+
+  navBtn.addEventListener('click', function(e) { e.stopPropagation(); toggleNav(); });
+  navOverlay.addEventListener('click', function() { toggleNav(false); });
+
+  function jumpTo(screenIdx) {
+    toggleNav(false);
+    showScreen(screenIdx);
+  }
+
+  function buildNav() {
+    var html = '';
+    html += '<div class="nav-section-label">Presentation</div>';
+    html += '<button class="nav-item" data-nav="0"><span class="nav-dot" style="background: var(--text-light)"></span>Title</button>';
+    html += '<button class="nav-item" data-nav="1"><span class="nav-dot" style="background: var(--text-light)"></span>Overview</button>';
+
+    var screenOffset = 2;
+    PERSONAS.forEach(function(p) {
+      html += '<div class="nav-section-label">' + p.shortName + '</div>';
+      html += '<button class="nav-item" data-nav="' + screenOffset + '"><span class="nav-dot" style="background: ' + p.color + '"></span>' + p.name + '</button>';
+      html += '<button class="nav-item" data-nav="' + (screenOffset + 1) + '" style="padding-left: 1.55rem; font-size: 0.72rem; color: var(--text-mid)">Emotion arc</button>';
+      html += '<div class="nav-stage-list">';
+      STAGES.forEach(function(s, si) {
+        html += '<button class="nav-stage-item" data-nav="' + (screenOffset + 2 + si) + '">' + STAGE_NAMES[si] + '</button>';
+      });
+      html += '</div>';
+      screenOffset += 8;
+    });
+
+    html += '<div class="nav-section-label">Wrap-up</div>';
+    html += '<button class="nav-item" data-nav="' + (totalSteps - 2) + '"><span class="nav-dot" style="background: var(--text-light)"></span>Comparison</button>';
+    html += '<button class="nav-item" data-nav="' + (totalSteps - 1) + '"><span class="nav-dot" style="background: var(--text-light)"></span>Closing</button>';
+
+    navPanel.innerHTML = html;
+    navPanel.querySelectorAll('[data-nav]').forEach(function(btn) {
+      btn.addEventListener('click', function() { jumpTo(parseInt(btn.getAttribute('data-nav'))); });
+    });
+  }
+  buildNav();
+
+  function updateNavActive() {
+    navPanel.querySelectorAll('[data-nav]').forEach(function(btn) {
+      btn.classList.toggle('active', parseInt(btn.getAttribute('data-nav')) === currentIdx);
+    });
+  }
+
+  var _origShowScreen = showScreen;
+  showScreen = function(idx) {
+    _origShowScreen(idx);
+    updateNavActive();
+  };
+
+  document.addEventListener('click', function(e) {
+    if (navOpen && !e.target.closest('.nav-panel') && !e.target.closest('.nav-btn')) {
+      toggleNav(false);
+    }
+  });
+
+  showScreen(0);
+})();
+</script>
+</body>
+</html>

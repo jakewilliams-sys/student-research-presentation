@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where to Go From Here</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,600;0,16..72,700;1,16..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #FAF8F2;
+  --text: #1A1714;
+  --text-secondary: #6B655C;
+  --text-tertiary: #9E978D;
+  --accent: #00857C;
+  --rule: #D6D1C7;
+  --bar-track: #E8E4DB;
+
+  --teal: #00857C;
+  --pumpkin: #D4603A;
+  --blueberry: #5B8EC4;
+  --mustard: #C4A82D;
+  --apple: #5A9E4A;
+
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
+  --duration: 450ms;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: var(--sans);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* ============================================
+   PERSISTENT CHAPTER BAR
+   ============================================ */
+.chapter-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 48px;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 4vw, 3rem);
+  padding: 0 2rem;
+  background: rgba(250, 248, 242, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 200;
+  border-bottom: 1px solid var(--rule);
+}
+.chapter-bar-item {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 400ms var(--ease), border-color 400ms var(--ease), font-size 300ms var(--ease), transform 300ms var(--ease);
+}
+.chapter-bar-item.completed { color: var(--text-secondary); }
+.chapter-bar-item.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  transform: translateY(2px);
+}
+
+/* ============================================
+   SLIDE SYSTEM
+   ============================================ */
+.slide {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 68px 0 0;
+  padding-left: 15vw;
+  padding-right: clamp(2rem, 5vw, 4rem);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration) var(--ease);
+  background: var(--cream);
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+
+.slide-inner {
+  max-width: 640px;
+  width: 100%;
+}
+
+/* ============================================
+   SECTION DIVIDER
+   ============================================ */
+.section-divider {
+  justify-content: center;
+  padding: 0;
+  padding-left: 0;
+  text-align: center;
+}
+.section-divider .slide-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.section-divider-part {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.15s, transform 0.5s var(--ease) 0.15s;
+}
+.section-divider.active .section-divider-part { opacity: 1; transform: none; }
+
+.section-divider-title {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s var(--ease) 0.25s, transform 0.6s var(--ease) 0.25s;
+}
+.section-divider.active .section-divider-title { opacity: 1; transform: none; }
+
+.section-divider-sub {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: 42ch;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.4s, transform 0.5s var(--ease) 0.4s;
+}
+.section-divider.active .section-divider-sub { opacity: 1; transform: none; }
+
+.section-divider-rule {
+  width: 48px;
+  height: 2px;
+  background: var(--accent);
+  margin: 2rem auto 0;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.55s;
+}
+.section-divider.active .section-divider-rule { opacity: 0.5; }
+
+/* ============================================
+   OPPORTUNITY TITLE SLIDES
+   ============================================ */
+.chapter-slide .slide-inner { max-width: 100%; }
+
+.chapter-counter {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 1.8rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.1s, transform 0.5s var(--ease) 0.1s;
+}
+.chapter-slide.active .chapter-counter { opacity: 1; transform: none; }
+
+.chapter-headline {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  max-width: 22ch;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s var(--ease) 0.2s, transform 0.6s var(--ease) 0.2s;
+}
+.chapter-slide.active .chapter-headline { opacity: 1; transform: none; }
+
+.chapter-sub {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 52ch;
+  margin-top: 1.4rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.35s, transform 0.5s var(--ease) 0.35s;
+}
+.chapter-slide.active .chapter-sub { opacity: 1; transform: none; }
+
+/* ============================================
+   OPPORTUNITY DETAIL SLIDES
+   ============================================ */
+.opp-slide .slide-inner {
+  max-width: 720px;
+}
+
+.opp-label {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  margin-bottom: 1.6rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.1s, transform 0.5s var(--ease) 0.1s;
+}
+.opp-slide.active .opp-label { opacity: 1; transform: none; }
+
+.opp-headline {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3.4vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  max-width: 24ch;
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s var(--ease) 0.2s, transform 0.6s var(--ease) 0.2s;
+}
+.opp-slide.active .opp-headline { opacity: 1; transform: none; }
+
+.opp-actions {
+  list-style: none;
+  margin-bottom: 1.6rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.35s, transform 0.5s var(--ease) 0.35s;
+}
+.opp-slide.active .opp-actions { opacity: 1; transform: none; }
+
+.opp-actions li {
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+}
+.opp-actions li:last-child { border-bottom: none; }
+
+.opp-actions li::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+}
+
+.opp-evidence {
+  font-size: 0.68rem;
+  color: var(--text-tertiary);
+  margin-bottom: 0.4rem;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.5s;
+}
+.opp-slide.active .opp-evidence { opacity: 1; }
+
+.opp-linkback {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.6s;
+}
+.opp-slide.active .opp-linkback { opacity: 0.5; }
+
+/* Quote panel (right side) */
+.quote-panel {
+  position: absolute;
+  right: clamp(3rem, 7vw, 7rem);
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(240px, 24vw, 360px);
+}
+.inline-quote {
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.5s, transform 0.5s var(--ease) 0.5s;
+}
+.slide.active .inline-quote { opacity: 1; transform: none; }
+.slide.active .inline-quote:nth-child(2) { transition-delay: 0.65s; }
+
+.inline-quote:first-child::before {
+  content: '\201C';
+  display: block;
+  font-family: var(--serif);
+  font-size: 3.5rem;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.25;
+  margin-bottom: -0.4rem;
+}
+.inline-quote-text {
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--text);
+}
+.inline-quote-cite {
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  color: var(--text-tertiary);
+  margin-top: 0.35rem;
+}
+
+/* ============================================
+   HERO-STAT DETAIL SLIDE (rhythm breaker)
+   ============================================ */
+.opp-hero-slide .slide-inner {
+  max-width: 720px;
+}
+
+.opp-hero-stat-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.8rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s var(--ease) 0.15s, transform 0.6s var(--ease) 0.15s;
+}
+.opp-hero-slide.active .opp-hero-stat-row { opacity: 1; transform: none; }
+
+.opp-hero-num {
+  font-family: var(--serif);
+  font-size: clamp(4rem, 9vw, 7rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--teal);
+}
+
+.opp-hero-context {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.opp-hero-context-main {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text);
+}
+.opp-hero-context-sub {
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  display: flex;
+  gap: 1rem;
+}
+
+.opp-hero-actions {
+  list-style: none;
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.3s, transform 0.5s var(--ease) 0.3s;
+}
+.opp-hero-slide.active .opp-hero-actions { opacity: 1; transform: none; }
+
+.opp-hero-actions li {
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+}
+.opp-hero-actions li:last-child { border-bottom: none; }
+.opp-hero-actions li::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+}
+
+.opp-hero-evidence {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--teal);
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.5s;
+}
+.opp-hero-slide.active .opp-hero-evidence { opacity: 0.5; }
+
+/* ============================================
+   OVERVIEW GRID
+   ============================================ */
+.overview-slide {
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.overview-slide .slide-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  text-align: center;
+}
+.overview-title {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.1s, transform 0.5s var(--ease) 0.1s;
+}
+.overview-slide.active .overview-title { opacity: 1; transform: none; }
+
+.overview-sub {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.25s;
+}
+.overview-slide.active .overview-sub { opacity: 1; }
+
+.opp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: left;
+  justify-items: stretch;
+}
+.opp-grid .opp-card:nth-child(4),
+.opp-grid .opp-card:nth-child(5) {
+  grid-column: auto;
+}
+@supports (display: grid) {
+  .opp-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .opp-grid .opp-card:nth-child(1) { grid-column: 1 / 3; }
+  .opp-grid .opp-card:nth-child(2) { grid-column: 3 / 5; }
+  .opp-grid .opp-card:nth-child(3) { grid-column: 5 / 7; }
+  .opp-grid .opp-card:nth-child(4) { grid-column: 2 / 4; }
+  .opp-grid .opp-card:nth-child(5) { grid-column: 4 / 6; }
+}
+.opp-card {
+  padding: 1.4rem;
+  border-radius: 6px;
+  border-top: 3px solid var(--accent);
+  background: #F0EDE4;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.overview-slide.active .opp-card { opacity: 1; transform: none; }
+.overview-slide.active .opp-card:nth-child(1) { transition-delay: 0.2s; }
+.overview-slide.active .opp-card:nth-child(2) { transition-delay: 0.3s; }
+.overview-slide.active .opp-card:nth-child(3) { transition-delay: 0.4s; }
+.overview-slide.active .opp-card:nth-child(4) { transition-delay: 0.5s; }
+.overview-slide.active .opp-card:nth-child(5) { transition-delay: 0.6s; }
+
+.opp-priority {
+  font-family: var(--sans);
+  font-size: 0.52rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+.opp-priority.critical { background: #F3DDD6; color: var(--pumpkin); }
+.opp-priority.high { background: #DDE8F3; color: var(--blueberry); }
+.opp-priority.medium { background: #F0ECDA; color: #9E8A2D; }
+
+.opp-card-num {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.opp-card-title {
+  font-family: var(--serif);
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.opp-card-desc {
+  font-size: 0.68rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   CLOSING SLIDE
+   ============================================ */
+.closing-slide {
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.closing-slide .slide-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.closing-headline {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s var(--ease) 0.15s, transform 0.6s var(--ease) 0.15s;
+}
+.closing-slide.active .closing-headline { opacity: 1; transform: none; }
+
+.closing-list {
+  list-style: none;
+  text-align: left;
+  max-width: 420px;
+  margin: 0 auto 2.5rem;
+  counter-reset: closing;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.3s, transform 0.5s var(--ease) 0.3s;
+}
+.closing-slide.active .closing-list { opacity: 1; transform: none; }
+
+.closing-list li {
+  counter-increment: closing;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.closing-list li::before {
+  content: counter(closing, decimal-leading-zero);
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  min-width: 1.8rem;
+}
+.closing-list li:last-child { border-bottom: none; }
+
+.closing-priority {
+  font-family: var(--sans);
+  font-size: 0.48rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.closing-priority.critical { background: #F3DDD6; color: var(--pumpkin); }
+.closing-priority.high { background: #DDE8F3; color: var(--blueberry); }
+.closing-priority.medium { background: #F0ECDA; color: #9E8A2D; }
+
+.closing-prompt {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-style: italic;
+  color: var(--accent);
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.5s;
+}
+.closing-slide.active .closing-prompt { opacity: 1; }
+
+/* ============================================
+   PROGRESS & NAV
+   ============================================ */
+.progress-bar {
+  position: fixed; bottom: 0; left: 0;
+  height: 3px; background: var(--accent); z-index: 300;
+  width: 0; transition: width 0.35s var(--ease);
+}
+.slide-counter {
+  position: fixed; bottom: 10px; right: 16px;
+  font-family: var(--sans); font-size: 0.6rem;
+  color: var(--text-tertiary); z-index: 300;
+  font-variant-numeric: tabular-nums;
+}
+.nav-hint {
+  position: fixed; bottom: 10px; left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--sans); font-size: 0.55rem;
+  color: var(--text-tertiary); letter-spacing: 0.06em;
+  z-index: 300;
+  transition: opacity 0.5s var(--ease);
+}
+.nav-hint.hidden { opacity: 0; pointer-events: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+@media (max-width: 768px) {
+  .slide { padding-left: 1.8rem; }
+  .chapter-bar { gap: 0.5rem; padding: 0 1rem; }
+  .chapter-bar-item { font-size: 0.5rem; }
+  .quote-panel { position: static; transform: none; width: 100%; margin-top: 1.5rem; }
+  .opp-grid, .opp-grid { grid-template-columns: 1fr !important; }
+  .opp-grid .opp-card { grid-column: auto !important; }
+}
+</style>
+</head>
+<body>
+
+<nav class="chapter-bar" id="chapterBar" aria-label="Opportunity navigation">
+  <span class="chapter-bar-item" data-chapter="1">Free Delivery</span>
+  <span class="chapter-bar-item" data-chapter="2">Beyond Food</span>
+  <span class="chapter-bar-item" data-chapter="3">Group Moment</span>
+  <span class="chapter-bar-item" data-chapter="4">Student Calendar</span>
+  <span class="chapter-bar-item" data-chapter="5">Onboarding</span>
+</nav>
+
+<!-- SECTION DIVIDER -->
+<div class="slide section-divider active">
+  <div class="slide-inner">
+    <p class="section-divider-part">Part Five</p>
+    <h1 class="section-divider-title">Where to go from&nbsp;here</h1>
+    <p class="section-divider-sub">Five opportunities shaped by what students told us — each one tied directly to a research finding.</p>
+    <div class="section-divider-rule"></div>
+  </div>
+</div>
+
+<!-- S1: OVERVIEW -->
+<div class="slide overview-slide">
+  <div class="slide-inner">
+    <h2 class="overview-title">Five opportunities</h2>
+    <p class="overview-sub">Each one grounded in the research. Each one actionable.</p>
+    <div class="opp-grid">
+      <div class="opp-card" style="border-top-color:var(--teal)">
+        <span class="opp-priority critical">Critical</span>
+        <div class="opp-card-num">01</div>
+        <div class="opp-card-title">Make "free delivery" feel&nbsp;free</div>
+        <div class="opp-card-desc">Service fees and minimum orders undermine the core promise.</div>
+      </div>
+      <div class="opp-card" style="border-top-color:var(--blueberry)">
+        <span class="opp-priority critical">Critical</span>
+        <div class="opp-card-num">02</div>
+        <div class="opp-card-title">Build value beyond&nbsp;food</div>
+        <div class="opp-card-desc">Uber One's value extends beyond food. Plus needs its own version of that anchor.</div>
+      </div>
+      <div class="opp-card" style="border-top-color:var(--pumpkin)">
+        <span class="opp-priority high">High</span>
+        <div class="opp-card-num">03</div>
+        <div class="opp-card-title">Win the group&nbsp;moment</div>
+        <div class="opp-card-desc">Delivery is a social decision. The product should reflect that.</div>
+      </div>
+      <div class="opp-card" style="border-top-color:var(--mustard)">
+        <span class="opp-priority medium">Medium</span>
+        <div class="opp-card-num">04</div>
+        <div class="opp-card-title">Flex with the student&nbsp;calendar</div>
+        <div class="opp-card-desc">Students disengage over holidays and the habit resets. Graduation is the real churn moment.</div>
+      </div>
+      <div class="opp-card" style="border-top-color:var(--apple)">
+        <span class="opp-priority high">High</span>
+        <div class="opp-card-num">05</div>
+        <div class="opp-card-title">Activate Silver&nbsp;subscribers</div>
+        <div class="opp-card-desc">Students who got Plus through Prime don't know what they have.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S2: OPPORTUNITY 1 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Opportunity 1</p>
+    <h2 class="chapter-headline">Make "free delivery" genuinely&nbsp;free</h2>
+    <p class="chapter-sub">Free delivery is the foundation of the Plus proposition. But service fees and minimum order thresholds are diluting the promise before students feel the value.</p>
+  </div>
+</div>
+
+<!-- S3: OPPORTUNITY 1 DETAIL (hero stat layout) -->
+<div class="slide opp-hero-slide">
+  <div class="slide-inner">
+    <span class="opp-priority critical">Critical</span>
+    <div class="opp-hero-stat-row">
+      <div class="opp-hero-num">47</div>
+      <div class="opp-hero-context">
+        <div class="opp-hero-context-main">mentions of free delivery — more than every other benefit combined</div>
+        <div class="opp-hero-context-sub">
+          <span>27 service fee complaints</span>
+          <span>15 minimum order frustrations</span>
+        </div>
+      </div>
+    </div>
+    <ul class="opp-hero-actions">
+      <li>Remove or absorb service fees for Plus subscribers so the saving is felt immediately at checkout</li>
+      <li>Lower or remove minimum order thresholds — solo student orders (£8–12) currently fall below the £15–25 floor</li>
+      <li>Lead all Plus messaging with "free delivery on every order" as the singular, unambiguous hero benefit</li>
+    </ul>
+    <p class="opp-hero-evidence">Experience Gaps</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"To me, the best thing is that it scratches off the delivery fees. Most of the time it's above £2. So you're saving £2 every&nbsp;time."</p>
+        <p class="inline-quote-cite">— Mrugesh</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S4: OPPORTUNITY 2 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Opportunity 2</p>
+    <h2 class="chapter-headline">Build value beyond&nbsp;food</h2>
+    <p class="chapter-sub">Uber One's advantage isn't food — it's transport. Plus needs its own version of that anchor to make the subscription feel valuable between orders.</p>
+  </div>
+</div>
+
+<!-- S5: OPPORTUNITY 2 DETAIL -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority critical">Critical</span>
+    <p class="opp-label" style="color: var(--blueberry)">The ecosystem gap</p>
+    <h2 class="opp-headline">Give Plus a reason to exist between delivery&nbsp;orders.</h2>
+    <ul class="opp-actions">
+      <li>Explore strategic partnerships — entertainment, lifestyle, or campus services — that create value outside of food delivery</li>
+      <li>Create a visible "what you've earned" touchpoint — credits, rewards, or perks that remind students the subscription exists between orders</li>
+      <li>Position Plus as part of student life, not just part of ordering — the subscription should feel present even when students aren't hungry</li>
+    </ul>
+    <p class="opp-evidence">35% of Uber One discussants cite transport as the reason they subscribe · Plus currently has no value driver outside food</p>
+    <p class="opp-linkback" style="color:var(--blueberry)">Value Gap</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Uber One also comes with not just food delivery discounts, but also Uber ride discounts. So I think that's why I loved it&nbsp;more."</p>
+        <p class="inline-quote-cite">— Sian</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S6: OPPORTUNITY 3 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Opportunity 3</p>
+    <h2 class="chapter-headline">Win the group&nbsp;moment</h2>
+    <p class="chapter-sub">Delivery isn't an individual decision. It's a flatmate, a group chat, a Friday night negotiation. The product should meet students where the decision actually happens.</p>
+  </div>
+</div>
+
+<!-- S7: OPPORTUNITY 3 DETAIL -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority high">High</span>
+    <p class="opp-label" style="color: var(--pumpkin)">The social opportunity</p>
+    <h2 class="opp-headline">Design for the group, not the&nbsp;individual.</h2>
+    <ul class="opp-actions">
+      <li>Develop collaborative group ordering with shared carts, split payment, and group decision tools</li>
+      <li>Shift student marketing from individual convenience to social enablement — "order together" rather than "order for yourself"</li>
+      <li>Target Thursday–Friday social planning moments when the weekend ordering decision is being made</li>
+    </ul>
+    <p class="opp-evidence">Social influence is the primary delivery trigger · Home cooking drops 17 points from weekday to weekend · Group dynamics drive the majority of ordering decisions</p>
+    <p class="opp-linkback" style="color:var(--pumpkin)">Group Decision · Weekend Collapse</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"It's always a group decision. One person suggests it, and then everyone's like, yeah, let's just get a&nbsp;Deliveroo."</p>
+        <p class="inline-quote-cite">— Evan</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S8: OPPORTUNITY 4 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Opportunity 4</p>
+    <h2 class="chapter-headline">Flex with the student&nbsp;calendar</h2>
+    <p class="chapter-sub">The subscription is free — but attention isn't. Students disengage completely over holidays, and each new term requires re-building the habit. Graduation is the moment when real churn happens.</p>
+  </div>
+</div>
+
+<!-- S9: OPPORTUNITY 4 DETAIL -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority medium">Medium</span>
+    <p class="opp-label" style="color: var(--mustard)">The engagement cycle</p>
+    <h2 class="opp-headline">Keep the habit alive across the academic&nbsp;year.</h2>
+    <ul class="opp-actions">
+      <li>Re-engagement campaigns at the start of each term — the ordering habit resets every time students return from a break</li>
+      <li>Freshers acquisition: the start of university is the peak receptivity window — double down on this as the primary sign-up moment</li>
+      <li>Build a graduation bridge — an introductory paid Plus rate that retains students as they transition to professional life, where the real churn risk lives</li>
+    </ul>
+    <p class="opp-evidence">3–4 non-ordering windows per year · Graduation is the highest churn-risk moment · 9 freshers-related acquisition moments identified</p>
+    <p class="opp-linkback" style="color:var(--mustard)">Student Calendar · Engagement Cycle</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Depending on where I live after… whether I go back home or move to another city… it will really change based on what I'm doing with my life, whether I've got a job or whether I'm still&nbsp;studying."</p>
+        <p class="inline-quote-cite">— Evan · Graduation as inflection point</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S10: OPPORTUNITY 5 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Opportunity 5</p>
+    <h2 class="chapter-headline">Activate Silver&nbsp;subscribers</h2>
+    <p class="chapter-sub">Students who got Plus through Prime are already subscribers. They just don't know what they have — or why it matters.</p>
+  </div>
+</div>
+
+<!-- S11: OPPORTUNITY 5 DETAIL -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority high">High</span>
+    <p class="opp-label" style="color: var(--apple)">The onboarding opportunity</p>
+    <h2 class="opp-headline">Turn passive subscribers into active&nbsp;ones.</h2>
+    <ul class="opp-actions">
+      <li>Create an active onboarding flow for Prime-acquired Silver subscribers — show them what they have and what it saves them</li>
+      <li>Build a savings dashboard that surfaces the value of their subscription after each order</li>
+      <li>Design a clear upgrade path from Silver to paid Plus, timed to when students are seeing the benefits</li>
+    </ul>
+    <p class="opp-evidence">38% of those who discussed Plus/Silver can't explain what it gives them · Prime creates subscribers but not engagement</p>
+    <p class="opp-linkback" style="color:var(--apple)">Experience Gaps · Onboarding</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"I think this must be included with my Prime or something. I don't actually entirely know what that gets&nbsp;me."</p>
+        <p class="inline-quote-cite">— Rory</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S12: CLOSING -->
+<div class="slide closing-slide">
+  <div class="slide-inner">
+    <h2 class="closing-headline">Five opportunities. One&nbsp;question.</h2>
+    <ol class="closing-list">
+      <li><span style="color:var(--teal)">Make "free delivery" feel free</span> <span class="closing-priority critical">Critical</span></li>
+      <li><span style="color:var(--blueberry)">Build value beyond food</span> <span class="closing-priority critical">Critical</span></li>
+      <li><span style="color:var(--pumpkin)">Win the group moment</span> <span class="closing-priority high">High</span></li>
+      <li><span style="color:var(--mustard)">Flex with the student calendar</span> <span class="closing-priority medium">Medium</span></li>
+      <li><span style="color:var(--apple)">Activate Silver subscribers</span> <span class="closing-priority high">High</span></li>
+    </ol>
+    <p class="closing-prompt">Which of these resonates most with what you're seeing?</p>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="progress-bar" id="progress"></div>
+<div class="slide-counter" id="counter"></div>
+<div class="nav-hint" id="navHint">Arrow keys or click to navigate</div>
+
+<script>
+(function() {
+  var slides = Array.from(document.querySelectorAll('.slide'));
+  var total = slides.length;
+  var current = 0;
+  var progressEl = document.getElementById('progress');
+  var counterEl = document.getElementById('counter');
+  var hintEl = document.getElementById('navHint');
+  var chapterBarItems = Array.from(document.querySelectorAll('.chapter-bar-item'));
+
+  var chapterMap = {
+    0:0, 1:0,
+    2:1, 3:1,
+    4:2, 5:2,
+    6:3, 7:3,
+    8:4, 9:4,
+    10:5, 11:5,
+    12:0
+  };
+
+  var chapterBarEl = document.getElementById('chapterBar');
+  function updateChapterBar(idx) {
+    var ch = chapterMap[idx] || 0;
+    chapterBarEl.style.opacity = ch === 0 ? '0' : '1';
+    chapterBarItems.forEach(function(item, i) {
+      var num = i + 1;
+      item.classList.remove('active', 'completed');
+      if (ch === 0) return;
+      if (num < ch) item.classList.add('completed');
+      if (num === ch) item.classList.add('active');
+    });
+  }
+
+  function show(idx) {
+    if (idx < 0 || idx >= total) return;
+    slides[current].classList.remove('active');
+    slides[idx].classList.add('active');
+    current = idx;
+    progressEl.style.width = ((idx + 1) / total * 100) + '%';
+    counterEl.textContent = (idx + 1) + ' / ' + total;
+    updateChapterBar(idx);
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); show(current + 1); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); show(current - 1); }
+    if (e.key === 'Home') { e.preventDefault(); show(0); }
+    if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('button') || e.target.closest('a')) return;
+    var w = window.innerWidth;
+    if (e.clientX > w * 0.6) show(current + 1);
+    else if (e.clientX < w * 0.4) show(current - 1);
+  });
+
+  setTimeout(function() { hintEl.classList.add('hidden'); }, 3500);
+  show(0);
+})();
+</script>
+</body>
+</html>

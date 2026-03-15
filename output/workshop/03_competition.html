@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plus, Uber One & the Subscription Landscape</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,600;0,16..72,700;1,16..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #FAF8F2;
+  --text: #1A1714;
+  --text-secondary: #6B655C;
+  --text-tertiary: #9E978D;
+  --accent: #00857C;
+  --rule: #D6D1C7;
+  --bar-track: #E8E4DB;
+
+  --teal: #00857C;
+  --pumpkin: #D4603A;
+  --blueberry: #5B8EC4;
+  --mustard: #C4A82D;
+  --apple: #5A9E4A;
+
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
+  --duration: 450ms;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: var(--sans);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* ============================================
+   PERSISTENT CHAPTER BAR
+   ============================================ */
+.chapter-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 48px;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 4vw, 3rem);
+  padding: 0 2rem;
+  background: rgba(250, 248, 242, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 200;
+  border-bottom: 1px solid var(--rule);
+}
+.chapter-bar-item {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 400ms var(--ease), border-color 400ms var(--ease), font-size 300ms var(--ease), transform 300ms var(--ease);
+}
+.chapter-bar-item.completed { color: var(--text-secondary); }
+.chapter-bar-item.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  transform: translateY(2px);
+}
+
+/* ============================================
+   SLIDE SYSTEM
+   ============================================ */
+.slide {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 68px 0 0;
+  padding-left: 15vw;
+  padding-right: clamp(2rem, 5vw, 4rem);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration) var(--ease);
+  background: var(--cream);
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+
+.slide-inner {
+  max-width: 640px;
+  width: 100%;
+}
+
+/* ============================================
+   SECTION DIVIDER
+   ============================================ */
+.section-divider {
+  justify-content: center;
+  padding: 0;
+  padding-left: 0;
+  text-align: center;
+}
+.section-divider .slide-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.section-divider-part {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.15s, transform 0.5s var(--ease) 0.15s;
+}
+.section-divider.active .section-divider-part { opacity: 1; transform: none; }
+
+.section-divider-title {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s var(--ease) 0.25s, transform 0.6s var(--ease) 0.25s;
+}
+.section-divider.active .section-divider-title { opacity: 1; transform: none; }
+
+.section-divider-sub {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: 42ch;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.4s, transform 0.5s var(--ease) 0.4s;
+}
+.section-divider.active .section-divider-sub { opacity: 1; transform: none; }
+
+.section-divider-rule {
+  width: 48px;
+  height: 2px;
+  background: var(--accent);
+  margin: 2rem auto 0;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.55s;
+}
+.section-divider.active .section-divider-rule { opacity: 0.5; }
+
+/* ============================================
+   FINDING TITLE SLIDES
+   ============================================ */
+.chapter-slide .slide-inner { max-width: 100%; }
+
+.chapter-counter {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 1.8rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration) var(--ease) 0.15s, transform var(--duration) var(--ease) 0.15s;
+}
+.chapter-slide.active .chapter-counter { opacity: 1; transform: none; }
+
+.chapter-headline {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.chapter-slide.active .chapter-headline { opacity: 1; transform: none; }
+
+.chapter-sub {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+  max-width: 46ch;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.35s, transform var(--duration) var(--ease) 0.35s;
+}
+.chapter-slide.active .chapter-sub { opacity: 1; transform: none; }
+
+/* ============================================
+   HERO STAT SLIDE
+   ============================================ */
+.hero-slide {
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: center;
+}
+.hero-slide .slide-inner {
+  max-width: none;
+  text-align: center;
+}
+.hero-vs {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  max-width: 1100px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.6s var(--ease) 0.2s, transform 0.6s var(--ease) 0.2s;
+}
+.hero-slide.active .hero-vs { opacity: 1; transform: none; }
+
+.hero-num {
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1;
+}
+.hero-num.uber {
+  font-size: clamp(7rem, 14vw, 12rem);
+  color: #34A853;
+}
+.hero-num.deliveroo {
+  font-size: clamp(5rem, 10vw, 8rem);
+  color: var(--teal);
+}
+.hero-num-label {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+  margin-top: 0.6rem;
+}
+.hero-divider {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 6vw, 5rem);
+  color: var(--text-tertiary);
+  opacity: 0.2;
+  font-weight: 300;
+  align-self: center;
+}
+.hero-context {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-top: 2.5rem;
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease) 0.5s;
+}
+.hero-slide.active .hero-context { opacity: 1; }
+
+/* ============================================
+   SPLIT-SCREEN FACE-OFF
+   ============================================ */
+.faceoff-slide {
+  padding: 68px 0 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.faceoff-slide .slide-inner {
+  max-width: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 68px);
+}
+.faceoff-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 4vw, 4rem) clamp(2.5rem, 5vw, 5rem);
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s var(--ease) 0.2s, transform 0.5s var(--ease) 0.2s;
+}
+.faceoff-slide.active .faceoff-panel { opacity: 1; transform: none; }
+.faceoff-slide.active .faceoff-panel:last-child { transition-delay: 0.35s; }
+
+.faceoff-panel.uber { background: var(--cream); border-right: 2px solid #34A853; }
+.faceoff-panel.plus { background: #F3F0E8; }
+
+.faceoff-brand {
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-bottom: 1.5rem;
+}
+.faceoff-panel.uber .faceoff-brand { color: #34A853; }
+.faceoff-panel.plus .faceoff-brand { color: var(--teal); }
+
+.faceoff-stat {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+.faceoff-stat-label {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.faceoff-points { list-style: none; }
+.faceoff-points li {
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.faceoff-points li:last-child { border-bottom: none; }
+.faceoff-points li strong { color: var(--text); font-weight: 600; }
+
+.faceoff-quote {
+  font-family: var(--serif);
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-top: 1.8rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  line-height: 1.55;
+}
+.faceoff-quote-cite {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  margin-top: 0.4rem;
+  font-style: normal;
+}
+
+/* ============================================
+   FINDING SLIDES
+   ============================================ */
+.finding-label {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid currentColor;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration) var(--ease) 0.1s, transform var(--duration) var(--ease) 0.1s;
+}
+.finding-slide.active .finding-label { opacity: 1; transform: none; }
+
+.finding-headline {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.finding-slide.active .finding-headline { opacity: 1; transform: none; }
+
+.finding-body {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 54ch;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.finding-slide.active .finding-body { opacity: 1; transform: none; }
+
+.finding-source {
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease) 0.4s;
+}
+.finding-slide.active .finding-source { opacity: 1; }
+
+/* ============================================
+   QUOTE PANEL (right side of slide)
+   ============================================ */
+.quote-panel {
+  position: absolute;
+  right: clamp(3rem, 7vw, 7rem);
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(240px, 24vw, 360px);
+}
+
+.inline-quote {
+  position: relative;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration) var(--ease) 0.5s, transform var(--duration) var(--ease) 0.5s;
+}
+.finding-slide.active .inline-quote,
+.data-slide.active .inline-quote { opacity: 1; transform: none; }
+
+.inline-quote:first-child::before {
+  content: '\201C';
+  position: absolute;
+  left: -1.6rem;
+  top: -0.8rem;
+  font-family: var(--serif);
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.1;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.inline-quote + .inline-quote {
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  transition-delay: 0.6s;
+}
+
+.inline-quote-text {
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.55;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+.inline-quote-cite {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  margin-top: 0.5rem;
+}
+
+/* ============================================
+   DATA SLIDES
+   ============================================ */
+.data-title {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--rule);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.15s, transform var(--duration) var(--ease) 0.15s;
+}
+.data-slide.active .data-title { opacity: 1; transform: none; }
+
+.bar-section {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.data-slide.active .bar-section { opacity: 1; transform: none; }
+
+.bar-section-label {
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  margin-top: 1.5rem;
+}
+.bar-section-label:first-child { margin-top: 0; }
+.bar-row { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.6rem; }
+.bar-name { font-size: 0.72rem; color: var(--text-secondary); width: 130px; text-align: right; flex-shrink: 0; }
+.bar-track { flex: 1; height: 28px; background: var(--bar-track); border-radius: 2px; position: relative; }
+.bar-fill {
+  height: 100%; border-radius: 2px;
+  width: 0; transition: width 0.75s var(--ease) 0.4s;
+  position: absolute; left: 0; top: 0;
+}
+.bar-label {
+  position: absolute; left: 0; top: 0; height: 100%;
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0 0.6rem; white-space: nowrap;
+  font-size: 0.68rem; font-variant-numeric: tabular-nums;
+}
+.bar-label .bar-mentions {
+  font-weight: 700; color: var(--text);
+}
+.bar-label .bar-participants {
+  font-weight: 400; color: var(--text-secondary); font-size: 0.62rem;
+}
+.data-slide.active .bar-fill { width: var(--w); }
+
+.data-source { font-size: 0.6rem; color: var(--text-tertiary); margin-top: 1.5rem; opacity: 0; transition: opacity var(--duration) var(--ease) 0.8s; }
+.data-slide.active .data-source { opacity: 1; }
+
+/* ============================================
+   PAIN POINT HERO SLIDES
+   ============================================ */
+.pain-slide {
+  padding-left: 15vw;
+}
+.pain-slide .slide-inner {
+  max-width: 700px;
+}
+.pain-severity {
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 3px;
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity var(--duration) var(--ease) 0.1s, transform var(--duration) var(--ease) 0.1s;
+}
+.pain-slide.active .pain-severity { opacity: 1; transform: none; }
+.pain-severity.critical { background: rgba(212, 96, 58, 0.12); color: var(--pumpkin); }
+.pain-severity.high { background: rgba(196, 168, 45, 0.12); color: var(--mustard); }
+
+.pain-hero-num {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.pain-slide.active .pain-hero-num { opacity: 1; transform: none; }
+
+.pain-hero-label {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.pain-slide.active .pain-hero-label { opacity: 1; transform: none; }
+
+.pain-body {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 50ch;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration) var(--ease) 0.4s, transform var(--duration) var(--ease) 0.4s;
+}
+.pain-slide.active .pain-body { opacity: 1; transform: none; }
+
+.pain-source {
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease) 0.5s;
+}
+.pain-slide.active .pain-source { opacity: 1; }
+
+/* ============================================
+   BRIDGE / NAV
+   ============================================ */
+.bridge-headline {
+  font-family: var(--serif); font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 700; line-height: 1.2; letter-spacing: -0.02em;
+  opacity: 0; transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.bridge-slide.active .bridge-headline { opacity: 1; transform: none; }
+.bridge-sub { font-size: 0.82rem; color: var(--text-tertiary); margin-top: 1.2rem; opacity: 0; transition: opacity var(--duration) var(--ease) 0.4s; }
+.bridge-slide.active .bridge-sub { opacity: 1; }
+
+.progress-bar { position: fixed; bottom: 0; left: 0; height: 1px; background: var(--accent); z-index: 100; transition: width var(--duration) var(--ease); }
+.slide-counter { position: fixed; bottom: 1rem; right: 1.5rem; font-size: 0.55rem; font-weight: 500; color: var(--text-tertiary); z-index: 100; letter-spacing: 0.06em; font-variant-numeric: tabular-nums; }
+.nav-hint { position: fixed; bottom: 2.8rem; left: 50%; transform: translateX(-50%); font-size: 0.58rem; color: var(--text-tertiary); z-index: 100; transition: opacity 0.8s; opacity: 0.6; }
+.nav-hint.hidden { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+@media (max-width: 768px) {
+  .slide { padding-left: 2rem; padding-right: 2rem; }
+  .chapter-bar { gap: 0.5rem; padding: 0 1rem; }
+  .chapter-bar-item { font-size: 0.5rem; }
+  .quote-panel { position: static; transform: none; width: 100%; margin-top: 1.5rem; }
+  .faceoff-slide .slide-inner { grid-template-columns: 1fr; }
+  .hero-num.winner { font-size: 5rem; }
+  .hero-num.loser { font-size: 3.5rem; }
+}
+</style>
+</head>
+<body>
+
+<nav class="chapter-bar" id="chapterBar" aria-label="Finding navigation">
+  <span class="chapter-bar-item" data-chapter="1">Value Gap</span>
+  <span class="chapter-bar-item" data-chapter="2">Free Delivery</span>
+  <span class="chapter-bar-item" data-chapter="3">Experience Gaps</span>
+  <span class="chapter-bar-item" data-chapter="4">Price + Friction</span>
+</nav>
+
+<!-- SECTION DIVIDER -->
+<div class="slide section-divider active">
+  <div class="slide-inner">
+    <p class="section-divider-part">Part Three</p>
+    <h1 class="section-divider-title">Plus &amp; the subscription&nbsp;landscape</h1>
+    <p class="section-divider-sub">How students perceive Deliveroo Plus, Uber One, and the value of a delivery subscription.</p>
+    <div class="section-divider-rule"></div>
+  </div>
+</div>
+
+<!-- S1: FINDING 1 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Finding 1</p>
+    <h2 class="chapter-headline">Uber One's value is felt beyond food. There's an opportunity for Plus to close that&nbsp;gap.</h2>
+    <p class="chapter-sub">Both platforms have comparable trial rates. But Uber One benefits from a multi-service ecosystem that makes its value more immediately obvious to students.</p>
+  </div>
+</div>
+
+<!-- S1: HERO STAT -->
+<div class="slide hero-slide">
+  <div class="slide-inner">
+    <div class="hero-vs">
+      <div>
+        <div class="hero-num uber" style="font-size:clamp(3rem,6vw,5rem)">Taxis + trains + food</div>
+        <div class="hero-num-label">Why Uber One feels worth it</div>
+      </div>
+      <div class="hero-divider">vs</div>
+      <div>
+        <div class="hero-num deliveroo" style="font-size:clamp(2.5rem,5vw,4rem)">"I don't actually know what that gets&nbsp;me"</div>
+        <div class="hero-num-label">Why Plus's value isn't landing yet</div>
+      </div>
+    </div>
+    <p class="hero-context">Both platforms have comparable trial rates across the sample · The gap is in perceived value, not penetration</p>
+  </div>
+</div>
+
+<!-- S2: SPLIT-SCREEN FACE-OFF -->
+<div class="slide faceoff-slide">
+  <div class="slide-inner">
+    <div class="faceoff-panel uber">
+      <p class="faceoff-brand">Uber One</p>
+      <div class="faceoff-stat" style="font-size:clamp(1.6rem,3vw,2.2rem);color:#34A853">Value is self-evident</div>
+      <div class="faceoff-stat-label">Students already use Uber for taxis — the food benefit is a bonus</div>
+      <ul class="faceoff-points">
+        <li><strong>Taxi, train, and flight</strong> integration means the subscription pays for itself before they even think about&nbsp;food</li>
+        <li><strong>Cross-service cashback</strong> accumulates across everything — food, transport, travel</li>
+        <li><strong>Single "everything app"</strong> makes Uber the default for multiple parts of student&nbsp;life</li>
+        <li><strong>35%</strong> of those who discussed Uber One explicitly cite transport as the reason they&nbsp;subscribe</li>
+      </ul>
+      <p class="faceoff-quote">"Uber One also comes with not just food delivery discounts, but also like Uber ride discounts. So I think that's why I loved it&nbsp;more."<br><span class="faceoff-quote-cite">— Sian</span></p>
+    </div>
+    <div class="faceoff-panel plus">
+      <p class="faceoff-brand">Deliveroo Plus / Silver</p>
+      <div class="faceoff-stat" style="font-size:clamp(1.6rem,3vw,2.2rem);color:var(--teal)">Value isn't landing yet</div>
+      <div class="faceoff-stat-label">Students either don't know they have it, or can't explain what it gives them</div>
+      <ul class="faceoff-points">
+        <li><strong>Restaurant quality</strong> and variety perception is a genuine strength — but it's not tied to the&nbsp;subscription</li>
+        <li><strong>Prime bundle</strong> makes it "free" — but creates passive subscribers who never learn the&nbsp;benefits</li>
+        <li><strong>Food-only value</strong> — no ecosystem, no transport, no compounding&nbsp;benefits</li>
+        <li><strong>38%</strong> of those who discussed Plus/Silver can't explain what it actually gives&nbsp;them</li>
+      </ul>
+      <p class="faceoff-quote">"I think this must be included with my Prime or something. I don't actually entirely know what that gets&nbsp;me."<br><span class="faceoff-quote-cite">— Rory</span></p>
+    </div>
+  </div>
+</div>
+
+<!-- S3: FINDING 1 INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--pumpkin)">The structural disadvantage</p>
+    <h2 class="finding-headline">Uber One's transport integration gives it a head start. Plus needs to find its own version of that&nbsp;anchor.</h2>
+    <p class="finding-body">35% of those who discussed Uber One explicitly cite transport integration as the reason they subscribe. The food delivery is almost a side benefit — they're already paying for the taxi discounts, so the free delivery feels like a bonus. Plus currently relies on food delivery alone, which means its value is only felt at the moment of ordering. There's also an onboarding gap: students who got Silver through Prime haven't been shown what it offers, so they're subscribers who don't yet see the benefits.</p>
+    <p class="finding-source">35% of Uber One discussants cite transport value · 38% of Plus/Silver discussants confused about benefits · Both platforms have comparable trial rates</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"The reason I now use Uber for essentially everything is because they have integrated with plane tickets, train tickets, taxis… and you get credits back on all of&nbsp;it."</p>
+        <p class="inline-quote-cite">— Rory · Also holds Deliveroo Silver via Prime</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S4: FINDING 2 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Finding 2</p>
+    <h2 class="chapter-headline">Free delivery is the benefit students care about&nbsp;most</h2>
+    <p class="chapter-sub">We asked students what they value in a subscription. One benefit consistently came out on top — but it's not the only one that registers.</p>
+  </div>
+</div>
+
+<!-- S5: VALUE HIERARCHY DATA -->
+<div class="slide data-slide">
+  <div class="slide-inner">
+    <h2 class="data-title">What students value in a subscription</h2>
+    <div class="bar-section">
+      <p class="bar-section-label">Mentions across 35 participants</p>
+      <div class="bar-row"><span class="bar-name">Free delivery</span><div class="bar-track"><div class="bar-fill" style="--w:88%;background:var(--teal)"></div><div class="bar-label"><span class="bar-mentions">47 mentions</span><span class="bar-participants">21 participants</span></div></div></div>
+      <div class="bar-row"><span class="bar-name">Promotions</span><div class="bar-track"><div class="bar-fill" style="--w:34%;background:var(--blueberry)"></div><div class="bar-label"><span class="bar-mentions">18 mentions</span><span class="bar-participants">12 participants</span></div></div></div>
+      <div class="bar-row"><span class="bar-name">Cashback</span><div class="bar-track"><div class="bar-fill" style="--w:15%;background:var(--blueberry)"></div><div class="bar-label"><span class="bar-mentions">8 mentions</span><span class="bar-participants">6 participants</span></div></div></div>
+      <div class="bar-row"><span class="bar-name">Retail partners</span><div class="bar-track"><div class="bar-fill" style="--w:6%;background:var(--mustard)"></div><div class="bar-label"><span class="bar-mentions">3 mentions</span></div></div></div>
+      <div class="bar-row"><span class="bar-name">Grocery offers</span><div class="bar-track"><div class="bar-fill" style="--w:4%;background:var(--mustard)"></div><div class="bar-label"><span class="bar-mentions">2 mentions</span></div></div></div>
+    </div>
+    <p class="data-source">Value driver hierarchy ranked by mention frequency · 34 of 35 discussed subscriptions</p>
+  </div>
+</div>
+
+<!-- S6: FINDING 2 INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--teal)">What this means for Plus</p>
+    <h2 class="finding-headline">Free delivery is the foundation — but promotions and cashback are meaningful&nbsp;reinforcements.</h2>
+    <p class="finding-body">Free delivery is the clear front-runner: more than twice the mentions of any other benefit, and cited by 21 of 35 participants. But promotions (12 participants) and cashback (6 participants) do register — they add to the perceived value of a subscription. The gap is at the bottom: retail partnerships and grocery offers barely exist in students' awareness, suggesting those benefits aren't landing yet.</p>
+    <p class="finding-source">64% of sample mentioned free delivery as primary driver</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"To me, the best thing is that it scratches off the delivery fees. Most of the time it's above £2 for most restaurants. So you're saving £2 every&nbsp;time."</p>
+        <p class="inline-quote-cite">— Mrugesh · Uber One subscriber</p>
+      </div>
+      <div class="inline-quote">
+        <p class="inline-quote-text">"I'm quite conscious at the moment… I'm trying to save money on subscriptions because they just leave my account so&nbsp;easily."</p>
+        <p class="inline-quote-cite">— James · Subscription fatigue is real</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S7: FINDING 3 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Finding 3</p>
+    <h2 class="chapter-headline">There's friction between the promise and the&nbsp;experience</h2>
+    <p class="chapter-sub">Students love the idea of free delivery — but service fees, minimum order thresholds, and benefit confusion are getting in the way.</p>
+  </div>
+</div>
+
+<!-- S8: PAIN 1 — SERVICE FEES -->
+<div class="slide pain-slide">
+  <div class="slide-inner">
+    <span class="pain-severity critical">Critical</span>
+    <div class="pain-hero-num">31%</div>
+    <div class="pain-hero-label">of participants say service fees undermine "free delivery"</div>
+    <p class="pain-body">When "free delivery" is paired with visible service fees, the net saving feels smaller than expected. 27 mentions across 11 participants — this is the highest-frequency friction point in the Plus experience. Closing this gap would make the value of Plus immediately tangible at checkout.</p>
+    <p class="pain-source">27 mentions, 11 participants · Service fee erosion</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"They say free delivery and reduced service fees… but sometimes even the reduced service fee is still quite a&nbsp;lot."</p>
+        <p class="inline-quote-cite">— Rory</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S9: PAIN 2 — MINIMUM ORDER -->
+<div class="slide pain-slide">
+  <div class="slide-inner">
+    <span class="pain-severity high">High</span>
+    <div class="pain-hero-num">£8–12</div>
+    <div class="pain-hero-label">A typical solo student order — but Plus kicks in at&nbsp;£15–25</div>
+    <p class="pain-body">Plus benefits are gated behind minimum order amounts that exceed typical solo student orders. This makes Plus feel irrelevant for the most common ordering occasion. 15 mentions across 8 participants. The subscription only works when students pool orders — which means the value is tied to social context, not individual use.</p>
+    <p class="pain-source">15 mentions, 8 participants · Minimum order threshold</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"There's a lot of restrictions with like you need to order at least £25 and it's very difficult to order over £25 if you're ordering for&nbsp;yourself."</p>
+        <p class="inline-quote-cite">— Jenna</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S10: PAIN 3 — CONFUSION + FATIGUE -->
+<div class="slide pain-slide">
+  <div class="slide-inner">
+    <span class="pain-severity high">High</span>
+    <div class="pain-hero-num">15%</div>
+    <div class="pain-hero-label">of participants aren't sure what their Deliveroo subscription includes</div>
+    <p class="pain-body">Students who acquired Silver through Prime haven't been introduced to what it offers. There's an onboarding opportunity here: these are already subscribers — they just need to understand and experience the benefits. Meanwhile, 18% are reviewing their subscriptions as part of wider budget decisions, which makes clear, upfront value communication even more important.</p>
+    <p class="pain-source">8 benefit confusion mentions · 10 subscription fatigue mentions</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Deliveroo Plus, I don't really know about, to be&nbsp;honest."</p>
+        <p class="inline-quote-cite">— Katie</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S11: FINDING 4 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Finding 4</p>
+    <h2 class="chapter-headline">Price leads, but it's not the whole&nbsp;story</h2>
+    <p class="chapter-sub">Students are price-sensitive — but restaurant availability, habit, and switching effort quietly shape which app they actually open.</p>
+  </div>
+</div>
+
+<!-- S12: FINDING 4 INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--blueberry)">Price + friction</p>
+    <h2 class="finding-headline">Price gets the comparison, but convenience often wins the&nbsp;order.</h2>
+    <p class="finding-body">Students do compare prices — but the cheapest option doesn't always win. Small differences (under £2–3) rarely trigger a switch: the effort of rebuilding a cart on another app outweighs the saving. Restaurant availability is a gatekeeper — if a restaurant is only on one app, price comparison doesn't even happen. And for many students, the app they "already have open" is the one that gets the order. Nine participants hold subscriptions to multiple platforms, but default behaviour and habit still drive most individual orders.</p>
+    <p class="finding-source">12+ restaurant-exclusivity mentions · 8+ price-threshold mentions · 14+ habit/inertia mentions across 35 participants</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"If it's only €2 of a difference, it would be whichever app I come across first. I probably wouldn't be searching for an&nbsp;alternative."</p>
+        <p class="inline-quote-cite">— Lee · Switching threshold</p>
+      </div>
+      <div class="inline-quote">
+        <p class="inline-quote-text">"I've been using Deliveroo since before uni — that's kind of what I'm used to just using to order food in&nbsp;general."</p>
+        <p class="inline-quote-cite">— Salma · Habit over price</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S13: FINDING 4 CHURN -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--blueberry)">The engagement gap</p>
+    <h2 class="finding-headline">Students go dark over the holidays — and re-engaging them each term is a fresh&nbsp;challenge.</h2>
+    <p class="finding-body">The student subscription is free, so the risk isn't cancellation — it's disengagement. Christmas, Easter, and summer breaks are dead zones where students go home and stop ordering entirely. Each time they return to university, the ordering habit needs to be rebuilt. The real churn risk comes at graduation, when the free subscription ends and students face a decision about whether Plus is worth paying for.</p>
+    <p class="finding-source">3–4 non-ordering windows per year · Graduation is the highest churn-risk moment</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"I sort of bounce between all three depending on what promotions and offers are on. So I don't think I see myself ever getting a subscription for any of them just because I get good enough deals from using all&nbsp;three."</p>
+        <p class="inline-quote-cite">— Joshua W</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S14: BRIDGE -->
+<div class="slide bridge-slide">
+  <div class="slide-inner">
+    <h2 class="bridge-headline">The landscape is clear. The barriers are real. So what do we&nbsp;do?</h2>
+    <p class="bridge-sub">Next: Recommendations for Deliveroo Plus →</p>
+  </div>
+</div>
+
+<div class="progress-bar" id="progress"></div>
+<div class="slide-counter" id="counter"></div>
+<div class="nav-hint" id="navHint">Arrow keys or click to navigate</div>
+
+<script>
+(function() {
+  var slides = Array.from(document.querySelectorAll('.slide'));
+  var total = slides.length;
+  var current = 0;
+  var progressEl = document.getElementById('progress');
+  var counterEl = document.getElementById('counter');
+  var hintEl = document.getElementById('navHint');
+  var chapterBarItems = Array.from(document.querySelectorAll('.chapter-bar-item'));
+
+  var chapterMap = {
+    0:0,
+    1:1, 2:1, 3:1, 4:1,
+    5:2, 6:2, 7:2,
+    8:3, 9:3, 10:3, 11:3,
+    12:4, 13:4, 14:4,
+    15:0
+  };
+
+  var chapterBarEl = document.getElementById('chapterBar');
+  function updateChapterBar(idx) {
+    var ch = chapterMap[idx] || 0;
+    chapterBarEl.style.opacity = ch === 0 ? '0' : '1';
+    chapterBarItems.forEach(function(item, i) {
+      var num = i + 1;
+      item.classList.remove('active', 'completed');
+      if (ch === 0) return;
+      if (num < ch) item.classList.add('completed');
+      if (num === ch) item.classList.add('active');
+    });
+  }
+
+  function show(idx) {
+    if (idx < 0 || idx >= total) return;
+    slides[current].classList.remove('active');
+    slides[idx].querySelectorAll('.bar-fill').forEach(function(b) { b.style.width = '0'; });
+    slides[idx].classList.add('active');
+    current = idx;
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        slides[idx].querySelectorAll('.bar-fill').forEach(function(b) { b.style.width = ''; });
+      });
+    });
+    progressEl.style.width = ((idx + 1) / total * 100) + '%';
+    counterEl.textContent = (idx + 1) + ' / ' + total;
+    updateChapterBar(idx);
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); show(current + 1); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); show(current - 1); }
+    if (e.key === 'Home') { e.preventDefault(); show(0); }
+    if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('button') || e.target.closest('a')) return;
+    var w = window.innerWidth;
+    if (e.clientX > w * 0.6) show(current + 1);
+    else if (e.clientX < w * 0.4) show(current - 1);
+  });
+
+  setTimeout(function() { hintEl.classList.add('hidden'); }, 3500);
+  show(0);
+})();
+</script>
+</body>
+</html>

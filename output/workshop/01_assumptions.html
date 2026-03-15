@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Do You Think You Know?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,600;0,16..72,700;1,16..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #FAF8F2;
+  --cream-raised: #F0EDE4;
+  --cream-reveal: #EBE8E0;
+  --text: #1A1714;
+  --text-secondary: #6B655C;
+  --text-tertiary: #9E978D;
+  --accent: #00857C;
+  --rule: #D6D1C7;
+
+  --teal: #00857C;
+  --pumpkin: #D4603A;
+  --mustard: #C4A82D;
+  --apple: #5A9E4A;
+
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+
+  --ease-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: var(--sans);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* ============================================
+   SLIDE SYSTEM
+   ============================================ */
+.slide {
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.55s var(--ease-quart);
+  background: var(--cream);
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+
+/* ============================================
+   FULL-WIDTH SLIDES (title, context, framing, transition)
+   ============================================ */
+.full-slide {
+  display: flex;
+  align-items: center;
+  padding: 0 clamp(3rem, 8vw, 9rem);
+}
+
+.full-inner {
+  max-width: 720px;
+  width: 100%;
+}
+
+/* --- Title --- */
+.title-overline {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease-quart) 0.2s, transform 0.5s var(--ease-quart) 0.2s;
+}
+.slide.active .title-overline { opacity: 1; transform: none; }
+
+.title-headline {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1.0;
+  letter-spacing: -0.04em;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s var(--ease-quint) 0.3s, transform 0.6s var(--ease-quint) 0.3s;
+}
+.slide.active .title-headline { opacity: 1; transform: none; }
+
+.title-sub {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 42ch;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease-quart) 0.45s, transform 0.5s var(--ease-quart) 0.45s;
+}
+.slide.active .title-sub { opacity: 1; transform: none; }
+
+.method-row {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease-quart) 0.6s, transform 0.5s var(--ease-quart) 0.6s;
+}
+.slide.active .method-row { opacity: 1; transform: none; }
+
+.method-item { display: flex; flex-direction: column; gap: 0.2rem; }
+.method-num {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.method-label {
+  font-size: 0.68rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+/* --- Context --- */
+.context-lead {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 3.5rem;
+  max-width: 18ch;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s var(--ease-quint) 0.2s, transform 0.5s var(--ease-quint) 0.2s;
+}
+.slide.active .context-lead { opacity: 1; transform: none; }
+
+.context-stats {
+  display: flex;
+  gap: 4rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s var(--ease-quart) 0.4s, transform 0.5s var(--ease-quart) 0.4s;
+}
+.slide.active .context-stats { opacity: 1; transform: none; }
+
+.context-stat { border-left: 2px solid var(--accent); padding-left: 1.2rem; }
+.context-stat-num {
+  font-family: var(--serif);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+.context-stat-desc {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  max-width: 16ch;
+}
+
+/* --- Framing --- */
+.framing-headline {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s var(--ease-quint) 0.2s, transform 0.5s var(--ease-quint) 0.2s;
+}
+.slide.active .framing-headline { opacity: 1; transform: none; }
+
+.framing-instruction {
+  font-size: 0.88rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.4s var(--ease-quart) 0.4s, transform 0.4s var(--ease-quart) 0.4s;
+}
+.slide.active .framing-instruction { opacity: 1; transform: none; }
+
+/* --- Transition --- */
+.transition-headline {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s var(--ease-quint) 0.2s, transform 0.5s var(--ease-quint) 0.2s;
+}
+.slide.active .transition-headline { opacity: 1; transform: none; }
+
+.transition-arrow {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.5s var(--ease-quart) 0.45s, transform 0.5s var(--ease-quart) 0.45s;
+}
+.slide.active .transition-arrow { opacity: 1; transform: none; }
+
+/* ============================================
+   SPLIT-SCREEN SLIDES (assumption + reveal)
+   ============================================ */
+.split-slide {
+  display: grid;
+  grid-template-columns: 52% 48%;
+}
+
+.split-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem clamp(2rem, 4vw, 4rem) 3rem clamp(3rem, 8vw, 9rem);
+  background: var(--cream);
+}
+
+.split-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem clamp(2rem, 5vw, 5rem);
+  position: relative;
+  overflow: hidden;
+}
+
+/* --- Assumption: right panel shows big number --- */
+.assumption-slide .split-right {
+  background: var(--cream-raised);
+}
+
+/* --- Reveal: right panel shows findings --- */
+.reveal-slide .split-right {
+  background: var(--cream-reveal);
+  border-left: 1px solid var(--rule);
+}
+
+/* --- Left panel content (shared between assumption + reveal) --- */
+.split-counter {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.4s var(--ease-quart) 0.15s, transform 0.4s var(--ease-quart) 0.15s;
+}
+.slide.active .split-counter { opacity: 1; transform: none; }
+
+.split-statement {
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3.2vw, 2.6rem);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s var(--ease-quint) 0.25s, transform 0.5s var(--ease-quint) 0.25s;
+}
+.slide.active .split-statement { opacity: 1; transform: none; }
+
+.split-cta {
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+  margin-top: 2.5rem;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.4s var(--ease-quart) 0.45s, transform 0.4s var(--ease-quart) 0.45s;
+}
+.slide.active .split-cta { opacity: 1; transform: none; }
+
+/* --- Right panel: big number (assumption state) --- */
+.big-number {
+  font-family: var(--serif);
+  font-size: clamp(10rem, 18vw, 16rem);
+  font-weight: 900;
+  color: var(--accent);
+  opacity: 0.08;
+  line-height: 1;
+  text-align: center;
+  user-select: none;
+}
+
+/* --- Right panel: reveal content --- */
+.reveal-badge {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.35rem 0.8rem;
+  border-radius: 3px;
+  margin-bottom: 1.8rem;
+  color: #fff;
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.4s var(--ease-quart) 0.15s, transform 0.4s var(--ease-quart) 0.15s;
+}
+.slide.active .reveal-badge { opacity: 1; transform: none; }
+
+.reveal-slide .split-counter,
+.reveal-slide .split-statement,
+.reveal-slide .split-cta {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+.reveal-slide .split-cta {
+  visibility: hidden;
+}
+
+.reveal-badge.false { background: var(--pumpkin); }
+.reveal-badge.partial { background: var(--mustard); }
+.reveal-badge.true { background: var(--apple); }
+
+.reveal-headline {
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2.2vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease-quint) 0.25s, transform 0.5s var(--ease-quint) 0.25s;
+}
+.slide.active .reveal-headline { opacity: 1; transform: none; }
+
+.reveal-body {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 48ch;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease-quart) 0.4s, transform 0.5s var(--ease-quart) 0.4s;
+}
+.slide.active .reveal-body { opacity: 1; transform: none; }
+
+.reveal-source {
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+  margin-top: 1.4rem;
+  opacity: 0;
+  transition: opacity 0.4s var(--ease-quart) 0.55s;
+}
+.slide.active .reveal-source { opacity: 1; }
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+.progress-bar {
+  position: fixed;
+  bottom: 0; left: 0;
+  height: 2px;
+  background: var(--accent);
+  z-index: 100;
+  transition: width 0.45s var(--ease-quart);
+}
+.slide-counter {
+  position: fixed;
+  bottom: 1rem; right: 1.5rem;
+  font-size: 0.55rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  z-index: 100;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+}
+.nav-hint {
+  position: fixed;
+  bottom: 2.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.58rem;
+  color: var(--text-tertiary);
+  z-index: 100;
+  transition: opacity 0.8s;
+  opacity: 0.6;
+}
+.nav-hint.hidden { opacity: 0; }
+
+/* ============================================
+   ACCESSIBILITY & RESPONSIVE
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .split-slide { grid-template-columns: 1fr; }
+  .split-left { padding: 2rem 1.8rem 1rem; }
+  .split-right { padding: 1rem 1.8rem 2rem; }
+  .big-number { font-size: 8rem; }
+  .full-slide { padding: 0 1.8rem; }
+  .context-stats { flex-direction: column; gap: 2rem; }
+  .method-row { flex-direction: column; gap: 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- S1: Title -->
+<div class="slide full-slide active">
+  <div class="full-inner">
+    <p class="title-overline">Student Food & Delivery Research</p>
+    <h1 class="title-headline">What do you think you&nbsp;know?</h1>
+    <p class="title-sub">Before we share what we found, let's test some assumptions about how students eat, order, and choose platforms.</p>
+    <div class="method-row">
+      <div class="method-item">
+        <span class="method-num">35</span>
+        <span class="method-label">Interviews</span>
+      </div>
+      <div class="method-item">
+        <span class="method-num">6</span>
+        <span class="method-label">In-home visits</span>
+      </div>
+      <div class="method-item">
+        <span class="method-num">15</span>
+        <span class="method-label">Diary participants</span>
+      </div>
+      <div class="method-item">
+        <span class="method-num">315</span>
+        <span class="method-label">Meal occasions</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S2: Context -->
+<div class="slide full-slide">
+  <div class="full-inner" style="max-width:800px">
+    <h2 class="context-lead">How we got&nbsp;here</h2>
+    <div class="context-stats">
+      <div class="context-stat">
+        <div class="context-stat-num">35</div>
+        <div class="context-stat-desc">Participants across UG, PG, and graduate segments</div>
+      </div>
+      <div class="context-stat">
+        <div class="context-stat-num">315</div>
+        <div class="context-stat-desc">Meal occasions tracked over seven days</div>
+      </div>
+      <div class="context-stat">
+        <div class="context-stat-num">6</div>
+        <div class="context-stat-desc">In-home visits with live order observation</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S3: Framing -->
+<div class="slide full-slide">
+  <div class="full-inner" style="max-width:660px">
+    <h2 class="framing-headline">We're going to show you five statements about&nbsp;students.</h2>
+    <p class="framing-instruction">For each one, discuss whether you think it's true.</p>
+  </div>
+</div>
+
+<!-- S4: Assumption 1 -->
+<div class="slide split-slide assumption-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 1 of 5</p>
+    <h2 class="split-statement">"Students cook consistently throughout the&nbsp;week."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="big-number">1</span>
+  </div>
+</div>
+
+<!-- S5: Reveal 1 -->
+<div class="slide split-slide reveal-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 1 of 5</p>
+    <h2 class="split-statement">"Students cook consistently throughout the&nbsp;week."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="reveal-badge partial">It depends on the day</span>
+    <h2 class="reveal-headline">Home cooking drops from 56% on weekdays to 39% on weekends — a 17-point&nbsp;collapse.</h2>
+    <p class="reveal-body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+    <p class="reveal-source">Diary study, n=15 · 315 meal occasions tracked</p>
+  </div>
+</div>
+
+<!-- S6: Assumption 2 -->
+<div class="slide split-slide assumption-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 2 of 5</p>
+    <h2 class="split-statement">"Food delivery is a regular part of student&nbsp;life."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="big-number">2</span>
+  </div>
+</div>
+
+<!-- S7: Reveal 2 -->
+<div class="slide split-slide reveal-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 2 of 5</p>
+    <h2 class="split-statement">"Food delivery is a regular part of student&nbsp;life."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="reveal-badge false">Not what we found</span>
+    <h2 class="reveal-headline">Delivery represents just 3.8% of actual meals eaten — despite students thinking about it&nbsp;constantly.</h2>
+    <p class="reveal-body">Students talk about delivery at length. They compare platforms, describe decision-making processes, weigh up costs. But when we tracked what they actually ate for a week, delivery barely registered. The gap between consideration and action is enormous.</p>
+    <p class="reveal-source">Diary study, n=15 · 12 delivery orders across 315 meal slots</p>
+  </div>
+</div>
+
+<!-- S8: Assumption 3 -->
+<div class="slide split-slide assumption-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 3 of 5</p>
+    <h2 class="split-statement">"Students order delivery for themselves, as a personal&nbsp;treat."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="big-number">3</span>
+  </div>
+</div>
+
+<!-- S9: Reveal 3 -->
+<div class="slide split-slide reveal-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 3 of 5</p>
+    <h2 class="split-statement">"Students order delivery for themselves, as a personal&nbsp;treat."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="reveal-badge false">Not the primary driver</span>
+    <h2 class="reveal-headline">Social context is the strongest behavioural driver. Group ordering drives both frequency and platform&nbsp;choice.</h2>
+    <p class="reveal-body">Delivery orders cluster around group situations — Friday nights with flatmates, post-night-out hunger, shared meals. One person's subscription covers the group order. Even the decision of which platform to use becomes collaborative, with friends comparing fees side by side.</p>
+    <p class="reveal-source">31 quotes from 22 participants · High confidence</p>
+  </div>
+</div>
+
+<!-- S10: Assumption 4 -->
+<div class="slide split-slide assumption-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 4 of 5</p>
+    <h2 class="split-statement">"Students are loyal to one delivery&nbsp;platform."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="big-number">4</span>
+  </div>
+</div>
+
+<!-- S11: Reveal 4 -->
+<div class="slide split-slide reveal-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 4 of 5</p>
+    <h2 class="split-statement">"Students are loyal to one delivery&nbsp;platform."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="reveal-badge false">Not what we found</span>
+    <h2 class="reveal-headline">Students are radically platform-agnostic. Price comparison is a group sport — three apps open, fees compared side by&nbsp;side.</h2>
+    <p class="reveal-body">Students hold multiple subscriptions across platforms, switch freely based on price and promotions, and treat platform choice as a per-order decision rather than a commitment. Loyalty is almost non-existent — the cheapest option wins every time.</p>
+    <p class="reveal-source">16 quotes from 20 participants</p>
+  </div>
+</div>
+
+<!-- S12: Assumption 5 -->
+<div class="slide split-slide assumption-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 5 of 5</p>
+    <h2 class="split-statement">"Students who subscribe to delivery platforms use them&nbsp;regularly."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="big-number">5</span>
+  </div>
+</div>
+
+<!-- S13: Reveal 5 -->
+<div class="slide split-slide reveal-slide">
+  <div class="split-left">
+    <p class="split-counter">Statement 5 of 5</p>
+    <h2 class="split-statement">"Students who subscribe to delivery platforms use them&nbsp;regularly."</h2>
+    <p class="split-cta">Discuss — then click to reveal.</p>
+  </div>
+  <div class="split-right">
+    <span class="reveal-badge false">Not what we found</span>
+    <h2 class="reveal-headline">Many students hold subscriptions they barely use — kept "just in case" or forgotten&nbsp;entirely.</h2>
+    <p class="reveal-body">Students sign up during promotional periods or when a friend shares an offer, then keep the subscription running out of inertia. Some can't remember which platforms they're subscribed to. Others justify the cost by saying they'll "use it more next month." The subscription doesn't drive regular ordering — it just sits there, a low-level background cost that rarely converts into habitual behaviour.</p>
+    <p class="reveal-source">Subscription discussed by 28 of 35 participants · Low active usage relative to sign-up rate</p>
+  </div>
+</div>
+
+<!-- S14: Transition -->
+<div class="slide full-slide">
+  <div class="full-inner" style="max-width:620px">
+    <h2 class="transition-headline">So if that's what we assumed — what's actually going&nbsp;on?</h2>
+    <span class="transition-arrow">→</span>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="progress-bar" id="progress"></div>
+<div class="slide-counter" id="counter"></div>
+<div class="nav-hint" id="navHint">Arrow keys or click to navigate</div>
+
+<script>
+(function() {
+  var slides = Array.from(document.querySelectorAll('.slide'));
+  var total = slides.length;
+  var current = 0;
+  var progressEl = document.getElementById('progress');
+  var counterEl = document.getElementById('counter');
+  var hintEl = document.getElementById('navHint');
+
+  function show(idx) {
+    if (idx < 0 || idx >= total) return;
+    slides[current].classList.remove('active');
+    slides[idx].classList.add('active');
+    current = idx;
+    progressEl.style.width = ((idx + 1) / total * 100) + '%';
+    counterEl.textContent = (idx + 1) + ' / ' + total;
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); show(current + 1); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); show(current - 1); }
+    if (e.key === 'Home') { e.preventDefault(); show(0); }
+    if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('button') || e.target.closest('a')) return;
+    var w = window.innerWidth;
+    if (e.clientX > w * 0.6) show(current + 1);
+    else if (e.clientX < w * 0.4) show(current - 1);
+  });
+
+  setTimeout(function() { hintEl.classList.add('hidden'); }, 3500);
+  show(0);
+})();
+</script>
+</body>
+</html>
