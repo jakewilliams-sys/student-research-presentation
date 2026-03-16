@@ -712,6 +712,46 @@ body {
 .bridge-sub { font-size: 0.82rem; color: var(--text-tertiary); margin-top: 1.2rem; opacity: 0; transition: opacity var(--duration) var(--ease) 0.4s; }
 .bridge-slide.active .bridge-sub { opacity: 1; }
 
+/* ---- INLINE INSIGHT PANEL ---- */
+.insight-panel {
+  position: absolute;
+  right: clamp(2.5rem, 5vw, 5rem);
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(220px, 22vw, 320px);
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease) 0.6s, transform var(--duration) var(--ease) 0.6s;
+}
+.data-slide.active .insight-panel { opacity: 1; transform: translateY(-50%); }
+.insight-panel-label {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid currentColor;
+}
+.insight-panel-headline {
+  font-family: var(--serif);
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.8rem;
+}
+.insight-panel-body {
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+.insight-panel-source {
+  font-size: 0.56rem;
+  color: var(--text-tertiary);
+  margin-top: 0.7rem;
+}
+
 /* ---- QUARTERLY TREND ---- */
 .qt-grid {
   display: grid;
@@ -940,6 +980,7 @@ body {
   .qt-grid { grid-template-columns: repeat(2, 1fr); }
   .funnel-row { grid-template-columns: 90px 1fr 1fr; }
   .cvp-row { grid-template-columns: 100px 1fr 40px; }
+  .insight-panel { position: static; transform: none; width: 100%; margin-top: 1.5rem; }
 }
 
 }
@@ -3767,15 +3808,11 @@ body {
     </div>
     <p class="data-source">YouGov Brand Tracker, student segment (full-time, category users L12M) · N ≥ 267 per quarter · Weighted</p>
   </div>
-</div>
-
-<!-- BT-3: FRESHERS SWING INSIGHT -->
-<div class="slide finding-slide">
-  <div class="slide-inner">
-    <p class="finding-label" style="color: var(--pumpkin)">The seasonal pattern</p>
-    <h2 class="finding-headline">Whatever Deliveroo does at Freshers is not holding students through to&nbsp;December.</h2>
-    <p class="finding-body">Q3 is Deliveroo's year-high (36.7%), driven by Freshers acquisition. By Q4 it falls to 31.6% while Uber Eats rises to 36.2%. The pattern maps onto the academic calendar — Roo wins the quieter quarters by narrow margins; UE wins the busier ones by larger and growing margins. Two competing explanations exist: either students recruited at Freshers don't convert into Plus subscribers and drift to Uber One by December, or Q4 is structurally UE-favourable because Uber's promotions and ecosystem win when students are settled and less price-anxious. The workshop needs to agree which mechanism it is primarily solving for — because the two explanations point to different fixes.</p>
-    <p class="finding-source">Q3→Q4 swing: approx. 6.4pp reversal across both brands · Margin of error ±5–6pp at N=329–333</p>
+  <div class="insight-panel">
+    <p class="insight-panel-label" style="color: var(--pumpkin)">The seasonal pattern</p>
+    <h3 class="insight-panel-headline">Whatever Deliveroo does at Freshers is not holding students through to&nbsp;December.</h3>
+    <p class="insight-panel-body">Roo wins quieter quarters by narrow margins; UE wins busier ones by larger and growing margins. Two competing explanations: students recruited at Freshers don't convert into Plus subscribers, or Q4 is structurally UE-favourable via promotions and ecosystem. The workshop needs to agree which mechanism it is primarily solving&nbsp;for.</p>
+    <p class="insight-panel-source">Q3→Q4 swing: ~6.4pp reversal · MoE ±5–6pp</p>
   </div>
 </div>
 
@@ -3825,15 +3862,11 @@ body {
     </div>
     <p class="data-source">YouGov Brand Tracker Q1–Q4 2025 averages · Student segment · The Consideration→Preference drop-off is ~49–64% for all brands</p>
   </div>
-</div>
-
-<!-- BT-6: CONVERSION GAP INSIGHT -->
-<div class="slide finding-slide">
-  <div class="slide-inner">
-    <p class="finding-label" style="color: var(--blueberry)">The conversion failure</p>
-    <h2 class="finding-headline">Deliveroo has a 5.9pp lead in first instinct — and a 1.5pp deficit in actual&nbsp;preference.</h2>
-    <p class="finding-body">The problem is not awareness. Students know Deliveroo exists and think of it first. But something happens between "I think of Deliveroo" and "I choose Deliveroo" that Uber Eats is winning. The qualitative data suggests two mechanisms: subscription salience (24 of 35 interview participants referenced Uber One vs 11 for Plus) and ecosystem acquisition (some Uber Eats students are there by default because they already have the rides app). These are not mutually exclusive, but they require different responses.</p>
-    <p class="finding-source">TOMA: Roo 32.4% vs UE 26.5% · Preference: Roo 33.5% vs UE 35.0% · Q1–Q4 2025 averages</p>
+  <div class="insight-panel">
+    <p class="insight-panel-label" style="color: var(--blueberry)">The conversion failure</p>
+    <h3 class="insight-panel-headline">5.9pp lead in first instinct. 1.5pp deficit in actual&nbsp;preference.</h3>
+    <p class="insight-panel-body">The problem is not awareness — it is conversion. Two mechanisms explain the gap: subscription salience (24/35 interview participants referenced Uber One vs 11 for Plus) and ecosystem acquisition (students default to Uber because they already have the rides app). These require different&nbsp;responses.</p>
+    <p class="insight-panel-source">TOMA: Roo 32.4% vs UE 26.5% · Pref: Roo 33.5% vs UE 35.0%</p>
   </div>
 </div>
 
@@ -3905,17 +3938,13 @@ body {
         <span class="cvp-change">−10.4pp</span>
       </div>
     </div>
-    <p class="data-source">YouGov CVP tracking, student segment · Significance-tested within-year declines · Uber Eats showed no significant movements across the same period</p>
+    <p class="data-source">YouGov CVP tracking, student segment · Significance-tested within-year declines · UE showed no significant movements</p>
   </div>
-</div>
-
-<!-- BT-9: CVP INSIGHT -->
-<div class="slide finding-slide">
-  <div class="slide-inner">
-    <p class="finding-label" style="color: var(--pumpkin)">The open question</p>
-    <h2 class="finding-headline">Is this structural decline — or a seasonal pattern that Q1 2026 will&nbsp;reverse?</h2>
-    <p class="finding-body">Brand preference shows the same Q1-high, Q4-low cycle every year; CVP scores may follow the same pattern. The question for the workshop is not just "what happened in Q4 2025" — it is whether these gaps reflect permanent share loss or a cyclical dip. Early Q1 2026 data (N=113, one month only) shows Deliveroo at 28.5% and Uber Eats at 48.5% — a directional signal only, but not encouraging. The price and fee cluster (value for money −5.2pp, reasonable fees −4.4pp, attractive discounts −8.6pp) is the most actionable gap for Plus, and aligns with 27 qualitative mentions of service fee erosion.</p>
-    <p class="finding-source">Average decline across 6 attributes: −10.6pp · Q1 2026 partial data (N=113) is directional only</p>
+  <div class="insight-panel">
+    <p class="insight-panel-label" style="color: var(--pumpkin)">The open question</p>
+    <h3 class="insight-panel-headline">Structural decline — or a seasonal pattern Q1 2026 will&nbsp;reverse?</h3>
+    <p class="insight-panel-body">Brand preference shows the same Q1-high, Q4-low cycle annually; CVP may follow the same pattern. Early Q1 2026 data (N=113, one month) shows Roo at 28.5% vs UE at 48.5% — directional only, but not encouraging. The price/fee cluster is the most actionable gap for&nbsp;Plus.</p>
+    <p class="insight-panel-source">Avg. decline: −10.6pp · Q1 2026 partial (N=113) directional only</p>
   </div>
 </div>
 
@@ -3944,15 +3973,11 @@ body {
     </div>
     <p class="data-source">YouGov Brand Tracker Q4 2025 · Plus-aware students only (N=223) · "Don't know" rising from 11% in Q1</p>
   </div>
-</div>
-
-<!-- BT-12: PLUS AWARENESS INSIGHT -->
-<div class="slide finding-slide">
-  <div class="slide-inner">
-    <p class="finding-label" style="color: var(--teal)">What this means for Plus</p>
-    <h2 class="finding-headline">The subscription is experienced as fee removal, not as a&nbsp;product.</h2>
-    <p class="finding-body">Students don't say "I'm subscribed to Plus" — they say "I get free delivery through Amazon" or "my student discount gives me free delivery." Every other Plus benefit is below 40% awareness. Plus Rewards, Credit Back, and the On Time Promise are functionally invisible. Meanwhile, Uber One leads on subscription awareness in every quarter of 2025 by an average of ~4.4pp, with the widest gap at Q3 (+6.9pp) — precisely when Freshers should be driving Plus awareness up. The tier structure (Silver, Gold, Diamond) is not cutting through: even Silver — the most recognised tier — peaks at just 47%.</p>
-    <p class="finding-source">Uber One awareness lead: ~4.4pp average across 2025 · Silver tier peak awareness: 47%</p>
+  <div class="insight-panel">
+    <p class="insight-panel-label" style="color: var(--teal)">What this means for Plus</p>
+    <h3 class="insight-panel-headline">The subscription is experienced as fee removal, not as a&nbsp;product.</h3>
+    <p class="insight-panel-body">Students say "I get free delivery through Amazon" — not "I'm subscribed to Plus." Every other benefit is below 40% awareness. Uber One leads subscription awareness every quarter by ~4.4pp, widest at Q3 (+6.9pp) — precisely when Freshers should be driving Plus awareness&nbsp;up. Even Silver tier peaks at just&nbsp;47%.</p>
+    <p class="insight-panel-source">Uber One lead: ~4.4pp avg · Silver peak: 47%</p>
   </div>
 </div>
 
@@ -5236,7 +5261,7 @@ var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
   };
 
   var chapterMaps = {
-    bt: [0, 1,1,1, 2,2,2, 3,3,3, 4,4,4, 0],
+    bt: [0, 1,1, 2,2, 3,3, 4,4, 0],
     2: [0, 1,1,1, 2,2,2, 3,3,3,3, 4,4,4, 0],
     3: [0, 1,1,1,1, 2,2,2, 3,3,3,3, 4,4,4, 0],
     5: [0, 0, 1,1, 2,2, 3,3, 4,4, 5,5, 0]
