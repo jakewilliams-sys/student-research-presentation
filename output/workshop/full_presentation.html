@@ -447,6 +447,504 @@ body {
 }
 
 /* ============================================
+   SECTION BT: BRAND TRACKER
+   ============================================ */
+.sec-bt {
+
+.slide {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 68px 0 0;
+  padding-left: 15vw;
+  padding-right: clamp(2rem, 5vw, 4rem);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration) var(--ease);
+  background: var(--cream);
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+
+.slide-inner {
+  max-width: 640px;
+  width: 100%;
+}
+
+.chapter-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 48px;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 4vw, 3rem);
+  padding: 0 2rem;
+  background: rgba(250, 248, 242, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 200;
+  border-bottom: 1px solid var(--rule);
+}
+.chapter-bar-item {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 400ms var(--ease), border-color 400ms var(--ease), font-size 300ms var(--ease), transform 300ms var(--ease);
+}
+.chapter-bar-item.completed { color: var(--text-secondary); }
+.chapter-bar-item.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  transform: translateY(2px);
+}
+
+.section-divider {
+  justify-content: center;
+  padding: 0;
+  padding-left: 0;
+  text-align: center;
+}
+.section-divider .slide-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.section-divider-part {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 1.4rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.15s, transform 0.5s var(--ease) 0.15s;
+}
+.section-divider.active .section-divider-part { opacity: 1; transform: none; }
+
+.section-divider-title {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s var(--ease) 0.25s, transform 0.6s var(--ease) 0.25s;
+}
+.section-divider.active .section-divider-title { opacity: 1; transform: none; }
+
+.section-divider-sub {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: 42ch;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s var(--ease) 0.4s, transform 0.5s var(--ease) 0.4s;
+}
+.section-divider.active .section-divider-sub { opacity: 1; transform: none; }
+
+.section-divider-rule {
+  width: 48px;
+  height: 2px;
+  background: var(--accent);
+  margin: 2rem auto 0;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease) 0.55s;
+}
+.section-divider.active .section-divider-rule { opacity: 0.5; }
+
+.chapter-slide .slide-inner { max-width: 100%; }
+.chapter-counter {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 1.8rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration) var(--ease) 0.15s, transform var(--duration) var(--ease) 0.15s;
+}
+.chapter-slide.active .chapter-counter { opacity: 1; transform: none; }
+.chapter-headline {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.chapter-slide.active .chapter-headline { opacity: 1; transform: none; }
+.chapter-sub {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+  max-width: 46ch;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.35s, transform var(--duration) var(--ease) 0.35s;
+}
+.chapter-slide.active .chapter-sub { opacity: 1; transform: none; }
+
+.finding-label {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid currentColor;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration) var(--ease) 0.1s, transform var(--duration) var(--ease) 0.1s;
+}
+.finding-slide.active .finding-label { opacity: 1; transform: none; }
+.finding-headline {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.finding-slide.active .finding-headline { opacity: 1; transform: none; }
+.finding-body {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 54ch;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.finding-slide.active .finding-body { opacity: 1; transform: none; }
+.finding-source {
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease) 0.4s;
+}
+.finding-slide.active .finding-source { opacity: 1; }
+
+.data-title {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--rule);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity var(--duration) var(--ease) 0.15s, transform var(--duration) var(--ease) 0.15s;
+}
+.data-slide.active .data-title { opacity: 1; transform: none; }
+.data-source {
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+  margin-top: 1.5rem;
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease) 0.8s;
+}
+.data-slide.active .data-source { opacity: 1; }
+.bar-section {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.data-slide.active .bar-section { opacity: 1; transform: none; }
+.bar-section-label {
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  margin-top: 1.5rem;
+}
+.bar-section-label:first-child { margin-top: 0; }
+.bar-row { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.6rem; }
+.bar-name { font-size: 0.72rem; color: var(--text-secondary); width: 130px; text-align: right; flex-shrink: 0; }
+.bar-track { flex: 1; height: 24px; background: var(--bar-track); border-radius: 2px; overflow: hidden; }
+.bar-fill {
+  height: 100%; border-radius: 2px; display: flex; align-items: center;
+  padding: 0 0.6rem; font-size: 0.68rem; font-weight: 600;
+  font-variant-numeric: tabular-nums; color: var(--text);
+  width: 0; transition: width 0.75s var(--ease) 0.4s;
+}
+.data-slide.active .bar-fill { width: var(--w); }
+
+.bridge-headline {
+  font-family: var(--serif); font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 700; line-height: 1.2; letter-spacing: -0.02em;
+  opacity: 0; transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.2s, transform var(--duration) var(--ease) 0.2s;
+}
+.bridge-slide.active .bridge-headline { opacity: 1; transform: none; }
+.bridge-sub { font-size: 0.82rem; color: var(--text-tertiary); margin-top: 1.2rem; opacity: 0; transition: opacity var(--duration) var(--ease) 0.4s; }
+.bridge-slide.active .bridge-sub { opacity: 1; }
+
+/* ---- QUARTERLY TREND ---- */
+.qt-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-top: 1.5rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.data-slide.active .qt-grid { opacity: 1; transform: none; }
+
+.qt-col {
+  padding: 1.4rem 1rem;
+  border-left: 1px solid var(--rule);
+  position: relative;
+}
+.qt-col:first-child { border-left: none; }
+.qt-col.qt-highlight {
+  background: rgba(212, 96, 58, 0.04);
+}
+.qt-label {
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  margin-bottom: 1.4rem;
+}
+.qt-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+.qt-brand-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+  top: -1px;
+}
+.qt-brand-name {
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+}
+.qt-brand-pct {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.qt-winner-tag {
+  font-family: var(--sans);
+  font-size: 0.52rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  display: inline-block;
+}
+.qt-swing {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 0.8rem;
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: var(--pumpkin);
+}
+
+/* ---- FUNNEL CHART ---- */
+.funnel-grid {
+  margin-top: 1.5rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.data-slide.active .funnel-grid { opacity: 1; transform: none; }
+
+.funnel-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 1fr;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.funnel-row:last-child { border-bottom: none; }
+.funnel-stage {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  text-align: right;
+  padding-right: 0.8rem;
+}
+.funnel-bar-wrap {
+  height: 22px;
+  background: var(--bar-track);
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+.funnel-bar {
+  height: 100%;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  width: 0;
+  transition: width 0.75s var(--ease) 0.4s;
+}
+.data-slide.active .funnel-bar { width: var(--w); }
+.funnel-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  color: var(--text-tertiary);
+}
+.funnel-legend-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  position: relative;
+  top: 1px;
+}
+
+/* ---- CVP COMPARISON ---- */
+.cvp-grid {
+  margin-top: 1rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
+}
+.data-slide.active .cvp-grid { opacity: 1; transform: none; }
+
+.cvp-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 50px;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.cvp-row:first-child { padding-top: 0; }
+.cvp-attr {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  text-align: right;
+  padding-right: 0.5rem;
+  line-height: 1.35;
+}
+.cvp-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.cvp-bar-wrap {
+  height: 14px;
+  background: var(--bar-track);
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.cvp-bar {
+  height: 100%;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.4rem;
+  font-size: 0.54rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  width: 0;
+  transition: width 0.75s var(--ease) 0.4s;
+}
+.data-slide.active .cvp-bar { width: var(--w); }
+.cvp-bar.q1 { background: var(--teal); color: #fff; }
+.cvp-bar.q4 { background: rgba(0, 133, 124, 0.3); color: var(--text); }
+.cvp-change {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--pumpkin);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.cvp-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.8rem;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+}
+.cvp-legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  border-radius: 1px;
+  margin-right: 0.35rem;
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 768px) {
+  .slide { padding-left: 2rem; padding-right: 2rem; }
+  .chapter-bar { gap: 0.5rem; padding: 0 1rem; }
+  .chapter-bar-item { font-size: 0.5rem; }
+  .qt-grid { grid-template-columns: repeat(2, 1fr); }
+  .funnel-row { grid-template-columns: 90px 1fr 1fr; }
+  .cvp-row { grid-template-columns: 100px 1fr 40px; }
+}
+
+}
+
+/* ============================================
    SECTION 2: FINDINGS
    ============================================ */
 .sec-2 {
@@ -3170,8 +3668,299 @@ body {
 <!-- S14: Transition -->
 <div class="slide full-slide">
   <div class="full-inner" style="max-width:620px">
-    <h2 class="transition-headline">So if that's what we assumed — what's actually going&nbsp;on?</h2>
+    <h2 class="transition-headline">Before we hear from students — what does the data already&nbsp;tell&nbsp;us?</h2>
     <span class="transition-arrow">→</span>
+  </div>
+</div>
+</div>
+
+<!-- ===== SECTION BT: BRAND TRACKER ===== -->
+<div class="sec-bt">
+<nav class="chapter-bar" id="chapterBarBT" aria-label="Brand tracker navigation">
+  <span class="chapter-bar-item" data-chapter="1">Freshers Swing</span>
+  <span class="chapter-bar-item" data-chapter="2">Conversion Gap</span>
+  <span class="chapter-bar-item" data-chapter="3">CVP Cliff</span>
+  <span class="chapter-bar-item" data-chapter="4">Plus Awareness</span>
+</nav>
+
+<!-- SECTION DIVIDER -->
+<div class="slide section-divider">
+  <div class="slide-inner">
+    <p class="section-divider-part">Part Two</p>
+    <h1 class="section-divider-title">The landscape at&nbsp;scale</h1>
+    <p class="section-divider-sub">YouGov Brand Tracker data across Q1–Q4 2025. What 1,200+ student responses tell us before we hear a single interview.</p>
+    <div class="section-divider-rule"></div>
+  </div>
+</div>
+
+<!-- BT-1: FRESHERS SWING TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Signal 1</p>
+    <h2 class="chapter-headline">Deliveroo wins Freshers and loses the&nbsp;term</h2>
+    <p class="chapter-sub">Brand preference swings with the academic calendar. Deliveroo leads in quieter quarters; Uber Eats wins in busier ones — by larger and growing margins.</p>
+  </div>
+</div>
+
+<!-- BT-2: QUARTERLY TREND DATA -->
+<div class="slide data-slide">
+  <div class="slide-inner" style="max-width:720px">
+    <h2 class="data-title">Brand preference among students, Q1–Q4 2025</h2>
+    <div class="qt-grid">
+      <div class="qt-col">
+        <div class="qt-label">Q1 2025</div>
+        <div class="qt-brand">
+          <span class="qt-brand-dot" style="background:var(--teal)"></span>
+          <span class="qt-brand-name">Deliveroo</span>
+        </div>
+        <div class="qt-brand-pct" style="color:var(--teal)">35.2%</div>
+        <div class="qt-brand" style="margin-top:1rem">
+          <span class="qt-brand-dot" style="background:#34A853"></span>
+          <span class="qt-brand-name">Uber Eats</span>
+        </div>
+        <div class="qt-brand-pct" style="color:#34A853">33.3%</div>
+        <div class="qt-winner-tag" style="background:rgba(0,133,124,0.1);color:var(--teal)">Roo +1.9pp</div>
+      </div>
+      <div class="qt-col">
+        <div class="qt-label">Q2 2025</div>
+        <div class="qt-brand">
+          <span class="qt-brand-dot" style="background:var(--teal)"></span>
+          <span class="qt-brand-name">Deliveroo</span>
+        </div>
+        <div class="qt-brand-pct" style="color:var(--teal)">30.7%</div>
+        <div class="qt-brand" style="margin-top:1rem">
+          <span class="qt-brand-dot" style="background:#34A853"></span>
+          <span class="qt-brand-name">Uber Eats</span>
+        </div>
+        <div class="qt-brand-pct" style="color:#34A853">35.7%</div>
+        <div class="qt-winner-tag" style="background:rgba(52,168,83,0.1);color:#34A853">UE +5.0pp</div>
+      </div>
+      <div class="qt-col">
+        <div class="qt-label">Q3 2025</div>
+        <div class="qt-brand">
+          <span class="qt-brand-dot" style="background:var(--teal)"></span>
+          <span class="qt-brand-name">Deliveroo</span>
+        </div>
+        <div class="qt-brand-pct" style="color:var(--teal)">36.7%</div>
+        <div class="qt-brand" style="margin-top:1rem">
+          <span class="qt-brand-dot" style="background:#34A853"></span>
+          <span class="qt-brand-name">Uber Eats</span>
+        </div>
+        <div class="qt-brand-pct" style="color:#34A853">34.9%</div>
+        <div class="qt-winner-tag" style="background:rgba(0,133,124,0.1);color:var(--teal)">Roo +1.8pp</div>
+      </div>
+      <div class="qt-col qt-highlight">
+        <div class="qt-label">Q4 2025</div>
+        <div class="qt-brand">
+          <span class="qt-brand-dot" style="background:var(--teal)"></span>
+          <span class="qt-brand-name">Deliveroo</span>
+        </div>
+        <div class="qt-brand-pct" style="color:var(--teal)">31.6%</div>
+        <div class="qt-brand" style="margin-top:1rem">
+          <span class="qt-brand-dot" style="background:#34A853"></span>
+          <span class="qt-brand-name">Uber Eats</span>
+        </div>
+        <div class="qt-brand-pct" style="color:#34A853">36.2%</div>
+        <div class="qt-winner-tag" style="background:rgba(52,168,83,0.1);color:#34A853">UE +4.6pp</div>
+        <div class="qt-swing">−5.1pp swing</div>
+      </div>
+    </div>
+    <p class="data-source">YouGov Brand Tracker, student segment (full-time, category users L12M) · N ≥ 267 per quarter · Weighted</p>
+  </div>
+</div>
+
+<!-- BT-3: FRESHERS SWING INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--pumpkin)">The seasonal pattern</p>
+    <h2 class="finding-headline">Whatever Deliveroo does at Freshers is not holding students through to&nbsp;December.</h2>
+    <p class="finding-body">Q3 is Deliveroo's year-high (36.7%), driven by Freshers acquisition. By Q4 it falls to 31.6% while Uber Eats rises to 36.2%. The pattern maps onto the academic calendar — Roo wins the quieter quarters by narrow margins; UE wins the busier ones by larger and growing margins. Two competing explanations exist: either students recruited at Freshers don't convert into Plus subscribers and drift to Uber One by December, or Q4 is structurally UE-favourable because Uber's promotions and ecosystem win when students are settled and less price-anxious. The workshop needs to agree which mechanism it is primarily solving for — because the two explanations point to different fixes.</p>
+    <p class="finding-source">Q3→Q4 swing: approx. 6.4pp reversal across both brands · Margin of error ±5–6pp at N=329–333</p>
+  </div>
+</div>
+
+<!-- BT-4: CONVERSION GAP TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Signal 2</p>
+    <h2 class="chapter-headline">First instinct isn't becoming first&nbsp;choice</h2>
+    <p class="chapter-sub">Deliveroo is the first brand students think of. But Uber Eats is the one they end up choosing.</p>
+  </div>
+</div>
+
+<!-- BT-5: FUNNEL DATA -->
+<div class="slide data-slide">
+  <div class="slide-inner" style="max-width:720px">
+    <h2 class="data-title">Brand funnel: awareness to preference</h2>
+    <div class="funnel-legend">
+      <span><span class="funnel-legend-dot" style="background:var(--teal)"></span>Deliveroo</span>
+      <span><span class="funnel-legend-dot" style="background:#34A853"></span>Uber Eats</span>
+    </div>
+    <div class="funnel-grid">
+      <div class="funnel-row">
+        <span class="funnel-stage">Top-of-mind</span>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:86%;background:var(--teal);color:#fff">32.4%</div></div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:70%;background:#34A853;color:#fff">26.5%</div></div>
+      </div>
+      <div class="funnel-row">
+        <span class="funnel-stage">Spontaneous</span>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:86%;background:var(--teal);color:#fff">64.9%</div></div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:85%;background:#34A853;color:#fff">64.3%</div></div>
+      </div>
+      <div class="funnel-row">
+        <span class="funnel-stage">Prompted</span>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:97%;background:var(--teal);color:#fff">91.5%</div></div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:99%;background:#34A853;color:#fff">93.7%</div></div>
+      </div>
+      <div class="funnel-row">
+        <span class="funnel-stage">Consideration</span>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:70%;background:var(--teal);color:#fff">66.5%</div></div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:72%;background:#34A853;color:#fff">67.9%</div></div>
+      </div>
+      <div class="funnel-row">
+        <span class="funnel-stage">Preference</span>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:35%;background:var(--teal);color:#fff">33.5%</div></div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:37%;background:#34A853;color:#fff">35.0%</div></div>
+      </div>
+    </div>
+    <p class="data-source">YouGov Brand Tracker Q1–Q4 2025 averages · Student segment · The Consideration→Preference drop-off is ~49–64% for all brands</p>
+  </div>
+</div>
+
+<!-- BT-6: CONVERSION GAP INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--blueberry)">The conversion failure</p>
+    <h2 class="finding-headline">Deliveroo has a 5.9pp lead in first instinct — and a 1.5pp deficit in actual&nbsp;preference.</h2>
+    <p class="finding-body">The problem is not awareness. Students know Deliveroo exists and think of it first. But something happens between "I think of Deliveroo" and "I choose Deliveroo" that Uber Eats is winning. The qualitative data suggests two mechanisms: subscription salience (24 of 35 interview participants referenced Uber One vs 11 for Plus) and ecosystem acquisition (some Uber Eats students are there by default because they already have the rides app). These are not mutually exclusive, but they require different responses.</p>
+    <p class="finding-source">TOMA: Roo 32.4% vs UE 26.5% · Preference: Roo 33.5% vs UE 35.0% · Q1–Q4 2025 averages</p>
+  </div>
+</div>
+
+<!-- BT-7: CVP CLIFF TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Signal 3</p>
+    <h2 class="chapter-headline">Deliveroo's CVP is falling. Uber Eats is holding&nbsp;steady.</h2>
+    <p class="chapter-sub">Six key perception attributes declined an average of −10.6pp between Q1 and Q4 2025. This is a Deliveroo deterioration story, not an Uber Eats improvement story.</p>
+  </div>
+</div>
+
+<!-- BT-8: CVP DATA -->
+<div class="slide data-slide">
+  <div class="slide-inner" style="max-width:720px">
+    <h2 class="data-title">Deliveroo CVP scores: Q1 vs Q4 2025</h2>
+    <div class="cvp-legend">
+      <span><span class="cvp-legend-swatch" style="background:var(--teal)"></span>Q1 2025</span>
+      <span><span class="cvp-legend-swatch" style="background:rgba(0,133,124,0.3)"></span>Q4 2025</span>
+      <span style="color:var(--pumpkin);font-weight:600">Change</span>
+    </div>
+    <div class="cvp-grid">
+      <div class="cvp-row">
+        <span class="cvp-attr">Easy to use app</span>
+        <div class="cvp-bars">
+          <div class="cvp-bar-wrap"><div class="cvp-bar q1" style="--w:62%">62.0%</div></div>
+          <div class="cvp-bar-wrap"><div class="cvp-bar q4" style="--w:50.5%">50.5%</div></div>
+        </div>
+        <span class="cvp-change">−11.5pp</span>
+      </div>
+      <div class="cvp-row">
+        <span class="cvp-attr">Wide food range</span>
+        <div class="cvp-bars">
+          <div class="cvp-bar-wrap"><div class="cvp-bar q1" style="--w:63.9%">63.9%</div></div>
+          <div class="cvp-bar-wrap"><div class="cvp-bar q4" style="--w:49.7%">49.7%</div></div>
+        </div>
+        <span class="cvp-change">−14.2pp</span>
+      </div>
+      <div class="cvp-row">
+        <span class="cvp-attr">Fast delivery</span>
+        <div class="cvp-bars">
+          <div class="cvp-bar-wrap"><div class="cvp-bar q1" style="--w:46.8%">46.8%</div></div>
+          <div class="cvp-bar-wrap"><div class="cvp-bar q4" style="--w:36.8%">36.8%</div></div>
+        </div>
+        <span class="cvp-change">−10.0pp</span>
+      </div>
+      <div class="cvp-row">
+        <span class="cvp-attr">Order tracking</span>
+        <div class="cvp-bars">
+          <div class="cvp-bar-wrap"><div class="cvp-bar q1" style="--w:57.7%">57.7%</div></div>
+          <div class="cvp-bar-wrap"><div class="cvp-bar q4" style="--w:48.3%">48.3%</div></div>
+        </div>
+        <span class="cvp-change">−9.4pp</span>
+      </div>
+      <div class="cvp-row">
+        <span class="cvp-attr">Reasonable fees</span>
+        <div class="cvp-bars">
+          <div class="cvp-bar-wrap"><div class="cvp-bar q1" style="--w:35.2%">35.2%</div></div>
+          <div class="cvp-bar-wrap"><div class="cvp-bar q4" style="--w:26.4%">26.4%</div></div>
+        </div>
+        <span class="cvp-change">−8.8pp</span>
+      </div>
+      <div class="cvp-row">
+        <span class="cvp-attr">Fave restaurants</span>
+        <div class="cvp-bars">
+          <div class="cvp-bar-wrap"><div class="cvp-bar q1" style="--w:55.4%">55.4%</div></div>
+          <div class="cvp-bar-wrap"><div class="cvp-bar q4" style="--w:45%">45.0%</div></div>
+        </div>
+        <span class="cvp-change">−10.4pp</span>
+      </div>
+    </div>
+    <p class="data-source">YouGov CVP tracking, student segment · Significance-tested within-year declines · Uber Eats showed no significant movements across the same period</p>
+  </div>
+</div>
+
+<!-- BT-9: CVP INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--pumpkin)">The open question</p>
+    <h2 class="finding-headline">Is this structural decline — or a seasonal pattern that Q1 2026 will&nbsp;reverse?</h2>
+    <p class="finding-body">Brand preference shows the same Q1-high, Q4-low cycle every year; CVP scores may follow the same pattern. The question for the workshop is not just "what happened in Q4 2025" — it is whether these gaps reflect permanent share loss or a cyclical dip. Early Q1 2026 data (N=113, one month only) shows Deliveroo at 28.5% and Uber Eats at 48.5% — a directional signal only, but not encouraging. The price and fee cluster (value for money −5.2pp, reasonable fees −4.4pp, attractive discounts −8.6pp) is the most actionable gap for Plus, and aligns with 27 qualitative mentions of service fee erosion.</p>
+    <p class="finding-source">Average decline across 6 attributes: −10.6pp · Q1 2026 partial data (N=113) is directional only</p>
+  </div>
+</div>
+
+<!-- BT-10: PLUS AWARENESS TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Signal 4</p>
+    <h2 class="chapter-headline">Students know "free delivery." They don't know&nbsp;Plus.</h2>
+    <p class="chapter-sub">Uber One leads Plus on subscription awareness in every quarter. And the only Plus benefit students can name is the one that removes a fee.</p>
+  </div>
+</div>
+
+<!-- BT-11: BENEFIT AWARENESS DATA -->
+<div class="slide data-slide">
+  <div class="slide-inner">
+    <h2 class="data-title">Plus benefit awareness among Plus-aware students</h2>
+    <div class="bar-section">
+      <p class="bar-section-label">Q4 2025 · Among Plus-aware students</p>
+      <div class="bar-row"><span class="bar-name">Free delivery</span><div class="bar-track"><div class="bar-fill" style="--w:62%;background:var(--teal);color:#fff">62%</div></div></div>
+      <div class="bar-row"><span class="bar-name">Discounted fees</span><div class="bar-track"><div class="bar-fill" style="--w:36%;background:rgba(0,133,124,0.4);color:var(--text)">36%</div></div></div>
+      <div class="bar-row"><span class="bar-name">Exclusive offers</span><div class="bar-track"><div class="bar-fill" style="--w:24%;background:rgba(0,133,124,0.4);color:var(--text)">24%</div></div></div>
+      <div class="bar-row"><span class="bar-name">Plus Rewards</span><div class="bar-track"><div class="bar-fill" style="--w:13%;background:var(--bar-track);color:var(--text-secondary)">13%</div></div></div>
+      <div class="bar-row"><span class="bar-name">10% Credit Back</span><div class="bar-track"><div class="bar-fill" style="--w:9%;background:var(--bar-track);color:var(--text-secondary)">9%</div></div></div>
+      <div class="bar-row"><span class="bar-name">On Time Promise</span><div class="bar-track"><div class="bar-fill" style="--w:8%;background:var(--bar-track);color:var(--text-secondary)">8%</div></div></div>
+      <div class="bar-row"><span class="bar-name" style="color:var(--pumpkin)">Don't know</span><div class="bar-track"><div class="bar-fill" style="--w:14%;background:rgba(212,96,58,0.15);color:var(--pumpkin)">14% ↑</div></div></div>
+    </div>
+    <p class="data-source">YouGov Brand Tracker Q4 2025 · Plus-aware students only (N=223) · "Don't know" rising from 11% in Q1</p>
+  </div>
+</div>
+
+<!-- BT-12: PLUS AWARENESS INSIGHT -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--teal)">What this means for Plus</p>
+    <h2 class="finding-headline">The subscription is experienced as fee removal, not as a&nbsp;product.</h2>
+    <p class="finding-body">Students don't say "I'm subscribed to Plus" — they say "I get free delivery through Amazon" or "my student discount gives me free delivery." Every other Plus benefit is below 40% awareness. Plus Rewards, Credit Back, and the On Time Promise are functionally invisible. Meanwhile, Uber One leads on subscription awareness in every quarter of 2025 by an average of ~4.4pp, with the widest gap at Q3 (+6.9pp) — precisely when Freshers should be driving Plus awareness up. The tier structure (Silver, Gold, Diamond) is not cutting through: even Silver — the most recognised tier — peaks at just 47%.</p>
+    <p class="finding-source">Uber One awareness lead: ~4.4pp average across 2025 · Silver tier peak awareness: 47%</p>
+  </div>
+</div>
+
+<!-- BT-13: BRIDGE -->
+<div class="slide bridge-slide">
+  <div class="slide-inner">
+    <h2 class="bridge-headline">That's the view from 30,000 feet. Now let's hear what students actually&nbsp;said.</h2>
+    <p class="bridge-sub">Next: What we found in 35 interviews and 315 diary-tracked meals →</p>
   </div>
 </div>
 </div>
@@ -3188,7 +3977,7 @@ body {
 <!-- SECTION DIVIDER -->
 <div class="slide section-divider">
   <div class="slide-inner">
-    <p class="section-divider-part">Part Two</p>
+    <p class="section-divider-part">Part Three</p>
     <h1 class="section-divider-title">What we&nbsp;found</h1>
     <p class="section-divider-sub">Four findings from 35 interviews, 6 in-home visits, and 315 diary-tracked meal occasions.</p>
     <div class="section-divider-rule"></div>
@@ -3402,7 +4191,7 @@ body {
 <!-- ========== SECTION DIVIDER ========== -->
 <div class="slide" data-slide="divider" style="align-items:center;text-align:center;justify-content:center;padding:0">
   <div style="max-width:680px;margin:0 auto;padding:0 2rem">
-    <p class="anim" style="font-family:var(--sans);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.18em;color:var(--optimizer);margin-bottom:1.4rem">Part Three</p>
+    <p class="anim" style="font-family:var(--sans);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.18em;color:var(--optimizer);margin-bottom:1.4rem">Part Four</p>
     <h1 class="anim" style="font-family:var(--serif);font-size:clamp(2.4rem,5vw,3.8rem);font-weight:400;line-height:1.12;letter-spacing:-0.025em;color:var(--text);margin-bottom:1.2rem">Meet the&nbsp;students</h1>
     <p class="anim" style="font-family:var(--sans);font-size:0.92rem;line-height:1.6;color:var(--text-mid);max-width:42ch;margin:0 auto">Four personas, each representing a distinct relationship with food, delivery, and student life.</p>
     <div class="anim" style="width:48px;height:2px;background:var(--optimizer);margin:2rem auto 0;opacity:0.5"></div>
@@ -3484,7 +4273,7 @@ body {
 <!-- SECTION DIVIDER -->
 <div class="slide section-divider">
   <div class="slide-inner">
-    <p class="section-divider-part">Part Four</p>
+    <p class="section-divider-part">Part Five</p>
     <h1 class="section-divider-title">Plus &amp; the subscription&nbsp;landscape</h1>
     <p class="section-divider-sub">How students perceive Deliveroo Plus, Uber One, and the value of a delivery subscription.</p>
     <div class="section-divider-rule"></div>
@@ -3736,7 +4525,7 @@ body {
 <!-- SECTION DIVIDER -->
 <div class="slide section-divider">
   <div class="slide-inner">
-    <p class="section-divider-part">Part Five</p>
+    <p class="section-divider-part">Part Six</p>
     <h1 class="section-divider-title">Where to go from&nbsp;here</h1>
     <p class="section-divider-sub">Five opportunities shaped by what students told us — each one tied directly to a research finding.</p>
     <div class="section-divider-rule"></div>
@@ -3966,7 +4755,7 @@ body {
 <!-- S0: SECTION DIVIDER -->
 <div class="slide">
   <div class="slide-inner">
-    <p class="section-divider-part">Part Six</p>
+    <p class="section-divider-part">Part Seven</p>
     <h1 class="section-divider-title">Bringing it all&nbsp;together</h1>
     <p class="section-divider-sub">A recap of the journey from assumptions to opportunities — and where the conversation goes next.</p>
     <div class="section-divider-rule"></div>
@@ -3983,21 +4772,26 @@ body {
     </div>
     <div class="journey-panel" data-color="teal">
       <div class="journey-panel-num">02</div>
+      <div class="journey-panel-name">Brand Tracker</div>
+      <div class="journey-panel-desc">The landscape at scale</div>
+    </div>
+    <div class="journey-panel" data-color="teal">
+      <div class="journey-panel-num">03</div>
       <div class="journey-panel-name">Findings</div>
       <div class="journey-panel-desc">What the research showed</div>
     </div>
     <div class="journey-panel" data-color="orange">
-      <div class="journey-panel-num">03</div>
+      <div class="journey-panel-num">04</div>
       <div class="journey-panel-name">Personas</div>
       <div class="journey-panel-desc">Meet the students</div>
     </div>
     <div class="journey-panel" data-color="blue">
-      <div class="journey-panel-num">04</div>
+      <div class="journey-panel-num">05</div>
       <div class="journey-panel-name">Plus &amp; Competition</div>
       <div class="journey-panel-desc">The subscription landscape</div>
     </div>
     <div class="journey-panel" data-color="green">
-      <div class="journey-panel-num">05</div>
+      <div class="journey-panel-num">06</div>
       <div class="journey-panel-name">Opportunities</div>
       <div class="journey-panel-desc">Where to go from here</div>
     </div>
@@ -4385,11 +5179,15 @@ var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
     allScreens.push({ type: 'slide', el: el, section: 1 });
   });
 
+  document.querySelectorAll('.sec-bt .slide').forEach(function(el) {
+    allScreens.push({ type: 'slide', el: el, section: 'bt' });
+  });
+
   document.querySelectorAll('.sec-2 .slide').forEach(function(el) {
     allScreens.push({ type: 'slide', el: el, section: 2 });
   });
 
-  // Section 4: Personas (now Part Three — shown before competition)
+  // Section 4 class: Personas (Part Four — shown before competition)
   var s4Divider = document.querySelector('.sec-4 [data-slide="divider"]');
   var s4Title = document.querySelector('.sec-4 [data-slide="title"]');
   var s4Intro = document.querySelector('.sec-4 [data-slide="intro"]');
@@ -4416,7 +5214,7 @@ var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
   if (s4Close) allScreens.push({ type: 'slide', el: s4Close, section: 4 });
   if (s4Bridge) allScreens.push({ type: 'slide', el: s4Bridge, section: 4 });
 
-  // Section 3: Competition (now Part Four — shown after personas)
+  // Section 3 class: Competition (Part Five — shown after personas)
   document.querySelectorAll('.sec-3 .slide').forEach(function(el) {
     allScreens.push({ type: 'slide', el: el, section: 3 });
   });
@@ -4431,19 +5229,21 @@ var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
 
   // ======= CHAPTER BAR MANAGEMENT =======
   var barEls = {
+    bt: document.querySelector('.sec-bt .chapter-bar'),
     2: document.querySelector('.sec-2 .chapter-bar'),
     3: document.querySelector('.sec-3 .chapter-bar'),
     5: document.querySelector('.sec-5 .chapter-bar')
   };
 
   var chapterMaps = {
+    bt: [0, 1,1,1, 2,2,2, 3,3,3, 4,4,4, 0],
     2: [0, 1,1,1, 2,2,2, 3,3,3,3, 4,4,4, 0],
     3: [0, 1,1,1,1, 2,2,2, 3,3,3,3, 4,4,4, 0],
     5: [0, 0, 1,1, 2,2, 3,3, 4,4, 5,5, 0]
   };
 
   function hideAllBars() {
-    [2,3,5].forEach(function(k) {
+    ['bt',2,3,5].forEach(function(k) {
       if (barEls[k]) barEls[k].style.opacity = '0';
     });
   }
