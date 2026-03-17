@@ -780,6 +780,7 @@ body {
 }
 .line-chart-wrap .data-line {
   fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+  transition: stroke-dashoffset 1s var(--ease) 0.4s;
 }
 .line-chart-wrap .data-dot { stroke-width: 2; }
 .line-chart-wrap .dot-label {
@@ -799,12 +800,8 @@ body {
   display: inline-block; width: 10px; height: 10px; border-radius: 50%;
   margin-right: 0.4rem; position: relative; top: 2px;
 }
-@keyframes draw-line {
-  from { stroke-dashoffset: var(--line-len); }
-  to { stroke-dashoffset: 0; }
-}
 .data-slide.active .data-line {
-  animation: draw-line 1s var(--ease) 0.4s both;
+  stroke-dashoffset: 0 !important;
 }
 .data-slide.active .data-dot,
 .data-slide.active .dot-label {
@@ -3758,9 +3755,9 @@ body {
         <rect x="131" y="20" width="134" height="210" rx="3" fill="#34A853" opacity="0.035"/>
         <rect x="398" y="20" width="72" height="210" rx="3" fill="#34A853" opacity="0.035"/>
         <!-- Deliveroo line -->
-        <polyline class="data-line line-roo" points="65,93 198,203 332,57 465,181" style="stroke-dasharray:600;stroke-dashoffset:600;--line-len:600"/>
+        <polyline class="data-line line-roo" points="65,93 198,203 332,57 465,181" style="stroke-dasharray:600;stroke-dashoffset:600"/>
         <!-- Uber Eats line -->
-        <polyline class="data-line line-ue" points="65,140 198,81 332,101 465,69" style="stroke-dasharray:450;stroke-dashoffset:450;--line-len:450"/>
+        <polyline class="data-line line-ue" points="65,140 198,81 332,101 465,69" style="stroke-dasharray:450;stroke-dashoffset:450"/>
         <!-- Deliveroo dots + labels -->
         <circle class="data-dot dot-roo" cx="65" cy="93" r="5"/>
         <text class="dot-label label-roo" x="65" y="82">35.2%</text>
