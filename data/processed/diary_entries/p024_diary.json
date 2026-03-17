@@ -1,0 +1,369 @@
+{
+  "participant_id": "P024",
+  "scout_name": "Edna P",
+  "scout_id": "2491910",
+  "segment": "Early Grad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-17",
+      "date_submitted": "2026-02-17 20:31:31 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 07:08:28 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So in terms of my meals today, they were all based on how I was feeling and what I was craving at the time. So in the morning, I actually ate something really quickly before I went to work, which was a cheerio. It's something I really don't really have. Sometimes I don't have breakfast, but, otherwise, I do always have something that's gonna wake me up in the morning. So that's initially what I wanted. Then going on forward, I had a chicken chow mein stir fry for my lunch. Something very quick, something that I was quick that was made in that in the ten minutes. I had a little break for between work, so I went home really quickly, ate, and then came back. Something really quick that just satisfying that got me throughout the day. Something just also savory and nice. I really enjoyed that meal. Ate it, really nicely. It was very satisfying. It gave me a little bit of energy to get me through the rest of my work and then goes quickly to, the little broth that I made of noodles, the little pho. It was something that was really warm. It was cold today, so I wanted something warm like a nice broth. And it was kind of it was not really calming. Nice to finish the day after having work. It's something I really don't really make, to be fair. So I'm surprised I even made it. It was very spontaneous. I never, came and thought on my way home that I'm gonna make it. It was more of a spontaneous thing. I just looked in my fridge and I saw it. But I really enjoyed it. It was something that, I kind of just made as I was going. I was just looking at random ingredients and I saw it. So, it was something I've actually never made as well. So it's something I really enjoyed, the spontaneous spontaneity, if that's the word, of, being able to just create a meal on the spot. But it's something I would definitely cook again. I think today's meals is basically based on time and habits. Some days are is based on if I have time, but today I clearly didn't have time. I had work and then I had stuff to do after work and I was just tired. So I just made something really quickly. However, maybe I'm looking at towards the end of the week. It'll be more based on, just taste and what I'm feeling and what I've been craving as well. So that's how, that's kind of my DB for today."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 07:49:50 +0000",
+      "breakfast": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 09:39:22 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Socialising",
+          "Craving / comfort",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today I tried to eat quite a bit light because I knew I was going on a little tour with a friend and I wanted to eat all my food and make sure that there was enough time for us to talk. So I had a very light breakfast. I had more of a pastry. Throughout the day, I just had something small. I didn't really have a huge craving today, which is why I didn't really have a big meal. However, it did satisfy me at the end. I did have a lot of sweet things today. I was feeling a bit peckish for sweet things. It is the weekend. I decided to treat myself. That's right. The week I didn't have anything. I think it was something really nice, savoury, and the, dessert at the end actually fits the occasion, which I think is good. All in all was a really nice day. My food choices, I think, was really suitable. I think it's quite, relevant for what day it was. It was Saturday. So it was a chill day a week after working. I was just more relaxed. And I usually feel peckish on the Saturday feeling wanting to eat sweet things. So it kinda fit what I usually have the routine the routine. So, yeah, I think all in all, it was a good day. Today or Sunday, I'm thinking what it might be similar. I do go out on Sundays. So, I think it might be a bit similar. However, yeah, we'll see what till date is in my rings."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 10:46:02 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Uber Eats",
+        "why_ordered": "Was craving KFC and didn’t want to cook",
+        "reasons": [
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 10:12:47 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 07:40:57 +0000",
+      "breakfast": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today, I did feel quite peckish. I had a lot of meals today. And, even this morning, I had a donut. I think, a lot of today's meal was just cravings. As of now, I'm even eating a nice shrimp Alfredo carbonara, meal. And I think it shows how throughout the days, especially looking at this journal and this diary I've been doing, how depending on what attitude, what mood I'm in, and if I'm tired, kinda depends on the type of food I wanna eat. I think I really liked doing this in the sense of I learned a lot about my appetite and learning what I do and what I eat. I've realized even throughout this diary that I have done a lot of takeaways, and I think my aim will be more to cook at home more as I have today. I think today, I just felt like another craving of eating something sweet, so, I decided to make a carbonara, meal. As of today, I didn't really eat as much. I did have wing stop, and I did eat out. But, I think it was a good experience. It was very beneficial. I think, yes, I learned hello also. And, yeah, I think that's explained today. And just to show an additional meal, this is an additional meal that I'm eating today."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 2,
+    "delivery_orders": 1,
+    "delivery_apps_used": [
+      "Uber Eats"
+    ],
+    "top_reasons": [
+      "Craving / comfort",
+      "Socialising",
+      "Time / convenience",
+      "Didn’t feel like cooking",
+      "Price / budget"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

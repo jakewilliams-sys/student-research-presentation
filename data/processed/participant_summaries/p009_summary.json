@@ -1,0 +1,104 @@
+{
+  "participant_id": "P009",
+  "summary": "Aayush is a final-year accounting student living with parents in London who presents himself as a heavy delivery user but whose actual behavior is more home-cooking oriented. He's highly engaged with social media (8-9 hours daily) and positions himself as deal-savvy and convenience-driven, yet his diary reveals a more traditional eating pattern with frequent home meals and only occasional delivery orders. His communication style is enthusiastic but sometimes contradictory - he claims to cook 'once a week' while actually cooking most meals at home. He's strategically loyal to Uber Eats due to the 5% cashback from Uber One, requiring a £3-4 price difference to switch platforms. His relationship with food delivery appears more aspirational than actual - he wants to be seen as a modern, convenience-oriented student but his behavior suggests he's still quite dependent on family meal structures.",
+  "personality_notes": "Talkative and eager to please, but somewhat scattered in responses. Shows self-awareness about potentially excessive behaviors (social media use). Tends to give aspirational answers that don't always match reality. Friendly and open, but occasionally needs questions repeated.",
+  "food_relationship": "Presents as convenience-driven delivery user but actually relies heavily on family home cooking with strategic, deal-focused delivery ordering.",
+  "key_moments": [
+    {
+      "timestamp": "1:04-1:07",
+      "description": "Describes typical day routine in detail, revealing structured family meal times",
+      "significance": "Shows actual dependence on family food structure despite claims of independence"
+    },
+    {
+      "timestamp": "1:64-1:66",
+      "description": "Admits to 8-9 hours daily social media use with self-conscious preface",
+      "significance": "Reveals high digital engagement and self-awareness about potentially excessive behavior"
+    },
+    {
+      "timestamp": "1:372-1:374",
+      "description": "Explains loyalty to Uber due to 5% cashback despite price differences",
+      "significance": "Shows sophisticated understanding of subscription economics and loyalty drivers"
+    }
+  ],
+  "what_not_said": [
+    "Specific financial pressures despite living with parents",
+    "Details about family dynamics around food decisions",
+    "Academic stress or performance concerns"
+  ],
+  "initial_hypotheses": [
+    "Subscription benefits create stronger loyalty than claimed price sensitivity",
+    "Family living situation provides food security that enables 'experimental' delivery ordering",
+    "Social media influence on food choices may be overstated compared to convenience factors"
+  ],
+  "questions_for_coding": [
+    "How do subscription mechanics actually influence ordering frequency vs. stated preferences?",
+    "What role does family food security play in delivery ordering confidence?",
+    "How do students rationalize delivery spending when living with parents?"
+  ],
+  "diary_summary": "Actually cooked at home for 15/21 meals with only 2 delivery orders across 7 days, frequently skipped lunch due to schedule pressures, and showed strong routine around family breakfast and dinner times.",
+  "say_do_gaps": [
+    "Claims to cook 'once a week' but diary shows regular home cooking",
+    "Estimates 2-3 delivery orders per week but only placed 2 in diary week",
+    "Positions himself as convenience-driven but shows strong adherence to family meal routines",
+    "Claims independence in food decisions but diary shows frequent family meals"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: I think like obviously don't, don't get surprised.\nspk_1: That's a lot. But yeah, roughly around eight or nine hours.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 3267,
+      "end_char_index": 3392,
+      "participant_id": "P009"
+    },
+    {
+      "cited_text": "Oh yeah, that's an interesting question because I love eating everything.\nspk_1: But I would say, I would say anything.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 8547,
+      "end_char_index": 8667,
+      "participant_id": "P009"
+    },
+    {
+      "cited_text": "spk_1: I would say like once a week obviously.\nspk_1: Like to be honest, because it's only once my day.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 6509,
+      "end_char_index": 6613,
+      "participant_id": "P009"
+    },
+    {
+      "cited_text": "And if I really feel to cook, then only I cook.\nspk_1: So I would say yeah, once a week.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 6655,
+      "end_char_index": 6744,
+      "participant_id": "P009"
+    },
+    {
+      "cited_text": "Like I was saying, like, I think I started to order more because usually before, like in my first or second year, I used to have time, but now I'm like, like my schedule is really packed.\nspk_1: Like I have classes on weekdays and work on weekends, so I just Tend to order more food like maybe two to three times a day now.\nspk_1: A week now.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 13653,
+      "end_char_index": 13996,
+      "participant_id": "P009"
+    },
+    {
+      "cited_text": "spk_1: I would say like a pound really don't matter to me.\nspk_1: But yeah, obviously I would see, because the thing is, like I've got the Uber one and when you order with Uber one, you get like 5% of your credit back.\nspk_1: So I would still tend to order with Uber.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 21401,
+      "end_char_index": 21669,
+      "participant_id": "P009"
+    },
+    {
+      "cited_text": "spk_1: I would say yes, just to cover the cost of my subscription.\nspk_1: Yeah.\n",
+      "document_title": "Interview Transcript — P009",
+      "document_index": 0,
+      "start_char_index": 23377,
+      "end_char_index": 23457,
+      "participant_id": "P009"
+    }
+  ],
+  "_citation_count": 7
+}

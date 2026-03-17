@@ -1,0 +1,173 @@
+{
+  "participant_id": "P024",
+  "summary": "Edna is a highly engaged, socially-connected 22-year-old in transition between student and working life. She presents as someone who values quality and has strong opinions about food, claiming to be the primary cook in her household who only makes 'decent meals' that take time. However, her actual behavior reveals a heavy reliance on delivery - ordering 'the majority of the time recently' and making impulsive 1am McDonald's orders when sick. This contradiction suggests either social desirability bias or genuine internal conflict about her food identity versus reality.\n\nWhat's particularly striking is how dramatically her relationship with food delivery has shifted since earning her own money. She's moved from budget-constrained student behavior (ordering 'cheapest meals' like KFC) to being 'more open to trying different things' and prioritizing 'taste over price.' She's highly influenced by social media (spending 15 hours daily online) and uses TikTok food content as cooking inspiration, yet this digital engagement often translates into delivery orders rather than actual cooking. Her decision-making is heavily peer-influenced, particularly around subscriptions where she relies on friends' experiences rather than trying services herself.",
+  "personality_notes": "Articulate and self-aware communicator who gives detailed, thoughtful responses. Shows consideration for social sensitivities. Very digitally engaged (15 hours daily social media use). Appears confident in her opinions but shows some hesitation around potentially controversial topics.",
+  "food_relationship": "Claims to be a quality-focused cook but actually relies heavily on delivery, with behavior increasingly driven by convenience, social media influence, and newfound financial freedom.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Contradiction between claiming to cook frequently vs admitting to ordering 'majority of the time recently'",
+      "significance": "Reveals gap between food identity and actual behavior - key for understanding delivery usage patterns"
+    },
+    {
+      "timestamp": "1-289 to 1-293",
+      "description": "Describes how earning money has changed ordering habits from budget-focused to taste-focused",
+      "significance": "Shows clear life stage transition impact on food delivery behavior - relevant for targeting recent graduates"
+    },
+    {
+      "timestamp": "1-254 to 1-263",
+      "description": "1am McDonald's order when sick, disappointed with hour-long delivery",
+      "significance": "Demonstrates delivery as fallback solution even when experience is poor - shows dependency"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned specific cooking skills or favorite recipes despite claiming to cook frequently",
+    "Avoided discussing actual food budget constraints despite being in part-time work",
+    "Did not elaborate on what 'decent meals' actually means when she cooks"
+  ],
+  "initial_hypotheses": [
+    "Heavy social media use drives food discovery but converts to delivery orders rather than cooking",
+    "Recent financial independence is driving experimentation with premium delivery options",
+    "Word-of-mouth peer influence is stronger than personal experience for service adoption",
+    "Claims about cooking frequency may be aspirational rather than actual behavior"
+  ],
+  "questions_for_coding": [
+    "How do participants reconcile their food identity with actual delivery behavior?",
+    "What role does life stage transition play in delivery app loyalty and spending?",
+    "How does social media food content influence delivery vs cooking decisions?",
+    "Do participants who claim to cook frequently actually order more than they admit?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: A lot of time. It's the majority of my day, so I would say about 15 hours.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 2884,
+      "end_char_index": 2966,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I don't want to sound offensive,\nspk_0: honestly, you won't be offending me.\nspk_1: So essentially, I always think they're always ethnic or they're always from a different ethnicity or race.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 33048,
+      "end_char_index": 33246,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'll say me because I cook a lot, but yeah, it's kind of divided essentially.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 2020,
+      "end_char_index": 2105,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But the majority of the time recently I've just been ordering.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 5085,
+      "end_char_index": 5155,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Cooking means actually making something because I don't really like making quick meals.\nspk_1: If I cook, it's something that I'm going to like and enjoy.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 6934,
+      "end_char_index": 7096,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: If I'm going to cook and spend time to cook, I'll actually make a decent meal.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 7235,
+      "end_char_index": 7321,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So it was literally this morning at 1:00'.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 12871,
+      "end_char_index": 12921,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And because I'm a bit sick, I kind of didn't want to go out and actually cook, so I just ordered.\nspk_1: And unfortunately, the delivery process wasn't the best.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 13016,
+      "end_char_index": 13185,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I would definitely say that I've been more open to trying different things, especially because I earn my own money.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 14445,
+      "end_char_index": 14568,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But now that I earn my own money, I'm more accustomed to trying more restaurants, more different tastes.\nspk_1: So it's definitely changed.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 14791,
+      "end_char_index": 14938,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "She's very popular and that's where I get a lot of inspiration from my cooking.\nspk_1: So when I'm in the kitchen cooking a lot, so I get a lot of inspiration from a lot of influencers.\nspk_1: If I'm just scrolling on my for you page and I see something I like or there's a viral meal going around, I always like to try it and just do it myself.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 3316,
+      "end_char_index": 3662,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think it's based on word of mouth.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 22659,
+      "end_char_index": 22703,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I have my friends who have Uber Eats one.\nspk_1: And I know you don't pay delivery costs, but they've seen that sometimes their delivery is basically the same.\n",
+      "document_index": 0,
+      "document_title": "P024 - P024 - Interview Transcript",
+      "start_char_index": 22724,
+      "end_char_index": 22884,
+      "participant_id": "P024",
+      "participant_name": "P024"
+    }
+  ],
+  "_citation_count": 13
+}

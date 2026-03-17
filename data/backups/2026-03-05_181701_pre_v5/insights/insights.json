@@ -1,0 +1,530 @@
+{
+  "insights": [
+    {
+      "insight_id": "INS_001",
+      "research_objective": "RO3",
+      "insight": "Friday evening delivery ordering represents a strong 'treat' ritual, predominantly among undergraduates (87% mention it) and graduates (100%), with weaker adoption among postgraduates (50%). While widespread, the pattern is not fully universal.",
+      "so_what": "This creates a predictable high-value ordering window that Deliveroo can systematically target with premium offerings and social features",
+      "evidence_summary": {
+        "supporting_quotes": 24,
+        "participants": 28,
+        "segments": {
+          "Strategic Optimizer": 7,
+          "Social Rewarder": 9,
+          "Budget-Conscious Minimalist": 6,
+          "Convenience Dependent": 6
+        }
+      },
+      "contradicting_evidence": 2,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Launch 'Friday Feast' feature with group ordering tools, social sharing, and premium restaurant curation specifically for Friday 6-9pm",
+          "rationale": "Capitalizes on established behavioral pattern while addressing social dynamics that drive higher order values"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Create Friday-specific push notifications and email campaigns positioning delivery as 'earned reward' rather than convenience",
+          "rationale": "Aligns with emotional drivers while reducing guilt associated with delivery spending"
+        }
+      ],
+      "confidence_notes": "Devil's Advocate challenge: 70% of sample are undergraduates, which may inflate perceived universality. Corrected analysis shows strong but not uniform cross-stage adoption. Postgraduates show lowest engagement, possibly due to different social patterns.",
+      "sample_caveat": "Undergraduate-dominant sample (70%) may overrepresent treat-oriented framing."
+    },
+    {
+      "insight_id": "INS_002",
+      "research_objective": "RO4",
+      "insight": "Academic stage does NOT produce a linear emotional-to-functional progression. Instead, three distinct patterns emerge: undergraduates combine high price sensitivity (12.9 mentions/person) with moderate emotional reward framing (2.4/person); postgraduates are a uniquely functional group — least emotionally driven (0.2/person), most health-aware (2.2/person, 100%), and least cooking-oriented (3.2/person); while graduates unexpectedly show the HIGHEST emotional reward framing (3.0/person, 100%) alongside the lowest price sensitivity (7.3/person) and convenience reliance (10.3/person).",
+      "so_what": "Deliveroo needs three distinct value propositions, not a graduated continuum: undergraduates need price-first messaging with emotional 'treat' positioning; postgraduates respond to health-conscious, convenience-first, socially-aware messaging; graduates are most receptive to premium emotional positioning (quality, indulgence, reward) because they can afford it and no longer feel guilty about it.",
+      "evidence_summary": {
+        "supporting_quotes": 31,
+        "participants": 29,
+        "segments": {
+          "Transitional Explorer": 4,
+          "Strategic Optimizer": 8,
+          "Convenience Dependent": 6
+        }
+      },
+      "contradicting_evidence": 4,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Develop three stage-specific Plus tiers: student tier (free delivery focus), postgrad tier (health-forward restaurant curation + social features), graduate tier (premium restaurant access + quality positioning)",
+          "rationale": "Each stage has fundamentally different value drivers that a single subscription model cannot address"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Create stage-specific campaign messaging: 'Smart Student Eats' (price/value), 'Fuel Your Focus' (health/convenience for postgrads), 'You've Earned It' (premium emotional reward for graduates)",
+          "rationale": "Aligns messaging with the actual emotional and rational drivers at each stage rather than assuming linear progression"
+        },
+        {
+          "type": "retention",
+          "recommendation": "Build transition detection into CRM to identify stage shifts (graduation, postgrad enrollment) and proactively adjust value proposition before churn occurs",
+          "rationale": "The dramatic shift in drivers between stages (especially the emotional drop for postgrads) creates high churn risk at transition points"
+        }
+      ],
+      "confidence_notes": "Devil's Advocate challenge accepted: academic stage is likely a proxy for broader life circumstance changes (income, independence, work schedules). The undergraduate-to-graduate shift is NOT a simple linear progression from emotional to functional. Postgraduates are the outlier, not the midpoint.",
+      "sample_caveat": "Small postgraduate (n=4) and graduate (n=6) subsamples limit generalisability of stage-specific claims.",
+      "stage_comparison": {
+        "undergraduate": {
+          "n": 23,
+          "price_sensitivity": "HIGH (12.9 mentions/person)",
+          "emotional_reward": "MODERATE (2.4/person, 91% mention)",
+          "convenience": "HIGH (16.3/person)",
+          "health_awareness": "LOW (0.9/person, 43%)",
+          "cooking_identity": "MODERATE (5.6/person)",
+          "social_ordering": "MODERATE (4.5/person)",
+          "key_behaviour": "Price-driven with emotional treat framing; most platform-comparative"
+        },
+        "postgraduate": {
+          "n": 4,
+          "price_sensitivity": "MODERATE (11.5 mentions/person)",
+          "emotional_reward": "VERY LOW (0.2/person, only 25% mention)",
+          "convenience": "HIGH (15.2/person)",
+          "health_awareness": "VERY HIGH (2.2/person, 100%)",
+          "cooking_identity": "LOW (3.2/person)",
+          "social_ordering": "HIGHEST (5.2/person)",
+          "key_behaviour": "Functional and health-conscious; most socially influenced; least emotional about delivery"
+        },
+        "graduate": {
+          "n": 6,
+          "price_sensitivity": "LOW (7.3 mentions/person)",
+          "emotional_reward": "HIGHEST (3.0/person, 100% mention)",
+          "convenience": "MODERATE (10.3/person)",
+          "health_awareness": "LOW (0.5/person, 33%)",
+          "cooking_identity": "MODERATE (5.0/person)",
+          "social_ordering": "LOWEST (3.3/person)",
+          "key_behaviour": "Premium-oriented; strongest emotional framing; least price-sensitive; most individual in ordering"
+        }
+      }
+    },
+    {
+      "insight_id": "INS_003",
+      "research_objective": "RO2",
+      "insight": "Exam periods create predictable stress-driven ordering spikes across all segments, overriding normal budget constraints and cooking habits",
+      "so_what": "Academic calendar stress points represent high-value acquisition and retention opportunities with reduced price sensitivity",
+      "evidence_summary": {
+        "supporting_quotes": 19,
+        "participants": 22,
+        "segments": {
+          "Social Rewarder": 8,
+          "Budget-Conscious Minimalist": 5,
+          "Strategic Optimizer": 6,
+          "Convenience Dependent": 3
+        }
+      },
+      "contradicting_evidence": 3,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Launch targeted 'Exam Fuel' campaigns during university exam periods with comfort food curation and study-friendly packaging",
+          "rationale": "Captures high-intent moments when normal budget constraints are relaxed and convenience need is acute"
+        },
+        {
+          "type": "partnerships",
+          "recommendation": "Partner with universities to provide exam period meal deals and late-night delivery extensions during revision periods",
+          "rationale": "Positions Deliveroo as student welfare partner while capturing high-value stress-driven demand"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_004",
+      "research_objective": "RO3",
+      "insight": "Group ordering in shared accommodation creates social pressure that drives higher order values and frequency, particularly among Social Rewarders and Strategic Optimizers",
+      "so_what": "Social dynamics represent untapped value creation opportunity through features that facilitate and gamify group ordering experiences",
+      "evidence_summary": {
+        "supporting_quotes": 16,
+        "participants": 17,
+        "segments": {
+          "Social Rewarder": 9,
+          "Strategic Optimizer": 6,
+          "Convenience Dependent": 2
+        }
+      },
+      "contradicting_evidence": 2,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Develop enhanced group ordering features with split billing, voting mechanisms, and social sharing to reduce friction and increase participation",
+          "rationale": "Removes practical barriers while amplifying social pressure that drives higher order values"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Create 'House Feast' marketing campaigns targeting shared accommodation with group discounts and social challenges",
+          "rationale": "Leverages social dynamics while providing economic incentive for higher-value group orders"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_005",
+      "research_objective": "RO5",
+      "insight": "Deliveroo Plus faces a significant competitive disadvantage versus Uber One among students, driven by Uber One's current cross-service bundling. Uber One is referenced by 24 participants (14 current subscribers, 10 non-subscribers who mentioned it) versus 11 current Deliveroo Plus subscribers, with Uber One's cross-service ecosystem (taxi, train, flights) creating ecosystem-driven retention that food delivery alone cannot match. Meanwhile, Plus subscription does successfully drive increased ordering frequency through economic rationality — negative sentiment (65 neg vs 38 pos among undergrads; 13 neg vs 7 pos among postgrads) coexists with continued usage because per-order savings create genuine utility. However, Plus suffers from three critical barriers: (1) awareness gap — 5 participants don't understand what Plus/Silver gives them; (2) minimum order threshold — 15 segments cite frustration that Plus benefits are locked behind £15-25 spend minimums that exceed typical solo orders of £8-12; (3) service fee erosion — 27 service fee mentions across 11 participants undermine the perceived value of 'free delivery' when students still see fees added.",
+      "evidence_methodology_note": "Uber One count (24) includes all conversational references; Deliveroo Plus count (11) includes only confirmed subscribers. Like-for-like subscription comparison is 14 vs 11.",
+      "so_what": "Deliveroo Plus is losing the student subscription battle to Uber One not on food quality but on ecosystem breadth and benefit clarity. Free Plus Silver via Prime creates passive subscribers who don't understand or engage with their benefits. To compete, Plus needs to simplify its value proposition around free delivery (the singular driver — 47 mentions, 21 participants), eliminate or reduce minimum order barriers for solo student ordering, and build cross-service value partnerships to match Uber One's transport advantage.",
+      "evidence_summary": {
+        "supporting_quotes": 207,
+        "participants": 32,
+        "segments": {
+          "Strategic Optimizer": 46,
+          "Social Rewarder": 52,
+          "Budget-Conscious Minimalist": 39,
+          "Convenience Dependent": 25,
+          "Transitional Explorer": 13
+        },
+        "note": "207 segments across 5 sub-topics: subscription attitudes (52), service fee complaints (27), minimum order frustration (15), competitive comparison (68), acquisition/churn (45). Not 207 quotes supporting a single claim."
+      },
+      "contradicting_evidence": 5,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Eliminate or significantly reduce the minimum order requirement for Plus subscribers. Solo student orders (£8-12) fall below the current £15-25 threshold, locking out the primary value proposition for a large segment of student ordering occasions.",
+          "rationale": "15 frustration segments directly cite minimum order as a barrier; 40%+ of student ordering occasions are solo"
+        },
+        {
+          "type": "product",
+          "recommendation": "Remove or absorb service fees for Plus subscribers to deliver on the 'free delivery' promise without hidden costs. Current model of 'free delivery + service fee' creates trust erosion.",
+          "rationale": "27 service fee complaints across 11 participants; students explicitly say 'free delivery doesn't feel free when there's still a service fee'"
+        },
+        {
+          "type": "product",
+          "recommendation": "Introduce subscription pause/resume functionality for holiday periods (Christmas, summer, study abroad) to reduce churn at predictable break points.",
+          "rationale": "Students have 3-4 non-ordering periods per year; currently must cancel entirely or keep paying"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Create active onboarding for Silver (Prime) subscribers with a savings dashboard showing cumulative value, monthly savings reports, and clear upgrade path to paid Plus tiers.",
+          "rationale": "5 participants confused about Silver benefits; passive Prime acquisition doesn't create engaged subscribers"
+        },
+        {
+          "type": "strategic",
+          "recommendation": "Build cross-service partnerships (cinema, gym, transport) to create ecosystem value beyond food delivery and compete with Uber One's transport bundle advantage.",
+          "rationale": "7 participants explicitly cite Uber One transport value (taxi/train) as reason for choosing Uber Eats over Deliveroo"
+        },
+        {
+          "type": "retention",
+          "recommendation": "Create a 'graduation bridge' offer that transitions graduating students to paid Plus with an introductory rate before they default to Uber One in post-university life.",
+          "rationale": "Graduates show lowest subscription engagement (2.2 mentions/person vs 3.8 undergrad); graduation is the highest churn-risk moment"
+        }
+      ],
+      "confidence_notes": "Reframed from 'behavioral paradox' to 'competitive positioning analysis' based on comprehensive analysis of 207 subscription segments across 32 participants. The economic rationality finding holds but is now contextualised within the broader competitive landscape where Uber One's ecosystem advantage creates a current competitive disadvantage for food-only subscription models.",
+      "competitive_data": {
+        "uber_one_reach": "24 participants (73%)",
+        "deliveroo_plus_reach": "11 participants (33%)",
+        "multi_sub_holders": "9 participants hold both",
+        "uber_one_transport_value": "7 participants cite taxi/train as key Uber One advantage",
+        "free_delivery_mentions": "47 mentions across 21 participants (dominant driver)",
+        "service_fee_complaints": "27 mentions across 11 participants",
+        "minimum_order_frustration": "15 segments across 8 participants",
+        "plus_confusion": "5 participants unclear on Plus/Silver benefits",
+        "cancellation_count": "4 participants cancelled subscriptions"
+      },
+      "acquisition_channels": {
+        "student_offer": "22 segments — dominant channel, often via app or university marketing",
+        "youtube_tiktok_ad": "56 segments — high social media awareness but unclear conversion",
+        "freshers_fair": "9 segments — critical onboarding moment at start of academic year",
+        "word_of_mouth": "6 segments — peer influence drives trial",
+        "prime_bundle": "5 segments — passive acquisition, low engagement",
+        "free_trial": "5 segments — trial creates temporary engagement but low conversion",
+        "notification_popup": "4 segments — in-app prompts drive sign-ups"
+      },
+      "deep_dive_reference": "DD_001: Subscription behavioral paradox mechanism; DD_004: Deliveroo Plus competitive positioning"
+    },
+    {
+      "insight_id": "INS_006",
+      "research_objective": "RO1",
+      "insight": "Budget-Conscious Minimalists maintain strong cooking identity but show delivery vulnerability during time pressure and social situations",
+      "so_what": "Price-sensitive segments can be converted through targeted convenience messaging during specific high-pressure moments rather than broad value propositions",
+      "evidence_summary": {
+        "supporting_quotes": 12,
+        "participants": 7,
+        "segments": {
+          "Budget-Conscious Minimalist": 7
+        }
+      },
+      "contradicting_evidence": 1,
+      "confidence": "medium",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Create time-pressure specific campaigns (deadlines, late nights, unexpected events) that position delivery as practical solution rather than indulgence",
+          "rationale": "Reduces cognitive dissonance by framing delivery as necessity rather than luxury for price-sensitive users"
+        },
+        {
+          "type": "pricing",
+          "recommendation": "Develop emergency delivery options with transparent pricing that appeals to Budget-Conscious users during high-need moments",
+          "rationale": "Captures low-frequency but high-intent ordering occasions while maintaining price transparency"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_007",
+      "research_objective": "RO2",
+      "insight": "Multi-platform usage appears common with students choosing platforms based on specific occasions rather than loyalty, with Deliveroo winning on restaurant variety and quality perception",
+      "so_what": "Rather than fighting multi-homing, Deliveroo should own specific high-value occasions where restaurant quality and variety matter most",
+      "evidence_summary": {
+        "supporting_quotes": 18,
+        "participants": 15,
+        "segments": {
+          "Strategic Optimizer": 8,
+          "Social Rewarder": 4,
+          "Transitional Explorer": 3
+        }
+      },
+      "contradicting_evidence": 3,
+      "confidence": "medium",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Position Deliveroo as the 'special occasion' platform for celebrations, group orders, and premium dining experiences",
+          "rationale": "Leverages existing quality perception while accepting multi-platform reality and focusing on highest-value occasions"
+        },
+        {
+          "type": "product",
+          "recommendation": "Enhance restaurant discovery and curation features to reinforce variety advantage over competitors",
+          "rationale": "Strengthens key differentiator that drives platform choice for quality-focused ordering occasions"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_008",
+      "research_objective": "RO4",
+      "insight": "Transitional Explorers show experimental behavior with new platforms and restaurants, suggesting openness to brand switching during life transitions",
+      "so_what": "Life transition moments represent both retention risk and acquisition opportunity requiring proactive engagement strategies",
+      "evidence_summary": {
+        "supporting_quotes": 8,
+        "participants": 4,
+        "segments": {
+          "Transitional Explorer": 4
+        }
+      },
+      "contradicting_evidence": 1,
+      "confidence": "tentative",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Develop transition-specific campaigns targeting graduation, job starts, and relocations with location-based restaurant recommendations",
+          "rationale": "Captures experimental mindset during transitions while demonstrating local relevance and value"
+        },
+        {
+          "type": "product",
+          "recommendation": "Create onboarding flows for users changing locations that highlight local restaurant partners and delivery areas",
+          "rationale": "Reduces friction during transitions while showcasing platform value in new contexts"
+        }
+      ],
+      "confidence_notes": "Only 3 participants (P014 removed as never interviewed). Should be treated as situational behaviour during life transitions rather than a distinct persona segment. Requires validation with larger sample."
+    },
+    {
+      "insight_id": "INS_009",
+      "research_objective": "RO4",
+      "insight": "Postgraduates represent a uniquely functional segment that defies the expected student profile: they are the most health-aware (100% vs 43% undergrad, 33% grad), least emotionally driven (only 25% use reward/treat framing vs 91% undergrad, 100% grad), most socially influenced (5.2 social mentions/person vs 4.5 undergrad, 3.3 grad), and least cooking-oriented (3.2 cooking mentions/person vs 5.6 undergrad, 5.0 grad). This suggests postgraduate life — characterised by older age, professional experience, and time scarcity — creates a distinct relationship with food delivery that neither undergraduate nor graduate patterns predict.",
+      "so_what": "Postgraduates are an underserved micro-segment requiring entirely different positioning. They don't respond to 'treat yourself' messaging (only 25% use emotional framing) but are highly receptive to health-forward, socially-integrated, time-saving propositions. This is Deliveroo's opportunity to own the 'healthy convenience' positioning for time-poor professionals.",
+      "evidence_summary": {
+        "supporting_quotes": 15,
+        "participants": 4,
+        "segments": {
+          "Convenience Dependent": 1,
+          "Social Rewarder": 1,
+          "Budget-Conscious Minimalist": 1,
+          "Strategic Optimizer": 1
+        }
+      },
+      "contradicting_evidence": 0,
+      "confidence": "indicative",
+      "confidence_notes": "Strong internal consistency across all 4 postgraduate participants, but small sample (n=4) means this should be treated as an indicative finding requiring validation. The 4 postgrads are distributed across 4 different personas, suggesting academic stage may be a stronger predictor than persona for certain dimensions.",
+      "sample_caveat": "n=4 postgraduates. Finding is indicative and requires validation with larger sample.",
+      "participants": [
+        "P017",
+        "P018",
+        "P031",
+        "P034"
+      ],
+      "participant_details": {
+        "P017": "Jill — qualified dietitian, 30+, postgrad study + sustainability work. Most health-aware participant.",
+        "P018": "Louise — Master's in Global Health, 26-29, works NHS 4 days/week. Classic time-poor postgrad.",
+        "P031": "Apollo — Kenyan Masters student at UCD, 26-29. Extremely regimented eating routine.",
+        "P034": "Jade — PhD student at Oxford, 27, final year. Pragmatic and self-aware."
+      },
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Directional recommendation (small sample: n=4): Explore a 'Deliveroo Health' curation for postgrad/professional students with calorie info, nutritional filtering, and health-forward restaurant partnerships. Validate with quantitative survey before investment.",
+          "rationale": "All 4 postgrads show health awareness vs 43% of undergrads — an early signal of an unmet need requiring validation"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Directional recommendation (small sample: n=4): Test postgrad-specific messaging at universities with large postgrad populations (e.g., King's, Oxford, UCD) emphasising healthy convenience over treat/reward framing, measuring response against standard campaigns.",
+          "rationale": "Initial signal that postgrads may not respond to emotional reward framing — small-scale A/B test warranted before broader rollout"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_010",
+      "research_objective": "RO5",
+      "insight": "Free delivery is the singular, dominant subscription value driver for students — mentioned 47 times across 21 participants (64%). All other subscription benefits (cashback, retail partners, grocery offers, priority support) consistently rank lower and are frequently unknown or unused. Students evaluate subscription ROI almost entirely on whether it eliminates their delivery fee, making 'free delivery' the make-or-break benefit that determines perceived subscription value.",
+      "so_what": "Plus messaging that leads with secondary benefits (cashback, retail partners, Boots/grocery offers) is misaligned with what students actually value. Simplifying the Plus value proposition to 'free delivery on every order' would dramatically improve clarity and perceived value. Every additional fee or restriction (service fees, minimum orders) that appears after 'free delivery' directly undermines the core promise.",
+      "evidence_summary": {
+        "supporting_quotes": 47,
+        "participants": 21,
+        "segments": {
+          "Strategic Optimizer": 9,
+          "Social Rewarder": 7,
+          "Budget-Conscious Minimalist": 6,
+          "Convenience Dependent": 5,
+          "Transitional Explorer": 2
+        }
+      },
+      "contradicting_evidence": 0,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Restructure all Plus student marketing to lead with 'Free delivery on every order' as the single hero message. Demote secondary benefits to supporting copy rather than equal positioning.",
+          "rationale": "47 mentions of free delivery vs <5 for any other benefit; students cannot name other Plus benefits when asked"
+        },
+        {
+          "type": "product",
+          "recommendation": "Ensure free delivery is truly free — eliminate or absorb service fees for Plus subscribers so the 'free delivery' promise is not undermined by visible additional charges.",
+          "rationale": "27 service fee complaints show students feel 'free delivery + service fee' is deceptive; trust erosion outweighs marginal fee revenue"
+        },
+        {
+          "type": "product",
+          "recommendation": "Show cumulative delivery fee savings in the app ('You've saved £47 on delivery this term') to reinforce the primary value proposition in real-time.",
+          "rationale": "Economic rationality drives subscription retention — students need concrete proof that Plus is saving them money"
+        }
+      ],
+      "value_driver_hierarchy": {
+        "rank_1": {"benefit": "Free delivery", "mentions": 47, "participants": 21, "pct": 64},
+        "rank_2": {"benefit": "Promotions/offers", "mentions": 18, "participants": 12, "pct": 36},
+        "rank_3": {"benefit": "Cashback/credits", "mentions": 8, "participants": 6, "pct": 18},
+        "rank_4": {"benefit": "Retail partners", "mentions": 3, "participants": 3, "pct": 9},
+        "rank_5": {"benefit": "Grocery offers", "mentions": 2, "participants": 2, "pct": 6}
+      },
+      "deep_dive_reference": "DD_004: Deliveroo Plus competitive positioning"
+    },
+    {
+      "insight_id": "INS_011",
+      "research_objective": "RO5",
+      "insight": "Uber One's cross-service ecosystem creates a current competitive advantage over Deliveroo Plus that food delivery benefits alone cannot overcome. 7 participants explicitly value Uber One for taxi/train integration, making the subscription 'worth it' even during periods of low food ordering. Uber One is referenced by 24 participants (14 current subscribers, 10 non-subscribers who mentioned it) versus 11 current Deliveroo Plus subscribers, and 9 students hold both subscriptions — defaulting to Uber Eats for routine orders while using Deliveroo when specific restaurants or deals make it worthwhile.",
+      "so_what": "Deliveroo is competing against an ecosystem, not just a food delivery subscription. Uber One subscribers see food delivery as a bonus on top of transport value, creating stickiness that makes them unlikely to switch even when Deliveroo offers better individual deals. Deliveroo needs to build equivalent cross-service value through partnerships, or risk being permanently relegated to a secondary platform for dual subscribers.",
+      "evidence_summary": {
+        "supporting_quotes": 22,
+        "participants": 24,
+        "segments": {
+          "Strategic Optimizer": 10,
+          "Social Rewarder": 6,
+          "Convenience Dependent": 4,
+          "Budget-Conscious Minimalist": 3,
+          "Transitional Explorer": 1
+        }
+      },
+      "contradicting_evidence": 2,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "strategic",
+          "recommendation": "Pursue strategic partnerships with transport (rail, bus, ride-hailing), entertainment (cinema, streaming), or lifestyle (gym, fitness) services to create cross-service ecosystem value comparable to Uber One.",
+          "rationale": "7 participants explicitly cite transport bundle as why they choose Uber over Deliveroo; food-only subscription cannot compete"
+        },
+        {
+          "type": "strategic",
+          "recommendation": "Strengthen and better activate the Amazon Prime partnership — currently a passive acquisition channel producing confused, disengaged subscribers. Make Prime-linked Silver feel like a premium benefit, not an afterthought.",
+          "rationale": "5 participants acquired Silver via Prime but most don't know what it gives them; this is the closest Deliveroo has to an ecosystem play"
+        },
+        {
+          "type": "product",
+          "recommendation": "For dual subscribers (estimated 27% of sample), create exclusive Deliveroo advantages for occasions where Deliveroo is naturally stronger: restaurant quality, group ordering, special occasions, and local independent restaurants.",
+          "rationale": "9 dual subscribers default to Uber for routine orders; Deliveroo needs to own the occasions where its restaurant quality advantage matters most"
+        }
+      ],
+      "uber_one_advantages": [
+        "Transport integration (taxi, train, flights) — 7 participants",
+        "Cross-service cashback/credits that accumulate across food + transport — 4 participants",
+        "Broader brand presence through ride-hailing creates top-of-mind awareness — 3 participants",
+        "Single ecosystem for 'everything' reduces app switching fatigue — 2 participants"
+      ],
+      "deliveroo_plus_advantages": [
+        "Restaurant quality and variety perception — 6 participants",
+        "Prime bundle makes it 'free' for existing subscribers — 5 participants",
+        "Student Silver tier has lower barrier to entry — 3 participants"
+      ],
+      "deep_dive_reference": "DD_004: Deliveroo Plus competitive positioning"
+    },
+    {
+      "insight_id": "INS_012",
+      "research_objective": "RO5",
+      "insight": "Subscription pause/resume is an unmet student need that drives unnecessary churn. Students have 3-4 predictable non-ordering periods per year (Christmas break, Easter, summer holiday, study abroad) during which they either keep paying for unused subscriptions or cancel entirely. P025 explicitly suggests 'you can pause it anytime... say you're going home for Christmas, pausing membership.' Currently, the binary choice between 'keep paying' and 'cancel' forces students into cancellation at break points, creating re-acquisition costs that a simple pause feature would eliminate.",
+      "so_what": "Subscription churn among students is partially artificial — driven by academic calendar breaks rather than dissatisfaction. A pause/resume feature would retain students through these predictable periods, eliminate re-acquisition costs, and signal that Deliveroo understands student life patterns. This is particularly important for budget-conscious students who feel guilty about paying for unused subscriptions.",
+      "evidence_summary": {
+        "supporting_quotes": 12,
+        "participants": 8,
+        "segments": {
+          "Budget-Conscious Minimalist": 3,
+          "Social Rewarder": 2,
+          "Strategic Optimizer": 2,
+          "Convenience Dependent": 1
+        }
+      },
+      "contradicting_evidence": 0,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Introduce a 'Pause Plus' feature allowing students to pause their subscription for 1-4 weeks during holiday periods, with automatic resumption at term start.",
+          "rationale": "Students have 3-4 predictable non-ordering windows per year; pause eliminates the cancel-then-reacquire cycle"
+        },
+        {
+          "type": "product",
+          "recommendation": "Proactively prompt students to pause (not cancel) when the app detects reduced ordering frequency or when academic calendars indicate break periods.",
+          "rationale": "Pre-emptive pause suggestions reduce churn by reframing the choice from 'stay or leave' to 'pause and return'"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Position the pause feature as proof that Deliveroo understands student life: 'We know you're home for Christmas — your Plus is paused and waiting for you.'",
+          "rationale": "Demonstrates empathy with student lifestyle patterns and reduces the guilt associated with paying for unused services"
+        }
+      ],
+      "churn_risk_periods": [
+        {"period": "Christmas break", "duration": "3-4 weeks", "risk": "HIGH", "note": "Most students return home; virtually zero ordering"},
+        {"period": "Easter break", "duration": "2-3 weeks", "risk": "MEDIUM", "note": "Many go home; some stay for revision"},
+        {"period": "Summer holiday", "duration": "8-12 weeks", "risk": "VERY HIGH", "note": "Longest non-ordering period; highest cancellation risk"},
+        {"period": "Study abroad/placement", "duration": "4-12 months", "risk": "VERY HIGH", "note": "Extended absence; almost certain cancellation without pause"}
+      ],
+      "deep_dive_reference": "DD_004: Deliveroo Plus competitive positioning"
+    }
+  ],
+  "executive_summary": "This research reveals that student food delivery behavior is driven by predictable emotional and social patterns, with Deliveroo Plus currently at a competitive disadvantage versus Uber One's cross-service ecosystem. Uber One is referenced by 24 participants (14 current subscribers) versus 11 current Deliveroo Plus subscribers, primarily because transport bundling (taxi, train, flights) creates value beyond food delivery. Free delivery is the singular dominant subscription value driver (47 mentions, 21 participants), but its impact is undermined by service fee erosion (27 mentions) and minimum order thresholds. The Friday evening 'treat' ritual and exam period stress-driven ordering create systematic high-value opportunities, while academic stage analysis reveals three distinct behavioral profiles requiring different value propositions. Group ordering dynamics in shared accommodation create social pressure that drives higher order values. Rather than fighting multi-platform usage (28/33 students use multiple platforms), Deliveroo should leverage its restaurant quality perception for high-value occasions while strengthening Plus through simplified messaging, cross-service partnerships, and features designed for student life patterns (pause/resume, graduation bridge).",
+  "report_sections": {
+    "key_behavioral_patterns": "Students demonstrate three predictable high-value ordering patterns: Friday evening 'treat' rituals (N=28), exam period stress-driven spikes (N=22), and group ordering in shared accommodation (N=17). These patterns override normal budget constraints and create systematic opportunities for premium positioning and social features.",
+    "academic_lifecycle_evolution": "Academic stage does NOT produce a linear emotional-to-functional progression. Three distinct profiles emerge: undergraduates combine high price sensitivity with moderate emotional reward framing; postgraduates are uniquely functional and health-conscious; graduates show the highest emotional reward framing alongside lowest price sensitivity. This non-linear progression requires three distinct value propositions rather than a graduated continuum.",
+    "plus_subscription_strategy": "Deliveroo Plus currently faces competitive disadvantage versus Uber One (14 current Uber One subscribers vs 11 Deliveroo Plus subscribers). Free delivery is the singular hero benefit (47 mentions, 21 participants) but is undermined by service fees (27 mentions, 11 participants) and minimum order barriers (15 segments, 8 participants). Plus drives ordering increases through economic rationality — students calculate genuine per-order savings. However, 5 participants don't understand what Silver/Plus gives them, and Prime-acquired subscribers are passively disengaged. Critical actions: simplify value proposition around free delivery, eliminate service fees for Plus, reduce minimum orders, build cross-service ecosystem partnerships, and introduce pause/resume for holiday periods.",
+    "competitive_positioning": "Multi-platform usage is near-universal (28/33 use multiple platforms) and primarily price/promotion-driven. Uber One's transport bundling creates ecosystem-driven retention (7 participants cite taxi/train value). 9 students hold both Uber One and Deliveroo Plus, defaulting to Uber for routine orders. Deliveroo wins on restaurant quality and variety perception, suggesting strategy should focus on owning high-value occasions while building ecosystem breadth.",
+    "social_dynamics": "Group ordering creates social pressure driving higher order values, particularly in shared accommodation (N=17). Social influence operates through 5 distinct mechanisms beyond group ordering: peer validation (75 segments), flatmate lifestyle modeling (70 segments), social occasion creation, parental influence persistence, and social media trend following. Social features and group-focused marketing represent untapped value creation opportunities."
+  },
+  "methodological_caveats": {
+    "sample_composition": {
+      "total_participants": 33,
+      "undergraduate": 23,
+      "postgraduate": 4,
+      "graduate": 6,
+      "undergraduate_pct": 70,
+      "note": "Undergraduate-dominant sample (70%) may systematically overrepresent treat-oriented, price-sensitive, and socially-driven ordering patterns. Findings about postgraduates and graduates should be treated as indicative rather than definitive."
+    },
+    "self_report_limitations": "All findings are based on self-reported behaviour from semi-structured interviews. No actual ordering data, spending data, or behavioural tracking was used to validate claims about ordering frequency, spending patterns, or platform switching behaviour.",
+    "geographic_coverage": "Online interviews cover diverse UK locations; in-home interviews limited to Manchester and Nottingham. Regional food culture and delivery availability differences are not controlled for.",
+    "selection_bias": "Sample only includes current delivery users. Non-users, lapsed users, and students who have never used delivery apps are not represented, limiting understanding of barriers and churn drivers.",
+    "income_confound": "Income is not measured or controlled for. Academic stage differences may reflect income changes rather than attitudinal shifts.",
+    "coding_methodology": "Single-pass LLM-assisted coding with quote verification (93.7% verified, 6.2% paraphrased, 0.1% unverified). No inter-coder reliability testing was performed."
+  },
+  "deep_dives": {
+    "DD_001_subscription": "Subscription 'paradox' reframed as economic rationality with performative negativity. Sentiment analysis: 65 negative vs 38 positive segments among undergrads; 13 neg vs 7 pos among postgrads. Four sub-segments identified: bundle optimizers (P002, P006, P018, P021), high-frequency savers (P006, P009, P011, P012), reluctant subscribers (P001, P023, P027, P035), and cancelled subscribers (P008, P017, P031). Negative sentiment reflects social desirability bias rather than genuine dissatisfaction.",
+    "DD_002_platform_switching": "Platform switching is primarily price/promotion-driven rather than occasion-based. 28/33 participants use multiple platforms. Subscription lock-in is the strongest single factor preventing switching (9 segments). Deliveroo's competitive advantage is perceived restaurant quality and variety.",
+    "DD_003_social_influence": "Social influence operates through 5 distinct mechanisms: peer validation seeking, flatmate lifestyle modelling, social occasion creation, parental influence persistence, and social media trend following. Group ordering (11 segments) is the least common mechanism; peer influence (75) and flatmate dynamics (70) are far more prevalent.",
+    "DD_004_plus_competitive": "Deliveroo Plus vs Uber One competitive analysis across 207 subscription segments. Uber One reaches 73% of sample vs 33% for Plus, driven by transport bundle advantage (7 participants cite taxi/train). Free delivery is the singular hero benefit (47 mentions, 21 participants). Three critical Plus barriers: service fee erosion (27 mentions), minimum order thresholds (15 segments), and benefit awareness gaps (5 participants confused). Key acquisition channels: student offers (22 segments), social media ads (56 segments), freshers fair (9 segments). Strategic recommendations prioritised: simplify value proposition, eliminate service fees, build cross-service ecosystem, introduce pause/resume feature."
+  },
+  "plus_strategy_reference": "See data/processed/plus_strategy/plus_strategy.json for consolidated Plus Strategy document with competitive landscape, ownership maps, value driver hierarchy, pain points, acquisition channels, churn risks, and stage/persona-specific recommendations."
+}

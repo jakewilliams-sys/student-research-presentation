@@ -1,0 +1,144 @@
+{
+  "participant_id": "P032",
+  "summary": "Francesca is a pragmatic 3rd-year DCU business student on internship who approaches food decisions with clear, logical frameworks. Living with parents while working full-time, she has developed structured eating patterns - breakfast at the office, varied lunch options including Tesco meal deals or Camille (her clear favourite), and home dinners either cooked by her mum or herself. Her communication style is direct and matter-of-fact, giving concise answers without much elaboration or emotional language. She presents herself as someone who has her routines figured out and makes decisions based on practical considerations rather than impulse or emotion.\n\nWhat's most striking about Francesca is her acute price sensitivity combined with a strong sense of fairness around fees. She's developed a clear hierarchy of delivery apps based purely on cost structure, with Deliveroo as her default specifically because she believes it doesn't charge service fees like Just Eat's €1 charge. This €1 fee has created such a strong negative association that she rates Just Eat 3/5 on price and repeatedly returns to this grievance throughout the interview. Despite claiming to order 'less than every 3 months' in her profile, she actually orders 1-2 times per week, suggesting either social desirability bias or genuine disconnect between her perception and reality of her ordering habits.",
+  "personality_notes": "Direct, practical communicator who gives short, factual responses. Appears organized and systematic in her thinking, with clear decision-making frameworks. Shows little emotional expression about food - treats it functionally rather than passionately.",
+  "food_relationship": "Food is primarily functional - she cooks regularly (4-5 days/week), has established routines, and makes decisions based on convenience and whether she's 'bothered to cook'.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Repeatedly mentions the €1 Just Eat service fee as a major deterrent",
+      "significance": "Shows how small fees can create disproportionate negative brand associations for price-sensitive students"
+    },
+    {
+      "timestamp": "Profile vs 1-166",
+      "description": "Claims to order 'less than every 3 months' in profile but states '1-2 times per week' in interview",
+      "significance": "Suggests potential social desirability bias or genuine misperception of own ordering frequency"
+    },
+    {
+      "timestamp": "1-568,1-569",
+      "description": "Discovers Deliveroo has free student subscription during interview: 'I didn't know about that. Okay, have a look at that after.'",
+      "significance": "Highlights poor communication of student benefits - a price-sensitive student unaware of free offerings"
+    }
+  ],
+  "what_not_said": [
+    "Never mentions enjoying food or cooking as pleasurable activities",
+    "Doesn't discuss food as social bonding with family despite living at home",
+    "No mention of dietary restrictions, health considerations, or food quality beyond convenience",
+    "Avoids discussing emotional relationship with food - treats it purely functionally"
+  ],
+  "initial_hypotheses": [
+    "Small fees create disproportionate friction for price-sensitive students - the €1 service fee has more psychological impact than rational",
+    "Students may underestimate their own ordering frequency due to social desirability bias",
+    "Clear communication gaps exist around student benefits - even engaged users don't know about free offerings",
+    "Functional food relationships may be more common among working students with structured routines"
+  ],
+  "questions_for_coding": [
+    "How do small service fees impact brand perception versus actual ordering behavior?",
+    "What's the gap between perceived and actual ordering frequency among students?",
+    "How can platforms better communicate student-specific benefits to price-sensitive users?",
+    "Do students with more structured work/study routines have different relationships with delivery apps?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think it would be if I'm bothered to cook or not.\nspk_1: And then if I am, then it'd be, am I craving something or not?\nspk_1: And then if I get takeout, it'd be kind of like, oh, what's close?\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 6739,
+      "end_char_index": 6942,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: We probably be most of the time, probably, I don't know, like five or four days a week.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 7093,
+      "end_char_index": 7188,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But I'm making like at least one meal a day, and then sometimes it's both.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 7309,
+      "end_char_index": 7391,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Takeaway would probably be maybe once or twice a week.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 8475,
+      "end_char_index": 8537,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Not every week, though.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 8555,
+      "end_char_index": 8579,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think price.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 22460,
+      "end_char_index": 22482,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Just because I'm a shooter, don't make that much.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 22500,
+      "end_char_index": 22557,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Because Just Eat has a service fee.\nspk_1: Like the one euro on Just Eat and Delivery doesn't have that.\nspk_1: I feel like Just Deliver is like there's no extra fees.\nspk_1: I don't know if that's true, but I just feel like it's cheaper overall.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 21878,
+      "end_char_index": 22132,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I probably have to cook more because, like, I feel like I use uni as an excuse, so sometimes.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 32452,
+      "end_char_index": 32553,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Because it's kind of like, you know, you have to grow up.\n",
+      "document_index": 0,
+      "document_title": "P032 - P032 - Interview Transcript",
+      "start_char_index": 32625,
+      "end_char_index": 32683,
+      "participant_id": "P032",
+      "participant_name": "P032"
+    }
+  ],
+  "_citation_count": 10
+}

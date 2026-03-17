@@ -1,0 +1,124 @@
+{
+  "participant_id": "P003",
+  "summary": "P003 presents as a pragmatic, efficiency-focused student who has developed systematic approaches to manage her busy schedule across university, work, and musical theater. Her relationship with food is notably functional rather than passionate - she views cooking as necessary but not enjoyable, preferring to batch cook familiar recipes to minimize time spent in the kitchen. Despite claiming to dislike cooking, she maintains a disciplined approach of always cooking on weeknights, revealing an underlying commitment to routine and budget management that contradicts her stated preferences.\n\nWhat's particularly striking about P003 is her risk-averse approach to both cooking and ordering - she sticks to familiar recipes and trusted restaurant chains because disappointment genuinely bothers her. This extends to her subscription behavior, where she maintains both Deliveroo Plus (free as a student) and Uber One (discounted), but clearly favors Uber due to its broader ecosystem benefits. Her Friday night takeaway ritual serves as a structured reward system, demonstrating how she uses food delivery as emotional regulation rather than convenience. She's highly price-conscious and strategic about deals, yet doesn't impose strict budgets, suggesting confidence in her financial management through her part-time work.",
+  "personality_notes": "Direct communicator who gives thoughtful, detailed responses. Self-aware about her habits and limitations. Shows slight assertiveness when needing clarification. Appears organized and systematic in her approach to life management.",
+  "food_relationship": "Views food as functional necessity rather than pleasure - enjoys eating but treats cooking as an efficiency challenge to be optimized through batch preparation and familiar recipes.",
+  "key_moments": [
+    {
+      "timestamp": "Around 1-112 to 1-118",
+      "description": "Reveals core contradiction - says cooking isn't enjoyable or important to her, but then explains she really likes food and eating",
+      "significance": "Shows disconnect between stated preferences and actual behavior - suggests food enjoyment is compartmentalized from food preparation"
+    },
+    {
+      "timestamp": "Around 1-145 to 1-150",
+      "description": "Explains stress around trying new things because 'worried it's going to go wrong' and gets 'really annoyed' if orders aren't good",
+      "significance": "Reveals risk-averse personality that drives her preference for familiar choices - disappointment avoidance is a key motivator"
+    },
+    {
+      "timestamp": "Around 1-89 to 1-92",
+      "description": "Describes Friday night takeaway as reward 'for getting through the week'",
+      "significance": "Shows how delivery serves emotional regulation function - structured treat system rather than convenience-driven behavior"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking with housemates despite living with three friends",
+    "Avoided discussing specific financial constraints despite being price-conscious",
+    "No mention of family food influences or background",
+    "Didn't elaborate on what makes her 'shy' personality beyond brief mentions"
+  ],
+  "initial_hypotheses": [
+    "Her 'dislike' of cooking may be more about time pressure and perfectionism than actual dislike of the activity",
+    "Risk aversion in food choices may extend to other life decisions - prefers known quantities",
+    "Friday takeaway ritual suggests she uses food delivery for emotional reward rather than just convenience",
+    "Strong preference for Uber ecosystem suggests she values integrated services over single-purpose apps"
+  ],
+  "questions_for_coding": [
+    "How does her risk aversion manifest in other areas of student life?",
+    "What role does batch cooking play in her sense of control and organization?",
+    "How does her reward system with Friday takeaways connect to her broader stress management?",
+    "Does her preference for familiar foods reflect broader personality traits or just time constraints?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Probably more than I should.\nspk_1: Oh, in a typical day?\nspk_1: If I had to guess just based on nothing, maybe like three hours a day.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 3162,
+      "end_char_index": 3305,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Fine, I'll just interpret how I want them.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 8463,
+      "end_char_index": 8513,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's necessary. It's not enjoyable.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 6753,
+      "end_char_index": 6796,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I know what I like and I like what I know with cooking.\nspk_1: In an ideal world, I would experiment a little bit more, but at the minute, I don't really have the time.\nspk_1: And it's not something that's too important to me.\nspk_1: Like, I really like food and I really like eating, but I'm someone that can, like, eat the same things over and over again and, like, not get bored of it.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 6820,
+      "end_char_index": 7209,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But, like, weeknights, I.\nspk_1: I very much always cook and I.\nspk_1: I like to kind of batch cook as well, because I don't really like cooking.\nspk_1: But if I have to do it like three nights a week instead of seven, then, yeah, then I'll do that.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 5712,
+      "end_char_index": 5969,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I normally use, like, normally, like, a Friday night.\nspk_1: If I'm gonna get a takeaway, it would probably be on a Friday night.\nspk_1: It's not every Friday, but I'd say maybe like every other.\nspk_1: Just kind of as, like, reward for getting through the week.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 5442,
+      "end_char_index": 5712,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I think to me it's like when trying something new that's, that's a stressor for me because I'm worried that it's going to go wrong.\nspk_1: Yeah. Which is why I don't really do it that much.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 8533,
+      "end_char_index": 8723,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Honestly, I was thinking making meals myself, but I would say it for both.\nspk_1: I tend to order from the same places as well because I'm, I'm really annoyed if I order something and it's not very good.\n",
+      "document_index": 0,
+      "document_title": "P003 - P003 - Interview Transcript",
+      "start_char_index": 8823,
+      "end_char_index": 9034,
+      "participant_id": "P003",
+      "participant_name": "P003"
+    }
+  ],
+  "_citation_count": 8
+}

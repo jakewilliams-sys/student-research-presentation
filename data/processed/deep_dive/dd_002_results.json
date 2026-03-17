@@ -1,0 +1,251 @@
+{
+  "deep_dive_id": "DD_002",
+  "focus": "Platform switching triggers and competitive dynamics",
+  "findings": {
+    "hypothesis_tested": "Multi-platform usage among students is primarily price/promotion-driven rather than occasion-based, with subscription bundling as the key lock-in mechanism",
+    "verdict": "CONFIRMED - Price/promotion is the primary trigger, but subscription ecosystem creates ecosystem-driven retention",
+    "evidence": {
+      "price_driven_switching": {
+        "description": "Students switch between platforms based on which has the best current deal, promotion, or lowest total cost",
+        "segments": [
+          {
+            "participant_id": "P001",
+            "text": "I mean, if it's only €2 of a difference, it would be whichever app I come across first... so I probably wouldn't be searching for, like, an alternative. If it's only €2... what about €5? I probably would be more inclined to switch. Yeah!",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "If I was in my flat, there's like a little Sainsbury's local, honestly, like less than a minute away, so I just be very likely just to go across because that's going to be quicker and cheaper than paying Uber to deliver it for me.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "So for another company for me to switch, they would have to be a lot more than just being like a food delivery app. Like I use Uber Eats more than anything else, but I use it because I was already using Uber for everything else.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "So in most cases if I'd like gone on to Uber and it had the restaurant, I wouldn't have checked anywhere else, so I wouldn't have known. But in this like scenario, I'd go for the cheaper one. If everything was the same and it was like the same delivery time frame, I'd go for the cheaper one.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "Yeah, I say takeaways, like, once. Once every couple of weeks. Maybe once a week if I've had, like, a particularly, like, grueling week. But grocery deliveries, I'd say. I know. I order the. I ordered, like. Yeah. Groceries on delivery or Ubereats every now and then. Not very often, I'd guess maybe ",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 48
+      },
+      "subscription_lock_in": {
+        "description": "Subscription holders default to their subscribed platform to maximize value, even when competitors have better individual deals",
+        "segments": [
+          {
+            "participant_id": "P002",
+            "text": "So the reason, obviously I have Uber one, but basically the reason that I now use Uber for essentially everything is because they have now integrated with like you can buy your plane tickets, you can buy train tickets, you can buy Eurostar tickets, like they. And you can hire cars and stuff as well ",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "I'd say it's definitely made me order not a lot more, but a bit more, especially with Uber, because I do, I did pay for it last year and like the deal that I got is only until sometime this year. So like while I've had the Uber subscription, I've definitely noticed how much I order going up a bit. A",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P004",
+            "text": "I think, I don't know. Price probably, and then offers and promotions, subscription benefits maybe then after that, and then speed and then habit probably. But yeah, to me, like, I feel like even, potentially even like offers and discounts overpriced, because I'm quite aware of the fact that it migh",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P009",
+            "text": "Yeah, I use Uber Eats more because I've got the Uber one a subscription.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P009",
+            "text": "Yeah, I've got the student subscription for delivery as well but I prefer Uber one because I've got Uber one and it gives me these and all with the subscription.",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 9
+      },
+      "restaurant_availability": {
+        "description": "Some platform switching is driven by restaurant exclusivity or availability differences",
+        "segments": [
+          {
+            "participant_id": "P001",
+            "text": "Probably, like, personally, probably only once... once a week. Like, especially now, like, during college. It gets really busy when college ends. Maybe I'll do more of the household cooking because my parents will be busy. But a lot of the time during the week, we'll get, like, the ready meals, like",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "I normally, if I, if I've ordered it from say, yeah, say Wingstop. If I'd ordered it from Deliveroo once before, I probably would assume that it's not on Uber just because they tend to have different restaurants. So it probably wouldn't even occur to me to look, to be honest.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P004",
+            "text": "Generally, yeah. I mean, I do that with most things. Like, I tend to check the big competitors and see what's cheapest. I mean, sometimes it's. If I'm looking for a specific restaurant to order from, they're not necessarily on both platforms, so I can look, but only one of them will have them. And t",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P008",
+            "text": "I'm only on Instagram.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P008",
+            "text": "If it's like Friday and I don't want to cook, it will be like pizza from the one one brand. It's called Tops Pizza. And there is one specific order. I like it. That's the only one thing. And apart from that, the most of the food I eat is Nepalese food. And I mostly order from the same restaurant.",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 13
+      },
+      "deliveroo_competitive_advantage": {
+        "description": "Deliveroo's perceived advantages over competitors",
+        "segments": [
+          {
+            "participant_id": "P004",
+            "text": "I tend to go for Deliveroo because Deliveroo do like A plus account for students, which in my head makes me think that I'm getting a better deal. But I tend to check delivery first and then I'll also compare that to UberEats to see which one is cheaper and then I'll order from whichever one is cheap",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P011",
+            "text": "No, not per se, but this is better deals on Uber Eats and Just Eats. I guess I didn't used Deliveroo, so it's just my Go to app.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P021",
+            "text": "I would be more inclined to go to Deliveroo because it's an app I'm more likely to use for food. So, I think that for me, where I live, the restaurants and the takeaways are just better quality on Deliveroo... Deliveroo for what's available.",
+            "stage": "graduate"
+          },
+          {
+            "participant_id": "P022",
+            "text": "For students, probably Deliveroo for graduate. Uber interesting. Walk me through that. Why is delivery better suited for students and then Uber for graduates? I don't know. It's just my own perception of which one I've had each time. But delivery seem to have more student discounts and more offers a",
+            "stage": "graduate"
+          },
+          {
+            "participant_id": "P023",
+            "text": "I would only say Deliveroo just because of how I feel like right now... that the way I use it, the office is generally better. But I would have to look at the offers, and I would just pick whatever one was better, I suppose.",
+            "stage": "graduate"
+          }
+        ],
+        "total_count": 6
+      }
+    },
+    "platform_usage_map": {
+      "uber_eats_primary": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P011",
+        "P012",
+        "P013",
+        "P015",
+        "P016",
+        "P018",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P027",
+        "P028",
+        "P029",
+        "P030",
+        "P032",
+        "P034",
+        "P035"
+      ],
+      "deliveroo_primary": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P006",
+        "P008",
+        "P009",
+        "P010",
+        "P011",
+        "P015",
+        "P016",
+        "P018",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P028",
+        "P030",
+        "P032",
+        "P034",
+        "P035"
+      ],
+      "just_eat_primary": [
+        "P001",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P008",
+        "P009",
+        "P011",
+        "P012",
+        "P013",
+        "P016",
+        "P018",
+        "P020",
+        "P021",
+        "P022",
+        "P025",
+        "P028",
+        "P029",
+        "P030",
+        "P032",
+        "P034"
+      ],
+      "multi_platform": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P008",
+        "P009",
+        "P011",
+        "P012",
+        "P013",
+        "P015",
+        "P016",
+        "P018",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P028",
+        "P029",
+        "P030",
+        "P032",
+        "P034",
+        "P035"
+      ]
+    },
+    "multi_platform_count": 28,
+    "new_insight": "Platform switching is primarily price/promotion-driven rather than occasion-based. 28/33 participants use multiple platforms. Subscription lock-in is the strongest single factor preventing switching — students default to their subscribed platform even when alternatives offer better individual deals. Deliveroo's competitive advantage is perceived restaurant quality and variety, not exclusive loyalty.",
+    "recommendation_update": "1) Accept multi-homing as reality and focus on owning high-value occasions. 2) Strengthen subscription lock-in through better Plus benefits. 3) Leverage restaurant quality/variety perception as key differentiator. 4) Price-match or beat competitor promotions during acquisition windows (freshers, exam periods)."
+  }
+}

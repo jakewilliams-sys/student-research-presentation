@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journey Navigation — 10 Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f8f6f1;
+    --bg-warm: #f3f0e8;
+    --text: #2c2a25;
+    --text-mid: #6b6760;
+    --text-light: #9e998f;
+    --border: #ddd9d0;
+    --serif: 'Instrument Serif', Georgia, serif;
+    --sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --mono: 'Space Mono', monospace;
+    --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+    --optimizer: #1d7775;
+    --optimizer-soft: #d7edec;
+    --social: #b07328;
+    --social-soft: #f0e2cc;
+    --balancer: #3a7a55;
+    --balancer-soft: #d4e8dc;
+    --dependent: #6454a4;
+    --dependent-soft: #e0daf0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page-header {
+    padding: 3.5rem 5vw 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .page-header h1 {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  .page-header p {
+    margin-top: 0.75rem;
+    font-size: 0.88rem;
+    color: var(--text-mid);
+    max-width: 52ch;
+    line-height: 1.55;
+  }
+
+  .persona-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .persona-btn {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.45rem 1rem;
+    border: 1.5px solid var(--border);
+    border-radius: 100px;
+    background: transparent;
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all 0.3s var(--ease-out-quart);
+  }
+
+  .persona-btn.active {
+    border-color: var(--active-color);
+    background: var(--active-soft);
+    color: var(--active-color);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem 5vw 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .concept-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .concept-header {
+    padding: 1.25rem 1.5rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .concept-header h2 {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  .concept-number {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--text-light);
+    letter-spacing: 0.05em;
+  }
+
+  .concept-desc {
+    padding: 0 1.5rem 1rem;
+    font-size: 0.75rem;
+    color: var(--text-mid);
+    line-height: 1.5;
+  }
+
+  .concept-stage {
+    position: relative;
+    height: 180px;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .concept-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .step-btn {
+    font-family: var(--sans);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .step-btn:hover {
+    border-color: var(--text-mid);
+    color: var(--text);
+  }
+
+  .step-indicator {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--text-light);
+    min-width: 3rem;
+    text-align: center;
+  }
+
+  /* ================================================
+     CONCEPT 1: EXPANDING LABEL
+     ================================================ */
+  .c1-track {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .c1-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+  }
+
+  .c1-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: all 0.45s var(--ease-out-quart);
+    flex-shrink: 0;
+  }
+
+  .c1-point.done .c1-dot {
+    background: var(--accent);
+    opacity: 0.5;
+  }
+
+  .c1-point.current .c1-dot {
+    width: 9px;
+    height: 9px;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .c1-label {
+    margin-top: 0.35rem;
+    font-size: 0.48rem;
+    color: var(--text-light);
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    transition: all 0.45s var(--ease-out-quart);
+  }
+
+  .c1-point.done .c1-label { color: var(--text-mid); }
+
+  .c1-point.current .c1-label {
+    font-family: var(--serif);
+    font-size: 0.95rem;
+    color: var(--accent);
+    letter-spacing: -0.01em;
+    margin-top: 0.6rem;
+  }
+
+  .c1-line {
+    width: 2rem;
+    height: 1px;
+    background: var(--border);
+    margin-top: 3px;
+    flex-shrink: 0;
+    transition: all 0.45s var(--ease-out-quart);
+  }
+
+  .c1-line.done {
+    background: var(--accent);
+    opacity: 0.35;
+  }
+
+  /* ================================================
+     CONCEPT 2: SLIDING CAPSULE
+     ================================================ */
+  .c2-track {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .c2-rail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+
+  .c2-stop {
+    width: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .c2-pip {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: all 0.4s var(--ease-out-quart);
+  }
+
+  .c2-stop.done .c2-pip { background: var(--accent); opacity: 0.4; }
+  .c2-stop.current .c2-pip { opacity: 0; }
+
+  .c2-stop-label {
+    font-size: 0.45rem;
+    color: var(--text-light);
+    margin-top: 0.3rem;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    transition: all 0.35s var(--ease-out-quart);
+  }
+
+  .c2-stop.done .c2-stop-label { color: var(--text-mid); }
+  .c2-stop.current .c2-stop-label { opacity: 0; }
+
+  .c2-connector {
+    width: 2rem;
+    height: 1px;
+    background: var(--border);
+    flex-shrink: 0;
+    transition: background 0.35s;
+  }
+
+  .c2-connector.done { background: var(--accent); opacity: 0.3; }
+
+  .c2-capsule {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--accent);
+    color: #fff;
+    font-family: var(--sans);
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
+    white-space: nowrap;
+    transition: left 0.5s var(--ease-out-expo);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  /* ================================================
+     CONCEPT 3: EDITORIAL COUNTER
+     ================================================ */
+  .c3-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .c3-counter {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--text-light);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+  }
+
+  .c3-name {
+    font-family: var(--serif);
+    font-size: 2.4rem;
+    color: var(--accent);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    transition: opacity 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .c3-name span {
+    display: inline-block;
+    transition: transform 0.45s var(--ease-out-expo), opacity 0.35s;
+  }
+
+  .c3-bar {
+    margin-top: 1rem;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .c3-seg {
+    width: 28px;
+    height: 2px;
+    background: var(--border);
+    border-radius: 1px;
+    transition: all 0.4s var(--ease-out-quart);
+  }
+
+  .c3-seg.done { background: var(--accent); opacity: 0.4; }
+  .c3-seg.current { background: var(--accent); height: 3px; }
+
+  /* ================================================
+     CONCEPT 4: VERTICAL RAIL
+     ================================================ */
+  .c4-rail {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .c4-stop {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    height: 1.6rem;
+    transition: height 0.45s var(--ease-out-quart);
+  }
+
+  .c4-stop.current { height: 2.4rem; }
+
+  .c4-vdot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--border);
+    flex-shrink: 0;
+    transition: all 0.4s var(--ease-out-quart);
+  }
+
+  .c4-stop.done .c4-vdot { background: var(--accent); opacity: 0.5; }
+  .c4-stop.current .c4-vdot {
+    width: 7px;
+    height: 7px;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .c4-vlabel {
+    font-size: 0.55rem;
+    color: var(--text-light);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    transition: all 0.4s var(--ease-out-quart);
+  }
+
+  .c4-stop.done .c4-vlabel { color: var(--text-mid); }
+
+  .c4-stop.current .c4-vlabel {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    color: var(--accent);
+    letter-spacing: -0.01em;
+  }
+
+  .c4-vline {
+    width: 1px;
+    height: 0.5rem;
+    background: var(--border);
+    margin-left: 2px;
+    transition: background 0.4s;
+  }
+
+  .c4-vline.done { background: var(--accent); opacity: 0.35; }
+
+  /* ================================================
+     CONCEPT 5: TYPEWRITER
+     ================================================ */
+  .c5-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .c5-step {
+    font-family: var(--mono);
+    font-size: 0.55rem;
+    color: var(--text-light);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .c5-text {
+    font-family: var(--serif);
+    font-size: 2.2rem;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    min-height: 2.8rem;
+  }
+
+  .c5-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.8rem;
+    background: var(--accent);
+    margin-left: 2px;
+    vertical-align: middle;
+    animation: c5-blink 0.8s step-end infinite;
+  }
+
+  @keyframes c5-blink {
+    50% { opacity: 0; }
+  }
+
+  .c5-trail {
+    margin-top: 0.8rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .c5-trail-item {
+    font-family: var(--sans);
+    font-size: 0.45rem;
+    color: var(--border);
+    letter-spacing: 0.02em;
+    transition: all 0.3s;
+  }
+
+  .c5-trail-item.done {
+    color: var(--text-light);
+    text-decoration: line-through;
+  }
+
+  .c5-trail-item.current { color: var(--accent); }
+
+  /* ================================================
+     CONCEPT 6: CONNECTED NODES
+     ================================================ */
+  .c6-graph {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+
+  .c6-node {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    border: 1.5px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.45s var(--ease-out-quart);
+    background: #fff;
+  }
+
+  .c6-node-label {
+    font-size: 0.4rem;
+    font-weight: 500;
+    color: var(--text-light);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    transition: all 0.4s var(--ease-out-quart);
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  .c6-node.done {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  .c6-node.done .c6-node-label { color: var(--accent); opacity: 0.7; }
+
+  .c6-node.current {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-color: var(--accent);
+    border-width: 2px;
+    box-shadow: 0 0 0 4px var(--accent-soft);
+    background: #fff;
+  }
+
+  .c6-node.current .c6-node-label {
+    font-family: var(--serif);
+    font-size: 0.7rem;
+    color: var(--accent);
+    font-weight: 400;
+  }
+
+  .c6-edge {
+    width: 1.5rem;
+    height: 1px;
+    background: var(--border);
+    flex-shrink: 0;
+    transition: all 0.4s;
+  }
+
+  .c6-edge.done { background: var(--accent); opacity: 0.3; }
+
+  /* ================================================
+     CONCEPT 7: FILM STRIP
+     ================================================ */
+  .c7-strip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  .c7-frame {
+    width: 3.2rem;
+    height: 2.2rem;
+    border: 1.5px solid var(--border);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    transition: all 0.45s var(--ease-out-quart);
+    position: relative;
+  }
+
+  .c7-frame-num {
+    font-family: var(--mono);
+    font-size: 0.5rem;
+    color: var(--border);
+    transition: all 0.35s;
+  }
+
+  .c7-frame-name {
+    font-size: 0.4rem;
+    color: var(--text-light);
+    margin-top: 2px;
+    letter-spacing: 0.02em;
+    transition: all 0.4s var(--ease-out-quart);
+    white-space: nowrap;
+  }
+
+  .c7-frame.done {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  .c7-frame.done .c7-frame-num { color: var(--accent); opacity: 0.6; }
+  .c7-frame.done .c7-frame-name { color: var(--accent); opacity: 0.7; }
+
+  .c7-frame.current {
+    width: 5rem;
+    height: 3.4rem;
+    border-color: var(--accent);
+    border-width: 2px;
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .c7-frame.current .c7-frame-num { color: var(--accent); font-weight: 700; }
+
+  .c7-frame.current .c7-frame-name {
+    font-family: var(--serif);
+    font-size: 0.7rem;
+    color: var(--accent);
+    margin-top: 3px;
+  }
+
+  /* ================================================
+     CONCEPT 8: BREADCRUMB TRAIL
+     ================================================ */
+  .c8-trail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .c8-crumb {
+    font-size: 0.55rem;
+    color: var(--text-light);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    padding: 0.3rem 0;
+    transition: all 0.4s var(--ease-out-quart);
+    position: relative;
+  }
+
+  .c8-crumb.done {
+    color: var(--text-mid);
+  }
+
+  .c8-crumb.done::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background: var(--text-mid);
+    opacity: 0.4;
+  }
+
+  .c8-crumb.current {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    color: var(--accent);
+    letter-spacing: -0.01em;
+    padding: 0.1rem 0.2rem;
+  }
+
+  .c8-chevron {
+    margin: 0 0.5rem;
+    font-size: 0.5rem;
+    color: var(--border);
+    transition: color 0.3s;
+  }
+
+  .c8-chevron.done { color: var(--text-light); }
+
+  /* ================================================
+     CONCEPT 9: RADIAL ARC
+     ================================================ */
+  .c9-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 140px;
+  }
+
+  .c9-point {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.45s var(--ease-out-quart);
+  }
+
+  .c9-arc-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: all 0.4s var(--ease-out-quart);
+  }
+
+  .c9-point.done .c9-arc-dot { background: var(--accent); opacity: 0.5; }
+
+  .c9-point.current .c9-arc-dot {
+    width: 10px;
+    height: 10px;
+    background: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-soft);
+  }
+
+  .c9-arc-label {
+    margin-top: 0.25rem;
+    font-size: 0.42rem;
+    color: var(--text-light);
+    white-space: nowrap;
+    transition: all 0.4s var(--ease-out-quart);
+  }
+
+  .c9-point.done .c9-arc-label { color: var(--text-mid); }
+
+  .c9-point.current .c9-arc-label {
+    font-family: var(--serif);
+    font-size: 0.85rem;
+    color: var(--accent);
+    margin-top: 0.45rem;
+  }
+
+  .c9-path {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .c9-path path {
+    fill: none;
+    stroke: var(--border);
+    stroke-width: 1;
+  }
+
+  /* ================================================
+     CONCEPT 10: SPOTLIGHT
+     ================================================ */
+  .c10-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .c10-label {
+    font-family: var(--mono);
+    font-size: 0.5rem;
+    color: var(--text-light);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .c10-name {
+    font-family: var(--serif);
+    font-size: 3.5rem;
+    color: var(--text);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-top: 0.15rem;
+    transition: opacity 0.2s;
+  }
+
+  .c10-accent-bar {
+    width: 2.5rem;
+    height: 3px;
+    background: var(--accent);
+    margin: 0.6rem auto 0;
+    border-radius: 2px;
+    transition: width 0.5s var(--ease-out-expo);
+  }
+
+  .c10-pips {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 0.8rem;
+  }
+
+  .c10-pip {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: all 0.35s var(--ease-out-quart);
+  }
+
+  .c10-pip.done { background: var(--accent); opacity: 0.4; }
+  .c10-pip.current {
+    background: var(--accent);
+    width: 16px;
+    border-radius: 3px;
+  }
+
+  /* ================================================
+     RESPONSIVE
+     ================================================ */
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Journey Navigation Concepts</h1>
+  <p>10 distinct visual approaches for the ordering journey stage indicator. Step through each to see how it animates between stages. Switch personas to see color adaptation.</p>
+  <div class="persona-switcher">
+    <button class="persona-btn active" style="--active-color: var(--optimizer); --active-soft: var(--optimizer-soft)" data-accent="var(--optimizer)" data-soft="var(--optimizer-soft)" data-color="#1d7775" data-color-soft="#d7edec">The Optimizer</button>
+    <button class="persona-btn" style="--active-color: var(--social); --active-soft: var(--social-soft)" data-accent="var(--social)" data-soft="var(--social-soft)" data-color="#b07328" data-color-soft="#f0e2cc">The Social Orderer</button>
+    <button class="persona-btn" style="--active-color: var(--balancer); --active-soft: var(--balancer-soft)" data-accent="var(--balancer)" data-soft="var(--balancer-soft)" data-color="#3a7a55" data-color-soft="#d4e8dc">The Budget Balancer</button>
+    <button class="persona-btn" style="--active-color: var(--dependent); --active-soft: var(--dependent-soft)" data-accent="var(--dependent)" data-soft="var(--dependent-soft)" data-color="#6454a4" data-color-soft="#e0daf0">The Comfort Dependent</button>
+  </div>
+</div>
+
+<div class="grid">
+
+  <!-- ==================== CONCEPT 1 ==================== -->
+  <div class="concept-card" id="c1">
+    <div class="concept-header"><h2>Expanding Label</h2><span class="concept-number">01 / 10</span></div>
+    <div class="concept-desc">Current stage label grows and drops down. Previous labels shrink back. Smooth serif transition gives editorial weight to the active moment.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c1-track"></div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 2 ==================== -->
+  <div class="concept-card" id="c2">
+    <div class="concept-header"><h2>Sliding Capsule</h2><span class="concept-number">02 / 10</span></div>
+    <div class="concept-desc">A solid-color pill slides between stage positions. The capsule carries the stage name, making movement the primary communication. Decisive, kinetic.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c2-rail">
+        <div class="c2-track"></div>
+        <div class="c2-capsule"></div>
+      </div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 3 ==================== -->
+  <div class="concept-card" id="c3">
+    <div class="concept-header"><h2>Editorial Counter</h2><span class="concept-number">03 / 10</span></div>
+    <div class="concept-desc">Large serif typography announces the current stage. A minimal segment bar below tracks progress. Magazine-like, dramatic hierarchy.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c3-wrap">
+        <div class="c3-counter"></div>
+        <div class="c3-name"><span></span></div>
+        <div class="c3-bar"></div>
+      </div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 4 ==================== -->
+  <div class="concept-card" id="c4">
+    <div class="concept-header"><h2>Vertical Rail</h2><span class="concept-number">04 / 10</span></div>
+    <div class="concept-desc">Stages stacked vertically on the left edge. Current stage expands to show its name in large serif. A sidebar-style wayfinding approach.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c4-rail"></div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 5 ==================== -->
+  <div class="concept-card" id="c5">
+    <div class="concept-header"><h2>Typewriter</h2><span class="concept-number">05 / 10</span></div>
+    <div class="concept-desc">The stage name types out letter by letter in large serif text. Previous stages appear as small struck-through text below. Narrative, cinematic.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c5-wrap">
+        <div class="c5-step"></div>
+        <div class="c5-text"><span class="c5-cursor"></span></div>
+        <div class="c5-trail"></div>
+      </div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 6 ==================== -->
+  <div class="concept-card" id="c6">
+    <div class="concept-header"><h2>Connected Nodes</h2><span class="concept-number">06 / 10</span></div>
+    <div class="concept-desc">Circle nodes connected by edges. Current node swells to nearly double size with a soft glow ring. Done nodes tint with the persona color.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c6-graph"></div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 7 ==================== -->
+  <div class="concept-card" id="c7">
+    <div class="concept-header"><h2>Film Strip</h2><span class="concept-number">07 / 10</span></div>
+    <div class="concept-desc">Stages as frames in a horizontal strip. The current frame lifts up and enlarges, like pulling a frame from the strip. Storytelling metaphor.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c7-strip"></div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 8 ==================== -->
+  <div class="concept-card" id="c8">
+    <div class="concept-header"><h2>Breadcrumb Trail</h2><span class="concept-number">08 / 10</span></div>
+    <div class="concept-desc">Chevron-separated text labels. Done stages get a strikethrough, current stage scales up in serif. Ultra-minimal, text-only approach.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c8-trail"></div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 9 ==================== -->
+  <div class="concept-card" id="c9">
+    <div class="concept-header"><h2>Radial Arc</h2><span class="concept-number">09 / 10</span></div>
+    <div class="concept-desc">Stages arranged along a gentle arc. The current dot swells and its label drops down. Organic, flowing alternative to linear layouts.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c9-wrap">
+        <svg class="c9-path" viewBox="0 0 240 140"></svg>
+      </div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ==================== CONCEPT 10 ==================== -->
+  <div class="concept-card" id="c10">
+    <div class="concept-header"><h2>Spotlight</h2><span class="concept-number">10 / 10</span></div>
+    <div class="concept-desc">The stage name displayed enormous and centered. An accent bar and pip row provide minimal context. Cinematic, bold, impossible to miss.</div>
+    <div class="concept-stage" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <div class="c10-wrap">
+        <div class="c10-label"></div>
+        <div class="c10-name"></div>
+        <div class="c10-accent-bar"></div>
+        <div class="c10-pips"></div>
+      </div>
+    </div>
+    <div class="concept-controls">
+      <button class="step-btn" data-dir="-1">&#8592; Prev</button>
+      <span class="step-indicator">1 / 6</span>
+      <button class="step-btn" data-dir="1">Next &#8594;</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
+  var currentPersona = { color: '#1d7775', soft: '#d7edec', accent: 'var(--optimizer)', accentSoft: 'var(--optimizer-soft)' };
+
+  var cards = document.querySelectorAll('.concept-card');
+  var state = {};
+  var domCache = {};
+
+  cards.forEach(function(card) { state[card.id] = 0; });
+
+  function setAccent(card) {
+    var stage = card.querySelector('.concept-stage');
+    stage.style.setProperty('--accent', currentPersona.accent);
+    stage.style.setProperty('--accent-soft', currentPersona.accentSoft);
+  }
+
+  /* ---- BUILD DOM ONCE ---- */
+  var builders = {};
+
+  builders.c1 = function(card) {
+    var track = card.querySelector('.c1-track');
+    var els = { points: [], lines: [] };
+    for (var i = 0; i < 6; i++) {
+      var pt = document.createElement('div');
+      pt.className = 'c1-point';
+      pt.innerHTML = '<div class="c1-dot"></div><div class="c1-label">' + STAGES[i] + '</div>';
+      track.appendChild(pt);
+      els.points.push(pt);
+      if (i < 5) {
+        var ln = document.createElement('div');
+        ln.className = 'c1-line';
+        track.appendChild(ln);
+        els.lines.push(ln);
+      }
+    }
+    domCache.c1 = els;
+  };
+
+  builders.c2 = function(card) {
+    var rail = card.querySelector('.c2-rail');
+    var trackEl = rail.querySelector('.c2-track');
+    var capsule = rail.querySelector('.c2-capsule');
+    var els = { stops: [], connectors: [], capsule: capsule, rail: rail };
+    for (var i = 0; i < 6; i++) {
+      var stop = document.createElement('div');
+      stop.className = 'c2-stop';
+      stop.innerHTML = '<div class="c2-pip"></div><div class="c2-stop-label">' + STAGES[i] + '</div>';
+      trackEl.appendChild(stop);
+      els.stops.push(stop);
+      if (i < 5) {
+        var cn = document.createElement('div');
+        cn.className = 'c2-connector';
+        trackEl.appendChild(cn);
+        els.connectors.push(cn);
+      }
+    }
+    domCache.c2 = els;
+  };
+
+  builders.c3 = function(card) {
+    var bar = card.querySelector('.c3-bar');
+    var els = { segs: [] };
+    for (var i = 0; i < 6; i++) {
+      var seg = document.createElement('div');
+      seg.className = 'c3-seg';
+      bar.appendChild(seg);
+      els.segs.push(seg);
+    }
+    domCache.c3 = els;
+  };
+
+  builders.c4 = function(card) {
+    var rail = card.querySelector('.c4-rail');
+    var els = { stops: [], lines: [] };
+    for (var i = 0; i < 6; i++) {
+      var stop = document.createElement('div');
+      stop.className = 'c4-stop';
+      stop.innerHTML = '<div class="c4-vdot"></div><div class="c4-vlabel">' + STAGES[i] + '</div>';
+      rail.appendChild(stop);
+      els.stops.push(stop);
+      if (i < 5) {
+        var ln = document.createElement('div');
+        ln.className = 'c4-vline';
+        rail.appendChild(ln);
+        els.lines.push(ln);
+      }
+    }
+    domCache.c4 = els;
+  };
+
+  builders.c5 = function(card) {
+    var trail = card.querySelector('.c5-trail');
+    var els = { items: [] };
+    for (var i = 0; i < 6; i++) {
+      var sp = document.createElement('span');
+      sp.className = 'c5-trail-item';
+      sp.textContent = STAGES[i];
+      trail.appendChild(sp);
+      els.items.push(sp);
+    }
+    domCache.c5 = els;
+  };
+
+  builders.c6 = function(card) {
+    var graph = card.querySelector('.c6-graph');
+    var els = { nodes: [], edges: [] };
+    for (var i = 0; i < 6; i++) {
+      var node = document.createElement('div');
+      node.className = 'c6-node';
+      node.innerHTML = '<div class="c6-node-label">' + STAGES[i] + '</div>';
+      graph.appendChild(node);
+      els.nodes.push(node);
+      if (i < 5) {
+        var edge = document.createElement('div');
+        edge.className = 'c6-edge';
+        graph.appendChild(edge);
+        els.edges.push(edge);
+      }
+    }
+    domCache.c6 = els;
+  };
+
+  builders.c7 = function(card) {
+    var strip = card.querySelector('.c7-strip');
+    var els = { frames: [] };
+    for (var i = 0; i < 6; i++) {
+      var fr = document.createElement('div');
+      fr.className = 'c7-frame';
+      fr.innerHTML = '<div class="c7-frame-num">' + (i + 1) + '</div><div class="c7-frame-name">' + STAGES[i] + '</div>';
+      strip.appendChild(fr);
+      els.frames.push(fr);
+    }
+    domCache.c7 = els;
+  };
+
+  builders.c8 = function(card) {
+    var trail = card.querySelector('.c8-trail');
+    var els = { crumbs: [], chevrons: [] };
+    for (var i = 0; i < 6; i++) {
+      var cr = document.createElement('span');
+      cr.className = 'c8-crumb';
+      cr.textContent = STAGES[i];
+      trail.appendChild(cr);
+      els.crumbs.push(cr);
+      if (i < 5) {
+        var ch = document.createElement('span');
+        ch.className = 'c8-chevron';
+        ch.innerHTML = '&#8250;';
+        trail.appendChild(ch);
+        els.chevrons.push(ch);
+      }
+    }
+    domCache.c8 = els;
+  };
+
+  builders.c9 = function(card) {
+    var wrap = card.querySelector('.c9-wrap');
+    var svg = wrap.querySelector('svg');
+    var cx = 120, cy = 180, r = 130;
+    var startAngle = -140, endAngle = -40;
+
+    var pathD = 'M';
+    for (var j = 0; j <= 50; j++) {
+      var a = startAngle + (endAngle - startAngle) * (j / 50);
+      var rd = a * Math.PI / 180;
+      var px = cx + r * Math.cos(rd);
+      var py = cy + r * Math.sin(rd);
+      pathD += (j === 0 ? '' : ' L') + px.toFixed(1) + ' ' + py.toFixed(1);
+    }
+    svg.innerHTML = '<path d="' + pathD + '" />';
+
+    var els = { points: [] };
+    for (var i = 0; i < 6; i++) {
+      var angle = startAngle + (endAngle - startAngle) * (i / 5);
+      var rad = angle * Math.PI / 180;
+      var x = cx + r * Math.cos(rad);
+      var y = cy + r * Math.sin(rad);
+      var point = document.createElement('div');
+      point.className = 'c9-point';
+      point.style.left = x + 'px';
+      point.style.top = y + 'px';
+      point.style.transform = 'translate(-50%, -50%)';
+      point.innerHTML = '<div class="c9-arc-dot"></div><div class="c9-arc-label">' + STAGES[i] + '</div>';
+      wrap.appendChild(point);
+      els.points.push(point);
+    }
+    domCache.c9 = els;
+  };
+
+  builders.c10 = function(card) {
+    var pips = card.querySelector('.c10-pips');
+    var els = { pips: [] };
+    for (var i = 0; i < 6; i++) {
+      var pip = document.createElement('div');
+      pip.className = 'c10-pip';
+      pips.appendChild(pip);
+      els.pips.push(pip);
+    }
+    domCache.c10 = els;
+  };
+
+  /* ---- UPDATE STATE (class toggles only) ---- */
+  var updaters = {};
+
+  function setClasses(el, idx, i) {
+    el.classList.toggle('done', i < idx);
+    el.classList.toggle('current', i === idx);
+  }
+
+  updaters.c1 = function(card, idx) {
+    var e = domCache.c1;
+    e.points.forEach(function(p, i) { setClasses(p, idx, i); });
+    e.lines.forEach(function(l, i) { l.classList.toggle('done', i < idx); });
+  };
+
+  updaters.c2 = function(card, idx) {
+    var e = domCache.c2;
+    e.stops.forEach(function(s, i) { setClasses(s, idx, i); });
+    e.connectors.forEach(function(c, i) { c.classList.toggle('done', i < idx); });
+    e.capsule.textContent = STAGES[idx];
+    e.capsule.style.background = currentPersona.color;
+    requestAnimationFrame(function() {
+      var target = e.stops[idx];
+      if (target) {
+        var railRect = e.rail.getBoundingClientRect();
+        var targetRect = target.getBoundingClientRect();
+        e.capsule.style.left = (targetRect.left + targetRect.width / 2 - railRect.left) + 'px';
+      }
+    });
+  };
+
+  updaters.c3 = function(card, idx) {
+    card.querySelector('.c3-counter').textContent = 'STAGE ' + (idx + 1) + ' OF 6';
+    var nameSpan = card.querySelector('.c3-name span');
+    nameSpan.style.transform = 'translateY(-100%)';
+    nameSpan.style.opacity = '0';
+    setTimeout(function() {
+      nameSpan.textContent = STAGES[idx];
+      nameSpan.style.transform = 'translateY(0)';
+      nameSpan.style.opacity = '1';
+    }, 180);
+    domCache.c3.segs.forEach(function(s, i) { setClasses(s, idx, i); });
+  };
+
+  updaters.c4 = function(card, idx) {
+    var e = domCache.c4;
+    e.stops.forEach(function(s, i) { setClasses(s, idx, i); });
+    e.lines.forEach(function(l, i) { l.classList.toggle('done', i < idx); });
+  };
+
+  var c5Timer = null;
+  updaters.c5 = function(card, idx) {
+    if (c5Timer) clearTimeout(c5Timer);
+    card.querySelector('.c5-step').textContent = 'STEP ' + (idx + 1);
+    var textEl = card.querySelector('.c5-text');
+    textEl.innerHTML = '<span class="c5-cursor"></span>';
+    var name = STAGES[idx];
+    var ci = 0;
+    function typeChar() {
+      if (ci < name.length) {
+        textEl.innerHTML = name.substring(0, ci + 1) + '<span class="c5-cursor"></span>';
+        ci++;
+        c5Timer = setTimeout(typeChar, 55 + Math.random() * 35);
+      }
+    }
+    c5Timer = setTimeout(typeChar, 80);
+    domCache.c5.items.forEach(function(it, i) { setClasses(it, idx, i); });
+  };
+
+  updaters.c6 = function(card, idx) {
+    var e = domCache.c6;
+    e.nodes.forEach(function(n, i) { setClasses(n, idx, i); });
+    e.edges.forEach(function(ed, i) { ed.classList.toggle('done', i < idx); });
+  };
+
+  updaters.c7 = function(card, idx) {
+    domCache.c7.frames.forEach(function(f, i) { setClasses(f, idx, i); });
+  };
+
+  updaters.c8 = function(card, idx) {
+    var e = domCache.c8;
+    e.crumbs.forEach(function(c, i) { setClasses(c, idx, i); });
+    e.chevrons.forEach(function(ch, i) { ch.classList.toggle('done', i < idx); });
+  };
+
+  updaters.c9 = function(card, idx) {
+    domCache.c9.points.forEach(function(p, i) { setClasses(p, idx, i); });
+  };
+
+  updaters.c10 = function(card, idx) {
+    var wrap = card.querySelector('.c10-wrap');
+    wrap.querySelector('.c10-label').textContent = 'STAGE ' + (idx + 1) + ' OF 6';
+    var nameEl = wrap.querySelector('.c10-name');
+    nameEl.style.opacity = '0';
+    setTimeout(function() {
+      nameEl.textContent = STAGES[idx];
+      nameEl.style.opacity = '1';
+    }, 120);
+    wrap.querySelector('.c10-accent-bar').style.width = (2.5 + idx * 1.5) + 'rem';
+    domCache.c10.pips.forEach(function(p, i) { setClasses(p, idx, i); });
+  };
+
+  /* ---- INIT ---- */
+  cards.forEach(function(card) {
+    setAccent(card);
+    builders[card.id](card);
+    updaters[card.id](card, 0);
+  });
+
+  /* ---- CONTROLS ---- */
+  cards.forEach(function(card) {
+    card.querySelectorAll('.step-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var dir = parseInt(btn.getAttribute('data-dir'));
+        var newIdx = state[card.id] + dir;
+        if (newIdx >= 0 && newIdx < 6) {
+          state[card.id] = newIdx;
+          card.querySelector('.step-indicator').textContent = (newIdx + 1) + ' / 6';
+          updaters[card.id](card, newIdx);
+        }
+      });
+    });
+  });
+
+  /* ---- PERSONA SWITCHER ---- */
+  document.querySelectorAll('.persona-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.persona-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      currentPersona = {
+        color: btn.getAttribute('data-color'),
+        soft: btn.getAttribute('data-color-soft'),
+        accent: btn.getAttribute('data-accent'),
+        accentSoft: btn.getAttribute('data-soft')
+      };
+      cards.forEach(function(card) {
+        setAccent(card);
+        updaters[card.id](card, state[card.id]);
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>

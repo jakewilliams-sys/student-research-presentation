@@ -1,0 +1,204 @@
+{
+  "participant_id": "P016",
+  "summary": "Amy is a second-year criminology student who presents as refreshingly honest and unpretentious, frequently saying 'I don't know' before giving thoughtful responses. She has a strong home-cooking identity, eating at home 90% of the time and finding cooking therapeutic for managing anxiety. Her food world revolves around pasta as a safe, versatile staple, though she's quite texture-sensitive and will go off foods for weeks if they don't taste right. She lives in a house with five others but maintains individual food habits, recently transitioning from delivery grocery shopping to in-person trips with a housemate who drives. Amy positions herself as someone who rarely orders takeaways, claiming once a month or less, yet shows sophisticated knowledge of delivery apps, promotions, and student deals. Her delivery behaviour is entirely socially driven - she never initiates orders but readily joins when housemates suggest it, treating it as a social bonding activity rather than a food solution. The Valentine's Day order she describes (getting £15 worth of food for £2 each due to a 70% discount) reveals someone who gets genuinely excited about bargains and sees deals as the primary justification for delivery orders.",
+  "personality_notes": "Conversational and unpretentious, frequently admits when she doesn't know something. Self-aware about habits (like high social media usage). Responds thoughtfully after initial uncertainty. Seems genuine rather than trying to impress.",
+  "food_relationship": "Home cooking is central to her identity and stress management, with pasta as her reliable go-to, though she's quite particular about textures and will avoid foods that don't taste right.",
+  "key_moments": [
+    {
+      "timestamp": "Not specified",
+      "description": "Describes cooking as stress relief and anxiety management",
+      "significance": "Reveals cooking serves an emotional regulation function, not just sustenance"
+    },
+    {
+      "timestamp": "Not specified",
+      "description": "Valentine's Day takeaway story - got 70% off, paid £2 each instead of £15",
+      "significance": "Shows genuine excitement about deals and how promotions can completely change her delivery behaviour"
+    },
+    {
+      "timestamp": "Not specified",
+      "description": "Explains takeaway ordering as 'if others want one, can I join in please?'",
+      "significance": "Reveals delivery is purely social for her - never self-initiated, always follower behaviour"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned financial stress despite being a student with no job",
+    "Didn't discuss any cooking failures or food waste",
+    "No mention of dietary restrictions beyond texture preferences",
+    "Avoided discussing why she cancelled Uber One subscription in detail"
+  ],
+  "initial_hypotheses": [
+    "Her 'rare' takeaway usage may be understated - she shows too much platform knowledge for truly infrequent use",
+    "Social dynamics are the primary driver for delivery orders, not convenience or hunger",
+    "Deal-seeking behaviour suggests price sensitivity but she doesn't explicitly discuss budget constraints",
+    "Her cooking-as-therapy approach may make delivery feel like 'giving up' on self-care"
+  ],
+  "questions_for_coding": [
+    "How does her social follower behaviour around delivery relate to other decision-making patterns?",
+    "What's the real frequency of delivery orders versus her stated 'once a month or less'?",
+    "How does her texture sensitivity and food pickiness influence restaurant/cuisine choices?",
+    "Does her cooking-as-stress-relief identity create guilt or conflict around ordering delivery?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sorry, can you repeat that?\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 756,
+      "end_char_index": 791,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'm not too sure actually.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 864,
+      "end_char_index": 898,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I don't know, I've got a really high time thingy on my phone.\nspk_1: I think maybe about six hours.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 3661,
+      "end_char_index": 3768,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Oh, I don't know. Probably pasta.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 6853,
+      "end_char_index": 6894,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I don't know. It releases stress from me, so it helps a lot to, like, bring all the anxiety down, and I enjoy doing it as well.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 7403,
+      "end_char_index": 7538,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, 90% of the time I'll eat at home and then it's the odd time that I'll get a takeaway if like others are getting one.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 5244,
+      "end_char_index": 5374,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Because, like, I've always loved pasta, and I know that, like, you can never go wrong with pasta, and you can add whatever you like.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 6894,
+      "end_char_index": 7034,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like, there's so many different variations that you can have.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 7165,
+      "end_char_index": 7234,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It releases stress from me, so it helps a lot to, like, bring all the anxiety down, and I enjoy doing it as well.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 7424,
+      "end_char_index": 7538,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, recently I've caught, like, down on meat because, like, I'm very.\nspk_1: I'm very picky with certain, like, textures and stuff.\nspk_1: So if it doesn't taste right to me, I'll go off it for, like, two weeks or so, and then I'll go back to it and be like, oh, I love it again.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 6347,
+      "end_char_index": 6636,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: So what is the reason then you would normally order a takeaway for delivery\nspk_1: if the others want one?\nspk_1: And I say, can I join in, please?\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 11681,
+      "end_char_index": 11836,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It's usually someone else suggesting and then I'm like, yeah, okay.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 11849,
+      "end_char_index": 11917,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So I was with one of my housemates.\nspk_1: Everyone else had gone out like, like a night out and we, we were just going to do like a movie night in, watch a film, get some sweets and stuff.\nspk_1: And then I had the idea maybe we like, should we look on food and see if we can get like good deal on because it was Valentine's Day and we ended up getting 70 off and we ended up each only paying 2 pound for it when it should have been like 15 pound each.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 13155,
+      "end_char_index": 13616,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: No, I do it individually.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 2789,
+      "end_char_index": 2822,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, recently I've started doing food shop.\nspk_1: Like, one of my housemates, she drives.\nspk_1: So we drive to the shop and then, like, get the food shop from the shop instead of ordering it and then takeaway.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 8071,
+      "end_char_index": 8291,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It's very rare.\nspk_1: It changes each month, but I'd probably say like once a month maybe, maybe even less.\n",
+      "document_index": 0,
+      "document_title": "P016 - P016 - Interview Transcript",
+      "start_char_index": 8303,
+      "end_char_index": 8412,
+      "participant_id": "P016",
+      "participant_name": "P016"
+    }
+  ],
+  "_citation_count": 16
+}

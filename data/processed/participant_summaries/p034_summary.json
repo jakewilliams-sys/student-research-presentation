@@ -1,0 +1,123 @@
+{
+  "participant_id": "P034",
+  "summary": "Jade is a 27-year-old PhD student in her final year at Oxford, studying law and society. She presents as pragmatic and self-aware, with a dry sense of humor about her academic experience. Her communication style is direct and honest—she doesn't romanticize her PhD journey or her food habits. Living in college accommodation with two flatmates, she manages her food entirely independently, which creates both freedom and burden. Her relationship with food is fundamentally practical rather than passionate. While she genuinely enjoys cooking, it competes with her academic priorities and irregular schedule. She describes feeling frustrated when hunger interrupts her evening productivity, viewing meals as necessary interruptions rather than pleasurable breaks. This tension between wanting to eat well and feeling constrained by time and energy permeates her food decisions. Her delivery ordering follows a clear pattern: social occasions with friends (especially pizza) and specific cravings for foods she can't easily make (like ramen). She's notably price-conscious, having reduced her delivery frequency as she's gotten older and more health-conscious, but admits to decision fatigue that leads to ordering even when prices feel too high.",
+  "personality_notes": "Direct, pragmatic communicator with dry humor. Self-deprecating but not self-pitying. Analytical about her own behavior patterns. Shows decision fatigue around food choices but remains thoughtful about her responses.",
+  "food_relationship": "Views food as practical necessity that competes with academic productivity, though genuinely enjoys cooking when time permits.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Describes breakfast as most stressful meal due to time pressure and feeling like the day is slipping away",
+      "significance": "Reveals core tension between self-care and productivity that drives many of her food decisions"
+    },
+    {
+      "timestamp": "33:20",
+      "description": "Admits to ordering even when prices feel unreasonably high due to being 'hangry' and already committed",
+      "significance": "Shows how emotional state and decision fatigue override rational price sensitivity"
+    },
+    {
+      "timestamp": "45:15",
+      "description": "Detailed story about food theft incident with Uber Eats driver, including system failures and bureaucratic obstacles",
+      "significance": "Only strongly negative delivery experience, reveals concerns about platform accountability and driver verification"
+    }
+  ],
+  "what_not_said": [
+    "Specific financial constraints despite mentioning PhD budget limitations",
+    "Social dynamics with flatmates around food",
+    "Specific health goals beyond general desire to 'eat healthier'"
+  ],
+  "initial_hypotheses": [
+    "Academic pressure creates irregular eating patterns that favor convenience over planning",
+    "Price sensitivity is real but overridden by time pressure and decision fatigue in the moment",
+    "Social ordering serves dual purpose of convenience and connection with friends",
+    "Transition anxiety about post-PhD life may be influencing current food habits"
+  ],
+  "questions_for_coding": [
+    "How does academic stress specifically manifest in food decision-making?",
+    "What role does decision fatigue play in overriding stated preferences?",
+    "How do PhD students balance immediate convenience needs with longer-term health and financial goals?",
+    "What delivery experiences build or erode trust in platforms among price-sensitive users?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's very all over the place.\nspk_1: It's like there's no consistency.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 771,
+      "end_char_index": 849,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I don't know if I'd suggest it.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 1847,
+      "end_char_index": 1886,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's very... it's not very exciting.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 1632,
+      "end_char_index": 1676,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I mean, some of it I like...\nspk_1: do genuinely enjoy, so...\nspk_1: But it's hard to find time to, to cook and, like, you know, enjoy it...\nspk_1: like really, especially with other chores and things.\nspk_1: And, like, if I'm busy on the weekend, then it doesn't, like, leave a lot of time to cook.\nspk_1: But yeah, I enjoy it!\nspk_1: But it's also, like, very practical.\nspk_1: Like, I don't want to constantly be eating out either.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 7686,
+      "end_char_index": 8128,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I did for a while...\nspk_1: then I canceled it.\nspk_0: Okay... was that something you paid for?\nspk_1: Yeah, yeah, it was some...\nspk_1: it was like a student deal, like a six-month thing, I think.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 25464,
+      "end_char_index": 25669,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Because I usually wake up a bit later and...\nspk_1: and then I feel like my whole day is like, I have to, like, get out and do...\nspk_1: you know, I have to get on top of writing this thing and, like...\nspk_1: yeah, like, even today, it's just like, you know, if I take a lot of time to have, like, a really nice breakfast—which I do want to do to, like, you know, set myself up nicely for the day—then by the time that I'm done, I'm just like, where did my day go?\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 13864,
+      "end_char_index": 14337,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And then I feel... usually feel frustrated that I'm hungry in the evening, and I'm like, why am I hungry?\nspk_1: This is, like, getting in my way.\nspk_1: So, yeah, not dinner.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 14863,
+      "end_char_index": 15046,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sorts of things... because then it's like so much effort.\nspk_1: By the time that you've gone through the whole process, it's like, I might as well just buy it.\nspk_1: It's like I've mentally committed to doing this.\n",
+      "document_index": 0,
+      "document_title": "P034 - P034 - Interview Transcript",
+      "start_char_index": 31434,
+      "end_char_index": 31658,
+      "participant_id": "P034",
+      "participant_name": "P034"
+    }
+  ],
+  "_citation_count": 8
+}

@@ -1,0 +1,143 @@
+{
+  "participant_id": "P031",
+  "summary": "Apollo is a 26-29 year old Kenyan Masters student at UCD who demonstrates remarkable discipline and structure in his approach to food. He has developed an extremely regimented eating routine centered around daily gym attendance and calorie tracking, eating essentially the same foods every day (potatoes, rotating meats, muesli). This routine-driven approach extends beyond food - he's methodical about everything from his study schedule to his grocery shopping patterns. What makes Apollo particularly interesting is the dramatic shift in his food delivery behavior since moving from Kenya to Dublin. Back home, he was a regular Uber One subscriber who ordered frequently due to the affordability and convenience. In Dublin, financial constraints as a student have forced him to almost entirely abandon solo ordering, only participating in group orders to split delivery costs. This represents a significant lifestyle adjustment that he discusses matter-of-factly, showing his pragmatic approach to adapting to new circumstances. Despite his current low usage, Apollo remains highly engaged with delivery apps conceptually - he price-compares religiously, understands the value propositions clearly, and maintains detailed knowledge of subscription benefits across platforms.",
+  "personality_notes": "Methodical, articulate, and highly structured. Speaks with precision and provides specific details. Shows pragmatic acceptance of financial constraints while maintaining clear preferences and standards.",
+  "food_relationship": "Food is primarily functional and routine-driven, centered around fitness goals and budget constraints, with delivery serving as an occasional group social activity.",
+  "key_moments": [
+    {
+      "timestamp": "22:30",
+      "description": "Explains his dramatic shift from frequent ordering in Kenya to rare ordering in Dublin due to cost",
+      "significance": "Reveals how financial context completely transforms delivery behavior - he went from regular subscriber to almost non-user"
+    },
+    {
+      "timestamp": "35:45",
+      "description": "Describes never ordering alone due to delivery fees being too expensive",
+      "significance": "Shows how cost barriers create social dependency for delivery access"
+    },
+    {
+      "timestamp": "45:20",
+      "description": "Rates Deliveroo 5/5 for speed after 10-minute delivery experience",
+      "significance": "Despite low usage, he has strong positive service experiences that maintain platform preference"
+    }
+  ],
+  "what_not_said": [
+    "Specific financial amounts beyond weekly food budget",
+    "Details about social relationships with housemates beyond food context",
+    "Emotional responses to the lifestyle changes from moving countries"
+  ],
+  "initial_hypotheses": [
+    "Financial constraints are the primary barrier to delivery usage, not lack of interest or awareness",
+    "Cultural/economic context shifts can dramatically alter delivery behavior patterns",
+    "Group ordering may be an underexplored opportunity for cost-sensitive segments",
+    "Previous positive subscription experiences create latent demand that could be reactivated with appropriate pricing"
+  ],
+  "questions_for_coding": [
+    "How do international students' delivery behaviors change when moving to higher-cost markets?",
+    "What role does group ordering play in making delivery accessible to budget-conscious users?",
+    "How do past positive experiences with subscriptions influence future consideration despite current non-usage?",
+    "What specific price points or promotional structures could reactivate lapsed users like Apollo?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, so I'm Apollo, as you mentioned, I'm currently a Master's student at ucd.\nspk_1: So that's University College Dublin.\nspk_1: I'm doing a Masters in Information Systems and the program runs for one year and I started doing it September of last year.\nspk_1: So I should be done, I think August if all goes well.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 315,
+      "end_char_index": 638,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So since I've been trying to be very consistent in the gym and also I've been trying to eat better, so I mostly eat the same things on a daily basis.\nspk_1: And we have an air fryer here, so I mostly eat potatoes, like on a daily basis.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 6655,
+      "end_char_index": 6899,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But potatoes is always a constant in my diet.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 7033,
+      "end_char_index": 7086,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But yeah, the way I eat is pretty boring for the normal person because I eat the same things.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 7293,
+      "end_char_index": 7394,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: You'd find that we maybe order something, but when we are ordering or I don't order by myself because delivery fees might get a bit too expensive.\nspk_1: So most of the times when I want to order out, I have to ask my, my friends if any of them want to order.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 7584,
+      "end_char_index": 7851,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: If I'm just by myself, I wouldn't order out.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 7935,
+      "end_char_index": 7987,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'd say when I came here, like, ordering out definitely went to the lower side, because when I was back home, I'm from Kenya, like, ordering food is one.\nspk_1: It's so cheap, and I think the cheapness is the factor.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 19511,
+      "end_char_index": 19735,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So when I came here, first of all, not having a job anymore, so adjusting back to the student life, and then ordering out here being more expensive than what I was used to.\nspk_1: So I think that also contributed to my ordering levels going down.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 19858,
+      "end_char_index": 20105,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: My friend influenced me because he was like, I subscribed for this and he said it was all right for him.\nspk_1: So I said, I'll give it a shot.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 31355,
+      "end_char_index": 31506,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I don't know if he still pays for it, but now since I changed my ordering habits, I no longer needed it.\n",
+      "document_index": 0,
+      "document_title": "P031 - P031 - Interview Transcript",
+      "start_char_index": 31598,
+      "end_char_index": 31710,
+      "participant_id": "P031",
+      "participant_name": "P031"
+    }
+  ],
+  "_citation_count": 10
+}

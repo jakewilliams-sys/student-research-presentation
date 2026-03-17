@@ -1,0 +1,172 @@
+# =============================================================================
+# Deliveroo Business Context for Student Research Analysis
+# =============================================================================
+# Pre-populated from internal strategy documents:
+#   - Deliveroo Plus & Loyalty Agent Context Bible
+#   - Students Y3 Launch deck
+#   - "From Deadlines to Nights Out" WAD findings (Sept 2025)
+#
+# This context is injected into the Insight Agent, Devil's Advocate Agent,
+# and Report Generator so that analysis outputs are commercially grounded.
+# =============================================================================
+
+company_context:
+  current_student_strategy: |
+    Deliveroo offers Plus Silver free to verified students, providing free
+    delivery on orders over the FDT threshold (£15/€25). Verification is
+    handled via Student Beans and UniDays partnerships. The proposition
+    targets a 500k student sign-up goal. Student Brand Ambassadors are
+    deployed on campuses for awareness and activation. Affiliate partnerships
+    (Student Beans, UniDays) drive sign-up acquisition funnels.
+
+  student_proposition_details:
+    tier: "Plus Silver"
+    price: "Free for verified students"
+    benefits:
+      - "Free delivery on orders over FDT (£15/€25)"
+    verification_partners:
+      - "Student Beans"
+      - "UniDays"
+    activation_channels:
+      - "Student Brand Ambassadors (campus presence)"
+      - "Affiliate partnerships"
+    sign_up_target: "500k"
+
+  known_challenges: |
+    - Sign-up journey drop-off: Students start verification but do not
+      complete the flow, suggesting friction in the sign-up experience.
+    - Student-to-graduate retention has never been tested or solved.
+      The assumption that student habits persist post-graduation is untested.
+    - Low awareness of the student proposition: Many students do not know
+      Deliveroo offers a free Plus tier for them.
+    - Grocery trust barriers: Students are sceptical of grocery delivery
+      quality and freshness via Deliveroo.
+    - Plus Gold NPS is -13, indicating dissatisfaction among paying subscribers
+      that may colour perceptions when students eventually convert.
+
+  competitive_landscape: |
+    - UberOne Student: £2.49/month with cross-platform benefits including
+      ride-hailing discounts. Cross-benefit model is compelling for students
+      who use Uber for transport.
+    - JustEat: Perceived as the cheapest option by students. Strong presence
+      with local independent restaurants. "What my parents use" association.
+    - Deliveroo: Wins on restaurant variety and exclusive partnerships
+      (e.g., Wingstop, Popeyes). Perceived as "nicer" and more premium.
+    - Key competitive dynamic: Students often multi-home across 2-3 platforms,
+      choosing based on occasion (price-led vs. quality-led vs. convenience).
+
+  plus_programme_metrics:
+    gold_nps: -13
+    free_trial_to_paid_conversion: "39%"
+    paid_monthly_churn: "13.8%"
+    breakeven_orders_per_month: 2.8
+    notes: |
+      These metrics are for the overall Plus programme, not student-specific.
+      Student behaviour may differ significantly given the free Silver tier.
+
+  doordash_parent_context: |
+    DoorDash (parent company) has an affordability imperative and is pursuing
+    the Pedregal migration strategy. The target is 10M Plus Members globally
+    by 2028. This creates top-down pressure to grow the student subscriber
+    base as a pipeline for long-term Plus membership.
+
+  untested_strategic_assumption: |
+    "If we invest in students, they will form habits and continue to choose
+    Deliveroo as they enter the workforce."
+    This is the core hypothesis underpinning the student strategy. It has
+    never been validated. This research should directly address whether
+    habit formation is occurring and what drives or blocks retention
+    through the student-to-graduate transition.
+
+previous_research_findings:
+  source: "From Deadlines to Nights Out - WAD Student Research (Sept 2025)"
+  key_findings:
+    - finding: "Convenience-led and treat-orientated ordering"
+      detail: |
+        Students primarily order delivery for convenience (too tired/busy to
+        cook) and as a treat or reward (post-exam, Friday night, socialising).
+    - finding: "Price is the dominant decision driver"
+      detail: |
+        Price sensitivity is the strongest factor in platform choice and order
+        frequency. Delivery fees are particularly resented.
+    - finding: "Plus awareness gap"
+      detail: |
+        Many students were unaware of the free Plus Silver offer. Those who
+        were aware valued free delivery but did not always understand the
+        FDT threshold.
+    - finding: "Social ordering patterns"
+      detail: |
+        Group ordering is a significant behaviour, especially among
+        undergraduates in shared accommodation. Ordering together is both
+        practical (splitting costs) and social (shared experience).
+
+strategic_priorities:
+  - "Increase Plus student sign-ups towards 500k target"
+  - "Improve sign-up journey completion rate (reduce drop-off)"
+  - "Understand and plan for student-to-graduate retention"
+  - "Win in university towns outside London"
+  - "Reduce cost of student acquisition"
+  - "Build habitual ordering behaviour during university years"
+  - "Compete effectively against UberOne student cross-benefits"
+
+hypotheses_to_test:
+  - "Students who order in groups have higher lifetime value"
+  - "Plus subscribers order more frequently than PAYG students"
+  - "Social occasions are more valuable than convenience occasions"
+  - "Students form delivery habits that persist after graduation"
+  - "Living situation (halls vs. shared house vs. parents) significantly
+    affects ordering behaviour"
+  - "In-home observed behaviour differs from stated interview behaviour"
+
+commercial_constraints:
+  - "Plus Silver pricing for students is fixed (free) for current period"
+  - "FDT threshold (£15/€25) is a programme-level constraint"
+  - "Campus partnerships require planning lead time"
+  - "Student verification must go through Student Beans or UniDays"
+
+out_of_scope:
+  - "Hardware partnerships (smart fridges, etc.)"
+  - "Grocery-only strategies (though grocery perceptions are relevant)"
+  - "Changes to the Plus tier structure"
+  - "International student markets outside UK and Ireland"
+
+research_objectives:
+  RO1:
+    label: "Eating Moments and Contexts"
+    description: "Understand the full landscape of student eating moments
+      and where delivery fits in"
+  RO2:
+    label: "Delivery Triggers and Drivers"
+    description: "What triggers a delivery order vs. cooking, eating out,
+      or other alternatives"
+  RO3:
+    label: "Emotional and Social Factors"
+    description: "The emotional and social dimensions of food delivery
+      for students"
+  RO4:
+    label: "Post-Graduation Evolution"
+    description: "How food and delivery habits evolve through the
+      student-to-graduate transition"
+  RO5:
+    label: "Engagement Opportunities"
+    description: "Where Deliveroo can better engage students and build
+      long-term loyalty"
+
+segment_definitions:
+  undergraduate:
+    description: "Currently enrolled in undergraduate degree"
+    sample_size: 16
+    locations: ["Dublin", "London", "Manchester", "Bristol", "Southampton", "Preston"]
+  postgraduate:
+    description: "Currently enrolled in postgraduate degree"
+    sample_size: 3
+    locations: ["Dublin", "London"]
+  early_graduate:
+    description: "Recently graduated, now in early career"
+    sample_size: 5
+    locations: ["London", "Dublin", "Manchester", "Bristol", "Nottingham"]
+  in_home:
+    description: "In-home interviews with live order observation (ResearchBods)"
+    sample_size: 6
+    locations: ["Manchester", "Nottingham"]
+    notes: "Separate recruitment via ResearchBods; includes behavioural observation"

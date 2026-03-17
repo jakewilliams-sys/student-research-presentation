@@ -1,0 +1,114 @@
+{
+  "participant_id": "P023",
+  "summary": "Alexandra is a 23-year-old recent law graduate navigating significant life transitions while maintaining careful financial boundaries. She presents as thoughtfully analytical, offering nuanced self-reflection about her habits and motivations rather than simple answers. Living with her parents while working part-time at a university legal clinic, she operates within a structured family dynamic where food responsibilities are shared equally. Her relationship with food delivery has evolved dramatically in the past six months due to two major changes: becoming vegan and gaining disposable income from her first job. This has shifted her from rarely ordering takeaways as a student to ordering 2-3 times monthly, primarily from one trusted vegan Chinese restaurant.\n\nWhat's particularly striking is Alexandra's deliberate approach to treating delivery as exactly that—a treat rather than a habit. She actively resists letting convenience become routine, viewing this as both a financial and health boundary. Her strong aversion to subscriptions reveals deeper values around financial control and intentional consumption. She prefers upfront payments and worries that subscriptions would pressure her to order more frequently, undermining her careful balance. This extends to a sophisticated understanding of her own psychology around spending and habit formation that feels mature beyond typical student behavior.",
+  "personality_notes": "Thoughtful and self-aware communicator who gives considered, nuanced responses. Shows strong analytical thinking and clear personal boundaries. Speaks with measured reflection rather than impulsive reactions.",
+  "food_relationship": "Views food delivery as a carefully managed treat that should remain special rather than habitual, balancing convenience with financial and health consciousness.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Reveals recent vegan transition (6 months) and how it changed her ordering patterns",
+      "significance": "Shows major dietary identity shift coinciding with financial independence, creating new navigation challenges with delivery apps"
+    },
+    {
+      "timestamp": "22:30",
+      "description": "Strong resistance to subscriptions due to psychological concerns about encouraging more ordering",
+      "significance": "Reveals sophisticated understanding of her own behavioral psychology and intentional consumption boundaries"
+    },
+    {
+      "timestamp": "39:20",
+      "description": "Frustration with vegan filtering accuracy on apps",
+      "significance": "Highlights gap between dietary identity and app functionality that creates friction in user experience"
+    }
+  ],
+  "what_not_said": [
+    "Social aspects of food delivery - no mention of ordering with friends or social eating",
+    "Emotional eating or comfort food relationships",
+    "Family dynamics around her vegan choice",
+    "Career ambitions beyond current administrative role"
+  ],
+  "initial_hypotheses": [
+    "Recent graduates may have more intentional relationships with delivery than current students due to newfound financial responsibility",
+    "Dietary restrictions create loyalty to specific restaurants but frustration with app functionality",
+    "Living with family while working creates different delivery patterns than typical student behavior",
+    "Strong personal values around consumption may make subscription models less appealing to certain user segments"
+  ],
+  "questions_for_coding": [
+    "How do recent life transitions (graduation, first job, dietary changes) affect delivery app usage patterns?",
+    "What role does intentional consumption play in delivery frequency decisions?",
+    "How do dietary restrictions influence app choice and restaurant loyalty?",
+    "What psychological barriers exist around subscription services beyond just price sensitivity?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I do quite like cooking sometimes, but I often feel like it is a bit of a chore just because, like, you have to do it so regularly. I think I would like to be a bit more organized with it and maybe do some more meal prep and stuff, but just never kind of get around to doing it and getting in the habit of it. But yeah... so, some days I'm kind of more bothered to put more effort in than others. ",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 4910,
+      "end_char_index": 5314,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, because I didn't really use to order much takeaway before, and also I wasn't... I've only been vegan for like six months, so I would... if I would order, I would order from like different places. ",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 11628,
+      "end_char_index": 11837,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Well, I didn't have a job, so I didn't have much disposable income... so that was probably the main reason.\n",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 12014,
+      "end_char_index": 12122,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think it does feel like a treat. I think I try not to get it too much and let it become like a habit because then I don't think it would feel as, like, special... and because it is quite a lot of money. So, I do think of it more as a treat.\n",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 9609,
+      "end_char_index": 9859,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I'm not really the kind of person that likes having subscriptions anyway because I just don't... like, like money coming out. Like, I prefer to pay for things, like, up front, like the... the full amount. So yeah, like having a bit of money come out of my account every month... I don't really like it. And also, I would worry that I would then feel like I need to use the app more, and I don't really want to encourage myself to eat more takeaways.\n",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 20407,
+      "end_char_index": 20857,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I mean, like, specific to me being vegan, I sometimes think it can be difficult to filter restaurants by vegan-friendliness. Like, you can do it, but it often isn't that accurate, so that would be beneficial for me.\n",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 29637,
+      "end_char_index": 29853,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So when you go into the app, you know that you can eat from all of these places that you're seeing in front of you, because it's really annoying... like, when you see a restaurant, like, on there, and then you go on, and then you, like, scroll through the food and then you realize, 'Oh, I can't eat any of this stuff!' So, yeah, like, having that kind of filtered out straight away would be helpful, I think.\n",
+      "document_index": 0,
+      "document_title": "P023 - P023 - Interview Transcript",
+      "start_char_index": 30443,
+      "end_char_index": 30853,
+      "participant_id": "P023",
+      "participant_name": "P023"
+    }
+  ],
+  "_citation_count": 7
+}

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Their Order — Horizontal Timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --text: #2c2a25;
+      --text-muted: #5a5750;
+      --optimizer: #1d7775;
+      --optimizer-soft: #e8f3f3;
+      --social: #b07328;
+      --social-soft: #f7f0e4;
+      --balancer: #3a7a55;
+      --balancer-soft: #e9f3ed;
+      --dependent: #6454a4;
+      --dependent-soft: #efedf7;
+      --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+      --section-padding: clamp(3rem, 8vw, 6rem);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+
+    h1, h2, h3, .serif { font-family: 'Instrument Serif', Georgia, serif; }
+    h1 { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 400; margin: 0; line-height: 1.15; }
+    h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 400; margin: 0 0 1rem; }
+    p { margin: 0 0 1rem; font-size: clamp(1rem, 1.2vw, 1.125rem); color: var(--text-muted); }
+    .quote { font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.5rem); font-style: italic; color: var(--text); }
+    .cite { font-size: 0.875rem; color: var(--text-muted); font-style: normal; }
+
+    /* Vertical sections */
+    .section {
+      padding: var(--section-padding) 1.5rem;
+      max-width: 48rem;
+      margin: 0 auto;
+    }
+
+    .title-section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .title-section .subtitle {
+      font-size: clamp(1rem, 1.5vw, 1.25rem);
+      color: var(--text-muted);
+      margin-top: 1rem;
+    }
+
+    .intro-section {
+      text-align: center;
+    }
+    .intro-section p {
+      font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+      max-width: 36rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Persona selector + timeline */
+    .timeline-section {
+      padding: 0;
+      max-width: none;
+      margin: 0;
+    }
+
+    .persona-tabs {
+      display: flex;
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+      background: var(--bg);
+      border-bottom: 1px solid rgba(44, 42, 37, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .persona-tab {
+      padding: 0.625rem 1.25rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      border: none;
+      border-radius: 2rem;
+      background: rgba(44, 42, 37, 0.06);
+      color: var(--text);
+      cursor: pointer;
+      transition: background 0.3s var(--ease-out-quart), color 0.3s var(--ease-out-quart), transform 0.2s var(--ease-out-quart);
+    }
+    .persona-tab:hover {
+      background: rgba(44, 42, 37, 0.1);
+    }
+    .persona-tab.active {
+      color: white;
+    }
+    .persona-tab.optimizer.active { background: var(--optimizer); }
+    .persona-tab.social.active { background: var(--social); }
+    .persona-tab.balancer.active { background: var(--balancer); }
+    .persona-tab.dependent.active { background: var(--dependent); }
+
+    .timeline-wrapper {
+      position: relative;
+      min-height: 85vh;
+    }
+
+    .timeline-progress {
+      position: sticky;
+      top: 4.5rem;
+      z-index: 15;
+      padding: 1rem 1.5rem 0;
+      background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      pointer-events: none;
+    }
+    .progress-line {
+      flex: 1;
+      height: 2px;
+      background: rgba(44, 42, 37, 0.15);
+      position: relative;
+      max-width: 40rem;
+      margin: 0 auto;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--text);
+      transition: width 0.4s var(--ease-out-quart);
+      width: 0%;
+    }
+    .progress-dots {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: space-between;
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 0 0.5rem;
+    }
+    .progress-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(44, 42, 37, 0.2);
+      transition: background 0.3s var(--ease-out-quart), transform 0.3s var(--ease-out-quart);
+    }
+    .progress-dot.active {
+      background: var(--text);
+      transform: scale(1.25);
+    }
+
+    .timeline-track {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.4s var(--ease-out-quart);
+    }
+    .timeline-track.visible {
+      display: block;
+      opacity: 1;
+    }
+
+    .timeline-scroll {
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .timeline-scroll::-webkit-scrollbar { display: none; }
+
+    .stage-panel {
+      flex: 0 0 100vw;
+      width: 100vw;
+      min-height: 70vh;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      padding: 2rem 1.5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: max(1.5rem, calc((100vw - 48rem) / 2 + 1.5rem));
+      padding-right: max(1.5rem, calc((100vw - 48rem) / 2 + 1.5rem));
+    }
+    .stage-panel .content {
+      max-width: 36rem;
+    }
+
+    .stage-number {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .stage-name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 400;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .emotion-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.375rem 0.75rem;
+      border-radius: 2rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+    .stage-panel .context {
+      font-size: clamp(1rem, 1.2vw, 1.125rem);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    .stage-panel .quote-block {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid currentColor;
+    }
+    .stage-panel .quote-block .quote { font-size: clamp(1.125rem, 1.5vw, 1.25rem); }
+    .limited-badge {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* Persona-specific stage colors */
+    .timeline-track.optimizer .emotion-badge { background: var(--optimizer-soft); color: var(--optimizer); }
+    .timeline-track.optimizer .stage-panel .quote-block { border-color: var(--optimizer); }
+    .timeline-track.social .emotion-badge { background: var(--social-soft); color: var(--social); }
+    .timeline-track.social .stage-panel .quote-block { border-color: var(--social); }
+    .timeline-track.balancer .emotion-badge { background: var(--balancer-soft); color: var(--balancer); }
+    .timeline-track.balancer .stage-panel .quote-block { border-color: var(--balancer); }
+    .timeline-track.dependent .emotion-badge { background: var(--dependent-soft); color: var(--dependent); }
+    .timeline-track.dependent .stage-panel .quote-block { border-color: var(--dependent); }
+
+    .timeline-wrapper[data-persona="optimizer"] .progress-fill,
+    .timeline-wrapper[data-persona="optimizer"] .progress-dot.active { background: var(--optimizer); }
+    .timeline-wrapper[data-persona="social"] .progress-fill,
+    .timeline-wrapper[data-persona="social"] .progress-dot.active { background: var(--social); }
+    .timeline-wrapper[data-persona="balancer"] .progress-fill,
+    .timeline-wrapper[data-persona="balancer"] .progress-dot.active { background: var(--balancer); }
+    .timeline-wrapper[data-persona="dependent"] .progress-fill,
+    .timeline-wrapper[data-persona="dependent"] .progress-dot.active { background: var(--dependent); }
+
+    /* Comparison section */
+    .comparison-section {
+      padding: var(--section-padding) 1.5rem;
+      max-width: 56rem;
+      margin: 0 auto;
+    }
+    .comparison-section h2 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .comparison-section .stage-label {
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+    .comparison-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+    .comparison-card {
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      border-left: 4px solid;
+    }
+    .comparison-card .persona-name { font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem; }
+    .comparison-card .emotion { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+    .comparison-card .quote { font-size: 1rem; margin-bottom: 0.5rem; }
+    .comparison-card .cite { font-size: 0.75rem; }
+    .comparison-card.outlier { outline: 2px dashed rgba(44, 42, 37, 0.3); }
+
+    /* Closing section */
+    .closing-section {
+      text-align: center;
+      padding-bottom: 4rem;
+    }
+    .closing-section p {
+      max-width: 36rem;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+    }
+  </style>
+</head>
+<body>
+  <section class="section title-section">
+    <h1>Follow Their Order</h1>
+    <p class="subtitle">Four students. Six stages. One ordering journey.</p>
+  </section>
+
+  <section class="section intro-section">
+    <p>Same app. Four completely different experiences.</p>
+  </section>
+
+  <section class="timeline-section">
+    <div class="persona-tabs" role="tablist">
+      <button class="persona-tab active optimizer" data-persona="optimizer" role="tab" aria-selected="true">Optimizer</button>
+      <button class="persona-tab social" data-persona="social" role="tab" aria-selected="false">Social</button>
+      <button class="persona-tab balancer" data-persona="balancer" role="tab" aria-selected="false">Balancer</button>
+      <button class="persona-tab dependent" data-persona="dependent" role="tab" aria-selected="false">Dependent</button>
+    </div>
+
+    <div class="timeline-wrapper" data-persona="optimizer">
+      <div class="timeline-progress">
+        <div class="progress-line">
+          <div class="progress-fill" id="progressFill"></div>
+          <div class="progress-dots" id="progressDots"></div>
+        </div>
+      </div>
+
+      <div id="timelineTracks"></div>
+    </div>
+  </section>
+
+  <section class="section comparison-section">
+    <h2>Same moment. Four reactions.</h2>
+    <p class="stage-label">Placing the order</p>
+    <div class="comparison-cards" id="comparisonCards"></div>
+  </section>
+
+  <section class="section closing-section">
+    <h2>What happens between wanting to order and actually ordering?</h2>
+    <p>Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap.</p>
+  </section>
+
+  <script>
+    const DATA = {
+      "title": "Follow Their Order",
+      "subtitle": "Four students. Six stages. One ordering journey.",
+      "intro": "Same app. Four completely different experiences.",
+      "stages": ["Trigger", "Decision", "Order", "Wait", "Meal", "After"],
+      "stageNames": ["Deciding to order", "Choosing where & what", "Placing the order", "Waiting for delivery", "Eating the food", "After the meal"],
+      "closing": {
+        "heading": "What happens between wanting to order and actually ordering?",
+        "body": "Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap."
+      },
+      "personas": [
+        {"id":"optimizer","name":"The Pragmatic Optimizer","shortName":"Optimizer","color":"#1d7775","colorSoft":"#e8f3f3","tagline":"Systematic efficiency meets strategic deal-hunting","stats":["12 participants","Orders fortnightly","None hold Deliveroo Plus alone"],"introQuote":{"text":"Ordering a takeaway after an exam… that's an enjoyable meal. It's like a reward. You've earned it.","cite":"P007"},"stages":[{"name":"Deciding to order","emotion":"Comfort","score":"4/5","context":"It's Thursday evening. Lectures are done, the library is closed, and tomorrow's assignment can wait. The thought of cooking crosses their mind — and is immediately weighed against the effort.","quote":{"text":"It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on.","cite":"P025"}},{"name":"Choosing where & what","emotion":"Stress","score":"2/5","context":"Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don't really want to hit £15.","quote":{"text":"I try to make it about £15 to save delivery fees… it makes some changes in my delivery order.","cite":"P012"}},{"name":"Placing the order","emotion":"Excitement","score":"5/5","context":"The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.","quote":null},{"name":"Waiting for delivery","emotion":"Neutral","score":"3/5","context":"Twenty-five minutes. Time to do something else. The waiting barely registers — the emotional work was in the decision, not the delivery.","quote":null,"limitedData":true},{"name":"Eating the food","emotion":"Comfort","score":"4/5","context":"The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction — a small, earned reward after a calculated decision.","quote":null},{"name":"After the meal","emotion":"Excitement","score":"5/5","context":"Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.","quote":{"text":"Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it.","cite":"P007"}}]},
+        {"id":"social","name":"The Social Orderer","shortName":"Social","color":"#b07328","colorSoft":"#f7f0e4","tagline":"Group dynamics drive delivery decisions","stats":["9 participants","Orders fortnightly to monthly","Friday evenings & weekends"],"introQuote":{"text":"Oh, it's like an unspoken ritual… We're not meant to call it a 'ritual,' but it definitely is.","cite":"P001"},"stages":[{"name":"Deciding to order","emotion":"Stress","score":"2/5","context":"A friend mentions food. Another one pulls out their phone. The seed is planted. Now it's not about whether to order — it's about being part of the moment.","quote":{"text":"I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head.","cite":"P015"}},{"name":"Choosing where & what","emotion":"Stress","score":"2/5","context":"Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge — but deciding for the group means absorbing the blame if it's wrong.","quote":{"text":"Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason.","cite":"P022"}},{"name":"Placing the order","emotion":"Connection","score":"5/5","context":"One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.","quote":{"text":"I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four.","cite":"P009"}},{"name":"Waiting for delivery","emotion":"Neutral","score":"3/5","context":"The group shifts to something else — a show, a conversation, a game. The food is coming. That's all that matters right now.","quote":null,"limitedData":true},{"name":"Eating the food","emotion":"Guilt","score":"2/5","context":"The food is eaten. The social energy fades. And then, quietly: was that too much? The guilt doesn't come from the food — it comes from eating it alone with your thoughts.","quote":{"text":"When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own.","cite":"P001"}},{"name":"After the meal","emotion":"Comfort","score":"4/5","context":"It's done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.","quote":null}]},
+        {"id":"balancer","name":"The Budget Balancer","shortName":"Balancer","color":"#3a7a55","colorSoft":"#e9f3ed","tagline":"Careful financial management meets occasional treats","stats":["6 participants","Orders monthly or less","Delivery reserved for special occasions"],"introQuote":{"text":"I'm not really the kind of person that likes having subscriptions anyway because I just don't… like money coming out.","cite":"P023"},"stages":[{"name":"Deciding to order","emotion":"Stress","score":"2/5","context":"The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.","quote":{"text":"Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop.","cite":"P005"}},{"name":"Choosing where & what","emotion":"Comfort","score":"4/5","context":"When the answer is yes, there's relief. The guilt of deciding to order is replaced by the comfort of choosing well — finding the right deal, the right restaurant, the right amount. The hard part is over.","quote":null},{"name":"Placing the order","emotion":"Frustration","score":"2/5","context":"Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.","quote":null},{"name":"Waiting for delivery","emotion":"Neutral","score":"3/5","context":"The emotional weight was in the decision. Now there's just time. The waiting is empty — not anxious, not excited, just neutral.","quote":null,"limitedData":true},{"name":"Eating the food","emotion":"Indifference","score":"3/5","context":"The food is fine. It's eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat — and that flatness is the insight.","quote":null},{"name":"After the meal","emotion":"Comfort","score":"4/5","context":"It's over. The money is spent. And in the quiet aftermath, there's a gentle comfort: it was a while since the last one. It was justified.","quote":{"text":"I've had quite a busy or stressful week as, like, a little reward.","cite":"P028"}}]},
+        {"id":"dependent","name":"The Convenience Dependent","shortName":"Dependent","color":"#6454a4","colorSoft":"#efedf7","tagline":"Delivery as essential life infrastructure","stats":["8 participants","Orders multiple times per week","Up to £100/week on food delivery"],"introQuote":{"text":"Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend's house. About pretty much five times a week.","cite":"P006"},"stages":[{"name":"Deciding to order","emotion":"Frustration","score":"2/5","context":"The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn't about food — it's about everything else getting in the way of eating.","quote":{"text":"I started noticing that we're running out of cereal, eggs, milk, porridge… I didn't feel like going down to the shop… and I didn't have the time.","cite":"P006"}},{"name":"Choosing where & what","emotion":"Comfort","score":"4/5","context":"The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.","quote":{"text":"I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time.","cite":"P036"}},{"name":"Placing the order","emotion":"Connection","score":"5/5","context":"The order is placed — from a friend's house, between lectures, coordinated with a flatmate. Delivery isn't an event. It's infrastructure. The positive feeling comes from the routine itself working smoothly.","quote":null},{"name":"Waiting for delivery","emotion":"Frustration","score":"2/5","context":"The driver can't find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn't.","quote":{"text":"It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges.","cite":"P034"}},{"name":"Eating the food","emotion":"Comfort","score":"4/5","context":"Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.","quote":{"text":"Definitely winter. I think that's probably what started it… just not wanting to leave the house as much.","cite":"P029"}},{"name":"After the meal","emotion":"Stress","score":"2/5","context":"Then the bank notification arrives. Ninety pounds this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow it'll happen again.","quote":{"text":"I'd say about… I don't want to lie… about 90 to 100 quid just alone on food, maybe even more.","cite":"P006"}}]}
+      ],
+      "comparison": {
+        "stage": "Placing the order",
+        "heading": "Same moment. Four reactions.",
+        "cards": [
+          {"persona":"The Pragmatic Optimizer","emotion":"Excitement","positive":true,"score":"5 / 5","quote":"It's like a reward. You've earned it.","cite":"P007","color":"#1d7775"},
+          {"persona":"The Social Orderer","emotion":"Connection","positive":true,"score":"5 / 5","quote":"I ordered from my account all together and then we split it.","cite":"P009","color":"#b07328"},
+          {"persona":"The Budget Balancer","emotion":"Frustration","positive":false,"score":"2 / 5","quote":"I just don't like money coming out.","cite":"P023","color":"#3a7a55","outlier":true},
+          {"persona":"The Convenience Dependent","emotion":"Connection","positive":true,"score":"5 / 5","quote":"About pretty much five times a week.","cite":"P006","color":"#6454a4"}
+        ]
+      }
+    };
+
+    const tracksEl = document.getElementById('timelineTracks');
+    const progressFill = document.getElementById('progressFill');
+    const progressDots = document.getElementById('progressDots');
+
+    DATA.personas.forEach((persona, pIdx) => {
+      const track = document.createElement('div');
+      track.className = `timeline-track ${persona.id}${pIdx === 0 ? ' visible' : ''}`;
+      track.setAttribute('role', 'tabpanel');
+      track.setAttribute('aria-hidden', pIdx !== 0);
+
+      const scroll = document.createElement('div');
+      scroll.className = 'timeline-scroll';
+      scroll.setAttribute('data-persona', persona.id);
+
+      persona.stages.forEach((stage, sIdx) => {
+        const panel = document.createElement('div');
+        panel.className = 'stage-panel';
+        panel.setAttribute('data-stage', sIdx);
+        panel.innerHTML = `
+          <div class="content">
+            <div class="stage-number">Stage ${sIdx + 1} of 6</div>
+            <h2 class="stage-name">${stage.name}</h2>
+            <div class="emotion-badge">${stage.emotion} · ${stage.score}</div>
+            <p class="context">${stage.context}</p>
+            ${stage.quote ? `
+              <div class="quote-block">
+                <p class="quote">"${stage.quote.text}"</p>
+                <span class="cite">— ${stage.quote.cite}</span>
+                ${stage.limitedData ? '<p class="limited-badge">Limited data</p>' : ''}
+              </div>
+            ` : stage.limitedData ? '<p class="limited-badge">Limited data</p>' : ''}
+          </div>
+        `;
+        scroll.appendChild(panel);
+      });
+
+      track.appendChild(scroll);
+      tracksEl.appendChild(track);
+
+      scroll.addEventListener('scroll', () => updateProgress(scroll, persona.id));
+    });
+
+    function updateProgress(scrollEl, personaId) {
+      const track = scrollEl.closest('.timeline-track');
+      if (!track || !track.classList.contains('visible')) return;
+      const w = scrollEl.scrollWidth - scrollEl.clientWidth;
+      const pct = w > 0 ? (scrollEl.scrollLeft / w) * 100 : 0;
+      progressFill.style.width = pct + '%';
+      const stages = scrollEl.querySelectorAll('.stage-panel');
+      const idx = Math.round((scrollEl.scrollLeft / scrollEl.clientWidth));
+      stages.forEach((s, i) => s.classList.toggle('active', i === idx));
+      progressDots.querySelectorAll('.progress-dot').forEach((d, i) => d.classList.toggle('active', i === Math.min(idx, 5)));
+    }
+
+    const numStages = 6;
+    for (let i = 0; i < numStages; i++) {
+      const dot = document.createElement('div');
+      dot.className = `progress-dot${i === 0 ? ' active' : ''}`;
+      dot.setAttribute('aria-hidden', 'true');
+      progressDots.appendChild(dot);
+    }
+
+    document.querySelectorAll('.persona-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        const personaId = tab.dataset.persona;
+        document.querySelectorAll('.persona-tab').forEach(t => {
+          t.classList.remove('active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+
+        document.querySelector('.timeline-wrapper').setAttribute('data-persona', personaId);
+
+        document.querySelectorAll('.timeline-track').forEach(track => {
+          const isVisible = track.classList.contains(personaId);
+          track.classList.toggle('visible', isVisible);
+          track.setAttribute('aria-hidden', !isVisible);
+          if (isVisible) {
+            const scroll = track.querySelector('.timeline-scroll');
+            scroll.scrollLeft = 0;
+            updateProgress(scroll, personaId);
+          }
+        });
+      });
+    });
+
+    document.querySelectorAll('.timeline-scroll').forEach(scroll => {
+      scroll.addEventListener('scroll', () => updateProgress(scroll, scroll.dataset.persona));
+    });
+
+    const comparisonCards = document.getElementById('comparisonCards');
+    DATA.comparison.cards.forEach(card => {
+      const div = document.createElement('div');
+      div.className = `comparison-card${card.outlier ? ' outlier' : ''}`;
+      div.style.borderLeftColor = card.color;
+      div.innerHTML = `
+        <div class="persona-name">${card.persona}</div>
+        <div class="emotion">${card.emotion} · ${card.score}</div>
+        <p class="quote">"${card.quote}"</p>
+        <span class="cite">— ${card.cite}</span>
+      `;
+      comparisonCards.appendChild(div);
+    });
+
+    const firstScroll = document.querySelector('.timeline-track.visible .timeline-scroll');
+    if (firstScroll) updateProgress(firstScroll, firstScroll.dataset.persona);
+  </script>
+</body>
+</html>

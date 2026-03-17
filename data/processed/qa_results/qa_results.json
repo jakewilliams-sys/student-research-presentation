@@ -1,0 +1,181 @@
+{
+  "overall_assessment": {
+    "evidence_coverage_pct": 78,
+    "contradiction_count": 35,
+    "low_confidence_count": 1,
+    "total_insights": 8,
+    "average_contradictions_per_insight": 4.4
+  },
+  "objective_coverage": [
+    {
+      "objective": "Delivery frequency and patterns",
+      "coverage": "HIGH",
+      "evidence_count": 47,
+      "confidence": "high",
+      "supporting_insights": [
+        "INS_001",
+        "INS_004",
+        "INS_007"
+      ]
+    },
+    {
+      "objective": "Platform choice behavior",
+      "coverage": "MEDIUM",
+      "evidence_count": 34,
+      "confidence": "high",
+      "supporting_insights": [
+        "INS_003",
+        "INS_008"
+      ]
+    },
+    {
+      "objective": "Social influences",
+      "coverage": "HIGH",
+      "evidence_count": 49,
+      "confidence": "high",
+      "supporting_insights": [
+        "INS_003",
+        "INS_007",
+        "INS_008"
+      ]
+    },
+    {
+      "objective": "Demographic differences",
+      "coverage": "MEDIUM",
+      "evidence_count": 39,
+      "confidence": "medium",
+      "supporting_insights": [
+        "INS_005",
+        "INS_006"
+      ]
+    },
+    {
+      "objective": "Cooking vs delivery trade-offs",
+      "coverage": "HIGH",
+      "evidence_count": 50,
+      "confidence": "high",
+      "supporting_insights": [
+        "INS_002",
+        "INS_004"
+      ]
+    }
+  ],
+  "critical_issues": [
+    {
+      "issue": "Excessive contradiction rates across all insights",
+      "severity": "HIGH",
+      "description": "Average 4.4 contradictions per insight suggests systematic issues with claim precision or evidence interpretation",
+      "affected_insights": [
+        "INS_002",
+        "INS_004",
+        "INS_006",
+        "INS_008"
+      ],
+      "remediation": "Re-examine evidence coding for each high-contradiction insight; consider narrowing claims or adding qualifying conditions",
+      "estimated_review_time": "8 hours"
+    },
+    {
+      "issue": "Graduate sample size insufficient for confident segmentation",
+      "severity": "HIGH",
+      "description": "INS_005 based on only 8 participants - insufficient for confident graduate-specific claims",
+      "affected_insights": [
+        "INS_005"
+      ],
+      "remediation": "Either combine with undergraduate comparison data or flag as tentative finding requiring validation",
+      "estimated_review_time": "2 hours"
+    }
+  ],
+  "moderate_issues": [
+    {
+      "issue": "Uneven participant contribution",
+      "severity": "MEDIUM",
+      "description": "Wide range in coded segments (15-106) suggests some participants may be over-represented in findings",
+      "affected_insights": [
+        "All insights potentially affected"
+      ],
+      "remediation": "Weight analysis by participant contribution or verify findings hold across low and high contributors",
+      "estimated_review_time": "4 hours"
+    },
+    {
+      "issue": "Persona evidence distribution unclear",
+      "severity": "MEDIUM",
+      "description": "Persona participant counts don't sum to 35 total participants - unclear if overlapping or exclusive categories",
+      "affected_insights": [
+        "Persona-based insights"
+      ],
+      "remediation": "Clarify persona methodology and provide evidence distribution matrix",
+      "estimated_review_time": "2 hours"
+    },
+    {
+      "issue": "Missing triangulation details",
+      "severity": "MEDIUM",
+      "description": "Only 4 triangulation comparisons mentioned without specifics on what was compared or results",
+      "affected_insights": [
+        "All insights"
+      ],
+      "remediation": "Provide detailed triangulation results showing diary vs interview consistency",
+      "estimated_review_time": "3 hours"
+    }
+  ],
+  "confidence_scores": {
+    "personas": {
+      "The Pragmatic Optimizer": "medium",
+      "The Social Orderer": "medium",
+      "The Convenience Dependent": "low",
+      "The Budget Balancer": "medium"
+    },
+    "insights": {
+      "INS_001": "high",
+      "INS_002": "medium",
+      "INS_003": "high",
+      "INS_004": "medium",
+      "INS_005": "low",
+      "INS_006": "medium",
+      "INS_007": "high",
+      "INS_008": "medium"
+    }
+  },
+  "recommended_deep_dives": [
+    {
+      "area": "Contradiction pattern analysis",
+      "priority": "HIGH",
+      "description": "Systematically analyze the 35 contradictions to identify if they represent genuine complexity, coding errors, or overgeneralized claims",
+      "expected_outcome": "Refined insights with appropriate qualifying conditions"
+    },
+    {
+      "area": "Graduate vs undergraduate comparison validation",
+      "priority": "HIGH",
+      "description": "Re-examine graduate sample (n=8) findings for statistical significance and practical meaningfulness",
+      "expected_outcome": "Either strengthened graduate insights or flagged tentative findings"
+    },
+    {
+      "area": "Diary-interview consistency check",
+      "priority": "MEDIUM",
+      "description": "Detailed comparison of behavioral claims from interviews vs actual diary patterns",
+      "expected_outcome": "Validated behavioral insights with clear methodology notes"
+    },
+    {
+      "area": "Persona validation and refinement",
+      "priority": "MEDIUM",
+      "description": "Verify persona categories are mutually exclusive and exhaustive, with clear evidence distribution",
+      "expected_outcome": "Robust persona framework with clear boundaries and evidence base"
+    }
+  ],
+  "evidence_strength_summary": {
+    "strong_insights": [
+      "INS_001",
+      "INS_003",
+      "INS_007"
+    ],
+    "needs_refinement": [
+      "INS_002",
+      "INS_004",
+      "INS_006",
+      "INS_008"
+    ],
+    "insufficient_evidence": [
+      "INS_005"
+    ],
+    "overall_data_richness": "HIGH - 1851 coded segments across 35 participants provides substantial evidence base"
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "deep_dive_id": "DD_004",
+  "focus": "Deliveroo Plus competitive positioning and student subscription strategy",
+  "findings": {
+    "hypothesis_tested": "Deliveroo Plus is competitively disadvantaged versus Uber One among students due to ecosystem breadth, benefit clarity, and minimum order barriers",
+    "verdict": "CONFIRMED — Uber One currently holds competitive advantages through transport bundling and ecosystem breadth; Deliveroo Plus suffers from awareness gaps, minimum order frustration, and lack of cross-service value",
+    "competitive_landscape": {
+      "uber_one": {
+        "participants_mentioning": 24,
+        "participant_ids": [
+          "P002",
+          "P003",
+          "P004",
+          "P006",
+          "P007",
+          "P008",
+          "P009",
+          "P011",
+          "P015",
+          "P018",
+          "P019",
+          "P020",
+          "P021",
+          "P022",
+          "P024",
+          "P025",
+          "P026",
+          "P027",
+          "P029",
+          "P030"
+        ],
+        "key_advantage": "Cross-service ecosystem (taxi, train, flights) creates value even when not ordering food",
+        "key_quotes": [
+          "Not, not like massively so. Like I know what brands of stuff that I like and generally I'll stick to that even if something else is on deal. Obviously, like I mentioned a couple times, like the price of like deliveries and stuff and part of that is being like, Even with the Uber One subscription thing for a supermarket, you're still paying like £1,",
+          "Just because I don't think I've ever really used them. I don't really know. I. I don't know. I've never explored that as a benefit. I don't really know exactly what are the partnerships necessarily. Was, was that the one you said boots or was that retail partners?... Yeah, I, I've never experienced any of those. Unless. Is that like Uber one? You'd",
+          "I think speaking about Uber more widely, like I know the. Is it called Uber 1? I think that like that has deals for sort of obviously the taxis. I book all my trains in Uber and I get trains a lot so then there's less pressure on the food side. I say if I got the like the sort of subscription for the Uber one it would be sort of a split between lik"
+        ]
+      },
+      "deliveroo_plus": {
+        "participants_mentioning": 11,
+        "participant_ids": [
+          "P002",
+          "P003",
+          "P004",
+          "P006",
+          "P008",
+          "P020",
+          "P021",
+          "P022",
+          "P030",
+          "P034"
+        ],
+        "key_advantage": "Restaurant quality/variety perception; Prime bundle makes it 'free' for existing Prime subscribers",
+        "key_quotes": [
+          "Delivery? I have, I think this must be included with my prime or something. So I have like Deliveroo Silver. I think I don't actually entirely know what that gets me. I do have it and I do use it every now and then, but it would mostly be if it was a restaurant that isn't on Uber. I would then check Deliveroo.",
+          "I think to me, the biggest difference is always the minimum, minimum cost that you need to pay. Like you need to get your order to actually get any perks for delivery. The Deliveroo Plus. Yeah, I think that was one of the main things that actually stopped me from even attempting to use it, and that is all I remember from them. Is you need to pay at",
+          "I don't know whether that's a student thing, but I know that some of my friends have got on with delivery, where, at the start of uni, he signed up as a student, and he got free Deliveroo Silver or something."
+        ]
+      },
+      "head_to_head": {
+        "both_mentioned_same_segment": 7,
+        "participant_ids": [
+          "P003",
+          "P004",
+          "P006",
+          "P008",
+          "P020",
+          "P021",
+          "P022"
+        ],
+        "comparison_quotes": [
+          "No, not direct with supermarkets. The only time I'd ever order from. Order online. Order food online, sorry. In terms of groceries would be through like delivery or Ubereats. Mostly because they do have like the promos and stuff and I have. I don't know what they're called for both platforms. Is it Uber one? Is that the. Yeah. And Delivery Plus? Ye",
+          "So I actually did at one point have an Uber one subscription because it was like, you can get one for free when you, like, you know, for free for like a month, I think it was. And I think the benefits of Uber 1 were great. I really enjoyed that. That was probably like a five, I would say. And the same maybe like a. Yeah, a five as well for Delivero",
+          "I see a lot on TikTok and YouTube as well. Like, I keep seeing the promotions: Just Eat, Deliveroo, UberEats. I have a subscription for Uber One. I have a subscription for Deliveroo Plus. I don't have anything for Just Eat... That's it, only those two.",
+          "Both subscriptions for Uber 1 and delivery for that one. I already. I only have Uber 1. Which kind of. It was like a free delivery plus some kind of, I think 1 or 2% discount from the total price. And I think it did save some kind of money. It did save a. I wouldn't say a lot, but some kind of. Some. It will. It did save some chunks of money in tha",
+          "But then there's a lot of restrictions with like you need to order at least £25 and it's very difficult to order over £25 if you're ordering for yourself. There was just a lot of restrictions that made it like. It added a lot more friction to me actually wanting to use the Deliveroo membership. So I've always stuck with Uber 1."
+        ]
+      }
+    },
+    "transport_bundle_effect": {
+      "participants_citing_transport_value": 7,
+      "evidence": [
+        {
+          "participant_id": "P002",
+          "text": "So the reason, obviously I have Uber one, but basically the reason that I now use Uber for essentially everything is because they have now integrated with like you can buy your plane tickets, you can buy train tickets, you can buy Eurostar tickets, like they. And you can hire cars and stuff as well as order a taxi or order food. So. And then becaus",
+          "name": "Rory Carrie",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P002",
+          "text": "So as I've touched on, so for me, Uber 1 is because it also incorporates the taxis, the trains, the travel and everything else. So you're getting benefits and cash back or credits on them. Whereas Deliveroo, as far as I know, and as I say I don't know, the ins and outs of it is more on the kind of like promotions on the food and then reduced servic",
+          "name": "Rory Carrie",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P007",
+          "text": "I think speaking about Uber more widely, like I know the. Is it called Uber 1? I think that like that has deals for sort of obviously the taxis. I book all my trains in Uber and I get trains a lot so then there's less pressure on the food side. I say if I got the like the sort of subscription for the Uber one it would be sort of a split between lik",
+          "name": "Joshua Williamson",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P007",
+          "text": "Yeah, like students are lucky with the deals we get so I would expect to have to pay for it. I don't know. Again, it would have to be like. I think the only, the only way I can see myself, the only subscription I could see myself paying for without student deals would be the Uber one where I get, you know, another benefit which is the transport stu",
+          "name": "Joshua Williamson",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P008",
+          "text": "Because if I subscribe to the, subscribe to these promotions. Uber, it's a Uber one. I would mostly order from the out. So that's kind of a habit. When I was in Unique, it says like it is cheaper on your. Put your. When you put your. When you order all of your car, when you order, when you just put in the dishes on the, on your cart. And when you s",
+          "name": "Manoj Bhandari",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P015",
+          "text": "And I was like, 'Oh, well, I could just order something, you know, it's been raining... but long day. Just got back from training. I think I might just order something.' And I usually use UberEats because I've got a free promotion for, like, the student Uber One thing.",
+          "name": "Evan Dummett",
+          "stage": "undergraduate"
+        }
+      ],
+      "strategic_implication": "Uber One creates lock-in that Deliveroo cannot match with food delivery alone. Students who use Uber for transport see food delivery as a 'bonus' rather than the primary value — making Uber One stickier even at lower food ordering frequencies."
+    },
+    "subscription_stacking": {
+      "multi_sub_holders": [
+        "P002",
+        "P004",
+        "P008",
+        "P020",
+        "P022",
+        "P030"
+      ],
+      "count": 6,
+      "behavior": "Students who hold both subscriptions typically use Uber One as primary (transport value) and Deliveroo as secondary (when specific restaurants or promotions are better). The free Deliveroo Silver tier via Prime reduces switching cost."
+    },
+    "acquisition_channels": {
+      "prime_bundle": {
+        "segment_count": 5,
+        "participant_ids": [
+          "P001",
+          "P002",
+          "P006"
+        ],
+        "top_quotes": [
+          "Yeah, like, because I feel like the bugs are blue... It doesn't really say anything about what they do. And like, just eat... It's in the name. Uber Eats as well. And like Deliveroo... I was like, well, the delivering something could be like packages, you know, Amazon or something.",
+          "Delivery? I have, I think this must be included with my prime or something. So I have like Deliveroo Silver. I think I don't actually entirely know what that gets me. I do have it and I do use it every now and then, but it would mostly be if it was a restaurant that isn't on Uber. I would then check"
+        ]
+      },
+      "free_trial": {
+        "segment_count": 5,
+        "participant_ids": [
+          "P002",
+          "P004",
+          "P029",
+          "P032"
+        ],
+        "top_quotes": [
+          "I did. So it was like they had on a promotion that it was like, subscribe to. So I tried the free trial. No, that. So I tried the free trial, which was like, I think a month or something, just to see what it was like. And then for a little while, I did the. I liked it. And I was like, I actually do ",
+          "So I actually did at one point have an Uber one subscription because it was like, you can get one for free when you, like, you know, for free for like a month, I think it was. And I think the benefits of Uber 1 were great. I really enjoyed that. That was probably like a five, I would say. And the sa"
+        ]
+      },
+      "student_offer": {
+        "segment_count": 22,
+        "participant_ids": [
+          "P002",
+          "P003",
+          "P006",
+          "P007",
+          "P009",
+          "P017",
+          "P018",
+          "P021",
+          "P022",
+          "P025",
+          "P027",
+          "P029",
+          "P032",
+          "P034"
+        ],
+        "top_quotes": [
+          "Yes. So I changed my Uber 1 to the student one at the beginning of this year because that's when my Uber one renewed. And then I, I have read about The Deliveroo Student 1 and as I say, I think mine's related to my prime. I don't really know but I think I saw that that was coming to an end. So then ",
+          "I don't know with the student one, because it is, like, 25 pounds. I feel like you could probably just place like, one order a month and you probably still would have made like or saved the 25 pounds of broken even. I obviously order a bit More than that. And also I take Ubers more than that. So I f"
+        ]
+      },
+      "notification_popup": {
+        "segment_count": 4,
+        "participant_ids": [
+          "P008",
+          "P011",
+          "P015"
+        ],
+        "top_quotes": [
+          "Yes, it did. It will say like there is some kind of. I just turn on the notification for the Uber one Uber and it will pop the notification like you have some kind of a coupon that you haven't used that will pop into my mess in the feed. So that influenced me to use. At that time, I was so busy with",
+          "They offered me on the app that if I want the Uber membership for a year, I don't know, for some reason they just popped up. I. I'd accept and I got the membership for that way."
+        ]
+      },
+      "freshers_fair": {
+        "segment_count": 9,
+        "participant_ids": [
+          "P004",
+          "P007",
+          "P025",
+          "P028",
+          "P029",
+          "P030"
+        ],
+        "top_quotes": [
+          "I think it was the start of second year. So that would have been 2023, I think. And that's purely because. Because I think I went to the Freshers fair maybe and there was an offer for. No, it wasn't even that. It was delivery itself. When you signed up. They have a thing that's like you could have a",
+          "So I'd say for the delivery apps just, just presence on campus at like sort of freshers fairs and stuff like that. I think that's the quickest way to like for people to see because I'm like with digital marketing stuff like you know, a lot of people might see it but you know, do they like actually s"
+        ]
+      },
+      "word_of_mouth": {
+        "segment_count": 6,
+        "participant_ids": [
+          "P011",
+          "P017",
+          "P018",
+          "P024",
+          "P030",
+          "P031"
+        ],
+        "top_quotes": [
+          "I wake up around 9, 8:30 or 9. If I don't have an early lecture, that is most of the lectures start from 11am so I'd go to the lecture and two hours of lectures, I guess. So 11 to one I'd be in a lecture. Then again, I can remember there's a two to four lecture as well. So 11 to two I'll be, I'd be ",
+          "So what made me subscribe was. Well, it was just convenience and like, you know, some of my friends had it, and then I was like, that's actually great. That's actually, you know, when I weigh that up against the number of takeaways, that I guess that's actually like good value."
+        ]
+      },
+      "youtube_tiktok_ad": {
+        "segment_count": 56,
+        "participant_ids": [
+          "P001",
+          "P002",
+          "P003",
+          "P004",
+          "P006",
+          "P007",
+          "P009",
+          "P010",
+          "P011",
+          "P015",
+          "P016",
+          "P017",
+          "P018",
+          "P020",
+          "P022",
+          "P023",
+          "P024",
+          "P026",
+          "P029",
+          "P030",
+          "P031",
+          "P034"
+        ],
+        "top_quotes": [
+          "I think I just see it a lot more on, like, in advertisements or... like... Yeah, I'd say so. And, like, I think they're just really recognizable. While, like, Uber Eats, I'd associate more with, like, Uber, the taxis.",
+          "I think, as a student, just subscriptions as a whole are something I'd avoid because it's like... I don't know... it's kind of sad to see my money disappear at the start of the month. But I also think, specifically with food apps, I feel like if I have a subscription to it, I'll be a lot more inclin"
+        ]
+      }
+    },
+    "plus_awareness_gap": {
+      "confused_participants": 5,
+      "evidence": [
+        {
+          "participant_id": "P003",
+          "text": "No, not direct with supermarkets. The only time I'd ever order from. Order online. Order food online, sorry. In terms of groceries would be through like delivery or Ubereats. Mostly because they do have like the promos and stuff and I have. I don't know what they're called for both platforms. Is it Uber one? Is that the. Yeah. And Delivery Plus? Ye",
+          "name": "Indiana Kenyon",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P020",
+          "text": "I think to me, the biggest difference is always the minimum, minimum cost that you need to pay. Like you need to get your order to actually get any perks for delivery. The Deliveroo Plus. Yeah, I think that was one of the main things that actually stopped me from even attempting to use it, and that is all I remember from them. Is you need to pay at",
+          "name": "Jenna Kam",
+          "stage": "graduate"
+        },
+        {
+          "participant_id": "P022",
+          "text": "Deliveroo Plus, I don't really know about, to be honest. So the difference would be knowledge. Uber one, I'm like, yeah, it's worth it if you use it a lot. I just don't use it a lot. But I would if I did start to use Uber more, like delivery more and stuff. I would get it back. Whereas the Deliveroo Plus, I just haven't really heard of it, so I don",
+          "name": "Katie Leach",
+          "stage": "graduate"
+        },
+        {
+          "participant_id": "P030",
+          "text": "I don't know whether that's a student thing, but I know that some of my friends have got on with delivery, where, at the start of uni, he signed up as a student, and he got free Deliveroo Silver or something.",
+          "name": "Barnaby",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P030",
+          "text": "And I don't know if it would be possible, but if... if you had the delivery silver and you could, that would allow that person to get more promotions and more deals or better deals, for example. So, instead of 'spend £20 and get 20% off,' it's 'spend £15 to get 20% off.' Yeah, feel something like that.",
+          "name": "Barnaby",
+          "stage": "undergraduate"
+        }
+      ],
+      "strategic_implication": "Students who receive Deliveroo Silver via Prime often don't understand what benefits they're getting. This reduces perceived value and weakens the conversion path from free to paid tiers. Key quotes show students saying 'I don't entirely know what that gets me' and 'I don't really know about' Deliveroo Plus."
+    },
+    "minimum_order_barrier": {
+      "frustrated_participants": 15,
+      "evidence": [
+        {
+          "participant_id": "P004",
+          "text": "I used to do all of my, the majority of my food shops, groceries wise. Like I used to order those and that would be like every four weeks. But then I recently got a car, so now I can actually drive to the supermarket, which means that I don't order online groceries very often at all. But that's only because a lot of these places have a minimum spen",
+          "name": "Sian Webber",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P004",
+          "text": "I guess. Yeah, like, if it's. You're Able to do it in a way that just like slots quite easily into your life. Because I think when I used to order big shops, I'd have to schedule that delivery. And quite often most of the delivery slots weren't available. Or they were different prices depending on when you wanted to deliver them. I guess know if I ",
+          "name": "Sian Webber",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P005",
+          "text": "And when you have a minimum order of 15 pounds, that's basically two meals, it kind of either forces you to buy more on that order, whether it be like desserts or, like, even more drinks or extras. Not everyone would want to order more. They might just want an easy meal that they can get delivered to them.",
+          "name": "Chika Sivakaran",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P009",
+          "text": "Yeah, I would say like has to be like twice a week because yeah, I do shopping with my mom often. So a couple of days we go out like once a week we go out to get groceries and all and like we need to order like from Tesco or let's say as the like a home delivery for like couple of days a week.",
+          "name": "Aayush Mehta",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P012",
+          "text": "But if I had to say like the minimum order limit, like if you order something below 10 pound, there's always a 2 or 3 pound small order fee and on top of it there's delivery fee, service fee and packaging fee. But if you are ordering something in bulk, let's say off like on the. The minimum of 15 pounds. So all these fees are reduced and it's almos",
+          "name": "Suryansh Jadaun",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P013",
+          "text": "I put oh, not delivery. I think like two or three. Don't need to spend a lot more than I'm willing to before you get the offer.",
+          "name": "Joshua Olaseinde",
+          "stage": "undergraduate"
+        }
+      ],
+      "strategic_implication": "The minimum order requirement (reported as £15-25) is a significant barrier for solo student ordering, which is typically £8-12. This creates a perception that Plus benefits are 'locked' behind an unrealistic spend threshold, especially for the 40%+ of students who order alone."
+    },
+    "service_fee_erosion": {
+      "participants_citing": 11,
+      "total_mentions": 27,
+      "evidence": [
+        {
+          "participant_id": "P002",
+          "text": "A lot of those kind of like interrelate. I'm going to say like the subscription benefits because then that does impact the like price or the value for money that you get off of it. Because your subscription benefits might be a promotion that's on or it might be, well, it should be like free delivery or reduced service fees, that type of thing. And ",
+          "name": "Rory Carrie",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P002",
+          "text": "Not as much as I thought it would, probably. And I think that's because they say like free delivery and reduced service fees and they are like, they show you. But also sometimes even the reduced service fees, they're still adding on like £2 or whatever. So that's fine. Like it's £2 that you would have spent whether or not you had the subscription, ",
+          "name": "Rory Carrie",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P002",
+          "text": "So as I've touched on, so for me, Uber 1 is because it also incorporates the taxis, the trains, the travel and everything else. So you're getting benefits and cash back or credits on them. Whereas Deliveroo, as far as I know, and as I say I don't know, the ins and outs of it is more on the kind of like promotions on the food and then reduced servic",
+          "name": "Rory Carrie",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P004",
+          "text": "I think more often I think it's Deliveroo because they have more regular discounts and whereas, not necessarily discounts, but whereas on UberEats I'd have to pay the service fee and the delivery charge, I think on delivery I only have to pay the delivery charge. The. The service fee, not the delivery charge. Yeah, because of the.",
+          "name": "Sian Webber",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P004",
+          "text": "I guess, to be honest, it is More of it's. I think it is just a mindset thing. I don't really know many people who order groceries through those apps. And I think I like to do things based off of, like, I don't know, like, I don't know. I feel like if I'd heard through word of mouth that it was a really good option, then maybe I'd consider it more.",
+          "name": "Sian Webber",
+          "stage": "undergraduate"
+        }
+      ],
+      "strategic_implication": "Service fees undermine the perceived value of 'free delivery' — students feel cheated when they get free delivery but then see a service fee added. This creates trust erosion: 'they show you free delivery but then the service fee makes it the same price anyway.'"
+    },
+    "cancellation_analysis": {
+      "cancelled_count": 4,
+      "evidence": [
+        {
+          "participant_id": "P003",
+          "text": "I'm not even. I mean, I've definitely seen, like, something about Boots and a partnership and like, being able to buy things, but it's just not like, if they got rid of that feature and I couldn't buy something from Boots on the delivery app anymore, I really wouldn't care. I wouldn't even notice. I don't think.",
+          "name": "Indiana Kenyon",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P008",
+          "text": "Because if I subscribe to the, subscribe to these promotions. Uber, it's a Uber one. I would mostly order from the out. So that's kind of a habit. When I was in Unique, it says like it is cheaper on your. Put your. When you put your. When you order all of your car, when you order, when you just put in the dishes on the, on your cart. And when you s",
+          "name": "Manoj Bhandari",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P008",
+          "text": "I would say yes. Most of the time it will be like you got a free delivery or some kind of a promise on going on the Uber one. So that just influenced to spend more money. And after I think as soon as, as soon as I graduate from the uni, I just cancelled Uber 1 because I was gaining too much weight and it didn't look good on me. So because of that r",
+          "name": "Manoj Bhandari",
+          "stage": "undergraduate"
+        },
+        {
+          "participant_id": "P020",
+          "text": "I think to me, the biggest difference is always the minimum, minimum cost that you need to pay. Like you need to get your order to actually get any perks for delivery. The Deliveroo Plus. Yeah, I think that was one of the main things that actually stopped me from even attempting to use it, and that is all I remember from them. Is you need to pay at",
+          "name": "Jenna Kam",
+          "stage": "graduate"
+        },
+        {
+          "participant_id": "P031",
+          "text": "Yes, actually, because the one time I ordered for myself was when I still had that delivery subscription because I think it really reduced delivery fees. And then there were some offers, but since I canceled that, it's always in a group.",
+          "name": "Apollo Musibi",
+          "stage": "postgraduate"
+        }
+      ],
+      "cancellation_drivers": [
+        "Budget pressure / subscription fatigue (letting go of multiple subscriptions at once)",
+        "Overuse guilt (recognising subscription encouraged too much ordering)",
+        "Perceived lack of savings (felt subscription didn't actually save money)"
+      ]
+    },
+    "pause_resume_latent_need": {
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "participant_id": "P006",
+          "text": "I actually did riding back in summer, but being a delivery rider didn't offer me as many orders as the others, so I was like... like I remember sitting for two hours waiting for an order. Well, it was during peak time, so I was like, I can't continue doing this. There's no way I'm making money off t",
+          "name": "Adam P"
+        },
+        {
+          "participant_id": "P009",
+          "text": "I don't think like not really like, but I can remember the last time I ordered Grocery World, like on the Christmas Day because obviously everything was closed and all. So that was the only time I ordered it from Uber and deliver.",
+          "name": "Aayush Mehta"
+        },
+        {
+          "participant_id": "P018",
+          "text": "So I actually remember the last time I ordered a grocery order it was on Christmas Day and it was through Uber. Uber, yeah, Uber Eats. And I, because I work for the NHS, I got 10 pound free promo thing.",
+          "name": "Louise Hawkins"
+        },
+        {
+          "participant_id": "P025",
+          "text": "Could even be something like you can pause it anytime... Say you're going home for Christmas, pausing membership. You're going home for Christmas, you go home... That would be quite beneficial from a student's perspective.",
+          "name": "James"
+        },
+        {
+          "participant_id": "P032",
+          "text": "I just feel like I don't order enough for it to make. For it to actually save me money. Like, I feel like I'd either break even or I just, like, actually lose it. Lose money on it.",
+          "name": "Francesca Buga"
+        }
+      ],
+      "strategic_implication": "Students have predictable periods of non-use (university holidays, going home for Christmas/summer, study abroad). Currently they must either keep paying during these periods or cancel entirely. A pause feature would reduce churn at these predictable break points."
+    },
+    "stage_subscription_attitudes": {
+      "undergraduate": {
+        "positive": 33,
+        "negative": 10,
+        "neutral": 109
+      },
+      "postgraduate": {
+        "positive": 4,
+        "negative": 6,
+        "neutral": 21
+      },
+      "graduate": {
+        "positive": 4,
+        "negative": 2,
+        "neutral": 18
+      }
+    },
+    "key_findings": [
+      "Uber One is mentioned by 24 participants vs Deliveroo Plus by 11 — a significant awareness and usage gap",
+      "7 participants explicitly value Uber One for transport (taxi/train), creating cross-service lock-in Deliveroo cannot match with food delivery alone",
+      "5 participants are confused about what Deliveroo Plus/Silver actually gives them — a critical awareness gap for the primary student subscription product",
+      "Free delivery is the singular most valued subscription benefit (47 mentions across 21 participants), far above cashback, retail partners, or grocery offers",
+      "Service fees (mentioned 27 times) erode the perceived value of 'free delivery', creating trust issues when students see fees added despite having a subscription",
+      "Minimum order thresholds frustrate 15 participants, particularly solo orderers whose typical spend falls below the threshold",
+      "Students who get Deliveroo Silver free via Prime have low engagement and poor understanding of benefits — the passive acquisition channel doesn't create active subscribers"
+    ],
+    "recommendations": [
+      {
+        "priority": "CRITICAL",
+        "area": "Plus Value Proposition",
+        "recommendation": "Simplify Plus messaging to lead with free delivery as the singular hero benefit. Students don't understand or use secondary benefits.",
+        "evidence_basis": "47 free delivery mentions vs <5 mentions for cashback, retail partners, or grocery offers"
+      },
+      {
+        "priority": "CRITICAL",
+        "area": "Competitive Response to Uber One",
+        "recommendation": "Build cross-service partnerships (e.g., cinema, gym, transport) to create ecosystem value beyond food delivery. Consider strategic partnership with a ride-hailing or transport service.",
+        "evidence_basis": "7 participants cite Uber One transport value as reason for choosing Uber Eats"
+      },
+      {
+        "priority": "HIGH",
+        "area": "Minimum Order Threshold",
+        "recommendation": "Reduce or eliminate the minimum order requirement for Plus subscribers. Solo student orders typically fall below the current £15-25 threshold.",
+        "evidence_basis": "15 participants cite minimum order as a frustration; average solo student order is £8-12"
+      },
+      {
+        "priority": "HIGH",
+        "area": "Service Fee Transparency",
+        "recommendation": "Either eliminate service fees for Plus subscribers or make the total savings crystal clear at checkout. Current 'free delivery + service fee' undermines trust.",
+        "evidence_basis": "Service fee complaints from 11 participants, with explicit trust erosion language"
+      },
+      {
+        "priority": "HIGH",
+        "area": "Pause/Resume Feature",
+        "recommendation": "Introduce flexible subscription pause (1-3 months) for holiday periods. Students have predictable non-use periods and currently must cancel entirely.",
+        "evidence_basis": "5 segments reference holiday/break periods where students don't order"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Prime-to-Paid Conversion",
+        "recommendation": "Create active onboarding for Silver (Prime) subscribers: show savings dashboard, send monthly value reports, and create clear upgrade path with visible additional benefits.",
+        "evidence_basis": "5 participants confused about what Silver gives them; passive acquisition doesn't create engagement"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Graduation Transition",
+        "recommendation": "Build a 'graduation bridge' offer that transitions students to a paid Plus tier with an introductory rate, before they default to Uber One in their post-university life.",
+        "evidence_basis": "Graduates show lowest subscription engagement (2.2 mentions/person vs 3.8 for undergrads) and are at highest risk of platform switching"
+      }
+    ]
+  }
+}

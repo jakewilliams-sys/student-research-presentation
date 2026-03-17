@@ -1,0 +1,222 @@
+{
+  "participant_id": "P009",
+  "summary": "P009 is a pragmatic final-year student who has developed increasingly systematic food delivery habits as his academic and work schedule intensified. Living with parents in London, he occupies an interesting position where his family handles most grocery decisions and cooking, but he has significant autonomy over his personal food spending (£50-75/week budget, mostly on delivery). His approach to food delivery is notably strategic - he maintains subscriptions on both major platforms, actively compares prices across apps, and has clear financial thresholds for switching behavior (£3-4 price difference required). What's particularly revealing is his evolution from someone who 'used to have time' in earlier university years to someone who now orders 2-3 times per week due to packed schedules combining classes, part-time work, and social commitments. His relationship with food delivery sits at the intersection of convenience, social activity, and household dynamics - he orders when he doesn't like what's cooked at home, when alone, or when socializing with friends who are 'too lazy to cook.' Despite being price-conscious, he shows loyalty to Uber Eats due to the cashback mechanism and subscription benefits, suggesting he's learned to game the system rather than simply seeking the cheapest option.",
+  "personality_notes": "Straightforward communicator who frequently seeks clarification in the online format. Self-aware about his habits (acknowledges high social media usage without defensiveness). Methodical in his approach to comparing prices and maximizing subscription benefits. Shows some indecisiveness around food choices but has developed systematic workarounds.",
+  "food_relationship": "Food delivery serves as both a convenience solution for his busy schedule and a social activity with friends, while his parents handle most household cooking and grocery decisions.",
+  "key_moments": [
+    {
+      "timestamp": "42:59",
+      "description": "Reveals he wasn't initially aware of student subscription options but has since strategically acquired both platforms' student deals",
+      "significance": "Shows he's learned to optimize his delivery spending over time, suggesting students may not be aware of all available benefits"
+    },
+    {
+      "timestamp": "41:55",
+      "description": "States clear price threshold of £3-4 difference needed to switch from preferred app",
+      "significance": "Demonstrates that subscription benefits create meaningful loyalty even among price-conscious students"
+    },
+    {
+      "timestamp": "42:59",
+      "description": "Admits ordering frequency increased to 'cover the cost of subscription'",
+      "significance": "Suggests subscriptions may drive increased usage rather than just reflecting existing behavior"
+    }
+  ],
+  "what_not_said": [
+    "Specific cultural or dietary preferences despite being Indian",
+    "Details about what he actually cooks when he does cook",
+    "Specific concerns about delivery app working conditions despite considering becoming a rider"
+  ],
+  "initial_hypotheses": [
+    "Students living with parents may have different delivery patterns - using it for personal choice/autonomy rather than necessity",
+    "Subscription loyalty can override price sensitivity when benefits are clearly understood",
+    "Campus marketing and voucher distribution are particularly effective for this demographic"
+  ],
+  "questions_for_coding": [
+    "How do family food dynamics influence individual delivery decisions?",
+    "What role does subscription cashback play in creating ordering habits?",
+    "How do students balance price comparison behavior with subscription loyalty?",
+    "What makes students aware of and adopt subscription benefits over time?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think like obviously don't, don't get surprised.\nspk_1: That's a lot. But yeah, roughly around eight or nine hours.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 3267,
+      "end_char_index": 3392,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sorry, sorry, can you repeat that?\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 741,
+      "end_char_index": 783,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sorry, can you repeat that?\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 7427,
+      "end_char_index": 7462,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sorry, can you go again?\nspk_1: Sorry, you didn't cut that.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 9467,
+      "end_char_index": 9534,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Can you hear me?\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 13555,
+      "end_char_index": 13579,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sorry, can you go again?\nspk_1: I lost you.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 16378,
+      "end_char_index": 16429,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, I live on my, I live with my parents so my parents are currently based in London only.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 1827,
+      "end_char_index": 1927,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, it's mainly like all the teachers you made by my father.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 2003,
+      "end_char_index": 2073,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, it's my mom and dad.\nspk_1: Like both of them.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 2238,
+      "end_char_index": 2298,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And sometimes, sometimes I, I cook al.\nspk_1: But yeah, it's mainly my mom and dad.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 2318,
+      "end_char_index": 2409,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So to be honest, there's not a lot to spend from my side on groceries because that's like mainly what my mom does.\nspk_1: But yeah, I tend to spend most of my money on delivery, like eating out and delivery apps.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 10567,
+      "end_char_index": 10787,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like obviously when I've, like when I don't like food, what's been cooked at home or like when I'm alone at home, Obviously.\nspk_1: Or like when I'm with my friends and we just, we just too lazy to cook.\nspk_1: Us bring anything. So, yeah, we just order food.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 10948,
+      "end_char_index": 11215,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Like I was saying, like, I think I started to order more because usually before, like in my first or second year, I used to have time, but now I'm like, like my schedule is really packed.\nspk_1: Like I have classes on weekdays and work on weekends, so I just Tend to order more food like maybe two to three times a day now.\nspk_1: A week now.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 13653,
+      "end_char_index": 13996,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, I use Uber Eats more because I've got the Uber one a subscription.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 4627,
+      "end_char_index": 4707,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, I've got the student subscription for delivery as well but I prefer Uber one because I've got Uber one and it gives me these and all with the subscription.\nspk_1: So yeah, tend to use them.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 4818,
+      "end_char_index": 5021,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I would say like a pound really don't matter to me.\nspk_1: But yeah, obviously I would see, because the thing is, like I've got the Uber one and when you order with Uber one, you get like 5% of your credit back.\nspk_1: So I would still tend to order with Uber.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 21401,
+      "end_char_index": 21669,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think like two, like anything above, like three or four pounds.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 21793,
+      "end_char_index": 21866,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Not really. I got to know after, but yeah, then I also got to know the delivery has the student subscription offer.\nspk_1: So now I've got the delivery student subscription password.\nspk_0: Okay, so you've got the student one, and you don't have the student Uber one, then?\nspk_1: No, no, no, not for the Uber one, but for the delivery, yes.\n",
+      "document_index": 0,
+      "document_title": "P009 - P009 - Interview Transcript",
+      "start_char_index": 22416,
+      "end_char_index": 22765,
+      "participant_id": "P009",
+      "participant_name": "P009"
+    }
+  ],
+  "_citation_count": 18
+}

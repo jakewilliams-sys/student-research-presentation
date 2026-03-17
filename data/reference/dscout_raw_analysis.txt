@@ -1,0 +1,403 @@
+File: "DScout Raw Analysis" (ID: 1tq6M4eA9CvKuUrU35Lwt5BpkvJQoEc2ADw9yMGYApEY, Type: application/vnd.google-apps.document)
+Link: https://docs.google.com/document/d/1tq6M4eA9CvKuUrU35Lwt5BpkvJQoEc2ADw9yMGYApEY/edit?usp=drivesdk
+
+--- CONTENT ---
+
+--- TAB: Structured Data Analysis — Eating Patterns ---
+1. Food Sourcing Patterns
+Overall breakdown across all 315 meal slots (15 participants × 7 days × 3 meals):
+Cooked at home: ~147 meals (46.7%) — by far the dominant source
+Skipped: ~70 meals (22.2%) — second most common "outcome"
+Eating out (restaurant/café/campus outlet): ~40 meals (12.7%)
+Supermarket / convenience store: ~28 meals (8.9%)
+Other / unclear source (meal logged but source blank): ~14 meals (4.4%)
+Food delivery app: ~11 meals (3.5%)
+Meal prep subscription service: 5 meals (1.6%) — exclusively Rory C
+By day of study (approximate % of 45 daily meal slots):
+Day
+Day of week
+Cooked
+Skipped
+Eating out
+Supermarket
+Delivery
+Notes
+1
+Wed
+64%
+16%
+7%
+7%
+4%
+Highest cooking day
+2
+Thu
+60%
+16%
+11%
+7%
+4%
+Very similar to Day 1
+3
+Fri
+53%
+20%
+13%
+7%
+4%
+Cooking begins to dip
+4
+Sat
+38%
+36%
+13%
+9%
+2%
+Sharpest drop in cooking
+5
+Sun
+20%
+29%
+16%
+4%
+9%
+Lowest cooking; high "Other" (22%) due to missing dinner sources
+6
+Mon
+47%
+20%
+4%
+22%
+0%
+Supermarket spike (depleted fridges after weekend)
+7
+Tue
+44%
+20%
+24%
+7%
+0%
+Highest eating-out day
+Home cooking falls dramatically over the weekend (64% Wed → 20% Sun) before recovering on Monday
+Monday shows a notable spike in supermarket/convenience purchases, suggesting fridges are being restocked or participants are grabbing quick convenience items
+Tuesday (last day of the study) has the highest eating-out rate (24%), driven by participants catching up with friends and socialising at end of week
+Delivery orders cluster in the middle of the week and spike slightly on Sunday
+2. Weekday (Wed–Fri) vs Weekend (Sat–Sun)
+Weekdays – Days 1–3 (Wed/Thu/Fri), 135 total meal slots:
+Cooked at home: 80/135 = 59%
+Skipped: 23/135 = 17%
+Eating out: 14/135 = 10%
+Supermarket: 9/135 = 7%
+Delivery: 6/135 = 4%
+Weekend – Days 4–5 (Sat/Sun), 90 total meal slots:
+Cooked at home: 26/90 = 29% ↓ (halved compared to weekdays)
+Skipped: 29/90 = 32% ↑ (nearly doubled)
+Eating out: 13/90 = 14% ↑
+Delivery: 5/90 = 6% ↑ (slightly higher)
+Supermarket: 6/90 = 7% (unchanged)
+Other/unclear: 11/90 = 12% — high because many participants did not log a food source for Sunday evening dinner
+Key behavioural shifts between weekdays and weekends:
+Home cooking drops by 30 percentage points on weekends — the single biggest finding in this comparison
+Meal skipping nearly doubles; the majority of weekend skips are due to late wake-ups (participants going to bed after 6am, sleeping until afternoon), particularly Chika S and Rory C
+Eating out increases slightly but is more social on weekends (with friends/family) vs. more functional on weekdays (work canteen, on-campus, café on the go)
+Delivery orders are slightly more common at weekends and are more likely to be comfort/craving driven ("craving a spicebag all week", "craving pizza", "craving KFC")
+Weekend eating is markedly more spontaneous and socially led; weekday eating is more habitual, budget-driven, and planned
+3. Delivery App Usage
+Summary:
+9 out of 15 participants (60%) placed at least one delivery order during the 7 days
+Total confirmed delivery orders: 11 across the whole study
+6 participants placed zero delivery orders: Indiana K, Joshua W, Katie L, Rory C, Sian W, Suryansh J
+By platform:
+Uber Eats: 5 orders (Aayush D1-dinner, Edna D5-lunch, Evan D2-lunch, Louise D2-dinner, Mrugesh D5-lunch) — most used platform
+Deliveroo: 3 orders (Aayush D3-lunch, Chika D1-dinner, Chika D5-dinner)
+Just Eat: 2 orders (Adam D3-lunch, Dearbhla D4-dinner)
+Local restaurant own app: 1 order (Jill L D5-dinner — local Chinese restaurant; chose it over major apps because it was cheaper)
+By meal type:
+Dinner: 6 of 11 orders (55%)
+Lunch: 5 of 11 orders (45%)
+Breakfast: 0 orders — no participant ordered delivery for breakfast
+Individual usage:
+Aayush M: 2 orders (Uber Eats + Deliveroo)
+Chika S: 2 orders (Deliveroo × 2)
+All other users: 1 order each
+Reasons given for ordering delivery (from open text):
+"I was too lazy to cook food" (Aayush)
+"Craving pizza", "didn't have time to make food" (Adam)
+"I was craving this dish from this specific restaurant, got the best deal on Uber Eats" (Mrugesh)
+"Coming home late from work, wanted something quick and easy" (Louise)
+"Craving a spicebag all week... cheaper through the restaurant's own app than a partner app" (Jill)
+"Skipped breakfast and lunch, craving South Asian food, chose Deliveroo for free delivery" (Chika)
+Platform selection logic:
+Louise H: explicitly mentions being an Uber One subscriber (free delivery + discounts) as the primary reason she uses Uber Eats
+Jill L: deliberately bypassed major apps to use the restaurant's own app to avoid commission markups
+Adam P: used Just Eat because Deliveroo and Uber Eats are not available in rural Mayo
+Mrugesh M: chose Uber Eats because it offered the best deal on the dish he wanted
+4. Meal Skipping Patterns
+Overall: ~70 skipped meal slots out of 315 = 22%By meal type:
+Breakfast skipped: ~37 times (53% of all skips; ~25% of all 105 breakfasts)
+Lunch skipped: ~22 times (31% of all skips; ~14% of all lunches)
+Dinner skipped: ~11 times (16% of all skips; ~7% of all dinners)
+→ Breakfast is by far the most frequently skipped meal
+Individual skip counts (over 7 days, out of 21 possible meals):
+Chika S: ~11 skips — skips breakfast almost every day by habit; skipped all 3 meals on Day 4 after staying out until 7am; describes herself as "not usually hungry in the morning"
+Rory C: ~11 skips — self-described as "never really a breakfast person"; never logged a breakfast across all 7 days; frequently skips lunch on busy or out-of-routine days; relies entirely on meal prep service for dinners
+Jill L: ~7 skips — skips breakfast every single day ("as usual"), consistently and habitually
+Indiana K: ~6 skips — skips breakfast most days; notes she "normally doesn't eat much" when unwell
+Evan D: ~5 skips — mainly breakfast; skips when he has an early lecture or hasn't woken up in time
+Adam P: ~5 skips — a mix of all three meals; skipped lunch several times while ill or out and about
+Suryansh J: ~5 skips — skips breakfast 5 out of 7 days, explicitly linked to "early lectures" and being a student habit
+Aayush M: ~4 skips — mainly lunches, linked to long work/uni shifts; one full dinner not logged
+Mrugesh M: ~4 skips — mainly breakfast and one lunch
+Sian W: ~3 skips — mainly breakfast; skips when going to gym early
+Joshua W: ~2 skips — low skipper; one was breakfast when ill, one was dinner replaced by cereal
+Dearbhla J: ~1 skip — most consistent eater in the group
+Edna P: ~2 skips
+Katie L: ~2 skips
+Louise H: ~1 skip
+Skipping by day of week:
+Days 4–5 (Sat–Sun): 29 skips out of 90 meals = 32% — much higher than weekdays
+Days 1–3 (Wed–Fri): 23 skips out of 135 = 17%
+Weekend skipping is predominantly a breakfast/late wake-up phenomenon; several participants note not waking up until noon or later after nights out
+Primary reasons given for skipping:
+Late wake-up (especially Sat/Sun after social events)
+Too busy with lectures, work, or travel to eat
+Feeling unwell or not hungry
+Staying out all night (Chika's most extreme case: awake until 7am, up again at noon)
+Rory and Jill: simply don't eat breakfast by habit — never mention it as "skipping", just part of their normal pattern
+5. Reasons for Food Choice
+(Based on structured multi-select reason columns across all logged meals)Top reasons overall (estimated frequency across all non-skipped meals):
+Time / convenience — most frequently cited across all meal types; especially dominant for lunch
+Habit / routine — dominant for breakfast; signals automated, repeated behaviour
+Price / budget — consistently cited across all meals and all participants; students are highly price-sensitive
+Craving / comfort — strongest for dinner and delivery orders; most cited reason when ordering in or eating out
+Socialising — very common for dinners, especially weekends; often triggers eating out
+Studying or working — cited frequently at lunch as a driver of quick/convenient choices
+Didn't feel like cooking — cited almost exclusively alongside delivery or eating-out choices; often paired with "craving / comfort"
+Health reasons — cited most consistently by Postgrads (Jill, Louise, both mention protein goals), and by Dearbhla J, Sian W, Joshua W among undergrads
+Meal prepped — a minority reason; primarily Dearbhla J (meal preps multiple portions), Joshua W (batch cooks pasta), and implicitly Rory C (subscription prep service)
+By meal type:
+Breakfast: Habit/routine > Time/convenience > Health reasons > Price/budget — breakfast is the most automated, least deliberate meal
+Lunch: Time/convenience > Price/budget > Studying or working > Habit/routine — lunch is instrumentalised around the working/study day
+Dinner: Craving/comfort > Socialising > Habit/routine > Time/convenience > Didn't feel like cooking — dinner is the most consciously chosen and socially influenced meal
+Notable patterns:
+"Habit/routine" almost never appears as the stated reason for a delivery order — delivery is driven by craving/comfort and convenience, not routine
+"Price/budget" is cited even when eating out (e.g., Dearbhla uses Just Eat in rural Mayo because it's the only available option; Sian W goes to a restaurant specifically because of a 50% discount; Louise H orders a kids' meal at Nando's for value)
+"Socialising" dramatically increases as a cited reason on Days 4–5 (Sat–Sun) — consistent with the rise in eating out and the decline in home cooking at weekends
+Several participants explicitly mention TikTok as an inspiration source for what to cook at home (Louise H, Sian W mention social media for recipe ideas)
+"Didn't feel like cooking" spikes when participants have had long days, are tired, or are visiting somewhere other than their usual home
+6. Social Eating Patterns
+General patterns by meal:
+Breakfast is the most solitary meal — when eaten (rather than skipped), it is predominantly eaten alone; the exception is participants living with a partner (Jill, Louise, Chika) who occasionally share breakfast
+Lunch on weekdays is predominantly solo — participants eat at their desks, in the library, or quickly between lectures; on weekends it becomes more social (eating out with friends or family)
+Dinner is the most social meal — the clear majority of dinners involve at least one other person (housemate, friend, family member, or partner)
+Most common social contexts:
+"With housemates" — the default dinner context for university-based undergrads (Evan D, Joshua W, Sian W consistently eat dinner with housemates)
+"With partner" — dominant context for Postgrads Jill L and Louise H; also Chika S and Suryansh J
+"With family" — spikes on weekend days as multiple participants (Indiana K, Adam P, Dearbhla J, Sian W) were visiting or staying with family during the study period
+"With friends" — strongly associated with eating-out and delivery orders; almost all restaurant meals on weekends are eaten with friends
+Weekday vs weekend comparison:
+On weekdays (Days 1–3): breakfast mostly alone; lunch mostly alone or with colleagues/classmates; dinner split between alone and housemates
+On weekends (Days 4–5): dinner with friends or family is much more common; breakfast (when eaten at all) is more likely shared with partner; more "group" meals involving larger social gatherings
+Delivery orders are more likely to be social (with partner or friends) than eating alone — ordering delivery is partly a shared experience
+Individual outliers:
+Rory C: almost all actual meals eaten alone — his meal prep service is designed for individual consumption; eats with friends only when someone cooks for a group (e.g., Chinese New Year dinner party)
+Joshua W: highly social eater despite home cooking everything — nearly every dinner is with housemates or partner; even batch-cooks to share
+Mrugesh M: most socially driven eater — consistently eats lunch and dinner with friends, often spontaneously
+Edna P: highly social on weekends (all three meals with friends on Day 7); more solitary during the weekday working week
+Does social eating change across the week?
+Yes: eating alone is most common Mon–Fri (especially breakfast and lunch), and group eating peaks on Sat–Sun
+Sunday dinner in particular is the most communal meal of the week
+7. Comparisons by Graduate Status
+(Note: Postgrads = 2 participants, Early Grads = 2 participants — observations are illustrative, not statistically representative)Food sourcing breakdown:
+Category
+Undergrads (11)
+Postgrads (2)
+Early Grads (2)
+Cooked at home
+47% (108/231)
+55% (23/42)
+38% (16/42)
+Skipped
+25% (57/231)
+19% (8/42)
+10% (4/42)
+Eating out
+10% (24/231)
+10% (4/42)
+29% (12/42)
+Supermarket
+8%
+7%
+14%
+Delivery
+3.5% (8 orders)
+4.8% (2 orders)
+2.4% (1 order)
+Meal prep
+2% (Rory only)
+—
+—
+Postgrads (Jill L, Louise H):
+Highest home cooking rate (55%) and lowest skip rate (19%)
+Most structured and intentional approach to eating — both describe planned meal routines, regular meal prep, and explicit nutritional goals (protein intake, balanced meals)
+Both skip breakfast habitually but compensate with substantial lunches and dinners
+Delivery: occasional but deliberate (Uber Eats when arriving home late from work; local app for a craving)
+Lunch is a "working" meal — Louise batch-cooks and brings food to work daily; Jill eats a light lunch at home most days
+More likely to cite health reasons as a driver than undergrads or early grads
+Both are influenced by social media for food inspiration (Louise explicitly mentions TikTok for recipe ideas)
+Undergrads (11 participants):
+Middle ground for home cooking (47%) but highest skip rate (25%)
+Highest internal variation of any group — from Joshua W (18/21 meals home cooked, almost zero eating out, highly disciplined budget cooking) to Rory C (2/21 home cooked, reliant on meal prep subscription, skips 11/21 meals)
+Most price-sensitive — "budget" and "convenience" dominate stated reasons; several mention meal deals, making large batches to save money, buying from Tesco/Lidl
+University schedule (lectures, long days) is the dominant driver of meal skipping and quick food choices
+Most affected by social pull on weekends — late nights, spontaneous group meals, Nando's runs, takeaways
+Delivery: most orders in absolute number (8 across the group), driven by craving/comfort
+Early Grads (Edna P, Katie L):
+Lowest home cooking rate (38%) and highest eating-out rate (29%)
+Both show a pattern of eating out frequently with friends, especially on weekends; Edna eats out 7/21 meals across the week
+More spontaneous and comfort-driven eating; Edna describes food choices as mood-driven and craving-driven throughout her reflections
+Less meal-prepping, more reactive food decisions
+Delivery: minimal (just 1 Uber Eats order between them) — they prefer to physically go out rather than order in
+Both show a clear weekday/weekend split: more structured eating on working days, much more eating-out-with-friends on weekends
+Katie L in particular uses the supermarket frequently for convenience purchases (5/21 meals = nearly a quarter of her eating)
+Cross-status patterns:
+All three groups show the same weekday-to-weekend shift (more cooking on weekdays, more eating out / skipping on weekends)
+Health as a motivation increases with graduate level: largely absent in undergrads, moderate in early grads, prominent in postgrads
+Social eating via restaurants is highest among early grads and lowest among postgrads (who tend to eat socially at home rather than out)
+Budget sensitivity is present across all groups but expressed differently: undergrads buy cheap supermarket basics and batch cook; postgrads prioritise value at restaurants (kids' meals, deals); early grads are more willing to eat out but still note price as a factor
+
+--- TAB: Why Ordered — Themes ---
+Theme Analysis — "Why Did You Order / Choose This Meal?"
+Open-text column confirmed: Breakfast/Lunch/Dinner - Why ordered (open text) — plus video transcriptions where available.
+Top Recurring Themes
+1. Laziness / Didn't Feel Like Cooking
+The single most common delivery trigger across the dataset
+"I was too lazy to cook food" (Aayush, Day 1 dinner — Uber Eats)
+"We didn't feel like making late lunch/early dinner and decided to order instead" (Chika, Day 5 dinner — Deliveroo)
+"Was craving KFC and didn't want to cook" (Edna, Day 5 lunch — Uber Eats)
+Strongly correlates with late nights, tired days, and post-party recovery
+2. Cravings — Specific Food or Cuisine
+Cravings drove nearly every delivery decision, often highly specific
+"We were craving pizza today" (Adam, Day 3 — Just Eat; Aayush, Day 3 — Deliveroo)
+"Craving food from our cuisine (South Asian)" (Chika, Day 5)
+"I was craving this dish from this specific restaurant" (Mrugesh, Day 5 — Uber Eats)
+"I was craving a spicebag all week... it was in my head that we were ordering one on Sunday" (Jill, Day 5)
+Craving was often pre-planned to a specific day/event, not purely impulsive
+3. Time Pressure / Nothing In the House
+"I was coming home late from work and fancied something quick and easy" (Louise, Day 2 — Uber Eats)
+"There wasn't much food in the cupboard, I couldn't be bothered to go to the shop" (Evan, Day 2 — Uber Eats)
+Running late for uni/work and skipping or grabbing on the go came up repeatedly
+Katie: Greggs grabbed before a drive — "easy for all of us, quick, convenient, cheap"
+4. Social Occasion / Eating with Others
+Many ordering decisions were collective, not individual
+"Ordered with my flatmate because we craved pizza" (Aayush)
+"I am home in Mayo with the family and wanted to order a takeaway" (Dearbhla, Day 4)
+Date night at Chinese restaurant (Suryansh), Chinese New Year dinner party (Rory), friend's birthday at The Real Greek (Suryansh)
+Group dynamics visibly influenced both what was ordered and which platform was used
+5. Price Sensitivity / Deals & Discounts
+Budget was a consistent background factor, particularly for delivery app choice
+"I got a deal for 2... I have Uber One so get free deliveries" (Louise, Day 2)
+"We chose Deliveroo due to the free delivery" (Chika, Day 5)
+"I got the best deal on Uber Eats" (Mrugesh, Day 5)
+"Offer on Franco Manca" (Suryansh, Day 5)
+"The restaurant has 50% off at the moment — we felt it was good value" (Sian, Day 7)
+Students in particular framed eating out as a cost-justified treat when offers applied
+6. Habit / Routine-Driven Choices
+Many meal choices weren't decisions at all — just default behaviour
+"Because Uber Eats is the app I most commonly use and am familiar with" (Evan, Day 2)
+Rory used a weekly meal prep delivery service (not apps) every weekday — no deliberate decision needed
+Joshua made 3 sandwiches/week as a standing routine; pasta on rotation; overnight oats nightly
+Dearbhla meal-prepped regularly and described it as "not changing too much"
+7. App Availability / Platform Logic
+"Chose Just Eat as the other apps are not available in Mayo" (Dearbhla, Day 4) — rural delivery gap
+"We remembered the restaurant was on Deliveroo" (Chika, Day 5) — prior discovery influencing platform choice
+"It's the local Chinese's own app — more convenient and cheaper than another partner" (Jill, Day 5) — direct ordering to avoid commission
+Uber One subscription explicitly cited as the reason for using Uber Eats over alternatives (Louise, Evan)
+8. Health / Protein Goals (Implicit)
+Not often cited for ordering decisions, but shaped cooking choices significantly
+Dearbhla, Joshua, Louise, Sian all explicitly mentioned protein goals when explaining home-cooked meals
+Health reasoning functioned as a reason not to order rather than a reason to order
+Interesting / Surprising Individual Responses
+Jill (Postgrad), Day 5: "I was craving a spicebag all week and it was in my head that we were ordering one on Sunday when my partner got home from the stag." — Pre-planned craving tied to a social return event. Reveals ordering as an anticipated reward/celebration, not impulse.
+Chika (Undergrad), Day 5: Stayed awake until 6am, slept until 5pm, then ordered South Asian food via Deliveroo specifically citing free delivery and having seen the restaurant on the platform previously as distinct reasons. Shows how passive discovery within the app feeds into future ordering decisions.
+Dearbhla (Undergrad), Day 4: Rural delivery gap — Deliveroo and Uber Eats literally not available in Mayo. Defaulted to Just Eat as the only option. Points to uneven platform penetration outside cities.
+Evan (Undergrad), Day 2: "Because Uber Eats is the app I most commonly use and am familiar with" — The explicit reason for choosing a platform was app familiarity alone, not price or selection.
+Rory (Undergrad): Never used a delivery app once. Subscribed to a weekly meal prep service delivered on Mondays, used throughout the week. Entirely opted out of the delivery app ecosystem.
+Suryansh (Undergrad), Day 5: "Offer on Franco Manca" — Just three words, but one of the most transactionally clear responses. A deal was the primary (apparently sole) stated reason.
+Early Week vs Late Week Patterns
+Early week (Days 1–3, roughly Tue–Fri):
+Dominated by routine, cooking at home, meal prep, budget discipline
+Delivery orders rare and usually triggered by specific situational factors (flatmate, no food in house, late day)
+More structured decision-making language in responses
+Late week (Days 4–7, Fri–Mon, covering the weekend):
+Clear spike in social eating, restaurant outings, and delivery orders
+Cravings and social occasions dominate; cost discipline relaxed ("it was the weekend, treat myself")
+Multiple participants noted that weekend patterns differ from their norm — more spontaneous, more indulgent
+Several specifically cited a sense of permission to order on weekends: "it is the weekend, I decided to treat myself" (Edna); "at the weekend you're able to splash out a bit more" (Katie)
+By Day 7 (Monday), several participants showed signs of returning to routine — Rory explicitly noted "today was a bit more back to my normal routine"
+
+--- TAB: Video Reflection Themes ---
+1. Main Themes in Reflections
+Habit & Routine
+Many participants describe near-automated eating patterns: same breakfast daily, fixed meal prep schedules, Thursday Starbucks runs
+"It's just part of my routine now" is a phrase that recurs almost verbatim across several participants
+Routine is most strongly articulated by undergrads (Evan D, Joshua W, Sian W, Aayush M)
+Time Pressure & Lecture Scheduling
+The most dominant driver of skipped meals: early lectures, long shifts, doctor's appointments, commutes
+Breakfast is skipped most frequently; multiple students frame this as near-identity ("I'm not a breakfast person anyway")
+Budget Consciousness
+Cost is explicitly cited across nearly all undergrads — "cheap, easy, and it's in the cupboard" (Evan D); "very budget day" (Joshua W)
+Meal prep services, leftovers, and home cooking are described in economic terms more than nutritional ones
+Social Context as the Primary Weekend Override
+Weekend eating is dramatically different from weekday — more eating out, more indulgence, more spontaneity
+Food decisions often made reactively to social invitations rather than planned: "one of my friends called and asked if I wanted to get food and I was like, yeah okay" (Mrugesh M)
+Chinese New Year, visits home, trips to Swansea/Mayo, rave events, pub sessions all appear as context-coloring food choices
+Disrupted Routine / Being Away from Uni
+A notable subset of participants (Indiana K, Adam P, Dearbhla J) were visiting their family home during the study, which they consistently flagged as distorting their data
+"It doesn't really reflect my day to day" is the most repeated phrase in the entire dataset — used by almost every participant in almost every reflection
+Comfort & Craving
+Appears particularly in evenings and weekends — shakshuka as a "comfort meal," Nando's craving, McDonald's cravings, spice bag being "in my head all week" (Jill L)
+Emotional eating framed as benign and deserved ("treat meal") rather than guilty
+Meal Skipping as Normal
+Skipping breakfast is described as habitual and identity-level, not as a lapse
+Skipping lunch is usually attributed to logistics; skipping dinner is rarer and almost always explained by illness, parties, or fatigue
+Health Awareness — Selective and Purposeful
+A subset (Louise H, Sian W, Joshua W, Dearbhla J) actively track protein intake and make food choices framed around nutrition goals
+But this sits alongside cheat meals and convenience eating without conflict — participants compartmentalize rather than moralize
+2. How Reflections Evolve: Day 2 → Day 4 → Day 7
+Day 2 — Descriptive, Slightly Self-Conscious
+Participants describe meals in detail, explaining the "why" behind each choice
+Lots of contextualizing and hedging: "this isn't typical because..." / "I was running late so..."
+Tone is observational and slightly performative — participants seem aware they're being evaluated
+Several voluntarily compare their behavior to their "normal," often to flag it's different this week
+Day 4 — More Natural, More Social
+Reflections become looser and more conversational
+Weekend behaviors dominate: parties, visits, social events, cultural celebrations
+Less justification of choices — participants are more matter-of-fact
+Some begin to notice patterns mid-week: Evan D comments that he was "being lazy" and plans to "try and limit takeaways"
+A few reflect directly on the act of logging (Mrugesh M, Rory C) rather than just on food
+Day 7 — Retrospective, More Emotionally Resonant
+This is the most qualitatively rich day across the dataset
+Multiple participants explicitly review the whole week as a unit — "looking at this journal and this diary I've been doing" (Edna P)
+Language of intention begins to appear: "my aim will be more to cook at home more" (Edna P); "we're back on breakfast, lunch, and dinner" (Katie L)
+Some participants become more honest about behavior they softened earlier: Joshua W acknowledges the study week was unusually budget-heavy; Katie L admits she's been skipping meals all week
+Evan D's final reflection is the starkest: short, resigned, no change — "not much changing from that, to be honest"
+Rory C explicitly says this week was a better representation than last week — meta-awareness of the study itself
+3. Vivid Quotes by Participant
+On self-discovery:> "I've realized even throughout this diary that I have done a lot of takeaways, and I think my aim will be more to cook at home more."— Edna P, Day 7On habit and resignation:> "It's cheap, easy, and I've always got it in the cupboard. So I don't for breakfast, I don't really tend to change anything in that sort of way."— Evan D, Day 7On a fresh-start framing:> "It's a fresh week and a fresh moment, we're back on breakfast, lunch, and dinner."— Katie L, Day 7On guilt, lightly worn:> "I should cut down on the pizzas, but yeah."— Adam P, Day 7On social spontaneity as the real food driver:> "One of my friends called, whether I wanted to get some food in a nearby restaurant. And I was like, yeah. Okay. So we went there."— Mrugesh M, Day 2On tiredness overriding intention:> "We were too tired and we had a plan to go somewhere out to eat Indian food, so we just went."— Aayush M, Day 7On chaotic social life affecting eating:> "I ended up staying awake until seven AM... fell asleep the entire journey... got home around twelve and fell asleep again until five PM... I also had another party the same day."— Chika S, Day 4On intergenerational food values:> "My family is very big on not wasting food and using up what we have... I did pick up that habit from my family."— Indiana K, Day 7On protein-focused goal-setting:> "I like getting my protein in early in the morning because I feel like it fuels me for the day."— Louise H, Day 2On location and routine disruption:> "I'm not at home and out of my routine. Normally, I'd focus on having quite a high protein meal in the morning."— Louise H, Day 4 (in Swansea for weekend)On comfort food motivation:> "I was craving a spice bag all week and it was in my head that we were ordering one on Sunday."— Jill L, Day 5 (open text, not transcription but noteworthy)On backhanded pride in home cooking:> "I don't love with their fing food. Sorry about my language, but their food is delicious."— Adam P, Day 7 (about the local butcher)
+4. Emotional Patterns & Notable Language
+"It doesn't reflect my day to day" — the most universal phrase across all participants and all three reflection days. Nearly everyone uses it or a close variant. Suggests participants feel an implicit pressure to present a normative diet and consistently excuse divergence.Apologetic hedging, mostly from undergrads:
+"I know I said this before," "sorry about the background noise," "I guess"
+Females slightly more likely to hedge than males in this sample
+No guilt, lots of explanation:
+Unlike what you might expect from a food diary study, almost no participant expresses shame or guilt
+Comfort eating and skipping meals are framed as logical responses to circumstances, not character failures
+Tiredness as the silent driver:
+"Couldn't be bothered to cook," "wasn't bothered," "too tired," "just needed something" — fatigue underlies a huge proportion of convenience food choices but is rarely named as the primary reason in the "Reason for choice" column (which shows only coded options like "Time/convenience")
+Qualitative shift in Day 7 emotional register:
+Day 7 reflections are warmer, more reflective, more willing to make statements about the future self
+The study appears to have prompted genuine behavioral reflection for at least Edna P, Katie L, and Louise H
+For others (Evan D, Rory C), the final reflection is more neutral — the study confirmed existing behavior rather than challenging it
+Cultural identity woven into food language:
+Indian-background students (Aayush M, Mrugesh M, Suryansh J) naturally code-switch when describing home cooking — references to biryani, palak, chapatis, and Indian curry carry emotional warmth absent from descriptions of supermarket meal deals
+Chika S explicitly names her cuisine as "South Asian" and frames it as a comfort craving

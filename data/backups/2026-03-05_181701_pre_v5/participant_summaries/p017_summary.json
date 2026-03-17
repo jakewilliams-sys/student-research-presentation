@@ -1,0 +1,143 @@
+{
+  "participant_id": "P017",
+  "summary": "Jill presents a fascinating contradiction - a qualified dietitian who relies heavily on food delivery despite her professional knowledge. At 30+, she's juggling full-time sustainability work with a postgraduate course, creating intense time pressure that drives her toward convenience solutions. Her communication style is thoughtful and self-aware, often catching herself mid-sentence to provide more accurate information. She demonstrates sophisticated understanding of nutrition misinformation on social media, yet admits her own eating habits have deteriorated over time. Her relationship with food delivery is pragmatic rather than indulgent - she sees it as a necessary tool for managing her busy schedule, particularly on college evenings when she's 'online from 9 to 9.' She shows remarkable self-regulation by cancelling her Deliveroo Plus subscription when she realized it was encouraging overconsumption, suggesting she actively manages her own behavioral triggers. Her food choices are influenced by location convenience, nutritional considerations (adding vegetables to orders), and social recommendations from friends and family.",
+  "personality_notes": "Measured, self-reflective communicator who frequently self-corrects. Shows high self-awareness about her contradictions and behavioral patterns. Professional yet personable, with a tendency toward detailed explanations.",
+  "food_relationship": "Views food delivery as a practical necessity rather than indulgence, driven by time constraints despite professional nutrition knowledge.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Reveals she's a dietitian while discussing her heavy reliance on takeaway",
+      "significance": "Core contradiction that defines her relationship with food - professional knowledge vs. practical behavior"
+    },
+    {
+      "timestamp": "1-711",
+      "description": "Admits cancelling Deliveroo Plus because it encouraged too much ordering",
+      "significance": "Shows sophisticated self-awareness and active management of her own consumption triggers"
+    },
+    {
+      "timestamp": "1-319 to 1-327",
+      "description": "Detailed explanation of dinner stress on college evenings",
+      "significance": "Reveals the genuine time pressure and decision fatigue that drives delivery usage"
+    }
+  ],
+  "what_not_said": [
+    "Never discussed guilt about professional vs. personal food choices",
+    "Avoided mentioning specific dietary restrictions despite being vegetarian",
+    "Did not elaborate on why her healthy takeaway habits deteriorated"
+  ],
+  "initial_hypotheses": [
+    "Professional food knowledge may create internal conflict but doesn't override convenience needs",
+    "Time scarcity is the primary driver, not laziness or lack of cooking skills",
+    "She may represent a segment of health-conscious professionals who use delivery strategically",
+    "Social influence (friends, family) plays a significant role in her platform and restaurant choices"
+  ],
+  "questions_for_coding": [
+    "How do health professionals reconcile their knowledge with convenience behaviors?",
+    "What role does time pressure play versus other factors in delivery decisions?",
+    "How does professional identity influence food delivery platform preferences?",
+    "What triggers self-regulation behaviors in heavy delivery users?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So I am working in sustainability and doing a part time postgraduate course course in innovation for sustainability.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 311,
+      "end_char_index": 435,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I actually am a dietitian as well.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 8076,
+      "end_char_index": 8118,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But I'm definitely more of eating out person or, you know, getting takeaway person that I am a cooking person.\nspk_1: Although I'm trying to change that this year.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 4006,
+      "end_char_index": 4177,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So yeah, I, well, I tried to follow the, you know, dietitians or the least misinformationy people out there.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 8118,
+      "end_char_index": 8234,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And then like the people like the least misinformation kind of, you know, like, you know, people that are accredited, like, you know, whether that be accredited nutritionists or dietitians who would give, you know, post good content and kind of stay away from the, you know, people who I know, like, you know, fat diet people or, you know, kind of needing to meet people.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 8395,
+      "end_char_index": 8774,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I definitely used to Get a lot more healthy takeaways.\nspk_1: And like, I used to only get like, sushi and Camille Thai and, like, you know, kind of healthy options, but now I'm a little bit like, oh, you know, whatever.\nspk_1: So.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 28937,
+      "end_char_index": 29176,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's just because I don't have any time to prepare it.\nspk_1: So, like, you know, you're kind of like torn between, like, I'm actually starving right now and I'm like sat here on a lecture, you know, and then, yeah, like, I should be eating healthy.\nspk_1: Like, you know, I should kind of, you know, prepare something and whatever.\nspk_1: But then you're kind of like, well, it's actually going to take me half an hour to prepare that, and then it's going to take half an hour to cook.\nspk_1: And, you know, it's like everything is just time, and half an hour is probably even like under an underestimate of the time to prepare.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 18866,
+      "end_char_index": 19503,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, but it just encouraged me to eat way too much takeaway, so I deleted it.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 42421,
+      "end_char_index": 42507,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like my mom will send it to me on Instagram.\nspk_1: You know they're doing two year coffee somewhere or like there's five euro pizzas, I don't know for something someone's.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 14527,
+      "end_char_index": 14707,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, it was just convenience and like, you know, some of my friends had it, and then I was like, that's actually great.\nspk_1: That's actually, you know, when I weigh that up against the number of takeaways, that I guess that's actually like good value.\n",
+      "document_index": 0,
+      "document_title": "P017 - P017 - Interview Transcript",
+      "start_char_index": 43772,
+      "end_char_index": 44034,
+      "participant_id": "P017",
+      "participant_name": "P017"
+    }
+  ],
+  "_citation_count": 10
+}

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Their Order — Card Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-cream: #f8f6f1;
+      --card-white: #ffffff;
+      --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+      --card-w: 600px;
+      --card-h: 400px;
+      --card-radius: 12px;
+      --card-border: 4px;
+      --shadow-subtle: 0 4px 24px rgba(0, 0, 0, 0.06);
+      --shadow-stack: 0 2px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { font-size: 16px; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg-cream);
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      color: #2c2a26;
+      overflow: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .deck {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    /* Header */
+    .deck-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 2rem;
+      z-index: 10;
+    }
+
+    .persona-dots {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .persona-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #d4d0c8;
+      transition: background 0.3s var(--ease-out-expo), transform 0.3s var(--ease-out-expo);
+    }
+
+    .persona-dot.active {
+      transform: scale(1.2);
+    }
+
+    .persona-dot.optimizer.active { background: #1d7775; }
+    .persona-dot.social.active { background: #b07328; }
+    .persona-dot.balancer.active { background: #3a7a55; }
+    .persona-dot.dependent.active { background: #6454a4; }
+
+    .deck-title {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #2c2a26;
+    }
+
+    .deck-counter {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      color: #6b6760;
+      letter-spacing: 0.02em;
+    }
+
+    /* Card area */
+    .card-zone {
+      position: relative;
+      width: var(--card-w);
+      height: var(--card-h);
+      margin-top: 3rem;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+
+    .card-zone:focus {
+      outline: none;
+    }
+
+    /* Click zones for prev/next */
+    .click-zone {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      width: 20%;
+      z-index: 5;
+      cursor: pointer;
+    }
+
+    .click-zone.prev { left: 0; }
+    .click-zone.next { right: 0; }
+
+    /* Stack cards (behind) */
+    .stack-card {
+      position: absolute;
+      width: var(--card-w);
+      height: var(--card-h);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: var(--card-white);
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow-stack);
+      pointer-events: none;
+      transition: transform 0.5s var(--ease-out-expo), opacity 0.5s var(--ease-out-expo);
+    }
+
+    .stack-card:nth-child(1) {
+      transform: translate(calc(-50% + 8px), calc(-50% + 4px)) scale(0.98);
+      z-index: 0;
+    }
+
+    .stack-card:nth-child(2) {
+      transform: translate(calc(-50% + 4px), calc(-50% + 2px)) scale(0.99);
+      z-index: 1;
+    }
+
+    .card-zone:not(.show-stack) .stack-card {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s var(--ease-out-expo);
+    }
+
+    .card-zone.show-stack .stack-card {
+      opacity: 1;
+    }
+
+    /* Main card */
+    .card {
+      position: absolute;
+      width: var(--card-w);
+      height: var(--card-h);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: var(--card-white);
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow-subtle);
+      overflow: hidden;
+      z-index: 2;
+      transition: box-shadow 0.3s var(--ease-out-expo);
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-border {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--card-border);
+    }
+
+    .card-inner {
+      padding: 2rem 2.25rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Card transition states */
+    .card.enter-prev {
+      animation: cardEnterFromLeft 0.5s var(--ease-out-expo) forwards;
+    }
+
+    .card.enter-next {
+      animation: cardEnterFromRight 0.5s var(--ease-out-expo) forwards;
+    }
+
+    .card.exit-prev {
+      animation: cardExitToLeft 0.5s var(--ease-out-expo) forwards;
+    }
+
+    .card.exit-next {
+      animation: cardExitToRight 0.5s var(--ease-out-expo) forwards;
+    }
+
+    @keyframes cardEnterFromLeft {
+      from {
+        opacity: 0;
+        transform: translate(calc(-50% - 80px), -50%);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    @keyframes cardEnterFromRight {
+      from {
+        opacity: 0;
+        transform: translate(calc(-50% + 80px), -50%);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    @keyframes cardExitToLeft {
+      from {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+      to {
+        opacity: 0;
+        transform: translate(calc(-50% - 80px), -50%);
+      }
+    }
+
+    @keyframes cardExitToRight {
+      from {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+      to {
+        opacity: 0;
+        transform: translate(calc(-50% + 80px), -50%);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .card.enter-prev,
+      .card.enter-next,
+      .card.exit-prev,
+      .card.exit-next {
+        animation-duration: 0.01ms !important;
+      }
+      .stack-card {
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* Typography */
+    .card-title-lg {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 0.5rem 0;
+    }
+
+    .card-tagline {
+      font-size: 0.9rem;
+      color: #6b6760;
+      margin: 0 0 1.25rem 0;
+      font-weight: 500;
+    }
+
+    .card-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .card-stat {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      color: #6b6760;
+      letter-spacing: 0.02em;
+    }
+
+    .card-quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1.1rem;
+      font-style: italic;
+      line-height: 1.5;
+      color: #2c2a26;
+      margin: auto 0 0 0;
+    }
+
+    .card-quote-cite {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.7rem;
+      font-style: normal;
+      color: #8a8580;
+      margin-top: 0.35rem;
+    }
+
+    /* Stage card layout */
+    .stage-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      color: #8a8580;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+
+    .stage-name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1.35rem;
+      margin: 0 0 0.75rem 0;
+    }
+
+    .emotion-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .emotion-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .emotion-label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #6b6760;
+    }
+
+    .context {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #2c2a26;
+      flex: 1;
+      margin-bottom: 1rem;
+    }
+
+    .stage-quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1rem;
+      font-style: italic;
+      line-height: 1.45;
+      color: #2c2a26;
+    }
+
+    .persona-name-small {
+      font-size: 0.7rem;
+      color: #8a8580;
+      margin-top: 0.5rem;
+      text-align: right;
+    }
+
+    /* Title card */
+    .title-card .card-inner {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .title-card .card-title-lg {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .title-card .card-tagline {
+      font-size: 1rem;
+    }
+
+    /* Intro overview card */
+    .intro-overview .persona-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .intro-overview .persona-pill {
+      padding: 0.6rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .intro-overview .card-quote {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+
+    /* Transition card */
+    .transition-card .card-inner {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .transition-card .card-title-lg {
+      font-size: 1.75rem;
+    }
+
+    .transition-card .card-tagline {
+      font-size: 0.95rem;
+    }
+
+    /* Comparison card */
+    .comparison-card .card-inner {
+      padding: 1.5rem;
+    }
+
+    .comparison-card .stage-name {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    .comparison-item {
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      border-left: 3px solid;
+      font-size: 0.8rem;
+    }
+
+    .comparison-item .persona-name {
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+
+    .comparison-item .emotion {
+      font-size: 0.7rem;
+      opacity: 0.9;
+    }
+
+    .comparison-item .quote {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      margin-top: 0.35rem;
+      font-size: 0.85rem;
+    }
+
+    /* Closing card */
+    .closing-card .card-inner {
+      justify-content: center;
+    }
+
+    .closing-card .card-title-lg {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .closing-card .context {
+      margin-bottom: 0;
+    }
+
+    /* Hide header on title/closing */
+    .deck.hide-header .deck-header {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .deck-header {
+      transition: opacity 0.3s var(--ease-out-expo);
+    }
+
+    /* Hint */
+    .hint {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.75rem;
+      color: #8a8580;
+    }
+  </style>
+</head>
+<body>
+  <div class="deck" id="deck">
+    <header class="deck-header">
+      <div class="persona-dots" id="personaDots">
+        <span class="persona-dot optimizer" data-persona="optimizer"></span>
+        <span class="persona-dot social" data-persona="social"></span>
+        <span class="persona-dot balancer" data-persona="balancer"></span>
+        <span class="persona-dot dependent" data-persona="dependent"></span>
+      </div>
+      <span class="deck-title" id="deckTitle"></span>
+      <span class="deck-counter" id="deckCounter"></span>
+    </header>
+
+    <div class="click-zone prev" id="clickPrev" aria-label="Previous card"></div>
+    <div class="click-zone next" id="clickNext" aria-label="Next card"></div>
+
+    <div class="card-zone" id="cardZone" tabindex="0">
+      <div class="stack-card" aria-hidden="true"></div>
+      <div class="stack-card" aria-hidden="true"></div>
+      <div class="card" id="mainCard">
+        <div class="card-border" id="cardBorder"></div>
+        <div class="card-inner" id="cardInner"></div>
+      </div>
+    </div>
+
+    <p class="hint" id="hint">Click card or use arrow keys to advance</p>
+  </div>
+
+  <script>
+    const DATA = {
+      "title": "Follow Their Order",
+      "subtitle": "Four students. Six stages. One ordering journey.",
+      "intro": "Same app. Four completely different experiences.",
+      "stages": ["Trigger", "Decision", "Order", "Wait", "Meal", "After"],
+      "stageNames": ["Deciding to order", "Choosing where & what", "Placing the order", "Waiting for delivery", "Eating the food", "After the meal"],
+      "closing": {
+        "heading": "What happens between wanting to order and actually ordering?",
+        "body": "Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap."
+      },
+      "personas": [
+        {"id":"optimizer","name":"The Pragmatic Optimizer","shortName":"Optimizer","color":"#1d7775","colorSoft":"#e8f3f3","tagline":"Systematic efficiency meets strategic deal-hunting","stats":["12 participants","Orders fortnightly","None hold Deliveroo Plus alone"],"introQuote":{"text":"Ordering a takeaway after an exam… that's an enjoyable meal. It's like a reward. You've earned it.","cite":"P007"},"stages":[{"name":"Deciding to order","emotion":"Comfort","score":"4/5","context":"It's Thursday evening. Lectures are done, the library is closed, and tomorrow's assignment can wait. The thought of cooking crosses their mind — and is immediately weighed against the effort.","quote":{"text":"It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on.","cite":"P025"}},{"name":"Choosing where & what","emotion":"Stress","score":"2/5","context":"Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don't really want to hit £15.","quote":{"text":"I try to make it about £15 to save delivery fees… it makes some changes in my delivery order.","cite":"P012"}},{"name":"Placing the order","emotion":"Excitement","score":"5/5","context":"The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.","quote":null},{"name":"Waiting for delivery","emotion":"Neutral","score":"3/5","context":"Twenty-five minutes. Time to do something else. The waiting barely registers — the emotional work was in the decision, not the delivery.","quote":null,"limitedData":true},{"name":"Eating the food","emotion":"Comfort","score":"4/5","context":"The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction — a small, earned reward after a calculated decision.","quote":null},{"name":"After the meal","emotion":"Excitement","score":"5/5","context":"Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.","quote":{"text":"Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it.","cite":"P007"}}]},
+        {"id":"social","name":"The Social Orderer","shortName":"Social","color":"#b07328","colorSoft":"#f7f0e4","tagline":"Group dynamics drive delivery decisions","stats":["9 participants","Orders fortnightly to monthly","Friday evenings & weekends"],"introQuote":{"text":"Oh, it's like an unspoken ritual… We're not meant to call it a 'ritual,' but it definitely is.","cite":"P001"},"stages":[{"name":"Deciding to order","emotion":"Stress","score":"2/5","context":"A friend mentions food. Another one pulls out their phone. The seed is planted. Now it's not about whether to order — it's about being part of the moment.","quote":{"text":"I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head.","cite":"P015"}},{"name":"Choosing where & what","emotion":"Stress","score":"2/5","context":"Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge — but deciding for the group means absorbing the blame if it's wrong.","quote":{"text":"Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason.","cite":"P022"}},{"name":"Placing the order","emotion":"Connection","score":"5/5","context":"One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.","quote":{"text":"I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four.","cite":"P009"}},{"name":"Waiting for delivery","emotion":"Neutral","score":"3/5","context":"The group shifts to something else — a show, a conversation, a game. The food is coming. That's all that matters right now.","quote":null,"limitedData":true},{"name":"Eating the food","emotion":"Guilt","score":"2/5","context":"The food is eaten. The social energy fades. And then, quietly: was that too much? The guilt doesn't come from the food — it comes from eating it alone with your thoughts.","quote":{"text":"When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own.","cite":"P001"}},{"name":"After the meal","emotion":"Comfort","score":"4/5","context":"It's done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.","quote":null}]},
+        {"id":"balancer","name":"The Budget Balancer","shortName":"Balancer","color":"#3a7a55","colorSoft":"#e9f3ed","tagline":"Careful financial management meets occasional treats","stats":["6 participants","Orders monthly or less","Delivery reserved for special occasions"],"introQuote":{"text":"I'm not really the kind of person that likes having subscriptions anyway because I just don't… like money coming out.","cite":"P023"},"stages":[{"name":"Deciding to order","emotion":"Stress","score":"2/5","context":"The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.","quote":{"text":"Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop.","cite":"P005"}},{"name":"Choosing where & what","emotion":"Comfort","score":"4/5","context":"When the answer is yes, there's relief. The guilt of deciding to order is replaced by the comfort of choosing well — finding the right deal, the right restaurant, the right amount. The hard part is over.","quote":null},{"name":"Placing the order","emotion":"Frustration","score":"2/5","context":"Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.","quote":null},{"name":"Waiting for delivery","emotion":"Neutral","score":"3/5","context":"The emotional weight was in the decision. Now there's just time. The waiting is empty — not anxious, not excited, just neutral.","quote":null,"limitedData":true},{"name":"Eating the food","emotion":"Indifference","score":"3/5","context":"The food is fine. It's eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat — and that flatness is the insight.","quote":null},{"name":"After the meal","emotion":"Comfort","score":"4/5","context":"It's over. The money is spent. And in the quiet aftermath, there's a gentle comfort: it was a while since the last one. It was justified.","quote":{"text":"I've had quite a busy or stressful week as, like, a little reward.","cite":"P028"}}]},
+        {"id":"dependent","name":"The Convenience Dependent","shortName":"Dependent","color":"#6454a4","colorSoft":"#efedf7","tagline":"Delivery as essential life infrastructure","stats":["8 participants","Orders multiple times per week","Up to £100/week on food delivery"],"introQuote":{"text":"Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend's house. About pretty much five times a week.","cite":"P006"},"stages":[{"name":"Deciding to order","emotion":"Frustration","score":"2/5","context":"The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn't about food — it's about everything else getting in the way of eating.","quote":{"text":"I started noticing that we're running out of cereal, eggs, milk, porridge… I didn't feel like going down to the shop… and I didn't have the time.","cite":"P006"}},{"name":"Choosing where & what","emotion":"Comfort","score":"4/5","context":"The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.","quote":{"text":"I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time.","cite":"P036"}},{"name":"Placing the order","emotion":"Connection","score":"5/5","context":"The order is placed — from a friend's house, between lectures, coordinated with a flatmate. Delivery isn't an event. It's infrastructure. The positive feeling comes from the routine itself working smoothly.","quote":null},{"name":"Waiting for delivery","emotion":"Frustration","score":"2/5","context":"The driver can't find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn't.","quote":{"text":"It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges.","cite":"P034"}},{"name":"Eating the food","emotion":"Comfort","score":"4/5","context":"Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.","quote":{"text":"Definitely winter. I think that's probably what started it… just not wanting to leave the house as much.","cite":"P029"}},{"name":"After the meal","emotion":"Stress","score":"2/5","context":"Then the bank notification arrives. Ninety pounds this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow it'll happen again.","quote":{"text":"I'd say about… I don't want to lie… about 90 to 100 quid just alone on food, maybe even more.","cite":"P006"}}]}
+      ],
+      "comparison": {
+        "stage": "Placing the order",
+        "heading": "Same moment. Four reactions.",
+        "cards": [
+          {"persona":"The Pragmatic Optimizer","emotion":"Excitement","positive":true,"score":"5 / 5","quote":"It's like a reward. You've earned it.","cite":"P007","color":"#1d7775"},
+          {"persona":"The Social Orderer","emotion":"Connection","positive":true,"score":"5 / 5","quote":"I ordered from my account all together and then we split it.","cite":"P009","color":"#b07328"},
+          {"persona":"The Budget Balancer","emotion":"Frustration","positive":false,"score":"2 / 5","quote":"I just don't like money coming out.","cite":"P023","color":"#3a7a55","outlier":true},
+          {"persona":"The Convenience Dependent","emotion":"Connection","positive":true,"score":"5 / 5","quote":"About pretty much five times a week.","cite":"P006","color":"#6454a4"}
+        ]
+      }
+    };
+
+    function buildSlides() {
+      const slides = [];
+
+      slides.push({ type: 'title', index: 0 });
+      slides.push({ type: 'intro-overview', index: 1 });
+
+      DATA.personas.forEach((p, pi) => {
+        if (pi > 0) {
+          slides.push({ type: 'transition', persona: p, index: slides.length });
+        }
+        slides.push({ type: 'persona-intro', persona: p, index: slides.length });
+        p.stages.forEach((s, si) => {
+          slides.push({ type: 'stage', persona: p, stage: s, stageIndex: si + 1, index: slides.length });
+        });
+      });
+
+      slides.push({ type: 'comparison', index: slides.length });
+      slides.push({ type: 'closing', index: slides.length });
+
+      return slides.map((s, i) => ({ ...s, globalIndex: i }));
+    }
+
+    const SLIDES = buildSlides();
+
+    let currentIndex = 0;
+    let lastDirection = 1;
+    let isAnimating = false;
+
+    const deck = document.getElementById('deck');
+    const mainCard = document.getElementById('mainCard');
+    const cardInner = document.getElementById('cardInner');
+    const cardBorder = document.getElementById('cardBorder');
+    const deckTitle = document.getElementById('deckTitle');
+    const deckCounter = document.getElementById('deckCounter');
+    const personaDots = document.getElementById('personaDots');
+    const hint = document.getElementById('hint');
+
+    function getCurrentPersona() {
+      const s = SLIDES[currentIndex];
+      if (s.persona) return s.persona;
+      if (s.type === 'transition' && s.persona) return s.persona;
+      for (let i = currentIndex; i >= 0; i--) {
+        if (SLIDES[i].persona) return SLIDES[i].persona;
+      }
+      return null;
+    }
+
+    function getCardNumber() {
+      const s = SLIDES[currentIndex];
+      if (s.type === 'persona-intro' || s.type === 'stage') {
+        const personaSlides = SLIDES.filter(x => x.persona && x.persona.id === s.persona.id && (x.type === 'persona-intro' || x.type === 'stage'));
+        const idx = personaSlides.findIndex(x => x.globalIndex === s.globalIndex);
+        return idx + 1;
+      }
+      return null;
+    }
+
+    function getTotalCards() {
+      const s = SLIDES[currentIndex];
+      if (s.persona && (s.type === 'persona-intro' || s.type === 'stage')) {
+        return 7;
+      }
+      return null;
+    }
+
+    function renderCard(slide, direction) {
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      mainCard.className = 'card';
+      mainCard.classList.add(slide.type === 'intro-overview' ? 'intro-overview' : slide.type + '-card');
+      if (!reducedMotion) {
+        mainCard.classList.add(direction === 1 ? 'enter-next' : 'enter-prev');
+      }
+
+      cardBorder.style.background = 'transparent';
+      cardBorder.style.height = '0';
+
+      const p = slide.persona;
+      const color = p ? p.color : (slide.type === 'comparison' ? DATA.comparison.cards[0].color : '#8a8580');
+
+      if (slide.type !== 'title' && slide.type !== 'intro-overview' && slide.type !== 'closing') {
+        cardBorder.style.background = color;
+        cardBorder.style.height = '4px';
+      }
+
+      document.getElementById('cardZone').classList.toggle('show-stack', ['persona-intro', 'stage', 'transition', 'comparison'].includes(slide.type));
+
+      let html = '';
+
+      switch (slide.type) {
+        case 'title':
+          deck.classList.add('hide-header');
+          html = `
+            <h1 class="card-title-lg">${DATA.title}</h1>
+            <p class="card-tagline">${DATA.subtitle}</p>
+          `;
+          break;
+
+        case 'intro-overview':
+          deck.classList.remove('hide-header');
+          html = `
+            <h2 class="card-title-lg">${DATA.intro}</h2>
+            <div class="persona-grid">
+              ${DATA.personas.map(p => `
+                <div class="persona-pill" style="background:${p.colorSoft};color:${p.color};">
+                  ${p.shortName}
+                </div>
+              `).join('')}
+            </div>
+            <p class="card-quote">${DATA.personas[0].introQuote.text}</p>
+            <span class="card-quote-cite">${DATA.personas[0].introQuote.cite}</span>
+          `;
+          break;
+
+        case 'transition':
+          html = `
+            <p class="card-tagline">Next up</p>
+            <h2 class="card-title-lg">${slide.persona.name}</h2>
+          `;
+          break;
+
+        case 'persona-intro':
+          html = `
+            <h2 class="card-title-lg">${p.name}</h2>
+            <p class="card-tagline">${p.tagline}</p>
+            <div class="card-stats">
+              ${p.stats.map(st => `<span class="card-stat">${st}</span>`).join('')}
+            </div>
+            <p class="card-quote">${p.introQuote.text}</p>
+            <span class="card-quote-cite">${p.introQuote.cite}</span>
+          `;
+          break;
+
+        case 'stage':
+          const q = slide.stage.quote;
+          html = `
+            <span class="stage-label">Stage ${slide.stageIndex} of 6</span>
+            <h3 class="stage-name">${slide.stage.name}</h3>
+            <div class="emotion-row">
+              <span class="emotion-dot" style="background:${p.color}"></span>
+              <span class="emotion-label">${slide.stage.emotion} ${slide.stage.score ? `(${slide.stage.score})` : ''}</span>
+            </div>
+            <p class="context">${slide.stage.context}</p>
+            ${q ? `
+              <p class="stage-quote">"${q.text}"</p>
+              <span class="card-quote-cite">${q.cite}</span>
+            ` : ''}
+            <p class="persona-name-small">${p.shortName}</p>
+          `;
+          break;
+
+        case 'comparison':
+          const comp = DATA.comparison;
+          html = `
+            <h3 class="stage-name">${comp.heading}</h3>
+            <p class="stage-label">${comp.stage}</p>
+            <div class="comparison-grid">
+              ${comp.cards.map(c => `
+                <div class="comparison-item" style="background:${c.color}22;border-color:${c.color}">
+                  <div class="persona-name">${c.persona}</div>
+                  <div class="emotion">${c.emotion} · ${c.score}</div>
+                  <div class="quote">"${c.quote}"</div>
+                  <span class="card-quote-cite">${c.cite}</span>
+                </div>
+              `).join('')}
+            </div>
+          `;
+          break;
+
+        case 'closing':
+          deck.classList.add('hide-header');
+          html = `
+            <h2 class="card-title-lg">${DATA.closing.heading}</h2>
+            <p class="context">${DATA.closing.body}</p>
+          `;
+          break;
+      }
+
+      cardInner.innerHTML = html;
+    }
+
+    let slide = SLIDES[0];
+    function goTo(index, direction = 1) {
+      if (index < 0 || index >= SLIDES.length || isAnimating) return;
+      lastDirection = direction;
+      isAnimating = true;
+
+      const nextSlide = SLIDES[index];
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (reducedMotion) {
+        currentIndex = index;
+        slide = nextSlide;
+        renderCard(slide, direction);
+        updateHeader();
+        isAnimating = false;
+        return;
+      }
+
+      mainCard.classList.remove('enter-prev', 'enter-next', 'exit-prev', 'exit-next');
+      mainCard.classList.add(direction === 1 ? 'exit-prev' : 'exit-next');
+
+      const duration = 500;
+
+      setTimeout(() => {
+        currentIndex = index;
+        slide = nextSlide;
+        renderCard(slide, direction);
+        updateHeader();
+
+        mainCard.classList.remove('exit-prev', 'exit-next');
+        mainCard.offsetHeight;
+        mainCard.classList.add(direction === 1 ? 'enter-next' : 'enter-prev');
+
+        setTimeout(() => {
+          mainCard.classList.remove('enter-prev', 'enter-next');
+          isAnimating = false;
+        }, duration);
+      }, duration);
+    }
+
+    function next() {
+      goTo(currentIndex + 1, 1);
+    }
+
+    function prev() {
+      goTo(currentIndex - 1, -1);
+    }
+
+    document.getElementById('cardZone').addEventListener('click', (e) => {
+      if (e.target.closest('.click-zone')) return;
+      next();
+    });
+
+    document.getElementById('clickPrev').addEventListener('click', (e) => {
+      e.stopPropagation();
+      prev();
+    });
+
+    document.getElementById('clickNext').addEventListener('click', (e) => {
+      e.stopPropagation();
+      next();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        next();
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        prev();
+      }
+    });
+
+    function updateHeader() {
+      const s = SLIDES[currentIndex];
+      const p = getCurrentPersona();
+      const cardNum = getCardNumber();
+      const totalCards = getTotalCards();
+
+      personaDots.querySelectorAll('.persona-dot').forEach(dot => {
+        dot.classList.remove('active');
+        if (p && dot.dataset.persona === p.id) dot.classList.add('active');
+      });
+
+      if (s.type === 'title' || s.type === 'closing') {
+        deckTitle.textContent = '';
+        deckCounter.textContent = '';
+      } else if (p && totalCards) {
+        deckTitle.textContent = p.name;
+        deckCounter.textContent = `Card ${cardNum} of ${totalCards}`;
+      } else {
+        deckTitle.textContent = DATA.title;
+        deckCounter.textContent = `${currentIndex + 1} of ${SLIDES.length}`;
+      }
+
+      if (currentIndex === 0 || currentIndex === SLIDES.length - 1) {
+        hint.style.opacity = '0.5';
+      } else {
+        hint.style.opacity = '1';
+      }
+    }
+
+    renderCard(SLIDES[0], 1);
+    updateHeader();
+  </script>
+</body>
+</html>

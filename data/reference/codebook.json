@@ -1,0 +1,411 @@
+{
+  "_metadata": {
+    "created_at": "2026-02-23T17:16:14.839236+00:00",
+    "last_updated": "2026-03-05T21:22:20.236773+00:00",
+    "version": 1,
+    "total_themes": 17
+  },
+  "themes": {
+    "RO1_eating_moments": {
+      "label": "Eating moments and contexts",
+      "description": "What is the full spectrum of student eating moments and how does delivery fit within them?",
+      "source": "research_objective",
+      "sub_themes": {
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros": {
+          "label": "When, where, and how do students eat across a typical week?",
+          "source": "research_objective",
+          "segment_count": 182
+        },
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d": {
+          "label": "What role does cooking, campus food, and delivery each play?",
+          "source": "research_objective",
+          "segment_count": 137
+        },
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating": {
+          "label": "How does accommodation type shape eating routines?",
+          "source": "research_objective",
+          "segment_count": 79
+        },
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s": {
+          "label": "What are the distinct eating occasions (solo study, group social, hangover, celebration)?",
+          "source": "research_objective",
+          "segment_count": 72
+        }
+      },
+      "segment_count": 0
+    },
+    "RO2_delivery_triggers": {
+      "label": "Delivery triggers and drivers",
+      "description": "What triggers a student to order food delivery rather than cook, eat out, or eat campus food?",
+      "source": "research_objective",
+      "sub_themes": {
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia": {
+          "label": "What are the primary triggers (time, social, emotional, situational)?",
+          "source": "research_objective",
+          "segment_count": 298
+        },
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil": {
+          "label": "What barriers prevent ordering (cost, guilt, availability)?",
+          "source": "research_objective",
+          "segment_count": 239
+        },
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_": {
+          "label": "How does the decision process work from trigger to order?",
+          "source": "research_objective",
+          "segment_count": 104
+        },
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr": {
+          "label": "What role do promotions, deals, and subscriptions play?",
+          "source": "research_objective",
+          "segment_count": 208
+        }
+      },
+      "segment_count": 0
+    },
+    "RO3_emotional_social": {
+      "label": "Emotional and social factors",
+      "description": "What emotional and social dynamics shape food delivery behaviour?",
+      "source": "research_objective",
+      "sub_themes": {
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c": {
+          "label": "How does social context (alone vs group) change ordering?",
+          "source": "research_objective",
+          "segment_count": 118
+        },
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi": {
+          "label": "What emotions are associated with ordering (treat, guilt, comfort)?",
+          "source": "research_objective",
+          "segment_count": 141
+        },
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in": {
+          "label": "How do flatmates, friends, and partners influence decisions?",
+          "source": "research_objective",
+          "segment_count": 58
+        },
+        "RO3_emotional_social.is_there_stigma_around_solo_ordering_or_": {
+          "label": "Is there stigma around solo ordering or frequent ordering?",
+          "source": "research_objective",
+          "segment_count": 3
+        }
+      },
+      "segment_count": 0
+    },
+    "RO4_post_graduation": {
+      "label": "Post-graduation evolution",
+      "description": "How do food and delivery habits change as students transition to graduates?",
+      "source": "research_objective",
+      "sub_themes": {
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af": {
+          "label": "What habits persist, intensify, or fade after graduation?",
+          "source": "research_objective",
+          "segment_count": 126
+        },
+        "RO4_post_graduation.how_do_changing_finances_and_living_situ": {
+          "label": "How do changing finances and living situations affect ordering?",
+          "source": "research_objective",
+          "segment_count": 31
+        },
+        "RO4_post_graduation.does_the_value_equation_for_delivery_shi": {
+          "label": "Does the value equation for delivery shift post-graduation?",
+          "source": "research_objective",
+          "segment_count": 24
+        },
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform": {
+          "label": "What drives continued or lapsed platform engagement?",
+          "source": "research_objective",
+          "segment_count": 44
+        }
+      },
+      "segment_count": 0
+    },
+    "RO5_engagement_opps": {
+      "label": "Engagement opportunities",
+      "description": "Where are the highest-value opportunities for Deliveroo to engage students?",
+      "source": "research_objective",
+      "sub_themes": {
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli": {
+          "label": "Which moments are most receptive to delivery (unmet needs)?",
+          "source": "research_objective",
+          "segment_count": 85
+        },
+        "RO5_engagement_opps.what_product_features_would_increase_rel": {
+          "label": "What product features would increase relevance?",
+          "source": "research_objective",
+          "segment_count": 154
+        },
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s": {
+          "label": "How should messaging evolve across the student lifecycle?",
+          "source": "research_objective",
+          "segment_count": 144
+        },
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis": {
+          "label": "What role can Plus Silver play in acquisition and retention?",
+          "source": "research_objective",
+          "segment_count": 223
+        }
+      },
+      "segment_count": 0
+    },
+    "context_emotion": {
+      "label": "Emotion",
+      "description": "Context tagging: emotion",
+      "source": "system",
+      "sub_themes": {
+        "context_emotion.joy": {
+          "label": "joy",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.stress": {
+          "label": "stress",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.comfort": {
+          "label": "comfort",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.guilt": {
+          "label": "guilt",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.excitement": {
+          "label": "excitement",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.frustration": {
+          "label": "frustration",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.relief": {
+          "label": "relief",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.anticipation": {
+          "label": "anticipation",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.indifference": {
+          "label": "indifference",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.connection": {
+          "label": "connection",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_emotion.loneliness": {
+          "label": "loneliness",
+          "source": "system",
+          "segment_count": 0
+        }
+      },
+      "segment_count": 0
+    },
+    "context_social_context": {
+      "label": "Social Context",
+      "description": "Context tagging: social_context",
+      "source": "system",
+      "sub_themes": {
+        "context_social_context.alone": {
+          "label": "alone",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_social_context.flatmates": {
+          "label": "flatmates",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_social_context.partner": {
+          "label": "partner",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_social_context.family": {
+          "label": "family",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_social_context.friends": {
+          "label": "friends",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_social_context.colleagues": {
+          "label": "colleagues",
+          "source": "system",
+          "segment_count": 0
+        }
+      },
+      "segment_count": 0
+    },
+    "context_temporal": {
+      "label": "Temporal",
+      "description": "Context tagging: temporal",
+      "source": "system",
+      "sub_themes": {
+        "context_temporal.weekday": {
+          "label": "weekday",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.weekend": {
+          "label": "weekend",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.morning": {
+          "label": "morning",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.afternoon": {
+          "label": "afternoon",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.evening": {
+          "label": "evening",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.late_night": {
+          "label": "late_night",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.exam_period": {
+          "label": "exam_period",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.term_time": {
+          "label": "term_time",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.holiday": {
+          "label": "holiday",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_temporal.freshers": {
+          "label": "freshers",
+          "source": "system",
+          "segment_count": 0
+        }
+      },
+      "segment_count": 0
+    },
+    "context_platform": {
+      "label": "Platform",
+      "description": "Context tagging: platform",
+      "source": "system",
+      "sub_themes": {
+        "context_platform.deliveroo": {
+          "label": "deliveroo",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_platform.ubereats": {
+          "label": "ubereats",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_platform.justeat": {
+          "label": "justeat",
+          "source": "system",
+          "segment_count": 0
+        },
+        "context_platform.other": {
+          "label": "other",
+          "source": "system",
+          "segment_count": 0
+        }
+      },
+      "segment_count": 0
+    }
+  },
+  "emergent_themes": {
+    "brand_perception_gap": {
+      "label": "Brand Perception Gap",
+      "description": "Delivery platform branding fails to communicate its function to non-users",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P001",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.086077+00:00"
+    },
+    "treat_guilt_tension": {
+      "label": "Treat-Guilt Tension",
+      "description": "Delivery is simultaneously desired as a treat and rejected as indulgent",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P001",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.087887+00:00"
+    },
+    "social_permission": {
+      "label": "Social Permission Effect",
+      "description": "Ordering with others removes guilt and reframes delivery as social",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P001",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.088213+00:00"
+    },
+    "subscription_spending_fear": {
+      "label": "Subscription Spending Fear",
+      "description": "Students fear subscriptions will increase total spending",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P001",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.088763+00:00"
+    },
+    "multi_platform_arbitrage": {
+      "label": "Multi-Platform Arbitrage",
+      "description": "Students compare prices across platforms before every order",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P009",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.089033+00:00"
+    },
+    "switching_threshold_gap": {
+      "label": "Switching Threshold Say-Do Gap",
+      "description": "Reported loyalty is stronger than observed behaviour",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P009",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.089323+00:00"
+    },
+    "subscriber_payer_role": {
+      "label": "Subscriber-Payer Social Role",
+      "description": "Subscriber becomes designated payer in group orders, reinforcing retention",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P009",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.089613+00:00"
+    },
+    "academic_pressure_ordering": {
+      "label": "Academic Pressure as Ordering Accelerator",
+      "description": "Final year schedule pressure directly increases ordering frequency",
+      "source": "emergent",
+      "discovered_by": "analysis",
+      "first_seen_in": "P009",
+      "segment_count": 0,
+      "added_at": "2026-02-24T22:59:26.089909+00:00"
+    }
+  }
+}

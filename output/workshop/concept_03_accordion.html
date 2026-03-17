@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Their Order — Accordion Chapters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --text: #2c2a25;
+      --text-muted: #5c5a55;
+      --optimizer: #1d7775;
+      --optimizer-soft: #e8f3f3;
+      --social: #b07328;
+      --social-soft: #f7f0e4;
+      --balancer: #3a7a55;
+      --balancer-soft: #e9f3ed;
+      --dependent: #6454a4;
+      --dependent-soft: #efedf7;
+      --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(1.5rem, 4vw, 3rem);
+    }
+
+    /* Title section */
+    .title-section {
+      margin-bottom: clamp(2rem, 5vw, 3.5rem);
+    }
+
+    .title-section h1 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(2.25rem, 5vw, 3.5rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 0.35em;
+    }
+
+    .title-section .subtitle {
+      font-size: clamp(0.95rem, 2vw, 1.1rem);
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .intro {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: var(--text-muted);
+      margin-bottom: clamp(2rem, 5vw, 3rem);
+      max-width: 42ch;
+    }
+
+    /* Accordion chapters */
+    .accordion {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: clamp(3rem, 8vw, 5rem);
+    }
+
+    .chapter {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(44, 42, 37, 0.06);
+    }
+
+    .chapter-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      cursor: pointer;
+      transition: background 0.2s var(--ease-out-quart);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .chapter-bar:hover {
+      background: rgba(44, 42, 37, 0.03);
+    }
+
+    .chapter-bar .accent {
+      width: 4px;
+      height: 2.5rem;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .chapter-bar .accent.optimizer { background: var(--optimizer); }
+    .chapter-bar .accent.social { background: var(--social); }
+    .chapter-bar .accent.balancer { background: var(--balancer); }
+    .chapter-bar .accent.dependent { background: var(--dependent); }
+
+    .chapter-bar .main {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .chapter-bar .name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+      font-weight: 400;
+    }
+
+    .chapter-bar .tagline {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.15em;
+    }
+
+    .chapter-bar .stats {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .chapter-bar .chevron {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      color: var(--text-muted);
+      transition: transform 0.3s var(--ease-out-quart);
+    }
+
+    .chapter.expanded .chapter-bar .chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Accordion content - grid trick for smooth height */
+    .chapter-content-wrap {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.4s var(--ease-out-quart);
+    }
+
+    .chapter.expanded .chapter-content-wrap {
+      grid-template-rows: 1fr;
+    }
+
+    .chapter-content {
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .chapter-content-inner {
+      padding: 1.5rem 1.25rem 2rem;
+      padding-left: calc(1.25rem + 4px + 1rem);
+    }
+
+    .chapter.expanded .chapter-content-inner {
+      background: var(--chapter-soft, #fff);
+    }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: -1.5rem;
+      top: 0.75rem;
+      bottom: 0.75rem;
+      width: 2px;
+      background: var(--chapter-color, #ddd);
+      opacity: 0.4;
+      border-radius: 1px;
+    }
+
+    .stage {
+      position: relative;
+      padding-bottom: 1.75rem;
+    }
+
+    .stage:last-child {
+      padding-bottom: 0;
+    }
+
+    .stage::before {
+      content: '';
+      position: absolute;
+      left: -1.5rem;
+      top: 0.5rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--chapter-color, #ddd);
+      transform: translateX(-50%);
+    }
+
+    .stage-name {
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 0.35em;
+    }
+
+    .stage-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .emotion-badge {
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.2em 0.6em;
+      border-radius: 4px;
+      background: rgba(44, 42, 37, 0.08);
+      color: var(--text);
+    }
+
+    .context {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .quote-block {
+      margin-top: 0.75rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--chapter-color, #ddd);
+    }
+
+    .quote-block {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1rem;
+      font-style: italic;
+      color: var(--text);
+    }
+
+    .quote-block cite {
+      display: block;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 0.8rem;
+      font-style: normal;
+      color: var(--text-muted);
+      margin-top: 0.35em;
+    }
+
+    /* Comparison section */
+    .comparison-section {
+      margin-bottom: clamp(2.5rem, 6vw, 4rem);
+    }
+
+    .comparison-section h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+
+    .comparison-section .stage-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .comparison-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .comparison-card {
+      padding: 1rem;
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(44, 42, 37, 0.06);
+      border-left: 4px solid;
+    }
+
+    .comparison-card .persona {
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.25em;
+    }
+
+    .comparison-card .emotion {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5em;
+    }
+
+    .comparison-card .quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 0.95rem;
+      font-style: italic;
+      line-height: 1.4;
+    }
+
+    .comparison-card .cite {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.35em;
+    }
+
+    .comparison-card.outlier {
+      border-left-style: dashed;
+    }
+
+    /* Closing section */
+    .closing-section {
+      padding: 2rem 0;
+      border-top: 1px solid rgba(44, 42, 37, 0.1);
+    }
+
+    .closing-section h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+      font-weight: 400;
+      margin-bottom: 0.75rem;
+    }
+
+    .closing-section p {
+      font-size: 1rem;
+      color: var(--text-muted);
+      max-width: 50ch;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="title-section">
+      <h1>Follow Their Order</h1>
+      <p class="subtitle">Four students. Six stages. One ordering journey.</p>
+    </header>
+
+    <p class="intro">Same app. Four completely different experiences.</p>
+
+    <div class="accordion" role="region" aria-label="Persona journeys">
+      <article class="chapter" data-persona="optimizer">
+        <button class="chapter-bar" type="button" aria-expanded="false" aria-controls="content-optimizer" id="trigger-optimizer">
+          <span class="accent optimizer" aria-hidden="true"></span>
+          <div class="main">
+            <div class="name">The Pragmatic Optimizer</div>
+            <div class="tagline">Systematic efficiency meets strategic deal-hunting</div>
+          </div>
+          <span class="stats">12 participants</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="chapter-content-wrap" id="content-optimizer" role="region" aria-labelledby="trigger-optimizer">
+          <div class="chapter-content">
+            <div class="chapter-content-inner" style="--chapter-color: var(--optimizer); --chapter-soft: var(--optimizer-soft);">
+              <div class="timeline">
+                <div class="stage">
+                  <div class="stage-name">Deciding to order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">It's Thursday evening. Lectures are done, the library is closed, and tomorrow's assignment can wait. The thought of cooking crosses their mind — and is immediately weighed against the effort.</div>
+                  <div class="quote-block">
+                    <span>It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on.</span>
+                    <cite>P025</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Choosing where & what</div>
+                  <div class="stage-meta"><span class="emotion-badge">Stress</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don't really want to hit £15.</div>
+                  <div class="quote-block">
+                    <span>I try to make it about £15 to save delivery fees… it makes some changes in my delivery order.</span>
+                    <cite>P012</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Placing the order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Excitement</span><span class="emotion-badge">5/5</span></div>
+                  <div class="context">The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Waiting for delivery</div>
+                  <div class="stage-meta"><span class="emotion-badge">Neutral</span><span class="emotion-badge">3/5</span></div>
+                  <div class="context">Twenty-five minutes. Time to do something else. The waiting barely registers — the emotional work was in the decision, not the delivery.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Eating the food</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction — a small, earned reward after a calculated decision.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">After the meal</div>
+                  <div class="stage-meta"><span class="emotion-badge">Excitement</span><span class="emotion-badge">5/5</span></div>
+                  <div class="context">Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.</div>
+                  <div class="quote-block">
+                    <span>Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it.</span>
+                    <cite>P007</cite>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="chapter" data-persona="social">
+        <button class="chapter-bar" type="button" aria-expanded="false" aria-controls="content-social" id="trigger-social">
+          <span class="accent social" aria-hidden="true"></span>
+          <div class="main">
+            <div class="name">The Social Orderer</div>
+            <div class="tagline">Group dynamics drive delivery decisions</div>
+          </div>
+          <span class="stats">9 participants</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="chapter-content-wrap" id="content-social" role="region" aria-labelledby="trigger-social">
+          <div class="chapter-content">
+            <div class="chapter-content-inner" style="--chapter-color: var(--social); --chapter-soft: var(--social-soft);">
+              <div class="timeline">
+                <div class="stage">
+                  <div class="stage-name">Deciding to order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Stress</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">A friend mentions food. Another one pulls out their phone. The seed is planted. Now it's not about whether to order — it's about being part of the moment.</div>
+                  <div class="quote-block">
+                    <span>I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head.</span>
+                    <cite>P015</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Choosing where & what</div>
+                  <div class="stage-meta"><span class="emotion-badge">Stress</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge — but deciding for the group means absorbing the blame if it's wrong.</div>
+                  <div class="quote-block">
+                    <span>Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason.</span>
+                    <cite>P022</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Placing the order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Connection</span><span class="emotion-badge">5/5</span></div>
+                  <div class="context">One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.</div>
+                  <div class="quote-block">
+                    <span>I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four.</span>
+                    <cite>P009</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Waiting for delivery</div>
+                  <div class="stage-meta"><span class="emotion-badge">Neutral</span><span class="emotion-badge">3/5</span></div>
+                  <div class="context">The group shifts to something else — a show, a conversation, a game. The food is coming. That's all that matters right now.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Eating the food</div>
+                  <div class="stage-meta"><span class="emotion-badge">Guilt</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">The food is eaten. The social energy fades. And then, quietly: was that too much? The guilt doesn't come from the food — it comes from eating it alone with your thoughts.</div>
+                  <div class="quote-block">
+                    <span>When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own.</span>
+                    <cite>P001</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">After the meal</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">It's done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="chapter" data-persona="balancer">
+        <button class="chapter-bar" type="button" aria-expanded="false" aria-controls="content-balancer" id="trigger-balancer">
+          <span class="accent balancer" aria-hidden="true"></span>
+          <div class="main">
+            <div class="name">The Budget Balancer</div>
+            <div class="tagline">Careful financial management meets occasional treats</div>
+          </div>
+          <span class="stats">6 participants</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="chapter-content-wrap" id="content-balancer" role="region" aria-labelledby="trigger-balancer">
+          <div class="chapter-content">
+            <div class="chapter-content-inner" style="--chapter-color: var(--balancer); --chapter-soft: var(--balancer-soft);">
+              <div class="timeline">
+                <div class="stage">
+                  <div class="stage-name">Deciding to order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Stress</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.</div>
+                  <div class="quote-block">
+                    <span>Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop.</span>
+                    <cite>P005</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Choosing where & what</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">When the answer is yes, there's relief. The guilt of deciding to order is replaced by the comfort of choosing well — finding the right deal, the right restaurant, the right amount. The hard part is over.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Placing the order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Frustration</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Waiting for delivery</div>
+                  <div class="stage-meta"><span class="emotion-badge">Neutral</span><span class="emotion-badge">3/5</span></div>
+                  <div class="context">The emotional weight was in the decision. Now there's just time. The waiting is empty — not anxious, not excited, just neutral.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Eating the food</div>
+                  <div class="stage-meta"><span class="emotion-badge">Indifference</span><span class="emotion-badge">3/5</span></div>
+                  <div class="context">The food is fine. It's eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat — and that flatness is the insight.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">After the meal</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">It's over. The money is spent. And in the quiet aftermath, there's a gentle comfort: it was a while since the last one. It was justified.</div>
+                  <div class="quote-block">
+                    <span>I've had quite a busy or stressful week as, like, a little reward.</span>
+                    <cite>P028</cite>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="chapter" data-persona="dependent">
+        <button class="chapter-bar" type="button" aria-expanded="false" aria-controls="content-dependent" id="trigger-dependent">
+          <span class="accent dependent" aria-hidden="true"></span>
+          <div class="main">
+            <div class="name">The Convenience Dependent</div>
+            <div class="tagline">Delivery as essential life infrastructure</div>
+          </div>
+          <span class="stats">8 participants</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="chapter-content-wrap" id="content-dependent" role="region" aria-labelledby="trigger-dependent">
+          <div class="chapter-content">
+            <div class="chapter-content-inner" style="--chapter-color: var(--dependent); --chapter-soft: var(--dependent-soft);">
+              <div class="timeline">
+                <div class="stage">
+                  <div class="stage-name">Deciding to order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Frustration</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn't about food — it's about everything else getting in the way of eating.</div>
+                  <div class="quote-block">
+                    <span>I started noticing that we're running out of cereal, eggs, milk, porridge… I didn't feel like going down to the shop… and I didn't have the time.</span>
+                    <cite>P006</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Choosing where & what</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.</div>
+                  <div class="quote-block">
+                    <span>I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time.</span>
+                    <cite>P036</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Placing the order</div>
+                  <div class="stage-meta"><span class="emotion-badge">Connection</span><span class="emotion-badge">5/5</span></div>
+                  <div class="context">The order is placed — from a friend's house, between lectures, coordinated with a flatmate. Delivery isn't an event. It's infrastructure. The positive feeling comes from the routine itself working smoothly.</div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Waiting for delivery</div>
+                  <div class="stage-meta"><span class="emotion-badge">Frustration</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">The driver can't find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn't.</div>
+                  <div class="quote-block">
+                    <span>It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges.</span>
+                    <cite>P034</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">Eating the food</div>
+                  <div class="stage-meta"><span class="emotion-badge">Comfort</span><span class="emotion-badge">4/5</span></div>
+                  <div class="context">Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.</div>
+                  <div class="quote-block">
+                    <span>Definitely winter. I think that's probably what started it… just not wanting to leave the house as much.</span>
+                    <cite>P029</cite>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="stage-name">After the meal</div>
+                  <div class="stage-meta"><span class="emotion-badge">Stress</span><span class="emotion-badge">2/5</span></div>
+                  <div class="context">Then the bank notification arrives. Ninety pounds this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow it'll happen again.</div>
+                  <div class="quote-block">
+                    <span>I'd say about… I don't want to lie… about 90 to 100 quid just alone on food, maybe even more.</span>
+                    <cite>P006</cite>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <section class="comparison-section">
+      <h2>Same moment. Four reactions.</h2>
+      <p class="stage-label">Placing the order</p>
+      <div class="comparison-cards">
+        <div class="comparison-card" style="border-left-color: #1d7775;">
+          <div class="persona">The Pragmatic Optimizer</div>
+          <div class="emotion">Excitement · 5/5</div>
+          <div class="quote">It's like a reward. You've earned it.</div>
+          <div class="cite">P007</div>
+        </div>
+        <div class="comparison-card" style="border-left-color: #b07328;">
+          <div class="persona">The Social Orderer</div>
+          <div class="emotion">Connection · 5/5</div>
+          <div class="quote">I ordered from my account all together and then we split it.</div>
+          <div class="cite">P009</div>
+        </div>
+        <div class="comparison-card outlier" style="border-left-color: #3a7a55;">
+          <div class="persona">The Budget Balancer</div>
+          <div class="emotion">Frustration · 2/5</div>
+          <div class="quote">I just don't like money coming out.</div>
+          <div class="cite">P023</div>
+        </div>
+        <div class="comparison-card" style="border-left-color: #6454a4;">
+          <div class="persona">The Convenience Dependent</div>
+          <div class="emotion">Connection · 5/5</div>
+          <div class="quote">About pretty much five times a week.</div>
+          <div class="cite">P006</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <h2>What happens between wanting to order and actually ordering?</h2>
+      <p>Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap.</p>
+    </section>
+  </div>
+
+  <script>
+    (function() {
+      const accordion = document.querySelector('.accordion');
+      const chapters = accordion.querySelectorAll('.chapter');
+
+      chapters.forEach(function(chapter) {
+        const bar = chapter.querySelector('.chapter-bar');
+        const contentId = bar.getAttribute('aria-controls');
+
+        bar.addEventListener('click', function() {
+          const isExpanded = chapter.classList.contains('expanded');
+
+          if (isExpanded) {
+            chapter.classList.remove('expanded');
+            bar.setAttribute('aria-expanded', 'false');
+          } else {
+            chapters.forEach(function(other) {
+              other.classList.remove('expanded');
+              other.querySelector('.chapter-bar').setAttribute('aria-expanded', 'false');
+            });
+            chapter.classList.add('expanded');
+            bar.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

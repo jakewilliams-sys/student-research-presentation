@@ -1,0 +1,94 @@
+{
+  "participant_id": "P021",
+  "summary": "James is a recently qualified doctor in Bristol who presents as pragmatic and measured in his responses. Having just completed a PhD while working, he's transitioned from student life to full-time professional work, which has significantly changed his food delivery habits. He lives with his partner who does most of the cooking, and he's refreshingly honest about his own limitations in the kitchen. His approach to food delivery is highly practical - he uses it as a convenience tool when tired, busy, or when restaurants are too far to visit in person. What's particularly notable is his systematic approach to deals and subscriptions: he has managed to acquire all three major delivery subscriptions (Deliveroo Plus, Uber One, Just Eat+) without directly paying for them, obtaining them through bundled services like Amazon Prime, bank benefits, and mobile network perks. This suggests someone who is financially savvy and opportunistic about value, rather than brand loyal. His ordering behavior has increased since transitioning to full-time work, driven by higher disposable income and time pressures.",
+  "personality_notes": "Measured, honest, and pragmatic communicator. Gives thoughtful but concise answers. Shows self-awareness about his limitations (cooking, time management) without defensiveness. Appears financially conscious but not stressed about money.",
+  "food_relationship": "Food delivery serves as a practical convenience tool rather than a passion - he relies on it when energy is low or restaurants are inaccessible, with his partner handling most cooking duties.",
+  "key_moments": [
+    {
+      "timestamp": "1:46-1:49",
+      "description": "Explains the division of food decision-making with partner - he decides whether to eat out/order, she decides what to cook",
+      "significance": "Shows how household dynamics shape delivery usage patterns"
+    },
+    {
+      "timestamp": "1:285-1:290",
+      "description": "Reveals he got all three delivery subscriptions for 'free' through bundled services",
+      "significance": "Demonstrates opportunistic approach to value and explains his multi-platform usage"
+    },
+    {
+      "timestamp": "1:230-1:232",
+      "description": "Admits a promotional offer made him place an order he wasn't planning to make and spend more to meet minimum threshold",
+      "significance": "Clear evidence of how deals directly influence ordering behavior and basket size"
+    }
+  ],
+  "what_not_said": [
+    "Specific food preferences or dietary restrictions",
+    "Emotional connection to food or cooking",
+    "Social aspects of eating with friends",
+    "Environmental concerns about delivery"
+  ],
+  "initial_hypotheses": [
+    "Professional income transition has reduced price sensitivity and increased convenience-seeking behavior",
+    "Multi-platform subscription strategy is driven by deal optimization rather than platform preference",
+    "Geographic location (living further out) makes delivery more attractive than dining out",
+    "Partner's cooking skills reduce his need to develop culinary abilities or engage deeply with food"
+  ],
+  "questions_for_coding": [
+    "How does the transition from student to professional income affect delivery app usage patterns?",
+    "What role do bundled/free subscriptions play in platform loyalty and usage?",
+    "How do household cooking dynamics influence individual delivery ordering behavior?",
+    "What is the relationship between geographic location and delivery vs. dining out preferences?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Too much, as everyone probably does.\nspk_1: I would spend, oh, I don't know, very little time on anything other than Instagram, really, and YouTube.\nspk_1: I don't know... maybe a couple of hours a day.\nspk_1: Maybe less. Yeah...\nspk_1: an hour and a half, two hours.\n",
+      "document_index": 0,
+      "document_title": "P021 - P021 - Interview Transcript",
+      "start_char_index": 4174,
+      "end_char_index": 4449,
+      "participant_id": "P021",
+      "participant_name": "P021"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I... my partner loves cooking, and she's an awesome chef cook.\nspk_1: I... I find it... okay.\nspk_1: Cooking, to me, doesn't mean a huge amount.\nspk_1: I like seeing people enjoy what you've made, but I'm not particularly talented in the kitchen, so it's just like one of those things for me.\n",
+      "document_index": 0,
+      "document_title": "P021 - P021 - Interview Transcript",
+      "start_char_index": 7363,
+      "end_char_index": 7663,
+      "participant_id": "P021",
+      "participant_name": "P021"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, so I think, to be honest, I think I actually got them all free.\nspk_1: So, I think I got delivery through Amazon.\nspk_1: It's not free—you're paying for Amazon—but through Amazon.\nspk_1: And then I think I got Uber through my bank, maybe.\nspk_1: And then I think I got Just Eats...\nspk_1: got some sort of thing on O2 Priority, which gave me some...\nspk_1: I know, one membership or something.\nspk_1: So I didn't actually end up paying for them; I just ended up with them.\n",
+      "document_index": 0,
+      "document_title": "P021 - P021 - Interview Transcript",
+      "start_char_index": 21540,
+      "end_char_index": 22026,
+      "participant_id": "P021",
+      "participant_name": "P021"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Delivery, I guess, you know, just...\nspk_1: And if we're tired and don't want to cook, or it's a nice special treat, or there's something particular we fancy.\nspk_1: I live a bit further out of Bristol, so the restaurants aren't particularly close.\nspk_1: Sometimes, it's just easier to get something delivered.\n",
+      "document_index": 0,
+      "document_title": "P021 - P021 - Interview Transcript",
+      "start_char_index": 11474,
+      "end_char_index": 11793,
+      "participant_id": "P021",
+      "participant_name": "P021"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, well, I think I saw it on maybe a social media advert for the...\nspk_1: the discount, or someone else posted about something, and then that made me actually do the order.\nspk_1: And then you had to spend a minimum amount, so I probably would have...\nspk_1: probably spent more than I would have, maybe, and did the order that I wasn't going to do, probably.\nspk_1: So yeah, so having it definitely influenced my shopping habits!\n",
+      "document_index": 0,
+      "document_title": "P021 - P021 - Interview Transcript",
+      "start_char_index": 17436,
+      "end_char_index": 17878,
+      "participant_id": "P021",
+      "participant_name": "P021"
+    }
+  ],
+  "_citation_count": 5
+}

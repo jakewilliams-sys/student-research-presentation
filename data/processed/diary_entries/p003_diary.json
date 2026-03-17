@@ -1,0 +1,337 @@
+{
+  "participant_id": "P003",
+  "scout_name": "Indiana K",
+  "scout_id": "2668435",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 13:28:49 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 22:34:44 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today, I didn't eat as much as I normally do. I actually skipped both breakfast and lunch and just had a small snack, which was a sliced avocado. That's something I normally eat, but I would eat it with other things. The reason I didn't eat that much today until the evening is because I wasn't really feeling that well until the evening, until dinner time. So that was all I ate until the evening when I had, a beef stew with some mashed potato. That doesn't really reflect what I normally eat, as I said, because I normally eat more, and I normally do eat at least lunch and dinner, sometimes breakfast, but not a lot of the time, Because I normally I'm at university, but right now, I'm spending a bit of time at home. So I actually didn't cook the meal. It was made by a family member, and then me and my family ate it. I don't normally cook things like that. Stew isn't something I would choose for myself. So yeah. And I I was just at home today, so my mom cooked dinner for our family. So, yeah, it doesn't really reflect what I normally would eat while I'm at university. And I also would eat more usually, like I said, but wasn't feeling that well until later."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 20:26:12 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 23:56:56 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": "Today, I ate, not that much. Just a banana for breakfast and then some leftover food from yesterday for lunch. I normally eat more than this, and I normally don't skip dinner. The reason I skipped dinner today was because I fell asleep in the afternoon and had quite a long nap because I worked all day yesterday. I had a ten hour shift, until fairly late. So, yeah, so I I slept quite a lot this afternoon. And when I woke up, I didn't really feel like having dinner, so it's not reflective of what I usually eat."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 23:49:39 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 22:40:24 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 19:55:24 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Today, I ate for breakfast a banana. For lunch, a piece of toast with some butter and marmite. And then for dinner I had, some roast chicken which was left over from a meal I had with my family last night, some chips and some peas as well. I chose to eat those things today because it's just what, what I had at home, and I didn't have any plans to go anywhere. For the last week, I've been at home from uni, staying with my family. So, yeah, it was just whatever was in the house today. It doesn't really reflect my typical day to day food habits just because when I'm at uni, which is the majority of the time, apart from the summer, I tend to just eat a bit more because there is more available to me. I go to university in Manchester, like, very close to the center of Manchester. So there's quite a lot of there are quite a lot of food options available, so I just naturally end up eating a bit more than, when I come home because my family lives in, they live in quite a remote village with not so much to eat around. So it just it's not really reflective of my day to day food habits in that way. Although my family is very much they're very big on, like, not wasting food and using up what we have. So, like, my our our dinner today was just made up of things that, like, needed eating, like the chicken. And then, the peas and the chips were like we were doing kind of a a big, like, freezer audit. So I did pick up that family that, sorry, that habit from my family, to use things up, but, it doesn't really reflect my day to day eating habits just because I normally do eat more when I'm at uni. And I also am a lot more active when I'm at uni, so I feel like I need to eat more."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 7,
+    "delivery_orders": 0,
+    "delivery_apps_used": [],
+    "top_reasons": [
+      "Time / convenience",
+      "Habit / routine",
+      "Studying or working",
+      "Didn’t feel like cooking",
+      "Craving / comfort"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

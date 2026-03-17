@@ -1,0 +1,58 @@
+# Research Objectives for Student Food & Delivery Habits Study
+# These map directly to the coding schema used by the Analysis Agent.
+
+objectives:
+  RO1:
+    id: RO1
+    name: "Eating moments and contexts"
+    question: "What is the full spectrum of student eating moments and how does delivery fit within them?"
+    sub_questions:
+      - "When, where, and how do students eat across a typical week?"
+      - "What role does cooking, campus food, and delivery each play?"
+      - "How does accommodation type shape eating routines?"
+      - "What are the distinct eating occasions (solo study, group social, hangover, celebration)?"
+    coding_prefix: "RO1_eating_moments"
+
+  RO2:
+    id: RO2
+    name: "Delivery triggers and drivers"
+    question: "What triggers a student to order food delivery rather than cook, eat out, or eat campus food?"
+    sub_questions:
+      - "What are the primary triggers (time, social, emotional, situational)?"
+      - "What barriers prevent ordering (cost, guilt, availability)?"
+      - "How does the decision process work from trigger to order?"
+      - "What role do promotions, deals, and subscriptions play?"
+    coding_prefix: "RO2_delivery_triggers"
+
+  RO3:
+    id: RO3
+    name: "Emotional and social factors"
+    question: "What emotional and social dynamics shape food delivery behaviour?"
+    sub_questions:
+      - "How does social context (alone vs group) change ordering?"
+      - "What emotions are associated with ordering (treat, guilt, comfort)?"
+      - "How do flatmates, friends, and partners influence decisions?"
+      - "Is there stigma around solo ordering or frequent ordering?"
+    coding_prefix: "RO3_emotional_social"
+
+  RO4:
+    id: RO4
+    name: "Post-graduation evolution"
+    question: "How do food and delivery habits change as students transition to graduates?"
+    sub_questions:
+      - "What habits persist, intensify, or fade after graduation?"
+      - "How do changing finances and living situations affect ordering?"
+      - "Does the value equation for delivery shift post-graduation?"
+      - "What drives continued or lapsed platform engagement?"
+    coding_prefix: "RO4_post_graduation"
+
+  RO5:
+    id: RO5
+    name: "Engagement opportunities"
+    question: "Where are the highest-value opportunities for Deliveroo to engage students?"
+    sub_questions:
+      - "Which moments are most receptive to delivery (unmet needs)?"
+      - "What product features would increase relevance?"
+      - "How should messaging evolve across the student lifecycle?"
+      - "What role can Plus Silver play in acquisition and retention?"
+    coding_prefix: "RO5_engagement_opps"

@@ -1,0 +1,164 @@
+{
+  "participant_id": "P011",
+  "summary": "Magrish is a pragmatic final-year computer science student who approaches food with refreshing honesty about his own laziness and convenience-seeking behavior. He lives independently with three friends but operates in a completely individualized food ecosystem where everyone shops, cooks, and orders separately. His relationship with food delivery is purely transactional - it's a solution to the friction of daily life when he's too tired, too busy, or simply can't be bothered to cook or shop. He's developed a systematic approach to managing this convenience, using Uber One membership strategically and price-comparing across platforms, but his decision-making is ultimately driven by laziness rather than any deeper food passion or social connection.\n\nWhat's particularly interesting about Magrish is his self-awareness about how subscription services manipulate his behavior. He openly admits that having Uber One makes him order more, and he understands the economics of delivery fees versus membership costs, yet he still falls into the pattern. His 'cooking' consists mainly of air-frying pre-made items from Sainsbury's and putting them in wraps - a pragmatic solution that barely qualifies as cooking but meets his needs. He represents the archetypal convenience-driven student user who has fully embraced delivery as a life management tool rather than a food experience.",
+  "personality_notes": "Direct, honest, and matter-of-fact communicator. Uses 'I guess' frequently, suggesting some uncertainty or casual attitude. Refreshingly candid about his own laziness and convenience-seeking behavior without defensiveness.",
+  "food_relationship": "Food delivery serves as a practical life management tool driven primarily by laziness and convenience rather than culinary interest or social connection.",
+  "key_moments": [
+    {
+      "timestamp": "Around 1-295 to 1-299",
+      "description": "Openly admits to ordering because he's 'too lazy to cook' and 'too lazy to go out and buy groceries'",
+      "significance": "Shows remarkable honesty about convenience-driven behavior without social desirability bias"
+    },
+    {
+      "timestamp": "Around 1-349 to 1-354",
+      "description": "Gets confused when explaining how his eating habits changed from home country to UK",
+      "significance": "Reveals some uncertainty about his own patterns and possibly unreliable self-reporting on habit changes"
+    },
+    {
+      "timestamp": "Around 1-195 to 1-205",
+      "description": "Describes getting Uber One membership unexpectedly and admitting it makes him order more",
+      "significance": "Shows how subscription services can influence behavior even when users are aware of the manipulation"
+    }
+  ],
+  "what_not_said": [
+    "Any mention of food enjoyment or culinary interest",
+    "Social aspects of eating with flatmates despite living together",
+    "Any emotional connection to food or cooking",
+    "Specific favorite restaurants or cuisines beyond brief mentions"
+  ],
+  "initial_hypotheses": [
+    "Represents the 'convenience maximizer' user segment who has fully embraced delivery as life infrastructure",
+    "Price sensitivity is high but convenience often wins over cost considerations",
+    "Subscription services successfully drive increased usage even among price-conscious users",
+    "Individual food behavior persists even in shared living situations among students"
+  ],
+  "questions_for_coding": [
+    "How do subscription services influence ordering frequency and decision-making?",
+    "What role does laziness/convenience play versus other factors in delivery decisions?",
+    "How do students justify delivery costs when they're price-sensitive?",
+    "What constitutes 'cooking' for convenience-oriented students?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "I'm just too lazy to cook, I guess.\nspk_1: Or there's no time for me to cook at the time.\nspk_1: Maybe that or maybe I don't have any ingredients at home.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 13451,
+      "end_char_index": 13606,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And I'm too lazy to go out and buy the groceries.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 13622,
+      "end_char_index": 13679,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's individual. Every meal of the day it's completely individual.\nspk_1: We hardly cook anything together.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 1889,
+      "end_char_index": 2004,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I think I wouldn't say most of the times.\nspk_1: About 50%, I guess.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 6538,
+      "end_char_index": 6607,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I, I tend to use more of the easy cooking foods.\nspk_1: So like. Yeah, like I said, oven food.\nspk_1: I really want the air fryer.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 6955,
+      "end_char_index": 7086,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Couple things of Sainsbury's and put them and toss them into the air fryer, put them in a wrap and eat it.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 7120,
+      "end_char_index": 7234,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Back in my country, where I was when I was at home, and so they've changed when I entered uni, so I.\nspk_1: I guess I ate a lot less takeaways and more at home.\nspk_1: So I was not the one to cook.\nspk_1: That's why, I guess.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 15536,
+      "end_char_index": 15769,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: No, I had less takeaways than now.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 15840,
+      "end_char_index": 15882,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I think, I think about price.\nspk_1: Price is the best. Would be the deciding factor.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 19920,
+      "end_char_index": 20006,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: About like of 20 or 22.\nspk_1: Above 20? Yeah.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 20328,
+      "end_char_index": 20382,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I. I don't think so because I didn't actually buy it.\nspk_1: So I was. They offered me on the app that if I want the Uber membership for a year, I don't know, for some reason they just popped up.\nspk_1: I. I'd accept and I got the membership for that way.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 8712,
+      "end_char_index": 8975,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Do you find that you order more because you've got that membership?\nspk_1: Yes, yes, I'd say that, yeah.\n",
+      "document_index": 0,
+      "document_title": "P011 - P011 - Interview Transcript",
+      "start_char_index": 9135,
+      "end_char_index": 9247,
+      "participant_id": "P011",
+      "participant_name": "P011"
+    }
+  ],
+  "_citation_count": 12
+}

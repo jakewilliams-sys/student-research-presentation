@@ -1,0 +1,263 @@
+{
+  "insights": [
+    {
+      "insight_id": "INS_001",
+      "research_objective": "RO1",
+      "insight": "Students skipped 22% of all meal occasions during the tracked week (diary study, n=15), with breakfast skipped 25% of the time, creating systematic disruption to eating patterns that participants discuss casually",
+      "so_what": "Deliveroo competes not just with home cooking but with the decision to eat at all. This represents a larger addressable market than traditional meal replacement, but requires messaging that positions delivery as essential nutrition rather than indulgent convenience",
+      "evidence_summary": {
+        "supporting_quotes": 28,
+        "participants": 35,
+        "segments": {
+          "pragmatic_optimizer": 12,
+          "social_orderer": 10,
+          "convenience_dependent": 8,
+          "budget_balancer": 5
+        },
+        "diary_participants": 15,
+        "note": "Quantitative metrics derived from diary subsample (n=15); qualitative evidence from full sample"
+      },
+      "contradicting_evidence": 3,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Develop 'fuel your day' messaging positioning delivery as essential nutrition, not treat. Test breakfast and lunch promotions targeting meal-skipping moments",
+          "rationale": "If students are systematically skipping meals, Deliveroo can capture occasions currently lost to no eating at all"
+        },
+        {
+          "type": "product",
+          "recommendation": "Create 'quick fuel' category with 15-minute breakfast/lunch options under £8 to compete with meal skipping",
+          "rationale": "Speed and affordability can make delivery competitive with the default of not eating"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_002",
+      "research_objective": "RO1",
+      "insight": "Actual home cooking represents only 46.7% of meals according to diary data (n=15), dropping to 29% on weekends, despite participants claiming consistent cooking routines in interviews",
+      "so_what": "Students overestimate their cooking frequency, suggesting guilt or social desirability bias around food choices. Weekend disruption creates a massive opportunity window that Deliveroo is currently under-exploiting",
+      "evidence_summary": {
+        "supporting_quotes": 22,
+        "participants": 35,
+        "segments": {
+          "pragmatic_optimizer": 12,
+          "social_orderer": 10,
+          "convenience_dependent": 8,
+          "budget_balancer": 5
+        },
+        "diary_participants": 15,
+        "note": "Quantitative metrics derived from diary subsample (n=15); qualitative evidence from full sample"
+      },
+      "contradicting_evidence": 8,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Reduce guilt-inducing messaging. Position weekend delivery as normal social behavior rather than cooking failure",
+          "rationale": "Students already aren't cooking as much as they claim - messaging should normalize delivery rather than position it as backup option"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Launch Friday-Sunday focused campaigns targeting the 30-point weekend cooking drop-off",
+          "rationale": "Weekend represents the largest behavioral shift and opportunity for incremental orders"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_003",
+      "research_objective": "RO3",
+      "insight": "Social context emerges as the strongest behavioral driver - delivery orders cluster around group situations, platform choice becomes collaborative price-comparison, and group ordering reduces individual guilt",
+      "so_what": "Individual-focused marketing misses the primary driver of student delivery behavior. Group dynamics are the key to both frequency and platform choice, suggesting Deliveroo needs social-first features and messaging",
+      "evidence_summary": {
+        "supporting_quotes": 31,
+        "participants": 22,
+        "segments": {
+          "social_orderer": 10,
+          "pragmatic_optimizer": 8,
+          "convenience_dependent": 4
+        }
+      },
+      "contradicting_evidence": 4,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Develop group ordering features that allow collaborative cart building and split payment before checkout",
+          "rationale": "If platform choice is collaborative, Deliveroo needs to win the group decision-making moment"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Shift student marketing from individual convenience to social enablement - 'bring your friends together' rather than 'treat yourself'",
+          "rationale": "Social context drives orders more than individual need, so messaging should reflect this primary use case"
+        },
+        {
+          "type": "partnerships",
+          "recommendation": "Partner with student societies and halls for group ordering events and social occasions",
+          "rationale": "Social orderers represent the highest-value segment and respond to group contexts"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_004",
+      "research_objective": "RO2",
+      "insight": "Delivery apps represent only 3.5% of actual meal occasions in diary data (n=15), despite extensive interview discussion, suggesting the topic looms larger in consciousness than behavior",
+      "so_what": "Students think about delivery more than they use it, indicating either barriers to conversion or overestimation of market penetration. The gap between consideration and usage represents untapped demand",
+      "evidence_summary": {
+        "supporting_quotes": 19,
+        "participants": 35,
+        "segments": {
+          "pragmatic_optimizer": 12,
+          "social_orderer": 10,
+          "convenience_dependent": 8,
+          "budget_balancer": 5
+        },
+        "diary_participants": 15,
+        "note": "Quantitative metrics derived from diary subsample (n=15); qualitative evidence from full sample"
+      },
+      "contradicting_evidence": 6,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Test conversion-focused campaigns targeting high-consideration, low-usage students (e.g., 3+ app opens per week with fewer than 1 order per month) with specific trigger-based messaging at browse-without-order moments",
+          "rationale": "If students think about delivery but don't use it, there are barriers to overcome rather than awareness to build"
+        },
+        {
+          "type": "product",
+          "recommendation": "Implement usage tracking and trigger notifications for students who browse but don't order",
+          "rationale": "The consideration-behavior gap suggests friction in the conversion moment that can be addressed"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_005",
+      "research_objective": "RO4",
+      "insight": "Graduates show increased delivery frequency but decreased emotional significance - delivery becomes normalized utility rather than special treat",
+      "so_what": "Post-graduation retention may be stronger than assumed, but the value proposition needs to evolve from treat-based to utility-based as students mature. This suggests different messaging and features for graduate retention",
+      "evidence_summary": {
+        "supporting_quotes": 15,
+        "participants": 8,
+        "segments": {
+          "pragmatic_optimizer": 4,
+          "convenience_dependent": 3,
+          "social_orderer": 1
+        }
+      },
+      "contradicting_evidence": 2,
+      "confidence": "medium",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Directional recommendation (small sample: n=8): Develop graduate transition messaging that repositions Plus from student perk to professional convenience tool",
+          "rationale": "If graduates normalize delivery usage, the value proposition should emphasize reliability and time-saving over cost savings"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Test graduate retention campaigns 6 months before graduation focusing on habit preservation rather than student benefits",
+          "rationale": "Early evidence suggests graduates maintain but reframe delivery usage - retention campaigns should anticipate this shift"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_006",
+      "research_objective": "RO3",
+      "insight": "Undergraduates treat delivery as emotional reward (Friday treats, post-exam comfort) while postgraduates are more health and budget pragmatic",
+      "so_what": "Student segmentation should be based on academic stage, not just demographics. Undergraduate emotional triggers require different messaging than postgraduate practical triggers",
+      "evidence_summary": {
+        "supporting_quotes": 24,
+        "participants": 27,
+        "segments": {
+          "social_orderer": 8,
+          "budget_balancer": 7,
+          "pragmatic_optimizer": 8,
+          "convenience_dependent": 4
+        }
+      },
+      "contradicting_evidence": 5,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Segment student campaigns by academic level: emotional reward messaging for undergraduates, practical convenience for postgraduates",
+          "rationale": "Academic stage drives different relationships with delivery that require tailored value propositions"
+        },
+        {
+          "type": "product",
+          "recommendation": "Create exam period promotions and Friday treat campaigns specifically targeting undergraduate emotional triggers",
+          "rationale": "Undergraduates respond to delivery as reward system, creating predictable promotional opportunities"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_007",
+      "research_objective": "RO5",
+      "insight": "Friday evenings and weekend socializing drive the highest concentration of delivery orders, with social influence heavily impacting platform choice decisions",
+      "so_what": "Weekend social occasions represent Deliveroo's highest-value engagement window. Winning Friday night group decisions could significantly impact market share and frequency",
+      "evidence_summary": {
+        "supporting_quotes": 18,
+        "participants": 22,
+        "segments": {
+          "social_orderer": 10,
+          "pragmatic_optimizer": 7,
+          "convenience_dependent": 5
+        }
+      },
+      "contradicting_evidence": 3,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "marketing",
+          "recommendation": "Concentrate marketing spend on Thursday-Friday targeting weekend social planning moments",
+          "rationale": "If Friday evenings drive peak ordering, marketing should anticipate and capture the planning phase"
+        },
+        {
+          "type": "product",
+          "recommendation": "Launch 'Friday Night Sorted' campaign with group-friendly restaurant curation and social sharing features",
+          "rationale": "Social occasions drive orders and platform choice - Deliveroo needs to win the group decision moment"
+        },
+        {
+          "type": "partnerships",
+          "recommendation": "Partner with student accommodation providers for Friday night group ordering events and promotions",
+          "rationale": "Social orderers cluster around accommodation-based friend groups during peak ordering windows"
+        }
+      ]
+    },
+    {
+      "insight_id": "INS_008",
+      "research_objective": "RO2",
+      "insight": "Participants report sophisticated price comparison strategies across multiple platforms, with platform choice becoming collaborative decision-making in group contexts",
+      "so_what": "Students are highly price-sensitive and platform-agnostic, making loyalty difficult but creating opportunities for superior group experience. Winning requires either price leadership or superior social features",
+      "evidence_summary": {
+        "supporting_quotes": 16,
+        "participants": 20,
+        "segments": {
+          "pragmatic_optimizer": 12,
+          "social_orderer": 8
+        }
+      },
+      "contradicting_evidence": 4,
+      "confidence": "high",
+      "recommendations": [
+        {
+          "type": "product",
+          "recommendation": "Develop transparent group price comparison tools that show Deliveroo's total cost advantage including Plus benefits",
+          "rationale": "If students comparison shop collaboratively, Deliveroo should facilitate and win that comparison moment"
+        },
+        {
+          "type": "marketing",
+          "recommendation": "Create 'Plus Calculator' showing total savings over time rather than per-order benefits to combat price comparison",
+          "rationale": "Sophisticated price comparison requires sophisticated value demonstration beyond individual order savings"
+        }
+      ]
+    }
+  ],
+  "executive_summary": "This research reveals fundamental misalignments between how Deliveroo approaches students and how students actually behave. Diary tracking (n=15) reveals students skip 22% of all meals and cook only 46.7% of the time (dropping to 29% on weekends), yet Deliveroo positions itself against home cooking rather than meal skipping. Social context drives delivery behavior more than individual convenience, but current marketing focuses on personal treats rather than group enablement. The most significant finding is that delivery represents only 3.5% of actual meal occasions (diary study, n=15) despite extensive mental consideration, suggesting barriers to conversion rather than awareness gaps.\n\nThree strategic shifts are required: First, reframe delivery as essential nutrition competing with meal skipping, not just cooking alternatives. Second, prioritize social-first features and messaging, as group dynamics drive both frequency and platform choice. Third, segment by academic stage rather than demographics - undergraduates treat delivery as emotional reward while postgraduates view it as practical utility.\n\nThe weekend opportunity is massive - cooking drops 30 percentage points from weekdays, creating Deliveroo's highest-value engagement window. Friday evening social planning represents the key battleground for platform choice, where collaborative price comparison and group ordering features could provide competitive advantage.\n\nPost-graduation retention appears stronger than assumed, with graduates normalizing delivery as utility rather than treat. However, the value proposition must evolve from student perks to professional convenience. Early intervention 6 months before graduation could preserve habits through this transition.",
+  "report_sections": {
+    "key_behavioral_insights": "Students demonstrate systematic meal disruption patterns that create larger opportunities than traditional meal replacement. Home cooking represents only 46.7% of meals despite stated intentions, with weekend cooking dropping to 29%. Meal skipping affects 22% of all occasions, with breakfast skipped 25% of the time. This suggests Deliveroo competes not just with cooking but with the decision to eat at all.",
+    "social_dynamics": "Social context emerges as the primary driver of delivery behavior, contradicting individual-focused marketing approaches. Group ordering reduces guilt, platform choice becomes collaborative price comparison, and Friday evening social planning drives peak demand. The Social Orderer persona (n=10) represents the highest-engagement segment, clustering orders around weekend socializing.",
+    "consideration_conversion_gap": "Delivery apps represent only 3.5% of actual meal occasions despite extensive interview discussion, indicating significant barriers between consideration and usage. Students think about delivery more than they use it, suggesting conversion optimization opportunities rather than awareness building needs.",
+    "academic_stage_segmentation": "Undergraduate and postgraduate students demonstrate fundamentally different relationships with delivery. Undergraduates treat orders as emotional rewards (Friday treats, post-exam comfort) while postgraduates approach delivery pragmatically for health and budget optimization. This requires stage-specific messaging and promotional strategies.",
+    "post_graduation_evolution": "Early evidence (n=8) suggests graduates increase delivery frequency while decreasing emotional significance. Delivery becomes normalized utility rather than special treat, indicating stronger retention potential than assumed but requiring evolved value propositions focused on professional convenience rather than student benefits."
+  }
+}

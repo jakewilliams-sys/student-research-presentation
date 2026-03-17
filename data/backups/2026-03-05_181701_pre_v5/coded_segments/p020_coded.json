@@ -1,0 +1,1484 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P020_INT_001",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I'm a graduate. I'm a. I'm on a grad scheme right now.",
+      "timestamp": "1:05-1:06",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": [],
+        "future_projection": [
+          "career_structure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'm a graduate i'm a i'm on a grad scheme right now"
+      }
+    },
+    {
+      "segment_id": "P020_INT_002",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Classic nine to five. I go in the office twice a week. Other days I work at home. I mean after work, depending on energy level, might go to the gym, might meet up with friends. Yeah, I guess like the classic London life of your. It's hustle and bustle. You try to go out, but then you also need some quiet time at home. So try to balance a bit of both.",
+      "timestamp": "1:21-1:28",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "hustle_and_bustle",
+          "balance"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "classic nine to five i go in the office twice a week other days i work at home i mean after work depending on energy level might go to the gym might meet up with friends yeah i guess like the classic london life of your it's hustle and bustle you try to go out but then you also need some quiet time "
+      }
+    },
+    {
+      "segment_id": "P020_INT_003",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I do. I cook. I'm the, I. I am the main responsible for cooking. So I do all the grocery. I decide what we eat. We sometimes eat together, sometimes not, depending on work schedule and like, you know, whatever you do after work. So yeah, it's a mix of both.",
+      "timestamp": "1:34-1:42",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d",
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+      ],
+      "context_tags": {
+        "emotion": [
+          "control"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "responsible",
+          "decide"
+        ],
+        "competitive": null,
+        "value_component": [
+          "control"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.64,
+        "best_match": "with my partner perfect and who usually makes the decision around food in your household i do nice and when you're when you're eating do you usually eat together cook together that sort of thing i cook i'm the i i am the main responsible for cooking so i do all the grocery i decide what"
+      }
+    },
+    {
+      "segment_id": "P020_INT_004",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I'm trying to set a limit. So I have a limit right now just because I. It gets really addicting. So I, I use max one hour across Instagram and threads because before that I think I can be on Instagram for a very long time. Like there can be days where I'm on there for like three, four, five hours because I don't want to, I don't want to do stuff. So I'm just scrolling, like mindlessly scrolling.",
+      "timestamp": "1:76-1:80",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "addicting",
+          "mindlessly_scrolling"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'm trying to set a limit so i have a limit right now just because i it gets really addicting so i i use max one hour across instagram and threads because before that i think i can be on instagram for a very long time like there can be days where i'm on there for like three four five hours because i"
+      }
+    },
+    {
+      "segment_id": "P020_INT_005",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Food related? Instagram, definitely. That is my main inspiration for recipes. I think the algorithm got me. So that is where I. Yeah, where I get inspiration, where I see what people cook and like new, new ideas, trends, that kind of stuff.",
+      "timestamp": "1:85-1:89",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "algorithm_got_me",
+          "inspiration"
+        ],
+        "competitive": null,
+        "value_component": [
+          "inspiration"
+        ],
+        "influence": [
+          "social_media"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "food related instagram definitely that is my main inspiration for recipes i think the algorithm got me so that is where i yeah where i get inspiration where i see what people cook and like new new ideas trends that kind of stuff"
+      }
+    },
+    {
+      "segment_id": "P020_INT_006",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Yeah, I mean whenever I see a recipe that I want to do. I would get groceries, but I don't order takeaway that often. And I don't think there was a time where I was inspired by like content on Instagram to order takeaway. Whenever I order takeaway, I think I have a very specific thing I'm looking for because I order it if I know that's something that I can't cook and I'm getting it from a specific place. So it's always like I have a very targeted thing that I want to get, then I'll order takeaway.",
+      "timestamp": "1:103-1:107",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "targeted",
+          "specific"
+        ],
+        "competitive": null,
+        "value_component": [
+          "capability_gap"
+        ],
+        "influence": [
+          "social_media"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i mean whenever i see a recipe that i want to do i would get groceries but i don't order takeaway that often and i don't think there was a time where i was inspired by like content on instagram to order takeaway whenever i order takeaway i think i have a very specific thing i'm looking for beca"
+      }
+    },
+    {
+      "segment_id": "P020_INT_007",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Normally work day, my breakfast would be in the office. I'll bring it to the office. It's normally overnight oats with frozen blueberries. Only reason I'm eating it is because it's. It's simple, it's filling, it's full of protein, and it keeps me full until lunch.",
+      "timestamp": "1:117-1:121",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "colleagues",
+        "temporal": [
+          "weekday",
+          "morning"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "functional"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "nutrition"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "normally work day my breakfast would be in the office i'll bring it to the office it's normally overnight oats with frozen blueberries only reason i'm eating it is because it's it's simple it's filling it's full of protein and it keeps me full until lunch"
+      }
+    },
+    {
+      "segment_id": "P020_INT_008",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Yeah, weekend, we normally go out once a week to eat at a restaurant. It's always Somewhere new. Like, we rarely go back to the same restaurant just because we like to try new things, we want to try new cuisines. So it's, it's often more of an, an exploration and experience than just like filling, like getting something to eat.",
+      "timestamp": "1:139-1:142",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "exploration",
+          "experience"
+        ],
+        "competitive": null,
+        "value_component": [
+          "novelty",
+          "experience"
+        ],
+        "influence": [
+          "partner"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah weekend we normally go out once a week to eat at a restaurant it's always somewhere new like we rarely go back to the same restaurant just because we like to try new things we want to try new cuisines so it's it's often more of an an exploration and experience than just like filling like gettin"
+      }
+    },
+    {
+      "segment_id": "P020_INT_009",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I guess first thing first mood. I honestly, I think I struggle a lot in terms of deciding what to eat. Obviously Instagram is one of my biggest inspiration, kind of hub of what to eat. But sometimes it just doesn't hit the spot or I don't really know what I want to eat, so that becomes tricky.",
+      "timestamp": "1:169-1:172",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "struggle",
+          "tricky"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": [
+          "social_media"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i guess first thing first mood i honestly i think i struggle a lot in terms of deciding what to eat obviously instagram is one of my biggest inspiration kind of hub of what to eat but sometimes it just doesn't hit the spot or i don't really know what i want to eat so that becomes tricky"
+      }
+    },
+    {
+      "segment_id": "P020_INT_010",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I think on average each day I spend an hour cooking. I think that's quite a lot for some people. But I like the process, so I will spend that time making food I like to eat.",
+      "timestamp": "1:177-1:179",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "process"
+        ],
+        "competitive": null,
+        "value_component": [
+          "enjoyment"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think on average each day i spend an hour cooking i think that's quite a lot for some people but i like the process so i will spend that time making food i like to eat"
+      }
+    },
+    {
+      "segment_id": "P020_INT_011",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "So I always, almost all the time just do the prep when I'm about to cook because I never know what I'm eating the next day. So I can't really meal prep for the day ahead. So I, I will, I think I go to the supermarket maybe like it's either once a day or once every two days. And the amount of times I pop by is, is wild when I see my. Because I. My local one is Lidl. So they have this Lidl wrapped like a Spotify wrapped. I think there was a month I went to the supermarket every single day. Like I've been to Lidl like 250 times last year. And that's because I can't decide on what I cook. Like what I have for the next day.",
+      "timestamp": "1:194-1:204",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "P020_INT_010",
+        "language_pattern": [
+          "wild",
+          "can't_decide"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 5,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i always almost all the time just do the prep when i'm about to cook because i never know what i'm eating the next day so i can't really meal prep for the day ahead so i i will i think i go to the supermarket maybe like it's either once a day or once every two days and the amount of times i pop b"
+      }
+    },
+    {
+      "segment_id": "P020_INT_012",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "To be fair, I really like cooking because it's a space where it's almost technology free. You're very, very focused on doing some things. I'm always multitasking because I cook multiple things at the same time. But yeah, it's just a nice space for yourself, getting distracted. And I'm not looking at the screen, which is great.",
+      "timestamp": "1:208-1:212",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort",
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "technology_free",
+          "sanctuary"
+        ],
+        "competitive": null,
+        "value_component": [
+          "mindfulness"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 5,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "to be fair i really like cooking because it's a space where it's almost technology free you're very very focused on doing some things i'm always multitasking because i cook multiple things at the same time but yeah it's just a nice space for yourself getting distracted and i'm not looking at the scr"
+      }
+    },
+    {
+      "segment_id": "P020_INT_013",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I mean even I, I work for Ocado and I don't really shop there. I think that is a sign",
+      "timestamp": "1:219-1:220",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "ocado",
+        "value_component": [
+          "personal_preference"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 3,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i mean even i i work for ocado and i don't really shop there i think that is a sign"
+      }
+    },
+    {
+      "segment_id": "P020_INT_014",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I think we order that like once a month max. Because I think a lot of times we would head out and eat if that is planned or unless it's a day where, oh, I'm really craving this dish and I don't want to move, then I will order takeaway.",
+      "timestamp": "1:221-1:222",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "craving",
+          "don't_want_to_move"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think we order that like once a month max because i think a lot of times we would head out and eat if that is planned or unless it's a day where oh i'm really craving this dish and i don't want to move then i will order takeaway"
+      }
+    },
+    {
+      "segment_id": "P020_INT_015",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "It always feels functional when I'm eating lunch at work. I don't know why, because I guess it's more of. It's similar to sociable, but not in a way that when you're eating work lunch, it might just be a me thing, but I don't taste the food I'm eating when I'm chatting to other people. Especially with colleagues like you. It's such a loud environment. There's so much people you're eating and chatting and listening at the same time to a point where you're not really focusing on the food. So at that point, I'm just eating. And I've noticed that a lot of times, and hence I don't really care what I bring to the office a lot of times just because I know if I like it, if I don't like it, I'll still eat it.",
+      "timestamp": "1:245-1:252",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "colleagues",
+        "temporal": [
+          "weekday",
+          "afternoon"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "functional",
+          "don't_taste"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it always feels functional when i'm eating lunch at work i don't know why because i guess it's more of it's similar to sociable but not in a way that when you're eating work lunch it might just be a me thing but i don't taste the food i'm eating when i'm chatting to other people especially with coll"
+      }
+    },
+    {
+      "segment_id": "P020_INT_016",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "To me a lot of comforting food are soup. I grew up in a very soup kind of family. Especially in the winter, something soup stewy would be lovely. So that is also something, always something like warm and comforting. Also when I've poured a lot of heart and soul into that recipe, then when you eat it you're like, yeah, that, that, that hits the spot. It doesn't happen very often, but when it does it's great.",
+      "timestamp": "1:261-1:266",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "family",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "heart_and_soul",
+          "hits_the_spot"
+        ],
+        "competitive": null,
+        "value_component": [
+          "emotional_connection"
+        ],
+        "influence": [
+          "family"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "to me a lot of comforting food are soup i grew up in a very soup kind of family especially in the winter something soup stewy would be lovely so that is also something always something like warm and comforting also when i've poured a lot of heart and soul into that recipe then when you eat it you're"
+      }
+    },
+    {
+      "segment_id": "P020_INT_017",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Yeah, as I said, I crave that and there are certain things where I can't, I can't make at home. That would be Malaysian food. That is something that I, I, I just don't have the equipment to cook that. So like those things we would always order in.",
+      "timestamp": "1:308-1:311",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "crave",
+          "can't_make"
+        ],
+        "competitive": null,
+        "value_component": [
+          "capability_gap"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah as i said i crave that and there are certain things where i can't i can't make at home that would be malaysian food that is something that i i i just don't have the equipment to cook that so like those things we would always order in"
+      }
+    },
+    {
+      "segment_id": "P020_INT_018",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Almost always the weekends. I think weekdays I will find a way to eat at home. Don't really have an explanation but I think like during the weekday there's less cravings as well. I don't know. Again it might just be work day and you're very focused on other stuff, but it's normally the weekend.",
+      "timestamp": "1:314-1:318",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [
+          "weekend",
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "find_a_way"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "almost always the weekends i think weekdays i will find a way to eat at home don't really have an explanation but i think like during the weekday there's less cravings as well i don't know again it might just be work day and you're very focused on other stuff but it's normally the weekend"
+      }
+    },
+    {
+      "segment_id": "P020_INT_019",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I, to be fair, I think I ordered less after graduating and I, I, I, the only reason I can think of this is because life has a bit more structure than when I was a student. When I was a student I think it's just like life is all over the place and it's not a 9 to 5. Right. It can sometimes be, sometimes be like what, a 12 to 10 depending on what you're doing. And I think those times I tend to order a bit more. And then now, because life has more structure to it, I'm just able to control that a bit more.",
+      "timestamp": "1:326-1:330",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "structure",
+          "control"
+        ],
+        "competitive": null,
+        "value_component": [
+          "structure"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i to be fair i think i ordered less after graduating and i i i the only reason i can think of this is because life has a bit more structure than when i was a student when i was a student i think it's just like life is all over the place and it's not a 9 to 5 right it can sometimes be sometimes be li"
+      }
+    },
+    {
+      "segment_id": "P020_INT_020",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "But I also think when I was a student, I. I ate a lot of Too Good to Go. I think that also, like, that is just a sign of I haven't done as much planning in terms of what I want to eat, do I really want to cook. But also because I share a kitchen with someone, which it's not the most pleasant experience at times when you're sharing a kitchen with other people where you have to queue for the kitchen and at some point you just become too lazy to cook.",
+      "timestamp": "1:331-1:333",
+      "research_objective_codes": [
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating",
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "queue",
+          "too_lazy"
+        ],
+        "competitive": "too_good_to_go",
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "flatmates"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but i also think when i was a student i i ate a lot of too good to go i think that also like that is just a sign of i haven't done as much planning in terms of what i want to eat do i really want to cook but also because i share a kitchen with someone which it's not the most pleasant experience at t"
+      }
+    },
+    {
+      "segment_id": "P020_INT_021",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I think when I'm writing a really big essay, let's say there is a dissertation I'm doing. When I did that, I ordered poke bowls very, very often. It was a craving. But also I really do not have the capacity to think of food I want to eat that by. I'm in no capacity to make that happen. So I would order in.",
+      "timestamp": "1:337-1:342",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "no_capacity"
+        ],
+        "competitive": null,
+        "value_component": [
+          "mental_energy"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think when i'm writing a really big essay let's say there is a dissertation i'm doing when i did that i ordered poke bowls very very often it was a craving but also i really do not have the capacity to think of food i want to eat that by i'm in no capacity to make that happen so i would order in"
+      }
+    },
+    {
+      "segment_id": "P020_INT_022",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Yeah, I've always used Uber Eats.",
+      "timestamp": "1:346",
+      "research_objective_codes": [
+        "RO5_engagement_opps.brand_perception"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "always"
+        ],
+        "competitive": null,
+        "value_component": [
+          "loyalty"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i've always used uber eats"
+      }
+    },
+    {
+      "segment_id": "P020_INT_023",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I remember, like when I looked at Deliveroo, it was slightly more overwhelming, like the whole experience, but also with like the selection of restaurants. I remember I used it because one of the reason why I ordered from Delivery once is because the restaurant that I want to eat from is not available in Uber. So I had to switch to that.",
+      "timestamp": "1:358-1:360",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "overwhelming"
+        ],
+        "competitive": "deliveroo",
+        "value_component": [
+          "simplicity"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i remember like when i looked at deliveroo it was slightly more overwhelming like the whole experience but also with like the selection of restaurants i remember i used it because one of the reason why i ordered from delivery once is because the restaurant that i want to eat from is not available in"
+      }
+    },
+    {
+      "segment_id": "P020_INT_024",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "But then there's a lot of restrictions with like you need to order at least £25 and it's very difficult to order over £25 if you're ordering for yourself. There was just a lot of restrictions that made it like. It added a lot more friction to me actually wanting to use the Deliveroo membership. So I've always stuck with Uber 1.",
+      "timestamp": "1:407-1:410",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil",
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "restrictions",
+          "friction"
+        ],
+        "competitive": "deliveroo_vs_uber",
+        "value_component": [
+          "simplicity"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but then there's a lot of restrictions with like you need to order at least 25 and it's very difficult to order over 25 if you're ordering for yourself there was just a lot of restrictions that made it like it added a lot more friction to me actually wanting to use the deliveroo membership so i've a"
+      }
+    },
+    {
+      "segment_id": "P020_INT_025",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I think, like the biggest attraction point of Uber 1 is it has so many perks. Like, back then, it's obviously you get all your delivery fee and service fee taken away, but you also have those, like, 40% off on a lot of restaurants that I tend to order from. I think right now, one of the other thing that really attracted me to using Uber one is they give, what is that called, like credits or cash back on any transport that you like. When you book a train on Uber, you get a certain amount back and you get more as an Uber one member. So I use that very, very often as well. So, like, that adds up. And so, yeah, I've just kept to Uber 1.",
+      "timestamp": "1:412-1:418",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "perks",
+          "adds_up"
+        ],
+        "competitive": "uber_ecosystem",
+        "value_component": [
+          "bundled_benefits"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think like the biggest attraction point of uber 1 is it has so many perks like back then it's obviously you get all your delivery fee and service fee taken away but you also have those like 40 off on a lot of restaurants that i tend to order from i think right now one of the other thing that reall"
+      }
+    },
+    {
+      "segment_id": "P020_INT_026",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I think to me, the biggest difference is always the minimum, minimum cost that you need to pay. Like you need to get your order to actually get any perks for delivery. The Deliveroo Plus. Yeah, I think that was one of the main things that actually stopped me from even attempting to use it, and that is all I remember from them. Is you need to pay at least 25 or else it might be higher right now, I don't know. But a few years back, at least it's 25. And yeah, it's very difficult when you're ordering a loan.",
+      "timestamp": "1:481-1:486",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison",
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "stopped_me",
+          "very_difficult"
+        ],
+        "competitive": "deliveroo_vs_uber",
+        "value_component": [
+          "accessibility"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think to me the biggest difference is always the minimum minimum cost that you need to pay like you need to get your order to actually get any perks for delivery the deliveroo plus yeah i think that was one of the main things that actually stopped me from even attempting to use it and that is all "
+      }
+    },
+    {
+      "segment_id": "P020_INT_027",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I won't even bother looking at restaurants that have no offer. It's either buy one, get one free or it's 40% off. So always look for those first.",
+      "timestamp": "1:525-1:527",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "won't_bother",
+          "always_look"
+        ],
+        "competitive": null,
+        "value_component": [
+          "deals"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i won't even bother looking at restaurants that have no offer it's either buy one get one free or it's 40 off so always look for those first"
+      }
+    },
+    {
+      "segment_id": "P020_INT_028",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I've definitely spent more time cooking for sure, but also because I own the whole kitchen right now, cooking becomes way more enjoyable. So I think that that kind of changed what I would experiment with, what I would cook. I'd spend more time in the kitchen. I can do whatever that I want. I'm not limited to fridge space as well, which is, which is great. Like it allows me to have more creativity and freedom to do the cooking that I want to do and that kind of affects what I actually eat.",
+      "timestamp": "1:593-1:598",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af",
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy",
+          "relief"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "own",
+          "freedom",
+          "creativity"
+        ],
+        "competitive": null,
+        "value_component": [
+          "control",
+          "space"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i've definitely spent more time cooking for sure but also because i own the whole kitchen right now cooking becomes way more enjoyable so i think that that kind of changed what i would experiment with what i would cook i'd spend more time in the kitchen i can do whatever that i want i'm not limited "
+      }
+    },
+    {
+      "segment_id": "P020_INT_029",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "I think a lot of students, especially if you're part of like societies that kind of things you would often order like big, big, like dominoes, whatever. Order as well. Like party orders, basically. And I think that caters to quite a big population of students if they do offer things like this.",
+      "timestamp": "1:717-1:720",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "friends",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "party_orders"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think a lot of students especially if you're part of like societies that kind of things you would often order like big big like dominoes whatever order as well like party orders basically and i think that caters to quite a big population of students if they do offer things like this"
+      }
+    },
+    {
+      "segment_id": "P020_INT_030",
+      "participant_id": "P020",
+      "source": "interview",
+      "text": "Sometimes I search for specific keywords and I don't know how Uber does that, but whatever pops up in the results does not match what I have. It's often that I'm typing something. Let's say I want Thai food. They would pop up like Malaysian food or Chinese food or Japanese. I'm like, that is not relevant. So, yeah, some of that tagging needs work. I think it's just very difficult to search for a specific thing when the results aren't relevant.",
+      "timestamp": "1:738-1:744",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "not_relevant",
+          "needs_work"
+        ],
+        "competitive": null,
+        "value_component": [
+          "accuracy"
+        ],
+        "influence": [],
+        "future_projection": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "sometimes i search for specific keywords and i don't know how uber does that but whatever pops up in the results does not match what i have it's often that i'm typing something let's say i want thai food they would pop up like malaysian food or chinese food or japanese i'm like that is not relevant "
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "meal_planning_anxiety",
+      "description": "Participants who love cooking but experience significant anxiety around meal planning and decision-making, leading to compulsive shopping behaviors"
+    },
+    {
+      "theme_name": "technology_free_sanctuary",
+      "description": "Cooking serving as a deliberate escape from digital overwhelm and providing mindful, screen-free time"
+    },
+    {
+      "theme_name": "professional_personal_disconnect",
+      "description": "Working for food/grocery companies but choosing competitors for personal use, suggesting strong personal preferences override professional alignment"
+    },
+    {
+      "theme_name": "capability_gap_ordering",
+      "description": "Ordering specifically for dishes that require equipment or skills the participant lacks, rather than convenience-driven ordering"
+    }
+  ],
+  "coding_summary": "P020 demonstrates a fascinating paradox of food control - she takes complete ownership of household cooking and spends an hour daily in the kitchen as a 'technology-free sanctuary,' yet experiences severe decision-making anxiety that drives daily grocery shopping (250 Lidl visits last year). Her delivery usage is highly strategic and infrequent (monthly), driven by specific capability gaps (Malaysian food) rather than convenience. The transition from student to graduate has increased her cooking due to kitchen ownership and work structure, while decreasing delivery usage. She shows remarkable loyalty to Uber Eats despite working for competitor Ocado, suggesting personal preferences override professional alignment. Her experience highlights the importance of subscription simplicity (Deliveroo's £25 minimum was a major barrier) and the power of ecosystem benefits (Uber's transport integration).",
+  "coverage_gaps": [],
+  "_citations": [
+    {
+      "cited_text": "spk_1: I honestly, I think I struggle a lot in terms of deciding what to eat.\nspk_1: Obviously Instagram is one of my biggest inspiration, kind of hub of what to eat.\nspk_1: But sometimes it just doesn't hit the spot or I don't really know what I want to eat, so that becomes tricky.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 9500,
+      "end_char_index": 9784,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: So I always, almost all the time just do the prep when I'm about to cook because I never know what I'm eating the next day.\nspk_1: So I can't really meal prep for the day ahead.\nspk_1: So I, I will, I think I go to the supermarket maybe like it's either once a day or once every two days.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 11153,
+      "end_char_index": 11449,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: I think there was a month I went to the supermarket every single day.\nspk_1: Like I've been to Lidl like 250 times last year.\nspk_1: And that's because I can't decide on what I cook.\nspk_1: Like what I have for the next day.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 11618,
+      "end_char_index": 11850,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: To be fair, I really like cooking because it's a space where it's almost technology free.\nspk_1: You're very, very focused on doing some things.\nspk_1: I'm always multitasking because I cook multiple things at the same time.\nspk_1: But yeah, it's just a nice space for yourself, getting distracted.\nspk_1: And I'm not looking at the screen, which is great.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 11912,
+      "end_char_index": 12276,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: Whenever I order takeaway, I think I have a very specific thing I'm looking for because I order it if I know that's something that I can't cook and I'm getting it from a specific place.\nspk_1: So it's always like I have a very targeted thing that I want to get, then I'll order takeaway.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 5751,
+      "end_char_index": 6046,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: Yeah, as I said, I crave that and there are certain things where I can't, I can't make at home.\nspk_1: That would be Malaysian food.\nspk_1: That is something that I, I, I just don't have the equipment to cook that.\nspk_1: So like those things we would always order in.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 19450,
+      "end_char_index": 19726,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_0: Yeah,\nspk_1: I, to be fair, I think I ordered less after graduating and I, I, I, the only reason I can think of this is because life has a bit more structure than when I was a student.\nspk_1: When I was a student I think it's just like life is all over the place and it's not a 9 to 5.\nspk_1: Right. It can sometimes be, sometimes be like what, a 12 to 10 depending on what you're doing.\nspk_1: And I think those times I tend to order a bit more.\nspk_1: And then now, because life has more structure to it, I'm just able to control that a bit more.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 20514,
+      "end_char_index": 21070,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: I mean even I, I work for Ocado and I don't really shop there.\nspk_1: I think that is a sign in terms of takeaway.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 12617,
+      "end_char_index": 12739,
+      "participant_id": "P020"
+    },
+    {
+      "cited_text": "spk_1: Yeah, I've always used Uber Eats.\n",
+      "document_title": "Interview Transcript — P020",
+      "document_index": 0,
+      "start_char_index": 22219,
+      "end_char_index": 22260,
+      "participant_id": "P020"
+    }
+  ],
+  "_citation_count": 9,
+  "participant_id": "P020",
+  "_ro_coverage": {
+    "RO4_post_graduation": 4,
+    "RO1_eating_moments": 9,
+    "RO3_emotional_social": 3,
+    "RO5_engagement_opps": 9,
+    "RO2_delivery_triggers": 12
+  }
+}

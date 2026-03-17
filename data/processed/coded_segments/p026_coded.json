@@ -1,0 +1,1534 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P026_INT_001",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "So, I'm also a manager at McDonald's... just because student loans are not that good.",
+      "timestamp": "1:13",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "financial_necessity"
+        ],
+        "influence": [
+          "financial_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i'm also a manager at mcdonald's just because student loans are not that good"
+      }
+    },
+    {
+      "segment_id": "P026_INT_002",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Because before I came to uni, I did an actual... I did dental nursing. So I had a full-on, full-time job. So I got... I also got my car. I got everything, like a life set out.",
+      "timestamp": "1:90-1:94",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "1-107",
+        "language_pattern": [
+          "life_set_out"
+        ],
+        "competitive": null,
+        "value_component": [
+          "financial_security"
+        ],
+        "influence": [
+          "work_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "because before i came to uni i did an actual i did dental nursing so i had a full on full time job so i got i also got my car i got everything like a life set out"
+      }
+    },
+    {
+      "segment_id": "P026_INT_003",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "But I think I'm quite lucky as a student. I don't feel like I'm skint or anything.",
+      "timestamp": "1:99-1:100",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lucky"
+        ],
+        "competitive": null,
+        "value_component": [
+          "financial_comfort"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but i think i'm quite lucky as a student i don't feel like i'm skint or anything"
+      }
+    },
+    {
+      "segment_id": "P026_INT_004",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I feel like a lot of my other mates... so, for example, like, they wouldn't choose a Domino's, do you know what I mean? Like that... or if they did, it's more like it would need to be a bigger group so they can get a deal on it.",
+      "timestamp": "1:107-1:108",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": "1:90-1:94",
+        "language_pattern": null,
+        "competitive": "dominos",
+        "value_component": [
+          "group_deals"
+        ],
+        "influence": [
+          "peer_comparison"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i feel like a lot of my other mates so for example like they wouldn't choose a domino's do you know what i mean like that or if they did it's more like it would need to be a bigger group so they can get a deal on it"
+      }
+    },
+    {
+      "segment_id": "P026_INT_005",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Whereas I wouldn't mind spending 25 pounds on myself because I don't... I don't fit. I feel like it's going to come back. Whereas they're leaning more on the student loan. Whereas I'm... yeah, leaning less.",
+      "timestamp": "1:112-1:115",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "going_to_come_back"
+        ],
+        "competitive": null,
+        "value_component": [
+          "financial_security"
+        ],
+        "influence": [
+          "work_income"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "whereas i wouldn't mind spending 25 pounds on myself because i don't i don't fit i feel like it's going to come back whereas they're leaning more on the student loan whereas i'm yeah leaning less"
+      }
+    },
+    {
+      "segment_id": "P026_INT_006",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "But also, like, I have, like, subscriptions to both Uber, Uber Eats, and delivery, so I never... That's also a conscious thing of mine that I'm never peeing.",
+      "timestamp": "1:118",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "conscious_thing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "subscription_savings"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but also like i have like subscriptions to both uber uber eats and delivery so i never that's also a conscious thing of mine that i'm never peeing"
+      }
+    },
+    {
+      "segment_id": "P026_INT_007",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "But like... Yeah, and it tells you, like, how much you save every month. So you're thinking, God damn! Actually saving loads, and then it's pushing you to order more.",
+      "timestamp": "1:119-1:121",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "god_damn",
+          "pushing_you"
+        ],
+        "competitive": null,
+        "value_component": [
+          "visible_savings"
+        ],
+        "influence": [
+          "app_psychology"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but like yeah and it tells you like how much you save every month so you're thinking god damn actually saving loads and then it's pushing you to order more"
+      }
+    },
+    {
+      "segment_id": "P026_INT_008",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "For you with eating in the morning? It's always a Gregg's. Yeah... it's always a Gregg's. I don't like any of the breakfast, so it's always a Gregg's.",
+      "timestamp": "1:131-1:134",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "morning"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "always"
+        ],
+        "competitive": "greggs",
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "for you with eating in the morning it's always a gregg's yeah it's always a gregg's i don't like any of the breakfast so it's always a gregg's"
+      }
+    },
+    {
+      "segment_id": "P026_INT_009",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I lean towards Subway or McDonald's. It's really bad for it, so I'll order again.",
+      "timestamp": "1:136-1:137",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "afternoon"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "really_bad"
+        ],
+        "competitive": "subway, mcdonalds",
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i lean towards subway or mcdonald's it's really bad for it so i'll order again"
+      }
+    },
+    {
+      "segment_id": "P026_INT_010",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Recently, I've tried to cut down on eating loads because I know that I'm going to bed after... I'm acne, I'm trying to calm it down, so I'll try and cook them, but I'm a terrible cook, and by that point, I can't actually be bothered.",
+      "timestamp": "1:138",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "1:151-1:153",
+        "language_pattern": [
+          "terrible_cook",
+          "can't_be_bothered"
+        ],
+        "competitive": null,
+        "value_component": [
+          "effort_avoidance"
+        ],
+        "influence": [
+          "health_concerns"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "recently i've tried to cut down on eating loads because i know that i'm going to bed after i'm acne i'm trying to calm it down so i'll try and cook them but i'm a terrible cook and by that point i can't actually be bothered"
+      }
+    },
+    {
+      "segment_id": "P026_INT_011",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I wouldn't ever walk. It's always order and then go puff, and like I said, Asda, and it would be like on a Saturday or Sunday... normally Sunday when everywhere's short, and then you buy a food shop, and I've got nothing.",
+      "timestamp": "1:143-1:144",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "wouldn't_ever"
+        ],
+        "competitive": "gopuff",
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "emergency_need"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i wouldn't ever walk it's always order and then go puff and like i said asda and it would be like on a saturday or sunday normally sunday when everywhere's short and then you buy a food shop and i've got nothing"
+      }
+    },
+    {
+      "segment_id": "P026_INT_012",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I probably cook about three times a week. And the rest... this thingy? Yeah, definitely!",
+      "timestamp": "1:151-1:153",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "1:138",
+        "language_pattern": [
+          "definitely"
+        ],
+        "competitive": null,
+        "value_component": [
+          "delivery_default"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i probably cook about three times a week and the rest this thingy yeah definitely"
+      }
+    },
+    {
+      "segment_id": "P026_INT_013",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Like, actually, what I actually do cook is actually good, but it's just... it's just a long process for me, I think, and I think it's a waste of time when I'm getting work from 11, and then... and I get home, and I need a shower, and then I just can't be bothered cooking.",
+      "timestamp": "1:165",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "waste_of_time",
+          "can't_be_bothered"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time_pressure"
+        ],
+        "influence": [
+          "work_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "like actually what i actually do cook is actually good but it's just it's just a long process for me i think and i think it's a waste of time when i'm getting work from 11 and then and i get home and i need a shower and then i just can't be bothered cooking"
+      }
+    },
+    {
+      "segment_id": "P026_INT_014",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "So it has to be something quick and fast. Normally, it's gin pasta. I love gin at the minute, so yeah. But I would love to cook steak. I would love to do all that, but it's just a nightmare, and then it's like the cleaning process, and I just can't be bothered.",
+      "timestamp": "1:167-1:171",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "nightmare",
+          "can't_be_bothered"
+        ],
+        "competitive": null,
+        "value_component": [
+          "effort_avoidance"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so it has to be something quick and fast normally it's gin pasta i love gin at the minute so yeah but i would love to cook steak i would love to do all that but it's just a nightmare and then it's like the cleaning process and i just can't be bothered"
+      }
+    },
+    {
+      "segment_id": "P026_INT_015",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Because I always find that when I actually think of, oh, I need this in, it's too late. And then when I go on the delivery slots, it's like 9 p.m., and I'm like, well, I need it now.",
+      "timestamp": "1:194-1:195",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "too_late",
+          "need_it_now"
+        ],
+        "competitive": null,
+        "value_component": [
+          "immediacy"
+        ],
+        "influence": [
+          "poor_planning"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "because i always find that when i actually think of oh i need this in it's too late and then when i go on the delivery slots it's like 9 p m and i'm like well i need it now"
+      }
+    },
+    {
+      "segment_id": "P026_INT_016",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "No, I think it's more spontaneous for me to go out. So, if I were to go out on a whim... that's more spontaneous. But I think that's just because of my... If I was, like, say, in the mum's wearing off uni, but I'm just working, then it's not as spontaneous for me to go out, save more time on the ends, and I think, oh, well, I may as well while I'm off.",
+      "timestamp": "1:210-1:213",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "may_as_well"
+        ],
+        "competitive": null,
+        "value_component": [
+          "routine_default"
+        ],
+        "influence": [
+          "schedule_constraints"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.63,
+        "best_match": "there ever any situations where it's a bit more spontaneous no i think it's more spontaneous for me to go out so if i were to go out on a whim that's more spontaneous right but i think that's just because of my if i was like say in the mum's wearing off uni but i'm just working then it's not as spon"
+      }
+    },
+    {
+      "segment_id": "P026_INT_017",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "With it fitting in my schedule, it's just easy for me to... just order.",
+      "timestamp": "1:215",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "just_easy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "schedule_fit"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "with it fitting in my schedule it's just easy for me to just order"
+      }
+    },
+    {
+      "segment_id": "P026_INT_018",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I feel like sometimes when I order groceries, it is a bit unjustified, but I know it in my head that... right, well, you need it. Yeah. To me, it's because you think, oh, well, if I'm ordering a Mac, it's like... it's going to taste nice, but I'm getting the same quality.",
+      "timestamp": "1:241-1:243",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "unjustified",
+          "you_need_it"
+        ],
+        "competitive": "mcdonalds",
+        "value_component": [
+          "necessity_justification"
+        ],
+        "influence": [
+          "self_rationalization"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i feel like sometimes when i order groceries it is a bit unjustified but i know it in my head that right well you need it yeah to me it's because you think oh well if i'm ordering a mac it's like it's going to taste nice but i'm getting the same quality"
+      }
+    },
+    {
+      "segment_id": "P026_INT_019",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Convenience. But then I do feel like I've indulged a bit. Yeah. Ordering it, and I've been a bit lazy.",
+      "timestamp": "1:245-1:248",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "indulged",
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "convenience but then i do feel like i've indulged a bit yeah ordering it and i've been a bit lazy"
+      }
+    },
+    {
+      "segment_id": "P026_INT_020",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I feel that everyone uses it... I don't know. A student that doesn't have... that has a strict meal routine... So it's probably... Again, it's convenience. If I... If a student has a strict meal routine, I'd be very surprised because you just can't... It's not... It's not seeable in this life.",
+      "timestamp": "1:259-1:263",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "not_seeable"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "student_culture"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i feel that everyone uses it i don't know a student that doesn't have that has a strict meal routine so it's probably again it's convenience if i if a student has a strict meal routine i'd be very surprised because you just can't it's not it's not seeable in this life"
+      }
+    },
+    {
+      "segment_id": "P026_INT_021",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Like, I lean towards Gopuff. Like, I think it's more like when you order groceries, and it's like on Uber, it's always like a Tesla Express or a Co-op Express. Like, you know, like the Express... the little ones that are open later. Which are always more expensive... I don't know if I'm being conned, but I always think it's more expensive than if I just went into a Tesco... a big Tesco.",
+      "timestamp": "1:62-1:66",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "other",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "being_conned"
+        ],
+        "competitive": "gopuff_vs_uber",
+        "value_component": [
+          "price_perception"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.66,
+        "best_match": "i did mention though i don't know if you have heard gopuff's like a big thing oh yeah so i think gold puff i'm saying it now yeah yeah yeah like i lean towards gopuff like i think it's more like when you order groceries and it's like on uber it's always like a tesla express or a co op express like y"
+      }
+    },
+    {
+      "segment_id": "P026_INT_022",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "So I would go and go up off now. That's allowed. Yeah, you can actually see where it says 'law to buy it again.' And it's like the onions and stuff... It's actually terrible.",
+      "timestamp": "1:315-1:318",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "actually_terrible"
+        ],
+        "competitive": "gopuff",
+        "value_component": [
+          "repeat_purchase"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 2.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i would go and go up off now that's allowed yeah you can actually see where it says 'law to buy it again ' and it's like the onions and stuff it's actually terrible"
+      }
+    },
+    {
+      "segment_id": "P026_INT_023",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "So, I always want... Most of the time, I'll go, 'Oh, that's what I've ordered before,' like, 'Buy it again.' Because that's what I know that I've already ordered, and it's probably things that are needed anyway.",
+      "timestamp": "1:328-1:330",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "buy_it_again"
+        ],
+        "competitive": null,
+        "value_component": [
+          "familiarity"
+        ],
+        "influence": [
+          "habit"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.69,
+        "best_match": "app so i always want most of the time i'll go 'oh that's what i've ordered before ' like 'buy it again ' right because that's what i know that i've already ordered and it's probably things that are needed anyway that makes yeah"
+      }
+    },
+    {
+      "segment_id": "P026_INT_024",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Yeah, because I remember when, like when... Sometimes when I'm craving, like a... even some... as Daphne's... like a white Magnum... because that's on there. Yeah. I'll want a white Magnum, and I'll want it then! Yeah, it's delivered, and it's delivered at 1 in the morning, which I wouldn't tend to be able to come and get.",
+      "timestamp": "1:360-1:363",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "anticipation"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "late_night"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "want_it_then"
+        ],
+        "competitive": "gopuff",
+        "value_component": [
+          "immediacy",
+          "24_7_availability"
+        ],
+        "influence": [
+          "craving"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah because i remember when like when sometimes when i'm craving like a even some as daphne's like a white magnum because that's on there yeah i'll want a white magnum and i'll want it then yeah it's delivered and it's delivered at 1 in the morning which i wouldn't tend to be able to come and get"
+      }
+    },
+    {
+      "segment_id": "P026_INT_025",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "But also on there, like there's even... like this is random, but when I order it with my boyfriend, there's a specific drink that they often go for. But it's like a chocolate drink. But they wouldn't have that in a Tesco or a Sainsbury's. It's more like... it feels... you know what it feels like? It feels like a, like a family-owned corner shop.",
+      "timestamp": "1:401-1:406",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "family_owned_corner_shop"
+        ],
+        "competitive": "gopuff_vs_supermarkets",
+        "value_component": [
+          "unique_products"
+        ],
+        "influence": [
+          "partner"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but also on there like there's even like this is random but when i order it with my boyfriend there's a specific drink that they often go for but it's like a chocolate drink but they wouldn't have that in a tesco or a sainsbury's it's more like it feels you know what it feels like it feels like a li"
+      }
+    },
+    {
+      "segment_id": "P026_INT_026",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "I don't lean towards delivery just because I normally go on delivery for, like, bigger, broader brands and takeaways. This sounds really random... It's because I know UberEats doesn't offer Nando's. They don't offer stuff like burgers, like the bigger, actual nicer takeaways. Yeah... So I feel like Deliveroo is more high-end than UberEats!",
+      "timestamp": "1:441-1:445",
+      "research_objective_codes": [
+        "RO5_engagement_opps.brand_perception"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "high_end"
+        ],
+        "competitive": "deliveroo_vs_uber",
+        "value_component": [
+          "restaurant_quality"
+        ],
+        "influence": [
+          "brand_perception"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i don't lean towards delivery just because i normally go on delivery for like bigger broader brands and takeaways this sounds really random it's because i know ubereats doesn't offer nando's they don't offer stuff like burgers like the bigger actual nicer takeaways yeah so i feel like deliveroo is m"
+      }
+    },
+    {
+      "segment_id": "P026_INT_027",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Time... how long it's going to be? About the estimated time. I always think it's a big thing. If you've ever had, say, you've had a complaint, you've had a delivery turn up wrong... how they handle it. Like, yeah, carriers, like, they're also like Uber and delivery. I feel like every time food's come wrong in delivery, they are better at handling it than Uber!",
+      "timestamp": "1:480-1:485",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "deliveroo_vs_uber_service",
+        "value_component": [
+          "customer_service"
+        ],
+        "influence": [
+          "past_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "time how long it's going to be about the estimated time i always think it's a big thing if you've ever had say you've had a complaint you've had a delivery turn up wrong how they handle it like yeah carriers like they're also like uber and delivery i feel like every time food's come wrong in deliver"
+      }
+    },
+    {
+      "segment_id": "P026_INT_028",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Because my mates had it, I'm not gonna lie. Like, my friends had it, and it was always, like, we was always asking them to order because... not. Because... they don't have anything. Yeah. And then I thought, well, why haven't I got this?",
+      "timestamp": "1:666-1:670",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "not_gonna_lie"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social_inclusion"
+        ],
+        "influence": [
+          "peer_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "because my mates had it i'm not gonna lie like my friends had it and it was always like we was always asking them to order because not because they don't have anything yeah and then i thought well why haven't i got this"
+      }
+    },
+    {
+      "segment_id": "P026_INT_029",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Less... I'd like to say, yeah. I think I'd have a more structured 9 to 5... so I don't think I'd... I think I'd have the time to do it, I think.",
+      "timestamp": "1:1022-1:1025",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "anticipation"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "structured_9_to_5"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time_availability"
+        ],
+        "influence": [
+          "future_routine"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.65,
+        "best_match": "have to less i'd like to say yeah why do you think that is i think i'd have a more structured 9 to 5 so i don't think i'd i think i'd have the time to do"
+      }
+    },
+    {
+      "segment_id": "P026_INT_030",
+      "participant_id": "P026",
+      "source": "interview",
+      "text": "Yeah, I think I'd still pay for it. Yeah... I think I know that.",
+      "timestamp": "1:1041-1:1044",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": "1:1022-1:1025",
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "subscription_value"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 2.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.57,
+        "best_match": "uni yeah i think i'd still pay for it you think you're still paying yeah i think i know"
+      }
+    }
+  ],
+  "emergent_themes": [
+    "financial_security_privilege",
+    "delivery_as_default_meal_provision",
+    "aspirational_vs_actual_behavior_change",
+    "subscription_psychology_gamification"
+  ],
+  "coding_summary": "P026 represents a financially privileged student whose work experience has fundamentally altered her relationship with delivery. Unlike typical students, she uses delivery as her primary meal provision (ordering most meals) rather than an occasional treat. Her financial security from previous dental nursing work removes typical cost barriers, allowing £25 solo orders without concern. She's developed sophisticated multi-platform strategies, particularly favoring Gopuff for groceries due to unique products and 24/7 availability. Despite aspirational attempts to 'cut down' on ordering, her actual behavior shows complete normalization of delivery as basic meal provision. Her subscription psychology is driven by visible savings displays and peer influence rather than genuine cost concerns.",
+  "coverage_gaps": [],
+  "_citations": [
+    {
+      "cited_text": "spk_1: So, I'm also a manager at McDonald's...\nspk_1: just because student loans are not that good.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 682,
+      "end_char_index": 782,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: I think I might look like a student...\nspk_1: I will say that because I get minutes bursar, and I get full battle.\nspk_1: And I did work, but with that, I did...\nspk_1: Because before I came to uni, I did an actual...\nspk_1: I did dental nursing.\nspk_1: So I had a full-on, full-time job.\nspk_1: So I got... I also got my car.\nspk_1: I got everything, like a life set out.\nspk_1: Yeah. So I won't want to get rid of my car, so I still have to pay a fortune on that.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 5318,
+      "end_char_index": 5791,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: So, I have to, like, work for that sort of thing...\nspk_1: Yeah. But I think I'm quite lucky as a student.\nspk_1: I don't feel like I'm skint or anything.\nspk_1: I don't feel like...\nspk_1: Yeah. Leaning back anymore.\nspk_1: I think I'm all right.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 5804,
+      "end_char_index": 6059,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: I feel like a lot of my other mates...\nspk_1: so, for example, like, they wouldn't choose a Domino's, do you know what I mean?\nspk_1: Like that... or if they did, it's more like it would need to be a bigger group so they can get a deal on it.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 6220,
+      "end_char_index": 6470,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: Like, the deals fit more with bigger groups than a smaller group.\nspk_1: Whereas I wouldn't mind spending 25 pounds on myself because I don't...\nspk_1: I don't fit. I feel like it's going to come back.\nspk_1: Whereas they're leaning more on the student loan.\nspk_1: Whereas I'm... yeah, leaning less.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 6508,
+      "end_char_index": 6816,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: It's always a Gregg's.\nspk_1: Yeah... it's always a Gregg's.\nspk_1: I don't like any of the breakfast, so it's always a Gregg's.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 8047,
+      "end_char_index": 8183,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: I lean towards Subway or McDonald's.\nspk_1: It's really bad for it, so I'll order again.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 8252,
+      "end_char_index": 8348,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: I probably cook about three times a week.\nspk_1: And the rest... this thingy?\nspk_1: Yeah, definitely!\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 9436,
+      "end_char_index": 9546,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "spk_1: Like, actually, what I actually do cook is actually good, but it's just...\nspk_1: it's just a long process for me, I think, and I think it's a waste of time when I'm getting work from 11, and then...\nspk_1: and I get home, and I need a shower, and then I just can't be bothered cooking.\nspk_1: Yeah. So it has to be something quick and fast.\nspk_1: Normally, it's gin pasta.\nspk_1: I love gin at the minute, so yeah.\nspk_1: But I would love to cook steak.\nspk_1: I would love to do all that, but it's just a nightmare, and then it's like the cleaning process, and I just can't be bothered.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 10083,
+      "end_char_index": 10680,
+      "participant_id": "P026"
+    },
+    {
+      "cited_text": "I feel like sometimes when I order groceries, it is a bit unjustified, but I know it in my head that...\nspk_1: right, well, you need it.\nspk_1: Yeah. To me, it's because you think, oh, well, if I'm ordering a Mac, it's like...\nspk_1: it's going to taste nice, but I'm getting the same quality.\nspk_1: Like, I can't cook on McDonald's, but I'm gonna get the same quality if I go to Tesco and I get...\nspk_1: but that's just for me.\nspk_1: Convenience. But then I do feel like I've indulged a bit.\nspk_1: Yeah. Ordering it, and I've been a bit lazy.\n",
+      "document_title": "Interview Transcript — P026",
+      "document_index": 0,
+      "start_char_index": 15667,
+      "end_char_index": 16215,
+      "participant_id": "P026"
+    }
+  ],
+  "_citation_count": 10,
+  "participant_id": "P026",
+  "_ro_coverage": {
+    "RO1_eating_moments": 6,
+    "RO2_delivery_triggers": 12,
+    "RO3_emotional_social": 4,
+    "RO5_engagement_opps": 6,
+    "RO4_post_graduation": 2
+  }
+}

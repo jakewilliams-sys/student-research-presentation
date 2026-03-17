@@ -1,0 +1,145 @@
+{
+  "participant_id": "P018",
+  "summary": "Louise is a 26-29 year old postgraduate student living with her father while completing her Master's in Global Health at King's College London. She works four days a week in the NHS and studies on Fridays, creating a structured but busy routine. Her relationship with food delivery is highly pragmatic - she uses it as a convenience tool when tired, running late, or wanting to try new places she's discovered on TikTok. She's become deeply embedded in the Uber ecosystem, using Uber One for both transport and food delivery, which she justifies as economically sensible since she doesn't drive. Louise demonstrates a fascinating contradiction around her ordering habits - initially claiming to order about once a week, but later admitting she probably orders as much as she did as an undergraduate, suggesting she may be underestimating her current usage. She's price-conscious but willing to pay for convenience, and shows strong loyalty to Uber Eats primarily due to the bundled benefits rather than any emotional attachment to the brand. Her decision-making is influenced by TikTok content, student deals, and the practical reality of living in London without a car.",
+  "personality_notes": "Self-aware and honest about her habits (admits to 'doom scrolling' TikTok for 2-3 hours), practical and budget-conscious, somewhat contradictory in self-reporting. Communicates in a conversational, relatable way with frequent use of 'you know' and 'like'.",
+  "food_relationship": "Food delivery serves as a practical convenience tool and discovery mechanism, driven by time constraints, fatigue, and social media influence rather than emotional comfort.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Louise repeatedly contradicts herself about ordering frequency, first saying once a week, then admitting it's probably the same as her undergraduate days when she ordered more",
+      "significance": "Suggests potential social desirability bias or genuine lack of awareness about her actual ordering patterns"
+    },
+    {
+      "timestamp": "1-406,1-407,1-410,1-411,1-412",
+      "description": "When told about Deliveroo's free student membership, she immediately responds: 'Well, probably, definitely getting a Delivery membership now. I didn't know there was that... It's not that I have nothing against delivery, it's just maybe it's better. It's just I've already got the Uber that I just kept on using that'",
+      "significance": "Shows she's not locked into Uber by preference but by circumstance - willing to switch when presented with better value"
+    },
+    {
+      "timestamp": "1-651,1-652,1-653",
+      "description": "Reveals she learned about Uber-Avios points connection from TikTok: 'I saw it on a video and I just did it and I was like oh, like why not?'",
+      "significance": "Demonstrates how social media directly influences her service optimization behaviors"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking as enjoyable or social",
+    "Avoided discussing her 'personal issues' that caused her to take a year out",
+    "No mention of environmental concerns about delivery",
+    "Didn't discuss her partner's food preferences or their shared meals in detail"
+  ],
+  "initial_hypotheses": [
+    "Louise may be a heavier user than she realizes or admits, given her contradictory statements about frequency",
+    "Her Uber loyalty is purely transactional - she'd switch platforms for better deals",
+    "TikTok is a significant driver of her food discovery and service optimization",
+    "She represents the 'convenience-driven pragmatist' segment - values efficiency over experience"
+  ],
+  "questions_for_coding": [
+    "How does social media content specifically influence her ordering decisions?",
+    "What triggers her to choose delivery over cooking on any given day?",
+    "How does her NHS work schedule impact her food delivery patterns?",
+    "What role does her partner play in food decisions when they're together?",
+    "How price-sensitive is she really when convenience is a factor?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: No, I would spend more like a lot of my time on them, definitely.\nspk_1: Especially in the evening, scrolling through TikTok.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 4583,
+      "end_char_index": 4716,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Probably a lot more on Tick Tock in terms of like time.\nspk_1: Probably like more than I'd like to think.\nspk_1: Like more than I'd like to say.\nspk_1: Like probably like two hours a day on Tick Tock.\nspk_1: Maybe, I don't know, like three hours at a push.\nspk_1: Just in the evening, you know, just doom scrolling and probably about an hour, maybe two hours on Tick Tock.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 4997,
+      "end_char_index": 5377,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'll be honest for what you get sometimes there's some places nearby that I'll try but mainly just bring in food and then get home and then Eva make food, order Food.\nspk_1: Depending on what my days look like, if I'm running late, getting home late, it's normally more convenience that I would order food or to try somewhere new.\nspk_1: Like, even recently, like, I've ordered some places nearby that I've been like, I wanted to try that.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 7804,
+      "end_char_index": 8251,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But ordering food, I'd say Probably the average is probably like once a week around that.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 10541,
+      "end_char_index": 10638,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: No, like when I was in my old, like in.\nspk_1: In my undergrad I was probably ordering takeaways more probably.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 29968,
+      "end_char_index": 30087,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: No,\nspk_1: Probably when I was in undergrad I guess.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 30424,
+      "end_char_index": 30484,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like now I'm like maybe it is the same probably because I still go out and order a lot as well.\nspk_1: So I don't. Probably about the same.\nspk_1: Maybe it's because I'm just not realizing it as much now because maybe it felt like a lot when I was a student because I was like more conscious of money I suppose in a way and things like that, but, but it's probably around the same amount I guess just now I'm like it's more out of convenience.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 30829,
+      "end_char_index": 31280,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Have you then ever ordered food because you saw on social media sometimes like\nspk_1: I or I've been influenced to try certain food like go to certain place like some viral places, you know that I probably wouldn't have gone to if I hadn't seen them on Tick Tock.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 6277,
+      "end_char_index": 6548,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Was it just like the restaurant being promoted or was like they're an offer or\nspk_1: so like I like a lot of the restaurants that I go to a point would be based off of where I've seen them on Tick Tock mainly someone's talking about like the offers they've got or like student deals obviously where I am so soon like if they say like there's like student Monday where everyone know like certain deals and I'll more likely to go to them, you know.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 6593,
+      "end_char_index": 7048,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Because I don't drive.\nspk_1: I get a lot of Ubers in general and you get a discount and you get better deals.\nspk_1: And even like I, I would say UberEats is my main form of getting deliveries, like food deliveries.\nspk_1: So I checked the others to see if there's any promotional offers on them, but mainly I'd say Uber.\nspk_1: Weren't it like Uber?\nspk_1: So I was like, I might as well just get the Ub one because it kind of works out better for me in, in general anyway.\n",
+      "document_index": 0,
+      "document_title": "P018 - P018 - Interview Transcript",
+      "start_char_index": 11008,
+      "end_char_index": 11491,
+      "participant_id": "P018",
+      "participant_name": "P018"
+    }
+  ],
+  "_citation_count": 10
+}

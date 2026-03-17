@@ -1,0 +1,97 @@
+{
+  "participant_id": "P007",
+  "summary": "Josh is a highly structured, budget-conscious final-year student who has developed sophisticated systems for managing food in a chaotic 8-person house share. He operates with the precision of someone who has learned to optimise around constraints - doing meal prep on Mondays, maintaining a mental running total of his £50 weekly food budget, and strategically allocating £30 for groceries and £15-20 for treats. His relationship with food delivery is notably different from his peers: he frames it explicitly as a 'reward' or 'treat' rather than convenience, and shows genuine resistance to paying delivery fees when he can walk to nearby takeaways. This reflects both his budget consciousness and a more intentional approach to indulgence.\n\nWhat makes Josh particularly interesting is how his food behaviour shifts dramatically based on social context. Cooking becomes either a meditative, enjoyable experience when the house is quiet, or a rushed, overwhelming task when all eight housemates are competing for kitchen space. This environmental sensitivity drives him toward takeaways not just for convenience, but as an escape from social friction. His 7-day diary reveals the reality behind his structured approach - he actually maintained his home-cooking routine throughout, with zero delivery orders, suggesting his delivery frequency may be lower than even his conservative estimates. He's someone who has genuinely built sustainable food systems around his student constraints, but still craves the permission to indulge that delivery represents.",
+  "personality_notes": "Articulate and self-reflective communicator who gives detailed, analytical responses. Shows strong self-awareness about his habits and contradictions. Methodical thinker who approaches problems systematically.",
+  "food_relationship": "Highly structured meal-prepper who views delivery as an earned reward rather than everyday convenience, with cooking enjoyment heavily dependent on social environment.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Describes cooking as switching between enjoyable task and sustenance depending on house chaos",
+      "significance": "Reveals how social environment fundamentally shapes his food decisions and delivery triggers"
+    },
+    {
+      "timestamp": "43:21",
+      "description": "Explains delivery as 'more of a treat' and 'reward' rather than regular eating pattern",
+      "significance": "Shows fundamentally different relationship with delivery than typical students - more intentional and less habitual"
+    },
+    {
+      "timestamp": "55:30",
+      "description": "Wasn't aware of student subscription benefits despite being on all three apps",
+      "significance": "Highlights gap between his deal-seeking behaviour and actual knowledge of available offers"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned financial stress despite clear budget constraints",
+    "Avoided discussing any negative aspects of his structured approach",
+    "Didn't mention how his girlfriend's better cooking skills might affect his confidence"
+  ],
+  "initial_hypotheses": [
+    "His delivery frequency is likely lower than stated due to strong budget discipline and proximity to takeaways",
+    "Social environment (house chaos) is a stronger delivery trigger than hunger or convenience",
+    "His 'reward' framing of delivery may limit platform engagement compared to habitual users",
+    "Strong deal-seeking behaviour but poor awareness suggests communication gap with platforms"
+  ],
+  "questions_for_coding": [
+    "How does social friction in shared living spaces drive food delivery decisions?",
+    "What role does 'earning' food play in delivery psychology among budget-conscious students?",
+    "How do students balance structured meal planning with spontaneous social food experiences?",
+    "What's the relationship between budget consciousness and delivery app engagement patterns?"
+  ],
+  "diary_summary": "Josh maintained his structured home-cooking routine throughout all 7 days with zero delivery orders, eating 21 home-cooked meals with only 2 skipped meals due to illness/timing.",
+  "say_do_gaps": [
+    "Claims 'once a week' takeaway frequency but diary shows zero delivery orders across 7 days",
+    "Profile lists delivery frequency as 'Less than every 3 months' but interview suggests weekly takeaway habit - diary supports the profile data",
+    "Describes delivery as regular treat but actual behaviour shows strong adherence to home cooking routine"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_0: Too much, to be honest.\nspk_0: Probably somewhere in the vicinity of two to three hours in between like messaging girlfriend, friends and then obviously the addictive personal nature of social media these days.\nspk_0: Yeah, probably two to three hours.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 5903,
+      "end_char_index": 6163,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: So I'll normally sort of meal prep on a Monday, but then I'd say one or two nights a week I'll get some form of like food out, whether that's at a restaurant or a takeaway or like ordering it.\nspk_0: But I'd say at least like, at least five nights a week I've like cooked at home maybe two or three portions of like a meal prep and that's only just standard pastas, fajitas.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 10575,
+      "end_char_index": 10957,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: I think for me, ordering something off an app is more of a treat, I think, um, that's how I see it really, as, as ordering and delivering stuff is put.\nspk_0: It's more of like a reward than a regular part of my like eating cupboards.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 17160,
+      "end_char_index": 17402,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: But then I do, you know, I will maybe once a week probably get a takeaway or, or go out for food with friends.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 11409,
+      "end_char_index": 11527,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_1: So between takeaways, groceries and eating out\nspk_0: I think I'd probably like between 45 and 50 quid.\nspk_0: I'd say it used to be a lot less in previous years but this year I've sort of come with the mindset of like, you know, it's important your diet and what you eat and stuff.\nspk_0: Like it's not something to scrimp on really.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 21331,
+      "end_char_index": 21673,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: I'd say in quiet periods in the house, I, you know, if it's only me or one of a person that it becomes like a nice task to cook.\nspk_0: But obviously with eight people in the house, and I'm sure this is the case, a lot of students living with six to eight people.\nspk_0: I think that's quite a normal setup.\nspk_0: It can be quite over stimulating and overwhelming cooking when there's like four or five of you in there.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 13470,
+      "end_char_index": 13898,
+      "participant_id": "P007"
+    }
+  ],
+  "_citation_count": 6
+}

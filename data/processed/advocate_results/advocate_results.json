@@ -1,0 +1,131 @@
+{
+  "executive_summary": "The research findings show significant methodological strengths but suffer from critical sample bias and several unsubstantiated causal claims. 3 insights strengthened, 4 weakened, 1 unchanged. The 71% undergraduate skew creates systematic bias affecting all findings. Key blind spots include competitive dynamics, financial constraints, and seasonal variations.",
+  "findings_strengthened": 3,
+  "findings_weakened": 4,
+  "blind_spots": [
+    {
+      "area": "Competitive Response",
+      "description": "No analysis of how competitors might respond to Deliveroo's social features or group ordering initiatives"
+    },
+    {
+      "area": "Financial Constraints",
+      "description": "Limited exploration of how actual disposable income affects delivery behavior vs. stated preferences"
+    },
+    {
+      "area": "Seasonal Variations",
+      "description": "No control for academic calendar, exam periods, or seasonal effects on cooking and ordering patterns"
+    },
+    {
+      "area": "Platform Switching Costs",
+      "description": "No analysis of what makes students loyal to platforms beyond price - app familiarity, payment setup, etc."
+    },
+    {
+      "area": "Parental Influence",
+      "description": "Limited exploration of how parental financial support affects delivery behavior and platform choice"
+    }
+  ],
+  "insight_challenges": [
+    {
+      "insight_id": "INS_001",
+      "challenge": "Meal skipping may be driven by financial constraints rather than lifestyle choice, making it an unrealistic market opportunity. Students may skip meals because they can't afford delivery, not because they're choosing between delivery and nothing.",
+      "counter_evidence": "Budget Balancer persona (n=9) shows strict budget consciousness. Known student financial pressures suggest meal skipping is economic necessity, not addressable market opportunity.",
+      "verdict": "WEAKENED",
+      "recommendation": "Segment meal-skipping analysis by financial capacity. Test whether meal skipping correlates with available spending money before positioning as market opportunity."
+    },
+    {
+      "insight_id": "INS_002",
+      "challenge": "The cooking frequency discrepancy could reflect seasonal timing of research rather than systematic bias. Students may have been interviewed during exam periods or term-time when cooking drops naturally.",
+      "counter_evidence": "No mention of research timing relative to academic calendar. Weekend cooking drop could be normal social behavior rather than delivery opportunity.",
+      "verdict": "WEAKENED",
+      "recommendation": "Validate findings across different academic periods (exam time, holidays, term start). Control for seasonal and academic calendar effects."
+    },
+    {
+      "insight_id": "INS_003",
+      "challenge": "Social ordering may be correlation not causation - groups may order delivery because they're already socializing, not socialize because of delivery. The causal direction is unclear.",
+      "counter_evidence": "Evidence shows clustering around group situations but doesn't prove delivery enables socializing vs. socializing enables delivery.",
+      "verdict": "STRENGTHENED",
+      "recommendation": "Strong pattern with 31 quotes across 22 participants. Causal direction less important than the correlation for product development. Recommendation stands."
+    },
+    {
+      "insight_id": "INS_004",
+      "challenge": "3.5% usage rate may actually indicate market saturation rather than untapped demand. Students may be using delivery at their optimal frequency given budget constraints.",
+      "counter_evidence": "Budget constraints are known issue. High consideration may reflect aspiration rather than genuine demand. Plus Gold NPS of -13 suggests satisfaction issues.",
+      "verdict": "WEAKENED",
+      "recommendation": "Test whether consideration correlates with available disposable income. Investigate whether barriers are financial vs. experiential before assuming conversion opportunity."
+    },
+    {
+      "insight_id": "INS_005",
+      "challenge": "Graduate sample is too small (n=8) and potentially biased toward successful graduates who can afford increased delivery frequency. May not represent typical graduate experience.",
+      "counter_evidence": "Small sample size acknowledged. No data on graduate income levels or career success. Selection bias likely toward graduates comfortable discussing spending.",
+      "verdict": "WEAKENED",
+      "recommendation": "Expand graduate sample significantly. Include graduates across income levels and career stages. Control for income when analyzing frequency changes."
+    },
+    {
+      "insight_id": "INS_006",
+      "challenge": "Academic stage segmentation may be confounded by age, income, and life stage rather than being specifically about undergraduate vs. postgraduate status.",
+      "counter_evidence": "Postgraduates are typically older, may have more income, different living situations. The emotional vs. practical divide could be age/income-driven.",
+      "verdict": "STRENGTHENED",
+      "recommendation": "Pattern is robust with 24 quotes across 27 participants. Whether driven by academic stage or correlated factors, the segmentation insight remains actionable."
+    },
+    {
+      "insight_id": "INS_007",
+      "challenge": "Friday/weekend concentration may reflect when students have time to participate in research rather than actual ordering patterns. Social influence could be overstated due to group interview effects.",
+      "counter_evidence": "No mention of interview timing methodology. Group contexts in interviews may amplify social factors artificially.",
+      "verdict": "UNCHANGED",
+      "recommendation": "Validate with actual ordering data from Deliveroo's platform. Check if research methodology (group vs. individual interviews) influenced social emphasis."
+    },
+    {
+      "insight_id": "INS_008",
+      "challenge": "Price comparison sophistication may be overstated due to social desirability bias - students may claim more systematic comparison than they actually do to appear financially responsible.",
+      "counter_evidence": "Students may exaggerate price-consciousness in interviews. Actual behavior may be more impulsive than reported systematic comparison suggests.",
+      "verdict": "STRENGTHENED",
+      "recommendation": "Strong evidence with 16 quotes across 20 participants. Even if somewhat overstated, the pattern indicates significant price sensitivity requiring strategic response."
+    }
+  ],
+  "bias_assessment": {
+    "confirmation_bias_risk": "MEDIUM",
+    "availability_bias_risk": "HIGH",
+    "segment_bias_risk": "HIGH",
+    "researcher_bias_risk": "MEDIUM"
+  },
+  "alternative_interpretations": [
+    {
+      "finding": "Social ordering drives behavior",
+      "alternative": "Students order delivery when socializing because they have more disposable income in group contexts (cost-sharing), not because delivery enables socializing"
+    },
+    {
+      "finding": "Meal skipping creates market opportunity",
+      "alternative": "Meal skipping reflects financial constraints that make delivery unrealistic, not addressable demand"
+    },
+    {
+      "finding": "Weekend cooking drops create opportunity",
+      "alternative": "Weekend cooking drops reflect normal social behavior and may already be captured by existing delivery patterns"
+    },
+    {
+      "finding": "Graduate frequency increases",
+      "alternative": "Sample bias toward successful graduates; typical graduate experience may show decreased usage due to budget constraints in early career"
+    }
+  ],
+  "strengthening_recommendations": [
+    {
+      "priority": "HIGH",
+      "action": "Validate key behavioral findings with actual Deliveroo platform data, particularly weekend patterns and social ordering clusters"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Expand graduate sample to minimum n=20 with income stratification to validate retention assumptions"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Conduct follow-up research controlling for academic calendar timing and seasonal effects"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Segment meal-skipping analysis by available disposable income to validate market opportunity sizing"
+    },
+    {
+      "priority": "LOW",
+      "action": "Test price comparison claims with behavioral observation rather than self-reported data"
+    }
+  ]
+}

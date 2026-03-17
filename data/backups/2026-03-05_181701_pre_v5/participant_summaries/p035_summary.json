@@ -1,0 +1,144 @@
+{
+  "participant_id": "P035",
+  "summary": "P035 is a thoughtful, articulate psychology student from the UAE who has developed highly structured food and delivery habits during her placement year in Bristol. Living alone for the first time, she has created predictable routines around her 9-to-5 work schedule, with delivery serving specific functional roles rather than being purely indulgent. Her approach to food is pragmatic and efficiency-focused—she skips breakfast to maximize sleep, meal preps strategically, and has established regular delivery patterns (acai on work-from-home days, takeaway on Fridays). What's particularly notable is her self-awareness about how her habits have evolved from treats to routines, and her clear preference for low-stress, calm experiences. She demonstrates strong value consciousness, thinking strategically about price-to-satisfaction ratios, and shows a preference for familiar choices over exploration. Her transition from the social, group-oriented decision-making of university life to the independence of working life has made her more reliant on delivery as a convenience tool, particularly when energy is low after work.",
+  "personality_notes": "Articulate and reflective communicator who gives detailed, thoughtful responses. Prefers calm, low-stress experiences and values efficiency. Shows strong self-awareness about her behavioral changes and is pragmatic rather than impulsive in decision-making.",
+  "food_relationship": "Food is approached functionally and efficiently, with delivery serving as a structured convenience tool rather than an indulgence, integrated into predictable weekly routines.",
+  "key_moments": [
+    {
+      "timestamp": "Around 1-164 to 1-166",
+      "description": "Acknowledges that delivery has shifted from treat to habit",
+      "significance": "Shows honest self-reflection about behavioral change and normalization of delivery use"
+    },
+    {
+      "timestamp": "Around 1-245 to 1-248",
+      "description": "Contrasts solo decision-making now vs group dynamics at university",
+      "significance": "Reveals how social context shapes food decisions and delivery reliance"
+    },
+    {
+      "timestamp": "Around 1-127 to 1-128",
+      "description": "Explicitly states preference for calm, stress-free cooking experiences",
+      "significance": "Indicates delivery serves as stress-avoidance tool, not just convenience"
+    }
+  ],
+  "what_not_said": [
+    "Financial constraints or budget concerns despite being a student",
+    "Any negative experiences with delivery services",
+    "Homesickness or cultural food preferences from UAE background",
+    "Social pressure around food choices or delivery use"
+  ],
+  "initial_hypotheses": [
+    "Delivery use increases during life transitions when social support structures change",
+    "Structured work schedules create predictable delivery patterns that become habitual",
+    "Students from international backgrounds may rely more on delivery when living independently",
+    "Value consciousness doesn't necessarily reduce delivery frequency if the service provides clear utility"
+  ],
+  "questions_for_coding": [
+    "How does the transition from group to individual decision-making affect delivery reliance?",
+    "What role does stress avoidance play in delivery choices beyond convenience?",
+    "How do established routines (like Friday delivery) become resistant to change?",
+    "What makes someone shift from viewing delivery as a treat to accepting it as a habit?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, sure. So, well, I'm a student at the University of Bath.\nspk_1: However, this year I'm on placement, so I'm doing my placement in Bristol.\nspk_1: I'm a research assistant.\nspk_1: I work with children...\nspk_1: that's kind of the premise of what my job is.\nspk_1: But other than that, I'm just pursuing an undergraduate degree in psychology and...\nspk_1: yeah, and yeah, I lived in the UAE prior to moving to the UK for...\nspk_1: for university, so...\nspk_0: Cool. ",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 102,
+      "end_char_index": 579,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, usually I tend to, like, stray away from anything that's gonna stress me out, especially after, like, working and stuff.\nspk_1: Like, I just kind of want things to be as slow and calm as possible.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 9676,
+      "end_char_index": 9886,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So, on days when I'm working, I tend to skip breakfast, so my first meal will be, like, around lunchtime, and then I will eat again after work.\nspk_1: I'll have probably, like, a snack-slash, or like a bigger snack, because I'll probably be hungry by then.\nspk_1: And then my, like, final big meal of the day will be after I go to the gym or closer to, like, the evening time when it's like I'm back home and I'm not going to, like, leave the house again?\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 1837,
+      "end_char_index": 2293,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So, weekdays it's mainly cooking, sometimes during lunch.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 6219,
+      "end_char_index": 6277,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But yeah, most of the time it is cooking.\nspk_1: I'd say days where I work from home, I have, like, my...\nspk_1: this routine of, like, ordering acai.\nspk_1: So that's always ordered, like, at least once a week, just on a day that I'm working at home.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 6457,
+      "end_char_index": 6716,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah... at this point...\nspk_1: yeah. Side things started off as a treat.\nspk_1: Maybe it's just a bit of a habit.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 13468,
+      "end_char_index": 13590,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And then I would say Fridays as well, because Fridays, if I come back home from work, because it's like the start of the weekend, I won't really feel like cooking necessarily.\nspk_1: So, usually, whatever meal I have after work on a Friday will be something that I've ordered in.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 12763,
+      "end_char_index": 13050,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Either way, it won't be me cooking.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 13147,
+      "end_char_index": 13190,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Also, like, taking into account the fact that, like, at uni, I feel like because you're with friends most of the time, you kind of just do whatever everyone's doing.\nspk_1: So whether we're eating out or cooking together or getting groceries together, that kind of happens pretty naturally.\nspk_1: Whereas now, because it's, like, work, you get a bit more alone time, I'd say, at least for me.\nspk_1: So in that sense, like, because I'm not necessarily, like, looking to others to see, like, what everyone else is doing, I'm more likely, if I'm really not feeling like cooking that day or I'm really not feeling like going out of my way to buy something...\nspk_1: I just have that. ",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 18995,
+      "end_char_index": 19684,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think sometimes, I guess, like a meal that is like a burger and fries or a burger and a side is kind of what I would go for because I feel like that's what, like, in terms of, like, what's reasonably priced and what will, like, fill me up...\nspk_1: I think the... the ratio of those things, it's, like, pretty good.\n",
+      "document_index": 0,
+      "document_title": "P035 - P035 - Interview Transcript",
+      "start_char_index": 14851,
+      "end_char_index": 15176,
+      "participant_id": "P035",
+      "participant_name": "P035"
+    }
+  ],
+  "_citation_count": 10
+}

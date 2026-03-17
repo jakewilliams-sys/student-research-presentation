@@ -1,0 +1,107 @@
+{
+  "participant_id": "P005",
+  "summary": "Cha is a pragmatic final-year computing student who has developed highly functional eating habits around efficiency and convenience. She approaches food with an almost engineering mindset - everything must be portable, quick to prepare, and minimal cleanup. Her preference for chicken wraps, pasta, and meal prep reflects someone who sees eating as fuel rather than pleasure during busy periods. She's socially reserved, preferring small gatherings or one-on-one time over large social events, and actively avoids spending time in shared kitchen spaces with flatmates. Despite claiming to rarely order delivery, her diary reveals a more complex relationship with food sourcing - she frequently eats out and orders delivery when with her boyfriend or brother, suggesting her 'low usage' narrative may reflect social desirability bias or genuine misperception of her own habits. Her most animated moments come when discussing systemic frustrations like minimum order thresholds and grocery delivery quality control, revealing someone who thinks critically about service design and student-specific needs.",
+  "personality_notes": "Reserved, analytical, and efficiency-focused. Gives thoughtful, detailed responses but avoids elaborating on social aspects. Shows strong opinions about practical issues like pricing and service quality. Appears uncomfortable with social cooking situations.",
+  "food_relationship": "Food is primarily functional fuel that must be convenient, portable, and cost-effective, though she values control over ingredients and cooking when time permits.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Repeatedly emphasizes wanting food that can be eaten quickly without sitting down, stored in bags, minimal cleanup",
+      "significance": "Reveals deep prioritization of efficiency over food enjoyment - suggests high academic stress or time pressure"
+    },
+    {
+      "timestamp": "1:38-1:44",
+      "description": "Detailed explanation of grocery delivery problems with expiry dates and quality control",
+      "significance": "Shows analytical thinking and high standards for service quality - not just price-sensitive but quality-conscious"
+    },
+    {
+      "timestamp": "End of interview",
+      "description": "Passionate response about minimum order thresholds being unfair to students",
+      "significance": "Most emotionally engaged moment - reveals genuine frustration with systems that don't accommodate individual student needs"
+    }
+  ],
+  "what_not_said": [
+    "Any mention of food enjoyment or pleasure",
+    "Details about social eating beyond basic logistics",
+    "Emotional connection to food or cooking",
+    "Financial stress despite detailed budget awareness"
+  ],
+  "initial_hypotheses": [
+    "High academic workload drives extreme efficiency focus in food choices",
+    "Social anxiety around shared kitchen spaces influences delivery/eating out behavior",
+    "Strong analytical mindset applied to all aspects of food sourcing and budgeting",
+    "May underestimate actual delivery usage due to social desirability bias"
+  ],
+  "questions_for_coding": [
+    "How does academic stress specifically influence food decision-making?",
+    "What role does social anxiety play in food sourcing choices?",
+    "How do efficiency needs conflict with cost consciousness?",
+    "What triggers the shift from 'functional eating' to 'social eating' modes?"
+  ],
+  "diary_summary": "Actual eating pattern shows frequent meal skipping (11/21 meals), heavy reliance on eating out (most common source), and 2 delivery orders in 7 days. Breakfast consistently skipped, irregular meal timing, and social eating concentrated around boyfriend/family visits.",
+  "say_do_gaps": [
+    "Claims to order delivery 'maybe twice a month' but ordered twice in one week during diary study",
+    "Emphasizes cooking and meal prep in interview but diary shows more eating out than home cooking",
+    "Describes detailed meal prep routines but diary shows frequent meal skipping and irregular eating patterns",
+    "Claims to avoid social eating but diary shows most meals were eaten with others (boyfriend, family, friends)"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: Just something that I'm not a fan of, like sitting down with a plate and a fork and a knife and like going like, have actually like, I don't know, I just want something that I can sort of quickly eat so I can do something else.\nspk_1: Unless I. I do find myself to be busy during the weekdays, so I'd rather have something that I can either quickly eat with my hands or like not have to worry about washing my hands or.\nspk_1: Yeah, just something that I can quickly put in a box and actually keep it in my bag without it.\nspk_1: But worrying about spilling it and stuff.\nspk_1: I know pasta is usually okay as well for that.\nspk_1: Be it just something that I can easily make without having to spend too much time in the kitchen, especially with a shared kitchen.\nspk_1: I'm not a fan of like just seeing people in this.\nspk_1: I'd rather just be in and out.\nspk_1: I don't want to spend most of my time there.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 13263,
+      "end_char_index": 14182,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: I don't really put, like participate in any during uni.\nspk_1: I don't really go out much.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 5495,
+      "end_char_index": 5593,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: But those two are really the two things I do because I don't really go out and drink often or like go out and socialize.\nspk_1: It would just be like if I was to go socialize it would just be going to my friend's accommodation, spending time with them and like going back or like yeah, I'm not really a fan of like going out to like clubs or like events and drinking then or yeah, just going outside.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 24551,
+      "end_char_index": 24959,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: But yeah, I'd say maybe twice a month, not that often as much.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 17328,
+      "end_char_index": 17398,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: It just means having something that I can control the ingredients of and like, rather than buying something.\nspk_1: And obviously it's a lot more cost effective to make something yourself.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 15110,
+      "end_char_index": 15306,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: And like going out and buying these ready made meals, I just enjoy being able to change like seasonings and like how I cook stuff or more ingredients to add one time and then maybe that's the next time.\nspk_1: So you're just having control of over what I make and how I eat it and.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 15655,
+      "end_char_index": 15944,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: I definitely think reduce, like, the minimum, like, price for the order.\nspk_1: When you usually buy for yourself, you are usually.\nspk_1: Not everyone has a big appetite.\nspk_1: I wouldn't say I have a small appetite either, but for example, like a McDonald's meal, my order would just come to 6, 6 pounds, maybe even like 7 or 8, depending on the slight upcharge that a delivery app might have.\nspk_1: And when you have a minimum order of 15 pounds, that's basically two meals, it kind of either forces you to buy more on that order, whether it be like desserts or, like, even more drinks or extras.\nspk_1: Not everyone would want to order more.\nspk_1: They might just want an easy meal that they can get delivered to them.\nspk_1: Especially if you're not in a place where you can walk to the place or travel to that place to actually go by yourself.\nspk_1: You might just want something for convenience.\nspk_1: Not everyone knows how to cook.\nspk_1: It might just be, you know, just something that they want to have.\nspk_1: And I don't think you should be asked to spend twice as more than you need to in order to get free delivery or pay a small fee because you have a small order or then pay a delivery on top of that.\nspk_1: It just makes it seem like a ridiculous price for the small amount of food that you would want to order.\nspk_1: So, yeah, I think definitely reducing that more order fee that they are more inclined to order food for themselves and.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 55584,
+      "end_char_index": 57054,
+      "participant_id": "P005"
+    }
+  ],
+  "_citation_count": 7
+}

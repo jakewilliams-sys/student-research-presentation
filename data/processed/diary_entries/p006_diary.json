@@ -1,0 +1,367 @@
+{
+  "participant_id": "P006",
+  "scout_name": "Adam P",
+  "scout_id": "2668429",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 09:30:52 +0000",
+      "breakfast": {
+        "source": "Cooked at home/ brought from supermarket",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With classmates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 10:09:32 +0000",
+      "breakfast": {
+        "source": "Family member cooked",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Mcdonald",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today was actually a different day because I was with my family at home. So most of the time, I'm always adding takeout or takeout pretty much or quick food on the ground. But this morning and also yesterday, my food was cooked at home. I did go out to a restaurant yesterday, and I did have McDonald's as well today. So my morning was breakfast done for me, which was easy. And then during lunch, also, I had my food done. And then for night, we decided to have McDonald's because I was kinda craving it. And, yeah, and, yeah, I was just craving it. No. Not really. This doesn't affect this doesn't it does kinda because I am going towards the fast food, but because as I told, like, the guy when I was doing the survey, there isn't much takeout spots than like, the McDonald's was twenty minutes away, but it was worth going because I'm not in Dublin. I'm back in the house. So yeah."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 12:52:07 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Just Eat",
+        "why_ordered": "I was with my partner today and we didn’t have time to make food, we were craving pizza today",
+        "reasons": [
+          "Time / convenience",
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 22:36:30 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising",
+          "Habit / routine",
+          "Craving / comfort",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With friends",
+          "With partner",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So this morning, I had breakfast, something sweet, something nice to eat. I usually don't have sweet breakfast, but I was craving a sweet breakfast this morning because I'm here at my parents' house for this week. And because I'm a bit under the weather, I skipped lunch. And at nighttime, I had we went out with the family and my partner to a restaurant. So would this reflect my day to day habits? Not really. I'm sorry about the background noise. No. But, yeah, I don't usually eat sweet stuff in the morning, especially in the morning, and I don't skip my mealtimes. But because I'm under the weather, that's kinda why."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 10:38:37 +0000",
+      "breakfast": {
+        "source": "Made at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 07:48:24 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Studying or working",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 08:02:28 +0000",
+      "breakfast": {
+        "source": "Made at home with shop items",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Studying or working"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Bought from local butcher and made at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "I was craving the sausage from the butcher as i don’t go often"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today this morning, I woke up early because I had online classes. So I decided to have a quick breakfast, which was cereal, milk, and a cup of tea. And there's just something quick and easy to do, and I didn't have food until I had no snacks, no nothing, just water myself like usual. I didn't have anything until lunchtime. Yes. Until lunchtime, I had sausages. I went down to the local butcher's because I haven't been there for a long time, and I just don't love with their fucking food. Sorry about my language, but their food is delicious and everything. And I was just craving it, for yeah. For dinner, I have a pizza. I mean, I should cut down on the pizzas, but yeah. So it does kinda reflect my typical day to day. But because I'm doing it from home, it kind of varies because I usually get, like, meal deals or snacks quick to go and stuff like that."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 5,
+    "delivery_orders": 1,
+    "delivery_apps_used": [
+      "Just Eat"
+    ],
+    "top_reasons": [
+      "Time / convenience",
+      "Craving / comfort",
+      "Studying or working",
+      "Price / budget",
+      "Socialising"
+    ],
+    "most_common_source": "Supermarket / convenience store"
+  }
+}

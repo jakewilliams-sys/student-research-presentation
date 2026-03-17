@@ -1,0 +1,100 @@
+{
+  "participant_id": "P036",
+  "summary": "P036 is a reserved first-year mechanical engineering student who has undergone a significant behavioral shift during her first term at Bath. Initially hesitant and self-conscious in conversation, she reveals a highly practical, almost clinical relationship with food—cooking purely out of necessity rather than enjoyment. What makes her particularly interesting is the tension between her strong preference for social eating (actively coordinating with flatmates to avoid eating alone) and her individual decision-making around food purchases and delivery orders.\n\nHer most striking characteristic is a pattern of decision paralysis around ordering—she frequently builds full shopping carts only to abandon them at checkout, overthinking the financial commitment. This behavior contrasts sharply with her growing reliance on delivery as the academic year progresses, shifting from a 'I can cook, I have time' mentality to viewing her time as too valuable to waste on grocery shopping. She's price-sensitive but values convenience highly, often caught between wanting to save money and wanting to avoid effort. Her social eating preferences create interesting dynamics where peer influence can override her natural caution about spending.",
+  "personality_notes": "Reserved and self-conscious communicator who gives brief, hesitant responses. Shows analytical thinking patterns but struggles with decision-making, particularly around spending. Appears to overthink purchases but is socially influenced.",
+  "food_relationship": "Purely functional relationship with food—cooks daily out of necessity but finds no joy or creativity in it, viewing cooking as simply fuel for hunger.",
+  "key_moments": [
+    {
+      "timestamp": "Beginning of interview",
+      "description": "Shows hesitation and self-consciousness when asked to elaborate about herself",
+      "significance": "Reveals reserved personality that may affect how openly she discusses behaviors"
+    },
+    {
+      "timestamp": "Around 1-256 to 1-266",
+      "description": "Describes shift from cooking-focused to delivery-focused mindset as term progressed",
+      "significance": "Shows adaptation to university life and changing priorities—time becoming more valuable than money"
+    },
+    {
+      "timestamp": "Around 1-306 to 1-312",
+      "description": "Admits to frequently building shopping carts but abandoning orders",
+      "significance": "Reveals decision paralysis and internal conflict about spending vs convenience"
+    }
+  ],
+  "what_not_said": [
+    "Financial situation or family background",
+    "Specific amounts spent on subscriptions",
+    "Details about her cultural background (only briefly mentioned Ramadan)",
+    "Specific cooking skills or what she actually makes"
+  ],
+  "initial_hypotheses": [
+    "Decision paralysis around ordering may be masking deeper financial anxiety",
+    "Social eating preference suggests food serves important social bonding function despite functional attitude",
+    "Time-value perception shift indicates successful adaptation to university workload pressures",
+    "May be more price-sensitive than she admits, using 'time value' as rationalization for convenience spending"
+  ],
+  "questions_for_coding": [
+    "How does social influence override individual spending caution?",
+    "What triggers the shift from cart-building to order abandonment?",
+    "How does the functional food attitude coexist with strong social eating preferences?",
+    "What role does subscription psychology play in justifying increased ordering frequency?"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: Oh, I don't know... if you want me to say a bit more... more about myself.\n",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 304,
+      "end_char_index": 386,
+      "participant_id": "P036"
+    },
+    {
+      "cited_text": "spk_1: No, no... it's okay. It's okay.\n",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 466,
+      "end_char_index": 505,
+      "participant_id": "P036"
+    },
+    {
+      "cited_text": "spk_1: Honestly, like, I didn't cook until I came to uni. It's definitely not a passion of mine at all. Cooking means I'm so hungry, I just want to eat. But other than that... nothing. ",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 7996,
+      "end_char_index": 8181,
+      "participant_id": "P036"
+    },
+    {
+      "cited_text": "spk_1: I have, like, one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time because we prefer not to eat, like, completely alone. But our flat is also very social, so anytime I go in the kitchen, it's almost guaranteed I'm gonna have someone to eat with. ",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 2379,
+      "end_char_index": 2730,
+      "participant_id": "P036"
+    },
+    {
+      "cited_text": "spk_1: I think, yeah... I think at the beginning of the year, I was ordering a lot less. ",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 17458,
+      "end_char_index": 17547,
+      "participant_id": "P036"
+    },
+    {
+      "cited_text": "But now I feel like I just... That's like time that's like more valuable, you know? I'm like, I don't want to waste it going to the grocery store, to be honest. I just want to order. Like, I don't want to cook right now. I want to chill and be able to order food instead. ",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 17615,
+      "end_char_index": 17887,
+      "participant_id": "P036"
+    },
+    {
+      "cited_text": "spk_1: Oh, I'm very... Like, I'm not someone that just, like, clicks 'order' very easily. I, like, overthink it a lot. So it'll be like, I'm, like, making my cart, and I, like, have made my whole cart. And then I'll decide not to, like, never mind, I'm not gonna order this. And then I'll just convince myself either I don't need the stuff urgently, or I can... oh, I'm going into town soon, or I don't know, like... but it'll always be, like, a lot in my... I've already made my whole cart. And then I'll just decide not to click 'order.'\n",
+      "document_title": "Interview Transcript — P036",
+      "document_index": 0,
+      "start_char_index": 20681,
+      "end_char_index": 21221,
+      "participant_id": "P036"
+    }
+  ],
+  "_citation_count": 7
+}

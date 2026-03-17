@@ -1,0 +1,415 @@
+{
+  "segment_comparisons": [
+    {
+      "dimension": "academic_stage",
+      "finding": "Undergraduates show higher emotional attachment to delivery as 'treats' and rewards, while postgraduates and graduates view it more functionally as convenience",
+      "evidence": {
+        "undergraduate": {
+          "quote_ids": [
+            "P001_treat_special",
+            "P003_friday_reward",
+            "P013_friday_treat",
+            "P027_exam_reward"
+          ],
+          "participant_count": 15
+        },
+        "postgraduate": {
+          "quote_ids": [
+            "P017_time_pressure",
+            "P018_convenience",
+            "P031_boredom_trigger"
+          ],
+          "participant_count": 4
+        },
+        "graduate": {
+          "quote_ids": [
+            "P020_structured_life",
+            "P022_functional",
+            "P035_habit_not_treat"
+          ],
+          "participant_count": 6
+        }
+      },
+      "confidence": "high"
+    },
+    {
+      "dimension": "academic_stage",
+      "finding": "Price sensitivity decreases significantly post-graduation, with graduates more willing to pay for convenience",
+      "evidence": {
+        "undergraduate": {
+          "quote_ids": [
+            "P006_100_quid_monthly",
+            "P013_50p_matters",
+            "P031_euro_counts"
+          ],
+          "participant_count": 18
+        },
+        "postgraduate": {
+          "quote_ids": [
+            "P009_pound_doesnt_matter",
+            "P019_math_subscription"
+          ],
+          "participant_count": 3
+        },
+        "graduate": {
+          "quote_ids": [
+            "P024_earn_own_money",
+            "P022_less_conscious",
+            "P018_not_realizing_cost"
+          ],
+          "participant_count": 5
+        }
+      },
+      "confidence": "high"
+    },
+    {
+      "dimension": "accommodation_type",
+      "finding": "Shared accommodation drives more social ordering and group decisions, while studio/solo living leads to more individual convenience-based ordering",
+      "evidence": {
+        "shared_house": {
+          "quote_ids": [
+            "P001_unspoken_ritual",
+            "P007_eight_people_house",
+            "P030_house_agreement"
+          ],
+          "participant_count": 20
+        },
+        "studio_solo": {
+          "quote_ids": [
+            "P002_meal_prep_plan",
+            "P010_weekend_treat",
+            "P035_working_from_home"
+          ],
+          "participant_count": 8
+        }
+      },
+      "confidence": "medium"
+    },
+    {
+      "dimension": "plus_status",
+      "finding": "Deliveroo Plus faces structural competitive disadvantage versus Uber One (24 participants mention Uber One vs 11 for Plus). Subscription holders increase ordering through economic rationality (reduced marginal cost) rather than psychological paradox. Free delivery is the singular dominant value driver (47 mentions, 21 participants). Three critical barriers undermine Plus value: service fee erosion (27 mentions), minimum order thresholds, and benefit awareness gaps among Prime-acquired Silver subscribers.",
+      "evidence": {
+        "uber_one_advantage": {
+          "quote_ids": [
+            "P002_uber_integrated_everything",
+            "P007_uber_one_trains",
+            "P015_uber_one_cashback_taxi",
+            "P018_uber_one_transport",
+            "P020_uber_one_perks"
+          ],
+          "participant_count": 24,
+          "key_finding": "Uber One's transport bundle (taxi, train, flights) creates cross-service lock-in that food delivery alone cannot match"
+        },
+        "deliveroo_plus_users": {
+          "quote_ids": [
+            "P002_deliveroo_silver_prime",
+            "P004_deliveroo_plus_student",
+            "P006_deliveroo_prime_bundle",
+            "P012_free_student_subscription",
+            "P030_deliveroo_silver_friends"
+          ],
+          "participant_count": 11,
+          "key_finding": "Most Plus/Silver users acquired through Prime bundle or free student offer — low active engagement with benefits"
+        },
+        "free_delivery_dominance": {
+          "quote_ids": [
+            "P001_free_delivery_amazing",
+            "P007_free_delivery_incentive",
+            "P018_free_delivery_100_percent",
+            "P029_free_delivery_expensive"
+          ],
+          "participant_count": 21,
+          "key_finding": "Free delivery mentioned 47 times — all other benefits (cashback, retail, grocery) rank dramatically lower"
+        },
+        "service_fee_erosion": {
+          "quote_ids": [
+            "P002_reduced_service_fee_still_a_lot",
+            "P025_service_fee_a_lot",
+            "P032_service_fee_one_euro"
+          ],
+          "participant_count": 11,
+          "key_finding": "27 service fee complaints — students feel 'free delivery + service fee' is deceptive"
+        },
+        "plus_confusion": {
+          "quote_ids": [
+            "P002_dont_know_what_silver_gets",
+            "P003_not_sure_benefits",
+            "P022_dont_know_about_plus"
+          ],
+          "participant_count": 5,
+          "key_finding": "Prime-acquired Silver subscribers don't understand their benefits — passive acquisition creates disengaged users"
+        },
+        "subscription_aversion": {
+          "quote_ids": [
+            "P001_avoid_subscriptions",
+            "P023_dont_like_subscriptions",
+            "P025_conscious_subscriptions",
+            "P027_wouldnt_pay"
+          ],
+          "participant_count": 8,
+          "key_finding": "Budget-conscious students resist paid subscriptions but will use free tiers"
+        }
+      },
+      "confidence": "high",
+      "deep_dive_references": ["DD_001", "DD_004"]
+    },
+    {
+      "dimension": "delivery_frequency",
+      "finding": "Heavy users develop emotional dependency and guilt cycles, while light users maintain treat mentality",
+      "evidence": {
+        "heavy_users": {
+          "quote_ids": [
+            "P006_five_times_week",
+            "P008_weight_gain",
+            "P017_deleted_subscription"
+          ],
+          "participant_count": 6
+        },
+        "light_users": {
+          "quote_ids": [
+            "P013_keep_friday_special",
+            "P003_every_other_friday",
+            "P023_not_habit"
+          ],
+          "participant_count": 12
+        }
+      },
+      "confidence": "high"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_type": "temporal",
+      "pattern": "Friday evening emerges as the dominant 'treat' ordering time across all segments, with exam periods showing spikes in stress-driven ordering",
+      "evidence_count": 18,
+      "participant_count": 15,
+      "supporting_quotes": [
+        "P003_friday_reward",
+        "P013_friday_treat",
+        "P027_exam_ordering",
+        "P028_exam_stress"
+      ]
+    },
+    {
+      "pattern_type": "social",
+      "pattern": "Group ordering creates pressure to participate even when individuals don't want to order, leading to reluctant participation",
+      "evidence_count": 12,
+      "participant_count": 10,
+      "supporting_quotes": [
+        "P016_others_suggesting",
+        "P026_friends_had_it",
+        "P031_ask_friends_delivery_fees"
+      ]
+    },
+    {
+      "pattern_type": "emotional",
+      "pattern": "Delivery serves dual emotional functions: comfort during stress and reward after achievement, creating positive reinforcement cycles",
+      "evidence_count": 25,
+      "participant_count": 20,
+      "supporting_quotes": [
+        "P027_comfort_reward",
+        "P030_earned_it",
+        "P003_reward_myself"
+      ]
+    },
+    {
+      "pattern_type": "decision",
+      "pattern": "Decision fatigue leads to platform and restaurant loyalty - users stick with known options to avoid choice overload",
+      "evidence_count": 15,
+      "participant_count": 12,
+      "supporting_quotes": [
+        "P010_decision_fatigue",
+        "P025_restaurant_know",
+        "P034_too_much_effort"
+      ]
+    }
+  ],
+  "say_do_gaps": [
+    {
+      "gap_type": "subscription_value",
+      "stated_attitude": "Subscriptions provide savings and value — students cite free delivery and per-order savings as justification",
+      "observed_behavior": "Subscription holders order more frequently, often spending more overall. 6 participants explicitly acknowledge ordering more because of their subscription. The net effect is increased total spend despite lower per-order costs. Additionally, 'free delivery' promise is undermined by service fees (27 mentions) and minimum order thresholds (15 segments), reducing actual savings below perceived savings.",
+      "evidence": {
+        "stated": [
+          "P009_saving_service_fees",
+          "P012_save_delivery_fee",
+          "P006_save_money_subscription",
+          "P026_saving_loads"
+        ],
+        "observed": [
+          "P006_wouldnt_order_without_subscription",
+          "P008_influenced_to_spend_more",
+          "P011_order_more_membership",
+          "P017_encouraged_too_much"
+        ]
+      },
+      "participant_count": 11,
+      "confidence": "high",
+      "plus_specific_note": "Deliveroo Plus is less effective at creating this say-do gap than Uber One because Uber One's transport value provides genuine savings outside food delivery, making the food subscription feel like a 'bonus'"
+    },
+    {
+      "gap_type": "health_consciousness",
+      "stated_attitude": "Aware delivery food is unhealthy and should be limited",
+      "observed_behavior": "Regular ordering continues despite health concerns",
+      "evidence": {
+        "stated": [
+          "P008_weight_gain_concern",
+          "P017_dietitian_knowledge"
+        ],
+        "observed": [
+          "P006_five_times_week",
+          "P008_still_ordering"
+        ]
+      },
+      "participant_count": 12,
+      "confidence": "medium"
+    },
+    {
+      "gap_type": "cooking_enjoyment",
+      "stated_attitude": "Enjoy cooking and find it relaxing/rewarding",
+      "observed_behavior": "Frequently choose delivery over cooking due to convenience",
+      "evidence": {
+        "stated": [
+          "P016_releases_stress",
+          "P020_technology_free",
+          "P025_stress_relief"
+        ],
+        "observed": [
+          "P002_almost_never_cook",
+          "P011_too_lazy_cook"
+        ]
+      },
+      "participant_count": 10,
+      "confidence": "medium"
+    }
+  ],
+  "summary": "The triangulation reveals non-linear academic stage progression: undergraduates combine high price sensitivity with moderate emotional reward framing; postgraduates are uniquely functional and health-conscious; graduates show the highest emotional reward framing. Deliveroo Plus faces structural competitive disadvantage versus Uber One (24 vs 11 participants), driven by Uber One's cross-service transport bundle. Free delivery is the singular dominant subscription value driver (47 mentions, 21 participants), but service fee erosion (27 mentions) and minimum order thresholds undermine perceived value. Social dynamics in shared accommodation create group ordering pressure through 5 distinct mechanisms. A strong Friday evening 'treat' pattern emerges across all segments, with exam periods triggering stress-driven ordering spikes. Key say-do gaps exist around subscription value perception (students claim savings while spending more), health consciousness, and cooking enjoyment versus actual behavior.",
+  "methodological_caveats": {
+    "sample_bias": "70% undergraduate sample may overrepresent undergraduate-specific patterns in cross-segment comparisons.",
+    "corrected_academic_stages": {
+      "undergraduate": 23,
+      "postgraduate": 4,
+      "graduate": 6,
+      "note": "Previous analysis incorrectly classified all participants as undergraduate. Corrected using interview transcript content analysis."
+    },
+    "self_report_caveat": "Say-do gaps are identified from self-reported attitudes and behaviours within the same interview. Actual behavioural data would strengthen these findings."
+  },
+  "stage_comparison": {
+    "summary": "Academic stage analysis reveals three distinct behavioural profiles that do NOT follow a linear progression. The postgraduate segment is uniquely functional and health-conscious, while graduates unexpectedly show stronger emotional reward framing than undergraduates.",
+    "dimensions": {
+      "price_sensitivity": {
+        "undergraduate": {
+          "avg_mentions": 12.9,
+          "pct_mentioning": 100
+        },
+        "postgraduate": {
+          "avg_mentions": 11.5,
+          "pct_mentioning": 100
+        },
+        "graduate": {
+          "avg_mentions": 7.3,
+          "pct_mentioning": 100
+        },
+        "pattern": "Decreases with stage progression — graduates are notably less price-focused"
+      },
+      "convenience_driver": {
+        "undergraduate": {
+          "avg_mentions": 16.3,
+          "pct_mentioning": 100
+        },
+        "postgraduate": {
+          "avg_mentions": 15.2,
+          "pct_mentioning": 100
+        },
+        "graduate": {
+          "avg_mentions": 10.3,
+          "pct_mentioning": 100
+        },
+        "pattern": "Similar for undergrad/postgrad; graduates rely less on convenience framing"
+      },
+      "emotional_reward": {
+        "undergraduate": {
+          "avg_mentions": 2.4,
+          "pct_mentioning": 91
+        },
+        "postgraduate": {
+          "avg_mentions": 0.2,
+          "pct_mentioning": 25
+        },
+        "graduate": {
+          "avg_mentions": 3.0,
+          "pct_mentioning": 100
+        },
+        "pattern": "NON-LINEAR: Postgrads dramatically low; graduates highest. Contradicts assumed progression."
+      },
+      "health_awareness": {
+        "undergraduate": {
+          "avg_mentions": 0.9,
+          "pct_mentioning": 43
+        },
+        "postgraduate": {
+          "avg_mentions": 2.2,
+          "pct_mentioning": 100
+        },
+        "graduate": {
+          "avg_mentions": 0.5,
+          "pct_mentioning": 33
+        },
+        "pattern": "Postgraduates uniquely health-conscious — likely driven by age, professional knowledge, and life priorities"
+      },
+      "social_ordering": {
+        "undergraduate": {
+          "avg_mentions": 4.5,
+          "pct_mentioning": 100
+        },
+        "postgraduate": {
+          "avg_mentions": 5.2,
+          "pct_mentioning": 100
+        },
+        "graduate": {
+          "avg_mentions": 3.3,
+          "pct_mentioning": 100
+        },
+        "pattern": "Postgrads most socially influenced; graduates least (more independent ordering)"
+      },
+      "cooking_identity": {
+        "undergraduate": {
+          "avg_mentions": 5.6,
+          "pct_mentioning": 100
+        },
+        "postgraduate": {
+          "avg_mentions": 3.2,
+          "pct_mentioning": 100
+        },
+        "graduate": {
+          "avg_mentions": 5.0,
+          "pct_mentioning": 100
+        },
+        "pattern": "Postgrads have weakest cooking identity — time scarcity likely factor"
+      },
+      "subscription_usage": {
+        "undergraduate": {
+          "avg_mentions": 3.8,
+          "pct_mentioning": 91
+        },
+        "postgraduate": {
+          "avg_mentions": 3.8,
+          "pct_mentioning": 100
+        },
+        "graduate": {
+          "avg_mentions": 2.2,
+          "pct_mentioning": 100
+        },
+        "pattern": "Similar for undergrad/postgrad; graduates engage less with subscriptions"
+      }
+    },
+    "key_findings": [
+      "The undergraduate-to-graduate journey is NOT a linear shift from emotional to functional ordering",
+      "Postgraduates are uniquely functional: lowest emotional framing (0.2/person), highest health awareness (2.2/person), most social influence (5.2/person), lowest cooking identity (3.2/person)",
+      "Graduates show the HIGHEST emotional reward framing (3.0/person) — delivery becomes a guilt-free indulgence once financial pressure eases",
+      "Price sensitivity clearly decreases with stage: 12.9 (UG) → 11.5 (PG) → 7.3 (Grad)",
+      "Social ordering is highest for postgrads (5.2/person) and lowest for graduates (3.3/person), suggesting graduates order more individually",
+      "Postgraduates' 4 participants are distributed across 4 different personas, suggesting stage may be stronger than persona for some behavioural dimensions"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "participant_id": "P006",
+  "summary": "Adam presents a fascinating contradiction: a self-described 'saver' who spends over €100 weekly on food, primarily through delivery apps. His extreme commute situation (4-5 hours daily from rural Cavan to Dublin) has created a lifestyle entirely dependent on delivery services during weekdays, when he crashes on a friend's couch. He's developed sophisticated platform strategies, using Uber for chain restaurants due to better promotions and Deliveroo for independent restaurants with better selection. Despite claiming to enjoy cooking and being 'really picky on money,' his actual behavior reveals someone who has essentially outsourced meal planning to delivery apps out of necessity. His guilt around tipping drivers and not going out physically suggests awareness that his delivery dependence isn't entirely by choice, but rather a consequence of his challenging living situation. Adam represents the 'convenience-dependent' student archetype - someone whose circumstances have made delivery not a luxury but a practical necessity, yet who maintains the psychological framework of being budget-conscious even while spending heavily on convenience.",
+  "personality_notes": "Articulate and self-aware, with a tendency toward self-contradiction. Presents himself as money-conscious while demonstrating high spending. Shows genuine enthusiasm when discussing food and cooking, but pragmatic acceptance of his delivery-dependent reality.",
+  "food_relationship": "Food delivery has become his primary meal solution due to extreme commuting, creating dependence masked as convenience choice.",
+  "key_moments": [
+    {
+      "timestamp": "Around 1-215 to 1-218",
+      "description": "Reveals spending €100+ weekly on food, 80% on takeaways, despite claiming to be 'really picky on money'",
+      "significance": "Core contradiction between self-perception as saver and actual high-spending behavior on convenience"
+    },
+    {
+      "timestamp": "1-318 to 1-320",
+      "description": "Expresses guilt about not tipping drivers and staying home instead of going out physically",
+      "significance": "Shows internal conflict about delivery dependence and awareness it's not entirely voluntary"
+    },
+    {
+      "timestamp": "1-575 to 1-577",
+      "description": "Reveals he tried being a delivery rider but quit due to lack of orders",
+      "significance": "Unique perspective having been on both sides of the delivery ecosystem"
+    }
+  ],
+  "what_not_said": [
+    "Financial stress or concern about his high food spending",
+    "Social isolation from his unusual living arrangement",
+    "Academic performance impact from extreme commuting",
+    "Long-term sustainability of his current lifestyle"
+  ],
+  "initial_hypotheses": [
+    "His extreme commute has created artificial delivery dependence that he rationalizes as choice",
+    "Price sensitivity is performative - he's actually willing to pay premium for convenience",
+    "His rider experience may make him more empathetic to delivery workers but also more strategic about platform choice",
+    "Living situation instability drives food behavior more than student budget constraints"
+  ],
+  "questions_for_coding": [
+    "How do extreme commuting students rationalize high delivery spending?",
+    "What role does temporary accommodation play in food delivery dependence?",
+    "How does prior gig work experience influence platform loyalty and usage patterns?",
+    "What's the relationship between stated money consciousness and actual spending behavior?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, usually waking up at around 5 o'clock, and I live in Ballyconnell, so it's kind of a small town, and it's about 20, 25 minutes from Cavan town.\nspk_1: So, I take the 109X bus down to Dublin, and then I have to take the Dublin bus down to Maynooth, or I usually go by train up in Connolly Station, as I usually use the train.\nspk_1: So, kind of waking up at 5 o'clock, getting on the bus at 6, and then trying to be there around 9 or 10 o'clock...\nspk_1: Kind of a long commute!\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 912,
+      "end_char_index": 1401,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, and I'm ordering to the friend's house.\nspk_1: So about pretty much five times a week, maybe even more if I'm ordering dinner as well.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 6731,
+      "end_char_index": 6962,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I don't want to lie...\nspk_1: I'm saying about 90 to 100 quid just alone on food, maybe even more, but I'd have to check.\nspk_1: But I definitely know it's 100 and more!\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 12684,
+      "end_char_index": 12854,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, I'd say 90%... no, maybe 80% is on the takeaways, 20% on the groceries, and then going out without including that...\nspk_1: I'd say it's like another €40 on top of it if I'm getting drinks as well.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 12938,
+      "end_char_index": 13147,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'm a... really, I'm really picky on money.\nspk_1: Like, I'm a saver. Like, if I see something on promotion or reduced, I'm always buying it.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 30840,
+      "end_char_index": 30989,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But, like, if I'm ordering, like, McDonald's or something like that, I'd go into UberEats because UberEats usually offers a better discount or promotion on it.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 9475,
+      "end_char_index": 9642,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It has more of a restaurant choice.\nspk_1: I noticed, like, my favorite Chinese is on there, my favorite Indian's on there.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 9351,
+      "end_char_index": 9475,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, I do enjoy cooking, but I don't have the time to do it.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 8287,
+      "end_char_index": 8354,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like, I like cooking myself, but I just don't have the time to do it.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 8474,
+      "end_char_index": 8551,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Oh, maybe twice a week...\nspk_1: Definitely twice a week.\nspk_1: I wouldn't say more.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 8095,
+      "end_char_index": 8188,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Feel justified... maybe guilty because I like...\nspk_1: I used to tip the delivery drivers, and I'm kind of feeling bad because I know they can see on their screens that you're not, like, putting in a tip or, like, something like that.\nspk_1: So I'm kind of feeling guilty, and as well, most of the time, like, I feel bad for myself because I'm, like, staying at home, not going out most of the time because I don't have the time.\nspk_1: And I'm like, I know I have the time to do this, get the food, but instead, I'm just ordering from the place.\n",
+      "document_index": 0,
+      "document_title": "P006 - P006 - Interview Transcript",
+      "start_char_index": 19686,
+      "end_char_index": 20241,
+      "participant_id": "P006",
+      "participant_name": "P006"
+    }
+  ],
+  "_citation_count": 11
+}

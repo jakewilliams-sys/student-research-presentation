@@ -1,0 +1,143 @@
+{
+  "participant_id": "P004",
+  "summary": "Sean is a final-year aerospace engineering student who presents as highly analytical and price-conscious in her approach to food. She's methodical about comparing apps and switching for even £1 savings, yet admits to being 'a bit obsessed' with Greek gyros - revealing a more emotional relationship with food beneath her rational exterior. Her delivery usage follows a clear pattern: it's her reliable safety net for moments of low energy, time pressure, or post-night-out hunger, rather than planned indulgence. She describes herself as a 'newly breakfast convert' who forces herself to eat breakfast for health benefits, positioning herself as someone making conscious improvements to her eating habits. However, her actual behavior shows a more chaotic reality - she skipped breakfast half the week and relies heavily on convenience when time is short. Sean lives independently within a shared house where food decisions are entirely individual, and she's developed sophisticated systems (meal planning, weekly shops, price comparison) to manage her student budget while maintaining nutritional goals.",
+  "personality_notes": "Articulate and analytical communicator who gives detailed, thoughtful responses. Shows self-awareness about her contradictions (admits to psychological pricing tricks working on her). Methodical in decision-making but acknowledges she's 'not very good at sticking to budgets.' Confident in her preferences but open about her biases.",
+  "food_relationship": "Food is primarily functional and budget-driven, with delivery serving as a convenient safety net, though she has strong emotional attachments to specific dishes like Greek gyros.",
+  "key_moments": [
+    {
+      "timestamp": "25:30",
+      "description": "Describes Greek gyros as her 'Spotify wrapped' top choice - 'honestly my favorite... I'm a bit obsessed'",
+      "significance": "Reveals genuine passion beneath her otherwise rational, price-focused approach to food"
+    },
+    {
+      "timestamp": "40:15",
+      "description": "Admits she'd switch apps for £1 difference with no loyalty to either platform",
+      "significance": "Demonstrates extreme price sensitivity and lack of brand attachment among students"
+    },
+    {
+      "timestamp": "45:20",
+      "description": "Says she's a 'newly breakfast convert' who forces herself to eat breakfast for health benefits",
+      "significance": "Shows aspiration vs. reality gap - diary reveals she skipped breakfast 3/7 days"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking skills or enjoyment of cooking process",
+    "Avoided discussing family financial support or specific budget constraints",
+    "Didn't elaborate on what 'healthy eating' actually means to her beyond protein"
+  ],
+  "initial_hypotheses": [
+    "Price sensitivity may be more about perceived value than actual financial constraint",
+    "Her systematic approach to food decisions may be a way of managing decision fatigue",
+    "The Greek food obsession suggests she uses delivery for emotional comfort despite rational framing"
+  ],
+  "questions_for_coding": [
+    "How do students balance aspirational eating habits with actual behavior?",
+    "What role does 'mindset' play in adoption of new food services?",
+    "How do price comparison behaviors change when students have more disposable income?"
+  ],
+  "diary_summary": "Actual eating pattern shows high reliance on home cooking (18/21 meals) with no delivery orders during the week. Breakfast frequently skipped despite interview claims. Heavy emphasis on convenience and protein, with social eating primarily happening at restaurants rather than through delivery.",
+  "say_do_gaps": [
+    "Claims to be a 'breakfast convert' but skipped breakfast 3/7 days due to time constraints",
+    "Describes delivery as regular weekly habit but placed zero delivery orders during diary week",
+    "Emphasizes health and nutrition in interview but diary shows convenience often trumps nutritional planning"
+  ],
+  "_citations": [
+    {
+      "cited_text": "Which service do you normally use most\nspk_1: often I tend to go for Deliveroo because Deliveroo do like A plus account for students, which in my head makes me think that I'm getting a better deal.\nspk_1: But I tend to check delivery first and then I'll also compare that to UberEats to see which one is cheaper and then I'll order from whichever one is cheaper.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 14266,
+      "end_char_index": 14629,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: Yeah, I'd buy it from Uber because there's, I mean, realistically, to me, I see almost no difference in, like, standard and like.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 16853,
+      "end_char_index": 16990,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: It's generally like, whatever's cheapest.\nspk_1: I will, I will switch to the other one.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 17406,
+      "end_char_index": 17502,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: If I'm tired, like, I.\nspk_1: I think it's quite good for.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 24073,
+      "end_char_index": 24139,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: Or like I say, it's quite good for after a night out when I'm quite tired and hungry and I haven't really got the energy to cook.\nspk_1: So I can just order something and it tends to turn up quite quickly, which is ideal.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 24586,
+      "end_char_index": 24815,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "It's honestly probably if they did like a.\nspk_1: I don't know if you've seen like Spotify wrapped where they tell you your stats for what you've listened to for the year, but if they did that for delivery, I think that would come up top every single year because it's honestly my favorite.\nspk_1: And because, like, I'm not originally from Bristol, they don't, they don't have that like near I.\nspk_1: Where I live at home.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 26712,
+      "end_char_index": 27137,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: Yeah, it's my go to.\nspk_1: I'm a bit obsessed.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 27181,
+      "end_char_index": 27236,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: I think it is just a mindset thing.\nspk_1: I don't really know many people who order groceries through those apps.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 28368,
+      "end_char_index": 28490,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: I feel like if I'd heard through word of mouth that it was a really good option, then maybe I'd consider it more.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 28583,
+      "end_char_index": 28704,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: But then potentially, I think that is my own just personal bias because it's not something I'm used to or have ever thought to do.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 29270,
+      "end_char_index": 29408,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "Functional is breakfast because I'm a newly breakfast convert.\nspk_1: Like generally I didn't used to eat breakfast, but you know, I've read that there are so many benefits to eating breakfast to stop you being hungry in the day and all that jazz.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 19216,
+      "end_char_index": 19464,
+      "participant_id": "P004"
+    },
+    {
+      "cited_text": "spk_1: Like I have to make myself like eat breakfast.\n",
+      "document_title": "Interview Transcript — P004",
+      "document_index": 0,
+      "start_char_index": 19499,
+      "end_char_index": 19553,
+      "participant_id": "P004"
+    }
+  ],
+  "_citation_count": 12
+}

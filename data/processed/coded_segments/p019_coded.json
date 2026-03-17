@@ -1,0 +1,875 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P019_INT_001",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "Me and my husband, we would order delivery, I'd say at least once every two weeks, if not more. And the reason being is could be many things. We have friends coming over or we're just too lazy to not to cook, but to shop. And we found that there's nothing to cook inside our fridge.",
+      "timestamp": "1:20-1:24",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "partner"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "me and my husband we would order delivery i'd say at least once every two weeks if not more and the reason being is could be many things we have friends coming over or we're just too lazy to not to cook but to shop and we found that there's nothing to cook inside our fridge"
+      }
+    },
+    {
+      "segment_id": "P019_INT_002",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "For me, I want to cook because this is the food I want to eat. I don't just prepare food. I have a plan. Okay. What do I want for now? I kind of miss chicken. Let's do something chicken. So that's my thought process of cooking.",
+      "timestamp": "1:205-1:212",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "afternoon"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "plan",
+          "want"
+        ],
+        "competitive": null,
+        "value_component": [
+          "quality"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "for me i want to cook because this is the food i want to eat i don't just prepare food i have a plan okay what do i want for now i kind of miss chicken let's do something chicken so that's my thought process of cooking"
+      }
+    },
+    {
+      "segment_id": "P019_INT_003",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "So I. I tried only once grocery delivery, and it was a complete disaster. So I never tried again. Like, I'm so done with ordering grocery to be delivered at home.",
+      "timestamp": "1:231-1:233",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "disaster",
+          "done"
+        ],
+        "competitive": null,
+        "value_component": [
+          "quality"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i i tried only once grocery delivery and it was a complete disaster so i never tried again like i'm so done with ordering grocery to be delivered at home"
+      }
+    },
+    {
+      "segment_id": "P019_INT_004",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "Most of the times would be Friday because that's so close to the weekend where we would do the grocery and we miscalculated. By Friday, we have no more food.",
+      "timestamp": "1:371-1:372",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "weekday",
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "miscalculated"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "partner"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "most of the times would be friday because that's so close to the weekend where we would do the grocery and we miscalculated by friday we have no more food"
+      }
+    },
+    {
+      "segment_id": "P019_INT_005",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "We use UberEats and that's because I have the Uber One subscription. So the delivery fee is free and restaurants that want has to be in UberEats. But if it wasn't that, we would have used Deliveroo.",
+      "timestamp": "1:385-1:387",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "evening"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "platform_comparison",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "we use ubereats and that's because i have the uber one subscription so the delivery fee is free and restaurants that want has to be in ubereats but if it wasn't that we would have used deliveroo"
+      }
+    },
+    {
+      "segment_id": "P019_INT_006",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "So at the time I, I pick it because I did the math because we would be ordering food, like I said, at least once every two weeks. So I did the math. I think it was only 60 Euro in a year and if I order that many food in a year, times like 3, 34 Euro delivery fee, it would be break even.",
+      "timestamp": "1:414-1:417",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "math",
+          "break even"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 5,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so at the time i i pick it because i did the math because we would be ordering food like i said at least once every two weeks so i did the math i think it was only 60 euro in a year and if i order that many food in a year times like 3 34 euro delivery fee it would be break even"
+      }
+    },
+    {
+      "segment_id": "P019_INT_007",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "No, no, I don't think it matters when I was a student or not, because like you said, food needs to be comforting for me. And I get that by cooking the food that I want. I mean, if all those delivery kind of restaurants would have all the food that I want, maybe I'll stick to them. But most of the times the food that I want to have is something that only I can cook.",
+      "timestamp": "1:457-1:461",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "comforting",
+          "only I can cook"
+        ],
+        "competitive": null,
+        "value_component": [
+          "quality"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "no no i don't think it matters when i was a student or not because like you said food needs to be comforting for me and i get that by cooking the food that i want i mean if all those delivery kind of restaurants would have all the food that i want maybe i'll stick to them but most of the times the f"
+      }
+    },
+    {
+      "segment_id": "P019_INT_008",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "I'd say actually less now. I. And I would say the reason is just because when I first started ordering food, it was way much cheaper to order food back then.",
+      "timestamp": "1:492-1:495",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "cheaper back then"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd say actually less now i and i would say the reason is just because when i first started ordering food it was way much cheaper to order food back then"
+      }
+    },
+    {
+      "segment_id": "P019_INT_009",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "So ordering food is actually more expensive recently than it used to be. And we always tip anyway, so that's separate from this. But yeah, the fact that it's not as cheap as it used to be to order food, that's why I would say we order less.",
+      "timestamp": "1:507-1:509",
+      "research_objective_codes": [
+        "RO4_post_graduation.does_the_value_equation_for_delivery_shi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "more expensive",
+          "not as cheap"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so ordering food is actually more expensive recently than it used to be and we always tip anyway so that's separate from this but yeah the fact that it's not as cheap as it used to be to order food that's why i would say we order less"
+      }
+    },
+    {
+      "segment_id": "P019_INT_010",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "Like honestly, we don't have loyalty to any of those apps.",
+      "timestamp": "1:592",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "no loyalty"
+        ],
+        "competitive": "switching_behaviour",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "like honestly we don't have loyalty to any of those apps"
+      }
+    },
+    {
+      "segment_id": "P019_INT_011",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "So yeah, if it's like a 0.1 cent difference, like 1 is 10 cent cheaper, we would go with the 10 cent cheaper because we don't really care about them, whichever is better.",
+      "timestamp": "1:598-1:599",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "don't care"
+        ],
+        "competitive": "switching_behaviour",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 5,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so yeah if it's like a 0 1 cent difference like 1 is 10 cent cheaper we would go with the 10 cent cheaper because we don't really care about them whichever is better"
+      }
+    },
+    {
+      "segment_id": "P019_INT_012",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "Yeah, just, just what we need is a delivery fee. So that's how we decide.",
+      "timestamp": "1:628-1:629",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "just what we need"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah just just what we need is a delivery fee so that's how we decide"
+      }
+    },
+    {
+      "segment_id": "P019_INT_013",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "I'd say that's most important. And then after that is the free delivery.",
+      "timestamp": "1:662-1:664",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.63,
+        "best_match": "yeah so like for example like 10 off your favorite offer i'd say that's most important okay and"
+      }
+    },
+    {
+      "segment_id": "P019_INT_014",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "So for example, like if we order Japanese, that could easily get to €50 and they have 10 off, that's an easier like €5 off. So it matters depending on, on the food that we spend. So and it also helps us to decide which restaurant to pick because sometimes the offer is only on a certain restaurant, but not the other one.",
+      "timestamp": "1:676-1:678",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "matters depending"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so for example like if we order japanese that could easily get to 50 and they have 10 off that's an easier like 5 off so it matters depending on on the food that we spend so and it also helps us to decide which restaurant to pick because sometimes the offer is only on a certain restaurant but not th"
+      }
+    },
+    {
+      "segment_id": "P019_INT_015",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "I'd say delivery fee will be super important for students. The speed as well. Now there are options, I think in most apps that you can pay extra for the delivery fee. So with my Uber Eats, for example, with the Uber one, I don't have to pay any delivery fee, but then it could take forever. It could take about an hour to arrive because the the rider would have to stop for one or more customers before they get to me. If I don't want this, if I want to be the only customer, then I would pay extra. But that means it's fast. Now I think if I were a student and I'm super hungry, this would have helped to get the priority delivery included in the benefit.",
+      "timestamp": "1:701-1:708",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "super important",
+          "super hungry"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd say delivery fee will be super important for students the speed as well now there are options i think in most apps that you can pay extra for the delivery fee so with my uber eats for example with the uber one i don't have to pay any delivery fee but then it could take forever it could take abou"
+      }
+    },
+    {
+      "segment_id": "P019_INT_016",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "Let me do, I'd say offer discount for large amount of food. Because as students, like I personally experienced this, like I would go to parties and we're Talking about between five to maybe 15 people in the same place. And that means if we're ordering food, that would be like big amount of order. And would be great if these delivery apps would provide a special discount if you order more than €50 70 and it would really encourage students because students are quite often having these meetups and sometimes it's not party, sometimes it's a group work that you would go to someone's house.",
+      "timestamp": "1:773-1:776",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "big amount",
+          "encourage"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "let me do i'd say offer discount for large amount of food because as students like i personally experienced this like i would go to parties and we're talking about between five to maybe 15 people in the same place and that means if we're ordering food that would be like big amount of order and would"
+      }
+    },
+    {
+      "segment_id": "P019_INT_017",
+      "participant_id": "P019",
+      "source": "interview",
+      "text": "Maybe some loyalty points that can be converted to something else apart from just money. So for example, after you order 10 times, you get one free delivery up to €20 from another place. I guess that would be nice. Like after you order, I don't know, make another 12 times, 20 times. The next order would be free. I would so use it because I order often.",
+      "timestamp": "1:794-1:799",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "would so use it"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "maybe some loyalty points that can be converted to something else apart from just money so for example after you order 10 times you get one free delivery up to 20 from another place i guess that would be nice like after you order i don't know make another 12 times 20 times the next order would be fr"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "mathematical_decision_making",
+      "description": "Participants who make delivery decisions based on precise mathematical calculations rather than emotional or convenience factors"
+    },
+    {
+      "theme_name": "service_failure_permanent_rejection",
+      "description": "Single bad experiences leading to complete category abandonment despite promotions or improvements"
+    },
+    {
+      "theme_name": "intentional_cooking_philosophy",
+      "description": "Cooking as creative expression and desire fulfillment rather than necessity or routine"
+    }
+  ],
+  "coding_summary": "P019 represents a highly analytical, post-graduation user who approaches food delivery with mathematical precision. Key findings include: complete platform agnosticism driven by cost optimization, permanent grocery delivery rejection after one bad experience, intentional cooking philosophy that limits delivery appeal, and decreased ordering frequency due to fee structure changes. Her systematic expense tracking and subscription cost-benefit analysis reveal a user segment that responds to clear value propositions but has zero emotional attachment to brands.",
+  "coverage_gaps": [
+    {
+      "research_objective": "RO3_emotional_social",
+      "reason": "P019 shows minimal emotional engagement with food delivery - treats it as purely functional. Limited social influence beyond partner coordination."
+    }
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: So at the time I, I pick it because I did the math because we would be ordering food, like I said, at least once every two weeks.\nspk_1: So I did the math. I think it was only 60 Euro in a year and if I order that many food in a year, times like 3, 34 Euro delivery fee, it would be break even.\nspk_1: And that's why I went for it.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 22491,
+      "end_char_index": 22830,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: Like honestly, we don't have loyalty to any of those apps.\nspk_0: That's fair. ",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 33656,
+      "end_char_index": 33742,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: So yeah, if it's like a 0.1 cent difference, like 1 is 10 cent cheaper, we would go with the 10 cent cheaper because we don't really care about them, whichever is better.\nspk_1: So yeah, I mean, I used to have a stronger feelings with delivery because once it was a really disaster, but that was like five, six years ago.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 34108,
+      "end_char_index": 34437,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: It's because I want the food.\nspk_1: Like, I have. I know some people, they would cook because there is no food and they have to eat.\nspk_1: That's not me at all.\nspk_1: For me, I want to cook because this is the food I want to eat.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 10737,
+      "end_char_index": 10977,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "No, no, I don't think it matters when I was a student or not, because like you said, food needs to be comforting for me.\nspk_1: And I get that by cooking the food that I want.\nspk_1: I mean, if all those delivery kind of restaurants would have all the food that I want, maybe I'll stick to them.\nspk_1: But most of the times the food that I want to have is something that only I can cook.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 25418,
+      "end_char_index": 25807,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: So I. I tried only once grocery delivery, and it was a complete disaster.\nspk_1: So I never tried again.\nspk_1: Like, I'm so done with ordering grocery to be delivered at home.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 12050,
+      "end_char_index": 12234,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: So if you ask me again why I wouldn't do the grocery, because they don't deliver what they want.\nspk_0: Okay. ",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 24730,
+      "end_char_index": 24847,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: I'd say actually less now.\nspk_1: I. And I would say the reason is just because when I first started ordering food, it was way much cheaper to order food back then.\nspk_1: And I'll explain to you further.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 27888,
+      "end_char_index": 28100,
+      "participant_id": "P019"
+    },
+    {
+      "cited_text": "spk_1: So ordering food is actually more expensive recently than it used to be.\nspk_1: And we always tip anyway, so that's separate from this.\nspk_1: But yeah, the fact that it's not as cheap as it used to be to order food, that's why I would say we order less.\n",
+      "document_title": "Interview Transcript — P019",
+      "document_index": 0,
+      "start_char_index": 29121,
+      "end_char_index": 29383,
+      "participant_id": "P019"
+    }
+  ],
+  "_citation_count": 9,
+  "participant_id": "P019",
+  "_ro_coverage": {
+    "RO2_delivery_triggers": 5,
+    "RO1_eating_moments": 1,
+    "RO4_post_graduation": 3,
+    "RO5_engagement_opps": 8
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "participant_id": "P010",
+  "summary": "P010 is a highly organized, self-aware mature student who approaches food with strategic efficiency. At 30+, she's juggling full-time work, psychotherapy training, and clinical placements - a demanding schedule that shapes every food decision. Her meal prep mastery on Mondays sustains her through brutal 12-hour Wednesday/Thursday days, while weekend takeaways serve as earned rewards for surviving the week. She's articulate about her systems and motivations, using professional language that reflects her therapeutic training. Despite claiming to cook extensively, her actual behavior shows more variety - campus lunches, social eating out, and strategic delivery orders when energy is depleted. Her relationship with food is fundamentally functional: 'proper fuel' for a hectic life, though she genuinely enjoys the cooking process when time allows. She's financially comfortable enough to budget €425/month for food but remains value-conscious, particularly drawn to loyalty schemes and cashback systems that make spending feel strategic rather than indulgent.",
+  "personality_notes": "Articulate, self-reflective, and systems-oriented. Uses professional therapeutic language and demonstrates high emotional intelligence. Organized but acknowledges her own contradictions with gentle humor.",
+  "food_relationship": "Food is strategic fuel for an intense lifestyle, with cooking as both practical necessity and weekend creative outlet, punctuated by guilt-free delivery treats.",
+  "diary_summary": "Actual eating pattern shows balanced mix of meal-prepped home cooking (57% of meals), strategic convenience choices (campus food, eating out), and one planned weekend delivery order - more varied than interview suggested.",
+  "say_do_gaps": [
+    "Claims to cook 'a lot' but diary shows only 57% home-cooked meals with regular use of campus food and eating out",
+    "Emphasizes Saturday night delivery routine but diary shows Friday delivery order when alone and depleted",
+    "Describes rigid meal prep schedule but diary shows flexibility with baked oats when working from home"
+  ],
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Explains cooking as 'proper fuel' for hectic weeks, contrasting with feeling 'like crap' after eating out",
+      "significance": "Reveals core food philosophy - nutrition as performance optimization rather than pleasure"
+    },
+    {
+      "timestamp": "52:30",
+      "description": "Describes grocery shopping as 'one of my hate most hated chores' and calls it a 'first world problem'",
+      "significance": "Shows self-awareness about privilege while revealing genuine stress around food procurement"
+    },
+    {
+      "timestamp": "63:45",
+      "description": "Would still choose Deliveroo over Just Eat even if €2 more expensive because of tracking feature",
+      "significance": "Demonstrates how control and predictability matter more than price for this organized personality"
+    }
+  ],
+  "what_not_said": [
+    "Any mention of food enjoyment or pleasure beyond 'looking forward to dinners'",
+    "Social eating with housemates despite living together",
+    "Any cooking failures or food waste from meal prep system",
+    "Financial stress despite being a full-time working student"
+  ],
+  "initial_hypotheses": [
+    "Her meal prep system is likely more flexible than described - diary shows adaptation based on work location and social opportunities",
+    "Delivery serves as both reward and emergency backup when systems fail (Friday night with empty fridge)",
+    "Her mature student status creates unique value expectations - wants student pricing but has adult income and standards",
+    "The therapeutic training influences how she rationalizes and explains her food choices with professional language"
+  ],
+  "questions_for_coding": [
+    "How do other mature students balance efficiency with food enjoyment?",
+    "What role does meal prep play in managing study/work stress for this demographic?",
+    "How does having adult income but student status affect delivery app expectations?",
+    "Do other participants use professional language to distance themselves from 'student' behaviors?"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: I'm doing both, so I work full time, but I'm also a third year student as well.\nspk_1: I'm training to be a psychotherapist.\nspk_1: So I'm in my third year doing my BSc in counseling and psychotherapy.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 200,
+      "end_char_index": 409,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: Very containing if you, if I do psychotherapeutic language, it's really containing because then you can kind of go about your evening knowing you can track it.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 36431,
+      "end_char_index": 36598,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: I. I would see it as trying to get proper, proper fuel because I have such a hectic weeks and all that like food and having really good meals I know is only going to help, not hinder, I suppose, my energy and whatnot.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 11634,
+      "end_char_index": 11859,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: Like I look forward to the dinners and lunches I've cooked rather than eating out because I don't know, sometimes you eat out and you just feel like crap after when I.\nspk_1: Whereas when I cook, you know, they're always really tasty and stuff, but I feel good after them and they're obviously filling and whatnot.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 11917,
+      "end_char_index": 12239,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: So I usually meal prep, especially the days I'm in the office.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 7316,
+      "end_char_index": 7386,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: Well, see, I meal prep on a Monday, so I barely any cooking to do on a Tuesday, Wednesday, Thursday, because I usually cook enough to kind of.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 10637,
+      "end_char_index": 10787,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: It sounds like I do a lot of batch cooking.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 11217,
+      "end_char_index": 11268,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "Once a week I'd get it some sort of takeaway because life's too short and.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 12664,
+      "end_char_index": 12739,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: Just because I'm, it's a treat and it's usually at a weekend where I'm like, I deserve this.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 20237,
+      "end_char_index": 20337,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: Usually a Saturday night.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 21070,
+      "end_char_index": 21103,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "So I don't cook as much as you think it would.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 11170,
+      "end_char_index": 11217,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: And in terms of food and getting my groceries delivered, it just takes away that cognitive load that sometimes I just find going into the supermarket just sometimes so overwhelming.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 30422,
+      "end_char_index": 30611,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: It's like it's one of my hate most hated chores.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 30754,
+      "end_char_index": 30810,
+      "participant_id": "P010"
+    },
+    {
+      "cited_text": "spk_1: And I know that's a really real first world problem that I'm calling grocery shopping and stressful, but I just, I don't know why.\n",
+      "document_title": "Interview Transcript — P010",
+      "document_index": 0,
+      "start_char_index": 31024,
+      "end_char_index": 31162,
+      "participant_id": "P010"
+    }
+  ],
+  "_citation_count": 14
+}

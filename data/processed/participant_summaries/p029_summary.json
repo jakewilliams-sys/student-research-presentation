@@ -1,0 +1,155 @@
+{
+  "participant_id": "P029",
+  "summary": "Sam is a first-year media production student who presents as financially savvy yet caught in the typical student transition from cooking enthusiasm to delivery convenience. They demonstrate a sophisticated understanding of money, using an hourly wage calculation to evaluate purchases, yet have gradually shifted from initial cooking excitement to more frequent ordering as the academic year progressed. Sam's relationship with delivery is notably pragmatic rather than emotional—they describe it as normalized student behavior and 'just one of those things' rather than a treat or indulgence. Their ordering behavior is highly offer-driven, with promotions serving as both triggers and justification mechanisms that make them 'feel like you're winning.' Sam lives in university halls with flatmates they describe as cordial but not close, leading to predominantly solo ordering patterns. They show clear awareness of being targeted as a student consumer, noting how companies profit from students' 'desire for ease' and recognizing the normalization of delivery within student culture.",
+  "personality_notes": "Reserved and analytical communicator who gives thoughtful, measured responses. Shows self-awareness about their behavior patterns and demonstrates sophisticated financial thinking. Occasionally apologetic about rambling, suggesting some social anxiety or desire to be helpful.",
+  "food_relationship": "Functional and convenience-driven, with delivery serving as a pragmatic solution to time and energy constraints rather than an indulgent experience.",
+  "key_moments": [
+    {
+      "timestamp": "Early interview",
+      "description": "Explains sophisticated hourly wage calculation for purchases",
+      "significance": "Reveals advanced financial thinking that contrasts with typical student spending patterns"
+    },
+    {
+      "timestamp": "Mid-interview",
+      "description": "Describes shift from cooking enthusiasm to ordering convenience over the academic year",
+      "significance": "Shows how student behavior evolves and delivery becomes normalized through habit"
+    },
+    {
+      "timestamp": "During live order",
+      "description": "Demonstrates offer-seeking behavior and justification through promotions",
+      "significance": "Reveals gap between stated financial consciousness and actual ordering triggers"
+    }
+  ],
+  "what_not_said": [
+    "Any emotional attachment to food or cooking",
+    "Social eating experiences with flatmates",
+    "Specific financial struggles or constraints",
+    "Any negative experiences with delivery beyond wrong orders"
+  ],
+  "initial_hypotheses": [
+    "Sam represents the 'financially conscious but convenience-driven' student segment who uses offers to justify behavior",
+    "Their solo ordering pattern may reflect broader social dynamics in student accommodation",
+    "The evolution from cooking to ordering suggests delivery apps successfully create habit formation",
+    "Sam's analytical approach to money may make them more responsive to clear value propositions than emotional appeals"
+  ],
+  "questions_for_coding": [
+    "How do students balance financial consciousness with convenience desires?",
+    "What role do offers play in justifying delivery behavior vs. triggering it?",
+    "How does the normalization of delivery within student culture affect individual decision-making?",
+    "What is the relationship between living arrangements and ordering patterns?",
+    "How do students' relationships with delivery evolve throughout their university experience?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think I'm good at saving money.\nspk_1: I started working when I was 16, and ever since then, I kind of see finances like...\nspk_1: like, I don't know if people do this the same way.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 2771,
+      "end_char_index": 2962,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But, like, depending on how much you earn an hour, you go and buy something, and if it costs, let's say, an hour, you say, like, would you work an hour to receive this item?\nspk_1: And a lot of the time, it's no.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 2995,
+      "end_char_index": 3215,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Probably order a little bit more recently...\nspk_1: At the beginning, I was cooking a lot more because you kind of, sort of, get used to it, and then you kind of get in, like, the flow, and you're like, 'I want to make this, and I want to try that.' But then, yeah, when you sort of get into the year, you kind of just sort of like, 'I just want that,' and they'll bring it to my house in, like, 20 minutes.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 5409,
+      "end_char_index": 5824,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Like, when does it feel, like, I suppose, justified, or...\nspk_1: Usually, when I can get some sort of offer...\nspk_1: Yeah, that's a motivation because you sort of feel like you're winning, man.\nspk_1: Yeah, in a way.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 14166,
+      "end_char_index": 14392,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I mean, I think it's a lot more normalized with students...\nspk_1: I think they're, a lot of the time, getting the deliveries.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 17852,
+      "end_char_index": 17986,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think so, yeah. I think a lot of the time...\nspk_1: I think most of the time it is students ordering things.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 18713,
+      "end_char_index": 18831,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I mean, when you first start doing it, it kind of sounds like I'm talking about some sort of, like, addiction.\nspk_1: It's not that. ",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 19592,
+      "end_char_index": 19732,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "But then, when you're older, it's just sort of like...\nspk_1: it's food.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 19911,
+      "end_char_index": 19984,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's just... one of those things.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 20108,
+      "end_char_index": 20149,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: It tends to be kind of a...\nspk_1: Solo thing, usually by myself.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 11671,
+      "end_char_index": 11744,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: We're not a massively tight-knit sort of bunch, but we get on, obviously.\nspk_1: But we don't, like, you know, hang out as much as a lot of flats do, so it would usually just be for me.\n",
+      "document_index": 0,
+      "document_title": "P029 - P029 - Interview Transcript",
+      "start_char_index": 60671,
+      "end_char_index": 60864,
+      "participant_id": "P029",
+      "participant_name": "P029"
+    }
+  ],
+  "_citation_count": 11
+}

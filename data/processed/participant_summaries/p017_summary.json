@@ -1,0 +1,90 @@
+{
+  "participant_id": "P017",
+  "summary": "Jill is a fascinating contradiction - a qualified dietitian who openly admits to being 'definitely more of eating out person' than a cooking person. At 30+, she's juggling full-time sustainability work with a part-time postgrad course, creating intense time pressure that drives her food decisions. She lives alone but has a boyfriend who appears sporadically, and her food choices seem to oscillate between her professional nutrition knowledge and the practical realities of her hectic schedule. What's striking is her self-awareness about her patterns - she cancelled her Deliveroo Plus subscription because it 'encouraged me to eat way too much takeaway,' showing a deliberate attempt at self-regulation. Her communication style is refreshingly honest and self-deprecating, frequently catching herself in contradictions ('I was gonna say four, but that's probably generous'). She represents the modern professional who knows what they should do nutritionally but struggles to execute it consistently due to lifestyle demands.",
+  "personality_notes": "Highly self-aware and honest communicator who frequently self-corrects and admits contradictions. Professional but relaxed tone, uses humor to deflect potential judgment about her eating habits. Shows analytical thinking typical of someone in sustainability work.",
+  "food_relationship": "Professional nutrition knowledge in constant tension with convenience-driven reality - knows what's healthy but defaults to takeaway/eating out due to time constraints and energy depletion.",
+  "key_moments": [
+    {
+      "timestamp": "25:30",
+      "description": "Reveals she's a dietitian while discussing food influencers she follows",
+      "significance": "Completely reframes her earlier admissions about poor eating habits - creates professional vs. personal identity tension"
+    },
+    {
+      "timestamp": "45:20",
+      "description": "Admits to cancelling Deliveroo Plus because it encouraged too much takeaway ordering",
+      "significance": "Shows active self-regulation and awareness of how subscription psychology affects her behavior"
+    },
+    {
+      "timestamp": "15:45",
+      "description": "Self-corrects from saying she cooks 4 days a week to 3 days, calling 4 'probably generous'",
+      "significance": "Demonstrates her tendency toward honest self-assessment even when it's unflattering"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned feeling judged about her eating habits despite being a dietitian",
+    "Didn't discuss how her professional knowledge affects her food guilt or shame",
+    "Avoided talking about whether clients know about her personal eating patterns"
+  ],
+  "initial_hypotheses": [
+    "Professional identity creates internal conflict about food choices but she's learned to compartmentalize",
+    "Time scarcity from work+study combination is the primary driver of convenience food reliance",
+    "Self-regulation strategies (like cancelling subscriptions) suggest she's actively managing her relationship with delivery apps",
+    "Her honesty about contradictions may indicate she's resolved the dietitian/takeaway user tension"
+  ],
+  "questions_for_coding": [
+    "How do other health professionals navigate the gap between knowledge and practice?",
+    "What role does professional identity play in food delivery usage patterns?",
+    "How do subscription services specifically trigger overconsumption behaviors?",
+    "What self-regulation strategies do heavy users employ to manage delivery frequency?"
+  ],
+  "diary_summary": "Diary shows a more controlled eating pattern than interview suggested - only 1 delivery order in 7 days, frequent meal skipping (7 meals), and predominantly home cooking. Weekend delivery was planned and anticipated, suggesting more intentional ordering than described.",
+  "say_do_gaps": [
+    "Claimed to cook 3 days per week but diary shows 5 days of home cooking",
+    "Described herself as 'definitely more of eating out person' but diary shows 15/21 meals cooked at home",
+    "Said she orders delivery 6-8 times per month but only ordered once in the diary week",
+    "Interview suggested more impulsive ordering but diary shows planned weekend delivery"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: I actually am a dietitian as well.\nspk_1: So yeah, I, well, I tried to follow the, you know, dietitians or the least misinformationy people out there.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 8076,
+      "end_char_index": 8234,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: But I'm definitely more of eating out person or, you know, getting takeaway person that I am a cooking person.\nspk_1: Although I'm trying to change that this year.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 4006,
+      "end_char_index": 4177,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: And then for in the evenings, like if I'm doing my course in the evening, I'd probably be more inclined to get a takeaway because I've less time between say finishing up work, you know, the kind of lecture starting and then you know, we can kind.\nspk_1: I can kind of order it and have it while the lecture is ongoing.\nspk_1: And that would be delivery for sure.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 10950,
+      "end_char_index": 11320,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: Yeah, but it just encouraged me to eat way too much takeaway, so I deleted it.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 42421,
+      "end_char_index": 42507,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "I'd say, like, say if we took seven days of the week, I'd probably cook on.\nspk_1: I was gonna say four, but that's probably generous.\nspk_1: I'd say three. Three of them.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 15954,
+      "end_char_index": 16126,
+      "participant_id": "P017"
+    }
+  ],
+  "_citation_count": 5
+}

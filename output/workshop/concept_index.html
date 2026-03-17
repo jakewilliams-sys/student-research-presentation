@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Persona Journey — 10 Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f8f6f1;
+    --text: #2c2a25;
+    --text-mid: #6b6760;
+    --text-light: #9e998f;
+    --border: #ddd9d0;
+    --serif: 'Instrument Serif', Georgia, serif;
+    --sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --optimizer: #1d7775;
+    --social: #b07328;
+    --balancer: #3a7a55;
+    --dependent: #6454a4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 2rem 6rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  .subtitle {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--text-mid);
+    max-width: 55ch;
+    line-height: 1.55;
+  }
+
+  .dots {
+    display: flex;
+    gap: 6px;
+    margin-top: 1.25rem;
+  }
+
+  .dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.25rem;
+    margin-top: 3rem;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.75rem 1.75rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+                box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  }
+
+  .card-number {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+  }
+
+  .card h2 {
+    font-family: var(--serif);
+    font-size: 1.35rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .card-type {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6rem;
+    border-radius: 100px;
+    border: 1px solid var(--border);
+    color: var(--text-mid);
+  }
+
+  .card p {
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-mid);
+    line-height: 1.55;
+    flex-grow: 1;
+  }
+
+  .card-cta {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.03em;
+  }
+
+  .card-cta::after {
+    content: ' →';
+  }
+
+  .original {
+    border-color: var(--optimizer);
+    border-width: 1.5px;
+  }
+
+  .section-label {
+    margin-top: 3.5rem;
+    margin-bottom: -1.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-light);
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Persona Journey Concepts</h1>
+  <p class="subtitle">10 different presentation approaches for the ordering journey workshop section. Click any card to open that concept. Each is a complete, self-contained experience with all 4 personas.</p>
+  <div class="dots">
+    <span style="background: var(--optimizer)"></span>
+    <span style="background: var(--social)"></span>
+    <span style="background: var(--balancer)"></span>
+    <span style="background: var(--dependent)"></span>
+  </div>
+
+  <p class="section-label">Current version</p>
+  <div class="grid">
+    <a class="card original" href="persona_journeys.html">
+      <span class="card-number">Original</span>
+      <h2>Full-Screen Slide Deck</h2>
+      <span class="card-type">Click to advance</span>
+      <p>The current version. 32 full-screen slides, one stage per screen, linear presenter-controlled navigation. Animated journey track at the top.</p>
+      <span class="card-cta">Open</span>
+    </a>
+  </div>
+
+  <p class="section-label">New concepts</p>
+  <div class="grid">
+    <a class="card" href="concept_01_scroll_story.html">
+      <span class="card-number">Concept 01</span>
+      <h2>Scroll Story</h2>
+      <span class="card-type">Vertical scroll</span>
+      <p>Long-form scrollytelling like a NYT interactive. Scroll-triggered reveals, persona color washes, floating progress indicator. One continuous page.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_02_cinematic.html">
+      <span class="card-number">Concept 02</span>
+      <h2>Cinematic Widescreen</h2>
+      <span class="card-type">Click to advance</span>
+      <p>Dark warm background, dramatic typography, film-grain texture. Documentary feel — like an Apple keynote or Patagonia brand film. Persona color washes between chapters.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_03_accordion.html">
+      <span class="card-number">Concept 03</span>
+      <h2>Accordion Chapters</h2>
+      <span class="card-type">Click to expand</span>
+      <p>Single page with 4 expandable persona chapters. Click one to reveal their full journey as a vertical timeline. Smooth height animations.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_04_dashboard_zoom.html">
+      <span class="card-number">Concept 04</span>
+      <h2>Dashboard Zoom</h2>
+      <span class="card-type">Click to zoom in</span>
+      <p>Overview of 4 persona cards. Click a card to zoom in to their full journey. Back button returns to overview. Non-linear, exploratory.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_05_horizontal_timeline.html">
+      <span class="card-number">Concept 05</span>
+      <h2>Horizontal Timeline</h2>
+      <span class="card-type">Horizontal scroll</span>
+      <p>Persona tabs at top, horizontal scrolling timeline below. Drag sideways through stages with CSS scroll-snap. Real-time progress bar, crossfading persona switches.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_06_inner_monologue.html">
+      <span class="card-number">Concept 06</span>
+      <h2>Inner Monologue</h2>
+      <span class="card-type">Click to advance</span>
+      <p>Journey told as each persona's internal voice — first-person stream of consciousness. Background shifts warm/cool with emotion. Intimate, literary, empathetic.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_07_emotion_arc.html">
+      <span class="card-number">Concept 07</span>
+      <h2>Emotion Arc</h2>
+      <span class="card-type">Click data points</span>
+      <p>Each persona's emotional journey as an interactive line graph. See where excitement peaks and frustration dips. Click data points to reveal stage content. The graph IS the navigation.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_08_editorial.html">
+      <span class="card-number">Concept 08</span>
+      <h2>Editorial Magazine</h2>
+      <span class="card-type">Vertical scroll</span>
+      <p>High-end magazine layout. Drop caps, pull quotes, asymmetric columns, generous whitespace. Typography-first, minimal animation.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_09_interactive_path.html">
+      <span class="card-number">Concept 09</span>
+      <h2>Interactive Path</h2>
+      <span class="card-type">Click stops on path</span>
+      <p>SVG winding path with 6 clickable stops. Select a persona, then walk their path. Visited stops fill in. Journey metaphor made visual.</p>
+      <span class="card-cta">Open</span>
+    </a>
+
+    <a class="card" href="concept_10_card_stack.html">
+      <span class="card-number">Concept 10</span>
+      <h2>Card Stack</h2>
+      <span class="card-type">Click cards to deal</span>
+      <p>Personas as physical card decks. Cards deal left-to-right with a satisfying slide animation. Stack effect behind the current card. Tactile, playful, memorable.</p>
+      <span class="card-cta">Open</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>

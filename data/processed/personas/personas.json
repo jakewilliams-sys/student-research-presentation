@@ -1,0 +1,555 @@
+{
+  "personas": [
+    {
+      "persona_id": "pragmatic_optimizer",
+      "name": "The Pragmatic Optimizer",
+      "tagline": "Systematic efficiency meets strategic deal-hunting",
+      "size": 12,
+      "participants": [
+        "P002",
+        "P003",
+        "P007",
+        "P010",
+        "P012",
+        "P013",
+        "P018",
+        "P019",
+        "P020",
+        "P025",
+        "P030",
+        "P031"
+      ],
+      "segment_distribution": {
+        "undergraduate": 6,
+        "postgraduate": 3,
+        "graduate": 3
+      },
+      "key_characteristics": [
+        "Highly systematic approach to food and delivery decisions",
+        "Price-conscious with sophisticated comparison strategies",
+        "Views delivery as a calculated convenience tool rather than indulgence",
+        "Develops structured routines and optimization systems"
+      ],
+      "delivery_triggers": [
+        "Time pressure from structured schedules",
+        "Strategic use of promotions and deals",
+        "Post-exam or end-of-week rewards",
+        "Convenience during busy periods"
+      ],
+      "emotional_drivers": [
+        "Control and predictability",
+        "Value optimization and smart spending",
+        "Efficiency over variety",
+        "Earned rewards after achievement"
+      ],
+      "pain_points": [
+        "Hidden fees and price inflation on apps",
+        "Minimum order requirements for solo ordering",
+        "Inconsistent delivery times disrupting schedules",
+        "Subscription value calculations"
+      ],
+      "deliveroo_opportunities": [
+        "Transparent pricing with no hidden fees",
+        "Predictable delivery time guarantees",
+        "Student-specific bulk ordering discounts",
+        "Loyalty points convertible to future orders"
+      ],
+      "evidence": [
+        {
+          "participant": "P007",
+          "quote": "Then again, like I said with ordering a takeaway after, you know, sort of after an exam or something like that, that's, that's an enjoyable meal. It's like a reward. You've earned it.",
+          "context": "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+        },
+        {
+          "participant": "P013",
+          "quote": "Well, obviously a lot of it just comes down to like price and making things cheaper. So if they're going to make it more for students, obviously reducing the price would be one.",
+          "context": "RO5_engagement_opps.what_product_features_would_increase_rel"
+        },
+        {
+          "participant": "P019",
+          "quote": "I'd say delivery fee will be super important for students. The speed as well.",
+          "context": "RO5_engagement_opps.what_product_features_would_increase_rel",
+          "_unverified_persona_quote": true
+        }
+      ],
+      "representative_participants": [
+        "P002",
+        "P003",
+        "P007",
+        "P010",
+        "P012",
+        "P013",
+        "P018",
+        "P019",
+        "P020",
+        "P025",
+        "P030",
+        "P031"
+      ]
+    },
+    {
+      "persona_id": "social_orderer",
+      "name": "The Social Orderer",
+      "tagline": "Group dynamics drive delivery decisions",
+      "size": 9,
+      "participants": [
+        "P001",
+        "P009",
+        "P011",
+        "P015",
+        "P016",
+        "P017",
+        "P022",
+        "P027",
+        "P032"
+      ],
+      "segment_distribution": {
+        "undergraduate": 7,
+        "postgraduate": 2,
+        "graduate": 1
+      },
+      "key_characteristics": [
+        "Delivery becomes acceptable and less guilt-inducing in group contexts",
+        "Social influence heavily impacts ordering decisions",
+        "Friday evenings and weekend socializing drive orders",
+        "Collaborative price comparison and platform choice"
+      ],
+      "delivery_triggers": [
+        "Group gatherings and social events",
+        "Friday evening end-of-week celebrations",
+        "Post-night-out hunger with friends",
+        "Peer influence and social contagion"
+      ],
+      "emotional_drivers": [
+        "Social connection and shared experiences",
+        "Reduced guilt through group participation",
+        "FOMO and peer influence",
+        "Celebration and reward mentality"
+      ],
+      "pain_points": [
+        "Coordinating group orders and payments",
+        "Splitting costs fairly among friends",
+        "Different dietary preferences in groups",
+        "Minimum order thresholds for group sizes"
+      ],
+      "deliveroo_opportunities": [
+        "Group ordering features with automatic payment splitting",
+        "Social sharing of favorite restaurants",
+        "Group discount thresholds",
+        "Friday evening targeted promotions"
+      ],
+      "evidence": [
+        {
+          "participant": "P001",
+          "quote": "I guess, like, getting takeaway with friends or, like, I feel like when you're going out with friends, it's not as... like, it doesn't feel as bad getting a pizza or getting a spice bag. And, like, it definitely feels more like a social thing, being able to... like, rather than, like, ordering it to your house and, like, eating it on your own.",
+          "context": "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+        },
+        {
+          "participant": "P009",
+          "quote": "Anything with like, like as I said, like hanging out with my friends when we have a dinner plan or anything like that. Like I just came back from spoons with my friends so I think that's the thing. Like that feels social and comfortable for me."
+        },
+        {
+          "participant": "P015",
+          "quote": "I sat next to my mate, and he was... We were talking about what we was... get tweaks. There's a shop right next to the bus stop, and he was like, 'Oh, I just think I'm going to order something.' And then that's all, like, planted a seed in my head.",
+          "context": "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+        }
+      ],
+      "representative_participants": [
+        "P001",
+        "P009",
+        "P011",
+        "P015",
+        "P016",
+        "P017",
+        "P022",
+        "P027",
+        "P032"
+      ]
+    },
+    {
+      "persona_id": "convenience_dependent",
+      "name": "The Convenience Dependent",
+      "tagline": "Delivery as essential life infrastructure",
+      "size": 8,
+      "participants": [
+        "P006",
+        "P008",
+        "P024",
+        "P026",
+        "P029",
+        "P034",
+        "P035",
+        "P036"
+      ],
+      "segment_distribution": {
+        "undergraduate": 6,
+        "postgraduate": 1,
+        "graduate": 1
+      },
+      "key_characteristics": [
+        "High frequency ordering (multiple times per week)",
+        "Delivery integrated into daily routine as necessity",
+        "Time constraints and busy schedules drive dependence",
+        "Subscription services to optimize frequent usage"
+      ],
+      "delivery_triggers": [
+        "Daily convenience needs",
+        "Time pressure from work/study schedules",
+        "Lack of transportation or mobility constraints",
+        "Weather and environmental factors"
+      ],
+      "emotional_drivers": [
+        "Stress relief and time-saving",
+        "Comfort and routine maintenance",
+        "Avoiding decision fatigue",
+        "Maintaining productivity focus"
+      ],
+      "pain_points": [
+        "High cumulative costs from frequent ordering",
+        "Delivery address complications in student housing",
+        "Quality inconsistency affecting routine",
+        "Guilt about over-reliance on delivery"
+      ],
+      "deliveroo_opportunities": [
+        "Predictable daily meal solutions",
+        "Improved student accommodation delivery logistics",
+        "Bulk subscription discounts for frequent users",
+        "Health-conscious convenience options"
+      ],
+      "evidence": [
+        {
+          "participant": "P006",
+          "quote": "Okay, so pretty much it was in the morning, and I started noticing that we're running out of cereal, eggs, milk, porridge, and all that stuff. I was like, I don't feel like going down to the shop... and I didn't have the time to go down to the shop.",
+          "context": "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+        },
+        {
+          "participant": "P034",
+          "quote": "So this is a very, like, funny, small thing, but it's kind of difficult getting the deliveries, like, actually where you want them. So maybe it's just, like, the setup here at Oxford and the different colleges",
+          "context": "RO5_engagement_opps.what_product_features_would_increase_rel",
+          "_unverified_persona_quote": true
+        },
+        {
+          "participant": "P029",
+          "quote": "I mean... definitely winter. I think that's probably what started it... For me... just not wanting to leave the house as much.",
+          "context": "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+          "_unverified_persona_quote": true
+        }
+      ],
+      "representative_participants": [
+        "P006",
+        "P008",
+        "P024",
+        "P026",
+        "P029",
+        "P034",
+        "P035",
+        "P036"
+      ]
+    },
+    {
+      "persona_id": "budget_balancer",
+      "name": "The Budget Balancer",
+      "tagline": "Careful financial management meets occasional treats",
+      "size": 6,
+      "participants": [
+        "P004",
+        "P005",
+        "P023",
+        "P028",
+        "P037",
+        "P014",
+        "P021",
+        "P033",
+        "P038"
+      ],
+      "segment_distribution": {
+        "undergraduate": 6,
+        "postgraduate": 1,
+        "graduate": 2
+      },
+      "key_characteristics": [
+        "Strict budget consciousness with delivery as calculated treat",
+        "Low frequency ordering (monthly or less)",
+        "Strong preference for cooking and meal prep",
+        "Delivery reserved for special occasions or emergencies"
+      ],
+      "delivery_triggers": [
+        "Special occasions and celebrations",
+        "Emergency situations when cooking isn't possible",
+        "Exceptional deals and promotions",
+        "Social pressure in group situations"
+      ],
+      "emotional_drivers": [
+        "Financial responsibility and control",
+        "Guilt mitigation through rare usage",
+        "Value-seeking and deal optimization",
+        "Health consciousness and cooking pride"
+      ],
+      "pain_points": [
+        "High delivery costs relative to home cooking",
+        "Guilt about spending on 'unnecessary' convenience",
+        "Limited budget flexibility for spontaneous orders",
+        "Pressure to justify delivery expenses"
+      ],
+      "deliveroo_opportunities": [
+        "Student-specific pricing tiers",
+        "Emergency meal solutions at lower cost",
+        "Cooking ingredient delivery for meal prep",
+        "Occasional treat positioning rather than routine convenience"
+      ],
+      "evidence": [
+        {
+          "participant": "P005",
+          "quote": "justified is probably just when personally, for me, it's like, if it's Been a while if it's something that I've been feeling like having and if I like if it's time to do another grocery shop",
+          "context": "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+        },
+        {
+          "participant": "P023",
+          "quote": "I'm not really the kind of person that likes having subscriptions anyway because I just don't... like, like money coming out. Like, I prefer to pay for things, like, up front",
+          "context": "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+        },
+        {
+          "participant": "P037",
+          "quote": "I think... I think establishing more of those kind of, like, set-in-stone discounts for certain restaurants",
+          "context": "RO5_engagement_opps.what_product_features_would_increase_rel",
+          "_unverified_persona_quote": true
+        }
+      ],
+      "representative_participants": [
+        "P004",
+        "P005",
+        "P021",
+        "P023",
+        "P028",
+        "P037"
+      ]
+    }
+  ],
+  "journey_maps": [
+    {
+      "persona_id": "pragmatic_optimizer",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Structured schedule creates time pressure or earned reward moment",
+          "emotion": "Calculated",
+          "opportunity": "Predictable timing allows for targeted promotions"
+        },
+        {
+          "stage": "browse",
+          "description": "Systematic comparison across platforms for best value",
+          "emotion": "Focused",
+          "opportunity": "Transparent pricing and guaranteed delivery times"
+        },
+        {
+          "stage": "decide",
+          "description": "Price optimization with consideration of fees and promotions",
+          "emotion": "Analytical",
+          "opportunity": "Clear value proposition and loyalty benefits"
+        },
+        {
+          "stage": "order",
+          "description": "Efficient checkout with saved preferences",
+          "emotion": "Satisfied",
+          "opportunity": "Streamlined repeat ordering for frequent choices"
+        },
+        {
+          "stage": "wait",
+          "description": "Continues productive activities while tracking delivery",
+          "emotion": "Controlled",
+          "opportunity": "Accurate time estimates and proactive updates"
+        },
+        {
+          "stage": "receive",
+          "description": "Quick collection and immediate consumption",
+          "emotion": "Efficient",
+          "opportunity": "Reliable delivery to exact location"
+        },
+        {
+          "stage": "reflect",
+          "description": "Evaluates value received and updates future strategy",
+          "emotion": "Analytical",
+          "opportunity": "Post-order feedback and loyalty point accumulation"
+        }
+      ]
+    },
+    {
+      "persona_id": "social_orderer",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Social gathering or peer influence creates ordering idea",
+          "emotion": "Excited",
+          "opportunity": "Group-specific promotions and social features"
+        },
+        {
+          "stage": "browse",
+          "description": "Collaborative exploration with friends, sharing options",
+          "emotion": "Social",
+          "opportunity": "Group browsing features and shared wishlists"
+        },
+        {
+          "stage": "decide",
+          "description": "Group consensus building and dietary accommodation",
+          "emotion": "Negotiating",
+          "opportunity": "Group ordering tools with dietary filters"
+        },
+        {
+          "stage": "order",
+          "description": "Complex coordination of multiple preferences and payments",
+          "emotion": "Stressed",
+          "opportunity": "Automatic payment splitting and group checkout"
+        },
+        {
+          "stage": "wait",
+          "description": "Anticipation builds with social conversation",
+          "emotion": "Anticipatory",
+          "opportunity": "Group tracking and estimated arrival sharing"
+        },
+        {
+          "stage": "receive",
+          "description": "Shared meal experience with reduced individual guilt",
+          "emotion": "Joyful",
+          "opportunity": "Social sharing features and group photos"
+        },
+        {
+          "stage": "reflect",
+          "description": "Positive social memories outweigh cost concerns",
+          "emotion": "Satisfied",
+          "opportunity": "Social proof and group reordering suggestions"
+        }
+      ]
+    },
+    {
+      "persona_id": "convenience_dependent",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Daily routine need or time pressure emergency",
+          "emotion": "Urgent",
+          "opportunity": "Predictive ordering based on routine patterns"
+        },
+        {
+          "stage": "browse",
+          "description": "Quick scan of familiar options, minimal exploration",
+          "emotion": "Rushed",
+          "opportunity": "Personalized quick-order suggestions"
+        },
+        {
+          "stage": "decide",
+          "description": "Fast decision based on convenience and familiarity",
+          "emotion": "Decisive",
+          "opportunity": "One-click reordering of frequent choices"
+        },
+        {
+          "stage": "order",
+          "description": "Streamlined process with saved preferences",
+          "emotion": "Relieved",
+          "opportunity": "Subscription benefits and priority processing"
+        },
+        {
+          "stage": "wait",
+          "description": "Continues other activities, expects reliable timing",
+          "emotion": "Dependent",
+          "opportunity": "Proactive delivery updates and backup options"
+        },
+        {
+          "stage": "receive",
+          "description": "Quick integration into daily routine",
+          "emotion": "Functional",
+          "opportunity": "Seamless delivery to complex student addresses"
+        },
+        {
+          "stage": "reflect",
+          "description": "Evaluates convenience value, may feel guilt about frequency",
+          "emotion": "Conflicted",
+          "opportunity": "Health-conscious options and usage insights"
+        }
+      ]
+    },
+    {
+      "persona_id": "budget_balancer",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Special occasion, emergency, or exceptional deal",
+          "emotion": "Hesitant",
+          "opportunity": "Clear value messaging for special circumstances"
+        },
+        {
+          "stage": "browse",
+          "description": "Careful evaluation of options with price focus",
+          "emotion": "Cautious",
+          "opportunity": "Budget-friendly options and transparent pricing"
+        },
+        {
+          "stage": "decide",
+          "description": "Internal justification process and guilt management",
+          "emotion": "Conflicted",
+          "opportunity": "Occasional treat positioning and value emphasis"
+        },
+        {
+          "stage": "order",
+          "description": "Final price check and commitment anxiety",
+          "emotion": "Anxious",
+          "opportunity": "No hidden fees and clear final pricing"
+        },
+        {
+          "stage": "wait",
+          "description": "Anticipation mixed with spending guilt",
+          "emotion": "Guilty",
+          "opportunity": "Reinforcement of value and special occasion messaging"
+        },
+        {
+          "stage": "receive",
+          "description": "Enjoyment tempered by cost consciousness",
+          "emotion": "Bittersweet",
+          "opportunity": "Quality assurance and portion value"
+        },
+        {
+          "stage": "reflect",
+          "description": "Post-purchase evaluation and future budget planning",
+          "emotion": "Evaluative",
+          "opportunity": "Savings tracking and infrequent user retention"
+        }
+      ]
+    }
+  ],
+  "participant_assignments": {
+    "P001": "social_orderer",
+    "P002": "pragmatic_optimizer",
+    "P003": "pragmatic_optimizer",
+    "P004": "budget_balancer",
+    "P005": "budget_balancer",
+    "P006": "convenience_dependent",
+    "P007": "pragmatic_optimizer",
+    "P008": "convenience_dependent",
+    "P009": "social_orderer",
+    "P010": "pragmatic_optimizer",
+    "P011": "social_orderer",
+    "P012": "pragmatic_optimizer",
+    "P013": "pragmatic_optimizer",
+    "P015": "social_orderer",
+    "P016": "social_orderer",
+    "P017": "social_orderer",
+    "P018": "pragmatic_optimizer",
+    "P019": "pragmatic_optimizer",
+    "P020": "pragmatic_optimizer",
+    "P021": "budget_balancer",
+    "P022": "social_orderer",
+    "P023": "budget_balancer",
+    "P024": "convenience_dependent",
+    "P025": "pragmatic_optimizer",
+    "P026": "convenience_dependent",
+    "P027": "social_orderer",
+    "P028": "budget_balancer",
+    "P029": "convenience_dependent",
+    "P030": "pragmatic_optimizer",
+    "P031": "pragmatic_optimizer",
+    "P032": "social_orderer",
+    "P034": "convenience_dependent",
+    "P035": "convenience_dependent",
+    "P036": "convenience_dependent",
+    "P037": "budget_balancer"
+  }
+}

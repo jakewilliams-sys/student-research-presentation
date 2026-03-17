@@ -1,0 +1,194 @@
+{
+  "deep_dive_id": "DD_001",
+  "focus": "Subscription behavioral paradox mechanism",
+  "findings": {
+    "hypothesis_tested": "Plus subscription creates a behavioral paradox where users increase ordering frequency despite heightened cost awareness, driven by genuine economic rationality rather than psychological manipulation",
+    "verdict": "ECONOMIC RATIONALITY WITH PERFORMATIVE NEGATIVITY",
+    "evidence": {
+      "economic_drivers": {
+        "description": "Students who use subscriptions demonstrate rational economic behavior: they calculate per-order savings and maintain subscriptions when the math works",
+        "segments": [
+          {
+            "participant_id": "P002",
+            "text": "A lot of those kind of like interrelate. I'm going to say like the subscription benefits because then that does impact the like price or the value for money that you get off of it. Because your subscription benefits might be a promotion that's on or it might be, well, it should be like free delivery",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "I think so. I know that when you subscribe they kind of, they send you like a list of, of everything that you get with it and I feel like they kind of attach that to some emails as well. I'm not. I'd say I'm more aware of it with Uber just because I've. I've used the app a bit more than Deliveroo an",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P005",
+            "text": "So it wasn't like I was ordering takeaway more just convenience was more just because I can. Second year it was a lot less. And then third year I basically. Well yeah, third year I don't do as much anymore. It's just usually if it's convenient for me and I like have the money too and like if my brot",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P006",
+            "text": "Mostly delivery fees. I'm always looking at... can I save money on this delivery fee if it's a far restaurant? And mostly the promotions, like if you get the subscription, you're going to get more coupons or you're going to get cheaper food.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P009",
+            "text": "So obviously I was like, as I said, like my eating habits were changing. Like, I started to order frequently, more frequently. So I think just to save a bit of service fees and maybe get some more offers on the app, that was the only reason I just subscribed to it. And, like, it's going pretty well ",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 20
+      },
+      "performative_negativity": {
+        "description": "Negative sentiment toward subscriptions coexists with continued usage because students feel social pressure to appear frugal, not because they are genuinely dissatisfied",
+        "segments": [
+          {
+            "participant_id": "P001",
+            "text": "I think I'd have to look at, like, how often I'm ordering and kind of see, like, if it's free delivery and delivery is only €2... If I'm ordering four times a week, is the subscription more, more, or, like, equal to 8 Euro? Because if it's the same price as just ordering it without the subscription,",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P001",
+            "text": "I feel like... I feel like for me, myself, I feel like I just wouldn't float towards that because, like, it makes me feel like I need a subscription, which means I'm probably eating more takeaway than I should be. But I think a lot of the time they'll advertise it as, like, healthier options and, li",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "Not, not like massively so. Like I know what brands of stuff that I like and generally I'll stick to that even if something else is on deal. Obviously, like I mentioned a couple times, like the price of like deliveries and stuff and part of that is being like, Even with the Uber One subscription thi",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "No, not direct with supermarkets. The only time I'd ever order from. Order online. Order food online, sorry. In terms of groceries would be through like delivery or Ubereats. Mostly because they do have like the promos and stuff and I have. I don't know what they're called for both platforms. Is it ",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "So for me, like if I'm gonna order food online, groceries, I mean, I wouldn't do it directly with the supermarket because I'd have to pay for delivery when I've already paid for subscriptions to those?",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 45
+      },
+      "ordering_frequency_increase": {
+        "description": "Subscription holders explicitly acknowledge ordering more, but frame this as a rational response to lower marginal cost rather than loss of control",
+        "segments": [
+          {
+            "participant_id": "P001",
+            "text": "I think, as a student, just subscriptions as a whole are something I'd avoid because it's like... I don't know... it's kind of sad to see my money disappear at the start of the month. But I also think, specifically with food apps, I feel like if I have a subscription to it, I'll be a lot more inclin",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "Because it's like for the, the amount that you save does not outweigh the amount that you spend. If you're someone who even. Yeah. Even just ordering like once every couple of weeks. If I didn't have this subscription, I know that I probably wouldn't really order from UberEats. So yes, I save money,",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P006",
+            "text": "I'd say so. Yeah... like if I didn't have the subscription, I probably wouldn't be ordering on Uber or Deliveroo. Yeah.",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P008",
+            "text": "I would say yes. Most of the time it will be like you got a free delivery or some kind of a promise on going on the Uber one. So that just influenced to spend more money. And after I think as soon as, as soon as I graduate from the uni, I just cancelled Uber 1 because I was gaining too much weight a",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P011",
+            "text": "Do you find that you order more because you've got that membership? Yes, yes, I'd say that, yeah.",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 6
+      },
+      "bundle_economics": {
+        "description": "Students stack subscriptions (Prime + Deliveroo, Uber One transport + food) to maximize cross-service value",
+        "segments": [
+          {
+            "participant_id": "P002",
+            "text": "Delivery? I have, I think this must be included with my prime or something. So I have like Deliveroo Silver. I think I don't actually entirely know what that gets me. I do have it and I do use it every now and then, but it would mostly be if it was a restaurant that isn't on Uber. I would then check",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "Yes. So I changed my Uber 1 to the student one at the beginning of this year because that's when my Uber one renewed. And then I, I have read about The Deliveroo Student 1 and as I say, I think mine's related to my prime. I don't really know but I think I saw that that was coming to an end. So then ",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "So the reason, obviously I have Uber one, but basically the reason that I now use Uber for essentially everything is because they have now integrated with like you can buy your plane tickets, you can buy train tickets, you can buy Eurostar tickets, like they. And you can hire cars and stuff as well ",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P002",
+            "text": "So as I've touched on, so for me, Uber 1 is because it also incorporates the taxis, the trains, the travel and everything else. So you're getting benefits and cash back or credits on them. Whereas Deliveroo, as far as I know, and as I say I don't know, the ins and outs of it is more on the kind of l",
+            "stage": "undergraduate"
+          },
+          {
+            "participant_id": "P003",
+            "text": "I'd probably go always on offers. I don't. I mean, I notice it with Wingstop, but other than that, like, it wouldn't stop me from ordering if it didn't exist, so it's probably not that important. Yeah. So retail partners always on offers, then I think would be free delivery. Just because, like, it's",
+            "stage": "undergraduate"
+          }
+        ],
+        "total_count": 15
+      }
+    },
+    "sentiment_analysis": {
+      "undergraduate": {
+        "positive": 38,
+        "negative": 65,
+        "total_sub_segments": 152
+      },
+      "postgraduate": {
+        "positive": 7,
+        "negative": 13,
+        "total_sub_segments": 31
+      },
+      "graduate": {
+        "positive": 4,
+        "negative": 11,
+        "total_sub_segments": 24
+      }
+    },
+    "sub_segments": {
+      "bundle_optimizers": {
+        "description": "Students who stack Prime + Deliveroo or use Uber One for both transport and food",
+        "participants": [
+          "P002",
+          "P006",
+          "P018",
+          "P021"
+        ],
+        "behavior": "Subscription value is evaluated across entire ecosystem, not just food delivery"
+      },
+      "high_frequency_savers": {
+        "description": "Students who order 3+ times/week and achieve genuine per-order savings at scale",
+        "participants": [
+          "P006",
+          "P009",
+          "P011",
+          "P012"
+        ],
+        "behavior": "Subscription pays for itself through volume; ordering increase is rational response to lower marginal cost"
+      },
+      "reluctant_subscribers": {
+        "description": "Students who subscribe for free/trial offers but feel conflicted about continued use",
+        "participants": [
+          "P001",
+          "P023",
+          "P027",
+          "P035"
+        ],
+        "behavior": "Subscribe when free but resist paying; would cancel if cost were introduced"
+      },
+      "cancelled_subscribers": {
+        "description": "Students who actively cancelled subscriptions due to overuse guilt or budget pressure",
+        "participants": [
+          "P008",
+          "P017",
+          "P031"
+        ],
+        "behavior": "Cancellation driven by recognizing that subscription encouraged overspending, not by dissatisfaction with service"
+      }
+    },
+    "new_insight": "Subscription 'paradox' is actually economic rationality with performative negativity. Three sub-segments exist: bundle optimizers (stacking Prime/Uber transport), high-frequency savers (per-order savings at scale), and reluctant subscribers (subscribe when free but resist paying). Negative sentiment reflects social desirability bias (students feel they 'should' cook more) rather than genuine dissatisfaction with subscription value.",
+    "recommendation_update": "1) Show students their actual per-order savings in real-time to reinforce economic rationality. 2) For free-tier users, demonstrate concrete savings they would get from paid upgrade. 3) For cancelled users, offer 'pause' instead of cancel to retain them during guilt periods. 4) For bundle optimizers, strengthen the Prime partnership and explore transport integrations."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "participant_id": "P022",
+  "summary": "Katie is a 26-29 year old policy officer who has transitioned from student life in Dublin to working professional in Manchester. She presents as highly organized and systematic in her approach to food, with a clear preference for efficiency over culinary enjoyment. Her food relationship is fundamentally functional - she batch cooks once weekly to minimize effort, enjoys grocery shopping but dislikes cooking, and views delivery as a convenience tool rather than a treat. What's particularly striking is how her financial transition from student to graduate has shifted her relationship with convenience spending - she now feels justified paying for delivery because she 'makes enough money for convenience,' representing a clear psychological shift in how she values her time versus money. Katie operates with strong price sensitivity thresholds (£15 for delivery orders) and demonstrates sophisticated comparison shopping behaviors across apps. Her social food dynamics are notably independent despite living with a friend, reflecting a broader pattern of individualized food decision-making that extends to her delivery habits.",
+  "personality_notes": "Articulate and structured communicator who gives detailed, thoughtful responses. Presents as pragmatic and efficiency-focused rather than emotionally driven. Uses casual language ('pretty chill', 'cheeky top up shop') but maintains analytical precision when discussing behaviors and decisions.",
+  "food_relationship": "Views food functionally rather than passionately - enjoys shopping but dislikes cooking, batch prepares to minimize effort, and sees delivery as a practical convenience tool.",
+  "key_moments": [
+    {
+      "timestamp": "25:30",
+      "description": "Explicitly states 'I don't love to cook so I'll try and just do it the once'",
+      "significance": "Reveals core functional relationship with food preparation that drives her systematic batch cooking approach"
+    },
+    {
+      "timestamp": "45:20",
+      "description": "Describes feeling justified spending on convenience: 'I make enough money for convenience'",
+      "significance": "Shows clear psychological shift from student to graduate mindset around valuing time over money"
+    },
+    {
+      "timestamp": "44:30",
+      "description": "Admits delivery ordering has increased since graduation: 'More like, I feel like I'm like, oh, why? I make enough money for convenience'",
+      "significance": "Demonstrates how income change directly impacts delivery behavior and self-justification"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking for pleasure or food as emotional comfort",
+    "Avoided discussing any food-related social bonding or shared meals",
+    "No mention of dietary restrictions beyond vegetarianism",
+    "Did not discuss family food influences or background"
+  ],
+  "initial_hypotheses": [
+    "Her systematic batch cooking approach may make her less frequent but more predictable in delivery usage",
+    "Price sensitivity suggests she's likely to be highly responsive to targeted student/graduate offers",
+    "Independent food decision-making pattern may make her less influenced by social/group ordering dynamics",
+    "Her transition from student to graduate represents a key life stage where delivery habits crystallize"
+  ],
+  "questions_for_coding": [
+    "How does her vegetarianism influence her delivery restaurant choices and rotation?",
+    "What specific triggers cause her to break from her batch cooking routine?",
+    "How does her remote work setup influence her delivery timing and frequency?",
+    "What role does weather play in her delivery vs. shopping decisions beyond the specific example given?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yes, I am full time employed as a policy officer at the UNI of Manchester, so I work on a research program and do the advocacy side of things.\nspk_1: I graduated last year from a master's from Trinity College Dublin.\nspk_1: And then before that I did an undergrad in Scotland and St.\nspk_1: Andrews. So worked a lot when I was a student and now I'm working full time.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 241,
+      "end_char_index": 616,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, I work Monday to Friday, 9 to 5, roughly.\nspk_1: But it's flexible hours so it's pretty chill.\nspk_1: I'm mostly remote. ",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 720,
+      "end_char_index": 854,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like I don't love to cook so I'll try and just do it the once.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 8449,
+      "end_char_index": 8519,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like I probably cook once, maximum twice.\nspk_1: Like I try and do a big batch cook that will last and I'll make like a big lasagna or a big curry or a big bolognese.\nspk_1: I can use different ways.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 8242,
+      "end_char_index": 8449,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I quite like going food shopping so I like to do that myself.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 12995,
+      "end_char_index": 13064,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like I don't love to cook so I'll try and just do it the once.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 8449,
+      "end_char_index": 8519,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And I'm always like, if it's less than 15, I'll just do it.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 16391,
+      "end_char_index": 16458,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And I'm like, if it's less than 15 quid and it's not, say it's always like if the delivery price is more than the items, you're like, that's ridiculous.\nspk_1: I'll just stop being lazy.\nspk_1: But if it's less and it feels like a small number for a decent amount of items, so it'd be the price that would trigger it.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 18019,
+      "end_char_index": 18344,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: We do it separately for each other, so we're both independent there.\nspk_1: And then we just share sort of the main things like milk, bread, like.\nspk_1: Yeah, those sort of like core rice, pasta stuff we share.\nspk_1: Everything else is just independent.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 1788,
+      "end_char_index": 2051,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Whereas now I'm like, well, I make money.\nspk_1: It's a bit of a snob way to be like, well, I make money, so it's up to me how I want to spend it.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 27877,
+      "end_char_index": 28031,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: More like, I feel like I'm like, oh, why?\nspk_1: I make enough money for convenience.\n",
+      "document_index": 0,
+      "document_title": "P022 - P022 - Interview Transcript",
+      "start_char_index": 28086,
+      "end_char_index": 28179,
+      "participant_id": "P022",
+      "participant_name": "P022"
+    }
+  ],
+  "_citation_count": 11
+}

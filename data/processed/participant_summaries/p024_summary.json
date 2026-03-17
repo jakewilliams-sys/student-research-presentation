@@ -1,0 +1,112 @@
+{
+  "participant_id": "P024",
+  "summary": "Edna is a 22-year-old recent graduate in transition - working part-time while preparing to return to university in September. She presents herself as someone who loves cooking and does it frequently, but her actual behavior reveals a more complex relationship with food that's heavily influenced by mood, energy levels, and convenience. She's highly social media engaged (15 hours daily, primarily TikTok) and draws significant cooking inspiration from food influencers, particularly someone called Lara. However, there's a notable gap between her aspirational food identity and reality - she claims to cook 3x per week but her diary shows only about half her meals are home-cooked, with significant reliance on eating out and occasional delivery. Her transition from student to working adult has given her more financial freedom, leading to increased experimentation with restaurants and delivery, though she maintains strong price sensitivity and deal-seeking behavior. She has an all-or-nothing approach to cooking - either making elaborate, time-intensive meals or not cooking at all, which often leads to ordering when energy is low.",
+  "personality_notes": "Articulate and reflective communicator who's comfortable sharing personal details. Shows some perfectionist tendencies (won't make 'quick meals') and strong self-awareness about her habits. Open about contradictions without defensiveness. Highly social media engaged but thoughtful about its influence on her choices.",
+  "food_relationship": "Food serves as emotional regulation and self-expression, with cooking as a creative outlet when motivated, but convenience and mood heavily drive actual eating decisions.",
+  "key_moments": [
+    {
+      "timestamp": "15:30",
+      "description": "Describes spending 15 hours daily on social media without hesitation",
+      "significance": "Shows complete comfort with heavy digital consumption - this generation's relationship with online content as primary entertainment"
+    },
+    {
+      "timestamp": "25:45",
+      "description": "Explains cooking philosophy - only makes elaborate meals, never quick ones",
+      "significance": "Reveals perfectionist tendencies that may contribute to ordering when energy is low - no middle ground approach"
+    },
+    {
+      "timestamp": "48:20",
+      "description": "Describes how earning money changed her ordering habits completely",
+      "significance": "Clear demonstration of how financial constraints shaped student behavior vs. current freedom"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned specific cooking skills or techniques despite claiming to cook frequently",
+    "Avoided discussing any negative aspects of her heavy social media use",
+    "Didn't acknowledge the contradiction between claimed cooking frequency and actual behavior"
+  ],
+  "initial_hypotheses": [
+    "Her 'cooking identity' is aspirational rather than actual - she wants to be someone who cooks elaborate meals but often lacks the energy",
+    "Social media heavily influences her food desires but convenience ultimately drives decisions",
+    "The transition period (graduate to student again) creates uncertainty that manifests in inconsistent food routines"
+  ],
+  "questions_for_coding": [
+    "How do aspirational vs. actual food identities manifest across participants?",
+    "What role does social media play in creating food FOMO vs. actual behavior change?",
+    "How does financial transition (student to working to student again) affect food delivery usage patterns?"
+  ],
+  "diary_summary": "7-day diary shows 11/21 meals cooked at home, 7 eating out, 1 delivery order, 2 skipped meals. Heavy weekend eating out pattern with friends. More balanced than interview suggested but still significant gap from claimed cooking frequency.",
+  "say_do_gaps": [
+    "Claims to cook 3x per week but diary shows only ~50% of meals home-cooked",
+    "Profile lists 'Cook at home' as food habit but admits 'majority of time recently I've just been ordering'",
+    "Says she 'rarely' orders groceries for delivery but admits to spontaneous ordering when deals appear",
+    "Claims Saturdays are main delivery day but diary shows Sunday delivery order instead"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: A lot of time. It's the majority of my day, so I would say about 15 hours.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 2884,
+      "end_char_index": 2966,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: Cooking means actually making something because I don't really like making quick meals.\nspk_1: If I cook, it's something that I'm going to like and enjoy.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 6934,
+      "end_char_index": 7096,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: Because I know a lot of people like to make quick meals, but I'm not the type of person.\nspk_1: If I'm going to cook and spend time to cook, I'll actually make a decent meal.\nspk_1: That takes a while.\nspk_1: Yeah, essentially it's just a nice filling meal.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 7139,
+      "end_char_index": 7404,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: I would say three times a week.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 6529,
+      "end_char_index": 6568,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: But the majority of the time recently I've just been ordering.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 5085,
+      "end_char_index": 5155,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: I would definitely say that I've been more open to trying different things, especially because I earn my own money.\nspk_1: Back when I was a student, I was very much into budgeting, and because I only had a certain amount in my account, I had to spend it on transport, on uni appliances and all these things.\nspk_1: I was kind of limited.\nspk_1: But now that I earn my own money, I'm more accustomed to trying more restaurants, more different tastes.\nspk_1: So it's definitely changed.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 14445,
+      "end_char_index": 14938,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: So if I'm tired, I would say something filling, even just keep me awake.\nspk_1: Or if I'm happy, I just feel like something.\nspk_1: The sweet and the dessert just to, I don't know, make me feel sweet and soft.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 6265,
+      "end_char_index": 6482,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "She's very popular and that's where I get a lot of inspiration from my cooking.\nspk_1: So when I'm in the kitchen cooking a lot, so I get a lot of inspiration from a lot of influencers.\nspk_1: If I'm just scrolling on my for you page and I see something I like or there's a viral meal going around, I always like to try it and just do it myself.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 3316,
+      "end_char_index": 3662,
+      "participant_id": "P024"
+    }
+  ],
+  "_citation_count": 8
+}

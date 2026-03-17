@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Their Order — Student Food Delivery Personas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --text: #2c2a25;
+      --text-muted: #5a5750;
+      --optimizer: #1d7775;
+      --social: #b07328;
+      --balancer: #3a7a55;
+      --dependent: #6454a4;
+      --max-body: 60ch;
+      --margin-persona: 120px;
+      --stage-gap: 90px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .fade-in { opacity: 1 !important; transition: none !important; }
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* ——— HERO ——— */
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 0 6rem;
+      text-align: center;
+    }
+
+    .hero__title {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(4rem, 12vw, 10rem);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.5rem;
+      color: var(--text);
+    }
+
+    .hero__subtitle {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      line-height: 1.3;
+      font-style: italic;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* ——— INTRO ——— */
+    .intro {
+      max-width: var(--max-body);
+      margin: 0 auto 6rem;
+      font-size: 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+    }
+
+    /* ——— FADE IN ——— */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fade-in { transform: none; }
+    }
+
+    /* ——— COLOR BAND (100vw breakout) ——— */
+    .persona-band {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      padding: 5rem 2rem;
+      min-height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .persona-band--optimizer { background: var(--optimizer); }
+    .persona-band--social { background: var(--social); }
+    .persona-band--balancer { background: var(--balancer); }
+    .persona-band--dependent { background: var(--dependent); }
+
+    .persona-band__name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(3rem, 8vw, 6rem);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      color: white;
+      margin: 0 0 0.5rem;
+    }
+
+    .persona-band__tagline {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0;
+    }
+
+    /* ——— PULL QUOTE (intro) ——— */
+    .pull-quote-intro {
+      position: relative;
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      padding: 3rem 2rem 4rem;
+      background: var(--bg);
+    }
+
+    .pull-quote-intro::before {
+      content: '"';
+      position: absolute;
+      top: 0.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 6rem;
+      line-height: 1;
+      color: var(--persona-accent);
+      opacity: 0.25;
+    }
+
+    .pull-quote-intro__text {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      line-height: 1.4;
+      font-style: italic;
+      max-width: 50ch;
+      margin: 0 auto 0.75rem;
+      text-align: center;
+      color: var(--text);
+    }
+
+    .pull-quote-intro__cite {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 0.8125rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: center;
+      margin: 0;
+    }
+
+    /* ——— STATS ——— */
+    .persona-stats {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 0 0 4rem;
+      text-align: center;
+    }
+
+    .persona-stats span + span::before {
+      content: ' · ';
+    }
+
+    /* ——— STAGES PROSE ——— */
+    .persona-stages {
+      max-width: var(--max-body);
+      margin: 0 auto 0;
+      padding-bottom: var(--margin-persona);
+    }
+
+    .stage {
+      margin-bottom: var(--stage-gap);
+      position: relative;
+      display: grid;
+      grid-template-columns: 12ch 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    .stage:last-child {
+      margin-bottom: 0;
+    }
+
+    .stage--pull-quote {
+      grid-template-columns: 12ch 1fr min(28ch, 35%);
+      gap: 2rem;
+    }
+
+    .stage--pull-quote .stage__label { grid-column: 1; }
+    .stage--pull-quote .stage__content { grid-column: 2; }
+    .stage--pull-quote .stage__quote { grid-column: 3; grid-row: 1 / -1; }
+
+    @media (max-width: 768px) {
+      .stage--pull-quote {
+        grid-template-columns: 12ch 1fr;
+      }
+      .stage--pull-quote .stage__quote { grid-column: 2; grid-row: auto; }
+    }
+
+    /* Marginal annotation for stage name */
+    .stage__label {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--persona-accent);
+      text-align: right;
+      padding-top: 0.15rem;
+    }
+
+    .stage__content {
+      min-width: 0;
+    }
+
+    .stage__context {
+      font-size: 1.0625rem;
+      line-height: 1.6;
+      margin: 0 0 1rem;
+      color: var(--text);
+    }
+
+    .stage__quote {
+      margin: 1.25rem 0 0;
+      padding-left: 1.5rem;
+      border-left: 3px solid var(--persona-accent);
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      font-style: italic;
+      color: var(--text);
+    }
+
+    .stage__quote cite {
+      display: block;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-style: normal;
+      margin-top: 0.5rem;
+    }
+
+    .stage__emotion {
+      font-size: 0.875rem;
+      font-style: italic;
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+    }
+
+    /* Drop cap on first stage */
+    .stage--first .stage__context::first-letter {
+      font-family: 'Instrument Serif', Georgia, serif;
+      float: left;
+      font-size: 4.5rem;
+      line-height: 0.85;
+      margin-right: 0.35rem;
+      margin-top: 0.1rem;
+      color: var(--persona-accent);
+    }
+
+    /* Pull quote to the right (alternating) */
+    .stage--pull-quote .stage__quote {
+      position: sticky;
+      top: 2rem;
+      border-left: none;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 1.125rem;
+      color: var(--persona-accent);
+      margin: 0;
+    }
+
+    /* ——— SECTION BREAK ——— */
+    .section-break {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--text-muted) 20%, var(--text-muted) 80%, transparent);
+      opacity: 0.3;
+      margin: var(--margin-persona) 0;
+    }
+
+    /* ——— COMPARISON TABLE ——— */
+    .comparison {
+      margin: var(--margin-persona) 0;
+      padding: 4rem 0;
+    }
+
+    .comparison__heading {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.3;
+      text-align: center;
+      margin: 0 0 0.5rem;
+      color: var(--text);
+    }
+
+    .comparison__stage {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 0.875rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: center;
+      margin: 0 0 3rem;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: 72rem;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 900px) {
+      .comparison-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .comparison-card {
+      background: white;
+      border: 1px solid rgba(44, 42, 37, 0.08);
+      padding: 1.5rem;
+      border-radius: 2px;
+    }
+
+    .comparison-card--outlier {
+      border-color: rgba(44, 42, 37, 0.2);
+      box-shadow: 0 2px 12px rgba(44, 42, 37, 0.06);
+    }
+
+    .comparison-card__header {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1.25rem;
+      line-height: 1.3;
+      margin: 0 0 0.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--card-accent);
+    }
+
+    .comparison-card__emotion {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+
+    .comparison-card__emotion--positive { color: var(--card-accent); }
+    .comparison-card__emotion--negative { color: #a63d3d; }
+
+    .comparison-card__quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-style: italic;
+      margin: 0 0 0.5rem;
+      color: var(--text);
+    }
+
+    .comparison-card__cite {
+      font-size: 0.6875rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ——— CLOSING ——— */
+    .closing {
+      max-width: var(--max-body);
+      margin: var(--margin-persona) auto 6rem;
+      text-align: center;
+    }
+
+    .closing__heading {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      line-height: 1.3;
+      margin: 0 0 1.5rem;
+      color: var(--text);
+    }
+
+    .closing__body {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero fade-in">
+      <div class="container">
+        <h1 class="hero__title" data-title>Follow Their Order</h1>
+        <p class="hero__subtitle" data-subtitle>Four students. Six stages. One ordering journey.</p>
+      </div>
+    </section>
+
+    <section class="intro fade-in">
+      <div class="container">
+        <p>Same app. Four completely different experiences.</p>
+      </div>
+    </section>
+
+    <div id="personas-root"></div>
+
+    <section class="comparison fade-in">
+      <div class="container">
+        <h2 class="comparison__heading">Same moment. Four reactions.</h2>
+        <p class="comparison__stage">Placing the order</p>
+        <div class="comparison-grid" id="comparison-grid"></div>
+      </div>
+    </section>
+
+    <section class="closing fade-in">
+      <div class="container">
+        <h2 class="closing__heading">What happens between wanting to order and actually ordering?</h2>
+        <p class="closing__body">Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function() {
+      const embeddedData = {
+        "title": "Follow Their Order",
+        "subtitle": "Four students. Six stages. One ordering journey.",
+        "intro": "Same app. Four completely different experiences.",
+        "stages": ["Trigger", "Decision", "Order", "Wait", "Meal", "After"],
+        "stageNames": ["Deciding to order", "Choosing where & what", "Placing the order", "Waiting for delivery", "Eating the food", "After the meal"],
+        "closing": {
+          "heading": "What happens between wanting to order and actually ordering?",
+          "body": "Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap."
+        },
+        "personas": [
+          {
+            "id": "optimizer",
+            "name": "The Pragmatic Optimizer",
+            "shortName": "Optimizer",
+            "color": "#1d7775",
+            "colorSoft": "#e8f3f3",
+            "tagline": "Systematic efficiency meets strategic deal-hunting",
+            "stats": ["12 participants", "Orders fortnightly", "None hold Deliveroo Plus alone"],
+            "introQuote": { "text": "Ordering a takeaway after an exam… that's an enjoyable meal. It's like a reward. You've earned it.", "cite": "P007" },
+            "stages": [
+              { "name": "Deciding to order", "emotion": "Comfort", "score": "4/5", "context": "It's Thursday evening. Lectures are done, the library is closed, and tomorrow's assignment can wait. The thought of cooking crosses their mind — and is immediately weighed against the effort.", "quote": { "text": "It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on.", "cite": "P025" } },
+              { "name": "Choosing where & what", "emotion": "Stress", "score": "2/5", "context": "Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don't really want to hit £15.", "quote": { "text": "I try to make it about £15 to save delivery fees… it makes some changes in my delivery order.", "cite": "P012" } },
+              { "name": "Placing the order", "emotion": "Excitement", "score": "5/5", "context": "The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.", "quote": null },
+              { "name": "Waiting for delivery", "emotion": "Neutral", "score": "3/5", "context": "Twenty-five minutes. Time to do something else. The waiting barely registers — the emotional work was in the decision, not the delivery.", "quote": null, "limitedData": true },
+              { "name": "Eating the food", "emotion": "Comfort", "score": "4/5", "context": "The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction — a small, earned reward after a calculated decision.", "quote": null },
+              { "name": "After the meal", "emotion": "Excitement", "score": "5/5", "context": "Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.", "quote": { "text": "Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it.", "cite": "P007" } }
+            ]
+          },
+          {
+            "id": "social",
+            "name": "The Social Orderer",
+            "shortName": "Social",
+            "color": "#b07328",
+            "colorSoft": "#f7f0e4",
+            "tagline": "Group dynamics drive delivery decisions",
+            "stats": ["9 participants", "Orders fortnightly to monthly", "Friday evenings & weekends"],
+            "introQuote": { "text": "Oh, it's like an unspoken ritual… We're not meant to call it a 'ritual,' but it definitely is.", "cite": "P001" },
+            "stages": [
+              { "name": "Deciding to order", "emotion": "Stress", "score": "2/5", "context": "A friend mentions food. Another one pulls out their phone. The seed is planted. Now it's not about whether to order — it's about being part of the moment.", "quote": { "text": "I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head.", "cite": "P015" } },
+              { "name": "Choosing where & what", "emotion": "Stress", "score": "2/5", "context": "Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge — but deciding for the group means absorbing the blame if it's wrong.", "quote": { "text": "Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason.", "cite": "P022" } },
+              { "name": "Placing the order", "emotion": "Connection", "score": "5/5", "context": "One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.", "quote": { "text": "I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four.", "cite": "P009" } },
+              { "name": "Waiting for delivery", "emotion": "Neutral", "score": "3/5", "context": "The group shifts to something else — a show, a conversation, a game. The food is coming. That's all that matters right now.", "quote": null, "limitedData": true },
+              { "name": "Eating the food", "emotion": "Guilt", "score": "2/5", "context": "The food is eaten. The social energy fades. And then, quietly: was that too much? The guilt doesn't come from the food — it comes from eating it alone with your thoughts.", "quote": { "text": "When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own.", "cite": "P001" } },
+              { "name": "After the meal", "emotion": "Comfort", "score": "4/5", "context": "It's done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.", "quote": null }
+            ]
+          },
+          {
+            "id": "balancer",
+            "name": "The Budget Balancer",
+            "shortName": "Balancer",
+            "color": "#3a7a55",
+            "colorSoft": "#e9f3ed",
+            "tagline": "Careful financial management meets occasional treats",
+            "stats": ["6 participants", "Orders monthly or less", "Delivery reserved for special occasions"],
+            "introQuote": { "text": "I'm not really the kind of person that likes having subscriptions anyway because I just don't… like money coming out.", "cite": "P023" },
+            "stages": [
+              { "name": "Deciding to order", "emotion": "Stress", "score": "2/5", "context": "The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.", "quote": { "text": "Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop.", "cite": "P005" } },
+              { "name": "Choosing where & what", "emotion": "Comfort", "score": "4/5", "context": "When the answer is yes, there's relief. The guilt of deciding to order is replaced by the comfort of choosing well — finding the right deal, the right restaurant, the right amount. The hard part is over.", "quote": null },
+              { "name": "Placing the order", "emotion": "Frustration", "score": "2/5", "context": "Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.", "quote": null },
+              { "name": "Waiting for delivery", "emotion": "Neutral", "score": "3/5", "context": "The emotional weight was in the decision. Now there's just time. The waiting is empty — not anxious, not excited, just neutral.", "quote": null, "limitedData": true },
+              { "name": "Eating the food", "emotion": "Indifference", "score": "3/5", "context": "The food is fine. It's eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat — and that flatness is the insight.", "quote": null },
+              { "name": "After the meal", "emotion": "Comfort", "score": "4/5", "context": "It's over. The money is spent. And in the quiet aftermath, there's a gentle comfort: it was a while since the last one. It was justified.", "quote": { "text": "I've had quite a busy or stressful week as, like, a little reward.", "cite": "P028" } }
+            ]
+          },
+          {
+            "id": "dependent",
+            "name": "The Convenience Dependent",
+            "shortName": "Dependent",
+            "color": "#6454a4",
+            "colorSoft": "#efedf7",
+            "tagline": "Delivery as essential life infrastructure",
+            "stats": ["8 participants", "Orders multiple times per week", "Up to £100/week on food delivery"],
+            "introQuote": { "text": "Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend's house. About pretty much five times a week.", "cite": "P006" },
+            "stages": [
+              { "name": "Deciding to order", "emotion": "Frustration", "score": "2/5", "context": "The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn't about food — it's about everything else getting in the way of eating.", "quote": { "text": "I started noticing that we're running out of cereal, eggs, milk, porridge… I didn't feel like going down to the shop… and I didn't have the time.", "cite": "P006" } },
+              { "name": "Choosing where & what", "emotion": "Comfort", "score": "4/5", "context": "The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.", "quote": { "text": "I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time.", "cite": "P036" } },
+              { "name": "Placing the order", "emotion": "Connection", "score": "5/5", "context": "The order is placed — from a friend's house, between lectures, coordinated with a flatmate. Delivery isn't an event. It's infrastructure. The positive feeling comes from the routine itself working smoothly.", "quote": null },
+              { "name": "Waiting for delivery", "emotion": "Frustration", "score": "2/5", "context": "The driver can't find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn't.", "quote": { "text": "It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges.", "cite": "P034" } },
+              { "name": "Eating the food", "emotion": "Comfort", "score": "4/5", "context": "Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.", "quote": { "text": "Definitely winter. I think that's probably what started it… just not wanting to leave the house as much.", "cite": "P029" } },
+              { "name": "After the meal", "emotion": "Stress", "score": "2/5", "context": "Then the bank notification arrives. Ninety pounds this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow it'll happen again.", "quote": { "text": "I'd say about… I don't want to lie… about 90 to 100 quid just alone on food, maybe even more.", "cite": "P006" } }
+            ]
+          }
+        ],
+        "comparison": {
+          "stage": "Placing the order",
+          "heading": "Same moment. Four reactions.",
+          "cards": [
+            { "persona": "The Pragmatic Optimizer", "emotion": "Excitement", "positive": true, "score": "5 / 5", "quote": "It's like a reward. You've earned it.", "cite": "P007", "color": "#1d7775" },
+            { "persona": "The Social Orderer", "emotion": "Connection", "positive": true, "score": "5 / 5", "quote": "I ordered from my account all together and then we split it.", "cite": "P009", "color": "#b07328" },
+            { "persona": "The Budget Balancer", "emotion": "Frustration", "positive": false, "score": "2 / 5", "quote": "I just don't like money coming out.", "cite": "P023", "color": "#3a7a55", "outlier": true },
+            { "persona": "The Convenience Dependent", "emotion": "Connection", "positive": true, "score": "5 / 5", "quote": "About pretty much five times a week.", "cite": "P006", "color": "#6454a4" }
+          ]
+        }
+      };
+
+      let data = embeddedData;
+      const jsonPath = '_persona_data.json';
+      if (typeof fetch !== 'undefined' && location.protocol !== 'file:') {
+        fetch(jsonPath).then(r => r.json()).then(d => { data = d; run(); }).catch(() => run());
+      } else {
+        run();
+      }
+
+      function escapeHtml(s) {
+        const div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+      }
+
+      function renderPersona(p) {
+        const stagesWithQuotes = p.stages.map((s, i) => ({ ...s, index: i })).filter(s => s.quote);
+        const pullQuoteIndices = new Set();
+        if (stagesWithQuotes.length >= 2) {
+          pullQuoteIndices.add(stagesWithQuotes[1].index);
+        }
+        if (stagesWithQuotes.length >= 4) {
+          pullQuoteIndices.add(stagesWithQuotes[3].index);
+        }
+
+        let stagesHtml = '';
+        p.stages.forEach((s, i) => {
+          const isFirst = i === 0;
+          const hasPullQuote = s.quote && pullQuoteIndices.has(i);
+          const stageClass = ['stage', isFirst ? 'stage--first' : '', hasPullQuote ? 'stage--pull-quote' : ''].filter(Boolean).join(' ');
+
+          let quoteHtml = '';
+          if (s.quote) {
+            quoteHtml = `<blockquote class="stage__quote">${escapeHtml(s.quote.text)}<cite>${escapeHtml(s.quote.cite)}</cite></blockquote>`;
+          }
+
+          const emotionHtml = `<span class="stage__emotion">— ${escapeHtml(s.emotion)}, ${escapeHtml(s.score)}</span>`;
+
+          const contentHtml = `
+            <p class="stage__context">${escapeHtml(s.context)} ${emotionHtml}</p>
+            ${!hasPullQuote ? quoteHtml : ''}
+          `;
+
+          stagesHtml += `
+            <article class="${stageClass} fade-in">
+              <span class="stage__label">${escapeHtml(s.name)}</span>
+              <div class="stage__content">
+                ${contentHtml}
+              </div>
+              ${hasPullQuote ? quoteHtml : ''}
+            </article>`;
+        });
+
+        return `
+          <section class="persona-spread">
+            <div class="persona-band persona-band--${p.id}" style="--persona-accent: ${p.color}">
+              <h2 class="persona-band__name">${escapeHtml(p.name)}</h2>
+              <p class="persona-band__tagline">${escapeHtml(p.tagline)}</p>
+            </div>
+            <div class="pull-quote-intro fade-in" style="--persona-accent: ${p.color}">
+              <p class="pull-quote-intro__text">${escapeHtml(p.introQuote.text)}</p>
+              <p class="pull-quote-intro__cite">${escapeHtml(p.introQuote.cite)}</p>
+            </div>
+            <div class="container">
+              <p class="persona-stats fade-in">${p.stats.map(s => `<span>${escapeHtml(s)}</span>`).join('')}</p>
+              <div class="persona-stages" style="--persona-accent: ${p.color}">
+                ${stagesHtml}
+              </div>
+            </div>
+          </section>
+          ${p.id !== 'dependent' ? '<hr class="section-break">' : ''}
+        `;
+      }
+
+      function renderComparison() {
+        return data.comparison.cards.map(c => `
+          <div class="comparison-card fade-in ${c.outlier ? 'comparison-card--outlier' : ''}" style="--card-accent: ${c.color}">
+            <h3 class="comparison-card__header">${escapeHtml(c.persona)}</h3>
+            <p class="comparison-card__emotion comparison-card__emotion--${c.positive ? 'positive' : 'negative'}">${escapeHtml(c.emotion)} · ${escapeHtml(c.score)}</p>
+            <p class="comparison-card__quote">"${escapeHtml(c.quote)}"</p>
+            <p class="comparison-card__cite">${escapeHtml(c.cite)}</p>
+          </div>
+        `).join('');
+      }
+
+      function run() {
+        document.getElementById('personas-root').innerHTML = data.personas.map(renderPersona).join('');
+        document.getElementById('comparison-grid').innerHTML = renderComparison();
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        if (!prefersReducedMotion) {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+              }
+            });
+          }, { rootMargin: '0px 0px -80px 0px', threshold: 0.05 });
+
+          document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        } else {
+          document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

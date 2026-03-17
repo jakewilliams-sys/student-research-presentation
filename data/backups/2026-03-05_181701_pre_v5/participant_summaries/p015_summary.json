@@ -1,0 +1,154 @@
+{
+  "participant_id": "P015",
+  "summary": "Evan is a 19-year-old first-year sports journalism student who presents as refreshingly honest and self-aware about his habits and limitations. He's undergone a significant lifestyle shift from rural living to university life in Southampton, where delivery apps have become a newfound convenience that he admits to using more than he probably should. His relationship with food is highly pragmatic and convenience-driven, shaped by his busy schedule of lectures, American football training, and games that can take him across the country. He operates with a clear hierarchy of food decisions: taste, price, and time/effort required, with convenience often winning when he's exhausted after training or long days. Despite his convenience-seeking behaviour, Evan maintains a strong cost-consciousness, regularly comparing prices between apps and setting informal budgets, though he admits to being 'not very good' at sticking to them. His mother still orders his weekly groceries, suggesting he's still transitioning to full independence. The interview revealed someone who is analytical about his choices while being honest about his weaknesses - he knows he spends too much time on social media, orders takeaway more than he should, and isn't great at budgeting, but he's matter-of-fact rather than defensive about these traits.",
+  "personality_notes": "Straightforward and self-reflective communicator who gives honest, detailed responses. Shows good self-awareness about his habits and limitations without being defensive. Analytical in his thinking but admits to being disorganized with planning and budgeting.",
+  "food_relationship": "Food is primarily functional and convenience-driven, with delivery serving as a reliable fallback when energy is low or plans break down after busy university and sports commitments.",
+  "key_moments": [
+    {
+      "timestamp": "14:40-14:47",
+      "description": "Describes how his mate talking about ordering food 'planted a seed' in his head, leading to his own order",
+      "significance": "Shows how social influence and peer behaviour can trigger spontaneous ordering decisions, even when not initially planned"
+    },
+    {
+      "timestamp": "16:66-17:71",
+      "description": "Explains the dramatic change from rural home with no delivery options to university with abundant choice",
+      "significance": "University represents a transformative moment in food access and habits - delivery apps are still relatively new and exciting to him"
+    },
+    {
+      "timestamp": "17:77-17:78",
+      "description": "Considers grocery delivery but decides against it, saying 'I don't need to be that lazy'",
+      "significance": "Shows internal tension between convenience desire and self-perception - has limits to how much convenience he'll accept"
+    }
+  ],
+  "what_not_said": [
+    "Details about cooking skills or interest in food preparation",
+    "Social eating with flatmates beyond kitchen conversations",
+    "Any discussion of dietary restrictions or health considerations",
+    "Specific financial pressures or budget constraints from family"
+  ],
+  "initial_hypotheses": [
+    "University transition students may be particularly susceptible to delivery habit formation as they discover new conveniences",
+    "Sports commitments create predictable high-fatigue moments that drive convenience-seeking behaviour",
+    "Social influence from peers may be a stronger trigger than individual hunger or planning",
+    "Students may maintain cost-consciousness while simultaneously increasing convenience spending due to lifestyle changes"
+  ],
+  "questions_for_coding": [
+    "How does the transition from rural to urban living affect delivery adoption patterns?",
+    "What role does peer influence play in spontaneous ordering decisions?",
+    "How do students balance cost-consciousness with convenience-seeking behaviour?",
+    "What are the specific triggers that override cost concerns in favour of convenience?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Probably too much...\nspk_1: Probably three or four hours, I reckon.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 2488,
+      "end_char_index": 2563,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Bit of a guilty habit to be.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 3409,
+      "end_char_index": 3438,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I tried to have a set budget, but I'm not very good at sort of, like, organizing everything.\nspk_1: So, like, if it happens, it sort of happens, but I try and remain in sort of the, like, 120, 130th sort of ballpark.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 8751,
+      "end_char_index": 8975,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Probably convenience.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 9086,
+      "end_char_index": 9115,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I'll get back, and then I'm like, I can't really be bothered to cook.\nspk_1: So I just have a look on the takeaway apps, and probably just all the sunning.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 9365,
+      "end_char_index": 9521,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like, I thought that it's, like, easy and I could just get it in the, like, next 15 minutes instead of going all the way to the shop and buying, like, ingredients and stuff.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 3606,
+      "end_char_index": 3787,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, so last time I ordered was about a week and a half ago.\nspk_1: It was after my training, so it was Wednesday night, and I finished training...\nspk_1: It's eight to 10, so I finished training at 10, and I have to get the bus back with my mates.\nspk_1: And I sat next to my mate, and he was...\nspk_1: We were talking about what we was...\nspk_1: get tweaks. There's a shop right next to the bus stop, and he was like, 'Oh, I just think I'm going to order something.' And then that's all, like, planted a seed in my head.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 10137,
+      "end_char_index": 10668,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'd say so, because when I was at home, I lived like in the middle of nowhere in a very rural town.\nspk_1: So, like, and there's pretty much no...\nspk_1: I mean, there's takeaways, but you have to go and drive to get them.\nspk_1: There's no, like, UberEats or Deliveroo or whatever.\nspk_1: So coming here to uni, it was a big, like, wow!\nspk_1: I've actually got, like, stuff I can order.\nspk_1: So yeah, I think I have definitely changed my habits.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 11709,
+      "end_char_index": 12166,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'm trying to be as economical as possible at the minute.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 18518,
+      "end_char_index": 18583,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And when I've, like, looked through ordering it to see how much it'd be, I think, well, I could just walk down to the shop.\nspk_1: I don't need to be that lazy.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 12509,
+      "end_char_index": 12677,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, I order... Well, my mum actually orders my food shopping.\nspk_1: We do that about once a week.\n",
+      "document_index": 0,
+      "document_title": "P015 - P015 - Interview Transcript",
+      "start_char_index": 5936,
+      "end_char_index": 6044,
+      "participant_id": "P015",
+      "participant_name": "P015"
+    }
+  ],
+  "_citation_count": 11
+}

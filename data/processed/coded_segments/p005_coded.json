@@ -1,0 +1,1000 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P005_INT_001",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I'm not actually a huge fan of having breakfast, but if I did it would be like some sort of pastry. So like if I went little would be like a little bakery item like a croissant or maybe like brioche buns, even just something quick because yeah, I don't really spend most of my mornings eating breakfast",
+      "timestamp": "1-165,1-166",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "morning",
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "quick"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'm not actually a huge fan of having breakfast but if i did it would be like some sort of pastry so like if i went little would be like a little bakery item like a croissant or maybe like brioche buns even just something quick because yeah i don't really spend most of my mornings eating breakfast"
+      }
+    },
+    {
+      "segment_id": "P005_INT_002",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I just want something that I can sort of quickly eat so I can do something else. Unless I. I do find myself to be busy during the weekdays, so I'd rather have something that I can either quickly eat with my hands or like not have to worry about washing my hands or. Yeah, just something that I can quickly put in a box and actually keep it in my bag without it. But worrying about spilling it and stuff.",
+      "timestamp": "1-192,1-193,1-194,1-195",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "quickly",
+          "busy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "time"
+        ],
+        "influence": [
+          "academic_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i just want something that i can sort of quickly eat so i can do something else unless i i do find myself to be busy during the weekdays so i'd rather have something that i can either quickly eat with my hands or like not have to worry about washing my hands or yeah just something that i can quickly"
+      }
+    },
+    {
+      "segment_id": "P005_INT_003",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I'm not a fan of like just seeing people in this. I'd rather just be in and out. I don't want to spend most of my time there.",
+      "timestamp": "1-198,1-199,1-200",
+      "research_objective_codes": [
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "frustration"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "in and out"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "social_anxiety"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'm not a fan of like just seeing people in this i'd rather just be in and out i don't want to spend most of my time there"
+      }
+    },
+    {
+      "segment_id": "P005_INT_004",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "It just means having something that I can control the ingredients of and like, rather than buying something. And obviously it's a lot more cost effective to make something yourself. So like a bag of Asta can go a long way. That's multiple portions rather than just buying those ready to eat ones that you can heat up",
+      "timestamp": "1-217,1-218,1-219,1-220",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "control"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "quality"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it just means having something that i can control the ingredients of and like rather than buying something and obviously it's a lot more cost effective to make something yourself so like a bag of asta can go a long way that's multiple portions rather than just buying those ready to eat ones that you"
+      }
+    },
+    {
+      "segment_id": "P005_INT_005",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "My brother currently lives in university halls with me so if he says do you want to get McDonald's or do you want to get Subway? I'd probably just say yes and we'll order it together. Because also there's the small order charge which makes it really difficult for ordering for one person when you have to spend, I think it's at least £15 to get free delivery",
+      "timestamp": "1-228,1-229,1-230",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "family",
+        "temporal": [
+          "evening"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price",
+          "social"
+        ],
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "my brother currently lives in university halls with me so if he says do you want to get mcdonald's or do you want to get subway i'd probably just say yes and we'll order it together because also there's the small order charge which makes it really difficult for ordering for one person when you have "
+      }
+    },
+    {
+      "segment_id": "P005_INT_006",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "It could just be something that I'm craving. I might be sick of the meals that I'm having or do I just want. Yeah, usually just to treat myself because it's obviously a lot more convenient just to take something out of your fridge and heat it up",
+      "timestamp": "1-329,1-330,1-331",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "treat"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it could just be something that i'm craving i might be sick of the meals that i'm having or do i just want yeah usually just to treat myself because it's obviously a lot more convenient just to take something out of your fridge and heat it up"
+      }
+    },
+    {
+      "segment_id": "P005_INT_007",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "most likely a Friday, depending on, like, what the flatmates are up to. If they're all, like, spending time in the kitchen or if they've got their friends over in the kitchen. I don't feel like going in. The takeaway might also be a push for me rather than choosing something and spending a quick minute in the kitchen to go heat it up.",
+      "timestamp": "1-337,1-338,1-339,1-340",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "frustration"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "evening",
+          "weekend"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "push"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "flatmates",
+          "social_anxiety"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "most likely a friday depending on like what the flatmates are up to if they're all like spending time in the kitchen or if they've got their friends over in the kitchen i don't feel like going in the takeaway might also be a push for me rather than choosing something and spending a quick minute in t"
+      }
+    },
+    {
+      "segment_id": "P005_INT_008",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I think my brother and I went to go see him and we were just talking. I think we were. I think he was going to make food, but he would have had to go food shopping. He doesn't enjoy going to Lidl as much, so he usually does most of his shopping at Tesco, which is a lot more expensive. And I knew that. I felt like having a takeaway. So then it was more just. It would be a lot cheaper to order together.",
+      "timestamp": "1-353,1-354,1-355,1-356,1-357,1-358,1-359,1-360",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "family",
+        "temporal": [
+          "evening"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price",
+          "convenience"
+        ],
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think my brother and i went to go see him and we were just talking i think we were i think he was going to make food but he would have had to go food shopping he doesn't enjoy going to lidl as much so he usually does most of his shopping at tesco which is a lot more expensive and i knew that i fel"
+      }
+    },
+    {
+      "segment_id": "P005_INT_009",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I'd like to say that in first year, I was ordering a lot more. Especially if. I know, like, when you're, like, kind of on your own by yourself, and if you're bored as well, you kind of feel like eating, and then it's almost just like whatever you've been craving kind of kicks in.",
+      "timestamp": "1-400,1-401,1-402",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "loneliness",
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "craving"
+        ],
+        "competitive": null,
+        "value_component": [
+          "comfort"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd like to say that in first year i was ordering a lot more especially if i know like when you're like kind of on your own by yourself and if you're bored as well you kind of feel like eating and then it's almost just like whatever you've been craving kind of kicks in"
+      }
+    },
+    {
+      "segment_id": "P005_INT_010",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I think it's a lot to do with like the freedom as well. Like you obviously at home we don't have takeaways as often. And then obviously you go to uni, you can basically eat whatever you want. You can eat whenever you want. And then it's like I can even order takeaway at 11pm so then it was more just doing that because I can and because I had the money to as well.",
+      "timestamp": "1-405,1-406,1-407,1-408,1-409",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "late_night"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "freedom",
+          "because I can"
+        ],
+        "competitive": null,
+        "value_component": [
+          "freedom"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think it's a lot to do with like the freedom as well like you obviously at home we don't have takeaways as often and then obviously you go to uni you can basically eat whatever you want you can eat whenever you want and then it's like i can even order takeaway at 11pm so then it was more just doin"
+      }
+    },
+    {
+      "segment_id": "P005_INT_011",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I feel like when it's guilty is when you have food at home or you have other things to eat that you can make, but you just feel, like, lazy to actually get up and make something and you decide to order instead.",
+      "timestamp": "1-483",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i feel like when it's guilty is when you have food at home or you have other things to eat that you can make but you just feel like lazy to actually get up and make something and you decide to order instead"
+      }
+    },
+    {
+      "segment_id": "P005_INT_012",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "justified is probably just when personally, for me, it's like, if it's Been a while if it's something that I've been feeling like having and if I like if it's time to do another grocery shop or I've filled or finished all my meal prepped lunches and dinners for the day and I just wanted to treat myself if it's like been a hard week or if it's just been a super busy week with a bunch of deadlines and stuff.",
+      "timestamp": "1-484",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "exam_period"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "treat",
+          "hard week",
+          "deadlines"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "academic_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "justified is probably just when personally for me it's like if it's been a while if it's something that i've been feeling like having and if i like if it's time to do another grocery shop or i've filled or finished all my meal prepped lunches and dinners for the day and i just wanted to treat myself"
+      }
+    },
+    {
+      "segment_id": "P005_INT_013",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I use delivery a lot more now just because they've got delivery. Plus I think it's like the silver tier for students, like, so there's the discount of like you getting free delivery with your food.",
+      "timestamp": "1-495,1-496",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": null,
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "deliveroo_vs_uber",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i use delivery a lot more now just because they've got delivery plus i think it's like the silver tier for students like so there's the discount of like you getting free delivery with your food"
+      }
+    },
+    {
+      "segment_id": "P005_INT_014",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I don't know if I feel like I'm getting my money's worth by ordering, especially if it's something like a small order kind of like, I don't know, pushes me to, like, kind of not order instead. Especially if it's like something like, I want something small and then I have to pay if delivery is like, an extortionate amount of money.",
+      "timestamp": "1-527,1-528",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "money's worth",
+          "extortionate"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i don't know if i feel like i'm getting my money's worth by ordering especially if it's something like a small order kind of like i don't know pushes me to like kind of not order instead especially if it's like something like i want something small and then i have to pay if delivery is like an extor"
+      }
+    },
+    {
+      "segment_id": "P005_INT_015",
+      "participant_id": "P005",
+      "source": "interview",
+      "text": "I definitely think reduce, like, the minimum, like, price for the order. When you usually buy for yourself, you are usually. Not everyone has a big appetite. I wouldn't say I have a small appetite either, but for example, like a McDonald's meal, my order would just come to 6, 6 pounds, maybe even like 7 or 8, depending on the slight upcharge that a delivery app might have. And when you have a minimum order of 15 pounds, that's basically two meals",
+      "timestamp": "1-711,1-712,1-713,1-714",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i definitely think reduce like the minimum like price for the order when you usually buy for yourself you are usually not everyone has a big appetite i wouldn't say i have a small appetite either but for example like a mcdonald's meal my order would just come to 6 6 pounds maybe even like 7 or 8 dep"
+      }
+    },
+    {
+      "segment_id": "P005_DIARY_001",
+      "participant_id": "P005",
+      "source": "diary",
+      "text": "i had a nap once i arrived at my boyfriend's accommodation, as he was ill we decided to order nandos for dinner",
+      "timestamp": "Day 1",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "evening"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "social"
+        ],
+        "influence": [
+          "partner",
+          "care"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P005_DIARY_002",
+      "participant_id": "P005",
+      "source": "diary",
+      "text": "me and my boyfriend came home at 6am that day and slept until 5pm, once we cleaned up we didnt feel like making late lunch/early dinner and decided to order instead as we were craving food from our cuisine (south asian). we chose deliveroo due to the free delivery and because we saw a restaurant on here as an option a while ago and we remembered it was on deliveroo",
+      "timestamp": "Day 5",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "evening"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "craving"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "convenience"
+        ],
+        "influence": [
+          "partner",
+          "cultural_food"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P005_DIARY_003",
+      "participant_id": "P005",
+      "source": "diary_reflection",
+      "text": "So I don't usually eat breakfast, which is why I skipped it today. I woke up, around a normal time, like, somewhere between nine and ten. And I usually don't feel that hungry. I do usually have, like, a cup of tea and just leave it at that.",
+      "timestamp": "Day 2",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "morning"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "contradicts_interview_pastry_mention",
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P005_DIARY_004",
+      "participant_id": "P005",
+      "source": "diary_reflection",
+      "text": "This usually does follow my day to day. I don't usually feel that hungry in the morning, and I tend to eat, either lunch or dinner as like a lighter meal than the other. It just depends on how hungry I am, what time it is",
+      "timestamp": "Day 2",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P005_DIARY_005",
+      "participant_id": "P005",
+      "source": "diary_reflection",
+      "text": "So due to having an event the day before, I ended up staying awake until seven AM on that day, so I didn't have any breakfast. I got in the car. It's a four hour car journey. I fell asleep the entire journey. I got home around here at twelve PM ish and fell asleep again until five PM. So I don't have breakfast and I don't have lunch, which is why both these meals are skipped.",
+      "timestamp": "Day 4",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": [
+          "social_events"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "kitchen_avoidance_trigger",
+      "description": "Social anxiety around shared kitchen spaces directly triggers delivery ordering as an avoidance mechanism"
+    },
+    {
+      "theme_name": "academic_efficiency_eating",
+      "description": "Extreme focus on portable, quick-consumption food driven by academic workload and time pressure"
+    },
+    {
+      "theme_name": "partner_ordering_enabler",
+      "description": "Romantic partner acts as primary social enabler for delivery orders, providing both cost-sharing and emotional permission"
+    }
+  ],
+  "coding_summary": "P005 demonstrates highly functional, efficiency-driven eating patterns with delivery serving as both a social bonding tool (with brother/partner) and kitchen avoidance mechanism. Strong analytical mindset applied to cost-benefit analysis of ordering, with clear articulation of student-specific friction points around minimum orders. Diary reveals more frequent delivery usage than interview suggests, particularly in social contexts.",
+  "coverage_gaps": [
+    {
+      "research_objective": "RO4_post_graduation",
+      "reason": "Participant is current undergraduate with no post-graduation experience or concrete future plans discussed"
+    }
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: Just something that I'm not a fan of, like sitting down with a plate and a fork and a knife and like going like, have actually like, I don't know, I just want something that I can sort of quickly eat so I can do something else.\nspk_1: Unless I. I do find myself to be busy during the weekdays, so I'd rather have something that I can either quickly eat with my hands or like not have to worry about washing my hands or.\nspk_1: Yeah, just something that I can quickly put in a box and actually keep it in my bag without it.\nspk_1: But worrying about spilling it and stuff.\nspk_1: I know pasta is usually okay as well for that.\nspk_1: Be it just something that I can easily make without having to spend too much time in the kitchen, especially with a shared kitchen.\nspk_1: I'm not a fan of like just seeing people in this.\nspk_1: I'd rather just be in and out.\nspk_1: I don't want to spend most of my time there.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 13263,
+      "end_char_index": 14182,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: It just means having something that I can control the ingredients of and like, rather than buying something.\nspk_1: And obviously it's a lot more cost effective to make something yourself.\nspk_1: So like a bag of Asta can go a long way.\nspk_1: That's multiple portions rather than just buying those ready to eat ones that you can heat up and it's not much more about the balanced eating part that most pro.\nspk_1: It's just more just like being cost effective and not wasting like 3 pounds on a meal that I could probably have every day.\nspk_1: And like going out and buying these ready made meals, I just enjoy being able to change like seasonings and like how I cook stuff or more ingredients to add one time and then maybe that's the next time.\nspk_1: So you're just having control of over what I make and how I eat it and.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 15110,
+      "end_char_index": 15944,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: My brother currently lives in university halls with me so if he says do you want to get McDonald's or do you want to get Subway?\nspk_1: I'd probably just say yes and we'll order it together.\nspk_1: Because also there's the small order charge which makes it really difficult for ordering for one person when you have to spend, I think it's at least £15 to get free delivery or even if you spend less than £15 they give you an extra fee.\nspk_1: So because it's a small order, so then it just makes sense to order it with someone or just like walk or travel to that place and buy it yourself.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 16383,
+      "end_char_index": 16980,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: Or, like, most likely a Friday, depending on, like, what the flatmates are up to.\nspk_1: If they're all, like, spending time in the kitchen or if they've got their friends over in the kitchen.\nspk_1: I don't feel like going in.\nspk_1: The takeaway might also be a push for me rather than choosing something and spending a quick minute in the kitchen to go heat it up.\nspk_1: Especially because it's a small kitchen, there's not really much room to, like, stand there and, like, prepare your food.\nspk_1: So I'd rather. If I feel like having a takeaway already, and then that's, like, kind of the pushing point.\nspk_1: It would just be whether I want to spend that time in the kitchen with all those people.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 26232,
+      "end_char_index": 26946,
+      "participant_id": "P005"
+    },
+    {
+      "cited_text": "spk_1: I definitely think reduce, like, the minimum, like, price for the order.\nspk_1: When you usually buy for yourself, you are usually.\nspk_1: Not everyone has a big appetite.\nspk_1: I wouldn't say I have a small appetite either, but for example, like a McDonald's meal, my order would just come to 6, 6 pounds, maybe even like 7 or 8, depending on the slight upcharge that a delivery app might have.\nspk_1: And when you have a minimum order of 15 pounds, that's basically two meals, it kind of either forces you to buy more on that order, whether it be like desserts or, like, even more drinks or extras.\nspk_1: Not everyone would want to order more.\nspk_1: They might just want an easy meal that they can get delivered to them.\nspk_1: Especially if you're not in a place where you can walk to the place or travel to that place to actually go by yourself.\nspk_1: You might just want something for convenience.\nspk_1: Not everyone knows how to cook.\nspk_1: It might just be, you know, just something that they want to have.\nspk_1: And I don't think you should be asked to spend twice as more than you need to in order to get free delivery or pay a small fee because you have a small order or then pay a delivery on top of that.\nspk_1: It just makes it seem like a ridiculous price for the small amount of food that you would want to order.\nspk_1: So, yeah, I think definitely reducing that more order fee that they are more inclined to order food for themselves and.\n",
+      "document_title": "Interview Transcript — P005",
+      "document_index": 0,
+      "start_char_index": 55584,
+      "end_char_index": 57054,
+      "participant_id": "P005"
+    }
+  ],
+  "_citation_count": 5,
+  "participant_id": "P005",
+  "_ro_coverage": {
+    "RO1_eating_moments": 7,
+    "RO2_delivery_triggers": 12,
+    "RO3_emotional_social": 6,
+    "RO4_post_graduation": 2,
+    "RO5_engagement_opps": 2
+  }
+}

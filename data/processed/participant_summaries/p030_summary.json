@@ -1,0 +1,154 @@
+{
+  "participant_id": "P030",
+  "summary": "P030 is a second-year financial maths student who has undergone a significant transformation in his relationship with money and food delivery since starting university. He presents as someone who learned financial discipline the hard way - after spending freely in first year and experiencing financial constraints, he now approaches spending with careful consideration and views himself as more financially savvy than his peers. His delivery ordering has evolved from 2-3 times per week in first year to 1-2 times currently, reflecting this newfound financial consciousness. Despite this restraint, he maintains a clear framework for when delivery feels justified - primarily as a reward or celebration after achievements, busy days, or rugby victories. His approach to ordering is methodical and value-driven, consistently comparing apps and building baskets on both Deliveroo and Uber Eats to ensure he gets the best deal. He lives with five other male housemates in what appears to be a more harmonious living situation than his previous year, though the group dynamics around food remain individualistic - they prefer to order separately rather than coordinate group orders due to differing preferences.",
+  "personality_notes": "Articulate and reflective communicator who speaks in measured, thoughtful responses. Shows strong analytical thinking (fitting for a maths student) and demonstrates genuine self-awareness about his behavioral changes. Comes across as responsible and mature, with a clear sense of personal growth and learning from past mistakes.",
+  "food_relationship": "Views delivery as a calculated reward system within a broader framework of financial responsibility and cooking pragmatism.",
+  "key_moments": [
+    {
+      "timestamp": "1-75 to 1-78",
+      "description": "Explains his financial transformation from spending freely to being more careful with money",
+      "significance": "Reveals the learning process that now drives his delivery behavior - shows this isn't just theoretical budgeting but learned from real financial consequences"
+    },
+    {
+      "timestamp": "1-243 to 1-246",
+      "description": "Describes delivery as something he orders after feeling like he's 'earned it' - after good uni days, exams, rugby wins",
+      "significance": "Shows delivery functions as a reward system tied to achievement and effort, not just convenience"
+    },
+    {
+      "timestamp": "1-612 to 1-614",
+      "description": "During live order, confirms he always compares apps to 'get the best deal possible'",
+      "significance": "Demonstrates that his stated value-conscious behavior is genuine - he actually does the comparison work he claims"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned any financial support from parents or family",
+    "Didn't discuss any negative aspects of his current living situation",
+    "Avoided specifics about what went wrong financially in first year",
+    "No mention of any food restrictions, dietary preferences, or health considerations"
+  ],
+  "initial_hypotheses": [
+    "His financial discipline may be more fragile than he presents - the reward framework could easily expand if circumstances change",
+    "The methodical app comparison behavior suggests he may be over-optimizing small purchases as a way to feel in control of spending",
+    "His individual ordering preference despite living with 5 housemates may indicate social dynamics or personal boundaries around food/money",
+    "The 'earned it' mentality could make him particularly responsive to achievement-based or milestone marketing"
+  ],
+  "questions_for_coding": [
+    "How does his reward-based ordering framework compare to other participants' trigger patterns?",
+    "Is his app comparison behavior typical among financially conscious students?",
+    "How does his living situation (6 male housemates) influence his food and delivery patterns compared to other housing arrangements?",
+    "Does his financial transformation narrative appear in other participants who've been at university longer?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I like to think it's better than the average.\nspk_1: Like I said, at the start of uni, it wasn't the best.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 4859,
+      "end_char_index": 4973,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I'm a lot more savvy with the way I'm spending it, and I like to save more than I spend.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 4993,
+      "end_char_index": 5082,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Definitely, at the start of uni, I spent a lot very quickly, and then, for a while, I didn't have a lot of money, so I wasn't doing the things that I could be doing.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 5331,
+      "end_char_index": 5504,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And I just thought, right, I need to just check in...\nspk_1: how much I have daily.\nspk_1: If I like membership, any subscriptions or anything...\nspk_1: if I, for example, if I'm comfortable to make food one night and I want to order some food, I think, do I really need to order that?\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 5517,
+      "end_char_index": 5810,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Probably after I've, like...\nspk_1: almost like after I felt like I've earned it.\nspk_1: So, like I said, on Mondays I've got a full day of uni, etc., so if I've...\nspk_1: I've gone to uni and I've done well, I feel like...\nspk_1: like it's a celebration in a way.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 19705,
+      "end_char_index": 19977,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Or after any exams or deadlines, or if I've a lot of time...\nspk_1: if I've had a rugby game and we've won out, like it's an acceleration in a way, out of food.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 19990,
+      "end_char_index": 20158,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Could you just talk me through, in a bit more detail, like what kind of tends to prompt you to choose...\nspk_1: To order food delivery on a Monday, for example, it'll be that I've just had a full day of uni, and then I had to come straight back from uni to here, get ready, go do training, and then I'll get back and be here at about 8.\nspk_1: I'll be hungry, and the last thing I want to do is go make a load of food, like cook it.\nspk_1: So I'll just... It just be more like tiredness that I'll just be sat here wanting to chill out for the rest of the evening and then go, 'I don't want to make food.' So I'll start scrolling, and then I'll just kind of make the decision...\nspk_1: just order it.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 14774,
+      "end_char_index": 15481,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Exactly. Yeah, that's what I like to do.\nspk_1: Because then I can...\nspk_1: I can know that I'm getting the best deal possible.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 48512,
+      "end_char_index": 48648,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yes, I sometimes, as well, like...\nspk_1: will put them both in a basket, evaluate what I get for each, price-wise, etc.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 45641,
+      "end_char_index": 45769,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Why do you choose to kind of do separate orders as a group?\nspk_1: A lot of the time, it's...\nspk_1: we struggle to find something that everyone wants.\nspk_1: So, one person wants a burger, one will want Chinese, or etc., and then it's just easier to order separately.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 6850,
+      "end_char_index": 7126,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "More so, it's just myself.\nspk_1: There've been rare occasions where we've done, like, a group order.\nspk_1: Like I said, it's hard to find because there's six of us in the house...\nspk_1: it's hard to find something that all six of us want.\nspk_1: So, we tend to just order separately.\n",
+      "document_index": 0,
+      "document_title": "P030 - P030 - Interview Transcript",
+      "start_char_index": 15989,
+      "end_char_index": 16276,
+      "participant_id": "P030",
+      "participant_name": "P030"
+    }
+  ],
+  "_citation_count": 11
+}

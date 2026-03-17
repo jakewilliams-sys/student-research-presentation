@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inner Monologue — Follow Their Order</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-cream: #f8f6f1;
+      --bg-warm: #f5f0e5;
+      --bg-cool: #eef0f2;
+      --text-dark: #2c2a25;
+      --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+      --transition-duration: 300ms;
+      --optimizer: #1d7775;
+      --social: #b07328;
+      --balancer: #3a7a55;
+      --dependent: #6454a4;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      color: var(--text-dark);
+      background: var(--bg-cream);
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      padding: clamp(2rem, 5vw, 4rem);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-duration) var(--ease-out-quart),
+                  visibility 0s linear var(--transition-duration);
+      background: var(--bg-cream);
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+      transition: opacity var(--transition-duration) var(--ease-out-quart),
+                  visibility 0s linear 0s;
+    }
+
+    .slide[data-bg="warm"] { background: var(--bg-warm); }
+    .slide[data-bg="cool"] { background: var(--bg-cool); }
+
+    @media (prefers-reduced-motion: reduce) {
+      .slide,
+      .slide.active,
+      .slide-content,
+      .quote-block {
+        transition: none !important;
+      }
+      .slide-content.animate-in .monologue-text,
+      .slide-content.animate-in .quote-block {
+        animation: none !important;
+        opacity: 1 !important;
+      }
+    }
+
+    /* Title slide */
+    .slide-title {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .slide-title h1 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 0.5em;
+    }
+
+    .slide-title .subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      font-weight: 500;
+      opacity: 0.8;
+    }
+
+    /* Intro slide */
+    .slide-intro {
+      justify-content: center;
+      max-width: 42rem;
+      margin: 0 auto;
+    }
+
+    .slide-intro p {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* Persona intro slides */
+    .slide-persona-intro {
+      justify-content: center;
+    }
+
+    .slide-persona-intro .persona-name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 400;
+      margin-bottom: 0.25em;
+    }
+
+    .slide-persona-intro .persona-tagline {
+      font-size: 1rem;
+      font-weight: 500;
+      opacity: 0.7;
+      margin-bottom: 2rem;
+    }
+
+    .slide-persona-intro .intro-quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+      font-style: italic;
+      line-height: 1.6;
+      max-width: 36rem;
+    }
+
+    .slide-persona-intro .intro-quote-cite {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-style: normal;
+      font-size: 0.875rem;
+      opacity: 0.6;
+      margin-top: 0.75rem;
+    }
+
+    /* Monologue stage slides */
+    .slide-stage {
+      justify-content: flex-start;
+    }
+
+    .slide-stage .stage-label {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.5;
+      margin-bottom: 1.5rem;
+    }
+
+    .slide-stage .emotion-badge {
+      position: absolute;
+      top: clamp(2rem, 5vw, 4rem);
+      right: clamp(2rem, 5vw, 4rem);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      opacity: 0.7;
+    }
+
+    .slide-stage .emotion-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+
+    .slide-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 52rem;
+    }
+
+    .slide-content.animate-in .monologue-text {
+      animation: fadeIn var(--transition-duration) var(--ease-out-quart) forwards;
+    }
+
+    .slide-content.animate-in .quote-block {
+      animation: fadeIn 200ms var(--ease-out-quart) 200ms forwards;
+    }
+
+    .slide-content .monologue-text {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+      font-style: italic;
+      line-height: 1.5;
+      opacity: 0;
+    }
+
+    .slide-content .quote-block {
+      margin-top: 2rem;
+      padding-left: 1.25rem;
+      border-left: 2px solid rgba(44, 42, 37, 0.2);
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 1rem;
+      font-style: normal;
+      line-height: 1.6;
+      opacity: 0;
+    }
+
+    .slide-content .quote-block .cite {
+      font-size: 0.8125rem;
+      opacity: 0.6;
+      margin-top: 0.5rem;
+    }
+
+    .slide-stage .persona-footer {
+      position: absolute;
+      bottom: clamp(2rem, 5vw, 4rem);
+      left: clamp(2rem, 5vw, 4rem);
+      font-size: 0.75rem;
+      font-weight: 500;
+      opacity: 0.5;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Comparison slide */
+    .slide-comparison {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slide-comparison h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+
+    .slide-comparison .comparison-stage {
+      font-size: 0.875rem;
+      opacity: 0.6;
+      margin-bottom: 2rem;
+    }
+
+    .comparison-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      max-width: 56rem;
+      width: 100%;
+    }
+
+    .comparison-card {
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 4px;
+      border-left: 4px solid;
+    }
+
+    .comparison-card .persona-name {
+      font-weight: 600;
+      font-size: 0.9375rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .comparison-card .emotion {
+      font-size: 0.75rem;
+      opacity: 0.7;
+      margin-bottom: 0.75rem;
+    }
+
+    .comparison-card .quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    .comparison-card .cite {
+      font-size: 0.75rem;
+      opacity: 0.6;
+      margin-top: 0.5rem;
+    }
+
+    /* Closing slide */
+    .slide-closing {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .slide-closing h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+      font-weight: 400;
+      max-width: 36rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.4;
+    }
+
+    .slide-closing p {
+      font-size: 1rem;
+      line-height: 1.6;
+      opacity: 0.85;
+      max-width: 32rem;
+    }
+
+    /* Navigation & counter */
+    .slide-counter {
+      position: fixed;
+      bottom: clamp(2rem, 5vw, 4rem);
+      right: clamp(2rem, 5vw, 4rem);
+      font-size: 0.75rem;
+      font-weight: 500;
+      opacity: 0.4;
+      z-index: 10;
+    }
+
+    .nav-hint {
+      position: fixed;
+      bottom: clamp(2rem, 5vw, 4rem);
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.35;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="slides-container">
+    <!-- 1. Title -->
+    <div class="slide slide-title active" data-index="0">
+      <h1>Inner Monologue</h1>
+      <p class="subtitle">Follow Their Order — Four students. Six stages. One journey.</p>
+    </div>
+
+    <!-- 2. Intro -->
+    <div class="slide slide-intro" data-index="1">
+      <p>Same app. Four completely different experiences. This is the journey told as each persona's internal voice — the audience inside the student's head.</p>
+    </div>
+
+    <!-- Optimizer intro -->
+    <div class="slide slide-persona-intro" data-index="2" data-persona="optimizer">
+      <h2 class="persona-name" style="color: var(--optimizer)">The Pragmatic Optimizer</h2>
+      <p class="persona-tagline">Systematic efficiency meets strategic deal-hunting</p>
+      <blockquote class="intro-quote">"Ordering a takeaway after an exam… that's an enjoyable meal. It's like a reward. You've earned it."<span class="intro-quote-cite">— P007</span></blockquote>
+    </div>
+
+    <!-- Optimizer stages 1–6 -->
+    <div class="slide slide-stage" data-index="3" data-bg="warm" data-persona="optimizer">
+      <span class="stage-label">Deciding to order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--optimizer)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">Thursday evening. Lectures done, library closed. I could cook… but do I really want to? After a day like that, I've earned something better. The question isn't whether to order — it's how to order smart.</p>
+        <div class="quote-block"><span>"It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on."</span><div class="cite">— P025</div></div>
+      </div>
+      <span class="persona-footer">Optimizer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="4" data-bg="cool" data-persona="optimizer">
+      <span class="stage-label">Choosing where & what</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--optimizer)"></span> Stress</div>
+      <div class="slide-content">
+        <p class="monologue-text">Three apps. Three sets of delivery fees. I know if I add a drink I can hit £15 and save on delivery. It's not complicated — it's just maths. But it takes time. Time I'd rather not spend.</p>
+        <div class="quote-block"><span>"I try to make it about £15 to save delivery fees… it makes some changes in my delivery order."</span><div class="cite">— P012</div></div>
+      </div>
+      <span class="persona-footer">Optimizer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="5" data-bg="warm" data-persona="optimizer">
+      <span class="stage-label">Placing the order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--optimizer)"></span> Excitement</div>
+      <div class="slide-content">
+        <p class="monologue-text">Done. Order's in. The fee was manageable, the deal was good enough. Now I just wait. That feeling — the anticipation? That's the reward starting already.</p>
+      </div>
+      <span class="persona-footer">Optimizer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="6" data-persona="optimizer">
+      <span class="stage-label">Waiting for delivery</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--optimizer)"></span> Neutral</div>
+      <div class="slide-content">
+        <p class="monologue-text">Twenty-five minutes. I'll do something else. The hard part was deciding, not waiting.</p>
+      </div>
+      <span class="persona-footer">Optimizer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="7" data-bg="warm" data-persona="optimizer">
+      <span class="stage-label">Eating the food</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--optimizer)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">Exactly what I expected. Nothing wrong with that. A quiet reward after a calculated decision.</p>
+      </div>
+      <span class="persona-footer">Optimizer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="8" data-bg="warm" data-persona="optimizer">
+      <span class="stage-label">After the meal</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--optimizer)"></span> Excitement</div>
+      <div class="slide-content">
+        <p class="monologue-text">Worth it. The math checked out. A productive day, capped with something I earned.</p>
+        <div class="quote-block"><span>"Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it."</span><div class="cite">— P007</div></div>
+      </div>
+      <span class="persona-footer">Optimizer</span>
+    </div>
+
+    <!-- Social intro -->
+    <div class="slide slide-persona-intro" data-index="9" data-persona="social">
+      <h2 class="persona-name" style="color: var(--social)">The Social Orderer</h2>
+      <p class="persona-tagline">Group dynamics drive delivery decisions</p>
+      <blockquote class="intro-quote">"Oh, it's like an unspoken ritual… We're not meant to call it a 'ritual,' but it definitely is."<span class="intro-quote-cite">— P001</span></blockquote>
+    </div>
+
+    <!-- Social stages 1–6 -->
+    <div class="slide slide-stage" data-index="10" data-bg="cool" data-persona="social">
+      <span class="stage-label">Deciding to order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--social)"></span> Stress</div>
+      <div class="slide-content">
+        <p class="monologue-text">My mate just mentioned food. That's all it takes. Now there's a seed in my head and I can already feel Friday night happening.</p>
+        <div class="quote-block"><span>"I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head."</span><div class="cite">— P015</div></div>
+      </div>
+      <span class="persona-footer">Social</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="11" data-bg="cool" data-persona="social">
+      <span class="stage-label">Choosing where & what</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--social)"></span> Stress</div>
+      <div class="slide-content">
+        <p class="monologue-text">Everyone's got opinions. Different restaurants, different apps. Someone's got to take charge. Problem is, if the food's bad, that's on me.</p>
+        <div class="quote-block"><span>"Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason."</span><div class="cite">— P022</div></div>
+      </div>
+      <span class="persona-footer">Social</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="12" data-bg="warm" data-persona="social">
+      <span class="stage-label">Placing the order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--social)"></span> Connection</div>
+      <div class="slide-content">
+        <p class="monologue-text">One phone, my account, my membership. We'll split it later. For a moment everyone's aligned — this is our Friday night.</p>
+        <div class="quote-block"><span>"I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four."</span><div class="cite">— P009</div></div>
+      </div>
+      <span class="persona-footer">Social</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="13" data-persona="social">
+      <span class="stage-label">Waiting for delivery</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--social)"></span> Neutral</div>
+      <div class="slide-content">
+        <p class="monologue-text">Someone puts on a show. The food's coming. That's all that matters right now.</p>
+      </div>
+      <span class="persona-footer">Social</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="14" data-bg="cool" data-persona="social">
+      <span class="stage-label">Eating the food</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--social)"></span> Guilt</div>
+      <div class="slide-content">
+        <p class="monologue-text">The food's eaten. The energy's different now. Was that too much? When I'm with friends it doesn't feel as bad. But alone with my thoughts… the guilt creeps in.</p>
+        <div class="quote-block"><span>"When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own."</span><div class="cite">— P001</div></div>
+      </div>
+      <span class="persona-footer">Social</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="15" data-bg="warm" data-persona="social">
+      <span class="stage-label">After the meal</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--social)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">Plates stacked, containers gone. The evening settles into that comfort that only comes from routine. Next Friday, same thing.</p>
+      </div>
+      <span class="persona-footer">Social</span>
+    </div>
+
+    <!-- Balancer intro -->
+    <div class="slide slide-persona-intro" data-index="16" data-persona="balancer">
+      <h2 class="persona-name" style="color: var(--balancer)">The Budget Balancer</h2>
+      <p class="persona-tagline">Careful financial management meets occasional treats</p>
+      <blockquote class="intro-quote">"I'm not really the kind of person that likes having subscriptions anyway because I just don't… like money coming out."<span class="intro-quote-cite">— P023</span></blockquote>
+    </div>
+
+    <!-- Balancer stages 1–6 -->
+    <div class="slide slide-stage" data-index="17" data-bg="cool" data-persona="balancer">
+      <span class="stage-label">Deciding to order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--balancer)"></span> Stress</div>
+      <div class="slide-content">
+        <p class="monologue-text">Has it been long enough? Is there food in the fridge? Am I actually craving this or just being lazy? Three conditions. All three need a yes before I let myself order.</p>
+        <div class="quote-block"><span>"Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop."</span><div class="cite">— P005</div></div>
+      </div>
+      <span class="persona-footer">Balancer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="18" data-bg="warm" data-persona="balancer">
+      <span class="stage-label">Choosing where & what</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--balancer)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">Permission granted. Now the guilt lifts and it's actually… nice. Finding the right deal, the right restaurant. The hard part is over.</p>
+      </div>
+      <span class="persona-footer">Balancer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="19" data-bg="cool" data-persona="balancer">
+      <span class="stage-label">Placing the order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--balancer)"></span> Frustration</div>
+      <div class="slide-content">
+        <p class="monologue-text">Then the price hits. Delivery fee. Service fee. The total creeps up past what feels comfortable. And they want me to pay for a subscription on top?</p>
+      </div>
+      <span class="persona-footer">Balancer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="20" data-persona="balancer">
+      <span class="stage-label">Waiting for delivery</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--balancer)"></span> Neutral</div>
+      <div class="slide-content">
+        <p class="monologue-text">The emotional work was in deciding. Now I just wait. Empty time. Not anxious, not excited.</p>
+      </div>
+      <span class="persona-footer">Balancer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="21" data-persona="balancer">
+      <span class="stage-label">Eating the food</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--balancer)"></span> Indifference</div>
+      <div class="slide-content">
+        <p class="monologue-text">The food is fine. It's eaten without ceremony. For me, the drama was in the permission. This part is just… flat.</p>
+      </div>
+      <span class="persona-footer">Balancer</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="22" data-bg="warm" data-persona="balancer">
+      <span class="stage-label">After the meal</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--balancer)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">It's over. Money spent. But in the quiet after, there's comfort: it's been a while. It was justified. I earned this.</p>
+        <div class="quote-block"><span>"I've had quite a busy or stressful week as, like, a little reward."</span><div class="cite">— P028</div></div>
+      </div>
+      <span class="persona-footer">Balancer</span>
+    </div>
+
+    <!-- Dependent intro -->
+    <div class="slide slide-persona-intro" data-index="23" data-persona="dependent">
+      <h2 class="persona-name" style="color: var(--dependent)">The Convenience Dependent</h2>
+      <p class="persona-tagline">Delivery as essential life infrastructure</p>
+      <blockquote class="intro-quote">"Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend's house. About pretty much five times a week."<span class="intro-quote-cite">— P006</span></blockquote>
+    </div>
+
+    <!-- Dependent stages 1–6 -->
+    <div class="slide slide-stage" data-index="24" data-bg="cool" data-persona="dependent">
+      <span class="stage-label">Deciding to order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--dependent)"></span> Frustration</div>
+      <div class="slide-content">
+        <p class="monologue-text">Cereal's gone. Milk's out. The shop is twenty minutes in February rain. The frustration isn't about food — it's everything else getting in the way of eating.</p>
+        <div class="quote-block"><span>"I started noticing that we're running out of cereal, eggs, milk, porridge… I didn't feel like going down to the shop… and I didn't have the time."</span><div class="cite">— P006</div></div>
+      </div>
+      <span class="persona-footer">Dependent</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="25" data-bg="warm" data-persona="dependent">
+      <span class="stage-label">Choosing where & what</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--dependent)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">The app's already open. The regular order's right there. The only real question is which platform has the better deal tonight. It's barely a decision.</p>
+        <div class="quote-block"><span>"I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time."</span><div class="cite">— P036</div></div>
+      </div>
+      <span class="persona-footer">Dependent</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="26" data-bg="warm" data-persona="dependent">
+      <span class="stage-label">Placing the order</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--dependent)"></span> Connection</div>
+      <div class="slide-content">
+        <p class="monologue-text">Order placed. From a friend's house, between lectures, coordinated with my flatmate. This isn't an event. It's infrastructure. And it's working.</p>
+      </div>
+      <span class="persona-footer">Dependent</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="27" data-bg="cool" data-persona="dependent">
+      <span class="stage-label">Waiting for delivery</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--dependent)"></span> Frustration</div>
+      <div class="slide-content">
+        <p class="monologue-text">The driver can't find the entrance. Pin drop's wrong again. The food's sitting at a gate while I'm on the phone explaining what a map couldn't.</p>
+        <div class="quote-block"><span>"It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges."</span><div class="cite">— P034</div></div>
+      </div>
+      <span class="persona-footer">Dependent</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="28" data-bg="warm" data-persona="dependent">
+      <span class="stage-label">Eating the food</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--dependent)"></span> Comfort</div>
+      <div class="slide-content">
+        <p class="monologue-text">Hot food, couch, winter evening. For a moment, everything makes sense. This is why I do it.</p>
+        <div class="quote-block"><span>"Definitely winter. I think that's probably what started it… just not wanting to leave the house as much."</span><div class="cite">— P029</div></div>
+      </div>
+      <span class="persona-footer">Dependent</span>
+    </div>
+
+    <div class="slide slide-stage" data-index="29" data-bg="cool" data-persona="dependent">
+      <span class="stage-label">After the meal</span>
+      <div class="emotion-badge"><span class="emotion-dot" style="background: var(--dependent)"></span> Stress</div>
+      <div class="slide-content">
+        <p class="monologue-text">Then the bank notification. Ninety quid this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow I'll probably do it again.</p>
+        <div class="quote-block"><span>"I'd say about… I don't want to lie… about 90 to 100 quid just alone on food, maybe even more."</span><div class="cite">— P006</div></div>
+      </div>
+      <span class="persona-footer">Dependent</span>
+    </div>
+
+    <!-- Comparison slide -->
+    <div class="slide slide-comparison" data-index="30">
+      <h2>Same moment. Four reactions.</h2>
+      <p class="comparison-stage">Placing the order</p>
+      <div class="comparison-cards">
+        <div class="comparison-card" style="border-left-color: var(--optimizer)">
+          <div class="persona-name">The Pragmatic Optimizer</div>
+          <div class="emotion">Excitement · 5/5</div>
+          <div class="quote">"It's like a reward. You've earned it."</div>
+          <div class="cite">— P007</div>
+        </div>
+        <div class="comparison-card" style="border-left-color: var(--social)">
+          <div class="persona-name">The Social Orderer</div>
+          <div class="emotion">Connection · 5/5</div>
+          <div class="quote">"I ordered from my account all together and then we split it."</div>
+          <div class="cite">— P009</div>
+        </div>
+        <div class="comparison-card" style="border-left-color: var(--balancer)">
+          <div class="persona-name">The Budget Balancer</div>
+          <div class="emotion">Frustration · 2/5</div>
+          <div class="quote">"I just don't like money coming out."</div>
+          <div class="cite">— P023</div>
+        </div>
+        <div class="comparison-card" style="border-left-color: var(--dependent)">
+          <div class="persona-name">The Convenience Dependent</div>
+          <div class="emotion">Connection · 5/5</div>
+          <div class="quote">"About pretty much five times a week."</div>
+          <div class="cite">— P006</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Closing slide -->
+    <div class="slide slide-closing" data-index="31">
+      <h2>What happens between wanting to order and actually ordering?</h2>
+      <p>Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap.</p>
+    </div>
+  </div>
+
+  <span class="slide-counter" id="slide-counter">1 / 32</span>
+  <span class="nav-hint">← → Space · Click to advance</span>
+
+  <script>
+    (function() {
+      const slides = document.querySelectorAll('.slide');
+      const totalSlides = slides.length;
+      let currentIndex = 0;
+      const counterEl = document.getElementById('slide-counter');
+
+      function goToSlide(index) {
+        if (index < 0 || index >= totalSlides) return;
+        currentIndex = index;
+
+        slides.forEach((slide, i) => {
+          const isActive = i === currentIndex;
+          slide.classList.toggle('active', isActive);
+
+          if (isActive && slide.classList.contains('slide-stage')) {
+            const content = slide.querySelector('.slide-content');
+            if (content) {
+              content.classList.remove('animate-in');
+              void content.offsetWidth;
+              content.classList.add('animate-in');
+            }
+          }
+        });
+
+        counterEl.textContent = `${currentIndex + 1} / ${totalSlides}`;
+      }
+
+      function next() {
+        goToSlide(Math.min(currentIndex + 1, totalSlides - 1));
+      }
+
+      function prev() {
+        goToSlide(Math.max(currentIndex - 1, 0));
+      }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+          e.preventDefault();
+          next();
+        } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+          e.preventDefault();
+          prev();
+        }
+      });
+
+      document.querySelector('.slides-container').addEventListener('click', () => next());
+
+      goToSlide(0);
+    })();
+  </script>
+</body>
+</html>

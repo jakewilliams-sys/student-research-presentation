@@ -1,0 +1,114 @@
+{
+  "participant_id": "P005",
+  "summary": "Cha is a methodical, cost-conscious final-year computing student who has developed a highly functional relationship with food that prioritizes efficiency and convenience over social dining. Her food choices are driven by a desire to minimize time spent in shared kitchen spaces and maximize portability - she gravitates toward wraps, pasta, and meal-prepped items that can be eaten while working or stored easily. Her delivery ordering has dramatically decreased from frequent first-year usage (driven by newfound freedom and convenience) to rare current usage (maybe twice monthly), primarily when ordering with her brother to split costs and meet minimum spend requirements.\n\nWhat's particularly striking is how her food relationship reflects her broader approach to university life - she's organized, budget-aware, and prefers independence over social coordination. She's developed sophisticated strategies around grocery shopping (traveling to Lidl for better prices, meal prepping to avoid repeated kitchen visits) and has clear cost-benefit calculations for delivery orders. Her Tamil heritage and family connections provide some social food experiences, but at university she operates as a highly individual consumer who values control, efficiency, and financial prudence above communal dining experiences.",
+  "personality_notes": "Methodical and articulate communicator who gives detailed, logical explanations. Prefers independence and efficiency over social coordination. Shows strong analytical thinking in cost-benefit calculations.",
+  "food_relationship": "Food is primarily functional - a fuel source that should be convenient, portable, and cost-effective rather than a social or pleasurable experience.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Consistently emphasizes wanting food that can be eaten quickly while doing other activities, avoiding extended kitchen time",
+      "significance": "Reveals core driver of convenience over enjoyment - food serves productivity rather than pleasure"
+    },
+    {
+      "timestamp": "Mid-interview",
+      "description": "Describes evolution from frequent first-year ordering to rare current usage, explicitly linking it to newfound freedom vs. maturity",
+      "significance": "Shows clear behavioral maturation and increasing cost consciousness over university years"
+    },
+    {
+      "timestamp": "Late interview",
+      "description": "Detailed cost breakdown of how delivery fees make small orders feel unjustified (£5 food becoming £10 total)",
+      "significance": "Demonstrates sophisticated value calculation that acts as primary barrier to ordering"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned enjoying cooking or food preparation as pleasurable activities",
+    "Avoided discussing any food-related social media engagement beyond basic recipe searching",
+    "No mention of dietary restrictions, health considerations, or nutritional concerns",
+    "Limited discussion of food as cultural connection despite Tamil heritage"
+  ],
+  "initial_hypotheses": [
+    "Her delivery usage will remain low unless minimum order thresholds are reduced significantly",
+    "She represents a segment that has 'graduated' from delivery dependency through developing cooking skills and cost awareness",
+    "Her functional food approach may be common among STEM students who view eating as productivity-adjacent",
+    "Group ordering features could re-engage her since she already coordinates with her brother"
+  ],
+  "questions_for_coding": [
+    "How common is this 'maturation away from delivery' pattern among final-year students?",
+    "What role does shared kitchen anxiety play in food delivery decisions?",
+    "How do students balance cultural food identity with university convenience eating?",
+    "What minimum spend thresholds would make solo ordering viable for cost-conscious students?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'm not actually a huge fan of having breakfast, but if I did it would be like some sort of pastry.\nspk_1: So like if I went little would be like a little bakery item like a croissant or maybe like brioche buns, even just something quick because yeah, I don't really spend most of my mornings eating breakfast lunch.\nspk_1: It would either be something that I've meal prepped.\nspk_1: So there's like, I've got a choice between like having a chicken wrap or like, I don't know, like maybe even like mashed potato with like lamb chops or even like rice and a chicken curry that I could make so I still get some protein and stuff.\nspk_1: And then like vegetables wise, I kind of go for cucumbers or whatever I feel like having when I go to shops and I see like, oh, maybe I should have that for once.\nspk_1: And then dinner I'd probably have chicken wraps again or have maybe like I've also really been enjoying like steak bakes.\nspk_1: So kind of the ones that you see in Greg's.\nspk_1: But then there's like the Iceland have got their own Greg stays.\nspk_1: So I just pick a few of those and have that for dinner.\nspk_1: Yeah. And if I feel super lazy, it'll probably be like instant noodles or ramen.\nspk_1: Just something quick so that I can.\nspk_1: Especially if I'm doing like coursework or something.\nspk_1: I just need to eat rather than sit down and eat.\nspk_1: I'd rather just eat and do work and type away and stuff.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 10939,
+      "end_char_index": 12371,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Just something that I'm not a fan of, like sitting down with a plate and a fork and a knife and like going like, have actually like, I don't know, I just want something that I can sort of quickly eat so I can do something else.\nspk_1: Unless I. I do find myself to be busy during the weekdays, so I'd rather have something that I can either quickly eat with my hands or like not have to worry about washing my hands or.\nspk_1: Yeah, just something that I can quickly put in a box and actually keep it in my bag without it.\nspk_1: But worrying about spilling it and stuff.\nspk_1: I know pasta is usually okay as well for that.\nspk_1: Be it just something that I can easily make without having to spend too much time in the kitchen, especially with a shared kitchen.\nspk_1: I'm not a fan of like just seeing people in this.\nspk_1: I'd rather just be in and out.\nspk_1: I don't want to spend most of my time there.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 13263,
+      "end_char_index": 14182,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'd like to say that in first year, I was ordering a lot more.\nspk_1: Especially if. I know, like, when you're, like, kind of on your own by yourself, and if you're bored as well, you kind of feel like eating, and then it's almost just like whatever you've been craving kind of kicks in.\nspk_1: It's like, I really want whatever it is I'm ordering.\nspk_1: So, like, first year, I did go for a lot of McDonald's and Subway.\nspk_1: I think it's a lot to do with like the freedom as well.\nspk_1: Like you obviously at home we don't have takeaways as often.\nspk_1: And then obviously you go to uni, you can basically eat whatever you want.\nspk_1: You can eat whenever you want.\nspk_1: And then it's like I can even order takeaway at 11pm so then it was more just doing that because I can and because I had the money to as well.\nspk_1: So it wasn't like I was ordering takeaway more just convenience was more just because I can.\nspk_1: Second year it was a lot less.\nspk_1: And then third year I basically.\nspk_1: Well yeah, third year I don't do as much anymore.\nspk_1: It's just usually if it's convenient for me and I like have the money too and like if my brother wants it as well just because the small fee charge and just like free delivery and stuff, it just makes it like you're getting more worth out of the food that you're ordering.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 30066,
+      "end_char_index": 31412,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I don't know if I feel like I'm getting my money's worth by ordering, especially if it's something like a small order kind of like, I don't know, pushes me to, like, kind of not order instead.\nspk_1: Especially if it's like something like, I want something small and then I have to pay if delivery is like, an extortionate amount of money.\nspk_1: If I wanted to buy something that was like five pounds, for example, and I had to pay like two to three pounds on delivery, and then an extra however much money for a small charge, and then that price becomes like, close to £10, something I want that's for £5.\nspk_1: It's kind of like when I see the difference between the two, and I realize, like, actually this is not really 10 pounds worth of food.\nspk_1: It's not really something I want to go and spend my money on.\nspk_1: I'd rather just make something more powerful.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 41438,
+      "end_char_index": 42310,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: First year, everyone was.\nspk_1: I chose a quiet room, like apartment or flat even.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 7184,
+      "end_char_index": 7275,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So like everyone was kind of to themselves.\nspk_1: You know, they chose like their own shelf or like half a shelf or whatever in the fridge, just put their stuff in, cook whenever they wanted.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 7286,
+      "end_char_index": 7486,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And yeah, I wasn't a huge fan of that, but I did find one person who was an international student who I really related with.\nspk_1: So we would cook together, would be.\nspk_1: And you know, just make food and eat it together.\nspk_1: So I did enjoy that aspect of it.\n",
+      "document_index": 0,
+      "document_title": "P005 - P005 - Interview Transcript",
+      "start_char_index": 7696,
+      "end_char_index": 7970,
+      "participant_id": "P005",
+      "participant_name": "P005"
+    }
+  ],
+  "_citation_count": 7
+}

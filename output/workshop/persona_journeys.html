@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Their Order — Student Ordering Journeys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #f8f6f1;
+      --bg-warm: #f2efe8;
+      --text: #2c2a25;
+      --text-mid: #78746b;
+      --text-light: #a9a49a;
+      --border: #e8e4dc;
+
+      --optimizer: #1d7775;
+      --optimizer-soft: #e8f3f3;
+      --social: #b07328;
+      --social-soft: #f7f0e4;
+      --balancer: #3a7a55;
+      --balancer-soft: #e9f3ed;
+      --dependent: #6454a4;
+      --dependent-soft: #efedf7;
+
+      --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+      --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+      --serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+      --sans: 'Plus Jakarta Sans', -apple-system, system-ui, sans-serif;
+    }
+
+    html {
+      font-size: clamp(17px, 1.35vw, 23px);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+      cursor: default;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    /* ---- Slide system ---- */
+    .slide {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3rem 4rem;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.45s var(--ease-out-quart), visibility 0.45s;
+      background: var(--bg);
+      z-index: 1;
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+      z-index: 2;
+    }
+
+    /* Animate children on active */
+    .slide .anim {
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 0.55s var(--ease-out-quart), transform 0.55s var(--ease-out-quart);
+    }
+
+    .slide.active .anim {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .slide.active .anim:nth-child(1) { transition-delay: 0.08s; }
+    .slide.active .anim:nth-child(2) { transition-delay: 0.18s; }
+    .slide.active .anim:nth-child(3) { transition-delay: 0.28s; }
+    .slide.active .anim:nth-child(4) { transition-delay: 0.38s; }
+    .slide.active .anim:nth-child(5) { transition-delay: 0.48s; }
+
+    /* ---- Title slide ---- */
+    .title-slide {
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+    }
+
+    .title-slide h1 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 5.5rem;
+      line-height: 1.0;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    .title-slide .subtitle {
+      font-weight: 300;
+      font-size: 1.05rem;
+      color: var(--text-mid);
+      letter-spacing: 0.04em;
+    }
+
+    .title-dots {
+      display: flex;
+      gap: 0.6rem;
+      margin-top: 0.5rem;
+    }
+
+    .title-dots span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* ---- Intro slide ---- */
+    .intro-slide {
+      align-items: center;
+      text-align: center;
+      gap: 3.5rem;
+    }
+
+    .intro-slide h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 2.8rem;
+      line-height: 1.2;
+      max-width: 18ch;
+    }
+
+    .persona-preview {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 52rem;
+    }
+
+    .persona-preview-card {
+      padding: 1.5rem 1.2rem 1.3rem;
+      border-top: 3px solid var(--accent);
+      background: var(--accent-soft);
+      text-align: left;
+    }
+
+    .persona-preview-card h3 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1.15rem;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+
+    .persona-preview-card p {
+      font-size: 0.72rem;
+      color: var(--text-mid);
+      font-weight: 400;
+      line-height: 1.45;
+    }
+
+    /* ---- Persona intro slide ---- */
+    .persona-intro {
+      padding-left: 12vw;
+      padding-right: 12vw;
+      gap: 1.6rem;
+      border-top: 4px solid var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .persona-intro .persona-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .persona-intro h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 3.2rem;
+      line-height: 1.1;
+      color: var(--text);
+    }
+
+    .persona-intro .tagline {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--text-mid);
+    }
+
+    .persona-intro .stats {
+      font-size: 0.75rem;
+      color: var(--text-light);
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+
+    .persona-intro .stats span {
+      margin-right: 1.5rem;
+    }
+
+    .persona-intro blockquote {
+      margin-top: 1rem;
+      max-width: 36rem;
+    }
+
+    .persona-intro blockquote p {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.3rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+
+    .persona-intro blockquote cite {
+      display: block;
+      margin-top: 0.6rem;
+      font-family: var(--sans);
+      font-style: normal;
+      font-size: 0.75rem;
+      color: var(--text-light);
+    }
+
+    /* ---- Stage slide ---- */
+    .stage-slide {
+      padding-left: 12vw;
+      padding-right: 12vw;
+      border-top: 4px solid var(--accent);
+      gap: 0;
+    }
+
+    .stage-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2.5rem;
+      width: 100%;
+      max-width: 40rem;
+    }
+
+    .stage-name {
+      font-weight: 500;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      color: var(--text-mid);
+    }
+
+    .stage-emotion {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--accent);
+    }
+
+    .emotion-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .stage-body {
+      max-width: 40rem;
+    }
+
+    .stage-body .context {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--text-mid);
+      margin-bottom: 2.2rem;
+    }
+
+    .stage-body blockquote {
+      padding-left: 1.6rem;
+      border-left: 1.5px solid var(--accent);
+      opacity: 0.95;
+    }
+
+    .stage-body blockquote p {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.5rem;
+      line-height: 1.48;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    .stage-body blockquote cite {
+      display: block;
+      margin-top: 0.75rem;
+      font-family: var(--sans);
+      font-style: normal;
+      font-size: 0.72rem;
+      color: var(--text-light);
+      letter-spacing: 0.03em;
+    }
+
+    .stage-body .no-data {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--text-light);
+      margin-top: 1rem;
+      letter-spacing: 0.02em;
+    }
+
+    .persona-label-small {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 4rem;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      opacity: 0.5;
+    }
+
+    /* Inline journey tracks hidden — used as data source only */
+    .journey-track { display: none; }
+
+    /* ---- Persistent animated journey nav ---- */
+    .journey-nav {
+      position: fixed;
+      top: 2.4rem;
+      left: 12vw;
+      display: flex;
+      align-items: flex-start;
+      z-index: 50;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.45s var(--ease-out-quart), visibility 0.45s;
+      --nav-accent: var(--text-light);
+      --nav-accent-soft: var(--border);
+    }
+
+    .journey-nav.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .journey-nav .jn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 4.5rem;
+    }
+
+    .journey-nav .jn-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--border);
+      transition: width 0.45s var(--ease-out-quart),
+                  height 0.45s var(--ease-out-quart),
+                  background-color 0.45s var(--ease-out-quart),
+                  opacity 0.45s var(--ease-out-quart),
+                  box-shadow 0.45s var(--ease-out-quart);
+      flex-shrink: 0;
+    }
+
+    .journey-nav .jn.done .jn-dot {
+      background: var(--nav-accent);
+      opacity: 0.5;
+    }
+
+    .journey-nav .jn.current .jn-dot {
+      width: 9px;
+      height: 9px;
+      background: var(--nav-accent);
+      opacity: 1;
+      box-shadow: 0 0 0 3px var(--nav-accent-soft);
+    }
+
+    .journey-nav .jn-label {
+      display: block;
+      margin-top: 0.35rem;
+      font-family: var(--sans);
+      font-size: 0.5rem;
+      font-weight: 400;
+      color: var(--text-light);
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+      transition: font-size 0.45s var(--ease-out-quart),
+                  margin-top 0.45s var(--ease-out-quart),
+                  color 0.45s var(--ease-out-quart),
+                  letter-spacing 0.45s var(--ease-out-quart);
+    }
+
+    .journey-nav .jn.done .jn-label {
+      color: var(--text-mid);
+    }
+
+    .journey-nav .jn.current .jn-label {
+      font-size: 0.95rem;
+      color: var(--nav-accent);
+      letter-spacing: -0.01em;
+      margin-top: 0.65rem;
+    }
+
+    .journey-nav .jn-line {
+      width: 2.5rem;
+      height: 1px;
+      background: var(--border);
+      flex-shrink: 0;
+      margin-top: 3px;
+      transition: background-color 0.45s var(--ease-out-quart),
+                  opacity 0.45s var(--ease-out-quart);
+    }
+
+    .journey-nav .jn-line.done {
+      background: var(--nav-accent);
+      opacity: 0.35;
+    }
+
+    /* ---- Comparison slide ---- */
+    .comparison-slide {
+      align-items: center;
+      text-align: center;
+      gap: 2.5rem;
+    }
+
+    .comparison-slide h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 1.2;
+    }
+
+    .comparison-slide .comp-stage {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-light);
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      width: 100%;
+      max-width: 60rem;
+      text-align: left;
+    }
+
+    .comp-card {
+      padding: 1.5rem 1.3rem 1.4rem;
+      border-top: 3px solid var(--accent);
+    }
+
+    .comp-card h3 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    .comp-card .comp-emotion {
+      font-weight: 600;
+      font-size: 0.8rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .comp-card .comp-emotion.positive { color: var(--accent); }
+    .comp-card .comp-emotion.negative { color: #8c6b6b; }
+
+    .comp-card.outlier {
+      background: var(--bg-warm);
+      position: relative;
+    }
+
+    .comp-card.outlier::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border: 1.5px solid #d4c9be;
+      pointer-events: none;
+    }
+
+    .comp-card .comp-score {
+      font-size: 0.7rem;
+      color: var(--text-light);
+      margin-bottom: 1.2rem;
+    }
+
+    .comp-card blockquote p {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: var(--text);
+    }
+
+    .comp-card blockquote cite {
+      display: block;
+      margin-top: 0.5rem;
+      font-style: normal;
+      font-size: 0.65rem;
+      color: var(--text-light);
+    }
+
+    .comparison-grid .comp-card:nth-child(3) { transition-delay: 0.12s; }
+    .comparison-grid .comp-card:nth-child(4) { transition-delay: 0.18s; }
+    .comparison-grid .comp-card:nth-child(5) { transition-delay: 0.24s; }
+    .comparison-grid .comp-card:nth-child(6) { transition-delay: 0.30s; }
+
+    /* ---- Closing slide ---- */
+    .closing-slide {
+      align-items: center;
+      text-align: center;
+      gap: 2.5rem;
+    }
+
+    .closing-slide h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 2.8rem;
+      line-height: 1.25;
+      max-width: 20ch;
+      letter-spacing: -0.015em;
+    }
+
+    .closing-slide p {
+      font-size: 1rem;
+      color: var(--text-mid);
+      max-width: 32ch;
+      line-height: 1.7;
+    }
+
+    /* ---- Progress bar ---- */
+    .progress {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background: var(--text-light);
+      transition: width 0.45s var(--ease-out-quart), background-color 0.45s;
+      z-index: 100;
+    }
+
+    /* ---- Slide counter ---- */
+    .counter {
+      position: fixed;
+      bottom: 1.8rem;
+      right: 2.5rem;
+      font-size: 0.6rem;
+      font-weight: 400;
+      color: var(--text-light);
+      letter-spacing: 0.06em;
+      z-index: 100;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ---- Nav hint ---- */
+    .nav-hint {
+      position: fixed;
+      bottom: 1.8rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.6rem;
+      color: var(--text-light);
+      letter-spacing: 0.04em;
+      z-index: 100;
+      transition: opacity 1.5s;
+    }
+
+    .nav-hint.hidden { opacity: 0; pointer-events: none; }
+
+    /* ---- Reduced motion ---- */
+    @media (prefers-reduced-motion: reduce) {
+      .slide { transition-duration: 0.01ms !important; }
+      .slide .anim {
+        transition-duration: 0.01ms !important;
+        transform: none !important;
+      }
+      .progress { transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- TITLE                                                         -->
+<!-- ============================================================ -->
+<div class="slide title-slide active">
+  <h1 class="anim">Follow<br>Their Order</h1>
+  <p class="subtitle anim">Four students. Six stages. One ordering journey.</p>
+  <div class="title-dots anim">
+    <span style="background: var(--optimizer)"></span>
+    <span style="background: var(--social)"></span>
+    <span style="background: var(--balancer)"></span>
+    <span style="background: var(--dependent)"></span>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- INTRO                                                         -->
+<!-- ============================================================ -->
+<div class="slide intro-slide">
+  <h2 class="anim">Same app.<br>Four completely different experiences.</h2>
+  <div class="persona-preview anim">
+    <div class="persona-preview-card" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+      <h3>The Pragmatic Optimizer</h3>
+      <p>Systematic efficiency meets strategic deal-hunting</p>
+    </div>
+    <div class="persona-preview-card" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+      <h3>The Social Orderer</h3>
+      <p>Group dynamics drive delivery decisions</p>
+    </div>
+    <div class="persona-preview-card" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+      <h3>The Budget Balancer</h3>
+      <p>Careful financial management meets occasional treats</p>
+    </div>
+    <div class="persona-preview-card" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+      <h3>The Convenience Dependent</h3>
+      <p>Delivery as essential life infrastructure</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- PRAGMATIC OPTIMIZER — Intro                                   -->
+<!-- ============================================================ -->
+<div class="slide persona-intro" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <span class="persona-tag anim">Persona 1 of 4</span>
+  <h2 class="anim">The Pragmatic<br>Optimizer</h2>
+  <p class="tagline anim">Systematic efficiency meets strategic deal-hunting</p>
+  <div class="stats anim">
+    <span>12 participants</span>
+    <span>Orders fortnightly</span>
+    <span>None hold Deliveroo Plus alone</span>
+  </div>
+  <blockquote class="anim">
+    <p>"Ordering a takeaway after an exam&hellip; that's an enjoyable meal. It's like a reward. You've earned it."</p>
+    <cite>— P007</cite>
+  </blockquote>
+</div>
+
+<!-- PO — Stage 1: Deciding to order -->
+<div class="slide stage-slide" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <div class="journey-track">
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Deciding to order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">It's Thursday evening. Lectures are done, the library is closed, and tomorrow's assignment can wait. The thought of cooking crosses their mind — and is immediately weighed against the effort.</p>
+    <blockquote class="anim">
+      <p>"It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on."</p>
+      <cite>— P025</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Pragmatic Optimizer</span>
+</div>
+
+<!-- PO — Stage 2: Choosing where & what -->
+<div class="slide stage-slide" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div>
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Choosing where &amp; what</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Stress · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don't really want to hit £15.</p>
+    <blockquote class="anim">
+      <p>"I try to make it about £15 to save delivery fees&hellip; it makes some changes in my delivery order."</p>
+      <cite>— P012</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Pragmatic Optimizer</span>
+</div>
+
+<!-- PO — Stage 3: Placing the order -->
+<div class="slide stage-slide" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div>
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Placing the order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Excitement · 5/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.</p>
+  </div>
+  <span class="persona-label-small">The Pragmatic Optimizer</span>
+</div>
+
+<!-- PO — Stage 4: Waiting -->
+<div class="slide stage-slide" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div>
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Waiting for delivery</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Neutral · 3/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Twenty-five minutes. Time to do something else. The waiting barely registers — the emotional work was in the decision, not the delivery.</p>
+    <p class="no-data anim">Limited data at this stage across participants.</p>
+  </div>
+  <span class="persona-label-small">The Pragmatic Optimizer</span>
+</div>
+
+<!-- PO — Stage 5: Eating -->
+<div class="slide stage-slide" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div>
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div>
+    <div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Eating the food</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction — a small, earned reward after a calculated decision.</p>
+  </div>
+  <span class="persona-label-small">The Pragmatic Optimizer</span>
+</div>
+
+<!-- PO — Stage 6: After the meal -->
+<div class="slide stage-slide" style="--accent: var(--optimizer); --accent-soft: var(--optimizer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div>
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line done"></div>
+    <div class="jp current"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">After the meal</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Excitement · 5/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.</p>
+    <blockquote class="anim">
+      <p>"Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it."</p>
+      <cite>— P007</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Pragmatic Optimizer</span>
+</div>
+
+<!-- ============================================================ -->
+<!-- SOCIAL ORDERER — Intro                                        -->
+<!-- ============================================================ -->
+<div class="slide persona-intro" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <span class="persona-tag anim">Persona 2 of 4</span>
+  <h2 class="anim">The Social<br>Orderer</h2>
+  <p class="tagline anim">Group dynamics drive delivery decisions</p>
+  <div class="stats anim">
+    <span>9 participants</span>
+    <span>Orders fortnightly to monthly</span>
+    <span>Friday evenings &amp; weekends</span>
+  </div>
+  <blockquote class="anim">
+    <p>"Oh, it's like an unspoken ritual&hellip; We're not meant to call it a 'ritual,' but it definitely is."</p>
+    <cite>— P001</cite>
+  </blockquote>
+</div>
+
+<!-- SO — Stage 1 -->
+<div class="slide stage-slide" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <div class="journey-track">
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Deciding to order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Stress · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">A friend mentions food. Another one pulls out their phone. The seed is planted. Now it's not about whether to order — it's about being part of the moment.</p>
+    <blockquote class="anim">
+      <p>"I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head."</p>
+      <cite>— P015</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Social Orderer</span>
+</div>
+
+<!-- SO — Stage 2 -->
+<div class="slide stage-slide" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Choosing where &amp; what</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Stress · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge — but deciding for the group means absorbing the blame if it's wrong.</p>
+    <blockquote class="anim">
+      <p>"Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason."</p>
+      <cite>— P022</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Social Orderer</span>
+</div>
+
+<!-- SO — Stage 3 -->
+<div class="slide stage-slide" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Placing the order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Connection · 5/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.</p>
+    <blockquote class="anim">
+      <p>"I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four."</p>
+      <cite>— P009</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Social Orderer</span>
+</div>
+
+<!-- SO — Stage 4 -->
+<div class="slide stage-slide" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Waiting for delivery</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Neutral · 3/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The group shifts to something else — a show, a conversation, a game. The food is coming. That's all that matters right now.</p>
+    <p class="no-data anim">Limited data at this stage across participants.</p>
+  </div>
+  <span class="persona-label-small">The Social Orderer</span>
+</div>
+
+<!-- SO — Stage 5 -->
+<div class="slide stage-slide" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Eating the food</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Guilt · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The food is eaten. The social energy fades. And then, quietly: was that too much? The guilt doesn't come from the food — it comes from eating it alone with your thoughts.</p>
+    <blockquote class="anim">
+      <p>"When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own."</p>
+      <cite>— P001</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Social Orderer</span>
+</div>
+
+<!-- SO — Stage 6 -->
+<div class="slide stage-slide" style="--accent: var(--social); --accent-soft: var(--social-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">After the meal</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">It's done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.</p>
+  </div>
+  <span class="persona-label-small">The Social Orderer</span>
+</div>
+
+<!-- ============================================================ -->
+<!-- BUDGET BALANCER — Intro                                       -->
+<!-- ============================================================ -->
+<div class="slide persona-intro" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <span class="persona-tag anim">Persona 3 of 4</span>
+  <h2 class="anim">The Budget<br>Balancer</h2>
+  <p class="tagline anim">Careful financial management meets occasional treats</p>
+  <div class="stats anim">
+    <span>6 participants</span>
+    <span>Orders monthly or less</span>
+    <span>Delivery reserved for special occasions</span>
+  </div>
+  <blockquote class="anim">
+    <p>"I'm not really the kind of person that likes having subscriptions anyway because I just don't&hellip; like money coming out."</p>
+    <cite>— P023</cite>
+  </blockquote>
+</div>
+
+<!-- BB — Stage 1 -->
+<div class="slide stage-slide" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <div class="journey-track">
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Deciding to order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Stress · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.</p>
+    <blockquote class="anim">
+      <p>"Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop."</p>
+      <cite>— P005</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Budget Balancer</span>
+</div>
+
+<!-- BB — Stage 2 -->
+<div class="slide stage-slide" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Choosing where &amp; what</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">When the answer is yes, there's relief. The guilt of deciding to order is replaced by the comfort of choosing well — finding the right deal, the right restaurant, the right amount. The hard part is over.</p>
+  </div>
+  <span class="persona-label-small">The Budget Balancer</span>
+</div>
+
+<!-- BB — Stage 3 -->
+<div class="slide stage-slide" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Placing the order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Frustration · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.</p>
+  </div>
+  <span class="persona-label-small">The Budget Balancer</span>
+</div>
+
+<!-- BB — Stage 4 -->
+<div class="slide stage-slide" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Waiting for delivery</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Neutral · 3/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The emotional weight was in the decision. Now there's just time. The waiting is empty — not anxious, not excited, just neutral.</p>
+    <p class="no-data anim">Limited data at this stage across participants.</p>
+  </div>
+  <span class="persona-label-small">The Budget Balancer</span>
+</div>
+
+<!-- BB — Stage 5 -->
+<div class="slide stage-slide" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Eating the food</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Indifference · 3/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The food is fine. It's eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat — and that flatness is the insight.</p>
+  </div>
+  <span class="persona-label-small">The Budget Balancer</span>
+</div>
+
+<!-- BB — Stage 6 -->
+<div class="slide stage-slide" style="--accent: var(--balancer); --accent-soft: var(--balancer-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">After the meal</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">It's over. The money is spent. And in the quiet aftermath, there's a gentle comfort: it was a while since the last one. It was justified.</p>
+    <blockquote class="anim">
+      <p>"I've had quite a busy or stressful week as, like, a little reward."</p>
+      <cite>— P028</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Budget Balancer</span>
+</div>
+
+<!-- ============================================================ -->
+<!-- CONVENIENCE DEPENDENT — Intro                                 -->
+<!-- ============================================================ -->
+<div class="slide persona-intro" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <span class="persona-tag anim">Persona 4 of 4</span>
+  <h2 class="anim">The Convenience<br>Dependent</h2>
+  <p class="tagline anim">Delivery as essential life infrastructure</p>
+  <div class="stats anim">
+    <span>8 participants</span>
+    <span>Orders multiple times per week</span>
+    <span>Up to £100/week on food delivery</span>
+  </div>
+  <blockquote class="anim">
+    <p>"Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend's house. About pretty much five times a week."</p>
+    <cite>— P006</cite>
+  </blockquote>
+</div>
+
+<!-- CD — Stage 1 -->
+<div class="slide stage-slide" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <div class="journey-track">
+    <div class="jp current"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Deciding to order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Frustration · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn't about food — it's about everything else getting in the way of eating.</p>
+    <blockquote class="anim">
+      <p>"I started noticing that we're running out of cereal, eggs, milk, porridge&hellip; I didn't feel like going down to the shop&hellip; and I didn't have the time."</p>
+      <cite>— P006</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Convenience Dependent</span>
+</div>
+
+<!-- CD — Stage 2 -->
+<div class="slide stage-slide" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Choosing where &amp; what</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.</p>
+    <blockquote class="anim">
+      <p>"I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time."</p>
+      <cite>— P036</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Convenience Dependent</span>
+</div>
+
+<!-- CD — Stage 3 -->
+<div class="slide stage-slide" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Placing the order</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Connection · 5/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The order is placed — from a friend's house, between lectures, coordinated with a flatmate. Delivery isn't an event. It's infrastructure. The positive feeling comes from the routine itself working smoothly.</p>
+  </div>
+  <span class="persona-label-small">The Convenience Dependent</span>
+</div>
+
+<!-- CD — Stage 4 -->
+<div class="slide stage-slide" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Waiting for delivery</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Frustration · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">The driver can't find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn't.</p>
+    <blockquote class="anim">
+      <p>"It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges."</p>
+      <cite>— P034</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Convenience Dependent</span>
+</div>
+
+<!-- CD — Stage 5 -->
+<div class="slide stage-slide" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line"></div><div class="jp"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">Eating the food</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Comfort · 4/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.</p>
+    <blockquote class="anim">
+      <p>"Definitely winter. I think that's probably what started it&hellip; just not wanting to leave the house as much."</p>
+      <cite>— P029</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Convenience Dependent</span>
+</div>
+
+<!-- CD — Stage 6 -->
+<div class="slide stage-slide" style="--accent: var(--dependent); --accent-soft: var(--dependent-soft)">
+  <div class="journey-track">
+    <div class="jp done"><div class="dot"></div><div class="jp-label">Trigger</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Decision</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Order</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Wait</div></div>
+    <div class="line done"></div><div class="jp done"><div class="dot"></div><div class="jp-label">Meal</div></div>
+    <div class="line done"></div><div class="jp current"><div class="dot"></div><div class="jp-label">After</div></div>
+  </div>
+  <div class="stage-top anim">
+    <span class="stage-name">After the meal</span>
+    <span class="stage-emotion"><span class="emotion-dot"></span>Stress · 2/5</span>
+  </div>
+  <div class="stage-body">
+    <p class="context anim">Then the bank notification arrives. Ninety pounds this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow it'll happen again.</p>
+    <blockquote class="anim">
+      <p>"I'd say about&hellip; I don't want to lie&hellip; about 90 to 100 quid just alone on food, maybe even more."</p>
+      <cite>— P006</cite>
+    </blockquote>
+  </div>
+  <span class="persona-label-small">The Convenience Dependent</span>
+</div>
+
+<!-- ============================================================ -->
+<!-- COMPARISON                                                    -->
+<!-- ============================================================ -->
+<div class="slide comparison-slide">
+  <p class="comp-stage anim">Placing the order</p>
+  <h2 class="anim">Same moment.<br>Four reactions.</h2>
+  <div class="comparison-grid">
+    <div class="comp-card anim" style="--accent: var(--optimizer)">
+      <h3>The Pragmatic Optimizer</h3>
+      <div class="comp-emotion positive">Excitement</div>
+      <div class="comp-score">5 / 5</div>
+      <blockquote>
+        <p>"It's like a reward. You've earned it."</p>
+        <cite>— P007</cite>
+      </blockquote>
+    </div>
+    <div class="comp-card anim" style="--accent: var(--social)">
+      <h3>The Social Orderer</h3>
+      <div class="comp-emotion positive">Connection</div>
+      <div class="comp-score">5 / 5</div>
+      <blockquote>
+        <p>"I ordered from my account all together and then we split it."</p>
+        <cite>— P009</cite>
+      </blockquote>
+    </div>
+    <div class="comp-card outlier anim" style="--accent: var(--balancer)">
+      <h3>The Budget Balancer</h3>
+      <div class="comp-emotion negative">Frustration</div>
+      <div class="comp-score">2 / 5</div>
+      <blockquote>
+        <p>"I just don't like money coming out."</p>
+        <cite>— P023</cite>
+      </blockquote>
+    </div>
+    <div class="comp-card anim" style="--accent: var(--dependent)">
+      <h3>The Convenience Dependent</h3>
+      <div class="comp-emotion positive">Connection</div>
+      <div class="comp-score">5 / 5</div>
+      <blockquote>
+        <p>"About pretty much five times a week."</p>
+        <cite>— P006</cite>
+      </blockquote>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- CLOSING                                                       -->
+<!-- ============================================================ -->
+<div class="slide closing-slide">
+  <h2 class="anim">What happens between wanting&nbsp;to&nbsp;order and actually ordering?</h2>
+  <p class="anim">Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap.</p>
+</div>
+
+<!-- ============================================================ -->
+<!-- NAVIGATION UI                                                 -->
+<!-- ============================================================ -->
+<div class="journey-nav" id="journeyNav">
+  <div class="jn"><div class="jn-dot"></div><div class="jn-label">Trigger</div></div>
+  <div class="jn-line"></div>
+  <div class="jn"><div class="jn-dot"></div><div class="jn-label">Decision</div></div>
+  <div class="jn-line"></div>
+  <div class="jn"><div class="jn-dot"></div><div class="jn-label">Order</div></div>
+  <div class="jn-line"></div>
+  <div class="jn"><div class="jn-dot"></div><div class="jn-label">Wait</div></div>
+  <div class="jn-line"></div>
+  <div class="jn"><div class="jn-dot"></div><div class="jn-label">Meal</div></div>
+  <div class="jn-line"></div>
+  <div class="jn"><div class="jn-dot"></div><div class="jn-label">After</div></div>
+</div>
+<div class="progress" id="progress"></div>
+<div class="counter" id="counter">1 / 32</div>
+<div class="nav-hint" id="navHint">Arrow keys or click to navigate</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const progress = document.getElementById('progress');
+  const counter = document.getElementById('counter');
+  const hint = document.getElementById('navHint');
+  let current = 0;
+
+  var journeyNav = document.getElementById('journeyNav');
+  var jnDots = journeyNav.querySelectorAll('.jn');
+  var jnLines = journeyNav.querySelectorAll('.jn-line');
+
+  function syncJourneyNav(slideEl) {
+    if (!slideEl.classList.contains('stage-slide')) {
+      journeyNav.classList.remove('visible');
+      return;
+    }
+    var inlineJPs = slideEl.querySelectorAll('.journey-track .jp');
+    var inlineLines = slideEl.querySelectorAll('.journey-track .line');
+    inlineJPs.forEach(function(jp, idx) {
+      jnDots[idx].classList.toggle('done', jp.classList.contains('done'));
+      jnDots[idx].classList.toggle('current', jp.classList.contains('current'));
+    });
+    inlineLines.forEach(function(line, idx) {
+      jnLines[idx].classList.toggle('done', line.classList.contains('done'));
+    });
+    var accent = getComputedStyle(slideEl).getPropertyValue('--accent').trim();
+    var accentSoft = getComputedStyle(slideEl).getPropertyValue('--accent-soft').trim();
+    journeyNav.style.setProperty('--nav-accent', accent);
+    journeyNav.style.setProperty('--nav-accent-soft', accentSoft);
+    journeyNav.classList.add('visible');
+  }
+
+  function goTo(i) {
+    if (i < 0 || i >= slides.length) return;
+    slides[current].classList.remove('active');
+    current = i;
+    slides[current].classList.add('active');
+
+    var pct = ((current + 1) / slides.length) * 100;
+    progress.style.width = pct + '%';
+    counter.textContent = (current + 1) + ' / ' + slides.length;
+
+    var s = slides[current];
+    var accent = getComputedStyle(s).getPropertyValue('--accent').trim();
+    if (accent) {
+      progress.style.background = accent;
+    } else {
+      progress.style.background = 'var(--text-light)';
+    }
+
+    syncJourneyNav(s);
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault(); goTo(current + 1);
+    }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') {
+      e.preventDefault(); goTo(current - 1);
+    }
+    if (e.key === 'Home') { e.preventDefault(); goTo(0); }
+    if (e.key === 'End') { e.preventDefault(); goTo(slides.length - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('.nav-hint')) return;
+    const x = e.clientX / window.innerWidth;
+    if (x > 0.25) goTo(current + 1);
+    else goTo(current - 1);
+  });
+
+  setTimeout(function() { hint.classList.add('hidden'); }, 4000);
+
+  goTo(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,638 @@
+{
+  "document_title": "Deliveroo Plus Student Strategy: Comprehensive Research Findings",
+  "data_basis": "Subscription-related segments across 34 of 35 participants",
+  "generated_from": "Consumer research analysis pipeline — coded segments, deep dives (DD_001, DD_004), insights (INS_001, INS_004, INS_005, INS_008)",
+  "executive_summary": "Deliveroo Plus and Uber One have comparable subscriber penetration among students (19 Uber One, 12 Deliveroo Plus, 10 with both). The real competitive gap is not subscriber numbers but PERCEIVED VALUE: students can articulate why Uber One is worth it (transport ecosystem, taxi/train value), while many Deliveroo Plus/Silver subscribers cannot explain what their subscription gives them. Free delivery is the singular dominant subscription driver (47 mentions, 21 participants) — all other benefits rank dramatically lower. Three critical barriers undermine Plus: (1) service fee erosion (27 mentions, 11 participants) makes 'free delivery' feel deceptive; (2) minimum order thresholds lock out solo student orders; (3) awareness gaps mean Prime-acquired Silver subscribers don't understand their benefits. Subscription churn is partially artificial, driven by academic calendar breaks rather than dissatisfaction, and could be reduced with a pause/resume feature.",
+  "competitive_landscape": {
+    "uber_one": {
+      "reach": "19 current subscribers (56% of sample)",
+      "key_advantages": [
+        "Cross-service ecosystem: taxi, train, flights create value even when not ordering food (7 participants explicitly cite this)",
+        "Broader brand awareness through ride-hailing presence",
+        "Cross-service cashback/credits accumulate across food + transport",
+        "Single 'everything app' reduces switching friction"
+      ],
+      "student_perception": "Uber One is seen as 'worth it' by transport users regardless of food ordering frequency. The taxi/train value alone justifies the subscription cost.",
+      "key_quote": "The reason I now use Uber for essentially everything is because they have integrated with you can buy your plane tickets, trains, taxis... (P002)"
+    },
+    "deliveroo_plus": {
+      "reach": "12 current subscribers (35% of sample)",
+      "key_advantages": [
+        "Restaurant quality and variety perception (6 participants)",
+        "Prime bundle makes it 'free' for existing subscribers (5 participants)",
+        "Student Silver tier has lower barrier to entry"
+      ],
+      "key_weaknesses": [
+        "No cross-service value beyond food delivery",
+        "5 participants confused about what Silver/Plus gives them",
+        "Minimum order thresholds lock out solo ordering occasions",
+        "Service fees undermine 'free delivery' promise"
+      ],
+      "student_perception": "Deliveroo Plus is seen as a 'nice bonus' from Prime rather than a must-have subscription. Students cannot articulate what it offers beyond free delivery.",
+      "key_quote": "I think this must be included with my prime or something. I don't actually entirely know what that gets me. (P002)"
+    },
+    "just_eat": {
+      "reach": "Minimal subscription presence in sample",
+      "student_perception": "Seen as cheaper for individual items but lacking subscription benefits. Service fee (£1) is a specific friction point.",
+      "key_quote": "Just Eat has a service fee. Like the one euro on Just Eat and Deliveroo doesn't have that. (P032)"
+    }
+  },
+  "subscription_ownership_map": {
+    "by_participant": {
+      "P002": {
+        "name": "Rory Carrie",
+        "stage": "undergraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P003": {
+        "name": "Indiana Kenyon",
+        "stage": "undergraduate",
+        "persona": "social_rewarder",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P004": {
+        "name": "Sian Webber",
+        "stage": "undergraduate",
+        "persona": "transitional_explorer",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P006": {
+        "name": "Adam P",
+        "stage": "undergraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P012": {
+        "name": "Suryansh Jadaun",
+        "stage": "undergraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P008": {
+        "name": "Manoj Bhandari",
+        "stage": "undergraduate",
+        "persona": "social_rewarder",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P009": {
+        "name": "Aayush Mehta",
+        "stage": "undergraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P011": {
+        "name": "Mrugesh Mahajan",
+        "stage": "undergraduate",
+        "persona": "convenience_dependent",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P015": {
+        "name": "Evan Dummett",
+        "stage": "undergraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P018": {
+        "name": "Louise Hawkins",
+        "stage": "postgraduate",
+        "persona": "social_rewarder",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P019": {
+        "name": "Gita Prabhandhari",
+        "stage": "graduate",
+        "persona": "transitional_explorer",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P020": {
+        "name": "Jenna Kam",
+        "stage": "graduate",
+        "persona": "convenience_dependent",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P021": {
+        "name": "James Olivier",
+        "stage": "graduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P022": {
+        "name": "Katie Leach",
+        "stage": "graduate",
+        "persona": "convenience_dependent",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P026": {
+        "name": "Bobbi",
+        "stage": "undergraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P027": {
+        "name": "Leah",
+        "stage": "undergraduate",
+        "persona": "social_rewarder",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P029": {
+        "name": "Samuel",
+        "stage": "undergraduate",
+        "persona": "social_rewarder",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P030": {
+        "name": "Barnaby",
+        "stage": "undergraduate",
+        "persona": "social_rewarder",
+        "subscriptions": [
+          "deliveroo_plus",
+          "uber_one"
+        ],
+        "multi_sub": true
+      },
+      "P031": {
+        "name": "Apollo Musibi",
+        "stage": "postgraduate",
+        "persona": "budget_conscious_minimalist",
+        "subscriptions": [
+          "uber_one"
+        ],
+        "multi_sub": false
+      },
+      "P034": {
+        "name": "Jade Kosché",
+        "stage": "postgraduate",
+        "persona": "strategic_optimizer",
+        "subscriptions": [
+          "deliveroo_plus"
+        ],
+        "multi_sub": false
+      }
+    },
+    "by_stage": {
+      "undergraduate": {
+        "deliveroo_plus": 8,
+        "uber_one": 13,
+        "neither": 9,
+        "both": 8,
+        "total": 23
+      },
+      "postgraduate": {
+        "deliveroo_plus": 1,
+        "uber_one": 2,
+        "neither": 1,
+        "both": 0,
+        "total": 4
+      },
+      "graduate": {
+        "deliveroo_plus": 3,
+        "uber_one": 4,
+        "neither": 2,
+        "both": 3,
+        "total": 6
+      }
+    },
+    "by_persona": {
+      "pragmatic_optimizer": {
+        "deliveroo_plus": 7,
+        "uber_one": 9,
+        "neither": 1,
+        "both": 6,
+        "total": 11
+      },
+      "social_orderer": {
+        "deliveroo_plus": 3,
+        "uber_one": 6,
+        "neither": 3,
+        "both": 3,
+        "total": 9
+      },
+      "budget_balancer": {
+        "deliveroo_plus": 0,
+        "uber_one": 1,
+        "neither": 6,
+        "both": 0,
+        "total": 7
+      },
+      "convenience_dependent": {
+        "deliveroo_plus": 2,
+        "uber_one": 3,
+        "neither": 3,
+        "both": 2,
+        "total": 6
+      }
+    },
+    "multi_subscription_holders": [
+      "P002",
+      "P003",
+      "P004",
+      "P006",
+      "P008",
+      "P012",
+      "P020",
+      "P021",
+      "P022",
+      "P026",
+      "P030"
+    ],
+    "no_subscription_mentioned": [
+      "P001",
+      "P005",
+      "P007",
+      "P010",
+      "P013",
+      "P016",
+      "P017",
+      "P023",
+      "P024",
+      "P025",
+      "P028",
+      "P032",
+      "P035"
+    ]
+  },
+  "value_driver_hierarchy": {
+    "description": "What students actually value in a subscription, ranked by mention frequency",
+    "rank_1": {
+      "benefit": "Free delivery",
+      "mentions": 47,
+      "participants": 21,
+      "pct_of_sample": 64,
+      "student_language": [
+        "free delivery",
+        "no delivery fee",
+        "delivery charge removed",
+        "delivery is free"
+      ]
+    },
+    "rank_2": {
+      "benefit": "Promotions and offers",
+      "mentions": 18,
+      "participants": 12,
+      "pct_of_sample": 36,
+      "student_language": [
+        "deals",
+        "offers",
+        "promotions",
+        "discounts",
+        "coupons"
+      ]
+    },
+    "rank_3": {
+      "benefit": "Cashback and credits",
+      "mentions": 8,
+      "participants": 6,
+      "pct_of_sample": 18,
+      "student_language": [
+        "cashback",
+        "credit",
+        "5% back",
+        "money off"
+      ]
+    },
+    "rank_4": {
+      "benefit": "Retail partnerships (Boots, etc.)",
+      "mentions": 3,
+      "participants": 3,
+      "pct_of_sample": 9,
+      "student_language": [
+        "retail partners",
+        "Boots",
+        "high street"
+      ]
+    },
+    "rank_5": {
+      "benefit": "Grocery delivery offers",
+      "mentions": 2,
+      "participants": 2,
+      "pct_of_sample": 6,
+      "student_language": [
+        "grocery offers",
+        "supermarket delivery"
+      ]
+    }
+  },
+  "pain_point_inventory": {
+    "service_fee_erosion": {
+      "severity": "CRITICAL",
+      "mentions": 27,
+      "participants": 11,
+      "pct_of_sample": 31,
+      "description": "Students feel cheated when 'free delivery' is paired with visible service fees. The net saving feels minimal or zero.",
+      "key_quote": "They say free delivery and reduced service fees... but also sometimes even the reduced service fee is still quite a lot. (P002)"
+    },
+    "minimum_order_threshold": {
+      "severity": "HIGH",
+      "mentions": 15,
+      "participants": 8,
+      "pct_of_sample": 24,
+      "description": "Plus benefits are gated behind minimum order amounts (£15-25) that exceed typical solo student orders (£8-12). This makes Plus feel irrelevant for the most common ordering occasion.",
+      "key_quote": "There's a lot of restrictions with like you need to order at least £25 and it's very difficult to order over £25 if you're ordering for yourself. (P020)"
+    },
+    "benefit_confusion": {
+      "severity": "HIGH",
+      "mentions": 8,
+      "participants": 5,
+      "pct_of_sample": 15,
+      "description": "Students, particularly those with Silver via Prime, don't understand what their subscription provides. This reduces perceived value and weakens conversion to paid tiers.",
+      "key_quote": "Deliveroo Plus, I don't really know about, to be honest. (P022)"
+    },
+    "subscription_fatigue": {
+      "severity": "MEDIUM",
+      "mentions": 10,
+      "participants": 6,
+      "pct_of_sample": 18,
+      "description": "Students are increasingly conscious of subscription spending across all services (streaming, music, food, transport) and actively pruning subscriptions that don't demonstrate clear value.",
+      "key_quote": "I'm quite conscious at the moment... I'm trying to save money on subscriptions because they just leave my account so easily. (P025)"
+    },
+    "overuse_guilt": {
+      "severity": "MEDIUM",
+      "mentions": 7,
+      "participants": 4,
+      "pct_of_sample": 12,
+      "description": "Some students recognise that subscriptions encourage them to order more than they should, leading to health or budget guilt and eventual cancellation.",
+      "key_quote": "I would say yes. Most of the time it will be like you got a free delivery or some kind of promise on the Uber one. So that just influenced to spend more money. (P008)"
+    }
+  },
+  "acquisition_channel_analysis": {
+    "student_offer": {
+      "segments": 22,
+      "effectiveness": "HIGH",
+      "description": "Student-specific offers (often via app) are the most common acquisition channel. Students actively seek student deals.",
+      "conversion_quality": "GOOD — students who acquire through targeted offers tend to understand the proposition"
+    },
+    "social_media_advertising": {
+      "segments": 56,
+      "effectiveness": "HIGH AWARENESS, UNCLEAR CONVERSION",
+      "description": "YouTube and TikTok ads create broad awareness but conversion path is unclear. Students recall seeing ads but don't always act.",
+      "conversion_quality": "UNCERTAIN — high impressions but attribution to subscription sign-up is weak"
+    },
+    "freshers_fair": {
+      "segments": 9,
+      "effectiveness": "HIGH",
+      "description": "Freshers fair/week is a critical acquisition moment. Students are receptive to signing up for everything and associate it with the start of university life.",
+      "conversion_quality": "GOOD — captures students at peak receptivity; creates long-term association"
+    },
+    "word_of_mouth": {
+      "segments": 6,
+      "effectiveness": "MEDIUM-HIGH",
+      "description": "Friends recommending subscriptions creates trust and social proof. Flatmate influence is particularly strong.",
+      "conversion_quality": "EXCELLENT — peer-recommended subscribers have highest engagement"
+    },
+    "prime_bundle": {
+      "segments": 5,
+      "effectiveness": "HIGH ACQUISITION, LOW ENGAGEMENT",
+      "description": "Prime bundle creates passive subscribers who don't actively engage with Deliveroo Silver benefits.",
+      "conversion_quality": "POOR — high sign-up numbers but low benefit awareness and minimal conversion to paid tiers"
+    },
+    "free_trial": {
+      "segments": 5,
+      "effectiveness": "MEDIUM",
+      "description": "Free trials create temporary engagement but low post-trial conversion.",
+      "conversion_quality": "LOW — most students cancel after trial ends unless they've reached high ordering frequency"
+    },
+    "notification_popup": {
+      "segments": 4,
+      "effectiveness": "MEDIUM",
+      "description": "In-app notifications and push notifications drive some sign-ups, particularly for free/discounted offers.",
+      "conversion_quality": "VARIABLE — depends on timing and offer quality"
+    }
+  },
+  "churn_risk_factors": {
+    "holiday_breaks": {
+      "severity": "HIGH",
+      "periods": [
+        "Christmas (3-4 weeks)",
+        "Easter (2-3 weeks)",
+        "Summer (8-12 weeks)"
+      ],
+      "mitigation": "Pause/resume feature"
+    },
+    "graduation": {
+      "severity": "VERY HIGH",
+      "description": "Students lose student pricing and may relocate. Graduates show lowest subscription engagement (2.2 mentions/person vs 3.8 undergrad).",
+      "mitigation": "Graduation bridge offer with introductory rate for first 6 months post-graduation"
+    },
+    "subscription_fatigue": {
+      "severity": "MEDIUM",
+      "description": "Students pruning subscriptions may cut Deliveroo first if perceived value is lower than Uber One or streaming services.",
+      "mitigation": "Monthly savings reports demonstrating concrete value"
+    },
+    "overuse_guilt": {
+      "severity": "MEDIUM",
+      "description": "Students who recognise subscription-driven overspending may cancel as a self-control measure.",
+      "mitigation": "Reframe as smart budgeting tool rather than unlimited access"
+    },
+    "price_increase": {
+      "severity": "HIGH",
+      "description": "Any price increase for student tiers will trigger re-evaluation; students are highly price-sensitive.",
+      "mitigation": "Locked-in student pricing for academic year"
+    }
+  },
+  "stage_specific_subscription_attitudes": {
+    "undergraduate": {
+      "n": 23,
+      "subscription_engagement": "HIGH (3.8 mentions/person)",
+      "primary_driver": "Free delivery and cost reduction",
+      "attitude": "Positive when free; reluctant to pay. Evaluate ROI on per-order delivery savings. Most price-sensitive group.",
+      "key_behaviors": [
+        "Actively use student offers and free tiers",
+        "Compare subscription value across platforms",
+        "Most likely to hold multiple subscriptions (free tiers)",
+        "Highest subscription-driven ordering increase"
+      ],
+      "plus_opportunity": "Strong acquisition through free tier; conversion to paid requires demonstrating concrete savings exceed subscription cost"
+    },
+    "postgraduate": {
+      "n": 4,
+      "subscription_engagement": "HIGH (3.8 mentions/person)",
+      "primary_driver": "Convenience and time-saving",
+      "attitude": "More willing to pay for genuine value. Less price-sensitive but more critical of actual benefit delivery.",
+      "key_behaviors": [
+        "Evaluate subscription on total convenience value, not just delivery fee savings",
+        "More likely to cancel if subscription encourages unhealthy habits",
+        "Value cross-service integration (Uber One transport + food)"
+      ],
+      "plus_opportunity": "Position Plus as time-saving tool for busy postgrads; health-forward restaurant curation could differentiate from Uber One"
+    },
+    "graduate": {
+      "n": 6,
+      "subscription_engagement": "MODERATE (2.2 mentions/person)",
+      "primary_driver": "Inertia and occasional value",
+      "attitude": "Less engaged with subscriptions overall. May keep Plus from habit but don't actively evaluate value.",
+      "key_behaviors": [
+        "Lowest subscription engagement — may lapse without noticing",
+        "Less price-sensitive so less motivated by 'savings' messaging",
+        "More receptive to premium positioning and quality benefits"
+      ],
+      "plus_opportunity": "Transition from student to premium tier with quality-focused positioning; graduation bridge prevents lapsing"
+    }
+  },
+  "persona_specific_subscription_attitudes": {
+    "pragmatic_optimizer": {
+      "subscription_behavior": "Most engaged with subscription economics. Compares platforms, calculates savings, holds multiple subscriptions strategically.",
+      "plus_opportunity": "Show concrete savings data; these users will upgrade if the math works",
+      "key_quote": "I try to make it about £15 to save delivery fees... it makes some changes in my delivery order. (P012)"
+    },
+    "social_orderer": {
+      "subscription_behavior": "Values subscription for reducing friction in social ordering occasions. Free delivery makes it easier to suggest group orders.",
+      "plus_opportunity": "Position Plus as social enabler: 'Free delivery makes it easier to treat your friends'",
+      "key_quote": "So, yeah, obviously, like, I ordered from my account. Like, obviously I. I have a membership, so I ordered from my account all together and then we split it in like three or four. Like how many people are we. And then they send their share. (P009)"
+    },
+    "budget_balancer": {
+      "subscription_behavior": "Most resistant to paid subscriptions. Will use free tiers but actively avoids paying for subscriptions they see as encouraging overspending.",
+      "plus_opportunity": "Free tier only; do not push paid conversion. Instead, demonstrate value through occasional surprise savings.",
+      "key_quote": "I'm not really the kind of person that likes having subscriptions anyway because I just don't... like, like money coming out. (P023)"
+    },
+    "convenience_dependent": {
+      "subscription_behavior": "Values subscription for reducing decision friction. Likely to pay if it simplifies the ordering process.",
+      "plus_opportunity": "Position Plus as 'one less thing to think about' — automatic savings without effort",
+      "key_quote": "What made me subscribe was convenience and like, you know, some of my friends had it. (P017)"
+    }
+  },
+  "strategic_recommendations_consolidated": {
+    "priority_1_critical": [
+      {
+        "area": "Value proposition simplification",
+        "action": "Lead all Plus messaging with 'Free delivery on every order' as singular hero benefit",
+        "evidence": "47 free delivery mentions (rank 1) vs <5 for any other benefit",
+        "expected_impact": "Improved acquisition conversion; clearer perceived value"
+      },
+      {
+        "area": "Service fee elimination for Plus",
+        "action": "Remove or absorb service fees for Plus subscribers to deliver a true 'free delivery' experience",
+        "evidence": "27 service fee complaints across 11 participants; trust erosion undermines core value proposition",
+        "expected_impact": "Increased perceived value; reduced churn from 'free delivery isn't really free' frustration"
+      },
+      {
+        "area": "Cross-service ecosystem",
+        "action": "Build strategic partnerships (transport, entertainment, lifestyle) to compete with Uber One's multi-service value",
+        "evidence": "7 participants cite Uber One transport value; comparable subscriber penetration (19 Uber One, 12 Deliveroo Plus) but Uber One has stronger perceived value articulation",
+        "expected_impact": "Reduced competitive disadvantage; new value drivers beyond food delivery"
+      }
+    ],
+    "priority_2_high": [
+      {
+        "area": "Minimum order reduction",
+        "action": "Reduce or eliminate minimum order requirement for Plus subscribers",
+        "evidence": "15 frustration segments; solo student orders (£8-12) fall below £15-25 threshold",
+        "expected_impact": "Unlocks Plus value for the most common ordering occasion (solo)"
+      },
+      {
+        "area": "Pause/resume feature",
+        "action": "Introduce flexible subscription pause for holiday periods",
+        "evidence": "Students have 3-4 non-ordering windows per year; binary stay/cancel drives unnecessary churn",
+        "expected_impact": "Reduced churn; eliminated re-acquisition costs at predictable break points"
+      },
+      {
+        "area": "Silver onboarding",
+        "action": "Create active onboarding for Prime-acquired Silver subscribers with savings dashboard and clear upgrade path",
+        "evidence": "5 participants confused about Silver benefits; passive acquisition produces disengaged subscribers",
+        "expected_impact": "Improved Silver engagement; higher conversion to paid Plus tiers"
+      }
+    ],
+    "priority_3_medium": [
+      {
+        "area": "Graduation bridge",
+        "action": "Create transition offer for graduating students with introductory paid Plus rate",
+        "evidence": "Graduates show lowest subscription engagement; graduation is highest churn-risk moment",
+        "expected_impact": "Retained subscribers through life transition; lifetime value extension"
+      },
+      {
+        "area": "Freshers acquisition",
+        "action": "Double down on freshers fair/week as primary acquisition channel with compelling sign-up offer",
+        "evidence": "9 freshers-related segments; critical receptivity window at start of university life",
+        "expected_impact": "Higher initial acquisition at peak receptivity; habit formation from day one"
+      },
+      {
+        "area": "Peer referral program",
+        "action": "Build flatmate/friend referral program leveraging social influence dynamics",
+        "evidence": "6 word-of-mouth segments; peer-recommended subscribers have highest engagement quality",
+        "expected_impact": "Higher quality acquisitions through trusted social channels"
+      }
+    ]
+  },
+  "methodological_notes": {
+    "data_source": "Semi-structured interviews with 35 participants (25 undergraduate, 4 postgraduate, 6 graduate). 34 of 35 discussed subscription-related topics.",
+    "subscription_coverage": "Subscription-related coded segments across 34 of 35 participants",
+    "limitations": [
+      "Self-reported subscription ownership — no verification against actual account data",
+      "No actual ordering frequency or spending data to validate savings claims",
+      "Sample is UK/Ireland focused — may not generalise to other markets",
+      "Undergraduate-dominant sample (70%) may overrepresent undergraduate subscription attitudes",
+      "Postgraduate (n=4) and graduate (n=6) subsamples are small — stage-specific findings are indicative"
+    ],
+    "related_insights": [
+      "INS_001",
+      "INS_004",
+      "INS_005",
+      "INS_008"
+    ],
+    "related_deep_dives": [
+      "DD_001",
+      "DD_004"
+    ]
+  }
+}

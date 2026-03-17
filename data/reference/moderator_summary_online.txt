@@ -1,0 +1,208 @@
+Deliveroo Student & Young Adult Research
+1. Delivery plays a "fallback" role in daily life
+Delivery is not treated as a luxury, it is used when plans break down.
+Primary triggers
+No food in the house
+Too tired to cook
+Busy study/work days
+Social evenings
+Treat/reward moments
+Delivery acts as a reliable safety net when energy and planning are low.
+Implication:Deliveroo's strongest role is in moments of friction or fatigue, not planned meals.
+2. Highly individual food behaviour
+Even in shared households, food decisions are mostly individual:
+Separate groceries
+Separate cooking
+Different schedules
+Different diets
+Group meal planning is rare. Delivery removes coordination effort and allows people to eat independently.
+Implication:Solo ordering remains dominant behaviour.
+3. Order thresholds and basket value expectations
+There is clear evidence that minimum order thresholds and total basket requirements create friction for student users, particularly for solo takeaway orders and smaller grocery topups.
+Participants frequently described:
+Checking whether an order felt "worth it" once delivery fees and service charges were added
+Adding extra items purely to reach minimum spend
+Deciding not to order if they could not justify the total cost
+Feeling that smaller, spontaneous orders were harder to justify
+This was especially pronounced when ordering alone or ordering groceries for top ups rather than full shops. While thresholds did not prevent ordering altogether, they often acted as a point of hesitation and could reduce conversion in lower value occasions.
+Students showed greater willingness to meet thresholds when:
+Ordering in groups
+Strong discounts were present
+The order felt like a treat or reward
+However, for everyday or convenience led moments, minimum spend requirements could feel high relative to student budgets.
+Implication:There is an opportunity to explore more student friendly threshold mechanics (e.g. lower minimums, targeted offers, or perceived value incentives) to reduce friction on solo orders and grocery top ups without undermining basket value.
+3. Deals and student value perception
+One of the most consistent themes across sessions was the importance of deals, discounts and student specific value.
+Students frequently:
+Compare apps based on offers
+Change restaurant choice based on discounts
+Expect student specific pricing
+Look for visible value before ordering
+Promotions were described as a key driver of both:
+App choice
+Order frequency
+Restaurant selection
+Participants described switching orders when discounts appeared and actively looking for promotional offers before deciding where to order.
+There was also a clear expectation that platforms should:
+Recognise student status
+Offer tailored deals
+Provide visible savings
+Some students explicitly suggested more personalised or student targeted deals as something that would make platforms feel more "for them".
+Implication:Deals are not just a bonus they shape behaviour.Student relevant and personalised offers strongly influence choice and loyalty.
+4. Frequency and usage patterns
+Typical ordering patterns:
+1–2x per week → heavy users
+Every 1–2 weeks → moderate users
+Occasional → fallback behaviour
+Delivery is embedded in routines but used primarily for convenience and energy saving.
+5. Key decision drivers
+Most consistent ordering triggers:
+Time pressure
+Low energy after study/work
+Empty fridge
+Social occasions
+Weekend treat behaviour
+Convenience and mental effort reduction matter more than price alone.
+6. Social media and discovery
+Food discovery is heavily driven by:
+TikTok → recipes & viral food
+Instagram → local restaurants
+Influencers
+Implication:
+Social drives consideration, but convenience drives conversion.
+7. Grocery vs takeaway relationship
+Users balance:
+Groceries = planned & budget led
+Delivery = reactive & convenience led
+Many delivery orders happen because:
+Ingredients are missing
+Plans changed
+Energy is low
+This creates strong "top up" and hybrid ordering opportunities.
+Rider & Flyer Insights
+Rider perceptions
+Riders are seen as central to the experience.
+Positive themes
+Friendly
+Fast
+Reliable
+Key brand touchpoint
+Good rider interactions reinforce trust and repeat usage.
+Rider recruitment flyer feedback (undergrads)
+The rider recruitment flyer tested performed positively overall, with students saying they would notice it and likely scan it.
+What worked
+Clear and minimal messagingStudents liked that the flyer was simple and direct.
+"It doesn't have a lot going on… it's straight to the point."
+Flexibility + earning resonatedThe ability to work around studies felt realistic.
+"Study in the day and then do deliveries at night… it does make me think."
+QR code drove engagementThe QR code was the strongest interaction driver.
+"Anything with a QR code is appealing… I just want to scan it."
+"I would definitely scan that."
+Noticeability on campusStudents said they would spot it in university spaces.
+"If you've seen this hanging up… I'd spot it."
+Money messaging landed
+"I'd be like, oh money, let's go."
+Area for improvement: representation of students
+A recurring piece of feedback was that the imagery did not strongly reflect real students.Some participants noted the people shown did not feel representative of typical student life, which slightly reduced relatability.
+While this did not stop engagement with the flyer, making visuals feel more authentically "student" could improve identification and relevance.
+Implication:Keep the minimal messaging and QR led design, but consider updating imagery to better reflect real student lifestyles and diversity.
+Subscription perceptions 
+Awareness
+Awareness of subscription products was mixed.
+Some students were aware of delivery subscriptions generally
+Awareness of Deliveroo Silver/Roo Free specifically was lower or inconsistent
+Uber One had slightly stronger recognition due to broader ecosystem use
+Several participants only became aware of Deliveroo's student or subscription benefits during the session itself.
+Implication:Discovery and clarity of Roo Free/Silver benefits appear limited among students.
+What students like about subscriptions
+Subscriptions are attractive when they clearly deliver visible, repeat value.
+Students responded positively to:
+Free delivery
+Clear savings per order
+Student specific pricing
+Feeling they are "getting their money back"
+Bundled benefits across multiple uses
+Subscriptions feel worthwhile when:
+They order regularly
+The value is obvious
+Savings are easy to understand
+What they dislike or question
+The main barriers were:
+1. Uncertainty of valueStudents questioned whether they would order enough to justify the cost.
+They often mentally calculate: "Will I actually use this enough?"
+2. Budget sensitivitySubscriptions can feel like an extra commitment on top of:
+Rent
+Food
+Bills
+Study costs
+3. Lack of perceived differentiationSome felt delivery subscriptions across platforms were similar, making them compare based on:
+Price
+Offers
+Frequency of use
+Deliveroo vs Uber One perception
+Uber One often had stronger perceived value because:
+It combines transport + food
+Feels more widely used
+Benefits are more visible
+Participants noted that Uber's ecosystem can make its subscription feel broader in value, even if they still use Deliveroo for food.
+Deliveroo was seen positively for:
+Food delivery experience
+Restaurant choice
+Reliability
+But subscription value needed to feel:
+Clearer
+More student specific
+More obviously beneficial
+Role of deals in subscription appeal
+Subscriptions feel most worthwhile when paired with:
+Discounts
+Student pricing
+Frequent promotions
+Without strong visible savings, students question whether the subscription is worth keeping.
+Implications for Deliveroo
+1. Awareness gap existsMany students are not fully aware of Roo Free/Silver benefits or student relevance.
+2. Value needs to be obvious and immediateStudents want to quickly understand:
+What they save
+How often
+Why it's worth it
+3. Student specific positioning mattersSubscriptions feel more compelling when framed explicitly for student life and budgets.
+4. Uber One sets the comparison standardUber's broader ecosystem makes its subscription feel more valuable, even if actual savings are similar.
+One line takeaway
+Subscriptions are appealing to students when value is clear and frequent, but awareness and perceived differentiation of Deliveroo's student subscription offering is lower than competitors, particularly compared with Uber One.
+Overall Takeaways for Deliveroo
+1. Deliveroo is a convenience safety net, not just a treat platformStudents rely on delivery when energy, time or planning breaks down. It plays a practical role in busy study/work lives. Growth comes from owning these friction moments.
+2. Deals and student specific value drive behaviour more than brand preferenceDiscounts significantly influence:
+Which app is chosen
+Which restaurant is selected
+Whether an order happens at all
+Students expect platforms to recognise their financial constraints. Personalised or student targeted deals would meaningfully strengthen loyalty and perceived relevance.
+3. Minimum order thresholds create friction for solo and grocery occasionsStudents often hesitate when:
+Fees stack up
+They need to add items to hit minimum spend
+The total doesn't feel "worth it"
+Thresholds don't stop ordering entirely, but they reduce conversion in smaller, spontaneous or grocery top up moments. Student friendly mechanics could unlock incremental volume.
+4. Subscription awareness and differentiation are opportunities Awareness of Roo Free/Silver was inconsistent. Students evaluate subscriptions based on:
+Clear, visible savings
+Frequency of use
+Immediate value
+Uber One often feels stronger due to ecosystem breadth (transport + food), even if usage behaviour differs. Deliveroo's subscription needs clearer communication of savings and stronger student positioning.
+5. Ordering behaviour is highly individualisedEven in shared homes, most students:
+Shop separately
+Cook separately
+Order separately
+Delivery reduces coordination friction. Solo ordering remains the dominant behaviour pattern.
+6. Riders are a key brand touchpointRider friendliness, speed and reliability strongly influence overall platform perception. Good rider experiences build trust and repeat behaviour.
+7. Rider recruitment messaging can cut through on campusThe tested recruitment flyer performed well:
+Clear and minimal messaging resonated
+Flexibility + earning around studies landed strongly
+QR code drove likely engagement
+However, imagery could better reflect authentic student life
+This suggests physical campus activation remains viable when creativity is sharp and student relevant.
+Strategic Summary
+Deliveroo is embedded as a convenience tool within student life.
+The biggest growth levers are:
+Stronger, more visible student deals
+Reduced friction on smaller orders
+Clearer subscription value communication
+Continued reinforcement of reliability and rider quality
+Students are value sensitive, convenience driven, and highly responsive to personalised incentives.

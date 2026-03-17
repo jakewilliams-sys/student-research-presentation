@@ -1,0 +1,103 @@
+{
+  "participant_id": "P007",
+  "summary": "Josh is a pragmatic, structured fourth-year student who has developed a sophisticated relationship with food that balances efficiency, health consciousness, and social enjoyment. He operates with clear systems - meal prepping on Mondays, maintaining a mental budget of £45-50 weekly, and treating delivery as a deliberate reward rather than convenience. His approach to food is highly contextual: cooking becomes either an enjoyable ritual when the house is quiet or a rushed necessity when overwhelmed by housemates in cramped shared spaces. He demonstrates strong self-awareness about his habits, openly acknowledging spending 'too much' time on social media and being influenced by Instagram food content, yet maintains disciplined boundaries around his food spending and delivery usage.\n\nWhat's particularly striking is Josh's evolved relationship with money and food quality - he's moved from being more restrictive in earlier university years to consciously investing more in his diet, viewing it as important rather than something to 'scrimp on.' His delivery behavior is highly intentional, primarily triggered by reward scenarios (post-exam, after exercise) or social situations (nights out, visiting girlfriend). He shows sophisticated comparison shopping across all three major apps, always seeking deals, and maintains strong resistance to grocery delivery despite disliking food shopping - a contradiction rooted in family upbringing and ingrained habits around wanting to 'see what he's buying.'",
+  "personality_notes": "Articulate and reflective communicator who gives thoughtful, detailed responses. Self-aware about his habits and contradictions. Structured thinker who likes systems and routines. Honest about weaknesses (social media usage, disliking food shopping) while maintaining disciplined boundaries.",
+  "food_relationship": "Food is viewed as fuel, social connector, and reward system - structured meal prep for efficiency, restaurant meals for socializing, delivery for treats and post-achievement moments.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Describes cooking as switching between enjoyable task and sustenance depending on house dynamics",
+      "significance": "Reveals how social environment directly impacts his relationship with food preparation - key insight into student housing challenges"
+    },
+    {
+      "timestamp": "43:51",
+      "description": "Explains delivery as 'more of a treat' and 'reward' rather than regular eating pattern",
+      "significance": "Shows intentional, controlled relationship with delivery - not convenience-driven but reward-driven behavior"
+    },
+    {
+      "timestamp": "71:27",
+      "description": "Admits mother was 'always against ordering stuff in' when explaining grocery delivery hesitation",
+      "significance": "Reveals deep-rooted family influence on shopping habits that persists despite logical contradictions"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned financial stress or struggling with money despite being budget-conscious",
+    "Avoided discussing any negative experiences with delivery apps or food quality issues",
+    "Did not mention health/dietary restrictions despite being health-conscious about exercise"
+  ],
+  "initial_hypotheses": [
+    "His reward-based delivery usage suggests he may be underestimating his potential usage frequency as life gets busier",
+    "Strong family influence on grocery shopping habits may be overcome by convenience needs post-graduation",
+    "His systematic approach to comparing apps suggests he would respond well to transparent, predictable subscription benefits",
+    "Social eating patterns may drive more group ordering behavior than he currently acknowledges"
+  ],
+  "questions_for_coding": [
+    "How does his 'earned it' mentality around food rewards connect to broader student attitudes about treats vs necessities?",
+    "What role does the physical environment (cramped student housing) play in driving delivery vs cooking decisions?",
+    "How do family upbringing patterns influence current food shopping behaviors, and when do they break down?",
+    "What triggers the shift from his structured meal prep to spontaneous delivery ordering?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Too much, to be honest.\nspk_0: Probably somewhere in the vicinity of two to three hours in between like messaging girlfriend, friends and then obviously the addictive personal nature of social media these days.\nspk_0: Yeah, probably two to three hours.\n",
+      "document_index": 0,
+      "document_title": "P007 - P007 - Interview Transcript",
+      "start_char_index": 5903,
+      "end_char_index": 6163,
+      "participant_id": "P007",
+      "participant_name": "P007"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: So I'll normally sort of meal prep on a Monday, but then I'd say one or two nights a week I'll get some form of like food out, whether that's at a restaurant or a takeaway or like ordering it.\nspk_0: But I'd say at least like, at least five nights a week I've like cooked at home maybe two or three portions of like a meal prep and that's only just standard pastas, fajitas.\n",
+      "document_index": 0,
+      "document_title": "P007 - P007 - Interview Transcript",
+      "start_char_index": 10575,
+      "end_char_index": 10957,
+      "participant_id": "P007",
+      "participant_name": "P007"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I switch between it being like an enjoyable task and.\nspk_0: And like putting like sort of pride into the.\nspk_0: Into the food. I mean, it just been something that I just, you know, like a sustenance sort of thing.\nspk_0: I'd say in quiet periods in the house, I, you know, if it's only me or one of a person that it becomes like a nice task to cook.\n",
+      "document_index": 0,
+      "document_title": "P007 - P007 - Interview Transcript",
+      "start_char_index": 13254,
+      "end_char_index": 13606,
+      "participant_id": "P007",
+      "participant_name": "P007"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: I think for me, ordering something off an app is more of a treat, I think, um, that's how I see it really, as, as ordering and delivering stuff is put.\nspk_0: It's more of like a reward than a regular part of my like eating cupboards.\n",
+      "document_index": 0,
+      "document_title": "P007 - P007 - Interview Transcript",
+      "start_char_index": 17160,
+      "end_char_index": 17402,
+      "participant_id": "P007",
+      "participant_name": "P007"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So between takeaways, groceries and eating out\nspk_0: I think I'd probably like between 45 and 50 quid.\nspk_0: I'd say it used to be a lot less in previous years but this year I've sort of come with the mindset of like, you know, it's important your diet and what you eat and stuff.\nspk_0: Like it's not something to scrimp on really.\nspk_0: And at the end of the day I think 45 to 50 quid is probably at the lower end of what people would normally spend on food.\n",
+      "document_index": 0,
+      "document_title": "P007 - P007 - Interview Transcript",
+      "start_char_index": 21331,
+      "end_char_index": 21802,
+      "participant_id": "P007",
+      "participant_name": "P007"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Honestly probably goes back to like when I was younger we just always did food shop in person.\nspk_0: Like I don't know. My mom's always been against ordering stuff in.\nspk_0: I don't know whether that's just like she thinks it's like lazy or she wants to buy.\n",
+      "document_index": 0,
+      "document_title": "P007 - P007 - Interview Transcript",
+      "start_char_index": 30893,
+      "end_char_index": 31161,
+      "participant_id": "P007",
+      "participant_name": "P007"
+    }
+  ],
+  "_citation_count": 6
+}

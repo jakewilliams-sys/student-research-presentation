@@ -1,0 +1,645 @@
+{
+  "personas": [
+    {
+      "persona_id": "strategic_optimizer",
+      "name": "The Strategic Optimizer",
+      "tagline": "Systematic delivery users who maximize value through subscriptions and strategic timing",
+      "size": 8,
+      "participants": [
+        "P002",
+        "P006",
+        "P009",
+        "P012",
+        "P015",
+        "P021",
+        "P026",
+        "P034"
+      ],
+      "segment_distribution": {
+        "undergraduate": 6,
+        "postgraduate": 1,
+        "early_graduate": 1
+      },
+      "key_characteristics": [
+        "Maintains multiple platform subscriptions for maximum flexibility",
+        "Uses delivery as calculated time-saving solution rather than indulgence",
+        "Develops sophisticated comparison strategies across platforms",
+        "Views delivery spending as investment in productivity/convenience"
+      ],
+      "delivery_triggers": [
+        "Time pressure from work/study commitments",
+        "Strategic reward after completing tasks",
+        "Platform promotions and deals",
+        "Avoiding cooking friction during busy periods"
+      ],
+      "emotional_drivers": [
+        "Control through systematic approach",
+        "Satisfaction from optimizing value",
+        "Relief from decision fatigue",
+        "Confidence in their strategic choices"
+      ],
+      "pain_points": [
+        "Platform switching friction when deals change",
+        "Subscription value anxiety during low-usage periods",
+        "Decision paralysis from too many optimization options",
+        "Guilt when convenience spending exceeds planned budgets"
+      ],
+      "deliveroo_opportunities": [
+        "Personalized deal timing based on usage patterns",
+        "Cross-platform value comparison tools",
+        "Productivity-focused messaging and features",
+        "Subscription pause/resume flexibility"
+      ],
+      "evidence": [
+        {
+          "participant": "P006",
+          "quote": "My favorite Chinese is on there, my favorite Indian's on there. But, like, if I'm ordering, like, McDonald's or something like that, I'd go into UberEats because UberEats usually offers a better discount or promotion on it.",
+          "context": "Platform optimization strategy"
+        },
+        {
+          "participant": "P009",
+          "quote": "Obviously again, like if I'm ordering food, I want to save money. I tend to look on both the platform, even on Just Eat. Like not, not only these two, but even on Just Eat and then compare the prices.",
+          "context": "Strategic subscription management"
+        },
+        {
+          "participant": "P012",
+          "quote": "If I have time, if I'm back home early by 6, I'll cook. And if I'm home late, if I arrive home late, then it's like I order most of the time or I'll order from uni and collect it on the way back.",
+          "context": "Pragmatic usage approach"
+        }
+      ],
+      "representative_participants": []
+    },
+    {
+      "persona_id": "social_rewarder",
+      "name": "The Social Rewarder",
+      "tagline": "Delivery as emotional comfort and social connection, especially during stress and celebration",
+      "size": 9,
+      "participants": [
+        "P003",
+        "P008",
+        "P010",
+        "P016",
+        "P018",
+        "P025",
+        "P027",
+        "P029",
+        "P030"
+      ],
+      "segment_distribution": {
+        "undergraduate": 8,
+        "postgraduate": 1
+      },
+      "key_characteristics": [
+        "Uses delivery for emotional regulation during stress/celebration",
+        "Strong Friday evening 'treat' ordering pattern",
+        "Influenced by social dynamics and group ordering pressure",
+        "Balances cooking enjoyment with delivery convenience"
+      ],
+      "delivery_triggers": [
+        "Friday evening treat ritual",
+        "Exam stress and academic pressure",
+        "Social situations and group ordering",
+        "Emotional comfort seeking",
+        "Celebration after achievements"
+      ],
+      "emotional_drivers": [
+        "Reward and self-care feelings",
+        "Social connection through shared ordering",
+        "Comfort during stressful periods",
+        "Anticipation and treat excitement"
+      ],
+      "pain_points": [
+        "Guilt about spending on 'unnecessary' treats",
+        "Social pressure to participate in group orders",
+        "Post-order regret when stressed ordering becomes habitual",
+        "Difficulty moderating emotional ordering triggers"
+      ],
+      "deliveroo_opportunities": [
+        "Stress-aware ordering suggestions and healthier alternatives",
+        "Group ordering features that reduce individual pressure",
+        "Celebration and achievement-based promotions",
+        "Emotional wellness integration and mindful ordering prompts"
+      ],
+      "evidence": [
+        {
+          "participant": "P003",
+          "quote": "If I'm gonna get a takeaway, it would probably be on a Friday night. It's not every Friday, but I'd say maybe like every other. Just kind of as, like, reward for getting through the week.",
+          "context": "Weekly reward pattern"
+        },
+        {
+          "participant": "P008",
+          "quote": "When I was in uni, I gained a lot of weight... my weight gone to around 80, 85. So I need to lose that. And after that I just think oh, I need to maintain my weight or I'll be obese, which I don't want to be.",
+          "context": "Emotional ordering consequences"
+        },
+        {
+          "participant": "P027",
+          "quote": "Probably because it's less frequent, and it's like I'm craving it more. So, it's like... it's more like... thought out. It's more like, 'Oh, deserve.'",
+          "context": "Emotional regulation through food"
+        }
+      ],
+      "representative_participants": []
+    },
+    {
+      "persona_id": "budget_conscious_minimalist",
+      "name": "The Budget-Conscious Minimalist",
+      "tagline": "Infrequent but intentional delivery users who prioritize cost control and cooking",
+      "size": 7,
+      "participants": [
+        "P005",
+        "P007",
+        "P013",
+        "P023",
+        "P028",
+        "P031",
+        "P032"
+      ],
+      "segment_distribution": {
+        "undergraduate": 5,
+        "postgraduate": 1,
+        "early_graduate": 1
+      },
+      "key_characteristics": [
+        "Orders less than monthly with strict budget controls",
+        "Strong cooking identity and meal prep habits",
+        "Highly price-sensitive with detailed cost comparisons",
+        "Views delivery as occasional necessity rather than convenience"
+      ],
+      "delivery_triggers": [
+        "Kitchen unavailability or equipment issues",
+        "Extreme time pressure or exhaustion",
+        "Social occasions requiring group participation",
+        "Specific craving that can't be satisfied by cooking"
+      ],
+      "emotional_drivers": [
+        "Pride in cooking skills and self-sufficiency",
+        "Satisfaction from budget discipline",
+        "Anxiety about 'wasteful' spending",
+        "Control through meal planning and preparation"
+      ],
+      "pain_points": [
+        "Delivery costs feel disproportionately expensive",
+        "Limited platform familiarity creates ordering friction",
+        "Social pressure conflicts with budget values",
+        "Guilt and regret after ordering"
+      ],
+      "deliveroo_opportunities": [
+        "Budget-friendly meal options and value messaging",
+        "Cooking inspiration and recipe integration",
+        "Emergency/necessity-focused positioning",
+        "Transparent pricing and no hidden fees"
+      ],
+      "evidence": [
+        {
+          "participant": "P013",
+          "quote": "Every time I say whichever one's cheapest, even like 50p to me, it's like the both delivery companies are almost the same. You'll get the same item. So it's just which one saving me the most money.",
+          "context": "Extreme budget consciousness"
+        },
+        {
+          "participant": "P007",
+          "quote": "I think for me, ordering something off an app is more of a treat, I think, that's how I see it really. It's more of like a reward than a regular part of my like eating cupboards.",
+          "context": "Intentional usage approach"
+        },
+        {
+          "participant": "P031",
+          "quote": "I've been trying to be very consistent in the gym and also I've been trying to eat better, so I mostly eat the same things on a daily basis. We have an air fryer here, so I mostly eat potatoes on a daily basis. And then I rotate my meat options.",
+          "context": "Self-sufficiency and control"
+        }
+      ],
+      "representative_participants": []
+    },
+    {
+      "persona_id": "convenience_dependent",
+      "name": "The Convenience Dependent",
+      "tagline": "High-frequency users who rely on delivery as primary meal solution due to lifestyle constraints",
+      "size": 6,
+      "participants": [
+        "P001",
+        "P011",
+        "P017",
+        "P020",
+        "P022",
+        "P024"
+      ],
+      "segment_distribution": {
+        "undergraduate": 2,
+        "postgraduate": 1,
+        "early_graduate": 3
+      },
+      "key_characteristics": [
+        "Orders multiple times per week as primary meal solution",
+        "Lifestyle constraints make cooking difficult or impractical",
+        "Develops platform loyalty and ordering routines",
+        "Accepts higher food costs as necessary life expense"
+      ],
+      "delivery_triggers": [
+        "Daily meal needs due to schedule constraints",
+        "Kitchen sharing difficulties or limitations",
+        "Work demands and time scarcity",
+        "Decision fatigue around meal planning"
+      ],
+      "emotional_drivers": [
+        "Relief from meal planning burden",
+        "Acceptance of lifestyle necessities",
+        "Frustration with cooking constraints",
+        "Resignation to higher food costs"
+      ],
+      "pain_points": [
+        "High cumulative spending on food delivery",
+        "Limited cooking skills development",
+        "Dependency anxiety when platforms unavailable",
+        "Health concerns from frequent ordering"
+      ],
+      "deliveroo_opportunities": [
+        "Subscription models with predictable pricing",
+        "Healthy meal options and nutritional information",
+        "Meal planning and routine optimization features",
+        "Loyalty rewards for high-frequency users"
+      ],
+      "evidence": [
+        {
+          "participant": "P001",
+          "quote": "My mom does a lot of the cooking, but she's very busy. Like, both my parents are working full-time as well, so, like, a lot of the time we would have to order food home.",
+          "context": "Household constraint-driven usage"
+        },
+        {
+          "participant": "P017",
+          "quote": "It's just because I don't have any time to prepare it. So, like, you know, you're kind of like torn between, like, I'm actually starving right now and I'm like sat here on a lecture, you know, and then, yeah, like, I should be eating healthy.",
+          "context": "Lifestyle constraint override"
+        },
+        {
+          "participant": "P024",
+          "quote": "If it's an evening shift and I come home and I'm tired, I sometimes order a lot of food or if I'm not tired, I'll cook something small. But the majority of the time recently I've just been ordering.",
+          "context": "High dependency pattern"
+        }
+      ],
+      "representative_participants": []
+    },
+    {
+      "persona_id": "transitional_explorer",
+      "name": "The Transitional Explorer",
+      "tagline": "Situational behaviour during life transitions — tentative segment requiring validation with larger sample (n=3)",
+      "size": 3,
+      "participants": [
+        "P004",
+        "P019",
+        "P035"
+      ],
+      "segment_distribution": {
+        "undergraduate": 2,
+        "early_graduate": 1
+      },
+      "key_characteristics": [
+        "Delivery habits changing due to life transitions",
+        "Experimental approach to new platforms and restaurants",
+        "Balancing old student habits with new responsibilities",
+        "Developing more sophisticated food preferences"
+      ],
+      "delivery_triggers": [
+        "Curiosity about new restaurants or cuisines",
+        "Social media food discovery",
+        "Transition stress and adaptation periods",
+        "Celebration of new life milestones"
+      ],
+      "emotional_drivers": [
+        "Excitement about food exploration",
+        "Anxiety about changing habits and identity",
+        "Pride in developing more refined tastes",
+        "Nostalgia for previous eating patterns"
+      ],
+      "pain_points": [
+        "Uncertainty about appropriate spending levels",
+        "Platform learning curve and feature confusion",
+        "Balancing exploration with budget constraints",
+        "Social expectations around 'adult' food choices"
+      ],
+      "deliveroo_opportunities": [
+        "Life-stage appropriate recommendations and messaging",
+        "Discovery features for new cuisines and restaurants",
+        "Flexible spending controls for transitional budgets",
+        "Educational content about food and nutrition"
+      ],
+      "evidence": [
+        {
+          "participant": "P004",
+          "quote": "Dinner generally is the most stressful for me because it's the most logistical one. And also we don't have a very big kitchen. So you've got to try and work around other people... it's then you're trying to navigate around them in our quite small kitchen, which is a little bit stressful.",
+          "context": "Transition stress triggers"
+        },
+        {
+          "participant": "P019",
+          "quote": "I pick it because I did the math because we would be ordering food at least once every two weeks. So I did the math. I think it was only 60 Euro in a year and if I order that many food in a year, times like 3, 34 Euro delivery fee, it would be break even.",
+          "context": "Evolving relationship with delivery"
+        },
+        {
+          "participant": "P035",
+          "quote": "Now, because it's like work, you get a bit more alone time. Because I'm not necessarily looking to others to see what everyone else is doing, I'm more likely, if I'm really not feeling like cooking that day... I just have that.",
+          "context": "Life transition adaptation"
+        }
+      ],
+      "representative_participants": [],
+      "confidence": "tentative",
+      "methodological_note": "This segment has only 3 participants after P014 was removed (never interviewed). The behaviours described may represent temporary situational responses to life changes rather than a stable persona. Consider reframing as 'transition moments' that affect all personas rather than a distinct segment."
+    }
+  ],
+  "journey_maps": [
+    {
+      "persona_id": "strategic_optimizer",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Time pressure from work/study or strategic reward timing",
+          "emotion": "Focused determination",
+          "opportunity": "Predictive ordering suggestions based on schedule patterns"
+        },
+        {
+          "stage": "browse",
+          "description": "Systematic comparison across platforms for best value",
+          "emotion": "Analytical satisfaction",
+          "opportunity": "Cross-platform comparison tools and deal aggregation"
+        },
+        {
+          "stage": "decide",
+          "description": "Calculate optimal choice considering promotions, delivery fees, and time",
+          "emotion": "Confident control",
+          "opportunity": "Value optimization dashboard showing best current deals"
+        },
+        {
+          "stage": "order",
+          "description": "Efficient checkout using saved preferences and subscription benefits",
+          "emotion": "Productive efficiency",
+          "opportunity": "One-click reordering of optimized meal combinations"
+        },
+        {
+          "stage": "wait",
+          "description": "Continue working/studying while tracking delivery progress",
+          "emotion": "Productive anticipation",
+          "opportunity": "Integration with productivity apps and accurate timing"
+        },
+        {
+          "stage": "receive",
+          "description": "Quick consumption while continuing other tasks",
+          "emotion": "Satisfied efficiency",
+          "opportunity": "Packaging designed for working while eating"
+        },
+        {
+          "stage": "reflect",
+          "description": "Evaluate value received and update optimization strategy",
+          "emotion": "Strategic satisfaction",
+          "opportunity": "Spending analytics and optimization recommendations"
+        }
+      ]
+    },
+    {
+      "persona_id": "social_rewarder",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Friday evening treat ritual or stress/celebration moment",
+          "emotion": "Anticipatory excitement or seeking comfort",
+          "opportunity": "Emotional state-aware suggestions and healthier comfort options"
+        },
+        {
+          "stage": "browse",
+          "description": "Explore options based on mood, often influenced by social media or friends",
+          "emotion": "Excited exploration",
+          "opportunity": "Mood-based filtering and social sharing features"
+        },
+        {
+          "stage": "decide",
+          "description": "Choose based on emotional appeal and social factors",
+          "emotion": "Indulgent anticipation",
+          "opportunity": "Group ordering features and celebration-themed promotions"
+        },
+        {
+          "stage": "order",
+          "description": "Often spontaneous, sometimes group coordination required",
+          "emotion": "Social excitement or comfort seeking",
+          "opportunity": "Simplified group ordering and emotional wellness prompts"
+        },
+        {
+          "stage": "wait",
+          "description": "Build anticipation, often share experience on social media",
+          "emotion": "Excited anticipation",
+          "opportunity": "Engaging wait-time content and social sharing integration"
+        },
+        {
+          "stage": "receive",
+          "description": "Treat consumption as reward or comfort experience",
+          "emotion": "Satisfied indulgence",
+          "opportunity": "Mindful eating prompts and portion awareness"
+        },
+        {
+          "stage": "reflect",
+          "description": "Either satisfied reward feeling or potential guilt about spending",
+          "emotion": "Contentment or mild regret",
+          "opportunity": "Positive reinforcement for balanced choices and wellness tracking"
+        }
+      ]
+    },
+    {
+      "persona_id": "budget_conscious_minimalist",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Rare necessity due to kitchen issues, extreme tiredness, or social pressure",
+          "emotion": "Reluctant acceptance",
+          "opportunity": "Emergency/necessity positioning and budget-friendly options"
+        },
+        {
+          "stage": "browse",
+          "description": "Careful price comparison and value assessment",
+          "emotion": "Cautious evaluation",
+          "opportunity": "Clear value messaging and budget-friendly meal highlighting"
+        },
+        {
+          "stage": "decide",
+          "description": "Thorough cost-benefit analysis before committing",
+          "emotion": "Anxious deliberation",
+          "opportunity": "Transparent pricing and cooking alternative suggestions"
+        },
+        {
+          "stage": "order",
+          "description": "Hesitant checkout with careful review of total cost",
+          "emotion": "Nervous commitment",
+          "opportunity": "No hidden fees guarantee and order value confirmation"
+        },
+        {
+          "stage": "wait",
+          "description": "Anxiety about spending decision and cost justification",
+          "emotion": "Buyer's remorse anxiety",
+          "opportunity": "Order value reinforcement and cooking inspiration for next time"
+        },
+        {
+          "stage": "receive",
+          "description": "Evaluate whether the experience justified the cost",
+          "emotion": "Critical assessment",
+          "opportunity": "Quality guarantee and feedback collection"
+        },
+        {
+          "stage": "reflect",
+          "description": "Often regret about spending, reinforces cooking preference",
+          "emotion": "Regretful resolution",
+          "opportunity": "Cooking motivation and budget tracking tools"
+        }
+      ]
+    },
+    {
+      "persona_id": "convenience_dependent",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Daily meal need due to lifestyle constraints and time pressure",
+          "emotion": "Resigned necessity",
+          "opportunity": "Subscription models and routine optimization"
+        },
+        {
+          "stage": "browse",
+          "description": "Quick selection from familiar options to minimize decision time",
+          "emotion": "Efficient routine",
+          "opportunity": "Personalized quick-select menus and reorder shortcuts"
+        },
+        {
+          "stage": "decide",
+          "description": "Choose based on established preferences and dietary needs",
+          "emotion": "Practical acceptance",
+          "opportunity": "Nutritional information and healthy option highlighting"
+        },
+        {
+          "stage": "order",
+          "description": "Streamlined process using saved preferences and subscriptions",
+          "emotion": "Routine efficiency",
+          "opportunity": "Automated ordering and meal planning features"
+        },
+        {
+          "stage": "wait",
+          "description": "Continue with other activities, delivery is background necessity",
+          "emotion": "Neutral expectation",
+          "opportunity": "Reliable timing and minimal disruption delivery"
+        },
+        {
+          "stage": "receive",
+          "description": "Functional meal consumption as part of daily routine",
+          "emotion": "Satisfied necessity",
+          "opportunity": "Packaging for easy consumption and storage"
+        },
+        {
+          "stage": "reflect",
+          "description": "Accept cost as necessary life expense, focus on convenience value",
+          "emotion": "Pragmatic acceptance",
+          "opportunity": "Cost management tools and loyalty rewards"
+        }
+      ]
+    },
+    {
+      "persona_id": "transitional_explorer",
+      "stages": [
+        {
+          "stage": "trigger",
+          "description": "Curiosity about new options or transition stress moments",
+          "emotion": "Curious excitement or adaptation anxiety",
+          "opportunity": "Life-stage appropriate recommendations and discovery features"
+        },
+        {
+          "stage": "browse",
+          "description": "Explore new restaurants and cuisines, often influenced by social media",
+          "emotion": "Adventurous exploration",
+          "opportunity": "Curated discovery experiences and educational content"
+        },
+        {
+          "stage": "decide",
+          "description": "Balance exploration with budget and dietary considerations",
+          "emotion": "Thoughtful experimentation",
+          "opportunity": "Flexible spending controls and cuisine education"
+        },
+        {
+          "stage": "order",
+          "description": "Often trying new platforms or features during ordering",
+          "emotion": "Learning engagement",
+          "opportunity": "Intuitive interface design and helpful onboarding"
+        },
+        {
+          "stage": "wait",
+          "description": "Anticipation about new experience and food quality",
+          "emotion": "Excited anticipation",
+          "opportunity": "Educational content about cuisine and restaurant background"
+        },
+        {
+          "stage": "receive",
+          "description": "Evaluate new experience and compare to expectations",
+          "emotion": "Evaluative satisfaction",
+          "opportunity": "Feedback collection and recommendation refinement"
+        },
+        {
+          "stage": "reflect",
+          "description": "Integrate experience into evolving food identity and preferences",
+          "emotion": "Identity development",
+          "opportunity": "Preference learning and personalized journey tracking"
+        }
+      ]
+    }
+  ],
+  "participant_assignments": {
+    "P001": "convenience_dependent",
+    "P002": "strategic_optimizer",
+    "P003": "social_rewarder",
+    "P004": "transitional_explorer",
+    "P005": "budget_conscious_minimalist",
+    "P006": "strategic_optimizer",
+    "P007": "budget_conscious_minimalist",
+    "P008": "social_rewarder",
+    "P009": "strategic_optimizer",
+    "P010": "social_rewarder",
+    "P011": "convenience_dependent",
+    "P012": "strategic_optimizer",
+    "P013": "budget_conscious_minimalist",
+    "P015": "strategic_optimizer",
+    "P016": "social_rewarder",
+    "P017": "convenience_dependent",
+    "P018": "social_rewarder",
+    "P019": "transitional_explorer",
+    "P020": "convenience_dependent",
+    "P021": "strategic_optimizer",
+    "P022": "convenience_dependent",
+    "P023": "budget_conscious_minimalist",
+    "P024": "convenience_dependent",
+    "P025": "social_rewarder",
+    "P026": "strategic_optimizer",
+    "P027": "social_rewarder",
+    "P028": "budget_conscious_minimalist",
+    "P029": "social_rewarder",
+    "P030": "social_rewarder",
+    "P031": "budget_conscious_minimalist",
+    "P032": "budget_conscious_minimalist",
+    "P034": "strategic_optimizer",
+    "P035": "transitional_explorer"
+  },
+  "methodological_caveats": {
+    "persona_confidence": {
+      "Strategic Optimizer": {
+        "confidence": "high",
+        "n": 8,
+        "note": "Well-supported with diverse evidence"
+      },
+      "Social Rewarder": {
+        "confidence": "high",
+        "n": 9,
+        "note": "Largest segment with rich emotional evidence"
+      },
+      "Budget-Conscious Minimalist": {
+        "confidence": "medium",
+        "n": 7,
+        "note": "Clear behavioural pattern but claims about 'vulnerability' may be overstated"
+      },
+      "Convenience Dependent": {
+        "confidence": "medium",
+        "n": 6,
+        "note": "Distinct from other segments but life-stage dependent"
+      },
+      "Transitional Explorer": {
+        "confidence": "tentative",
+        "n": 3,
+        "note": "Too small to validate as distinct persona. May be situational behaviour."
+      }
+    },
+    "assignment_limitations": "Each participant is assigned to exactly one persona. In reality, individuals may exhibit behaviours from multiple personas depending on context, mood, and life circumstances."
+  }
+}

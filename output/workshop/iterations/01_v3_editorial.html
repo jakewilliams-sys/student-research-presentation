@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Food & Delivery Research — What do you think you know?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #FAF8F2;
+      --bg-reveal: #F0EDE5;
+      --text: #1A1714;
+      --text-secondary: #6B655C;
+      --text-tertiary: #9E978D;
+      --accent: #00857C;
+      --rule: #D6D1C7;
+      --badge-pumpkin: #D4603A;
+      --badge-mustard: #C4A82D;
+      --badge-apple: #5BA83B;
+      --ease: cubic-bezier(0.25, 1, 0.5, 1);
+      --transition-duration: 450ms;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: clamp(1rem, 1.5vw, 1.125rem);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    #deck {
+      position: relative;
+      min-height: 100vh;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      min-height: 100vh;
+      padding: clamp(2rem, 5vw, 4rem) 15vw clamp(4rem, 8vw, 6rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 640px;
+      pointer-events: none;
+      transition: opacity var(--transition-duration) var(--ease);
+    }
+
+    .slide[data-state="active"] {
+      pointer-events: auto;
+    }
+
+    .slide-title .overline {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .slide-title h1 {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+
+    .slide-title .subtitle {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+    }
+
+    .method-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-tertiary);
+    }
+
+    .method-stats span {
+      white-space: nowrap;
+    }
+
+    .slide-context .lead,
+    .slide-framing .lead {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+    }
+
+    .slide-context p,
+    .slide-framing p {
+      margin: 0 0 0.5rem;
+      font-size: clamp(1rem, 1.8vw, 1.2rem);
+    }
+
+    .slide-assumption {
+      position: relative;
+      padding-left: 4rem;
+    }
+
+    .statement-counter {
+      position: absolute;
+      left: 0;
+      top: -0.15em;
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: 400;
+      color: var(--rule);
+      line-height: 1;
+    }
+
+    .assumption-text {
+      font-family: 'Newsreader', Georgia, serif;
+      font-style: italic;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      line-height: 1.3;
+      color: var(--text);
+      position: relative;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .assumption-text::before {
+      content: '"';
+      position: absolute;
+      left: -0.15em;
+      top: -0.1em;
+      font-size: 1.2em;
+      color: var(--text-tertiary);
+      opacity: 0.6;
+    }
+
+    .assumption-text::after {
+      content: '"';
+      font-size: 1.2em;
+      color: var(--text-tertiary);
+      opacity: 0.6;
+    }
+
+    .slide-reveal {
+      background: var(--bg-reveal);
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.75rem;
+      border-radius: 2px;
+      margin-bottom: 1rem;
+    }
+
+    .badge-pumpkin { background: color-mix(in srgb, var(--badge-pumpkin) 18%, transparent); color: var(--badge-pumpkin); }
+    .badge-mustard { background: color-mix(in srgb, var(--badge-mustard) 22%, transparent); color: var(--badge-mustard); }
+    .badge-apple { background: color-mix(in srgb, var(--badge-apple) 18%, transparent); color: var(--badge-apple); }
+
+    .reveal-headline {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+      font-weight: 600;
+      line-height: 1.35;
+      margin: 0 0 1rem;
+      color: var(--text);
+    }
+
+    .reveal-body {
+      font-size: clamp(1rem, 1.5vw, 1.1rem);
+      color: var(--text-secondary);
+      margin: 0 0 1.5rem;
+    }
+
+    .reveal-source {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      color: var(--text-tertiary);
+    }
+
+    .slide-transition p {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      font-style: italic;
+      color: var(--text);
+      margin: 0;
+    }
+
+    .slide[data-state="hidden"] {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .slide[data-state="active"] {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .slide[data-state="active"] .slide-content {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .slide[data-state="hidden"] .slide-content {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+
+    .slide-content {
+      transition: opacity var(--transition-duration) var(--ease),
+                  transform var(--transition-duration) var(--ease);
+    }
+
+    .progress-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      background: var(--accent);
+      width: 0%;
+      transition: width var(--transition-duration) var(--ease);
+      z-index: 100;
+    }
+
+    .nav-hint {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      z-index: 100;
+    }
+
+    .slide-counter {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 15vw;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--text-tertiary);
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progress" aria-hidden="true"></div>
+  <div class="slide-counter" id="counter" aria-live="polite"></div>
+  <div class="nav-hint" id="hint">← → or click to advance</div>
+
+  <main id="deck">
+    <!-- Title -->
+    <section class="slide slide-title" data-slide="0">
+      <div class="slide-content">
+        <p class="overline">Student Food & Delivery Research</p>
+        <h1>What do you think you know?</h1>
+        <p class="subtitle">Before we share what we found, let's test some assumptions about how students eat, order, and choose platforms.</p>
+        <div class="method-stats">
+          <span>35 Interviews</span>
+          <span>6 In-home visits</span>
+          <span>15 Diary participants</span>
+          <span>315 Meal occasions</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Context -->
+    <section class="slide slide-context" data-slide="1">
+      <div class="slide-content">
+        <p class="lead">How we got here</p>
+        <p>35 participants (UG, PG, graduate segments), 315 meal occasions (seven days), 6 in-home visits</p>
+      </div>
+    </section>
+
+    <!-- Framing -->
+    <section class="slide slide-framing" data-slide="2">
+      <div class="slide-content">
+        <p>We're going to show you five statements about students.</p>
+        <p>For each one, discuss whether you think it's true.</p>
+      </div>
+    </section>
+
+    <!-- Assumption 1 -->
+    <section class="slide slide-assumption" data-slide="3">
+      <div class="slide-content">
+        <span class="statement-counter">01</span>
+        <p class="assumption-text">Students cook consistently throughout the week.</p>
+      </div>
+    </section>
+
+    <!-- Reveal 1 -->
+    <section class="slide slide-reveal" data-slide="4">
+      <div class="slide-content">
+        <span class="badge badge-mustard">It depends on the day</span>
+        <h2 class="reveal-headline">Home cooking drops from 71% on weekdays to 43% on weekends — a 29-point collapse.</h2>
+        <p class="reveal-body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+        <p class="reveal-source">Diary study, n=15 · 315 meal occasions tracked</p>
+      </div>
+    </section>
+
+    <!-- Assumption 2 -->
+    <section class="slide slide-assumption" data-slide="5">
+      <div class="slide-content">
+        <span class="statement-counter">02</span>
+        <p class="assumption-text">Food delivery is a regular part of student life.</p>
+      </div>
+    </section>
+
+    <!-- Reveal 2 -->
+    <section class="slide slide-reveal" data-slide="6">
+      <div class="slide-content">
+        <span class="badge badge-pumpkin">Not what we found</span>
+        <h2 class="reveal-headline">Delivery represents just 3.5% of actual meals eaten — despite students thinking about it constantly.</h2>
+        <p class="reveal-body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+        <p class="reveal-source">Diary study, n=15 · 315 meal occasions tracked</p>
+      </div>
+    </section>
+
+    <!-- Assumption 3 -->
+    <section class="slide slide-assumption" data-slide="7">
+      <div class="slide-content">
+        <span class="statement-counter">03</span>
+        <p class="assumption-text">Students order delivery for themselves, as a personal treat.</p>
+      </div>
+    </section>
+
+    <!-- Reveal 3 -->
+    <section class="slide slide-reveal" data-slide="8">
+      <div class="slide-content">
+        <span class="badge badge-pumpkin">Not the primary driver</span>
+        <h2 class="reveal-headline">Social context is the strongest behavioural driver. Group ordering drives both frequency and platform choice.</h2>
+        <p class="reveal-body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+        <p class="reveal-source">31 quotes from 22 participants · High confidence</p>
+      </div>
+    </section>
+
+    <!-- Assumption 4 -->
+    <section class="slide slide-assumption" data-slide="9">
+      <div class="slide-content">
+        <span class="statement-counter">04</span>
+        <p class="assumption-text">Students are loyal to one delivery platform.</p>
+      </div>
+    </section>
+
+    <!-- Reveal 4 -->
+    <section class="slide slide-reveal" data-slide="10">
+      <div class="slide-content">
+        <span class="badge badge-pumpkin">Not what we found</span>
+        <h2 class="reveal-headline">Students are radically platform-agnostic. Price comparison is a group sport — three apps open, fees compared side by side.</h2>
+        <p class="reveal-body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+        <p class="reveal-source">16 quotes from 20 participants</p>
+      </div>
+    </section>
+
+    <!-- Assumption 5 -->
+    <section class="slide slide-assumption" data-slide="11">
+      <div class="slide-content">
+        <span class="statement-counter">05</span>
+        <p class="assumption-text">Students who subscribe to delivery platforms use them regularly.</p>
+      </div>
+    </section>
+
+    <!-- Reveal 5 -->
+    <section class="slide slide-reveal" data-slide="12">
+      <div class="slide-content">
+        <span class="badge badge-pumpkin">Not what we found</span>
+        <h2 class="reveal-headline">Many students hold subscriptions they barely use — kept 'just in case' or forgotten entirely.</h2>
+        <p class="reveal-body">Students sign up during promotional periods or when a friend shares an offer, then keep the subscription running out of inertia. Some can't remember which platforms they're subscribed to. Others justify the cost by saying they'll 'use it more next month.' The subscription doesn't drive regular ordering — it just sits there, a low-level background cost that rarely converts into habitual behaviour.</p>
+        <p class="reveal-source">Subscription discussed by 28 of 35 participants · Low active usage relative to sign-up rate</p>
+      </div>
+    </section>
+
+    <!-- Transition -->
+    <section class="slide slide-transition" data-slide="13">
+      <div class="slide-content">
+        <p>So if that's what we assumed — what's actually going on?</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function() {
+      const deck = document.getElementById('deck');
+      const slides = Array.from(deck.querySelectorAll('.slide'));
+      const progress = document.getElementById('progress');
+      const counter = document.getElementById('counter');
+      const hint = document.getElementById('hint');
+      let current = 0;
+      const total = slides.length;
+
+      function goTo(i) {
+        if (i < 0 || i >= total) return;
+        slides[current].dataset.state = 'hidden';
+        current = i;
+        slides[current].dataset.state = 'active';
+        slides.forEach((s, idx) => {
+          if (idx !== current) s.dataset.state = 'hidden';
+        });
+        progress.style.width = ((current + 1) / total * 100) + '%';
+        counter.textContent = (current + 1) + ' / ' + total;
+      }
+
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      deck.addEventListener('click', function(e) {
+        if (e.target.closest('.slide')) next();
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
+        else if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+      });
+
+      slides.forEach((s, i) => {
+        s.dataset.state = i === 0 ? 'active' : 'hidden';
+      });
+      progress.style.width = (1 / total * 100) + '%';
+      counter.textContent = '1 / ' + total;
+    })();
+  </script>
+</body>
+</html>

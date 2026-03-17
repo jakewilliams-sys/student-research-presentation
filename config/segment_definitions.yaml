@@ -1,0 +1,94 @@
+# Segment Definitions for Cross-Cutting Analysis
+# Used by the Triangulation Agent for systematic comparisons.
+
+primary_segments:
+  academic_stage:
+    description: "Life stage based on academic progression"
+    values:
+      undergraduate:
+        label: "Undergraduate"
+        criteria: "Currently enrolled in a bachelor's degree"
+        participant_ids_sheet: "Undergrad"
+      postgraduate:
+        label: "Postgraduate"
+        criteria: "Currently enrolled in a master's or PhD programme"
+        participant_ids_sheet: "Postgrad"
+      early_graduate:
+        label: "Early Graduate"
+        criteria: "Graduated within the past 2 years"
+        participant_ids_sheet: "Early grad"
+
+  interview_type:
+    description: "Method used for data collection"
+    values:
+      online:
+        label: "Online Interview"
+        discussion_guide: "online_v2"
+        data_type: "self-reported attitudes and recalled behaviours"
+      in_home:
+        label: "In-Home Interview"
+        discussion_guide: "in_home"
+        data_type: "self-reported attitudes plus observed ordering behaviour"
+        note: "Includes live order observation; weight observed data higher when it conflicts with stated data"
+
+secondary_segments:
+  accommodation:
+    description: "Where the participant lives"
+    values:
+      - university_halls_catered
+      - university_halls_self_catered
+      - private_halls
+      - shared_house
+      - studio_flat
+      - living_with_parents
+    source_column: "Living Situation"
+
+  delivery_frequency:
+    description: "Self-reported ordering frequency"
+    values:
+      - "5+ times/week"
+      - "2-4 times/week"
+      - "once a week"
+      - "2-3 times/month"
+      - "once a month or less"
+    source_column: "Order Frequency"
+
+  plus_status:
+    description: "Current Deliveroo Plus subscription status"
+    values:
+      - "Plus Silver (student free)"
+      - "Plus Gold (paid)"
+      - "Previously subscribed"
+      - "Never subscribed"
+    source_column: "Current Subscription"
+
+  location:
+    description: "University city for geographic analysis"
+    source_column: "University City"
+
+comparison_matrix:
+  - segment: academic_stage
+    compare_across:
+      - "delivery triggers and barriers"
+      - "emotional drivers"
+      - "price sensitivity"
+      - "platform loyalty"
+      - "cooking confidence"
+
+  - segment: accommodation
+    compare_across:
+      - "meal routines"
+      - "social ordering behaviour"
+      - "grocery habits"
+
+  - segment: plus_status
+    compare_across:
+      - "ordering frequency"
+      - "perceived value"
+      - "platform switching"
+
+  - segment: delivery_frequency
+    compare_across:
+      - "emotional relationship with delivery"
+      - "guilt and justification patterns"
+      - "budget management strategies"

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Food & Delivery Research — What do you think you know?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #00211F;
+      --bg-reveal: #062E2B;
+      --text: #F5F5EB;
+      --secondary: #7A9B98;
+      --accent: #00CCBD;
+      --pumpkin: #FF7C43;
+      --mustard: #FFE066;
+      --apple: #85DE5E;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .slide {
+      display: none;
+      min-height: 100vh;
+      padding: clamp(3rem, 8vw, 9rem);
+      padding-bottom: 4rem;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .slide.active {
+      display: flex;
+    }
+
+    .slide-content {
+      max-width: 720px;
+      width: 100%;
+    }
+
+    /* Statement counter */
+    .statement-counter {
+      position: fixed;
+      top: clamp(2rem, 5vw, 3rem);
+      left: clamp(3rem, 8vw, 9rem);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 300;
+      font-size: 1rem;
+      color: var(--accent);
+      z-index: 10;
+    }
+
+    /* Word-by-word animation */
+    .word {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+      transition-delay: calc(var(--i, 0) * 80ms);
+    }
+
+    .assumption-slide.active .word,
+    .title-slide.active .word {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .word {
+        opacity: 0;
+        transform: translateY(0);
+        transition-delay: 0ms;
+      }
+      .assumption-slide.active .word,
+      .title-slide.active .word {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    /* Title slide */
+    .overline {
+      font-weight: 300;
+      font-size: 1rem;
+      color: var(--secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .headline {
+      font-weight: 800;
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.15;
+      margin-bottom: 1.5rem;
+    }
+
+    .subtitle {
+      font-weight: 300;
+      font-size: 1.25rem;
+      color: var(--secondary);
+      line-height: 1.5;
+      margin-bottom: 2.5rem;
+    }
+
+    .method-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem 2.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    /* Context slide */
+    .lead {
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .context-stats {
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: var(--secondary);
+      line-height: 1.6;
+    }
+
+    /* Framing slide */
+    .framing-line {
+      font-weight: 600;
+      font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+      line-height: 1.4;
+      margin-bottom: 1.5rem;
+    }
+
+    .discuss-prompt {
+      font-weight: 300;
+      font-size: 1.25rem;
+      color: var(--secondary);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.7; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .discuss-prompt {
+        animation: none;
+        opacity: 0.6;
+      }
+    }
+
+    /* Assumption slide */
+    .assumption-slide .headline {
+      font-weight: 800;
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.2;
+    }
+
+    /* Reveal slide */
+    .reveal-slide {
+      background: var(--bg-reveal);
+    }
+
+    .badge {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      margin-bottom: 1.25rem;
+    }
+
+    .badge.pumpkin { background: var(--pumpkin); color: var(--bg); }
+    .badge.mustard { background: var(--mustard); color: var(--bg); }
+    .badge.apple { background: var(--apple); color: var(--bg); }
+
+    .reveal-slide .headline {
+      font-weight: 800;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      line-height: 1.25;
+      margin-bottom: 1.25rem;
+    }
+
+    .reveal-slide .body {
+      font-weight: 300;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: var(--secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    .source {
+      font-weight: 300;
+      font-size: 0.9rem;
+      color: var(--accent);
+      opacity: 0.9;
+    }
+
+    /* Transition slide */
+    .transition-slide .headline {
+      font-weight: 600;
+      font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+      line-height: 1.4;
+    }
+
+    /* Progress bar */
+    .progress-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background: var(--accent);
+      z-index: 10;
+      transition: width 0.3s var(--ease);
+    }
+
+    /* Nav hint */
+    .nav-hint {
+      position: fixed;
+      bottom: 1.5rem;
+      right: clamp(3rem, 8vw, 9rem);
+      font-weight: 300;
+      font-size: 0.85rem;
+      color: var(--secondary);
+      opacity: 0.7;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="statement-counter" id="counter" aria-hidden="true"></div>
+  <div class="progress-bar" id="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="nav-hint" id="hint">← → or click to navigate</div>
+
+  <div class="slide title-slide active" data-slide="0">
+    <div class="slide-content">
+      <div class="overline">Student Food & Delivery Research</div>
+      <h1 class="headline">
+        <span class="word" style="--i:0">What</span>
+        <span class="word" style="--i:1">do</span>
+        <span class="word" style="--i:2">you</span>
+        <span class="word" style="--i:3">think</span>
+        <span class="word" style="--i:4">you</span>
+        <span class="word" style="--i:5">know?</span>
+      </h1>
+      <p class="subtitle">Before we share what we found, let's test some assumptions about how students eat, order, and choose platforms.</p>
+      <div class="method-stats">
+        <span>35 Interviews</span>
+        <span>6 In-home visits</span>
+        <span>15 Diary participants</span>
+        <span>315 Meal occasions</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" data-slide="1">
+    <div class="slide-content">
+      <div class="lead">How we got here</div>
+      <p class="context-stats">35 participants (UG, PG, graduate segments), 315 meal occasions (seven days), 6 in-home visits</p>
+    </div>
+  </div>
+
+  <div class="slide framing-slide" data-slide="2">
+    <div class="slide-content">
+      <p class="framing-line">We're going to show you five statements about students.</p>
+      <p class="framing-line">For each one, discuss whether you think it's true.</p>
+      <p class="discuss-prompt">Discuss</p>
+    </div>
+  </div>
+
+  <div class="slide assumption-slide" data-slide="3">
+    <div class="slide-content">
+      <h2 class="headline">
+        <span class="word" style="--i:0">Students</span>
+        <span class="word" style="--i:1">cook</span>
+        <span class="word" style="--i:2">consistently</span>
+        <span class="word" style="--i:3">throughout</span>
+        <span class="word" style="--i:4">the</span>
+        <span class="word" style="--i:5">week.</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="slide reveal-slide" data-slide="4">
+    <div class="slide-content">
+      <span class="badge mustard">It depends on the day</span>
+      <h2 class="headline">Home cooking drops from 71% on weekdays to 43% on weekends — a 29-point collapse.</h2>
+      <p class="body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+      <p class="source">Diary study, n=15 · 315 meal occasions tracked</p>
+    </div>
+  </div>
+
+  <div class="slide assumption-slide" data-slide="5">
+    <div class="slide-content">
+      <h2 class="headline">
+        <span class="word" style="--i:0">Food</span>
+        <span class="word" style="--i:1">delivery</span>
+        <span class="word" style="--i:2">is</span>
+        <span class="word" style="--i:3">a</span>
+        <span class="word" style="--i:4">regular</span>
+        <span class="word" style="--i:5">part</span>
+        <span class="word" style="--i:6">of</span>
+        <span class="word" style="--i:7">student</span>
+        <span class="word" style="--i:8">life.</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="slide reveal-slide" data-slide="6">
+    <div class="slide-content">
+      <span class="badge pumpkin">Not what we found</span>
+      <h2 class="headline">Delivery represents just 3.5% of actual meals eaten — despite students thinking about it constantly.</h2>
+      <p class="body">Students talk about delivery at length. They compare platforms, describe decision-making processes, weigh up costs. But when we tracked what they actually ate for a week, delivery barely registered. The gap between consideration and action is enormous.</p>
+      <p class="source">Diary study, n=15 · 11 delivery orders across 315 meal slots</p>
+    </div>
+  </div>
+
+  <div class="slide assumption-slide" data-slide="7">
+    <div class="slide-content">
+      <h2 class="headline">
+        <span class="word" style="--i:0">Students</span>
+        <span class="word" style="--i:1">order</span>
+        <span class="word" style="--i:2">delivery</span>
+        <span class="word" style="--i:3">for</span>
+        <span class="word" style="--i:4">themselves,</span>
+        <span class="word" style="--i:5">as</span>
+        <span class="word" style="--i:6">a</span>
+        <span class="word" style="--i:7">personal</span>
+        <span class="word" style="--i:8">treat.</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="slide reveal-slide" data-slide="8">
+    <div class="slide-content">
+      <span class="badge pumpkin">Not the primary driver</span>
+      <h2 class="headline">Social context is the strongest behavioural driver. Group ordering drives both frequency and platform choice.</h2>
+      <p class="body">Delivery orders cluster around group situations — Friday nights with flatmates, post-night-out hunger, shared meals. One person's subscription covers the group order. Even the decision of which platform to use becomes collaborative, with friends comparing fees side by side.</p>
+      <p class="source">31 quotes from 22 participants · High confidence</p>
+    </div>
+  </div>
+
+  <div class="slide assumption-slide" data-slide="9">
+    <div class="slide-content">
+      <h2 class="headline">
+        <span class="word" style="--i:0">Students</span>
+        <span class="word" style="--i:1">are</span>
+        <span class="word" style="--i:2">loyal</span>
+        <span class="word" style="--i:3">to</span>
+        <span class="word" style="--i:4">one</span>
+        <span class="word" style="--i:5">delivery</span>
+        <span class="word" style="--i:6">platform.</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="slide reveal-slide" data-slide="10">
+    <div class="slide-content">
+      <span class="badge pumpkin">Not what we found</span>
+      <h2 class="headline">Students are radically platform-agnostic. Price comparison is a group sport — three apps open, fees compared side by side.</h2>
+      <p class="body">Students hold multiple subscriptions across platforms, switch freely based on price and promotions, and treat platform choice as a per-order decision rather than a commitment. Loyalty is almost non-existent — the cheapest option wins every time.</p>
+      <p class="source">16 quotes from 20 participants</p>
+    </div>
+  </div>
+
+  <div class="slide assumption-slide" data-slide="11">
+    <div class="slide-content">
+      <h2 class="headline">
+        <span class="word" style="--i:0">Students</span>
+        <span class="word" style="--i:1">who</span>
+        <span class="word" style="--i:2">subscribe</span>
+        <span class="word" style="--i:3">to</span>
+        <span class="word" style="--i:4">delivery</span>
+        <span class="word" style="--i:5">platforms</span>
+        <span class="word" style="--i:6">use</span>
+        <span class="word" style="--i:7">them</span>
+        <span class="word" style="--i:8">regularly.</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="slide reveal-slide" data-slide="12">
+    <div class="slide-content">
+      <span class="badge pumpkin">Not what we found</span>
+      <h2 class="headline">Many students hold subscriptions they barely use — kept 'just in case' or forgotten entirely.</h2>
+      <p class="body">Students sign up during promotional periods or when a friend shares an offer, then keep the subscription running out of inertia. Some can't remember which platforms they're subscribed to. Others justify the cost by saying they'll 'use it more next month.' The subscription doesn't drive regular ordering — it just sits there, a low-level background cost that rarely converts into habitual behaviour.</p>
+      <p class="source">Subscription discussed by 28 of 35 participants · Low active usage relative to sign-up rate</p>
+    </div>
+  </div>
+
+  <div class="slide transition-slide" data-slide="13">
+    <div class="slide-content">
+      <h2 class="headline">So if that's what we assumed — what's actually going on?</h2>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const slides = document.querySelectorAll('.slide');
+      const total = slides.length;
+      let current = 0;
+      const counter = document.getElementById('counter');
+      const progress = document.getElementById('progress');
+      const hint = document.getElementById('hint');
+
+      function showCounter() {
+        const s = slides[current];
+        const isAssumption = s.classList.contains('assumption-slide');
+        const isReveal = s.classList.contains('reveal-slide');
+        if (isAssumption) {
+          const idx = Math.floor((current - 3) / 2) + 1;
+          counter.textContent = idx + ' / 5';
+          counter.style.display = '';
+        } else if (isReveal) {
+          const idx = Math.floor((current - 4) / 2) + 1;
+          counter.textContent = idx + ' / 5';
+          counter.style.display = '';
+        } else {
+          counter.style.display = 'none';
+        }
+      }
+
+      function goTo(index) {
+        if (index < 0 || index >= total) return;
+        const prev = slides[current];
+        const next = slides[index];
+
+        // Reset word animation: remove active, then add after a tick
+        prev.classList.remove('active');
+        current = index;
+        next.classList.add('active');
+
+        // Re-trigger word animation for assumption/title slides
+        if (next.classList.contains('assumption-slide') || next.classList.contains('title-slide')) {
+          next.classList.remove('active');
+          next.offsetHeight; // reflow
+          next.classList.add('active');
+        }
+
+        progress.style.width = ((current + 1) / total * 100) + '%';
+        progress.setAttribute('aria-valuenow', Math.round((current + 1) / total * 100));
+        showCounter();
+      }
+
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowRight' || e.key === ' ') {
+          e.preventDefault();
+          next();
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          prev();
+        }
+      });
+
+      document.addEventListener('click', function(e) {
+        const w = window.innerWidth;
+        if (e.clientX > w * 0.6) next();
+        else if (e.clientX < w * 0.4) prev();
+      });
+
+      showCounter();
+      progress.style.width = ((current + 1) / total * 100) + '%';
+    })();
+  </script>
+</body>
+</html>

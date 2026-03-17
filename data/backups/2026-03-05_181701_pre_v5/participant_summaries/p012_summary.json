@@ -1,0 +1,114 @@
+{
+  "participant_id": "P012",
+  "summary": "Yash is a highly organised, analytically-minded final year computer science student who approaches food with the same systematic thinking he applies to his studies and startup work. He presents as confident and articulate, offering precise percentages and clear categorisations throughout the interview (50/50 cooking vs ordering, exact weekly budgets, detailed time breakdowns). His relationship with food delivery is pragmatic rather than indulgent - it serves as a calculated solution to time constraints and energy management in his busy schedule of lectures, part-time sports facilitation work, and startup development.\n\nWhat's particularly striking is his sophisticated understanding of the delivery ecosystem and his strategic approach to maximising value. He actively compares platforms, hunts for promotions, and makes deliberate choices about when to cook versus order based on time availability and deal quality. Despite having a relatively high food budget (£150-200 weekly), he remains highly price-conscious and promotion-driven, suggesting this isn't about unlimited spending but rather optimised resource allocation. His clear distinction between 'real cooking' (from scratch) versus convenience food reveals someone who values authenticity in food preparation when time allows, but pragmatically accepts delivery as a necessary tool for managing his demanding schedule.",
+  "personality_notes": "Articulate, analytical, and precise communicator who thinks systematically about decisions. Confident but not boastful, with a practical mindset toward problem-solving.",
+  "food_relationship": "Food delivery serves as a strategic time-management tool balanced against genuine cooking from scratch when schedule permits.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Consistently provides exact percentages and precise categorisations (50/50 cooking vs ordering, specific budget ranges, detailed time breakdowns)",
+      "significance": "Reveals analytical mindset and suggests he's genuinely thought through his food habits rather than giving socially desirable answers"
+    },
+    {
+      "timestamp": "1-151 to 1-168",
+      "description": "Detailed explanation of Popeyes promotion discovery and decision-making process",
+      "significance": "Shows sophisticated understanding of how social media influences purchasing decisions and demonstrates deal-hunting behavior"
+    },
+    {
+      "timestamp": "1-615 to 1-621",
+      "description": "Anticipates increased delivery reliance after graduation due to job demands",
+      "significance": "Demonstrates forward-thinking about lifestyle changes and realistic assessment of future time constraints"
+    }
+  ],
+  "what_not_said": [
+    "Social aspects of food sharing with flatmates beyond weekends",
+    "Any emotional or comfort aspects of food",
+    "Health considerations beyond protein tracking for breakfast",
+    "Family food traditions or cultural food practices beyond mentioning Indian cuisine"
+  ],
+  "initial_hypotheses": [
+    "His high food budget may be enabled by part-time work income and family support, making him less price-sensitive than typical students",
+    "His systematic approach to deals and promotions suggests he could be highly responsive to targeted student offers",
+    "His clear future planning indicates he's likely to become a long-term heavy user of delivery services post-graduation",
+    "His analytical nature means he probably tracks and optimises his delivery spending more than most students"
+  ],
+  "questions_for_coding": [
+    "How does his relatively high food budget compare to other students and what enables this spending level?",
+    "What drives his specific platform loyalty patterns - is it purely deal-driven or are there other factors?",
+    "How does his systematic approach to food decisions reflect broader student attitudes toward delivery optimisation?",
+    "What role does his startup work and career planning play in his food delivery usage patterns?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: But I'd say we do it like 50, 50.\nspk_0: For me it's 50. 50.\nspk_0: I cook 50% of the time.\nspk_0: I order food online 50% of the time.\n",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 3934,
+      "end_char_index": 4077,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like how does\nspk_0: cooking, cooking actually means to make something from scratch?\nspk_0: Obviously for me it's like I'm cooking something for me from the scratch.\nspk_0: Like if I'm like making some Indian cuisine, I'll try to make it from scratch.\n",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 10053,
+      "end_char_index": 10312,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: So yeah, cooking for me is like making everything from scratch.\n",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 10564,
+      "end_char_index": 10635,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: So it's not like I have any preference.\nspk_0: It's like wherever I get better deals, I'll order from there.\nspk_0: So most of the time it's Uber Eats and on second it's either delivery or just eat.\n",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 5223,
+      "end_char_index": 5429,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: 150 to 200 pounds weekly.\nspk_0: Okay, yeah, 200. ",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 14212,
+      "end_char_index": 14269,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So sometimes it's either breakfast and most of the times it's dinner because, you know, I.\nspk_0: I'm traveling half of the time to get back home.\nspk_0: Not half every time, you know, like I'm traveling late.\nspk_0: So it's like dinners are most stressful part of the day.\n",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 12068,
+      "end_char_index": 12342,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Maybe I'll rely more on deliveries then because I'll get a job.\nspk_0: I mean, I have offer already, so I'll be into the job sector and I don't think I'll get time to cook.\n",
+      "document_index": 0,
+      "document_title": "P012 - P012 - Interview Transcript",
+      "start_char_index": 32059,
+      "end_char_index": 32239,
+      "participant_id": "P012",
+      "participant_name": "P012"
+    }
+  ],
+  "_citation_count": 7
+}

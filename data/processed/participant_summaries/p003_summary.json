@@ -1,0 +1,107 @@
+{
+  "participant_id": "P003",
+  "summary": "P003 presents as a highly pragmatic, efficiency-focused student who has developed systematic approaches to minimize food-related effort and decision-making. She treats cooking as a necessary chore rather than enjoyment, employing batch cooking strategies to reduce frequency and sticking rigidly to familiar recipes and restaurants to avoid disappointment. Her relationship with food is fundamentally utilitarian - she prioritizes convenience, cost-effectiveness, and predictability over variety or culinary exploration. Despite claiming to 'really like food and eating,' her actual behavior suggests food functions primarily as fuel rather than pleasure. Her takeaway ordering follows a clear reward pattern (Friday nights after difficult weeks), positioning delivery as an earned treat rather than regular convenience. She demonstrates strong risk aversion, preferring familiar chains over local independents and expressing genuine stress about trying new foods or restaurants. This extends to her grocery shopping, where she's shifted to more frequent, smaller shops to avoid waste - revealing an underlying anxiety about planning and unpredictability that permeates her food decisions.",
+  "personality_notes": "Reserved but articulate communicator who gives thoughtful, detailed responses. Shows analytical thinking and self-awareness about her habits. Demonstrates practical problem-solving approach to life challenges. Somewhat risk-averse personality extends beyond food to general life decisions.",
+  "food_relationship": "Food is functional fuel managed through systematic efficiency strategies rather than a source of pleasure or creativity.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Explains cooking as 'necessary, not enjoyable' and admits to eating same things repeatedly without boredom",
+      "significance": "Reveals core utilitarian relationship with food that contradicts typical student food exploration narratives"
+    },
+    {
+      "timestamp": "23:45",
+      "description": "Describes stress around trying new foods because 'worried it's going to go wrong'",
+      "significance": "Shows genuine anxiety around food decisions that drives her preference for familiar chains and recipes"
+    },
+    {
+      "timestamp": "52:15",
+      "description": "Admits she probably wouldn't order from UberEats without subscription, acknowledging she spends more with it",
+      "significance": "Demonstrates clear understanding of how subscriptions drive behavior change, showing analytical self-awareness"
+    }
+  ],
+  "what_not_said": [
+    "Never mentions enjoying cooking or food preparation",
+    "Doesn't discuss food as social bonding with housemates despite living with friends",
+    "Avoids discussing body image or health motivations for food choices",
+    "No mention of food photography or social media sharing of meals"
+  ],
+  "initial_hypotheses": [
+    "Her risk aversion with food may extend to other life decisions and could influence brand loyalty beyond just convenience",
+    "The batch cooking strategy suggests she may be more organized than typical students but also more anxious about daily decision-making",
+    "Her reward-based takeaway pattern indicates she may be more susceptible to promotional timing around stress periods (exams, deadlines)",
+    "The disconnect between claimed ordering frequency and diary reality suggests social desirability bias in self-reporting"
+  ],
+  "questions_for_coding": [
+    "How does her risk aversion manifest in other consumption decisions beyond food?",
+    "What triggers her to break from routine and try something new?",
+    "How does her systematic approach to food reflect broader coping strategies for student life pressures?",
+    "Does her utilitarian food relationship change in social contexts or remain consistent?"
+  ],
+  "diary_summary": "Diary reveals erratic eating patterns with frequent meal skipping (7/28 meals) and zero delivery orders across 7 days, primarily eating at family home with simple, convenience foods like bananas, toast, and leftovers.",
+  "say_do_gaps": [
+    "Claims to order takeaway 'once every couple weeks' or weekly during stressful periods, but placed zero delivery orders during diary week",
+    "Describes detailed batch cooking strategies but diary shows mostly simple single-item meals and family-prepared food",
+    "States she 'really likes food and eating' but diary shows frequent meal skipping and minimal food engagement",
+    "Claims to spend £15/week on food delivery but diary shows no delivery spending"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: It's necessary. It's not enjoyable.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 6753,
+      "end_char_index": 6796,
+      "participant_id": "P003"
+    },
+    {
+      "cited_text": "I know what I like and I like what I know with cooking.\nspk_1: In an ideal world, I would experiment a little bit more, but at the minute, I don't really have the time.\nspk_1: And it's not something that's too important to me.\nspk_1: Like, I really like food and I really like eating, but I'm someone that can, like, eat the same things over and over again and, like, not get bored of it.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 6820,
+      "end_char_index": 7209,
+      "participant_id": "P003"
+    },
+    {
+      "cited_text": "spk_1: But, like, weeknights, I.\nspk_1: I very much always cook and I.\nspk_1: I like to kind of batch cook as well, because I don't really like cooking.\nspk_1: But if I have to do it like three nights a week instead of seven, then, yeah, then I'll do that.\nspk_1: Just make, like, a big lot of one type of food and just, like, eat it, like, normally three days.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 5712,
+      "end_char_index": 6074,
+      "participant_id": "P003"
+    },
+    {
+      "cited_text": "spk_1: I normally use, like, normally, like, a Friday night.\nspk_1: If I'm gonna get a takeaway, it would probably be on a Friday night.\nspk_1: It's not every Friday, but I'd say maybe like every other.\nspk_1: Just kind of as, like, reward for getting through the week.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 5442,
+      "end_char_index": 5712,
+      "participant_id": "P003"
+    },
+    {
+      "cited_text": "I think to me it's like when trying something new that's, that's a stressor for me because I'm worried that it's going to go wrong.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 8533,
+      "end_char_index": 8665,
+      "participant_id": "P003"
+    },
+    {
+      "cited_text": "Which is why I don't really do it that much.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 8678,
+      "end_char_index": 8723,
+      "participant_id": "P003"
+    },
+    {
+      "cited_text": "spk_1: Honestly, I was thinking making meals myself, but I would say it for both.\nspk_1: I tend to order from the same places as well because I'm, I'm really annoyed if I order something and it's not very good.\n",
+      "document_title": "Interview Transcript — P003",
+      "document_index": 0,
+      "start_char_index": 8823,
+      "end_char_index": 9034,
+      "participant_id": "P003"
+    }
+  ],
+  "_citation_count": 7
+}

@@ -1,0 +1,844 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P024_INT_001",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "So in the mornings I don't really eat. I kind of skip breakfast. When I go to work, I go to work four hours. If it's an evening shift and I come home and I'm tired, I sometimes order a lot of food or if I'm not tired, I'll cook something small. But on the days where I do work in the morning I do try and cook myself. But the majority of the time recently I've just been ordering.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening",
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Claims to cook frequently but admits 'majority of the time recently I've just been ordering'",
+        "language_pattern": [
+          "tired"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "work_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so in the mornings i don't really eat i kind of skip breakfast when i go to work i go to work four hours if it's an evening shift and i come home and i'm tired i sometimes order a lot of food or if i'm not tired i'll cook something small but on the days where i do work in the morning i do try and co"
+      }
+    },
+    {
+      "segment_id": "P024_INT_002",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "you on the weekends, when I've been working the whole week, I'm just tired. I just want to be in bed. I can't bother to get up and actually cook. So I just order in, especially desserts because I feel like I want to treat myself at the end of the week. So, yeah, I just mainly order.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort",
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "tired",
+          "treat"
+        ],
+        "competitive": null,
+        "value_component": [
+          "comfort",
+          "convenience"
+        ],
+        "influence": [
+          "work_fatigue"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 3,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "you on the weekends when i've been working the whole week i'm just tired i just want to be in bed i can't bother to get up and actually cook so i just order in especially desserts because i feel like i want to treat myself at the end of the week so yeah i just mainly order"
+      }
+    },
+    {
+      "segment_id": "P024_INT_003",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "So if I'm tired, I would say something filling, even just keep me awake. Or if I'm happy, I just feel like something. The sweet and the dessert just to, I don't know, make me feel sweet and soft.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort",
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "sweet",
+          "soft"
+        ],
+        "competitive": null,
+        "value_component": [
+          "emotional_regulation"
+        ],
+        "influence": [
+          "mood"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so if i'm tired i would say something filling even just keep me awake or if i'm happy i just feel like something the sweet and the dessert just to i don't know make me feel sweet and soft"
+      }
+    },
+    {
+      "segment_id": "P024_INT_004",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "Cooking means actually making something because I don't really like making quick meals. If I cook, it's something that I'm going to like and enjoy. So I wouldn't be like this type of. Because I know a lot of people like to make quick meals, but I'm not the type of person. If I'm going to cook and spend time to cook, I'll actually make a decent meal. That takes a while. Yeah, essentially it's just a nice filling meal.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Aspirational cooking identity - wants elaborate meals but often lacks energy",
+        "language_pattern": [
+          "decent meal"
+        ],
+        "competitive": null,
+        "value_component": [
+          "quality",
+          "satisfaction"
+        ],
+        "influence": [
+          "personal_standards"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "cooking means actually making something because i don't really like making quick meals if i cook it's something that i'm going to like and enjoy so i wouldn't be like this type of because i know a lot of people like to make quick meals but i'm not the type of person if i'm going to cook and spend ti"
+      }
+    },
+    {
+      "segment_id": "P024_INT_005",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "There was a viral strawberry Kanafar chocolate thing that was going around and because I didn't really want to make it myself because it was very like you couldn't buy the ingredients from any shop. I saw that. I was just scrolling on my Uber eats app and I saw that a specific delivery dessert shop had already just offered it. So because I wanted to try it and everybody said it was nice on TikTok, I just ordered it and essentially tried it myself.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement",
+          "anticipation"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "viral"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social_validation",
+          "convenience"
+        ],
+        "influence": [
+          "social_media",
+          "tiktok"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "there was a viral strawberry kanafar chocolate thing that was going around and because i didn't really want to make it myself because it was very like you couldn't buy the ingredients from any shop i saw that i was just scrolling on my uber eats app and i saw that a specific delivery dessert shop ha"
+      }
+    },
+    {
+      "segment_id": "P024_INT_006",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "So it was literally this morning at 1:00'. Clock. I ordered from McDonald's. I kind of just woke up with a hungry appetite. And because I'm a bit sick, I kind of didn't want to go out and actually cook, so I just ordered. And unfortunately, the delivery process wasn't the best. I was a bit disappointed. It was a thing of where, like, because it is the middle of the night and I had to order from McDonald's. They did take over an hour to actually arrive my food, so it wasn't the best experience. However, I was just glad to have my food in the end.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration",
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "late_night"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "sick"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "illness",
+          "hunger"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so it was literally this morning at 1 00' clock i ordered from mcdonald's i kind of just woke up with a hungry appetite and because i'm a bit sick i kind of didn't want to go out and actually cook so i just ordered and unfortunately the delivery process wasn't the best i was a bit disappointed it wa"
+      }
+    },
+    {
+      "segment_id": "P024_INT_007",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "I would definitely say that I've been more open to trying different things, especially because I earn my own money. Back when I was a student, I was very much into budgeting, and because I only had a certain amount in my account, I had to spend it on transport, on uni appliances and all these things. I was kind of limited. But now that I earn my own money, I'm more accustomed to trying more restaurants, more different tastes. So it's definitely changed.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO4_post_graduation.how_do_changing_finances_and_living_situ",
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "earn my own money"
+        ],
+        "competitive": null,
+        "value_component": [
+          "variety",
+          "exploration"
+        ],
+        "influence": [
+          "financial_freedom"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i would definitely say that i've been more open to trying different things especially because i earn my own money back when i was a student i was very much into budgeting and because i only had a certain amount in my account i had to spend it on transport on uni appliances and all these things i was"
+      }
+    },
+    {
+      "segment_id": "P024_INT_008",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "Yes, actually I was aware it was very heavily advertised. At the time, however, a lot of the people in my year and people surrounding was struggling to actually obtain the one year free delivery as students because there was a, like a deadline, there was a glitch. So there was one thing that was one thing that kind of limited, actually not going to Deliveroo because I kind of missed out on that student experience of obtaining that free delivery from Deliveroo. So that's kind of why I went more to just Eats. Sorry. To Ubeats because they always have a promo code that's applicable to everyone, not just to those who are new. Existing customers or new customers is for everyone essentially.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis",
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "glitch",
+          "missed out"
+        ],
+        "competitive": "Deliveroo student offer failure drove switch to Uber Eats",
+        "value_component": [
+          "accessibility",
+          "reliability"
+        ],
+        "influence": [
+          "technical_issues",
+          "peer_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 5,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yes actually i was aware it was very heavily advertised at the time however a lot of the people in my year and people surrounding was struggling to actually obtain the one year free delivery as students because there was a like a deadline there was a glitch so there was one thing that was one thing "
+      }
+    },
+    {
+      "segment_id": "P024_INT_009",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "I think it's more price, especially if there is an offer. I always like to go for offers like buy one, get one free. Those are the ones I'm very attracted to. If I can get like a burger and that's five pounds and I get two for one price, then that's something that I'm really attracted to. So definitely price.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "attracted to"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "deals"
+        ],
+        "influence": [
+          "promotions"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think it's more price especially if there is an offer i always like to go for offers like buy one get one free those are the ones i'm very attracted to if i can get like a burger and that's five pounds and i get two for one price then that's something that i'm really attracted to so definitely pri"
+      }
+    },
+    {
+      "segment_id": "P024_INT_010",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "So I choose Uber Eats because they have a lot of promo codes. Especially there was one time I tried to order from Deliveroo and they had a promo. However, it's only for new customers. I was an existing customer, so it doesn't really apply to me. However, on Uber Eats they. They have promo codes, vouchers which are applicable to existing customers. So I do like that feature that they have that they do include existing customers rather than just new customers.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison",
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "existing customer"
+        ],
+        "competitive": "Uber Eats better for existing customers vs Deliveroo new customer focus",
+        "value_component": [
+          "inclusivity",
+          "ongoing_value"
+        ],
+        "influence": [
+          "customer_status"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i choose uber eats because they have a lot of promo codes especially there was one time i tried to order from deliveroo and they had a promo however it's only for new customers i was an existing customer so it doesn't really apply to me however on uber eats they they have promo codes vouchers whi"
+      }
+    },
+    {
+      "segment_id": "P024_INT_011",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "I would say guaranteed fast delivery. So based on experience, especially my previous experience in recently, a lot of the foods I've had had come cold. If I'm paying for a service, I'd like to know that I would get priority delivery in which my food would not be cold and it would be in good tact because especially a lot of the times when food comes, it's also not in the best presentation or not in the best quality. So I just. If I'm paying for service, I'd expect a good service, essentially, like a good experience.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "good service"
+        ],
+        "competitive": null,
+        "value_component": [
+          "quality",
+          "reliability"
+        ],
+        "influence": [
+          "poor_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i would say guaranteed fast delivery so based on experience especially my previous experience in recently a lot of the foods i've had had come cold if i'm paying for a service i'd like to know that i would get priority delivery in which my food would not be cold and it would be in good tact because "
+      }
+    },
+    {
+      "segment_id": "P024_INT_012",
+      "participant_id": "P024",
+      "source": "interview",
+      "text": "I would say Deliveroo is more students based a lot of their marketing and their promotions and everything is based for students. However, Uber Eats is more for everyone. I do see why a lot of students like to use Deliveroo back when they are students. But I do know that there's tide for a switch once you leave being a student because there's not much offers when you are not a student anymore.",
+      "timestamp": "N/A",
+      "research_objective_codes": [
+        "RO5_engagement_opps.brand_perception",
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "tide for a switch"
+        ],
+        "competitive": "Deliveroo seen as student-focused vs Uber Eats as universal",
+        "value_component": [
+          "lifecycle_relevance"
+        ],
+        "influence": [
+          "life_stage"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i would say deliveroo is more students based a lot of their marketing and their promotions and everything is based for students however uber eats is more for everyone i do see why a lot of students like to use deliveroo back when they are students but i do know that there's tide for a switch once yo"
+      }
+    },
+    {
+      "segment_id": "P024_DIARY_001",
+      "participant_id": "P024",
+      "source": "diary",
+      "text": "Was craving KFC and didn't want to cook",
+      "timestamp": "Day 5",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "craving"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "craving_satisfaction"
+        ],
+        "influence": [
+          "specific_food_desire"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 2,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P024_DIARY_002",
+      "participant_id": "P024",
+      "source": "diary_reflection",
+      "text": "So in terms of my meals today, they were all based on how I was feeling and what I was craving at the time. So in the morning, I actually ate something really quickly before I went to work, which was a cheerio. It's something I really don't really have. Sometimes I don't have breakfast, but, otherwise, I do always have something that's gonna wake me up in the morning.",
+      "timestamp": "Day 2",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "morning",
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Says sometimes skips breakfast but needs something to wake up",
+        "language_pattern": [
+          "wake me up"
+        ],
+        "competitive": null,
+        "value_component": [
+          "functional"
+        ],
+        "influence": [
+          "work_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P024_DIARY_003",
+      "participant_id": "P024",
+      "source": "diary_reflection",
+      "text": "I've realized even throughout this diary that I have done a lot of takeaways, and I think my aim will be more to cook at home more as I have today. I think today, I just felt like another craving of eating something sweet, so, I decided to make a carbonara, meal.",
+      "timestamp": "Day 7",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt",
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Realizes high takeaway usage, wants to cook more but still driven by cravings",
+        "language_pattern": [
+          "aim",
+          "craving"
+        ],
+        "competitive": null,
+        "value_component": [
+          "self_awareness",
+          "aspiration"
+        ],
+        "influence": [
+          "diary_reflection"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "social_media_food_fomo",
+      "description": "Ordering food specifically because of viral social media content, creating FOMO-driven consumption"
+    },
+    {
+      "theme_name": "aspirational_cooking_identity",
+      "description": "Gap between desired cooking identity (elaborate meals) and actual behavior (convenience-driven)"
+    },
+    {
+      "theme_name": "platform_technical_failure_switching",
+      "description": "Technical issues or poor implementation of offers driving permanent platform switching"
+    },
+    {
+      "theme_name": "existing_customer_discrimination",
+      "description": "Frustration with new-customer-only promotions leading to platform preference"
+    }
+  ],
+  "coding_summary": "P024 reveals a complex relationship between aspirational food identity and convenience-driven reality. Strong social media influence drives specific orders (viral TikTok foods), but day-to-day behavior is primarily fatigue and mood-driven. The transition from student to working adult has increased financial freedom and experimentation, but core triggers remain emotional (tired, craving, treating self). Critical insight: Deliveroo's technical failure with student offers created lasting brand damage, while Uber Eats' inclusive promotion strategy built loyalty. Diary data confirms high takeaway usage despite cooking aspirations.",
+  "coverage_gaps": [],
+  "_citations": [
+    {
+      "cited_text": "spk_1: So there was a viral strawberry Kanafar chocolate thing that was going around and because I didn't really want to make it myself because it was very like you couldn't buy the ingredients from any shop.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 3837,
+      "end_char_index": 4046,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "I was just scrolling on my Uber eats app and I saw that a specific delivery dessert shop had already just offered it.\nspk_1: So because I wanted to try it and everybody said it was nice on TikTok, I just ordered it and essentially tried it myself.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 4065,
+      "end_char_index": 4313,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: Cooking means actually making something because I don't really like making quick meals.\nspk_1: If I cook, it's something that I'm going to like and enjoy.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 6934,
+      "end_char_index": 7096,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: If I'm going to cook and spend time to cook, I'll actually make a decent meal.\nspk_1: That takes a while.\nspk_1: Yeah, essentially it's just a nice filling meal.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 7235,
+      "end_char_index": 7404,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: If it's an evening shift and I come home and I'm tired, I sometimes order a lot of food or if I'm not tired, I'll cook something small.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 4862,
+      "end_char_index": 5005,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: But the majority of the time recently I've just been ordering.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 5085,
+      "end_char_index": 5155,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: I would definitely say that I've been more open to trying different things, especially because I earn my own money.\nspk_1: Back when I was a student, I was very much into budgeting, and because I only had a certain amount in my account, I had to spend it on transport, on uni appliances and all these things.\nspk_1: I was kind of limited.\nspk_1: But now that I earn my own money, I'm more accustomed to trying more restaurants, more different tastes.\nspk_1: So it's definitely changed.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 14445,
+      "end_char_index": 14938,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "spk_1: Yes, actually I was aware it was very heavily advertised.\nspk_1: At the time, however, a lot of the people in my year and people surrounding was struggling to actually obtain the one year free delivery as students because there was a, like a deadline, there was a glitch.\nspk_1: So there was one thing that was one thing that kind of limited, actually not going to Deliveroo because I kind of missed out on that student experience of obtaining that free delivery from Deliveroo.\nspk_1: So that's kind of why I went more to just Eats.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 18669,
+      "end_char_index": 19210,
+      "participant_id": "P024"
+    },
+    {
+      "cited_text": "To Ubeats because they always have a promo code that's applicable to everyone, not just to those who are new.\nspk_1: Existing customers or new customers is for everyone essentially.\n",
+      "document_title": "Interview Transcript — P024",
+      "document_index": 0,
+      "start_char_index": 19224,
+      "end_char_index": 19406,
+      "participant_id": "P024"
+    }
+  ],
+  "_citation_count": 9,
+  "participant_id": "P024",
+  "_ro_coverage": {
+    "RO1_eating_moments": 4,
+    "RO2_delivery_triggers": 7,
+    "RO3_emotional_social": 2,
+    "RO5_engagement_opps": 7,
+    "RO4_post_graduation": 3
+  }
+}

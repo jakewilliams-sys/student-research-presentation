@@ -1,0 +1,115 @@
+{
+  "participant_id": "P011",
+  "summary": "Magrish is a 20-year-old final-year computer science student from an international background, living with three friends in London. He presents as refreshingly honest about his relationship with convenience and laziness, repeatedly citing these as primary drivers for his food choices. His communication style is direct and unpretentious - he admits to spending five hours daily on Instagram and being 'too lazy' to cook or shop, showing a level of self-awareness that feels genuine rather than performative. However, there's a significant gap between his self-perception and actual behaviour: he claims to cook 50% of his meals and order delivery 2-3 times weekly, but his diary reveals predominantly eating out at restaurants with friends, cooking only 6 meals at home, and placing just one delivery order across seven days.\n\nHis food story is fundamentally social and convenience-driven. The diary shows he's deeply embedded in a social eating culture - most meals are shared with friends or housemates, often spontaneous restaurant visits or campus dining. When he does cook, it's simple comfort foods like pasta, and when he orders delivery, it's driven by specific cravings rather than routine. His relationship with delivery apps is pragmatic and price-sensitive - he actively compares prices across platforms, has strong opinions about subscription value, and shows sophisticated understanding of how memberships influence his ordering behaviour. Despite claiming laziness drives his choices, his actual pattern suggests social connection and campus lifestyle are the real determinants of his eating habits.",
+  "personality_notes": "Direct, honest communicator who readily admits to laziness and convenience-seeking. Self-aware about his habits (screen time, ordering frequency) but not defensive. Gives straightforward answers without social desirability filtering.",
+  "food_relationship": "Convenience and socially-driven eater who overestimates his cooking frequency and underestimates his restaurant dining, with delivery serving as occasional craving fulfillment rather than routine sustenance.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Repeatedly cites 'laziness' as primary driver for food decisions",
+      "significance": "Shows unusual honesty about convenience-seeking behaviour, suggesting this is core to his identity rather than something he's ashamed of"
+    },
+    {
+      "timestamp": "1-208 to 1-210",
+      "description": "Articulates sophisticated understanding of subscription psychology - saves money vs. spending more overall",
+      "significance": "Demonstrates analytical thinking about how memberships influence behaviour, key insight for subscription strategy"
+    },
+    {
+      "timestamp": "1-761 to 1-762",
+      "description": "Becomes animated about price transparency between apps and in-store prices",
+      "significance": "This is his strongest emotional response in the interview, suggesting price fairness is a core value"
+    }
+  ],
+  "what_not_said": [
+    "Never mentions family or home country food culture despite being international student",
+    "Avoids discussing cooking skills or food knowledge",
+    "Doesn't mention financial constraints despite student status",
+    "No discussion of health considerations in food choices"
+  ],
+  "initial_hypotheses": [
+    "His 'laziness' narrative may mask deeper social and lifestyle drivers - diary shows highly social eating patterns",
+    "Price sensitivity is more about fairness/transparency than absolute budget constraints",
+    "Subscription memberships significantly influence platform loyalty and ordering frequency",
+    "Campus lifestyle and friend group dynamics are primary determinants of eating patterns"
+  ],
+  "questions_for_coding": [
+    "How does social context influence food decision-making vs. individual convenience?",
+    "What role does price comparison play in platform switching behaviour?",
+    "How do subscription benefits create platform stickiness beyond pure economics?",
+    "What's the relationship between claimed vs. actual cooking frequency among students?"
+  ],
+  "diary_summary": "Actual eating pattern shows predominantly social restaurant dining (9 meals), minimal home cooking (6 meals), and only 1 delivery order. Strong preference for eating with friends/housemates rather than alone.",
+  "say_do_gaps": [
+    "Claims to cook 50% of meals but diary shows only 29% home-cooked",
+    "Claims 2-3 delivery orders per week but placed only 1 order in 7 days",
+    "Emphasizes laziness as driver but diary shows active social dining and campus engagement",
+    "Says delivery is fallback for busy days but diary shows restaurant dining even during study/work periods"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: I wouldn't like to admit it, but I think five hours Instagram, I guess.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 2898,
+      "end_char_index": 2977,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "I'm just too lazy to cook, I guess.\nspk_1: Or there's no time for me to cook at the time.\nspk_1: Maybe that or maybe I don't have any ingredients at home.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 13451,
+      "end_char_index": 13606,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: And I'm too lazy to go out and buy the groceries.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 13622,
+      "end_char_index": 13679,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "I think I wouldn't say most of the times.\nspk_1: About 50%, I guess.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 6538,
+      "end_char_index": 6607,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: It's about two to three times a week.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 8181,
+      "end_char_index": 8226,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_0: Takeaway or two\nspk_1: mixed up like both of them combined.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 8260,
+      "end_char_index": 8327,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: In that sense, I'm definitely saving any money.\nspk_1: But say if I didn't have the membership and adaption, I had an option to not order at all.\nspk_1: I wouldn't say I'm saving money in that sense.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 9337,
+      "end_char_index": 9544,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: There's one thing they could do is keep the prices the same as in store because I've seen, I've seen even Uber when just for a lot of restaurants, they have higher prices for the same restaurants than they have in the.\nspk_1: In the first offline, like main store prices.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 34357,
+      "end_char_index": 34636,
+      "participant_id": "P011"
+    }
+  ],
+  "_citation_count": 8
+}

@@ -1,0 +1,145 @@
+{
+  "participant_id": "P027",
+  "summary": "P027 is a pragmatic second-year law student who approaches food and delivery with careful financial consideration balanced against convenience needs. She presents as someone who has developed efficient systems (meal prepping, batch cooking) to manage her student lifestyle, but uses delivery strategically as both comfort and reward. Her communication style is thoughtful and measured, often qualifying her statements and showing awareness of her own contradictions. She demonstrates a clear understanding of value and cost-benefit analysis, frequently referencing price points and justification for spending. What's particularly striking is the stark difference between her restrained university ordering (every two weeks) versus her frequent home ordering, revealing how context dramatically shapes her relationship with delivery. She lives with three housemates but describes delivery as largely a solo activity, suggesting some social distance or preference for independence. Her approach to delivery apps is highly functional rather than emotional - she chooses based on restaurant availability and practical factors like wait times, showing little brand loyalty beyond convenience.",
+  "personality_notes": "Reserved but articulate communicator who thinks through her responses carefully. Shows strong self-awareness about her spending habits and contradictions. Practical and analytical in her decision-making approach.",
+  "food_relationship": "Enjoys cooking but finds daily preparation burdensome, using meal prep and delivery strategically to manage time and effort while maintaining financial control.",
+  "key_moments": [
+    {
+      "timestamp": "25:34",
+      "description": "Revealed she orders 'so much more food' at home than at university due to lack of food shopping by parents and late work hours",
+      "significance": "Major contradiction between stated moderate ordering frequency and actual behavior in different contexts"
+    },
+    {
+      "timestamp": "38:47",
+      "description": "Described ordering as response to both bad days ('can't be asked') and good days ('celebrate')",
+      "significance": "Shows delivery serves dual emotional regulation function - both comfort and reward"
+    },
+    {
+      "timestamp": "78:12",
+      "description": "Quick, decisive ordering process during live observation - knew exactly what she wanted",
+      "significance": "Demonstrates gap between deliberative discussion style and actual spontaneous ordering behavior"
+    }
+  ],
+  "what_not_said": [
+    "Never properly introduced herself despite being asked",
+    "Avoided specific financial details beyond general ranges",
+    "Didn't discuss relationships with housemates in detail",
+    "No mention of social ordering or group orders with friends"
+  ],
+  "initial_hypotheses": [
+    "Context switching between home and university creates different ordering personas - convenience-driven at home vs. treat-driven at university",
+    "Strong financial awareness may be masking higher actual spending than she's comfortable admitting",
+    "Solo ordering preference may indicate social dynamics or independence preferences not fully explored",
+    "Meal prep efficiency suggests she could be a target for grocery delivery if positioned correctly"
+  ],
+  "questions_for_coding": [
+    "How do different living contexts (home vs. university) shape delivery behavior and frequency?",
+    "What role does emotional regulation play in delivery ordering decisions?",
+    "How do students reconcile financial consciousness with convenience needs?",
+    "What drives the preference for solo vs. social ordering among students?",
+    "How do practical factors (wait times, app functionality) influence platform choice over brand loyalty?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I try not to spend, like, loads...\nspk_1: Like, I wouldn't go out and just, like, spend a load of money that I don't have.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 1803,
+      "end_char_index": 1933,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But, like, I do like to treat myself every now and then...\nspk_1: I'm sure.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 1946,
+      "end_char_index": 2029,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Going out... dinner...\nspk_1: stuff like that. ",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 2042,
+      "end_char_index": 2096,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "But I do, like, enjoy cooking.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 3505,
+      "end_char_index": 3536,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But I just don't like doing it every day.\nspk_1: I feel like it's long...\nspk_1: so that's why I usually like to batch cook every day.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 3549,
+      "end_char_index": 3691,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like, I don't know...\nspk_1: you say, like, I got, like, if I got, like, a result back and I wasn't happy with it.\nspk_1: I'm just not in the mood.\nspk_1: Like, we're just going to order some food or, like, I don't know...\nspk_1: like, just like... But you know them days when, like, everything goes wrong.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 9362,
+      "end_char_index": 9676,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I can't be asked.\nspk_1: Like, that would probably be it.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 9714,
+      "end_char_index": 9772,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think, like, obviously, because this...\nspk_1: like, arguing out when I'm at home...\nspk_1: I order so much more food than when I'm here.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 8213,
+      "end_char_index": 8360,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Cuz I don't like my parents to do a food shop, so I feel like there's, like, no food at home...\nspk_1: so I'll end up, like, ordering all the time.\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 8408,
+      "end_char_index": 8563,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's like, by the time I get home, I don't want to, like, cook at, like, 2 a.m....\nspk_1: it's all order!\n",
+      "document_index": 0,
+      "document_title": "P027 - P027 - Interview Transcript",
+      "start_char_index": 8607,
+      "end_char_index": 8720,
+      "participant_id": "P027",
+      "participant_name": "P027"
+    }
+  ],
+  "_citation_count": 10
+}

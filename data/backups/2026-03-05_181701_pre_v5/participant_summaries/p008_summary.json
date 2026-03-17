@@ -1,0 +1,132 @@
+{
+  "participant_id": "P008",
+  "summary": "Manoj is a 23-year-old recent graduate from Nepal who has just transitioned from university life to full-time work at an accounting firm in London. He presents as highly self-aware and disciplined, actively managing his habits around both social media consumption and food ordering. His relationship with food delivery has undergone a dramatic transformation - during university, he was a heavy user of Uber Eats with a student subscription, but gained significant weight (from 71kg to 80-85kg) which prompted a complete lifestyle overhaul. Now living alone and cooking daily, he has deliberately cancelled his subscription to avoid the temptation of frequent ordering, viewing this as a form of self-control rather than financial constraint.\n\nManoj demonstrates remarkable intentionality in his daily routines - he meal preps salads for work, maintains strict eating windows (no food after 8-9pm), and has deleted TikTok to manage screen time. His cooking serves dual emotional functions: healthy meals feel stressful and obligatory, while making traditional Nepalese momos provides genuine stress relief and cultural connection. He actively avoids food content on social media because it triggers ordering impulses, showing sophisticated awareness of his own behavioral patterns. Despite his current restraint, he remains loyal to Uber Eats over competitors due to a single negative experience with Deliveroo's slower delivery time, and he's pragmatic about potentially returning to subscriptions once he reaches his health goals.",
+  "personality_notes": "Self-disciplined and methodical communicator who gives thoughtful, detailed responses. Shows high self-awareness about his habits and triggers. Speaks with quiet determination about lifestyle changes, not defensive but matter-of-fact about past behaviors.",
+  "food_relationship": "Food delivery represents a battle between convenience and health goals - he's currently winning through deliberate restriction and home cooking, but acknowledges it as an ongoing management challenge rather than a resolved issue.",
+  "key_moments": [
+    {
+      "timestamp": "1-341 to 1-345",
+      "description": "Reveals significant weight gain during university (71kg to 80-85kg) from frequent food delivery, leading to complete lifestyle change",
+      "significance": "Core motivation behind current restrictive approach to delivery apps - health concerns trump convenience"
+    },
+    {
+      "timestamp": "1-64 to 1-70",
+      "description": "Explains actively blocking food content on Instagram because it triggers late-night ordering",
+      "significance": "Shows sophisticated understanding of his own behavioral triggers and proactive management strategies"
+    },
+    {
+      "timestamp": "1-404 to 1-411",
+      "description": "Describes comparative test with friend where Deliveroo took 30-35 minutes vs Uber's 10-15 minutes for same restaurant",
+      "significance": "Single negative experience that permanently shifted platform loyalty - demonstrates how service failures can have lasting impact"
+    }
+  ],
+  "what_not_said": [
+    "Details about his girlfriend's influence on food choices",
+    "Specific financial pressures despite being a new graduate",
+    "Social dynamics with friends around food ordering"
+  ],
+  "initial_hypotheses": [
+    "Health consciousness is driving current behavior more than financial constraints - he can afford delivery but chooses restriction",
+    "Cultural food connection (Nepalese cuisine) provides emotional regulation that Western fast food cannot",
+    "His systematic approach to habit change suggests he may return to delivery apps once health goals are met, but with better boundaries"
+  ],
+  "questions_for_coding": [
+    "How do other participants manage the tension between convenience and health goals?",
+    "What role does cultural food play in stress management vs. delivery food?",
+    "How common is deliberate subscription cancellation as a self-control strategy?",
+    "Do other participants show similar awareness of social media food content as a trigger?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Trying to maintain some screen time.\nspk_1: Those real sticks, if I continue watching, I don't know whether two, three hours gone.\nspk_1: So trying to maintain some time over there.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 1676,
+      "end_char_index": 1865,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, just I was, it was like a habit of using TikTok too much so I completely delete that.\nspk_1: So at the moment it's quite nice.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 1967,
+      "end_char_index": 2107,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, at that time when I was in uni, I said I gained a lot of weight and I think I was around 71, 72 when before I started the uni and after I eat a lot from outside my weight gone to around 80, 85.\nspk_1: So I need to lose that.\nspk_1: And after that I just think oh, I need to, I need to maintain my weight or I'll be obese so which I don't want to be.\nspk_1: And for that need to eat some.\nspk_1: You need to eat healthy food.\nspk_1: So that influenced me.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 18431,
+      "end_char_index": 18899,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sometimes boring, sometimes stress, sometimes stress relief.\nspk_1: That depends on what I cook.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 6149,
+      "end_char_index": 6253,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And in Nepalese cuisine there is one food, Momos, I think in your language you guys call dumplings.\nspk_1: Oh yes, that one we may.\nspk_1: I make by myself at the home.\nspk_1: So that is stress relief for me.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 6467,
+      "end_char_index": 6683,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: If I come, if I see some kind of a food content, I would immediately say do not suggest me.\nspk_1: I don't like the food content on my Instagram reel.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 2394,
+      "end_char_index": 2552,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Just it makes me hungry.\nspk_1: Most of the time I use on the Instagram I usually use at the night time and that makes me hungry and it, it forces me to use some uber eat or just eat to order some food.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 2605,
+      "end_char_index": 2815,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Because if I subscribe to the, subscribe to these promotions.\nspk_1: Uber, it's a Uber one.\nspk_1: I would mostly order from the out.\nspk_1: So that's kind of a habit.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 25193,
+      "end_char_index": 25368,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So this is just to control my mind that I don't want to eat out now too much.\nspk_1: And just for the. ",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 25881,
+      "end_char_index": 25991,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    }
+  ],
+  "_citation_count": 9
+}

@@ -1,0 +1,104 @@
+{
+  "participant_id": "P019",
+  "summary": "P019 is a highly analytical, recently graduated postgraduate student who approaches food and delivery with systematic precision. She's married, works as a consultant, and treats food delivery as a calculated convenience tool rather than an indulgence. Her relationship with food is deeply intentional - she cooks 3-4 times per week because she wants specific dishes, not out of necessity, and customizes recipes to her exact taste preferences. She's the primary cook in her household due to schedule flexibility, but food decisions are shared equally with her husband.\n\nWhat sets P019 apart is her methodical approach to everything - she tracks all expenses, calculates subscription value mathematically, and makes platform choices based purely on cost optimization rather than brand loyalty. She's completely rejected grocery delivery after one bad experience and won't reconsider despite promotions. Her delivery ordering (once every 1-2 weeks) follows predictable patterns: Friday when groceries run low, or when they're 'too lazy' after cooking for several days. She splits between UberEats and Deliveroo based purely on restaurant availability and total cost, maintaining subscriptions to both through calculated cost-benefit analysis.",
+  "personality_notes": "Highly analytical and systematic communicator who provides detailed explanations and corrections. Approaches decisions methodically with cost-benefit calculations. Direct and matter-of-fact in responses.",
+  "food_relationship": "Food must be intentional and comforting - she cooks what she wants to eat, customizes recipes to her taste, and views delivery as a calculated convenience tool.",
+  "key_moments": [
+    {
+      "timestamp": "18:30-20:00",
+      "description": "Explains her cooking philosophy - cooks because she wants specific food, not out of necessity",
+      "significance": "Reveals her intentional, desire-driven relationship with food rather than functional approach"
+    },
+    {
+      "timestamp": "31:00-35:00",
+      "description": "Detailed explanation of grocery delivery rejection after one bad experience",
+      "significance": "Shows how one negative experience can permanently change behavior despite her otherwise analytical approach"
+    },
+    {
+      "timestamp": "60:00-62:00",
+      "description": "States complete lack of loyalty to delivery apps - chooses purely on cost",
+      "significance": "Demonstrates purely transactional relationship with platforms"
+    }
+  ],
+  "what_not_said": [
+    "Emotional connections to food brands",
+    "Social pressure around food choices",
+    "Health or dietary restrictions",
+    "Financial stress about food spending"
+  ],
+  "initial_hypotheses": [
+    "Her analytical approach may make her highly responsive to clear value propositions but resistant to emotional marketing",
+    "One bad experience with grocery delivery suggests she may have high standards and low tolerance for service failures",
+    "Her systematic expense tracking indicates she's likely price-sensitive despite seeming financially comfortable",
+    "Her lack of platform loyalty suggests she's an ideal target for competitive offers and promotions"
+  ],
+  "questions_for_coding": [
+    "How does her analytical personality influence her response to different types of promotions?",
+    "What specific service standards does she expect that led to complete grocery delivery rejection?",
+    "How does her intentional cooking philosophy affect her delivery ordering triggers?",
+    "What role does her husband play in actual ordering decisions versus the stated 'equal say'?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I can get started with the food, if you don't mind.\nspk_1: So, yeah, I do. Me and my husband, we would order delivery, I'd say at least once every two weeks, if not more.\n",
+      "document_index": 0,
+      "document_title": "P019 - P019 - Interview Transcript",
+      "start_char_index": 850,
+      "end_char_index": 1028,
+      "participant_id": "P019",
+      "participant_name": "P019"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: For the main Reason?\nspk_1: It's because I want the food.\nspk_1: Like, I have. I know some people, they would cook because there is no food and they have to eat.\nspk_1: That's not me at all.\nspk_1: For me, I want to cook because this is the food I want to eat.\n",
+      "document_index": 0,
+      "document_title": "P019 - P019 - Interview Transcript",
+      "start_char_index": 10709,
+      "end_char_index": 10977,
+      "participant_id": "P019",
+      "participant_name": "P019"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So we've been tracking our expenses.\nspk_1: So yes, we do have that answer.\n",
+      "document_index": 0,
+      "document_title": "P019 - P019 - Interview Transcript",
+      "start_char_index": 17499,
+      "end_char_index": 17575,
+      "participant_id": "P019",
+      "participant_name": "P019"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So at the time I, I pick it because I did the math because we would be ordering food, like I said, at least once every two weeks.\nspk_1: So I did the math. I think it was only 60 Euro in a year and if I order that many food in a year, times like 3, 34 Euro delivery fee, it would be break even.\nspk_1: And that's why I went for it.\n",
+      "document_index": 0,
+      "document_title": "P019 - P019 - Interview Transcript",
+      "start_char_index": 22491,
+      "end_char_index": 22830,
+      "participant_id": "P019",
+      "participant_name": "P019"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So I. I tried only once grocery delivery, and it was a complete disaster.\nspk_1: So I never tried again.\nspk_1: Like, I'm so done with ordering grocery to be delivered at home.\n",
+      "document_index": 0,
+      "document_title": "P019 - P019 - Interview Transcript",
+      "start_char_index": 12050,
+      "end_char_index": 12234,
+      "participant_id": "P019",
+      "participant_name": "P019"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like honestly, we don't have loyalty to any of those apps.\n",
+      "document_index": 0,
+      "document_title": "P019 - P019 - Interview Transcript",
+      "start_char_index": 33656,
+      "end_char_index": 33722,
+      "participant_id": "P019",
+      "participant_name": "P019"
+    }
+  ],
+  "_citation_count": 6
+}

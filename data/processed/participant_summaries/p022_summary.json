@@ -1,0 +1,120 @@
+{
+  "participant_id": "P022",
+  "summary": "Katie is a 26-year-old policy officer who presents herself as highly organised and efficient, but her actual behaviour reveals a more spontaneous, convenience-driven approach to food. She describes herself as someone who batch cooks weekly and has structured meal routines, yet her diary shows frequent skipping of meals and reliance on convenience store purchases. This disconnect suggests she aspires to be more organised than she actually is, or that her work-from-home lifestyle creates more chaos than she admits. Katie has a refreshingly honest communication style, openly discussing 'laziness' as a driver for delivery orders and acknowledging her changed relationship with money since graduating. She's moved from viewing food as purely functional during university to seeing it as something that can be enjoyable and worth spending on, though she still maintains strong price sensitivity and guilt around indulgent purchases.",
+  "personality_notes": "Direct, self-aware, and refreshingly honest communicator. Presents as organised but behaviour suggests more spontaneous decision-making. Shows analytical thinking when discussing price comparisons and app switching.",
+  "food_relationship": "Food has evolved from purely functional as a student to something enjoyable as a graduate, though convenience and efficiency remain primary drivers over cooking enjoyment.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Candid discussion about period cravings driving grocery delivery orders",
+      "significance": "Reveals emotional and physiological drivers behind 'convenience' purchases - shows food delivery serves comfort needs beyond just laziness"
+    },
+    {
+      "timestamp": "63:15",
+      "description": "Complex discussion of guilt around delivery orders in bad weather",
+      "significance": "Demonstrates internal conflict between personal convenience and consideration for delivery workers - suggests ethical consumption concerns"
+    },
+    {
+      "timestamp": "74:20",
+      "description": "Admission that takeaways 'don't really feel like a treat' because they order from same places",
+      "significance": "Shows habitualisation of delivery - it's become routine rather than special, suggesting opportunity for brands to re-inject excitement"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking skills or confidence",
+    "Avoided discussing specific dietary goals beyond being vegetarian",
+    "Didn't elaborate on why she dislikes cooking despite finding it 'relaxing'"
+  ],
+  "initial_hypotheses": [
+    "Her organised self-presentation masks more chaotic actual behaviour - delivery fills gaps in meal planning",
+    "Price sensitivity is performative rather than genuine constraint - she'll pay for convenience when she wants it",
+    "Social eating is her primary source of food enjoyment - solo meals are purely functional"
+  ],
+  "questions_for_coding": [
+    "How does remote work lifestyle impact food planning and delivery usage?",
+    "What role does guilt play in delivery decisions and how might this affect frequency?",
+    "How do graduates navigate the transition from student food habits to adult food expectations?"
+  ],
+  "diary_summary": "Across 7 days, Katie skipped 2 meals, made 0 delivery orders, and relied heavily on convenience store purchases (6 occasions) despite claiming to batch cook. Weekend eating was entirely social and restaurant-based, while weekday meals were often grabbed on-the-go or convenience-focused.",
+  "say_do_gaps": [
+    "Claims to order takeaway fortnightly but placed zero delivery orders during diary week",
+    "Describes structured meal prep routine but diary shows frequent meal skipping and convenience store reliance",
+    "Presents as organised food planner but actual behaviour is reactive and spontaneous",
+    "Says she batch cooks weekly but only 3/7 lunches were home-cooked during diary period"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: Like I don't love to cook so I'll try and just do it the once.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 8449,
+      "end_char_index": 8519,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: Take away. Laziness and just like, we're here, we don't want to cook, let's just order.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 14833,
+      "end_char_index": 14928,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: Whereas now I'm like, well, I make money.\nspk_1: It's a bit of a snob way to be like, well, I make money, so it's up to me how I want to spend it.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 27877,
+      "end_char_index": 28031,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: Yeah, I kind of do like a set lunch and a set dinner.\nspk_1: Maybe like two dinners.\nspk_1: But yeah, usually it's about one.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 6594,
+      "end_char_index": 6727,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: Whereas now I make a lot like bigger, warmer meals, nice meals that like will stretch a few days and actually be enjoyable.\nspk_1: Like food is like nicer now I guess rather than being just a functional aspect as a student.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 42314,
+      "end_char_index": 42545,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: In terms of takeaway, it'll probably just be like UberEats and it will be with friends so probably like once every two weeks.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 9551,
+      "end_char_index": 9684,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: Lunch is usually something I've made from home.\nspk_1: So like done weekly, shop at like Aldi or Tesco or Ms.\nspk_1: Or whatever. And I've made like a set lunch for the week.\nspk_1: So I just eat that again usually from home.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 5631,
+      "end_char_index": 5864,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: I think I remember it was like a bottle of wine, chocolate bar, packet crisps and then probably like tmi, Jordan.\nspk_1: I was on my period so it was comfort food over anything else, which is usually the main driver is that I just want a sweet treat and I've not got myself a sweet treat already.\nspk_1: So I think it will definitely be an oat milk as well because I'm always out of oat milk.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 16557,
+      "end_char_index": 16957,
+      "participant_id": "P022"
+    },
+    {
+      "cited_text": "spk_1: Well, I do feel guilty if I'm buying because it's like chucking it down or something and then I'm making someone else out and about while it's chucking it down.\nspk_1: I always feel guilty then for like, not much.\nspk_1: And then it always feels quite indulgent because I'm like, I could just walk.\nspk_1: Like, it is me being lazy.\nspk_1: And then the stuff I'm getting is stuff I don't need.\nspk_1: It's just stuff I want.\n",
+      "document_title": "Interview Transcript — P022",
+      "document_index": 0,
+      "start_char_index": 23739,
+      "end_char_index": 24171,
+      "participant_id": "P022"
+    }
+  ],
+  "_citation_count": 9
+}

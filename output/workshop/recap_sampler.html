@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recap Slide — 10 Iterations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,600;0,16..72,700;1,16..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #FAF8F2;
+  --text: #1A1714;
+  --text-secondary: #6B655C;
+  --text-tertiary: #9E978D;
+  --accent: #00857C;
+  --rule: #D6D1C7;
+  --teal: #00857C;
+  --pumpkin: #D4603A;
+  --blueberry: #5B8EC4;
+  --mustard: #C4A82D;
+  --apple: #5A9E4A;
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: var(--sans);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slide {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 450ms var(--ease);
+  background: var(--cream);
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+
+.slide-inner { max-width: 900px; width: 100%; }
+
+.version-badge {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-tertiary);
+  background: rgba(214,209,199,0.5);
+  padding: 0.35rem 1rem;
+  border-radius: 100px;
+  z-index: 400;
+  transition: opacity 0.3s;
+}
+
+.progress-bar {
+  position: fixed; bottom: 0; left: 0;
+  height: 3px; background: var(--accent); z-index: 300;
+  width: 0; transition: width 0.35s var(--ease);
+}
+.slide-counter {
+  position: fixed; bottom: 10px; right: 16px;
+  font-family: var(--sans); font-size: 0.6rem;
+  color: var(--text-tertiary); z-index: 300;
+  font-variant-numeric: tabular-nums;
+}
+.nav-hint {
+  position: fixed; bottom: 10px; left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--sans); font-size: 0.55rem;
+  color: var(--text-tertiary); letter-spacing: 0.06em;
+  z-index: 300;
+}
+
+/* ─────────────────────────────────────────────
+   V1: EDITORIAL LIST
+   ───────────────────────────────────────────── */
+.v1-list { list-style: none; max-width: 620px; margin: 0 auto; text-align: left; }
+.v1-item {
+  display: flex; align-items: baseline; gap: 1.2rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--rule);
+  opacity: 0; transform: translateY(8px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.v1-item:last-child { border-bottom: none; }
+.slide.active .v1-item:nth-child(1) { transition-delay: 0.12s; }
+.slide.active .v1-item:nth-child(2) { transition-delay: 0.22s; }
+.slide.active .v1-item:nth-child(3) { transition-delay: 0.32s; }
+.slide.active .v1-item:nth-child(4) { transition-delay: 0.42s; }
+.slide.active .v1-item:nth-child(5) { transition-delay: 0.52s; }
+.slide.active .v1-item { opacity: 1; transform: none; }
+.v1-num {
+  font-family: var(--serif); font-size: 2rem; font-weight: 700;
+  line-height: 1; min-width: 2.4rem;
+}
+.v1-name {
+  font-family: var(--serif); font-size: 1.15rem; font-weight: 600;
+}
+.v1-desc {
+  font-family: var(--sans); font-size: 0.76rem; color: var(--text-secondary);
+  margin-top: 0.15rem;
+}
+
+/* ─────────────────────────────────────────────
+   V2: COLOUR BANDS
+   ───────────────────────────────────────────── */
+.v2-bands { display: flex; flex-direction: column; gap: 4px; max-width: 780px; margin: 0 auto; }
+.v2-band {
+  padding: 1.1rem 1.8rem;
+  border-radius: 6px;
+  display: flex; align-items: baseline; justify-content: space-between;
+  opacity: 0; transform: scaleX(0.92);
+  transform-origin: left;
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.slide.active .v2-band:nth-child(1) { transition-delay: 0.1s; }
+.slide.active .v2-band:nth-child(2) { transition-delay: 0.18s; }
+.slide.active .v2-band:nth-child(3) { transition-delay: 0.26s; }
+.slide.active .v2-band:nth-child(4) { transition-delay: 0.34s; }
+.slide.active .v2-band:nth-child(5) { transition-delay: 0.42s; }
+.slide.active .v2-band { opacity: 1; transform: none; }
+.v2-name { font-family: var(--serif); font-size: 1.15rem; font-weight: 700; color: #fff; }
+.v2-desc { font-family: var(--sans); font-size: 0.7rem; color: rgba(255,255,255,0.75); }
+
+/* ─────────────────────────────────────────────
+   V3: SENTENCE
+   ───────────────────────────────────────────── */
+.v3-sentence {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-secondary);
+  opacity: 0; transform: translateY(12px);
+  transition: opacity 0.7s var(--ease) 0.15s, transform 0.7s var(--ease) 0.15s;
+}
+.slide.active .v3-sentence { opacity: 1; transform: none; }
+.v3-sentence strong { font-weight: 700; }
+
+/* ─────────────────────────────────────────────
+   V4: STAGGERED CARDS
+   ───────────────────────────────────────────── */
+.v4-cards {
+  display: flex; flex-direction: column; gap: 0.6rem;
+  max-width: 640px; margin: 0 auto;
+}
+.v4-card {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1rem 1.4rem;
+  border-radius: 8px;
+  background: rgba(214,209,199,0.25);
+  border-left: 4px solid;
+  opacity: 0; transform: translateX(-12px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.v4-card:nth-child(odd) { margin-left: 0; }
+.v4-card:nth-child(even) { margin-left: 3rem; }
+.slide.active .v4-card:nth-child(1) { transition-delay: 0.1s; }
+.slide.active .v4-card:nth-child(2) { transition-delay: 0.2s; }
+.slide.active .v4-card:nth-child(3) { transition-delay: 0.3s; }
+.slide.active .v4-card:nth-child(4) { transition-delay: 0.4s; }
+.slide.active .v4-card:nth-child(5) { transition-delay: 0.5s; }
+.slide.active .v4-card { opacity: 1; transform: none; }
+.v4-num { font-family: var(--serif); font-size: 1.6rem; font-weight: 700; line-height: 1; }
+.v4-text { text-align: left; }
+.v4-name { font-family: var(--serif); font-size: 1rem; font-weight: 600; }
+.v4-desc { font-family: var(--sans); font-size: 0.7rem; color: var(--text-secondary); margin-top: 0.1rem; }
+
+/* ─────────────────────────────────────────────
+   V5: GIANT NUMBERS
+   ───────────────────────────────────────────── */
+.v5-wrap { position: relative; max-width: 800px; margin: 0 auto; height: 320px; }
+.v5-bg {
+  display: flex; justify-content: space-between; align-items: center;
+  position: absolute; inset: 0;
+  opacity: 0;
+  transition: opacity 0.8s var(--ease) 0.1s;
+}
+.slide.active .v5-bg { opacity: 1; }
+.v5-bg-num {
+  font-family: var(--serif); font-size: clamp(5rem, 12vw, 9rem);
+  font-weight: 700; line-height: 1; opacity: 0.06;
+}
+.v5-labels {
+  position: absolute; inset: 0;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 0.5rem;
+}
+.v5-label {
+  text-align: center;
+  opacity: 0; transform: translateY(8px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.slide.active .v5-label:nth-child(1) { transition-delay: 0.3s; }
+.slide.active .v5-label:nth-child(2) { transition-delay: 0.4s; }
+.slide.active .v5-label:nth-child(3) { transition-delay: 0.5s; }
+.slide.active .v5-label:nth-child(4) { transition-delay: 0.6s; }
+.slide.active .v5-label:nth-child(5) { transition-delay: 0.7s; }
+.slide.active .v5-label { opacity: 1; transform: none; }
+.v5-label-name { font-family: var(--serif); font-size: 0.82rem; font-weight: 700; }
+.v5-label-desc { font-family: var(--sans); font-size: 0.58rem; color: var(--text-tertiary); margin-top: 0.2rem; max-width: 10ch; margin-left: auto; margin-right: auto; }
+
+/* ─────────────────────────────────────────────
+   V6: BOOKEND NARRATIVE
+   ───────────────────────────────────────────── */
+.v6-wrap {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  align-items: center; gap: 2.5rem;
+  max-width: 780px; margin: 0 auto;
+}
+.v6-start, .v6-end { text-align: center; }
+.v6-label-sm {
+  font-family: var(--sans); font-size: 0.6rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  color: var(--text-tertiary); margin-bottom: 0.6rem;
+}
+.v6-big {
+  font-family: var(--serif); font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700; line-height: 1.15; letter-spacing: -0.02em;
+}
+.v6-sub {
+  font-family: var(--sans); font-size: 0.72rem; color: var(--text-secondary);
+  margin-top: 0.4rem;
+}
+.v6-middle {
+  display: flex; flex-direction: column; align-items: center; gap: 0.8rem;
+}
+.v6-mid-item {
+  font-family: var(--sans); font-size: 0.68rem; font-weight: 500;
+  padding: 0.3rem 0.8rem; border-radius: 100px;
+  border: 1px solid var(--rule);
+}
+.v6-arrow {
+  font-size: 1.2rem; color: var(--text-tertiary);
+}
+.v6-wrap > * {
+  opacity: 0; transform: translateY(10px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+.slide.active .v6-start { transition-delay: 0.15s; opacity: 1; transform: none; }
+.slide.active .v6-middle { transition-delay: 0.35s; opacity: 1; transform: none; }
+.slide.active .v6-end { transition-delay: 0.55s; opacity: 1; transform: none; }
+
+/* ─────────────────────────────────────────────
+   V7: PILLS
+   ───────────────────────────────────────────── */
+.v7-pills {
+  display: flex; flex-wrap: wrap;
+  justify-content: center; gap: 0.8rem;
+  max-width: 700px; margin: 0 auto;
+}
+.v7-pill {
+  font-family: var(--serif); font-weight: 600;
+  font-size: 1.05rem; color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 100px;
+  opacity: 0; transform: scale(0.85);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.slide.active .v7-pill:nth-child(1) { transition-delay: 0.1s; }
+.slide.active .v7-pill:nth-child(2) { transition-delay: 0.2s; }
+.slide.active .v7-pill:nth-child(3) { transition-delay: 0.3s; }
+.slide.active .v7-pill:nth-child(4) { transition-delay: 0.4s; }
+.slide.active .v7-pill:nth-child(5) { transition-delay: 0.5s; }
+.slide.active .v7-pill { opacity: 1; transform: none; }
+
+/* ─────────────────────────────────────────────
+   V8: GROWING BARS
+   ───────────────────────────────────────────── */
+.v8-bars { display: flex; flex-direction: column; gap: 6px; max-width: 700px; margin: 0 auto; }
+.v8-bar {
+  display: flex; align-items: center;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  color: #fff;
+  opacity: 0; transform: scaleX(0); transform-origin: left;
+  transition: opacity 0.5s var(--ease), transform 0.6s var(--ease);
+}
+.v8-bar:nth-child(1) { width: 40%; }
+.v8-bar:nth-child(2) { width: 55%; }
+.v8-bar:nth-child(3) { width: 75%; }
+.v8-bar:nth-child(4) { width: 65%; }
+.v8-bar:nth-child(5) { width: 100%; }
+.slide.active .v8-bar:nth-child(1) { transition-delay: 0.1s; }
+.slide.active .v8-bar:nth-child(2) { transition-delay: 0.2s; }
+.slide.active .v8-bar:nth-child(3) { transition-delay: 0.3s; }
+.slide.active .v8-bar:nth-child(4) { transition-delay: 0.4s; }
+.slide.active .v8-bar:nth-child(5) { transition-delay: 0.5s; }
+.slide.active .v8-bar { opacity: 1; transform: scaleX(1); }
+.v8-name { font-family: var(--serif); font-size: 0.88rem; font-weight: 600; white-space: nowrap; }
+
+/* ─────────────────────────────────────────────
+   V9: TWO-COLUMN MAGAZINE
+   ───────────────────────────────────────────── */
+.v9-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1.6rem 3rem; max-width: 700px; margin: 0 auto;
+  text-align: left;
+}
+.v9-heading {
+  grid-column: 1 / -1;
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--text);
+  opacity: 0; transform: translateY(10px);
+  transition: opacity 0.5s var(--ease) 0.1s, transform 0.5s var(--ease) 0.1s;
+}
+.slide.active .v9-heading { opacity: 1; transform: none; }
+.v9-item {
+  opacity: 0; transform: translateY(8px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.slide.active .v9-item:nth-child(2) { transition-delay: 0.2s; }
+.slide.active .v9-item:nth-child(3) { transition-delay: 0.28s; }
+.slide.active .v9-item:nth-child(4) { transition-delay: 0.36s; }
+.slide.active .v9-item:nth-child(5) { transition-delay: 0.44s; }
+.slide.active .v9-item:nth-child(6) { transition-delay: 0.52s; }
+.slide.active .v9-item { opacity: 1; transform: none; }
+.v9-num {
+  font-family: var(--serif); font-size: 2.8rem; font-weight: 700;
+  line-height: 1; margin-bottom: 0.3rem;
+}
+.v9-name { font-family: var(--serif); font-size: 1rem; font-weight: 600; margin-bottom: 0.15rem; }
+.v9-desc { font-family: var(--sans); font-size: 0.72rem; color: var(--text-secondary); line-height: 1.4; }
+
+/* ─────────────────────────────────────────────
+   V10: MINIMAL DOTS + TEXT
+   ───────────────────────────────────────────── */
+.v10-list { list-style: none; max-width: 500px; margin: 0 auto; text-align: left; }
+.v10-item {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 0.9rem 0;
+  opacity: 0; transform: translateX(-10px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+.slide.active .v10-item:nth-child(1) { transition-delay: 0.1s; }
+.slide.active .v10-item:nth-child(2) { transition-delay: 0.2s; }
+.slide.active .v10-item:nth-child(3) { transition-delay: 0.3s; }
+.slide.active .v10-item:nth-child(4) { transition-delay: 0.4s; }
+.slide.active .v10-item:nth-child(5) { transition-delay: 0.5s; }
+.slide.active .v10-item { opacity: 1; transform: none; }
+.v10-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.v10-name {
+  font-family: var(--serif); font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 600; line-height: 1.3;
+}
+.v10-sep {
+  margin: 0 0.5rem; color: var(--text-tertiary); font-weight: 400;
+}
+.v10-desc {
+  font-family: var(--sans); font-size: 0.72rem; color: var(--text-tertiary);
+}
+
+/* ─────────────────────────────────────────────
+   SHARED SLIDE TITLES
+   ───────────────────────────────────────────── */
+.slide-title-sm {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  opacity: 0; transform: translateY(6px);
+  transition: opacity 0.5s var(--ease) 0.05s, transform 0.5s var(--ease) 0.05s;
+}
+.slide.active .slide-title-sm { opacity: 1; transform: none; }
+</style>
+</head>
+<body>
+
+<!-- ============================================
+     V1: EDITORIAL LIST
+     ============================================ -->
+<div class="slide active">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 1 — Editorial list</p>
+    <ol class="v1-list">
+      <li class="v1-item">
+        <span class="v1-num" style="color:var(--text-tertiary)">01</span>
+        <div>
+          <div class="v1-name">Assumptions</div>
+          <div class="v1-desc">What we thought we knew</div>
+        </div>
+      </li>
+      <li class="v1-item">
+        <span class="v1-num" style="color:var(--teal)">02</span>
+        <div>
+          <div class="v1-name">Findings</div>
+          <div class="v1-desc">What we actually found</div>
+        </div>
+      </li>
+      <li class="v1-item">
+        <span class="v1-num" style="color:var(--blueberry)">03</span>
+        <div>
+          <div class="v1-name">Plus &amp; Competition</div>
+          <div class="v1-desc">The subscription landscape</div>
+        </div>
+      </li>
+      <li class="v1-item">
+        <span class="v1-num" style="color:var(--pumpkin)">04</span>
+        <div>
+          <div class="v1-name">Personas</div>
+          <div class="v1-desc">The students behind the data</div>
+        </div>
+      </li>
+      <li class="v1-item">
+        <span class="v1-num" style="color:var(--apple)">05</span>
+        <div>
+          <div class="v1-name">Opportunities</div>
+          <div class="v1-desc">Where to go from here</div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<!-- ============================================
+     V2: COLOUR BANDS
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 2 — Colour bands</p>
+    <div class="v2-bands">
+      <div class="v2-band" style="background:var(--text-tertiary)">
+        <span class="v2-name">Assumptions</span>
+        <span class="v2-desc">what we thought we knew</span>
+      </div>
+      <div class="v2-band" style="background:var(--teal)">
+        <span class="v2-name">Findings</span>
+        <span class="v2-desc">what we actually found</span>
+      </div>
+      <div class="v2-band" style="background:var(--blueberry)">
+        <span class="v2-name">Plus &amp; Competition</span>
+        <span class="v2-desc">the subscription landscape</span>
+      </div>
+      <div class="v2-band" style="background:var(--pumpkin)">
+        <span class="v2-name">Personas</span>
+        <span class="v2-desc">the students behind the data</span>
+      </div>
+      <div class="v2-band" style="background:var(--apple)">
+        <span class="v2-name">Opportunities</span>
+        <span class="v2-desc">where to go from here</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V3: SINGLE SENTENCE
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 3 — Narrative sentence</p>
+    <p class="v3-sentence">
+      We started with <strong style="color:var(--text-tertiary)">assumptions</strong>,
+      uncovered the <strong style="color:var(--teal)">findings</strong>,
+      explored <strong style="color:var(--blueberry)">Plus&nbsp;&amp;&nbsp;the competition</strong>,
+      met the <strong style="color:var(--pumpkin)">personas</strong>,
+      and landed on <strong style="color:var(--apple)">opportunities</strong>.
+    </p>
+  </div>
+</div>
+
+<!-- ============================================
+     V4: STAGGERED CARDS
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 4 — Staggered cards</p>
+    <div class="v4-cards">
+      <div class="v4-card" style="border-color:var(--text-tertiary)">
+        <span class="v4-num" style="color:var(--text-tertiary)">01</span>
+        <div class="v4-text">
+          <div class="v4-name">Assumptions</div>
+          <div class="v4-desc">What we thought we knew</div>
+        </div>
+      </div>
+      <div class="v4-card" style="border-color:var(--teal)">
+        <span class="v4-num" style="color:var(--teal)">02</span>
+        <div class="v4-text">
+          <div class="v4-name">Findings</div>
+          <div class="v4-desc">What we actually found</div>
+        </div>
+      </div>
+      <div class="v4-card" style="border-color:var(--blueberry)">
+        <span class="v4-num" style="color:var(--blueberry)">03</span>
+        <div class="v4-text">
+          <div class="v4-name">Plus &amp; Competition</div>
+          <div class="v4-desc">The subscription landscape</div>
+        </div>
+      </div>
+      <div class="v4-card" style="border-color:var(--pumpkin)">
+        <span class="v4-num" style="color:var(--pumpkin)">04</span>
+        <div class="v4-text">
+          <div class="v4-name">Personas</div>
+          <div class="v4-desc">The students behind the data</div>
+        </div>
+      </div>
+      <div class="v4-card" style="border-color:var(--apple)">
+        <span class="v4-num" style="color:var(--apple)">05</span>
+        <div class="v4-text">
+          <div class="v4-name">Opportunities</div>
+          <div class="v4-desc">Where to go from here</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V5: GIANT NUMBERS
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 5 — Giant background numbers</p>
+    <div class="v5-wrap">
+      <div class="v5-bg">
+        <span class="v5-bg-num">01</span>
+        <span class="v5-bg-num">02</span>
+        <span class="v5-bg-num">03</span>
+        <span class="v5-bg-num">04</span>
+        <span class="v5-bg-num">05</span>
+      </div>
+      <div class="v5-labels">
+        <div class="v5-label">
+          <div class="v5-label-name" style="color:var(--text-tertiary)">Assumptions</div>
+          <div class="v5-label-desc">what we thought we knew</div>
+        </div>
+        <div class="v5-label">
+          <div class="v5-label-name" style="color:var(--teal)">Findings</div>
+          <div class="v5-label-desc">what we actually found</div>
+        </div>
+        <div class="v5-label">
+          <div class="v5-label-name" style="color:var(--blueberry)">Plus</div>
+          <div class="v5-label-desc">the subscription landscape</div>
+        </div>
+        <div class="v5-label">
+          <div class="v5-label-name" style="color:var(--pumpkin)">Personas</div>
+          <div class="v5-label-desc">the students behind the data</div>
+        </div>
+        <div class="v5-label">
+          <div class="v5-label-name" style="color:var(--apple)">Opportunities</div>
+          <div class="v5-label-desc">where to go from here</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V6: BOOKEND NARRATIVE
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 6 — Bookend narrative</p>
+    <div class="v6-wrap">
+      <div class="v6-start">
+        <div class="v6-label-sm">We started here</div>
+        <div class="v6-big" style="color:var(--text-tertiary)">Assumptions</div>
+        <div class="v6-sub">What we thought we knew</div>
+      </div>
+      <div class="v6-middle">
+        <span class="v6-mid-item" style="color:var(--teal)">Findings</span>
+        <span class="v6-arrow">→</span>
+        <span class="v6-mid-item" style="color:var(--blueberry)">Plus &amp; Competition</span>
+        <span class="v6-arrow">→</span>
+        <span class="v6-mid-item" style="color:var(--pumpkin)">Personas</span>
+      </div>
+      <div class="v6-end">
+        <div class="v6-label-sm">We ended here</div>
+        <div class="v6-big" style="color:var(--apple)">Opportunities</div>
+        <div class="v6-sub">Where to go from here</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V7: PILLS
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 7 — Colour pills</p>
+    <div class="v7-pills">
+      <div class="v7-pill" style="background:var(--text-tertiary)">Assumptions</div>
+      <div class="v7-pill" style="background:var(--teal)">Findings</div>
+      <div class="v7-pill" style="background:var(--blueberry)">Plus &amp; Competition</div>
+      <div class="v7-pill" style="background:var(--pumpkin)">Personas</div>
+      <div class="v7-pill" style="background:var(--apple)">Opportunities</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V8: GROWING BARS
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 8 — Crescendo bars</p>
+    <div class="v8-bars">
+      <div class="v8-bar" style="background:var(--text-tertiary)"><span class="v8-name">Assumptions</span></div>
+      <div class="v8-bar" style="background:var(--teal)"><span class="v8-name">Findings</span></div>
+      <div class="v8-bar" style="background:var(--blueberry)"><span class="v8-name">Plus &amp; Competition</span></div>
+      <div class="v8-bar" style="background:var(--pumpkin)"><span class="v8-name">Personas</span></div>
+      <div class="v8-bar" style="background:var(--apple)"><span class="v8-name">Opportunities</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V9: TWO-COLUMN MAGAZINE
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 9 — Magazine layout</p>
+    <div class="v9-grid">
+      <div class="v9-heading">What we covered today</div>
+      <div class="v9-item">
+        <div class="v9-num" style="color:var(--text-tertiary)">01</div>
+        <div class="v9-name">Assumptions</div>
+        <div class="v9-desc">What we thought we knew</div>
+      </div>
+      <div class="v9-item">
+        <div class="v9-num" style="color:var(--teal)">02</div>
+        <div class="v9-name">Findings</div>
+        <div class="v9-desc">What we actually found</div>
+      </div>
+      <div class="v9-item">
+        <div class="v9-num" style="color:var(--blueberry)">03</div>
+        <div class="v9-name">Plus &amp; Competition</div>
+        <div class="v9-desc">The subscription landscape</div>
+      </div>
+      <div class="v9-item">
+        <div class="v9-num" style="color:var(--pumpkin)">04</div>
+        <div class="v9-name">Personas</div>
+        <div class="v9-desc">The students behind the data</div>
+      </div>
+      <div class="v9-item">
+        <div class="v9-num" style="color:var(--apple)">05</div>
+        <div class="v9-name">Opportunities</div>
+        <div class="v9-desc">Where to go from here</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     V10: MINIMAL DOTS + TEXT
+     ============================================ -->
+<div class="slide">
+  <div class="slide-inner" style="text-align:center">
+    <p class="slide-title-sm">Version 10 — Minimal dots</p>
+    <ul class="v10-list">
+      <li class="v10-item">
+        <span class="v10-dot" style="background:var(--text-tertiary)"></span>
+        <span class="v10-name">Assumptions</span>
+        <span class="v10-sep">—</span>
+        <span class="v10-desc">what we thought we knew</span>
+      </li>
+      <li class="v10-item">
+        <span class="v10-dot" style="background:var(--teal)"></span>
+        <span class="v10-name">Findings</span>
+        <span class="v10-sep">—</span>
+        <span class="v10-desc">what we actually found</span>
+      </li>
+      <li class="v10-item">
+        <span class="v10-dot" style="background:var(--blueberry)"></span>
+        <span class="v10-name">Plus &amp; Competition</span>
+        <span class="v10-sep">—</span>
+        <span class="v10-desc">the subscription landscape</span>
+      </li>
+      <li class="v10-item">
+        <span class="v10-dot" style="background:var(--pumpkin)"></span>
+        <span class="v10-name">Personas</span>
+        <span class="v10-sep">—</span>
+        <span class="v10-desc">the students behind the data</span>
+      </li>
+      <li class="v10-item">
+        <span class="v10-dot" style="background:var(--apple)"></span>
+        <span class="v10-name">Opportunities</span>
+        <span class="v10-sep">—</span>
+        <span class="v10-desc">where to go from here</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="progress-bar" id="progress"></div>
+<div class="slide-counter" id="counter"></div>
+<div class="nav-hint" id="navHint">← → Arrow keys to browse all 10 versions</div>
+<div class="version-badge" id="badge">Version 1 of 10</div>
+
+<script>
+(function() {
+  var slides = Array.from(document.querySelectorAll('.slide'));
+  var total = slides.length;
+  var current = 0;
+  var progressEl = document.getElementById('progress');
+  var counterEl = document.getElementById('counter');
+  var badgeEl = document.getElementById('badge');
+
+  function show(idx) {
+    if (idx < 0 || idx >= total) return;
+    slides[current].classList.remove('active');
+    slides[idx].classList.add('active');
+    current = idx;
+    progressEl.style.width = ((idx + 1) / total * 100) + '%';
+    counterEl.textContent = (idx + 1) + ' / ' + total;
+    badgeEl.textContent = 'Version ' + (idx + 1) + ' of ' + total;
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); show(current + 1); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); show(current - 1); }
+    if (e.key === 'Home') { e.preventDefault(); show(0); }
+    if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    var w = window.innerWidth;
+    if (e.clientX > w * 0.6) show(current + 1);
+    else if (e.clientX < w * 0.4) show(current - 1);
+  });
+
+  show(0);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1133 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P028_INT_001",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "So, it changed a bit from day to day, but it'll be like going into uni in the afternoons, about 2 o'clock. I tend to then go to work, and then I don't get back until about seven, eight o'clock at night. And that's almost every weekday.",
+      "timestamp": "1:21-1:23",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "afternoon",
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so it changed a bit from day to day but it'll be like going into uni in the afternoons about 2 o'clock i tend to then go to work and then i don't get back until about seven eight o'clock at night and that's almost every weekday"
+      }
+    },
+    {
+      "segment_id": "P028_INT_002",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "But I also don't get a lot for loans because, you know, a recent pay rise due to my father has the worst timing... because I'm just over the limit for a certain amount of loan. So, I'm required to work a lot more than a lot of other students.",
+      "timestamp": "1:44-1:45",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "family",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "worst timing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "financial_constraint"
+        ],
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but i also don't get a lot for loans because you know a recent pay rise due to my father has the worst timing because i'm just over the limit for a certain amount of loan so i'm required to work a lot more than a lot of other students"
+      }
+    },
+    {
+      "segment_id": "P028_INT_003",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "So, I don't tend to eat breakfast at all. I tend to do an earlier, like, bigger lunch. Which is normally something like... some leftovers. And then, for dinner, I'll often have things like ready meals or make, like, chips and meatballs and stuff like that.",
+      "timestamp": "1:49-1:53",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.67,
+        "best_match": "other students right yeah that makes sense great and then moving on to think about a bit of like your food routine for a bit could you walk me through a typical weekday of eating for you and what that looks like so i don't tend to eat breakfast at all"
+      }
+    },
+    {
+      "segment_id": "P028_INT_004",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I tend to order... maybe it's gone up in recent weeks, and it tends to be maybe once every one, two weeks to a month. So, I don't like doing it too much.",
+      "timestamp": "1:76-1:77",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "don't like doing it too much"
+        ],
+        "competitive": null,
+        "value_component": [
+          "moderation"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i tend to order maybe it's gone up in recent weeks and it tends to be maybe once every one two weeks to a month so i don't like doing it too much"
+      }
+    },
+    {
+      "segment_id": "P028_INT_005",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Laziness.",
+      "timestamp": "1:81",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "laziness"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "(too short to verify)"
+      }
+    },
+    {
+      "segment_id": "P028_INT_006",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Moment so often be like, I'm tired... Let's say at the end of the week, sometimes I can't be able to cook. Or like, if I'm feeling down... Yeah, I'll often do it if I have, like, I've had quite a busy or stressful week as, like, a little reward.",
+      "timestamp": "1:143-1:144",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "little reward",
+          "feeling down"
+        ],
+        "competitive": null,
+        "value_component": [
+          "emotional_regulation"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "moment so often be like i'm tired let's say at the end of the week sometimes i can't be able to cook or like if i'm feeling down yeah i'll often do it if i have like i've had quite a busy or stressful week as like a little reward"
+      }
+    },
+    {
+      "segment_id": "P028_INT_007",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I typically order them alone. It often just happens to coincide with when one of my other flatmates orders takeaway because they also get... They get it quite a bit. That's what happens to normally match up. But it does tend to be more of a solo thing.",
+      "timestamp": "1:149-1:152",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "solo thing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "independence"
+        ],
+        "influence": [
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i typically order them alone it often just happens to coincide with when one of my other flatmates orders takeaway because they also get they get it quite a bit that's what happens to normally match up but it does tend to be more of a solo thing"
+      }
+    },
+    {
+      "segment_id": "P028_INT_008",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Sometimes, when they have deals on specific places, somehow I'll just check... just to, you know, check. And then I'll see a big deal, and then I'll specifically order from there.",
+      "timestamp": "1:170-1:172",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "big deal"
+        ],
+        "competitive": null,
+        "value_component": [
+          "promotions"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.67,
+        "best_match": "that ever cause you to order something sometimes when they have deals on specific places somehow i'll just check just to you know check yeah and then i'll see a big deal and then i'll specifically"
+      }
+    },
+    {
+      "segment_id": "P028_INT_009",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "There's been one or two recently where it's like... it was, if you spend like 50, 25 quid, you get 15 quid off. Mm... that was a burger and sauce.",
+      "timestamp": "1:177-1:178",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "justeat"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "promotions"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "there's been one or two recently where it's like it was if you spend like 50 25 quid you get 15 quid off mm that was a burger and sauce"
+      }
+    },
+    {
+      "segment_id": "P028_INT_010",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Um, so, normally, it's when I've not spent as much in a week... I'm more happy to do it. Yeah, it's like... recently, I got an expensive piercing, so then I don't want to spend as much.",
+      "timestamp": "1:209-1:210",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "budget_tracking"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "um so normally it's when i've not spent as much in a week i'm more happy to do it yeah it's like recently i got an expensive piercing so then i don't want to spend as much"
+      }
+    },
+    {
+      "segment_id": "P028_INT_011",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Yeah, that's more tied to things like mental health and, like, if I'm failing exams... stuff like that.",
+      "timestamp": "1:244",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "exam_period"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "P028_INT_010",
+        "language_pattern": [
+          "mental health"
+        ],
+        "competitive": null,
+        "value_component": [
+          "emotional_regulation"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah that's more tied to things like mental health and like if i'm failing exams stuff like that"
+      }
+    },
+    {
+      "segment_id": "P028_INT_012",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I mean, you've got the fact that students often have busy schedules, be it like uni, socializing, or work. You've also got the fact that very few students can drive or have a car in the city. So, it's also like if the takeaway place is further out, like with Domino's... you're walking at least half an hour to the nearest one.",
+      "timestamp": "1:271-1:273",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "accessibility"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i mean you've got the fact that students often have busy schedules be it like uni socializing or work you've also got the fact that very few students can drive or have a car in the city so it's also like if the takeaway place is further out like with domino's you're walking at least half an hour to "
+      }
+    },
+    {
+      "segment_id": "P028_INT_013",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "So the actual delivery, it's... I get fairly stressed. It's like, are they gonna find the right place? What if, like, I somehow... It's the anxiety of somehow getting the wrong code, despite the fact we're only given one code.",
+      "timestamp": "1:280-1:282",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi",
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "anxiety"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 5,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so the actual delivery it's i get fairly stressed it's like are they gonna find the right place what if like i somehow it's the anxiety of somehow getting the wrong code despite the fact we're only given one code"
+      }
+    },
+    {
+      "segment_id": "P028_INT_014",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "And they also have a 'leave at the door' option. The problem is... well, as much as I'd love for them to leave it at the door, because I'm not a huge fan of talking to people at times... They often can't find our house.",
+      "timestamp": "1:285-1:287",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "not a huge fan of talking to people"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social_avoidance"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.64,
+        "best_match": "we're only given one code and then so i've started using a new delivery instead because they've got a deal for free delivery for students yeah and they also have a 'leave at the door' option the problem is well as much as i'd love for them to leave it"
+      }
+    },
+    {
+      "segment_id": "P028_INT_015",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I believe I got Just Eat and Deliveroo at the same time.",
+      "timestamp": "1:329",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "justeat",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "platform_comparison",
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i believe i got just eat and deliveroo at the same time"
+      }
+    },
+    {
+      "segment_id": "P028_INT_016",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "No, I think it was just one of my siblings mentioned it, so I downloaded it.",
+      "timestamp": "1:333",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "family",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "no i think it was just one of my siblings mentioned it so i downloaded it"
+      }
+    },
+    {
+      "segment_id": "P028_INT_017",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "So, I did use Just Eat a lot because I quite like how the Apache ones... But recently, I was told about the student thing where you basically get delivery service, yeah, for free as a student. So, I've started using that now.",
+      "timestamp": "1:385-1:386",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis",
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": [
+          "justeat",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "switching_behaviour",
+        "value_component": [
+          "subscription_benefits"
+        ],
+        "influence": [
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i did use just eat a lot because i quite like how the apache ones but recently i was told about the student thing where you basically get delivery service yeah for free as a student so i've started using that now"
+      }
+    },
+    {
+      "segment_id": "P028_INT_018",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "My flatmate told me... right?",
+      "timestamp": "1:389",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": [
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "my flatmate told me right"
+      }
+    },
+    {
+      "segment_id": "P028_INT_019",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "It just means I'm really just planning on using Deliveroo mainly... unless there's a specific place that can't really get it on Deliveroo.",
+      "timestamp": "1:391",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "platform_loyalty",
+        "value_component": [
+          "subscription_benefits"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it just means i'm really just planning on using deliveroo mainly unless there's a specific place that can't really get it on deliveroo"
+      }
+    },
+    {
+      "segment_id": "P028_INT_020",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "In Freshers' Week, some delivery places will have people with little pamphlets, giving stuff out, which will sometimes have deals.",
+      "timestamp": "1:437",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "freshers"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "promotions"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "in freshers' week some delivery places will have people with little pamphlets giving stuff out which will sometimes have deals"
+      }
+    },
+    {
+      "segment_id": "P028_INT_021",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I tend to get more annoyed, especially if there's, like, real people doing this kind of, like, generic, cheesy comedy... where it's very safe. Okay... especially like boardrooms and CEO-style ones. I tend to just immediately switch off from them.",
+      "timestamp": "1:469-1:472",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "generic, cheesy comedy",
+          "immediately switch off"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.67,
+        "best_match": "and colorful right so kind of like the visual element as well that's appealing is there anything in advertising that has felt a bit like try hard or forced or just like entirely irrelevant to you that you recall seeing i tend to get more annoyed"
+      }
+    },
+    {
+      "segment_id": "P028_INT_022",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I'd probably say the start of the year because everyone's getting in. No one's quite sure what they're doing... end of year because everyone's celebrating, or like they don't want to cook; they're a bit too busy. And then you've got maybe around the Christmas period as well because, again, everyone's celebrating, and they're not in classes.",
+      "timestamp": "1:481-1:483",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "excitement"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time",
+          "holiday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "timing"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd probably say the start of the year because everyone's getting in no one's quite sure what they're doing end of year because everyone's celebrating or like they don't want to cook they're a bit too busy and then you've got maybe around the christmas period as well because again everyone's celebra"
+      }
+    },
+    {
+      "segment_id": "P028_INT_023",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Yeah, it means I'm more likely to order as well because they're even just a little bit cheaper... now.",
+      "timestamp": "1:751",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "subscription_benefits"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah it means i'm more likely to order as well because they're even just a little bit cheaper now"
+      }
+    },
+    {
+      "segment_id": "P028_INT_024",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "I will probably use it less, especially because there are a lot of places... So, like, Uber Eats didn't really work at all in my hometown. It's quite a small area in the countryside, so it doesn't get as many delivery people around.",
+      "timestamp": "1:829-1:830",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "accessibility"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i will probably use it less especially because there are a lot of places so like uber eats didn't really work at all in my hometown it's quite a small area in the countryside so it doesn't get as many delivery people around"
+      }
+    },
+    {
+      "segment_id": "P028_INT_025",
+      "participant_id": "P028",
+      "source": "interview",
+      "text": "Maybe doing, like, a discounted rate for the first year or two after graduation...",
+      "timestamp": "1:852",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "subscription_benefits"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "maybe doing like a discounted rate for the first year or two after graduation"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "social_anxiety_delivery",
+      "description": "Delivery anxiety and preference for minimal social interaction during delivery process"
+    },
+    {
+      "theme_name": "mental_health_override",
+      "description": "Mental health needs overriding financial constraints in delivery decisions"
+    },
+    {
+      "theme_name": "subscription_switching_catalyst",
+      "description": "Free student subscriptions as primary driver of platform switching behavior"
+    }
+  ],
+  "coding_summary": "P028 reveals a complex relationship with delivery driven by financial constraints, social anxiety, and mental health needs. Key findings include: (1) Strong emotional triggers for ordering (stress, tiredness, reward after difficult weeks), (2) Significant delivery anxiety around social interaction and logistics, (3) Financial constraints creating careful budget monitoring but mental health needs overriding cost concerns, (4) Subscription benefits driving complete platform loyalty switch from Just Eat to Deliveroo, (5) Peer influence in subscription discovery and platform adoption. The participant demonstrates how delivery serves as accessible emotional regulation tool despite financial limitations.",
+  "coverage_gaps": [],
+  "_citations": [
+    {
+      "cited_text": "spk_1: Moment so often be like, I'm tired...\nspk_1: Let's say at the end of the week, sometimes I can't be able to cook.\nspk_1: Or like, if I'm feeling down...\nspk_1: Yeah, I'll often do it if I have, like, I've had quite a busy or stressful week as, like, a little reward.\n",
+      "document_title": "Interview Transcript — P028",
+      "document_index": 0,
+      "start_char_index": 9758,
+      "end_char_index": 10032,
+      "participant_id": "P028"
+    },
+    {
+      "cited_text": "spk_1: So the actual delivery, it's...\nspk_1: I get fairly stressed.\nspk_1: It's like, are they gonna find the right place?\nspk_1: What if, like, I somehow...\nspk_1: It's the anxiety of somehow getting the wrong code, despite the fact we're only given one code.\n",
+      "document_title": "Interview Transcript — P028",
+      "document_index": 0,
+      "start_char_index": 20179,
+      "end_char_index": 20441,
+      "participant_id": "P028"
+    },
+    {
+      "cited_text": "spk_1: But I also don't get a lot for loans because, you know, a recent pay rise due to my father has the worst timing...\nspk_1: because I'm just over the limit for a certain amount of loan.\nspk_1: So, I'm required to work a lot more than a lot of other students.\n",
+      "document_title": "Interview Transcript — P028",
+      "document_index": 0,
+      "start_char_index": 2781,
+      "end_char_index": 3045,
+      "participant_id": "P028"
+    },
+    {
+      "cited_text": "spk_1: Yeah, that's more tied to things like mental health and, like, if I'm failing exams...\nspk_1: stuff like that.\n",
+      "document_title": "Interview Transcript — P028",
+      "document_index": 0,
+      "start_char_index": 17145,
+      "end_char_index": 17263,
+      "participant_id": "P028"
+    },
+    {
+      "cited_text": "spk_1: So, I did use Just Eat a lot because I quite like how the Apache ones...\nspk_1: But recently, I was told about the student thing where you basically get delivery service, yeah, for free as a student.\nspk_1: So, I've started using that now.\n",
+      "document_title": "Interview Transcript — P028",
+      "document_index": 0,
+      "start_char_index": 28435,
+      "end_char_index": 28682,
+      "participant_id": "P028"
+    }
+  ],
+  "_citation_count": 5,
+  "participant_id": "P028",
+  "_ro_coverage": {
+    "RO1_eating_moments": 3,
+    "RO2_delivery_triggers": 9,
+    "RO3_emotional_social": 4,
+    "RO5_engagement_opps": 11,
+    "RO4_post_graduation": 2
+  }
+}

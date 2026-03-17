@@ -1,0 +1,224 @@
+# =============================================================================
+# In-Home Interview & Micro-Moment Analysis Configuration
+# =============================================================================
+# Configures the specialised analysis workflow for the 6 in-home interviews
+# conducted in Manchester and Nottingham via ResearchBods. These interviews
+# include a Live Order observation (Section 4 of the in-home discussion guide)
+# that provides behavioural data not available from online interviews.
+# =============================================================================
+
+in_home_config:
+  participant_ids: ["P025", "P026", "P027", "P028", "P029", "P030"]
+  locations: ["Manchester", "Nottingham"]
+  recruitment_source: "ResearchBods"
+  interview_duration_minutes: 60
+
+  discussion_guide:
+    source_doc_id: "1B7RhsvEB7ynIGYYALAqyvQHX44D--iCqFfS26qHLQVA"
+    sections:
+      - name: "Introduction"
+        duration_minutes: 5
+        analysis_relevance: "low"
+      - name: "Life & Food Context"
+        duration_minutes: 8
+        analysis_relevance: "medium"
+        maps_to_objectives: ["RO1_eating_moments"]
+      - name: "Ordering Triggers"
+        duration_minutes: 10
+        analysis_relevance: "high"
+        maps_to_objectives: ["RO2_delivery_triggers", "RO3_emotional_social"]
+      - name: "Live Order (Behavioural Deep Dive)"
+        duration_minutes: 12
+        analysis_relevance: "critical"
+        maps_to_objectives: ["RO2_delivery_triggers", "RO5_engagement_opps"]
+        is_observation_section: true
+      - name: "Marketing & Social Discovery"
+        duration_minutes: 8
+        analysis_relevance: "medium"
+        maps_to_objectives: ["RO5_engagement_opps"]
+      - name: "Subscription & Plus Proposition"
+        duration_minutes: 10
+        analysis_relevance: "high"
+        maps_to_objectives: ["RO5_engagement_opps"]
+      - name: "Student to Graduate Retention"
+        duration_minutes: 3
+        analysis_relevance: "high"
+        maps_to_objectives: ["RO4_post_graduation"]
+      - name: "Wrap-Up"
+        duration_minutes: 3
+        analysis_relevance: "low"
+
+  strategic_objectives:
+    - id: "acquisition"
+      label: "Acquisition"
+      question: "How do students discover and sign up for delivery?"
+      guide_sections: ["Marketing & Social Discovery"]
+    - id: "realtime_choice"
+      label: "Real-time Choice & Loyalty"
+      question: "What drives platform choice in the moment?"
+      guide_sections: ["Live Order (Behavioural Deep Dive)"]
+    - id: "subscription_value"
+      label: "Subscription Value"
+      question: "How do students perceive Plus Silver?"
+      guide_sections: ["Subscription & Plus Proposition"]
+    - id: "graduate_retention"
+      label: "Graduate Retention"
+      question: "What changes when students graduate?"
+      guide_sections: ["Student to Graduate Retention"]
+
+# ---------------------------------------------------------------------------
+# Micro-Moment Analysis Framework
+# ---------------------------------------------------------------------------
+# Defines the observation stages for the Live Order section. Each stage
+# maps to a specific phase of the ordering decision process observed in
+# real time during the in-home interviews.
+# ---------------------------------------------------------------------------
+
+micro_moment_framework:
+  observation_stages:
+    - id: "pre_order"
+      label: "Pre-Order Context"
+      description: "What happened before opening the app?"
+      observation_cues:
+        - "What triggered the decision to order?"
+        - "Who suggested it? Was it planned or spontaneous?"
+        - "What was the participant doing beforehand?"
+        - "Time since last meal / snack?"
+      analysis_questions:
+        - "Is the trigger social, emotional, or practical?"
+        - "Does the trigger match their stated ordering triggers from Section 3?"
+
+    - id: "app_opening"
+      label: "App Opening"
+      description: "First actions after opening a delivery app"
+      observation_cues:
+        - "Which app did they open first? Why?"
+        - "Did they consider another app?"
+        - "What was the first action (search, browse, favourites)?"
+        - "How confident/habitual vs. exploratory?"
+      analysis_questions:
+        - "Is there default/habitual behaviour?"
+        - "What role does the app's landing page play?"
+
+    - id: "browsing"
+      label: "Browsing Behaviour"
+      description: "How they explore restaurants and menus"
+      observation_cues:
+        - "Time spent browsing"
+        - "Number of restaurants viewed"
+        - "Number of menus opened"
+        - "Search vs. scroll vs. filter"
+        - "Items added then removed"
+      analysis_questions:
+        - "Is browsing goal-directed or exploratory?"
+        - "What catches their attention (photos, ratings, delivery time, offers)?"
+
+    - id: "decision_points"
+      label: "Decision Points"
+      description: "Where they hesitate, compare, or change direction"
+      observation_cues:
+        - "Moments of hesitation or pausing"
+        - "Audible reactions (sighs, excitement, frustration)"
+        - "Switching between apps or restaurants"
+        - "Checking delivery fees or minimum order values"
+        - "Asking others for input"
+      analysis_questions:
+        - "What causes friction in the ordering process?"
+        - "What nearly stopped them from ordering?"
+        - "What pushed them to continue?"
+
+    - id: "price_reactions"
+      label: "Price Reactions"
+      description: "Response to costs throughout the journey"
+      observation_cues:
+        - "Reaction to delivery fees"
+        - "Reaction to item prices"
+        - "Reaction to service charges"
+        - "Checking if subscription benefits apply"
+        - "Comparing total order value across apps"
+      analysis_questions:
+        - "Is delivery fee the primary price barrier (as stated in interviews)?"
+        - "How does actual price sensitivity compare to stated sensitivity?"
+        - "At what total does the order feel 'too much'?"
+
+    - id: "final_decision"
+      label: "Final Decision"
+      description: "What pushed them over the line to order"
+      observation_cues:
+        - "Deciding factor (price, convenience, craving, social pressure)"
+        - "Time from app open to order placed"
+        - "Any last-minute changes"
+        - "Confidence level when placing order"
+      analysis_questions:
+        - "What was the actual tipping point?"
+        - "Does this match their stated decision process?"
+
+    - id: "post_order"
+      label: "Post-Order"
+      description: "Immediate feelings after placing the order"
+      observation_cues:
+        - "Emotional state (relief, excitement, guilt, indifference)"
+        - "What they say immediately after"
+        - "Do they check tracking immediately?"
+        - "Do they share/discuss the order?"
+      analysis_questions:
+        - "Is there post-purchase rationalisation?"
+        - "Does the emotion match the trigger?"
+
+  # Aggregated outputs from all 6 in-home observations
+  aggregate_outputs:
+    - id: "decision_heuristics"
+      label: "Common Decision Heuristics"
+      description: "Shortcuts students use when ordering"
+      examples:
+        - "Go to favourites first"
+        - "Filter by free delivery"
+        - "Check the app with a subscription first"
+        - "Choose the fastest delivery time"
+
+    - id: "friction_points"
+      label: "Friction Point Map"
+      description: "Where students hesitate, get frustrated, or abandon"
+      dimensions:
+        - "Price friction (fees, minimums, total cost)"
+        - "Choice friction (too many options, indecision)"
+        - "Social friction (coordinating with others)"
+        - "Technical friction (app UX, payment, splitting)"
+
+    - id: "price_sensitivity_reality"
+      label: "Price Sensitivity in Action"
+      description: "How they actually react to prices vs. what they claim"
+      comparison_dimensions:
+        - "Stated vs. observed delivery fee sensitivity"
+        - "Stated vs. observed item price sensitivity"
+        - "Stated vs. observed total order value threshold"
+        - "Role of subscriptions in reducing price friction"
+
+    - id: "social_dynamics"
+      label: "Social Dynamics"
+      description: "How ordering changes when someone else is present"
+      observation_points:
+        - "Who initiates the order?"
+        - "How are decisions negotiated?"
+        - "Does social presence change price sensitivity?"
+        - "Does social presence change restaurant choice?"
+
+    - id: "time_to_decision"
+      label: "Time-to-Decision Analysis"
+      description: "How long each phase takes, what accelerates or delays"
+      metrics:
+        - "Total time from trigger to order placed"
+        - "Time per observation stage"
+        - "What speeds up decisions (familiarity, offers, hunger)"
+        - "What slows down decisions (choice overload, price checking, group input)"
+
+  # Weight in-home behavioural data higher when it conflicts with stated data
+  analysis_weighting:
+    principle: "When stated (online interview) and observed (in-home) data conflict, weight observed data higher"
+    rationale: "Observed behaviour captures actual decision processes, not recalled/idealised versions"
+    applies_to:
+      - "Platform choice process"
+      - "Price sensitivity"
+      - "Decision heuristics"
+      - "Browsing patterns"
+      - "Time-to-decision"

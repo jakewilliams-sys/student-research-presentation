@@ -1,0 +1,184 @@
+{
+  "segment_comparisons": [
+    {
+      "dimension": "academic_stage",
+      "finding": "Undergraduates show more emotional/social ordering patterns, while postgraduates are more pragmatic and health-conscious",
+      "evidence": {
+        "undergraduate": {
+          "quote_ids": [
+            "P001_treat_special",
+            "P003_friday_reward",
+            "P007_reward_earned",
+            "P013_friday_treat",
+            "P027_comfort_reward"
+          ],
+          "participant_count": 22
+        },
+        "postgraduate": {
+          "quote_ids": [
+            "P017_dietitian_health",
+            "P031_budget_conscious",
+            "P034_night_person_frustrated"
+          ],
+          "participant_count": 4
+        },
+        "graduate": {
+          "quote_ids": [
+            "P022_functional_aspect",
+            "P024_earn_money_open"
+          ],
+          "participant_count": 8
+        }
+      },
+      "confidence": "high"
+    },
+    {
+      "dimension": "accommodation_type",
+      "finding": "Shared accommodation drives more social ordering and kitchen avoidance, while solo living increases delivery frequency",
+      "evidence": {
+        "shared_house": {
+          "quote_ids": [
+            "P007_eight_people_overstimulating",
+            "P005_flatmates_kitchen_friends",
+            "P030_house_separately_order"
+          ],
+          "participant_count": 18
+        },
+        "studio_solo": {
+          "quote_ids": [
+            "P006_five_times_week",
+            "P035_working_home_routine"
+          ],
+          "participant_count": 8
+        }
+      },
+      "confidence": "medium"
+    },
+    {
+      "dimension": "plus_status",
+      "finding": "Plus subscribers order more frequently but show guilt about increased spending, while non-subscribers are more price-sensitive",
+      "evidence": {
+        "plus_subscribers": {
+          "quote_ids": [
+            "P008_uber_one_influenced",
+            "P009_cover_subscription_cost",
+            "P017_encouraged_too_much"
+          ],
+          "participant_count": 8
+        },
+        "non_subscribers": {
+          "quote_ids": [
+            "P001_subscriptions_avoid",
+            "P013_never_thought_about",
+            "P023_money_coming_out"
+          ],
+          "participant_count": 15
+        }
+      },
+      "confidence": "high"
+    },
+    {
+      "dimension": "delivery_frequency",
+      "finding": "Heavy users normalize delivery as routine, while light users maintain it as special treat",
+      "evidence": {
+        "heavy_users": {
+          "quote_ids": [
+            "P006_five_times_week",
+            "P035_habit_not_treat"
+          ],
+          "participant_count": 4
+        },
+        "light_users": {
+          "quote_ids": [
+            "P003_friday_special",
+            "P007_treat_reward",
+            "P023_feel_special"
+          ],
+          "participant_count": 20
+        }
+      },
+      "confidence": "high"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_type": "temporal",
+      "pattern": "Friday evening is the dominant delivery ordering time, positioned as end-of-week reward",
+      "evidence_count": 12,
+      "participant_count": 8,
+      "supporting_quotes": [
+        "P003_friday_night",
+        "P013_every_friday",
+        "P010_friday_treat",
+        "P027_exam_completion"
+      ]
+    },
+    {
+      "pattern_type": "social",
+      "pattern": "Delivery ordering becomes more acceptable and less guilt-inducing in group contexts",
+      "evidence_count": 15,
+      "participant_count": 12,
+      "supporting_quotes": [
+        "P001_friends_not_bad",
+        "P005_brother_together",
+        "P016_others_join_in",
+        "P030_house_separately"
+      ]
+    },
+    {
+      "pattern_type": "emotional",
+      "pattern": "Delivery triggers cluster around stress relief, reward, and comfort - particularly after exams or difficult days",
+      "evidence_count": 18,
+      "participant_count": 14,
+      "supporting_quotes": [
+        "P003_reward_week",
+        "P007_earned_it",
+        "P027_exam_completion",
+        "P028_mental_health"
+      ]
+    },
+    {
+      "pattern_type": "decision",
+      "pattern": "Platform choice is primarily price-driven with minimal brand loyalty - participants actively compare across apps",
+      "evidence_count": 20,
+      "participant_count": 16,
+      "supporting_quotes": [
+        "P009_compare_prices",
+        "P013_whichever_cheapest",
+        "P019_no_loyalty",
+        "P037_any_amount_switch"
+      ]
+    }
+  ],
+  "say_do_gaps": [
+    {
+      "gap_type": "frequency_underreporting",
+      "interview_claim": "Many participants claim to cook 'most meals' or order delivery 'once a week or less'",
+      "diary_reality": "Only 46.7% of meals were home-cooked; 22.2% were skipped entirely. Actual delivery was 3.5% of all meal slots (11 orders across 315 meal opportunities)",
+      "participants_affected": 8,
+      "implication": "Participants significantly overestimate their cooking frequency and underestimate meal skipping"
+    },
+    {
+      "gap_type": "weekend_behavior_disconnect",
+      "interview_claim": "Participants describe consistent eating routines and cooking habits",
+      "diary_reality": "Home cooking drops 30 percentage points on weekends (59% to 29%), meal skipping nearly doubles (17% to 32%)",
+      "participants_affected": 12,
+      "implication": "Weekend eating behavior is far more chaotic than participants acknowledge in interviews"
+    },
+    {
+      "gap_type": "breakfast_normalization",
+      "interview_claim": "Breakfast skipping mentioned casually as occasional behavior",
+      "diary_reality": "25% of all breakfasts were skipped; some participants (Rory C, Jill L) never ate breakfast during the entire 7-day period",
+      "participants_affected": 6,
+      "implication": "Breakfast skipping is a systematic habit, not occasional behavior, but participants don't frame it as problematic"
+    },
+    {
+      "gap_type": "social_influence_understatement",
+      "interview_claim": "Participants emphasize individual choice and personal triggers for ordering",
+      "diary_reality": "Most delivery orders occurred in social contexts; weekend eating out spikes dramatically with 'socialising' as primary driver",
+      "participants_affected": 9,
+      "implication": "Social influence on food choices is stronger than participants consciously recognize"
+    }
+  ],
+  "summary": "Cross-participant analysis reveals stark differences between stated and actual eating behaviors. While participants claim consistent cooking routines, diary data shows only 46.7% of meals are home-cooked, with dramatic weekend disruption (cooking drops from 59% to 29%). Delivery apps represent just 3.5% of actual meal occasions despite extensive interview discussion, suggesting the topic looms larger in consciousness than behavior. Key segments differ predictably: undergraduates treat delivery as emotional reward (Friday treats, post-exam comfort), postgraduates are more health/budget pragmatic, and graduates show increased frequency but decreased specialness. Social context emerges as the strongest behavioral driver - delivery orders cluster around group situations, weekend socializing drives eating out, and even platform choice becomes collaborative price-comparison. The most significant finding is the normalization of meal skipping (22% of all meal slots) and breakfast avoidance (25% skip rate), which participants discuss casually but represents systematic disruption to eating patterns. This suggests delivery apps compete not just with home cooking, but with the decision to eat at all."
+}

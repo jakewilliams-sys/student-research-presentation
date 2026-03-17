@@ -1,0 +1,134 @@
+{
+  "participant_id": "P015",
+  "summary": "Evan is a pragmatic 19-year-old first-year sports journalism student who approaches food with a convenience-first mindset shaped by his busy university and American football schedule. He presents as refreshingly honest about his habits and limitations, readily admitting to spending 'probably too much' time on social media and being 'not very good at organizing everything' when it comes to budgeting. His food relationship is fundamentally utilitarian—driven by what's easy, quick, and fits around his unpredictable schedule of lectures, training, and away games. While he values the social aspects of cooking when flatmates gather in the kitchen, he operates independently most of the time, preferring to 'do my own thing and work around what I'm doing.' His delivery ordering is highly contextual, triggered by fatigue after training or games, empty cupboards, or social influence from teammates, rather than planned indulgence. Despite claiming to order takeaways 1-2 times per week, his diary reveals more restrained actual behavior with only one delivery order in seven days, suggesting he may overestimate his usage or was having an atypical week. His reliance on his mother for weekly grocery ordering reveals a hybrid independence—managing day-to-day food decisions while still depending on parental financial and logistical support.",
+  "personality_notes": "Conversational and self-aware communicator who readily admits to personal shortcomings. Uses casual language ('faff around', 'can't be bothered') and shows genuine reflection about his habits. Appears comfortable with contradictions in his behavior rather than trying to present an idealized version of himself.",
+  "food_relationship": "Food is primarily functional fuel that must fit around a busy sports and academic schedule, with convenience and speed trumping most other considerations.",
+  "key_moments": [
+    {
+      "timestamp": "Interview discussion of last takeaway order",
+      "description": "Detailed story about ordering after training when teammate planted the idea - shows social influence and decision-making process",
+      "significance": "Reveals how peer influence and fatigue combine to trigger ordering, plus his rationalization process"
+    },
+    {
+      "timestamp": "Discussion of mum ordering groceries",
+      "description": "Casual revelation that his mother handles his weekly grocery delivery from Tesco",
+      "significance": "Shows continued parental dependence despite claims of independence, potential financial support"
+    },
+    {
+      "timestamp": "Breakfast stress discussion",
+      "description": "Admits breakfast is most stressful meal because he's 'not a morning person' and never gets up in time",
+      "significance": "Shows gap between what he knows he should do and actual behavior patterns"
+    }
+  ],
+  "what_not_said": [
+    "Financial support from parents beyond grocery ordering",
+    "Specific amounts spent on individual orders",
+    "Any cooking skills or interest in developing them",
+    "Nutritional concerns related to sports performance",
+    "Meal skipping patterns (revealed only in diary)"
+  ],
+  "initial_hypotheses": [
+    "His ordering frequency may be lower than claimed - diary shows more restraint than interview suggests",
+    "Parental financial support likely extends beyond just grocery ordering",
+    "Sports schedule creates predictable high-convenience moments that could be targeted",
+    "Social influence from teammates is a key trigger for ordering decisions",
+    "His 'convenience-first' approach masks underlying time management and planning challenges"
+  ],
+  "questions_for_coding": [
+    "How does sports performance anxiety or nutrition awareness influence food choices?",
+    "What role does parental financial support play in his food spending patterns?",
+    "How do social dynamics with flatmates vs teammates differ in food decision-making?",
+    "Does his meal skipping pattern represent intentional intermittent fasting or poor planning?",
+    "How does his rural background influence his current urban food behaviors?"
+  ],
+  "diary_summary": "Evan's actual eating pattern shows frequent meal skipping (6 out of 21 possible meals), heavy reliance on simple home cooking (pasta, cereal), and only one delivery order across seven days. His eating is highly social when it happens, often with housemates or friends.",
+  "say_do_gaps": [
+    "Claims 1-2 takeaway orders per week but only ordered once in 7 days",
+    "Presents organized weekend food shopping but diary shows irregular eating patterns",
+    "Emphasizes breakfast stress in interview but diary shows he successfully ate breakfast 3 out of 7 days",
+    "Claims to limit takeaways but doesn't mention frequent meal skipping as a cost-saving strategy"
+  ],
+  "_citations": [
+    {
+      "cited_text": "Probably too much... Probably three or four hours, I reckon.\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 2180,
+      "end_char_index": 2241,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "Bit of a guilty habit to be.\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 2996,
+      "end_char_index": 3025,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "I tried to have a set budget, but I'm not very good at sort of, like, organizing everything. So, like, if it happens, it sort of happens, but I try and remain in sort of the, like, 120, 130th sort of ballpark.\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 7848,
+      "end_char_index": 8058,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "Probably convenience. ",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 8155,
+      "end_char_index": 8177,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "I'll get back, and then I'm like, I can't really be bothered to cook. So I just have a look on the takeaway apps, and probably just all the sunning. ",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 8399,
+      "end_char_index": 8548,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "A bit of both, to be honest. Like, I thought that it's, like, easy and I could just get it in the, like, next 15 minutes instead of going all the way to the shop and buying, like, ingredients and stuff.\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 3143,
+      "end_char_index": 3346,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "I try and limit my takeaways, but probably maybe one or two a week.\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 5431,
+      "end_char_index": 5499,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "Well, I order... Well, my mum actually orders my food shopping. We do that about once a week. ",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 5320,
+      "end_char_index": 5414,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "We... most of the time, we do our own things. I think some of the girls sometimes group up, but most of the time, I'm... I like to sort of do my own thing and work around what I'm doing.\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 1481,
+      "end_char_index": 1668,
+      "participant_id": "P015"
+    },
+    {
+      "cited_text": "It's really nice when we have quite a lot of us in the kitchen, whether that's like cooking or just talking at the same time... because occasionally, there'll be like five or six of us all in the kitchen cooking at the same time. And that's got quite a nice social feel!\n",
+      "document_title": "Interview Transcript — P015",
+      "document_index": 0,
+      "start_char_index": 6742,
+      "end_char_index": 7013,
+      "participant_id": "P015"
+    }
+  ],
+  "_citation_count": 10
+}

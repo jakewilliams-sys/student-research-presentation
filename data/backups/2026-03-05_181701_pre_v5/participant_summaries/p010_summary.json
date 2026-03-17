@@ -1,0 +1,114 @@
+{
+  "participant_id": "P010",
+  "summary": "P010 is a highly organised, self-aware mature student juggling full-time work with psychotherapy training. She approaches food with strategic efficiency - meal prepping on Mondays to fuel her demanding 12-hour days, yet maintains genuine enthusiasm for cooking when time permits. Her relationship with delivery is pragmatic rather than indulgent; it serves as a reliable safety net when her carefully planned systems break down. She demonstrates sophisticated consumer behaviour, budgeting precisely (€250/month groceries, €150-200 dining out) and showing strong loyalty to platforms that provide psychological comfort through features like real-time tracking. Despite claiming to love cooking, she admits to not enjoying it midweek, revealing the tension between her aspirational food identity and practical constraints. Her psychotherapy background shows in her language choices and self-reflection, describing tracking as 'containing' and showing awareness of her own decision-making patterns.",
+  "personality_notes": "Articulate, analytical, and highly organised. Provides detailed, thoughtful responses with professional vocabulary. Shows strong self-awareness and uses psychological terminology naturally. Communicates with precision and demonstrates sophisticated consumer decision-making.",
+  "food_relationship": "Food is primarily functional fuel for her demanding schedule, though she maintains genuine enjoyment of cooking when time allows and prefers her home-cooked meals to restaurant food.",
+  "key_moments": [
+    {
+      "timestamp": "Not specified",
+      "description": "Describes recent Friday night delivery order when exhausted with no food in fridge",
+      "significance": "Illustrates delivery as emergency fallback rather than planned treat - contradicts weekend routine narrative"
+    },
+    {
+      "timestamp": "Not specified",
+      "description": "Explains willingness to pay extra for tracking capability over price savings",
+      "significance": "Reveals psychological need for control and predictability - uses professional language 'containing'"
+    },
+    {
+      "timestamp": "Not specified",
+      "description": "Admits to not enjoying cooking midweek despite claiming to love cooking",
+      "significance": "Shows tension between aspirational identity and practical reality"
+    }
+  ],
+  "what_not_said": [
+    "Social aspects of food beyond housemate coordination",
+    "Emotional relationship with food beyond functional fuel",
+    "Financial stress or constraints despite detailed budgeting",
+    "Weekend social dining experiences in detail"
+  ],
+  "initial_hypotheses": [
+    "Uses delivery as psychological safety net rather than indulgence - values predictability over price",
+    "Meal prep efficiency masks underlying cooking fatigue during busy periods",
+    "Professional identity influences consumer behaviour - seeks 'containing' experiences",
+    "Mature student status creates unique position - has income but relates to student value expectations"
+  ],
+  "questions_for_coding": [
+    "How does her psychotherapy training influence her relationship with food and delivery?",
+    "What triggers the shift from planned meal prep to emergency delivery orders?",
+    "How does she reconcile loving cooking with not enjoying it midweek?",
+    "What role does control/predictability play in her platform loyalty beyond tracking?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'm doing both, so I work full time, but I'm also a third year student as well.\nspk_1: I'm training to be a psychotherapist.\nspk_1: So I'm in my third year doing my BSc in counseling and psychotherapy.\n",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 200,
+      "end_char_index": 409,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I. I would see it as trying to get proper, proper fuel because I have such a hectic weeks and all that like food and having really good meals I know is only going to help, not hinder, I suppose, my energy and whatnot.\nspk_1: But I enjoy it. Like I look forward to my dinners.\nspk_1: Like I look forward to the dinners and lunches I've cooked rather than eating out because I don't know, sometimes you eat out and you just feel like crap after when I.\nspk_1: Whereas when I cook, you know, they're always really tasty and stuff, but I feel good after them and they're obviously filling and whatnot.\n",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 11634,
+      "end_char_index": 12239,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Oh, I say Instagram because I think my algorithm is really now it's really food because I love like I love cooking and stuff or just, you know, seeing how I can cook things at home.\nspk_1: So it's. I would say Instagram.\n",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 5715,
+      "end_char_index": 5936,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I just don't enjoy it midweek.\nspk_1: I suppose it's getting.\n",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 11565,
+      "end_char_index": 11634,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I was by myself and it was a really long week and I had no food and I had no food in the fridge.\nspk_1: I was like, it. I'm just gonna have my.\nspk_1: My takeaway this week on Friday.\n",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 21498,
+      "end_char_index": 21682,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: The ability to literally track in real time.\nspk_1: I don't know why I just get such a buzz from that.\nspk_1: It's just. ",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 33358,
+      "end_char_index": 33486,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, it's a real, I know it's silly, but it's a real, it's a real plus, you know, you know where you stand and that's a lot.\nspk_1: Very containing if you, if I do psychotherapeutic language, it's really containing because then you can kind of go about your evening knowing you can track it.\nspk_1: Whereas it's kind of gone into the abyss on Just Eat and it could turn up whenever and it's just kind of hard to log delays and stuff on Just Eat from what I recall.\n",
+      "document_index": 0,
+      "document_title": "P010 - P010 - Interview Transcript",
+      "start_char_index": 36298,
+      "end_char_index": 36771,
+      "participant_id": "P010",
+      "participant_name": "P010"
+    }
+  ],
+  "_citation_count": 7
+}

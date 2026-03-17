@@ -1,0 +1,3618 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P011_INT_001",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, so I'm an international student in the UK. I'm studying computer science and Queen Mary. Yeah, I'm 20 years old.",
+      "timestamp": "1:06-1:08",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah so i'm an international student in the uk i'm studying computer science and queen mary yeah i'm 20 years old"
+      }
+    },
+    {
+      "segment_id": "P011_INT_002",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "It's individual. Every meal of the day it's completely individual. We hardly cook anything together.",
+      "timestamp": "1:53-1:55",
+      "research_objective_codes": [
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "individual"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it's individual every meal of the day it's completely individual we hardly cook anything together"
+      }
+    },
+    {
+      "segment_id": "P011_INT_003",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I wouldn't like to admit it, but I think five hours Instagram, I guess.",
+      "timestamp": "1:75-1:76",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "admit"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": [
+          "social_media"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i wouldn't like to admit it but i think five hours instagram i guess"
+      }
+    },
+    {
+      "segment_id": "P011_INT_004",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, I think, I think I, I've, I got, I get many reels about food recipes and yeah, since you mentioned actually Uber Eats delivery and I've, I, I have a lot of times deals come up on my Instagram as well.",
+      "timestamp": "1:81",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "deals"
+        ],
+        "influence": [
+          "social_media"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i think i think i i've i got i get many reels about food recipes and yeah since you mentioned actually uber eats delivery and i've i i have a lot of times deals come up on my instagram as well"
+      }
+    },
+    {
+      "segment_id": "P011_INT_005",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Not on Instagram, no. If I, if there's an enticing offer, I just go on the app and check myself.",
+      "timestamp": "1:90-1:91",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "enticing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "deals"
+        ],
+        "influence": [
+          "social_media"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "not on instagram no if i if there's an enticing offer i just go on the app and check myself"
+      }
+    },
+    {
+      "segment_id": "P011_INT_006",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Sometimes, I guess. Yeah, sometimes.",
+      "timestamp": "1:96-1:97",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "deals"
+        ],
+        "influence": [
+          "social_media"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 2,
+        "vividness": 1,
+        "representativeness": 2,
+        "emotional_resonance": 2,
+        "uniqueness": 1,
+        "overall": 1.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "sometimes i guess yeah sometimes"
+      }
+    },
+    {
+      "segment_id": "P011_INT_007",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, yeah, yeah. So this specific dish that have come up on Instagram, then I, if it's really appetizing, I'd order it maybe.",
+      "timestamp": "1:103-1:104",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "anticipation"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "appetizing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "craving"
+        ],
+        "influence": [
+          "social_media"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah yeah yeah so this specific dish that have come up on instagram then i if it's really appetizing i'd order it maybe"
+      }
+    },
+    {
+      "segment_id": "P011_INT_008",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Okay, so I wake, I wake up around 9, 8:30 or 9. If I don't have an early lecture, that is most of the lectures start from 11am so I'd go to the lecture and two hours of lectures, I guess. So 11 to one I'd be in a lecture. Then again, I can remember there's a two to four lecture as well. So 11 to two I'll be, I'd be sitting in the campus with my friends doing whatever. And so after four I'd go back to my home.",
+      "timestamp": "1:112-1:116",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "friends",
+        "temporal": [
+          "weekday",
+          "morning",
+          "afternoon"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "okay so i wake i wake up around 9 8 30 or 9 if i don't have an early lecture that is most of the lectures start from 11am so i'd go to the lecture and two hours of lectures i guess so 11 to one i'd be in a lecture then again i can remember there's a two to four lecture as well so 11 to two i'll be i"
+      }
+    },
+    {
+      "segment_id": "P011_INT_009",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "So the lunch part. So between, between 11 and 2 I, I would go somewhere around the campus to eat with my friends or. So there's a couple of friends living on the campus as well. So sometimes you just order food at their home.",
+      "timestamp": "1:117-1:120",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "weekday",
+          "afternoon"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so the lunch part so between between 11 and 2 i i would go somewhere around the campus to eat with my friends or so there's a couple of friends living on the campus as well so sometimes you just order food at their home"
+      }
+    },
+    {
+      "segment_id": "P011_INT_010",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "And after four I'd go back home, hit the gym at five and till six thirty. So about six thirty I'd come back home from the gym and start cooking. And I'm done with my dinner everything by eight.",
+      "timestamp": "1:122-1:124",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Claims regular cooking routine but diary shows minimal home cooking",
+        "language_pattern": [
+          "routine"
+        ],
+        "competitive": null,
+        "value_component": [
+          "routine"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "and after four i'd go back home hit the gym at five and till six thirty so about six thirty i'd come back home from the gym and start cooking and i'm done with my dinner everything by eight"
+      }
+    },
+    {
+      "segment_id": "P011_INT_011",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Cook? I think I wouldn't say most of the times. About 50%, I guess.",
+      "timestamp": "1:137-1:139",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Claims 50% cooking but diary shows only 6 home-cooked meals in 7 days, predominantly eating out",
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 2,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "cook i think i wouldn't say most of the times about 50 i guess"
+      }
+    },
+    {
+      "segment_id": "P011_INT_012",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Oh, I think it's. I, I tend to use more of the easy cooking foods. So like. Yeah, like I said, oven food. I really want the air fryer. So. Yeah, buy a couple of. Couple things of Sainsbury's and put them and toss them into the air fryer, put them in a wrap and eat it.",
+      "timestamp": "1:147-1:154",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "easy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh i think it's i i tend to use more of the easy cooking foods so like yeah like i said oven food i really want the air fryer so yeah buy a couple of couple things of sainsbury's and put them and toss them into the air fryer put them in a wrap and eat it"
+      }
+    },
+    {
+      "segment_id": "P011_INT_013",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, I'd say the cooking would be more stressful than ordering.",
+      "timestamp": "1:163",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "stressful"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i'd say the cooking would be more stressful than ordering"
+      }
+    },
+    {
+      "segment_id": "P011_INT_014",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah. Yeah. So Thursday I have a lot of lectures. So if I, if I had to cook. So I, I don't. So I, I most. I'll mostly order on Thursday nights because I have a lot of lectures, but if I had to cook, it would be stressful for the. Like at the time.",
+      "timestamp": "1:167-1:174",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "evening"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "stressful"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah yeah so thursday i have a lot of lectures so if i if i had to cook so i i don't so i i most i'll mostly order on thursday nights because i have a lot of lectures but if i had to cook it would be stressful for the like at the time"
+      }
+    },
+    {
+      "segment_id": "P011_INT_015",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "It's about two to three times a week.",
+      "timestamp": "1:182",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Claims 2-3 times weekly but diary shows only 1 delivery order in 7 days",
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it's about two to three times a week"
+      }
+    },
+    {
+      "segment_id": "P011_INT_016",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I think, I think is UberEats the most?",
+      "timestamp": "1:190",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "ubereats",
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think i think is ubereats the most"
+      }
+    },
+    {
+      "segment_id": "P011_INT_017",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I have the Uber One membership, so it's really useful in that sense, deal wise.",
+      "timestamp": "1:193",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "useful"
+        ],
+        "competitive": null,
+        "value_component": [
+          "deals"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i have the uber one membership so it's really useful in that sense deal wise"
+      }
+    },
+    {
+      "segment_id": "P011_INT_018",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I. I don't think so because I didn't actually buy it. So I was. They offered me on the app that if I want the Uber membership for a year, I don't know, for some reason they just popped up. I. I'd accept and I got the membership for that way.",
+      "timestamp": "1:195-1:198",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "free"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i i don't think so because i didn't actually buy it so i was they offered me on the app that if i want the uber membership for a year i don't know for some reason they just popped up i i'd accept and i got the membership for that way"
+      }
+    },
+    {
+      "segment_id": "P011_INT_019",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yes, yes, I'd say that, yeah.",
+      "timestamp": "1:205",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 2,
+        "vividness": 1,
+        "representativeness": 2,
+        "emotional_resonance": 2,
+        "uniqueness": 1,
+        "overall": 1.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yes yes i'd say that yeah"
+      }
+    },
+    {
+      "segment_id": "P011_INT_020",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "If I'd be ordering without the membership? In that sense, I'm definitely saving any money. But say if I didn't have the membership and adaption, I had an option to not order at all. I wouldn't say I'm saving money in that sense.",
+      "timestamp": "1:207-1:210",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if i'd be ordering without the membership in that sense i'm definitely saving any money but say if i didn't have the membership and adaption i had an option to not order at all i wouldn't say i'm saving money in that sense"
+      }
+    },
+    {
+      "segment_id": "P011_INT_021",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I think the second most I used that is Just Eats. Yes.",
+      "timestamp": "1:213-1:214",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "justeat"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "justeat",
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think the second most i used that is just eats yes"
+      }
+    },
+    {
+      "segment_id": "P011_INT_022",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "There's a couple of restaurants on Just Eats. They're not present on UberEats or delivery, so I have to go there. Or sometimes the price is just lower.",
+      "timestamp": "1:217-1:219",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.platform_choice",
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "justeat",
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "platform_exclusivity",
+        "value_component": [
+          "price",
+          "availability"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "there's a couple of restaurants on just eats they're not present on ubereats or delivery so i have to go there or sometimes the price is just lower"
+      }
+    },
+    {
+      "segment_id": "P011_INT_023",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I didn't use Deliveroo for like of the summer. There's a, there's been a lot of months I haven't ordered from Deliveroo.",
+      "timestamp": "1:232-1:233",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "holiday"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "deliveroo_abandonment",
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i didn't use deliveroo for like of the summer there's a there's been a lot of months i haven't ordered from deliveroo"
+      }
+    },
+    {
+      "segment_id": "P011_INT_024",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "No, not per se, but this is better deals on Uber Eats and Just Eats. I guess I didn't used Deliveroo, so it's just my Go to app. Yeah.",
+      "timestamp": "1:235-1:237",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats",
+          "justeat",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "go to"
+        ],
+        "competitive": "deals_drive_switching",
+        "value_component": [
+          "deals"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "no not per se but this is better deals on uber eats and just eats i guess i didn't used deliveroo so it's just my go to app yeah"
+      }
+    },
+    {
+      "segment_id": "P011_INT_025",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Oh, thanks. I'm just too lazy to cook, I guess. Or there's no time for me to cook at the time. Maybe that or maybe I don't have any ingredients at home.",
+      "timestamp": "1:294-1:297",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "time"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh thanks i'm just too lazy to cook i guess or there's no time for me to cook at the time maybe that or maybe i don't have any ingredients at home"
+      }
+    },
+    {
+      "segment_id": "P011_INT_026",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "And I'm too lazy to go out and buy the groceries.",
+      "timestamp": "1:299",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "and i'm too lazy to go out and buy the groceries"
+      }
+    },
+    {
+      "segment_id": "P011_INT_027",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah. So I was in the mood for making pasta, but I didn't have any at home and I didn't want to go out and buy ingredients altogether. So like I said, so I. I just ordered for the whole week again, so.",
+      "timestamp": "1:317-1:318",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "mood"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "craving"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah so i was in the mood for making pasta but i didn't have any at home and i didn't want to go out and buy ingredients altogether so like i said so i i just ordered for the whole week again so"
+      }
+    },
+    {
+      "segment_id": "P011_INT_028",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, yeah, yeah. Many, many times. Not. Not groceries, but takeaways.",
+      "timestamp": "1:330-1:333",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah yeah yeah many many times not not groceries but takeaways"
+      }
+    },
+    {
+      "segment_id": "P011_INT_029",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "So one of us orders from his or her app and just split the share to our balances.",
+      "timestamp": "1:337",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so one of us orders from his or her app and just split the share to our balances"
+      }
+    },
+    {
+      "segment_id": "P011_INT_030",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Bank apps. It's just. It's just easier, I guess, because most, most of them have balances due to each other, so we just cut off the balance from the amount we've ordered for ourselves.",
+      "timestamp": "1:341-1:343",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "easier"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "bank apps it's just it's just easier i guess because most most of them have balances due to each other so we just cut off the balance from the amount we've ordered for ourselves"
+      }
+    },
+    {
+      "segment_id": "P011_INT_031",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I guess so, yeah. So I'd say they've changed. Comparing my eating habits back. Back in my country, where I was when I was at home, and so they've changed when I entered uni, so I. I guess I ate a lot less takeaways and more at home. So I was not the one to cook. That's why, I guess.",
+      "timestamp": "1:346-1:351",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "family",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i guess so yeah so i'd say they've changed comparing my eating habits back back in my country where i was when i was at home and so they've changed when i entered uni so i i guess i ate a lot less takeaways and more at home so i was not the one to cook that's why i guess"
+      }
+    },
+    {
+      "segment_id": "P011_INT_032",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "No, I had less takeaways than now.",
+      "timestamp": "1:354",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "no i had less takeaways than now"
+      }
+    },
+    {
+      "segment_id": "P011_INT_033",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "It's mostly because I've been lazy, so I'd order online, but maybe if I'm coming home from somewhere and I decide beforehand to buy something. So buy some grocery for me to make at home. So I just go at the same space near my home and buy on the go.",
+      "timestamp": "1:357-1:359",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it's mostly because i've been lazy so i'd order online but maybe if i'm coming home from somewhere and i decide beforehand to buy something so buy some grocery for me to make at home so i just go at the same space near my home and buy on the go"
+      }
+    },
+    {
+      "segment_id": "P011_INT_034",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "It doesn't happen a lot of times, but maybe, maybe it becomes. Maybe whatever I'm in the mood for, it becomes more expensive and just don't feel like paying that much for the thing that I'm ordering for, so I cancel the order.",
+      "timestamp": "1:361-1:362",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "mood"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it doesn't happen a lot of times but maybe maybe it becomes maybe whatever i'm in the mood for it becomes more expensive and just don't feel like paying that much for the thing that i'm ordering for so i cancel the order"
+      }
+    },
+    {
+      "segment_id": "P011_INT_035",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Mostly for takeaways. I don't. I think groceries are mostly. Most of the times the prices are justified.",
+      "timestamp": "1:365-1:368",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "justified"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "mostly for takeaways i don't i think groceries are mostly most of the times the prices are justified"
+      }
+    },
+    {
+      "segment_id": "P011_INT_036",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "So comparing the in store prices. So yeah, if it's a. It's. If it's about a couple of pounds more than. So that I'm talking about the total amount. Order. If, if it's only a couple of pounds more than what I would have spent in store, then I'm okay for it.",
+      "timestamp": "1:370-1:376",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "justified"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.65,
+        "best_match": "times the prices are justified okay how do you justify prices so comparing the in store prices so yeah if it's a it's if it's about a couple of pounds more than so that i'm talking about the total amount yes order if if it's only a couple of pounds more than what i would have spent"
+      }
+    },
+    {
+      "segment_id": "P011_INT_037",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "If it's, if it's more than 6, 7 pounds, I'd cancel the order. If it's, if it's Sunday, I might just go for it.",
+      "timestamp": "1:380-1:381",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if it's if it's more than 6 7 pounds i'd cancel the order if it's if it's sunday i might just go for it"
+      }
+    },
+    {
+      "segment_id": "P011_INT_038",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I wouldn't have to get up and out of the home. I think that's about the most kind of like most number of times that I've happened. Like I don't feel to going out or making something, it's just laziness.",
+      "timestamp": "1:408-1:410",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "laziness"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i wouldn't have to get up and out of the home i think that's about the most kind of like most number of times that i've happened like i don't feel to going out or making something it's just laziness"
+      }
+    },
+    {
+      "segment_id": "P011_INT_039",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Or if I have a hankering for something that's very far from home, it just makes sense to order instead.",
+      "timestamp": "1:411",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "hankering"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "craving"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "or if i have a hankering for something that's very far from home it just makes sense to order instead"
+      }
+    },
+    {
+      "segment_id": "P011_INT_040",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "To me, Not recently, but the kind of thing that Uber One does, that there's no delivery fees after £15? I think that's the. That's the. That's the best thing that has reached out to me.",
+      "timestamp": "1:415-1:418",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "best thing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "free delivery"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "to me not recently but the kind of thing that uber one does that there's no delivery fees after 15 i think that's the that's the that's the best thing that has reached out to me"
+      }
+    },
+    {
+      "segment_id": "P011_INT_041",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Oh, okay. I think, I think about price. Price is the best. Would be the deciding factor.",
+      "timestamp": "1:436-1:439",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "deciding factor"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh okay i think i think about price price is the best would be the deciding factor"
+      }
+    },
+    {
+      "segment_id": "P011_INT_042",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Your 40co if it becomes expensive for. For just one meal at. I'd cancel the order.",
+      "timestamp": "1:442-1:444",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "your 40co if it becomes expensive for for just one meal at i'd cancel the order"
+      }
+    },
+    {
+      "segment_id": "P011_INT_043",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "About like of 20 or 22. Above 20? Yeah.",
+      "timestamp": "1:446-1:447",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "about like of 20 or 22 above 20 yeah"
+      }
+    },
+    {
+      "segment_id": "P011_INT_044",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Just switch to the app. We're selling it for cheap.",
+      "timestamp": "1:536-1:537",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "price_switching",
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "just switch to the app we're selling it for cheap"
+      }
+    },
+    {
+      "segment_id": "P011_INT_045",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I'd go for delivery.",
+      "timestamp": "1:544",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "price_switching",
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd go for delivery"
+      }
+    },
+    {
+      "segment_id": "P011_INT_046",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, yeah, I do. I do compare. Just Eats and ubereats most of the times.",
+      "timestamp": "1:547-1:549",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "justeat",
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "price_comparison",
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah yeah i do i do compare just eats and ubereats most of the times"
+      }
+    },
+    {
+      "segment_id": "P011_INT_047",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, I do.",
+      "timestamp": "1:557",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 2,
+        "vividness": 1,
+        "representativeness": 2,
+        "emotional_resonance": 2,
+        "uniqueness": 1,
+        "overall": 1.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i do"
+      }
+    },
+    {
+      "segment_id": "P011_INT_048",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "No, I got it in the first year, but I haven't used it since like a couple of months.",
+      "timestamp": "1:559",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "subscription_abandonment",
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "no i got it in the first year but i haven't used it since like a couple of months"
+      }
+    },
+    {
+      "segment_id": "P011_INT_049",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "So the both of the membership is just, just for free, so I don't have to opt for it.",
+      "timestamp": "1:565",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "free"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so the both of the membership is just just for free so i don't have to opt for it"
+      }
+    },
+    {
+      "segment_id": "P011_INT_050",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, because it completely scratches off the delivery fees and sometimes the service fees as well.",
+      "timestamp": "1:568",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "scratches off"
+        ],
+        "competitive": null,
+        "value_component": [
+          "free delivery"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah because it completely scratches off the delivery fees and sometimes the service fees as well"
+      }
+    },
+    {
+      "segment_id": "P011_INT_051",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "So because taking the Uber one as an example, it completely scratches off the delivery fees and most of the times it's above £2 for most restaurants. So yeah, you're saving £2 again. And it's not just 10 ordering for the whole month.",
+      "timestamp": "1:570-1:572",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "scratches off",
+          "saving"
+        ],
+        "competitive": null,
+        "value_component": [
+          "free delivery"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so because taking the uber one as an example it completely scratches off the delivery fees and most of the times it's above 2 for most restaurants so yeah you're saving 2 again and it's not just 10 ordering for the whole month"
+      }
+    },
+    {
+      "segment_id": "P011_INT_052",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Oh, I have. No, I was not. I wasn't aware of that.",
+      "timestamp": "1:581-1:583",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh i have no i was not i wasn't aware of that"
+      }
+    },
+    {
+      "segment_id": "P011_INT_053",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "back, they were always on offer would be my top one and then free delivery. The partners one would be at the bottom.",
+      "timestamp": "1:592-1:593",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "deals",
+          "free delivery"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "back they were always on offer would be my top one and then free delivery the partners one would be at the bottom"
+      }
+    },
+    {
+      "segment_id": "P011_INT_054",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "What it doesn't like for me personally, it wouldn't do anything but money wise. Really.",
+      "timestamp": "1:595-1:596",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "money wise"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "what it doesn't like for me personally it wouldn't do anything but money wise really"
+      }
+    },
+    {
+      "segment_id": "P011_INT_055",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I'd be saying money, I guess.",
+      "timestamp": "1:598",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "money"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 2.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd be saying money i guess"
+      }
+    },
+    {
+      "segment_id": "P011_INT_056",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Maybe if like. Like restaurants could offer specific restaurants on the app could offer just like if they're student verified on the app, if they want discounts for them.",
+      "timestamp": "1:624-1:625",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "student discounts"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "maybe if like like restaurants could offer specific restaurants on the app could offer just like if they're student verified on the app if they want discounts for them"
+      }
+    },
+    {
+      "segment_id": "P011_INT_057",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, it's like. It's like the student status is verified on the app, so they get discounts on specific restaurants.",
+      "timestamp": "1:629-1:630",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "student discounts"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah it's like it's like the student status is verified on the app so they get discounts on specific restaurants"
+      }
+    },
+    {
+      "segment_id": "P011_INT_058",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "After university, I don't think it would do and change much, but I guess I'd be ordering more than going out because most of. The. Most of the times that I eat out in the restaurants than ordering rather than ordering it's just because I'm around the campus.",
+      "timestamp": "1:637-1:639",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "after university i don't think it would do and change much but i guess i'd be ordering more than going out because most of the most of the times that i eat out in the restaurants than ordering rather than ordering it's just because i'm around the campus"
+      }
+    },
+    {
+      "segment_id": "P011_INT_059",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I'll get takeaways more than I doubt. No.",
+      "timestamp": "1:642-1:643",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 2,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.2,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'll get takeaways more than i doubt no"
+      }
+    },
+    {
+      "segment_id": "P011_INT_060",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I guess, yeah.",
+      "timestamp": "1:652",
+      "research_objective_codes": [
+        "RO4_post_graduation.does_the_value_equation_for_delivery_shi"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 2,
+        "vividness": 1,
+        "representativeness": 2,
+        "emotional_resonance": 2,
+        "uniqueness": 1,
+        "overall": 1.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i guess yeah"
+      }
+    },
+    {
+      "segment_id": "P011_INT_061",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I think. I think because I've been all. I've been on the Uber one membership already. I just. I'll just renew it instead of going for another. And I don't have the student membership anyways, so this one's does that does the work.",
+      "timestamp": "1:654-1:659",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "habit"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think i think because i've been all i've been on the uber one membership already i just i'll just renew it instead of going for another and i don't have the student membership anyways so this one's does that does the work"
+      }
+    },
+    {
+      "segment_id": "P011_INT_062",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Most of the times I've got the order perfectly fine, so. So shouldn't be a problem for me.",
+      "timestamp": "1:664-1:665",
+      "research_objective_codes": [
+        "RO5_engagement_opps.brand_perception"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "reliability"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "most of the times i've got the order perfectly fine so so shouldn't be a problem for me"
+      }
+    },
+    {
+      "segment_id": "P011_INT_063",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I've never thought about it, but I guess if it pays good, I guess.",
+      "timestamp": "1:671",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i've never thought about it but i guess if it pays good i guess"
+      }
+    },
+    {
+      "segment_id": "P011_INT_064",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "You know, the only safety concern would be like I don't have a license in this country, so I think that would be the biggest concern for me.",
+      "timestamp": "1:673",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "you know the only safety concern would be like i don't have a license in this country so i think that would be the biggest concern for me"
+      }
+    },
+    {
+      "segment_id": "P011_INT_065",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I think if I had to like put a number speed above £20 an hour.",
+      "timestamp": "1:688",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think if i had to like put a number speed above 20 an hour"
+      }
+    },
+    {
+      "segment_id": "P011_INT_066",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I think that because riders won't exactly ask you for a skill set except riding a bike. But yeah, again, yeah, it has, it has kind of a responsibility that you have to reach by time.",
+      "timestamp": "1:696-1:697",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "responsibility"
+        ],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think that because riders won't exactly ask you for a skill set except riding a bike but yeah again yeah it has it has kind of a responsibility that you have to reach by time"
+      }
+    },
+    {
+      "segment_id": "P011_INT_067",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah, I might have a look at it.",
+      "timestamp": "1:729",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i might have a look at it"
+      }
+    },
+    {
+      "segment_id": "P011_INT_068",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I'd say if Uber one does offer a student membership, comparing that to the one I have already, if it does all the benefits the same, so it might be. It might be the best one, probably because I already have the delivery student silver, I think.",
+      "timestamp": "1:734-1:735",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "best one"
+        ],
+        "competitive": "subscription_comparison",
+        "value_component": [
+          "student benefits"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd say if uber one does offer a student membership comparing that to the one i have already if it does all the benefits the same so it might be it might be the best one probably because i already have the delivery student silver i think"
+      }
+    },
+    {
+      "segment_id": "P011_INT_069",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I like the Uber one better.",
+      "timestamp": "1:737",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": "uber_preference",
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i like the uber one better"
+      }
+    },
+    {
+      "segment_id": "P011_INT_070",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "So, yeah, that's pretty fair.",
+      "timestamp": "1:748",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "fair"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so yeah that's pretty fair"
+      }
+    },
+    {
+      "segment_id": "P011_INT_071",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Guess that that be they're open to hold more offers because I know most of the students just don't. If they don't order something, they're just not ordering because it's expensive for to order.",
+      "timestamp": "1:757-1:758",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "deals",
+          "price"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "guess that that be they're open to hold more offers because i know most of the students just don't if they don't order something they're just not ordering because it's expensive for to order"
+      }
+    },
+    {
+      "segment_id": "P011_INT_072",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "There's one thing they could do is keep the prices the same as in store because I've seen, I've seen even Uber when just for a lot of restaurants, they have higher prices for the same restaurants than they have in the. In the first offline, like main store prices.",
+      "timestamp": "1:761-1:762",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "price parity"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "there's one thing they could do is keep the prices the same as in store because i've seen i've seen even uber when just for a lot of restaurants they have higher prices for the same restaurants than they have in the in the first offline like main store prices"
+      }
+    },
+    {
+      "segment_id": "P011_INT_073",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Oh, I don't think there's anything more that would do, but think I'm using it already much because I do the work.",
+      "timestamp": "1:770",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 2,
+        "vividness": 2,
+        "representativeness": 2,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.0,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh i don't think there's anything more that would do but think i'm using it already much because i do the work"
+      }
+    },
+    {
+      "segment_id": "P011_INT_074",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I think cash. You mentioned cashbacks. So I think Uber has 5% cashbacks on Ubers, but not UberEats. But maybe if they can start that.",
+      "timestamp": "1:773-1:776",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "cashback"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think cash you mentioned cashbacks so i think uber has 5 cashbacks on ubers but not ubereats but maybe if they can start that"
+      }
+    },
+    {
+      "segment_id": "P011_INT_075",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "I guess. I guess so, yeah. Because all the. It'll be in the credit",
+      "timestamp": "1:784-1:787",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [],
+        "competitive": null,
+        "value_component": [
+          "cashback"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i guess i guess so yeah because all the it'll be in the credit"
+      }
+    },
+    {
+      "segment_id": "P011_INT_076",
+      "participant_id": "P011",
+      "source": "interview",
+      "text": "Yeah. Even group orders? Yes. It'll be even cheaper then.",
+      "timestamp": "1:788-1:791",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "friends",
+        "temporal": [
+          "term_time"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "cheaper"
+        ],
+        "competitive": null,
+        "value_component": [
+          "cashback",
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah even group orders yes it'll be even cheaper then"
+      }
+    },
+    {
+      "segment_id": "P011_DIARY_001",
+      "participant_id": "P011",
+      "source": "diary",
+      "text": "I was craving this dish from this specific restaurant. I got the best deal on uber eats",
+      "timestamp": "Day 5 - Lunch",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "weekday",
+          "afternoon"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "craving",
+          "best deal"
+        ],
+        "competitive": null,
+        "value_component": [
+          "craving",
+          "deals"
+        ],
+        "influence": []
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P011_DIARY_002",
+      "participant_id": "P011",
+      "source": "diary_reflection",
+      "text": "In the breakfast, I ate some fruits and yogurt and made a smoothie out of apple, carrot, and some lemon juice, because I didn't wanna eat much before, I went to the sauna. In the afternoon, I went to the sauna with my friends and then went to, two restaurants straight out and had had a pizza. Yep. Had a pizza. I shared the pizza with some of my friends. And then we went to the campus for some work. And, yeah, and then after we got back home from campus, one of my front friends called, where whether I wanted to get some food in a nearby restaurant. And I was like, yeah. Okay. So we went there, and it was an Indian place. And that is why we went there. And we were done with all the meals today.",
+      "timestamp": "Day 2 - Daily reflection",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Diary shows predominantly social eating out vs claimed 50% cooking",
+        "language_pattern": [
+          "shared"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P011_DIARY_003",
+      "participant_id": "P011",
+      "source": "diary_reflection",
+      "text": "I woke up around ten today. And because I didn't have anything, yesterday for dinner, so I made pasta, like, around eleven twelve and for breakfast and skipped the lunch. And then we, posted posted TV show with my housemates for for probably the whole day. And then, went out with some friends for dinner, in poo in a pub in spoons and chicken wings for dinner, shared shared those wings with someone else. And, yeah, that's about it for the whole mix.",
+      "timestamp": "Day 4 - Daily reflection",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "shared"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends",
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P011_DIARY_004",
+      "participant_id": "P011",
+      "source": "diary_reflection",
+      "text": "I woke up late today around ten AM, and, I scrolled through social media for some time and then went to the campus for just doing some work with my friends. I met them. And on my way, I got Subway and ate it over when I reached the campus, where I met my friends. So I ate before, and then they reached, and we did some work together. And then there was a Futsal session that we went together to. And, yeah, after that, we went back to the library and did some work again, and made up a plan to go to Wagamama for the dinner. And, I'm at the end of the day now.",
+      "timestamp": "Day 7 - Daily reflection",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "plan"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "subscription_induced_ordering",
+      "description": "Subscriptions create psychological permission to order more frequently, even when users recognize they might not be 'saving' money overall"
+    },
+    {
+      "theme_name": "price_transparency_expectation",
+      "description": "Students expect delivery app prices to match in-store prices and view markup as unfair rather than accepting it as a service premium"
+    },
+    {
+      "theme_name": "social_eating_dominance",
+      "description": "Actual eating patterns are heavily social (restaurants with friends) despite claims of individual cooking habits"
+    },
+    {
+      "theme_name": "platform_exclusivity_switching",
+      "description": "Restaurant availability on specific platforms drives switching behavior more than brand loyalty"
+    }
+  ],
+  "coding_summary": "P011 presents a fascinating case of say-do gaps and sophisticated subscription understanding. He claims to cook 50% of meals and order delivery 2-3 times weekly, but diary data reveals predominantly social restaurant dining with friends and only 1 delivery order in 7 days. His relationship with delivery is highly pragmatic - he actively price compares across platforms, understands subscription economics deeply, and switches based on deals and restaurant availability. Key themes include 'laziness' as a socially acceptable narrative for convenience-seeking, subscription memberships creating ordering permission, and strong expectations for price transparency and student-specific value. His post-graduation projections suggest delivery will increase as campus social dining decreases.",
+  "coverage_gaps": [
+    "No significant coverage gaps - all ROs received primary codes. RO4 has fewer segments as expected for a current undergraduate, but post-graduation expectations were captured."
+  ],
+  "_citations": [
+    {
+      "cited_text": "I'm just too lazy to cook, I guess.\nspk_1: Or there's no time for me to cook at the time.\nspk_1: Maybe that or maybe I don't have any ingredients at home.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 13451,
+      "end_char_index": 13606,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: And I'm too lazy to go out and buy the groceries.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 13622,
+      "end_char_index": 13679,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "So Thursday I have a lot of lectures.\nspk_1: So if I, if I had to cook.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 7749,
+      "end_char_index": 7821,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: I'll mostly order on Thursday nights because I have a lot of lectures, but if I had to cook, it would be stressful for the.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 7857,
+      "end_char_index": 7988,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: Just switch to the app.\nspk_1: We're selling it for cheap.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 23489,
+      "end_char_index": 23555,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: Yeah, yeah, I do. I do compare.\nspk_1: Just Eats and ubereats most of the times.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 23921,
+      "end_char_index": 24009,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: There's a couple of restaurants on Just Eats.\nspk_1: They're not present on UberEats or delivery, so I have to go there.\nspk_1: Or sometimes the price is just lower.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 9779,
+      "end_char_index": 9952,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_0: Do you find that you order more because you've got that membership?\nspk_1: Yes, yes, I'd say that, yeah.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 9135,
+      "end_char_index": 9247,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: In that sense, I'm definitely saving any money.\nspk_1: But say if I didn't have the membership and adaption, I had an option to not order at all.\nspk_1: I wouldn't say I'm saving money in that sense.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 9337,
+      "end_char_index": 9544,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "I think I wouldn't say most of the times.\nspk_1: About 50%, I guess.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 6538,
+      "end_char_index": 6607,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: After university, I don't think it would do and change much, but I guess I'd be ordering more than going out because most of.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 28754,
+      "end_char_index": 28887,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "Most of the times that I eat out in the restaurants than ordering rather than ordering it's just because I'm around the campus.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 28899,
+      "end_char_index": 29027,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: I'll get takeaways more than I doubt.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 29126,
+      "end_char_index": 29171,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: Guess that that be they're open to hold more offers because I know most of the students just don't.\nspk_1: If they don't order something, they're just not ordering because it's expensive for to order.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 34120,
+      "end_char_index": 34328,
+      "participant_id": "P011"
+    },
+    {
+      "cited_text": "spk_1: There's one thing they could do is keep the prices the same as in store because I've seen, I've seen even Uber when just for a lot of restaurants, they have higher prices for the same restaurants than they have in the.\nspk_1: In the first offline, like main store prices.\n",
+      "document_title": "Interview Transcript — P011",
+      "document_index": 0,
+      "start_char_index": 34357,
+      "end_char_index": 34636,
+      "participant_id": "P011"
+    }
+  ],
+  "_citation_count": 15,
+  "participant_id": "P011",
+  "_ro_coverage": {
+    "RO1_eating_moments": 14,
+    "RO3_emotional_social": 10,
+    "RO5_engagement_opps": 33,
+    "RO2_delivery_triggers": 31,
+    "RO4_post_graduation": 4
+  }
+}

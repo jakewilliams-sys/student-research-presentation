@@ -762,82 +762,55 @@ body {
   margin-top: 0.9rem;
 }
 
-/* ---- QUARTERLY TREND ---- */
-.qt-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  margin-top: 1.5rem;
+/* ---- LINE CHART ---- */
+.line-chart-wrap {
+  margin-top: 1rem;
   opacity: 0;
   transform: translateY(12px);
   transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
 }
-.data-slide.active .qt-grid { opacity: 1; transform: none; }
-
-.qt-col {
-  padding: 1.4rem 1rem;
-  border-left: 1px solid var(--rule);
-  position: relative;
+.data-slide.active .line-chart-wrap { opacity: 1; transform: none; }
+.line-chart-wrap svg { width: 100%; height: auto; display: block; }
+.line-chart-wrap .grid-line { stroke: var(--rule); stroke-width: 0.5; }
+.line-chart-wrap .axis-label {
+  font-family: var(--sans); font-size: 9px; fill: var(--text-tertiary); font-weight: 500;
 }
-.qt-col:first-child { border-left: none; }
-.qt-col.qt-highlight {
-  background: rgba(212, 96, 58, 0.04);
+.line-chart-wrap .q-label {
+  font-family: var(--sans); font-size: 10px; fill: var(--text-secondary); font-weight: 600;
 }
-.qt-label {
-  font-family: var(--sans);
-  font-size: 0.62rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-tertiary);
-  margin-bottom: 1.4rem;
+.line-chart-wrap .data-line {
+  fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
 }
-.qt-brand {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  margin-bottom: 0.8rem;
+.line-chart-wrap .data-dot { stroke-width: 2; }
+.line-chart-wrap .dot-label {
+  font-family: var(--sans); font-size: 10px; font-weight: 700; text-anchor: middle;
 }
-.qt-brand-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  position: relative;
-  top: -1px;
+.line-chart-wrap .line-roo { stroke: var(--teal); }
+.line-chart-wrap .line-ue { stroke: #34A853; }
+.line-chart-wrap .dot-roo { fill: var(--teal); stroke: var(--cream); }
+.line-chart-wrap .dot-ue { fill: #34A853; stroke: var(--cream); }
+.line-chart-wrap .label-roo { fill: var(--teal); }
+.line-chart-wrap .label-ue { fill: #34A853; }
+.line-chart-legend {
+  display: flex; gap: 1.5rem; margin-top: 0.8rem;
+  font-family: var(--sans); font-size: 0.68rem; color: var(--text-secondary);
 }
-.qt-brand-name {
-  font-family: var(--sans);
-  font-size: 0.62rem;
-  font-weight: 500;
-  color: var(--text-tertiary);
+.line-chart-legend-dot {
+  display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+  margin-right: 0.4rem; position: relative; top: 2px;
 }
-.qt-brand-pct {
-  font-family: var(--serif);
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1;
+@keyframes draw-line {
+  from { stroke-dashoffset: var(--line-len); }
+  to { stroke-dashoffset: 0; }
 }
-.qt-winner-tag {
-  font-family: var(--sans);
-  font-size: 0.52rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-top: 1rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 2px;
-  display: inline-block;
+.data-slide.active .data-line {
+  animation: draw-line 1s var(--ease) 0.4s both;
 }
-.qt-swing {
-  position: absolute;
-  bottom: 0.8rem;
-  right: 0.8rem;
-  font-family: var(--sans);
-  font-size: 0.58rem;
-  font-weight: 700;
-  color: var(--pumpkin);
+.data-slide.active .data-dot,
+.data-slide.active .dot-label {
+  opacity: 0; animation: fade-in 0.3s var(--ease) 1.2s both;
 }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
 /* ---- FUNNEL CHART ---- */
 .funnel-grid {
@@ -3759,63 +3732,61 @@ body {
 <div class="slide data-slide has-insight">
   <div class="slide-inner">
     <h2 class="data-title">Brand preference among students, Q1–Q4 2025</h2>
-    <div class="qt-grid">
-      <div class="qt-col">
-        <div class="qt-label">Q1 2025</div>
-        <div class="qt-brand">
-          <span class="qt-brand-dot" style="background:var(--teal)"></span>
-          <span class="qt-brand-name">Deliveroo</span>
-        </div>
-        <div class="qt-brand-pct" style="color:var(--teal)">35.2%</div>
-        <div class="qt-brand" style="margin-top:1rem">
-          <span class="qt-brand-dot" style="background:#34A853"></span>
-          <span class="qt-brand-name">Uber Eats</span>
-        </div>
-        <div class="qt-brand-pct" style="color:#34A853">33.3%</div>
-        <div class="qt-winner-tag" style="background:rgba(0,133,124,0.1);color:var(--teal)">Roo +1.9pp</div>
-      </div>
-      <div class="qt-col">
-        <div class="qt-label">Q2 2025</div>
-        <div class="qt-brand">
-          <span class="qt-brand-dot" style="background:var(--teal)"></span>
-          <span class="qt-brand-name">Deliveroo</span>
-        </div>
-        <div class="qt-brand-pct" style="color:var(--teal)">30.7%</div>
-        <div class="qt-brand" style="margin-top:1rem">
-          <span class="qt-brand-dot" style="background:#34A853"></span>
-          <span class="qt-brand-name">Uber Eats</span>
-        </div>
-        <div class="qt-brand-pct" style="color:#34A853">35.7%</div>
-        <div class="qt-winner-tag" style="background:rgba(52,168,83,0.1);color:#34A853">UE +5.0pp</div>
-      </div>
-      <div class="qt-col">
-        <div class="qt-label">Q3 2025</div>
-        <div class="qt-brand">
-          <span class="qt-brand-dot" style="background:var(--teal)"></span>
-          <span class="qt-brand-name">Deliveroo</span>
-        </div>
-        <div class="qt-brand-pct" style="color:var(--teal)">36.7%</div>
-        <div class="qt-brand" style="margin-top:1rem">
-          <span class="qt-brand-dot" style="background:#34A853"></span>
-          <span class="qt-brand-name">Uber Eats</span>
-        </div>
-        <div class="qt-brand-pct" style="color:#34A853">34.9%</div>
-        <div class="qt-winner-tag" style="background:rgba(0,133,124,0.1);color:var(--teal)">Roo +1.8pp</div>
-      </div>
-      <div class="qt-col qt-highlight">
-        <div class="qt-label">Q4 2025</div>
-        <div class="qt-brand">
-          <span class="qt-brand-dot" style="background:var(--teal)"></span>
-          <span class="qt-brand-name">Deliveroo</span>
-        </div>
-        <div class="qt-brand-pct" style="color:var(--teal)">31.6%</div>
-        <div class="qt-brand" style="margin-top:1rem">
-          <span class="qt-brand-dot" style="background:#34A853"></span>
-          <span class="qt-brand-name">Uber Eats</span>
-        </div>
-        <div class="qt-brand-pct" style="color:#34A853">36.2%</div>
-        <div class="qt-winner-tag" style="background:rgba(52,168,83,0.1);color:#34A853">UE +4.6pp</div>
-        <div class="qt-swing">−5.1pp swing</div>
+    <div class="line-chart-wrap">
+      <svg viewBox="0 0 500 280" aria-label="Line chart showing Deliveroo and Uber Eats brand preference among students across four quarters of 2025">
+        <!-- Gridlines -->
+        <line class="grid-line" x1="65" y1="221" x2="465" y2="221"/>
+        <line class="grid-line" x1="65" y1="172" x2="465" y2="172"/>
+        <line class="grid-line" x1="65" y1="123" x2="465" y2="123"/>
+        <line class="grid-line" x1="65" y1="74" x2="465" y2="74"/>
+        <line class="grid-line" x1="65" y1="25" x2="465" y2="25"/>
+        <!-- Y-axis labels -->
+        <text class="axis-label" x="58" y="224" text-anchor="end">30%</text>
+        <text class="axis-label" x="58" y="175" text-anchor="end">32%</text>
+        <text class="axis-label" x="58" y="126" text-anchor="end">34%</text>
+        <text class="axis-label" x="58" y="77" text-anchor="end">36%</text>
+        <text class="axis-label" x="58" y="28" text-anchor="end">38%</text>
+        <!-- X-axis labels -->
+        <text class="q-label" x="65" y="250" text-anchor="middle">Q1</text>
+        <text class="q-label" x="198" y="250" text-anchor="middle">Q2</text>
+        <text class="q-label" x="332" y="250" text-anchor="middle">Q3</text>
+        <text class="q-label" x="465" y="250" text-anchor="middle">Q4</text>
+        <text class="axis-label" x="65" y="264" text-anchor="middle">Jan–Mar</text>
+        <text class="axis-label" x="198" y="264" text-anchor="middle">Apr–Jun</text>
+        <text class="axis-label" x="332" y="264" text-anchor="middle">Jul–Sep</text>
+        <text class="axis-label" x="465" y="264" text-anchor="middle">Oct–Dec</text>
+        <!-- Shaded bands for UE-winning quarters -->
+        <rect x="131" y="20" width="134" height="210" rx="3" fill="#34A853" opacity="0.035"/>
+        <rect x="398" y="20" width="72" height="210" rx="3" fill="#34A853" opacity="0.035"/>
+        <!-- Deliveroo line -->
+        <polyline class="data-line line-roo" points="65,93 198,203 332,57 465,181" style="stroke-dasharray:600;stroke-dashoffset:600;--line-len:600"/>
+        <!-- Uber Eats line -->
+        <polyline class="data-line line-ue" points="65,140 198,81 332,101 465,69" style="stroke-dasharray:450;stroke-dashoffset:450;--line-len:450"/>
+        <!-- Deliveroo dots + labels -->
+        <circle class="data-dot dot-roo" cx="65" cy="93" r="5"/>
+        <text class="dot-label label-roo" x="65" y="82">35.2%</text>
+        <circle class="data-dot dot-roo" cx="198" cy="203" r="5"/>
+        <text class="dot-label label-roo" x="198" y="219">30.7%</text>
+        <circle class="data-dot dot-roo" cx="332" cy="57" r="5"/>
+        <text class="dot-label label-roo" x="332" y="46">36.7%</text>
+        <circle class="data-dot dot-roo" cx="465" cy="181" r="5"/>
+        <text class="dot-label label-roo" x="465" y="197">31.6%</text>
+        <!-- Uber Eats dots + labels -->
+        <circle class="data-dot dot-ue" cx="65" cy="140" r="5"/>
+        <text class="dot-label label-ue" x="65" y="155">33.3%</text>
+        <circle class="data-dot dot-ue" cx="198" cy="81" r="5"/>
+        <text class="dot-label label-ue" x="198" y="70">35.7%</text>
+        <circle class="data-dot dot-ue" cx="332" cy="101" r="5"/>
+        <text class="dot-label label-ue" x="332" y="116">34.9%</text>
+        <circle class="data-dot dot-ue" cx="465" cy="69" r="5"/>
+        <text class="dot-label label-ue" x="465" y="58">36.2%</text>
+        <!-- Gap annotation at Q4 -->
+        <line x1="472" y1="69" x2="472" y2="181" stroke="var(--pumpkin)" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>
+        <text x="480" y="128" font-family="var(--sans)" font-size="9" font-weight="700" fill="var(--pumpkin)">4.6pp</text>
+      </svg>
+      <div class="line-chart-legend">
+        <span><span class="line-chart-legend-dot" style="background:var(--teal)"></span>Deliveroo</span>
+        <span><span class="line-chart-legend-dot" style="background:#34A853"></span>Uber Eats</span>
       </div>
     </div>
     <p class="data-source">YouGov Brand Tracker, student segment (full-time, category users L12M) · N ≥ 267 per quarter · Weighted</p>

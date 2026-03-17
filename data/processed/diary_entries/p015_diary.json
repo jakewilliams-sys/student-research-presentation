@@ -1,0 +1,351 @@
+{
+  "participant_id": "P015",
+  "scout_name": "Evan D",
+  "scout_id": "2670005",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 12:21:28 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 14:05:41 +0000",
+      "breakfast": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working"
+        ],
+        "ate_with": [
+          "With friends",
+          "With classmates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Uber Eats",
+        "why_ordered": "Because uber eats is the app I most commonly use and are familiar with.",
+        "reasons": [
+          "Craving / comfort",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Leftovers",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today, I've had three meals. So I've had so on the way to uni, I got a Starbucks, and I had a ham and cheese croissant. I usually do this every Thursday, because I like having something to get me through my long four hour lecture. So I had that, And it's sort of my usual habit, to be fair, on a Thursday. I've had a Starbucks gift card sent to me from, left over from Christmas, so I continue to the use that. And, yeah, and that's just usually my normal habit on a Thursday. It's, like, nice and quick and easy, and I can pick it up on the way into university. I mean, I don't have to worry about cooking at home or worrying about what I'm gonna have for breakfast. Then for lunch, after I got in from my lecture, which is a long four hour lecture, I was really tired. And there wasn't much food in the cupboard, and I couldn't really, be bothered to go to the shop and get something to eat. So I pardon me, used a I mean, used Uber Eats to order a takeaway. So I got, some chicken and rice from a noodle bar, and I don't normally order this early into the day. I normally have stuff normally in the evening when I'm ordering from, Uber Eats or another delivery app, mostly Uber Eats, but I don't really tend to order this early into the day. But, like I said, there's not there's not much in my code, so I thought I'd, just for ease of convenience, really, just get order something on the app. And then for so that is not really part of my usual habit. Normally, I'll try and make something because of the price, And, normally, I've got stuff in the cupboard, but today was sort of an exception. And then for dinner, I've had so I did quite a large order for the takeaway, and I made sure that I would have stuff left over to eat for dinner. So I had some of the leftover chicken and noodles from that, so I ordered quite a large meal. So I had stuff left over from that to eat for dinner. And like I say, not really my usual typical, meal for dinner. Normally, I try and cook something, but I've been quite lazy today. So, yeah, I haven't really gone to the shop to get anything to eat. I'm gonna try I've got some groceries coming tomorrow, so tomorrow will be a bit more regulated in terms of why I'll have a I'll cook breakfast, lunch, and dinner and try and limit that. I'll try and limit my takeaways to one or two a week, really, to be fair because of the prices. So, yeah, that's been about it."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 12:38:36 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 12:30:53 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Hi. So today, I had it was quite a usual routine. So today, this morning, I had cereal, as I normally do for breakfast. It's just one of my normal habits. Not really much else changed there. I don't really substitute stuff for breakfast. I normally just have what I've got in the cupboard, like bagels or cereal, that kind of thing. So nothing exciting there. Lunch, I skipped that meal. I was out at the, pub with my friends watching the six nations, and I just wasn't very hungry, to be honest, because I had eaten the cereal only about an hour hour and a half before. So, yeah, I didn't eat anything there, which is not usually like my usual routine. So, normally, I'm always having lunch. But today, that was different. Then for dinner, I had pasta, which I normally do for dinner because it's quite an easy meal. I can just whip it up in less than ten minutes. And I was just sat down eating with my, mates and the people that live in my flat. So, yeah, that was pretty standard. It's what I normally do. Occasionally, I'll get, something else to eat, but, not today. Normally, it's just pasta. So, yeah, that's been my diary for today."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 21:07:33 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 16:14:31 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 12:39:12 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Hi. So I'm doing my last day video for my, food, my seven day food survey. So today, pretty just another normal day. Breakfast. So I started off with cereal. Always been my habit. I don't really change from that, to be honest. I'm it's cheap, easy, and I've always got it in the cupboard. So I don't for breakfast, I don't really tend to change anything in that sort of, way. Lunch, I didn't eat. I had lecture, from eleven to three ish. So, yeah, it was quite a long one, and I just didn't really get around to eating. I'd already had lunch. So I mean, I had already had breakfast. Sorry. So I just didn't really get around to it. And then after I went to the gym, and then I had some dinner. So I had, a pie and some other sort of stuff that I had in the cupboard. And I'd already bought it in my food shopping, so I didn't feel, like, a reason to buy out or get something on the way back from the gym or order food. So, yeah, it just really part of my habit. Not much changing from that, to be honest. So yeah."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 6,
+    "delivery_orders": 1,
+    "delivery_apps_used": [
+      "Uber Eats"
+    ],
+    "top_reasons": [
+      "Habit / routine",
+      "Time / convenience",
+      "Craving / comfort",
+      "Didn’t feel like cooking",
+      "Socialising"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

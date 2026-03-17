@@ -1,0 +1,118 @@
+{
+  "participant_id": "P018",
+  "summary": "Louise is a 26-29 year old postgraduate student balancing NHS work with dissertation writing, living with her father in London. She presents as highly analytical and self-aware, offering detailed explanations for her choices while acknowledging her own contradictions. Her communication style is conversational and honest, often catching herself mid-thought to provide more accurate information. Louise operates within a carefully structured routine built around convenience and value-seeking - she works Monday-Thursday, studies Fridays, and has developed efficient systems for meal planning that minimize both cost and effort. Her food relationship is fundamentally pragmatic: she cooks 3-4 times per week with a focus on high-protein meals, brings leftovers to work, and uses delivery as a convenience fallback rather than a regular habit. What's particularly striking is her sophisticated understanding of the delivery ecosystem - she's locked into Uber One not just for food but for transport, demonstrating how subscription services can create powerful behavioral anchors. She's highly price-sensitive and deal-driven, frequently comparing platforms and making decisions based on offers, yet she's also willing to pay for convenience when her structured routine breaks down.",
+  "personality_notes": "Articulate and self-reflective communicator who provides detailed reasoning for decisions. Shows strong analytical thinking about her own behavior patterns and is comfortable acknowledging contradictions. Demonstrates practical, efficiency-focused mindset with clear awareness of her financial constraints.",
+  "food_relationship": "Food serves primarily functional and convenience roles in her structured life, with delivery acting as a reliable safety net when energy or planning fails, rather than a regular indulgence.",
+  "key_moments": [
+    {
+      "timestamp": "1:22-1:24",
+      "description": "Reveals she spends 2-3 hours daily on TikTok despite initially downplaying social media use",
+      "significance": "Shows gap between self-perception and actual behavior, plus indicates high social media influence on food choices"
+    },
+    {
+      "timestamp": "1:38-1:40",
+      "description": "Explains how TikTok directly influences restaurant choices through viral content and student deals",
+      "significance": "Demonstrates social media's role in food discovery and decision-making, particularly around value perception"
+    },
+    {
+      "timestamp": "1:200-1:205",
+      "description": "Detailed explanation of why she chose Uber One - combines transport and food needs",
+      "significance": "Reveals sophisticated ecosystem thinking and how subscription services create behavioral lock-in"
+    },
+    {
+      "timestamp": "1:406-1:412",
+      "description": "Immediate interest in Deliveroo student benefits when informed during interview",
+      "significance": "Shows how lack of awareness about competitor offerings affects platform choice"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking as enjoyable or creative - purely functional",
+    "Avoided discussing specific financial constraints despite clear price sensitivity",
+    "No mention of food waste or sustainability concerns",
+    "Limited discussion of social eating beyond practical arrangements"
+  ],
+  "initial_hypotheses": [
+    "Subscription services create powerful behavioral lock-in when they solve multiple problems (transport + food)",
+    "Social media discovery doesn't always translate to ordering behavior - she discovers on TikTok but orders based on convenience",
+    "Student-specific marketing awareness is low, creating opportunities for competitors to win share",
+    "Routine-driven users like Louise are most vulnerable to disruption when their structure breaks down"
+  ],
+  "questions_for_coding": [
+    "How do ecosystem subscriptions (Uber One) create competitive moats vs single-purpose subscriptions?",
+    "What's the relationship between social media food discovery and actual ordering behavior?",
+    "How does awareness of student benefits affect platform switching behavior?",
+    "What role does routine structure play in delivery usage patterns?"
+  ],
+  "diary_summary": "Louise's 7-day diary reveals a highly structured eating pattern: consistent high-protein breakfasts, leftover-based lunches, and home-cooked dinners. Only 1 delivery order in 7 days, primarily driven by late work day and convenience. Weekend disruption (trip to Swansea) led to more varied eating patterns including restaurant meals and convenience store purchases.",
+  "say_do_gaps": [
+    "Emphasizes convenience as primary driver but diary shows strong meal planning and preparation habits",
+    "Describes herself as not very social media focused but admits to 2-3 hours daily TikTok use"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: No, I would spend more like a lot of my time on them, definitely.\nspk_1: Especially in the evening, scrolling through TikTok.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 4583,
+      "end_char_index": 4716,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_1: Probably a lot more on Tick Tock in terms of like time.\nspk_1: Probably like more than I'd like to think.\nspk_1: Like more than I'd like to say.\nspk_1: Like probably like two hours a day on Tick Tock.\nspk_1: Maybe, I don't know, like three hours at a push.\nspk_1: Just in the evening, you know, just doom scrolling and probably about an hour, maybe two hours on Tick Tock.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 4997,
+      "end_char_index": 5377,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_1: Convenience, definitely.\nspk_1: If I'm coming home late from work or I'm tired and I don't want to cook and things like that.\nspk_1: Definitely convenience.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 16843,
+      "end_char_index": 17007,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_1: But ordering food, I'd say Probably the average is probably like once a week around that.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 10541,
+      "end_char_index": 10638,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_1: I'd say price is the top and then then close second probably be offers because even if it's like more expensive for me to order something or from somewhere else if they've got a better offer on like it's a bit more money technically but like I'm getting more food or I'm getting something free with it or whatever.\nspk_1: I would probably choose that.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 32604,
+      "end_char_index": 32963,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_1: Because I don't drive.\nspk_1: I get a lot of Ubers in general and you get a discount and you get better deals.\nspk_1: And even like I, I would say UberEats is my main form of getting deliveries, like food deliveries.\nspk_1: So I checked the others to see if there's any promotional offers on them, but mainly I'd say Uber.\nspk_1: Weren't it like Uber?\nspk_1: So I was like, I might as well just get the Ub one because it kind of works out better for me in, in general anyway.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 11008,
+      "end_char_index": 11491,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_0: Have you then ever ordered food because you saw on social media sometimes like\nspk_1: I or I've been influenced to try certain food like go to certain place like some viral places, you know that I probably wouldn't have gone to if I hadn't seen them on Tick Tock.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 6277,
+      "end_char_index": 6548,
+      "participant_id": "P018"
+    },
+    {
+      "cited_text": "spk_0: Was it just like the restaurant being promoted or was like they're an offer or\nspk_1: so like I like a lot of the restaurants that I go to a point would be based off of where I've seen them on Tick Tock mainly someone's talking about like the offers they've got or like student deals obviously where I am so soon like if they say like there's like student Monday where everyone know like certain deals and I'll more likely to go to them, you know.\n",
+      "document_title": "Interview Transcript — P018",
+      "document_index": 0,
+      "start_char_index": 6593,
+      "end_char_index": 7048,
+      "participant_id": "P018"
+    }
+  ],
+  "_citation_count": 8
+}

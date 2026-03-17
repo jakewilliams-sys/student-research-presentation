@@ -1,0 +1,323 @@
+{
+  "participant_id": "P002",
+  "scout_name": "Rory C",
+  "scout_id": "2670016",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 12:32:16 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 17:18:57 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Meal prep service (delivered at beginning of week, heat at home)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Hi. So today past couple of days actually been pretty busy. But today, particularly, I was at uni in the morning, then I had a doctor's appointment across the city, and then I had to go back to uni for a meeting in the afternoon, and then literally got home at, like, yeah, like, half four, quarter to five or something. So I'm not usually a breakfast person anyway, but I definitely didn't have breakfast today. Normally, when I've been at uni, I would have had lunch, but because I had, like, doctor's appointments and thing and I was, like, across the city, I didn't have lunch today. I did have a coffee, but I'm assuming that doesn't count for a food diary. So then when I got home, I was very hungry, so I've had dinner earlier than I normally would have. Normally, I probably would have dinner around, like, six o'clock or something. But I've had dinner than I normally earlier than I normally would have because I, super hungry because I've not eaten all day, and just needed something. So, I mean, I always have a, like, meal prep service so that doesn't change. It's just super easy. It's what I always have. I've had it for a few years now. So I always use that. But as I said, normally, particularly if it's a long day, I would have had something at lunchtime, but today that didn't happen. So probably not a usual day in that regard, one for the lunch and then also for the time that I've eaten at. But, otherwise yeah. As I say, I'm not a breakfast person. I normally never normally really have breakfast anyway, but it's just been a manic couple of days. So yesterday as well, you probably noted that I didn't eat, that much. I just had lunch. Like, I had, like, a later larger lunch than I normally would, and then I didn't have any dinner. It's just been like a crazy couple times, that is not five minutes but I don't really have anything else to say I've not eaten that much, sure I hope that's okay"
+    },
+    {
+      "day": 3,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 00:19:10 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With classmates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Meal prep service (delivered at start of week)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 09:32:02 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Friend cooked at their house",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So yesterday, I was at a friend's house celebrating Chinese New Year. So there was, a lot of food. We made dumplings, fried rice. There was like the cucumber salad and stuff. So and there's a lot of different stuff. It was all about, like, socialising and obviously celebrating Chinese New Year, because I knew I was gonna be out and having a dinner party. I didn't eat, breakfast or lunch during the day. But, again, that's fairly standard for me. Yeah. I it was at a friend's place, so I wasn't the one cooking. They they cooked and provided everything, but it was really nice. And we had a good fun time. Yeah. Not not much else to say."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 18:26:49 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 21:26:40 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Meal prep service (delivered at beginning of week)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Meal prep service (delivered at start of week, heated at home)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 17:50:29 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Food prep service (delivered at start of the week, heat at home)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So today was a bit more back to my normal routine for eating. As I've said before, I'm never really a breakfast person. I didn't have breakfast this morning. I was out at uni in the morning, and then I came home. And I didn't have anything in the house. So I just went and got, like, a meal deal from Tesco, which I try not to do every single day or every single week, but, from time to time, yeah. So had that today, and then for dinner, had the, like, a prep service that I normally have. What was it today? I think it was chicken korma. It's pretty good. But, again, that's, like, my usual routine. The meals get delivered on a Monday, and then I just heat them up at home for Monday to Friday. So that was usual. But, yeah, I feel like this week in general has been a bit of a different like, last week was really busy, so my meals are a bit all over the place. But the past couple of days have been a bit more kind of standard what my meals would be like. So probably on average been, like, a good representation of what my kind of diet and meals are like."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 11,
+    "delivery_orders": 0,
+    "delivery_apps_used": [],
+    "top_reasons": [
+      "Time / convenience",
+      "Habit / routine",
+      "Didn’t feel like cooking",
+      "Socialising",
+      "Craving / comfort"
+    ],
+    "most_common_source": "Supermarket / convenience store"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "participant_id": "P006",
+  "summary": "Adam is a second-year BA student caught between two worlds - his family home in rural Cavan and his makeshift Dublin existence sleeping on a friend's couch. His extreme 4-5 hour daily commute has created a lifestyle entirely dependent on food delivery, ordering 5+ times per week when in Dublin. Despite describing himself as money-conscious and a 'saver,' he spends an extraordinary €140 weekly on food (80% on takeaways), suggesting a disconnect between his financial self-perception and reality. He's strategically subscribed to both Uber One and Deliveroo Plus, constantly price-comparing and promotion-hunting across platforms. His relationship with food is purely functional during weekdays - quick fuel between lectures and commutes - but transforms into social experiences on weekends when he's home with family and friends. There's a palpable tension between his stated love of cooking and the practical impossibility of his current living situation, creating guilt around his delivery dependency that he rationalizes through time constraints.",
+  "personality_notes": "Articulate and self-aware but somewhat defensive about his habits. Shows genuine enthusiasm when discussing promotions and deals. Tends to rationalize behaviors while simultaneously expressing guilt about them. Honest about contradictions in his lifestyle.",
+  "food_relationship": "Food delivery serves as his primary survival mechanism during an unsustainable commuting lifestyle, creating dependency masked as convenience.",
+  "key_moments": [
+    {
+      "timestamp": "1:17-1:27",
+      "description": "Describes his brutal 5am wake-up, 4-5 hour daily commute, and makeshift Dublin accommodation",
+      "significance": "Establishes the extreme lifestyle that drives his delivery dependency - this isn't student laziness but genuine survival strategy"
+    },
+    {
+      "timestamp": "1:215-1:218",
+      "description": "Reveals spending €140 weekly on food, 80% on takeaways",
+      "significance": "Massive contradiction with his self-described 'saver' identity - suggests lack of awareness of true spending or different definition of value"
+    },
+    {
+      "timestamp": "1:318-1:320",
+      "description": "Expresses guilt about not tipping drivers and staying home instead of going out for food",
+      "significance": "Shows internal conflict between convenience and values, plus awareness that his behavior doesn't align with his preferences"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned the financial strain of his lifestyle despite massive food spending",
+    "Avoided discussing the sustainability of sleeping on a friend's couch long-term",
+    "Didn't acknowledge the health implications of his heavily processed diet"
+  ],
+  "initial_hypotheses": [
+    "His extreme commute creates genuine time poverty that justifies delivery dependency",
+    "Price sensitivity is about per-transaction value rather than total spending awareness",
+    "Weekend behavior at home reveals his preferred relationship with food when circumstances allow",
+    "Subscription strategy shows sophisticated platform optimization despite claiming to be budget-conscious"
+  ],
+  "questions_for_coding": [
+    "How do extreme lifestyle circumstances change the moral framework around food choices?",
+    "What role do promotions play in justifying otherwise guilt-inducing behaviors?",
+    "How does temporary accommodation status affect food decision-making?",
+    "What's the relationship between stated values ('I'm a saver') and actual behavior patterns?"
+  ],
+  "diary_summary": "7-day diary shows dramatically different eating patterns when at family home in Cavan - more home cooking, family meals, and only 1 delivery order. Skipped 5 meals across the week, suggesting irregular eating patterns.",
+  "say_do_gaps": [
+    "Claims to enjoy cooking but only cooked 3 times in 7 days when actually at home with kitchen access",
+    "Describes himself as money-conscious but spends €140 weekly on food",
+    "Says he orders 5+ times per week but diary shows only 1 delivery order (though this was during home week, not Dublin week)"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: So, usually waking up at around 5 o'clock, and I live in Ballyconnell, so it's kind of a small town, and it's about 20, 25 minutes from Cavan town.\nspk_1: So, I take the 109X bus down to Dublin, and then I have to take the Dublin bus down to Maynooth, or I usually go by train up in Connolly Station, as I usually use the train.\nspk_1: So, kind of waking up at 5 o'clock, getting on the bus at 6, and then trying to be there around 9 or 10 o'clock...\nspk_1: Kind of a long commute!\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 912,
+      "end_char_index": 1401,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "spk_1: Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, and I'm ordering to the friend's house.\nspk_1: So about pretty much five times a week, maybe even more if I'm ordering dinner as well.\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 6731,
+      "end_char_index": 6962,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "spk_1: So, I'm trying to think...\nspk_1: more than five times a week.\nspk_1: I'll tell you that for sure!\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 8697,
+      "end_char_index": 8803,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "spk_1: I'm a... really, I'm really picky on money.\nspk_1: Like, I'm a saver. Like, if I see something on promotion or reduced, I'm always buying it.\nspk_1: Like, if I see the juices on promotion, reduced, or in a promotion, then yeah, I'm going into the shop, and I'm buying it.\nspk_1: So yeah, I kind of like to save my money.\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 30840,
+      "end_char_index": 31168,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "I don't want to lie...\nspk_1: I'm saying about 90 to 100 quid just alone on food, maybe even more, but I'd have to check.\nspk_1: But I definitely know it's 100 and more!\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 12684,
+      "end_char_index": 12854,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "spk_1: So, I'd say 90%... no, maybe 80% is on the takeaways, 20% on the groceries, and then going out without including that...\nspk_1: I'd say it's like another €40 on top of it if I'm getting drinks as well.\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 12938,
+      "end_char_index": 13147,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "spk_1: So, I do enjoy cooking, but I don't have the time to do it.\nspk_1: So, I like to throw in the pan myself...\nspk_1: cook... cook a nice dinner, like spaghetti bolognese or a curry.\nspk_1: Like, I like cooking myself, but I just don't have the time to do it.\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 8287,
+      "end_char_index": 8551,
+      "participant_id": "P006"
+    },
+    {
+      "cited_text": "spk_1: Feel justified... maybe guilty because I like...\nspk_1: I used to tip the delivery drivers, and I'm kind of feeling bad because I know they can see on their screens that you're not, like, putting in a tip or, like, something like that.\nspk_1: So I'm kind of feeling guilty, and as well, most of the time, like, I feel bad for myself because I'm, like, staying at home, not going out most of the time because I don't have the time.\nspk_1: And I'm like, I know I have the time to do this, get the food, but instead, I'm just ordering from the place.\n",
+      "document_title": "Interview Transcript — P006",
+      "document_index": 0,
+      "start_char_index": 19686,
+      "end_char_index": 20241,
+      "participant_id": "P006"
+    }
+  ],
+  "_citation_count": 8
+}

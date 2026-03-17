@@ -1,0 +1,245 @@
+[
+  {
+    "participant_id": "P025",
+    "name": "James",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699062",
+        "file_name": "James"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "James",
+      "age": "22",
+      "gender": "Man",
+      "university": "Manchester Metropolitan University",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "year_of_study": "3rd year",
+      "living_situation": "Shared House",
+      "order_frequency": "Fortnightly",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699062"
+  },
+  {
+    "participant_id": "P026",
+    "name": "Bobbi",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": "Mon 16 Feb, 3:00pm",
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699063",
+        "file_name": "Bobbi"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "140gtXs126Jzk4N44TGOcvOU_siEAsW9UG1Oi-gOQ74U",
+        "sheet_name": "Sheet1",
+        "row": 4
+      }
+    },
+    "profile": {
+      "name": "Bobbi",
+      "age": "22",
+      "gender": "Woman",
+      "university": "Manchester Metropolitan University",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "year_of_study": "1st year",
+      "living_situation": "Shared House",
+      "order_frequency": "More than once a week",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699063"
+  },
+  {
+    "participant_id": "P027",
+    "name": "Leah",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699074",
+        "file_name": "Leah"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Leah",
+      "age": "20",
+      "gender": "Woman",
+      "university": "University of Manchester",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "year_of_study": "2nd year",
+      "living_situation": "Shared House",
+      "order_frequency": "Fortnightly",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699074"
+  },
+  {
+    "participant_id": "P028",
+    "name": "Anya",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699067",
+        "file_name": "Anya"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Anya",
+      "age": "20",
+      "gender": "Woman",
+      "university": "Nottingham Trent University",
+      "university_city": "Nottingham",
+      "current_location": "Nottingham",
+      "year_of_study": "3rd year",
+      "living_situation": "Shared house",
+      "order_frequency": "Fortnightly",
+      "platforms_used": [
+        "Deliveroo",
+        "Just Eat"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699067"
+  },
+  {
+    "participant_id": "P029",
+    "name": "Samuel",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699060",
+        "file_name": "Samuel"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Samuel",
+      "age": "20",
+      "gender": "Man",
+      "university": "Nottingham Trent University",
+      "university_city": "Nottingham",
+      "current_location": "Nottingham",
+      "year_of_study": "1st year",
+      "living_situation": "University halls",
+      "order_frequency": "More than once a week",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat",
+        "GoPuff"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699060"
+  },
+  {
+    "participant_id": "P030",
+    "name": "Barnaby",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699065",
+        "file_name": "Barnaby"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Barnaby",
+      "age": "21",
+      "gender": "Man",
+      "university": "University of Nottingham",
+      "university_city": "Nottingham",
+      "current_location": "Nottingham",
+      "year_of_study": "2nd year",
+      "living_situation": "Shared house",
+      "order_frequency": "Weekly",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699065"
+  }
+]

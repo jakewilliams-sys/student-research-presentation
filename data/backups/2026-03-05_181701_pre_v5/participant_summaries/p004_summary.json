@@ -1,0 +1,251 @@
+{
+  "participant_id": "P004",
+  "summary": "Sean is a highly analytical and budget-conscious final year aerospace engineering student who approaches food decisions with strategic planning and systematic comparison shopping. Despite being articulate and organized in most areas of life, Sean experiences significant stress around dinner preparation due to their small shared kitchen and competing flatmate schedules. This stress creates a clear trigger point for delivery orders, particularly when time-pressured or after social activities. Sean demonstrates remarkable price sensitivity, consistently comparing platforms and switching for even £1 differences, showing no brand loyalty beyond practical benefits. Their relationship with food delivery is purely functional - it serves as a reliable safety net when cooking becomes logistically challenging or when craving specific cuisines unavailable at home, particularly Greek food which has become an obsession since moving to Bristol. Sean's decision-making process is methodical, from meal planning grocery shops to checking deals sections first on delivery apps, yet they remain surprisingly unaware of some platform offerings and resistant to grocery delivery due to social proof bias rather than rational evaluation.",
+  "personality_notes": "Methodical and articulate communicator who gives detailed, structured responses. Highly analytical in decision-making but admits to personal biases. Shows strong self-awareness about their own behavioral patterns and motivations.",
+  "food_relationship": "Food is approached strategically as fuel and budget management, with delivery serving as a practical fallback when kitchen logistics or energy levels fail.",
+  "key_moments": [
+    {
+      "timestamp": "25:30",
+      "description": "Sean reveals dinner is most stressful due to small kitchen and flatmate coordination issues",
+      "significance": "Shows clear pain point that drives delivery usage - not laziness but genuine logistical stress"
+    },
+    {
+      "timestamp": "35:45",
+      "description": "Describes switching platforms for £1 difference with no loyalty",
+      "significance": "Demonstrates extreme price sensitivity and rational, unemotional platform choice"
+    },
+    {
+      "timestamp": "45:20",
+      "description": "Admits grocery delivery resistance is 'mindset thing' and 'personal bias'",
+      "significance": "Shows self-awareness about irrational decision-making despite otherwise analytical approach"
+    },
+    {
+      "timestamp": "38:15",
+      "description": "Describes Greek food as potential 'Spotify wrapped' top choice",
+      "significance": "Reveals emotional attachment to specific cuisine unavailable at home - key delivery driver"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned cooking enjoyment or food as pleasure",
+    "Avoided discussing specific financial constraints despite budget focus",
+    "No mention of health considerations beyond protein intake",
+    "Did not discuss food waste concerns despite meal planning emphasis"
+  ],
+  "initial_hypotheses": [
+    "Kitchen stress and logistics are primary delivery drivers, not convenience or laziness",
+    "Price sensitivity overrides all other factors including brand loyalty and user experience",
+    "Social proof strongly influences adoption of new services (grocery delivery resistance)",
+    "Delivery serves as emotional comfort through access to unavailable cuisines",
+    "Systematic approach to most decisions but blind spots exist around platform awareness"
+  ],
+  "questions_for_coding": [
+    "How do shared living logistics specifically trigger delivery orders?",
+    "What role does social proof play in service adoption vs. rational evaluation?",
+    "How does extreme price sensitivity interact with subscription value perception?",
+    "What makes certain cuisines worth paying delivery premiums for?",
+    "How do analytical personalities reconcile irrational biases in food decisions?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So I'm in my final year of university studying aerospace engineering at Bristol.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 230,
+      "end_char_index": 318,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I mean I would say an average of like 14 contact hours, be that like computer labs or lectures, occasionally seminars in unique.\nspk_1: Then I try to go to the gym occasionally, do a food shop once a week, go out with my friends to the pub and things like that and different societies and stuff.\nspk_1: So yeah, jam packed usually.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 618,
+      "end_char_index": 957,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So I try to make a meal plan before I go shopping so that I'm only buying the food that I actually need.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 9449,
+      "end_char_index": 9561,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But I do try and eat more protein because I generally, I don't think I like automatically include like big sources of protein in my food.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 9938,
+      "end_char_index": 10083,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Things that aren't too expensive.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 10513,
+      "end_char_index": 10554,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And obviously I'm a uni student on a budget, so.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 10666,
+      "end_char_index": 10722,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Which service do you normally use most\nspk_1: often I tend to go for Deliveroo because Deliveroo do like A plus account for students, which in my head makes me think that I'm getting a better deal.\nspk_1: But I tend to check delivery first and then I'll also compare that to UberEats to see which one is cheaper and then I'll order from whichever one is cheaper.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 14266,
+      "end_char_index": 14629,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Generally, yeah. ",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 16001,
+      "end_char_index": 16025,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like, I tend to check the big competitors and see what's cheapest.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 16061,
+      "end_char_index": 16135,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, I'd buy it from Uber because there's, I mean, realistically, to me, I see almost no difference in, like, standard and like.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 16853,
+      "end_char_index": 16990,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's generally like, whatever's cheapest.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 17406,
+      "end_char_index": 17455,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So, like, if I've got places, dinner generally is, is.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 17781,
+      "end_char_index": 17836,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And also we don't have a very big kitchen.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 17935,
+      "end_char_index": 17985,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And also, like, if there are other people in there or people start cooking whilst you're cooking, it's then you're trying to, like, navigate around them in our quite small kitchen, which is.\nspk_1: Yeah, A little bit stressful, but yeah, and, and especially like if I've got plans to be somewhere and I'm like, you know, I've got a limited amount of time.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 18102,
+      "end_char_index": 18465,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Tend to, you know, those are the moments when I'll either cook something that's like, like a ready meal or something really quick or I potentially would order from like a takeaway.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 18520,
+      "end_char_index": 18708,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I didn't know that Uber had an offer for students.\nspk_1: If they do, then that is news to me.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 39604,
+      "end_char_index": 39706,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I guess, to be honest, it is More of it's.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 28318,
+      "end_char_index": 28368,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I don't really know many people who order groceries through those apps.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 28411,
+      "end_char_index": 28490,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I feel like if I'd heard through word of mouth that it was a really good option, then maybe I'd consider it more.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 28583,
+      "end_char_index": 28704,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But then potentially, I think that is my own just personal bias because it's not something I'm used to or have ever thought to do.\n",
+      "document_index": 0,
+      "document_title": "P004 - P004 - Interview Transcript",
+      "start_char_index": 29270,
+      "end_char_index": 29408,
+      "participant_id": "P004",
+      "participant_name": "P004"
+    }
+  ],
+  "_citation_count": 20
+}

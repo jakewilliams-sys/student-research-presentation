@@ -1,0 +1,354 @@
+{
+  "participant_id": "P009",
+  "scout_name": "Aayush M",
+  "scout_id": "2670196",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 16:06:38 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Uber Eats",
+        "why_ordered": "i was too lazy to cook food",
+        "reasons": [
+          "Craving / comfort",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 17:13:24 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Hi. So I ate, like, I drank drank tea with, Cadbury butters and some feta cheese in the morning. And that was a light break that was a light light breakfast because, I was running late to my uni. Then after my couple of lectures, around three or four PM, I ate protein pudding, that that I bought it from Tesco again because I was getting late for for the next lecture. So that was, like, a short lunch. I, like, basically, I skipped it, but, yeah, I think it was it was, like, worth twenty grams of protein. So that was, like, lunch done done for the day. And in the night, I had, like, a bit of heavy dinner. That was, an Indian meal. So that was, palak meal with rice. I think that was it, and I think it actually reflected my daily habit apart from the lunch because I usually have proper lunch, like, any meals or, like, with with roasted chicken or rice and all. But apart from that, that's, like, my daily routine unless I, like, order it from outside, for the dinner."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 17:18:58 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Deliveroo",
+        "why_ordered": "ordered with my flatmate because we craved for pizza",
+        "reasons": [
+          "Craving / comfort",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 23:42:53 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Hi. So I had, like, a couple of omelets. Like, not couple of, but, like, four egg omelets and a cup of coffee in the morning. And then I had a long shift today for, like, eight hours, so I didn't have my lunch today. I skipped it. I just had a coffee in there and one monster, but I didn't get a chance to click a photo of it to upload it. So that was the only thing I had in during my job. But and towards like, when I came home around eight or nine, I had some fried rice and, and lentils with it to go. And there was curd as well, but, again, couldn't take food of it. So, yeah, it was curd, lentils, and a bit of fried rice. That was it. And I think, yeah, that was my schedule for today. I think, yeah, that like, on a usual day, I would have lunch. I would be eating lunch, the one I have skipped today, but as it was, a long shift today for me, I've run jobs, so I didn't have my lunch, like, the second meal of my day. So that's the only thing that's, like, different from my daily routine. Otherwise, yeah, that's, like, my meal that's, like, my go to habit and, like, my usual routine. So, like, light breakfast and lunch, and then a bit of heavy and some, some good dinner to end the day. That's it."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 21:47:43 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Studying or working",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 22:33:14 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 00:29:37 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Hi. So I ate, Indian crepe or pancake in the morning with, with a coffee and just left for my university because I was running late to the class. So I had, like, three of them. So that was, like, a light breakfast. And then due to my classes, I missed my lunch. I just had one one cupcake kinda thing, and and that was it. And, like, one Diet Coke, and that was it. And then yeah. And then, like, after coming back from the university, we went out to have the dinner, like, in dish. So that was, like, an Indian meal I had with, a couple of chapatis and an and an Indian curry. So that was it for the day today. And, like, apart from missing the lunch again, like, I know I said this before, but apart from missing the lunch, I think that's, like, my normal routine. And, yeah, of course, like, I don't eat out outside food, that much. But, yeah, it was like we were, like, too tired and, like, we were we had a plan to go somewhere out to eat Indian food, so we just went to eat it today. So, yeah, that was that's something that reflected my day for today. Apart from that, like, my usual breakfast is like this only, just like a light breakfast with tea or coffee. And I might have lunch sometimes. Sometimes I skip it. Depends on my class and, like, my lectures. And about the dinner, mostly it's like as you may have noticed, mostly it's like home cooked meals only. But today, we try we decided to go out. So I had, me I'd so I had dinner outside in the restaurant. Thank thank you."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 4,
+    "delivery_orders": 2,
+    "delivery_apps_used": [
+      "Deliveroo",
+      "Uber Eats"
+    ],
+    "top_reasons": [
+      "Habit / routine",
+      "Craving / comfort",
+      "Time / convenience",
+      "Socialising",
+      "Didn’t feel like cooking"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

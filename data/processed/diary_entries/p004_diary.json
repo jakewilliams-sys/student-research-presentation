@@ -1,0 +1,382 @@
+{
+  "participant_id": "P004",
+  "scout_name": "Sian W",
+  "scout_id": "2668149",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 10:35:11 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "With friends",
+          "With classmates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 11:05:36 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Craving / comfort",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So for breakfast I had yogurt and fruit fiber, some grapes, and some nuts because I like protein, and gotta get some fruit and veg in. And I have the same breakfast pretty much every day. And then for lunch, I had stuffed peppers with some chicken just to make sure I got some protein in again. I stuffed peppers quite a lot because it's quite quick and easy. It's quite yummy. It's hot. I like hot food. It's nutritious. And then for dinner, I had dumplings with my flatmates because we're celebrating Lunar New Year. And that is not something I would normally do, but they were delicious."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 08:29:56 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 12:10:38 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Health reasons",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So for breakfast today, I actually skipped this meal because I ran out of time because I was going to the gym with a friend early this morning, which I do quite regularly because, generally, I I only eat breakfast if I have the time to. And then for lunch, I had cottage cheese on toast, which is something new. I'm trying to increase my protein intake and some crisps and a yogurt because I was still hungry because I didn't have breakfast. And then for dinner, I had spaghetti bolognese or pasta bolognese because at the moment, I'm at home from uni, and that is just whatever my mom was cooking. And I'm going out this evening, so I needed to eat quickly so I could get out."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 13:54:21 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 10:30:41 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Studying or working",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 11:37:53 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So for breakfast today, I had, post egg on toast at home. This is something I have quite regularly because, I like eggs, good protein, and toast. And it's quick, quick, and easy to make, and it's very cheap. And it keeps me full for most of the day. And then, for lunch, I had quite a late lunch because I was out during the day. And I needed to eat something before I went out this evening because I was knew I was going out at a certain time so I knew I was gonna be hungry before then. So I had a chicken steak and some mixed Spanish grains which was really nice and really quick to make, really easy, really cheap, not too much food. It was, something I'd make if I'm in a rush generally. I had a similar meal the other day. And then for tea, I went out with my friends because I'm haven't seen them for a while. And the restaurant that we went to has a fifty percent off offer at the moment on main meals, so it was cheaper than usual. So we thought we'd take this opportunity to go out for food. And I had, pork and mash and sauce and some mixed vegetables. And then we had a dessert as well because, the food was discounted. So we felt that it was good value for money to get a dessert as well because it would still be relatively cheap."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 3,
+    "delivery_orders": 0,
+    "delivery_apps_used": [],
+    "top_reasons": [
+      "Time / convenience",
+      "Price / budget",
+      "Studying or working",
+      "Health reasons",
+      "Habit / routine"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

@@ -1,0 +1,1659 @@
+{
+  "_metadata": {
+    "description": "Participant map linking all data sources for each participant",
+    "total_online_interviews": 29,
+    "total_in_home_interviews": 6,
+    "total_diary_study": 15,
+    "generated_from": "Google Sheets spreadsheet 1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+    "transcript_source": "Marvin MCP (project_id: 51271)",
+    "last_synced": null,
+    "segments": {
+      "undergraduate": 19,
+      "postgraduate": 4,
+      "early_graduate": 6,
+      "in_home": 6
+    }
+  },
+  "P001": {
+    "participant_id": "P001",
+    "name": "Lee R",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Thu 5 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 27587832,
+        "file_name": "Lee",
+        "duration_seconds": 2932
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "individual_doc_id": "1mkReKnsl8UcrS9U22_fEWnW5Ep4-YaBNdeHm3GOG2ps",
+        "cached_at": "processed/researcher_notes/p001_lee_r_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 2
+      }
+    },
+    "profile": {
+      "age": "18-19",
+      "gender": "Prefer not to say",
+      "year_of_study": "2nd year",
+      "university": "Dun Laoghaire IAD&T",
+      "university_city": "Dublin",
+      "current_location": "Dublin",
+      "contact_hours": "26+ hrs",
+      "living_situation": "Living with parents",
+      "food_habits": "Easy/pre-prepared meals",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "None",
+      "past_subscriptions": "None",
+      "platforms_used": [],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P002": {
+    "participant_id": "P002",
+    "name": "Rory Carrie",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Mon 9 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563029",
+        "file_name": "Rory"
+      },
+      "diary": "diary_exports/p002_rory_carrie_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p002_rory_carrie_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 3
+      }
+    },
+    "profile": {
+      "age": "26-29",
+      "gender": "Man",
+      "year_of_study": "1st year",
+      "university": "Barts and The London, Queen Mary",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "26+ hrs",
+      "living_situation": "Living alone",
+      "food_habits": "Easy/pre-prepared meals",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28563029"
+  },
+  "P003": {
+    "participant_id": "P003",
+    "name": "Indiana Kenyon",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Wed 11 Feb, 6:15-7:15pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563026",
+        "file_name": "Indiana"
+      },
+      "diary": "diary_exports/p003_indiana_kenyon_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p003_indiana_kenyon_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 4
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Woman",
+      "year_of_study": "2nd year",
+      "university": "Manchester Metropolitan University",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28563026"
+  },
+  "P004": {
+    "participant_id": "P004",
+    "name": "Sian Webber",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Thu 12 Feb, 12:00-1:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563025",
+        "file_name": "Sian"
+      },
+      "diary": "diary_exports/p004_sian_webber_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p004_sian_webber_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 5
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Woman",
+      "year_of_study": "Final year",
+      "university": "University of Bristol",
+      "university_city": "Bristol",
+      "current_location": "Bristol",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Monthly",
+      "current_subscription": "Deliveroo Plus",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28563025"
+  },
+  "P005": {
+    "participant_id": "P005",
+    "name": "Chika Sivakaran",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Thu 12 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563030",
+        "file_name": "Chika"
+      },
+      "diary": "diary_exports/p005_chika_sivakaran_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p005_chika_sivakaran_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 6
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Woman",
+      "year_of_study": "Final year",
+      "university": "University of South Wales",
+      "university_city": "Bristol",
+      "current_location": "Bristol",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living in university halls",
+      "food_habits": "Cook at home",
+      "order_frequency": "Less than every 3 months",
+      "current_subscription": "Deliveroo Plus",
+      "past_subscriptions": "Deliveroo Plus",
+      "platforms_used": [
+        "Deliveroo"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28563030"
+  },
+  "P006": {
+    "participant_id": "P006",
+    "name": "Adam P",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Fri 13 Feb, 2:00-3:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28698710",
+        "file_name": "Adam_P"
+      },
+      "diary": "diary_exports/p006_adam_p_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p006_adam_p_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 7
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Man",
+      "year_of_study": "2nd year",
+      "university": "Maynooth",
+      "university_city": "Dublin",
+      "current_location": "Cavan",
+      "contact_hours": "16-20 hrs",
+      "living_situation": "Private student accommodation",
+      "food_habits": "Order takeaway",
+      "order_frequency": "Every few days",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Deliveroo Plus",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28698710"
+  },
+  "P007": {
+    "participant_id": "P007",
+    "name": "Joshua Williamson",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Fri 13 Feb, 4:00-5:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563027",
+        "file_name": "Joshua_W"
+      },
+      "diary": "diary_exports/p007_joshua_williamson_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p007_joshua_williamson_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 8
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Man",
+      "year_of_study": "Final year",
+      "university": "University of Manchester",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Less than every 3 months",
+      "current_subscription": "None",
+      "past_subscriptions": "None",
+      "platforms_used": [],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28563027"
+  },
+  "P008": {
+    "participant_id": "P008",
+    "name": "Manoj Bhandari",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Fri 13 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28562999",
+        "file_name": "Manoj"
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p008_manoj_bhandari_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 9
+      }
+    },
+    "profile": {
+      "age": "23-25",
+      "gender": "Man",
+      "year_of_study": "Final year",
+      "university": "Brunel University",
+      "university_city": "London",
+      "current_location": "Uxbridge",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living alone",
+      "food_habits": "Cook at home",
+      "order_frequency": "Weekly",
+      "current_subscription": "Deliveroo Plus",
+      "past_subscriptions": "Deliveroo Plus",
+      "platforms_used": [
+        "Deliveroo"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28562999"
+  },
+  "P009": {
+    "participant_id": "P009",
+    "name": "Aayush Mehta",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Mon 16 Feb, 7:30-8:30pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28386497,
+        "file_name": "Aayush",
+        "duration_seconds": 2349
+      },
+      "diary": "diary_exports/p009_aayush_mehta_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p009_aayush_mehta_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 10
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Man",
+      "year_of_study": "Final year",
+      "university": "Queen Mary University of London",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "16-20 hrs",
+      "living_situation": "Living with parents",
+      "food_habits": "Order takeaway",
+      "order_frequency": "Every few days",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P010": {
+    "participant_id": "P010",
+    "name": "Dearbhla Jordan",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Mon 16 Feb, 6:15-7:15pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28386498,
+        "file_name": "Dearbhla",
+        "duration_seconds": 3216
+      },
+      "diary": "diary_exports/p010_dearbhla_jordan_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p010_dearbhla_jordan_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 11
+      }
+    },
+    "profile": {
+      "age": "30+",
+      "gender": "Woman",
+      "year_of_study": "Final year",
+      "university": "IICP College, Tallaght",
+      "university_city": "Dublin",
+      "current_location": "Dublin",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Weekly",
+      "current_subscription": "None",
+      "past_subscriptions": "Deliveroo Plus",
+      "platforms_used": [
+        "Deliveroo"
+      ],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P011": {
+    "participant_id": "P011",
+    "name": "Mrugesh Mahajan",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Tue 17 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28395856,
+        "file_name": "Mrugesh",
+        "duration_seconds": 2760
+      },
+      "diary": "diary_exports/p011_mrugesh_mahajan_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p011_mrugesh_mahajan_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 12
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Man",
+      "year_of_study": "Final year",
+      "university": "Queen Mary University of London",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Eat out",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P012": {
+    "participant_id": "P012",
+    "name": "Suryansh Jadaun",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Tue 17 Feb, 6:15-7:15pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28395857,
+        "file_name": "Suryansh",
+        "duration_seconds": 2729
+      },
+      "diary": "diary_exports/p012_suryansh_jadaun_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p012_suryansh_jadaun_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 13
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Man",
+      "year_of_study": "Final year",
+      "university": "Queen Mary University of London",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "21-25 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Order takeaway",
+      "order_frequency": "Every few days",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P013": {
+    "participant_id": "P013",
+    "name": "Joshua Olaseinde",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Wed 18 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28386496,
+        "file_name": "Josh",
+        "duration_seconds": 2381
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p013_joshua_olaseinde_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 14
+      }
+    },
+    "profile": {
+      "age": "18-19",
+      "gender": "Man",
+      "year_of_study": "1st year",
+      "university": "University of Nottingham / University of Lincoln",
+      "university_city": "Bristol",
+      "current_location": "London",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living in university halls",
+      "food_habits": "Cook at home",
+      "order_frequency": "Monthly",
+      "current_subscription": "None",
+      "past_subscriptions": "None",
+      "platforms_used": [],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P015": {
+    "participant_id": "P015",
+    "name": "Evan Dummett",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Tue 17 Feb, 7:30-8:30pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28766302",
+        "file_name": "Evan"
+      },
+      "diary": "diary_exports/p015_evan_dummett_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p015_evan_dummett_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 16
+      }
+    },
+    "profile": {
+      "age": "18-19",
+      "gender": "Man",
+      "year_of_study": "1st year",
+      "university": "Solent University",
+      "university_city": "Southampton",
+      "current_location": "Southampton",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living in university halls",
+      "food_habits": "Cook at home",
+      "order_frequency": "Weekly",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28766302"
+  },
+  "P016": {
+    "participant_id": "P016",
+    "name": "Aimee Billington",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Wed 18 Feb, 7:30-8:30pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28386151",
+        "file_name": "Aimee"
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p016_aimee_billington_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 17
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Woman",
+      "year_of_study": "2nd year",
+      "university": "University of Law",
+      "university_city": "Manchester",
+      "current_location": "Preston",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Monthly",
+      "current_subscription": "None",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Uber Eats"
+      ],
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28386151"
+  },
+  "P017": {
+    "participant_id": "P017",
+    "name": "Jill Leavy",
+    "segment": "postgraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Tue 3 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28328447,
+        "file_name": "Jill",
+        "duration_seconds": 3469
+      },
+      "diary": "diary_exports/p017_jill_leavy_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p017_jill_leavy_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Postgrad",
+        "row": 2
+      }
+    },
+    "profile": {
+      "age": "30+",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "UCD",
+      "university_city": "Dublin",
+      "current_location": "Dublin",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living alone",
+      "food_habits": "Order takeaway",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "None",
+      "past_subscriptions": "Deliveroo Plus",
+      "platforms_used": [
+        "Deliveroo"
+      ],
+      "academic_stage": "postgraduate"
+    }
+  },
+  "P018": {
+    "participant_id": "P018",
+    "name": "Louise Hawkins",
+    "segment": "postgraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Tue 10 Feb, 6:15-7:15pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563009",
+        "file_name": "Louise"
+      },
+      "diary": "diary_exports/p018_louise_hawkins_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p018_louise_hawkins_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Postgrad",
+        "row": 3
+      }
+    },
+    "profile": {
+      "age": "26-29",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "King's College London",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "0-5 hrs",
+      "living_situation": "Living with parents",
+      "food_habits": "Easy/pre-prepared meals",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Uber Eats"
+      ],
+      "academic_stage": "postgraduate"
+    },
+    "file_id": "28563009"
+  },
+  "P019": {
+    "participant_id": "P019",
+    "name": "Gita Prabhandhari",
+    "segment": "early_graduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Wed 11 Feb, 7:30-8:30pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28563016",
+        "file_name": "Gita"
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p019_gita_prabhandhari_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Postgrad",
+        "row": 4
+      }
+    },
+    "profile": {
+      "age": "30+",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "Trinity College Dublin / IOB/UCD",
+      "university_city": "Dublin",
+      "current_location": "Dublin",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living with partner",
+      "food_habits": "Cook at home",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "Uber One",
+      "past_subscriptions": "Just Eat+",
+      "platforms_used": [
+        "Uber Eats",
+        "Just Eat"
+      ],
+      "academic_stage": "graduate"
+    },
+    "file_id": "28563016"
+  },
+  "P020": {
+    "participant_id": "P020",
+    "name": "Jenna Kam",
+    "segment": "early_graduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Tue 3 Feb, 6:15-7:15pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28328446,
+        "file_name": "Jenna",
+        "duration_seconds": 3263
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p020_jenna_kam_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Early grad",
+        "row": 2
+      }
+    },
+    "profile": {
+      "age": "23-25",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "UCL",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living with partner",
+      "food_habits": "Cook at home",
+      "order_frequency": "Monthly",
+      "current_subscription": "Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Uber Eats"
+      ],
+      "academic_stage": "graduate"
+    }
+  },
+  "P021": {
+    "participant_id": "P021",
+    "name": "James Olivier",
+    "segment": "early_graduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Tue 3 Feb, 7:30-8:30pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 27587834,
+        "file_name": "James",
+        "duration_seconds": 2623
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "individual_doc_id": "1Kbh2K1KerdL5-TALLCGuNOBoDlJndcN-By4SarAELwk",
+        "cached_at": "processed/researcher_notes/p021_james_olivier_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Early grad",
+        "row": 3
+      }
+    },
+    "profile": {
+      "age": "30+",
+      "gender": "Man",
+      "year_of_study": "N/A",
+      "university": "Bristol University",
+      "university_city": "Bristol",
+      "current_location": "Bristol",
+      "contact_hours": "16-20 hrs",
+      "living_situation": "Living with partner",
+      "food_habits": "Easy/pre-prepared meals",
+      "order_frequency": "Weekly",
+      "current_subscription": "Both Plus & Uber One",
+      "past_subscriptions": "Just Eat+",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat"
+      ],
+      "academic_stage": "graduate"
+    }
+  },
+  "P022": {
+    "participant_id": "P022",
+    "name": "Katie Leach",
+    "segment": "early_graduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Wed 4 Feb, 3:45-4:45pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28328244,
+        "file_name": "Katie",
+        "duration_seconds": 2690
+      },
+      "diary": "diary_exports/p022_katie_leach_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p022_katie_leach_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Early grad",
+        "row": 4
+      }
+    },
+    "profile": {
+      "age": "26-29",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "Trinity College Dublin",
+      "university_city": "Dublin",
+      "current_location": "Manchester",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Fortnightly",
+      "current_subscription": "Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Uber Eats"
+      ],
+      "academic_stage": "graduate"
+    }
+  },
+  "P023": {
+    "participant_id": "P023",
+    "name": "Alexandra Thacker",
+    "segment": "early_graduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Thu 5 Feb, 6:15-7:15pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 27587833,
+        "file_name": "Alexandra",
+        "duration_seconds": 2702
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "individual_doc_id": "17ByADXaUYomMNHTY-oxQGt--VX61uy7pGkTY7X7r0xw",
+        "cached_at": "processed/researcher_notes/p023_alexandra_thacker_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Early grad",
+        "row": 5
+      }
+    },
+    "profile": {
+      "age": "23-25",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "UCL",
+      "university_city": "London",
+      "current_location": "London",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living with parents",
+      "food_habits": "Cook at home",
+      "order_frequency": "Monthly",
+      "current_subscription": "None",
+      "past_subscriptions": "None",
+      "platforms_used": [],
+      "academic_stage": "graduate"
+    }
+  },
+  "P024": {
+    "participant_id": "P024",
+    "name": "Edna Paulo",
+    "segment": "early_graduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": true,
+    "session": "Wed 11 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28562936",
+        "file_name": "Edna"
+      },
+      "diary": "diary_exports/p024_edna_paulo_diary.json",
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": "processed/researcher_notes/p024_edna_paulo_notes.md"
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Early grad",
+        "row": 6
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "Nottingham Trent University",
+      "university_city": "Bristol",
+      "current_location": "London",
+      "contact_hours": "16-20 hrs",
+      "living_situation": "Living with friends",
+      "food_habits": "Cook at home",
+      "order_frequency": "Every few days",
+      "current_subscription": "Uber One",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Uber Eats"
+      ],
+      "academic_stage": "graduate"
+    },
+    "file_id": "28562936"
+  },
+  "P025": {
+    "participant_id": "P025",
+    "name": "James",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699062",
+        "file_name": "James"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "James",
+      "age": "22",
+      "gender": "Man",
+      "university": "Manchester Metropolitan University",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "year_of_study": "3rd year",
+      "living_situation": "Shared House",
+      "order_frequency": "Fortnightly",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699062"
+  },
+  "P026": {
+    "participant_id": "P026",
+    "name": "Bobbi",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": "Mon 16 Feb, 3:00pm",
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699063",
+        "file_name": "Bobbi"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "140gtXs126Jzk4N44TGOcvOU_siEAsW9UG1Oi-gOQ74U",
+        "sheet_name": "Sheet1",
+        "row": 4
+      }
+    },
+    "profile": {
+      "name": "Bobbi",
+      "age": "22",
+      "gender": "Woman",
+      "university": "Manchester Metropolitan University",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "year_of_study": "1st year",
+      "living_situation": "Shared House",
+      "order_frequency": "More than once a week",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699063"
+  },
+  "P027": {
+    "participant_id": "P027",
+    "name": "Leah",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699074",
+        "file_name": "Leah"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Leah",
+      "age": "20",
+      "gender": "Woman",
+      "university": "University of Manchester",
+      "university_city": "Manchester",
+      "current_location": "Manchester",
+      "year_of_study": "2nd year",
+      "living_situation": "Shared House",
+      "order_frequency": "Fortnightly",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699074"
+  },
+  "P028": {
+    "participant_id": "P028",
+    "name": "Anya",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699067",
+        "file_name": "Anya"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Anya",
+      "age": "20",
+      "gender": "Woman",
+      "university": "Nottingham Trent University",
+      "university_city": "Nottingham",
+      "current_location": "Nottingham",
+      "year_of_study": "3rd year",
+      "living_situation": "Shared house",
+      "order_frequency": "Fortnightly",
+      "platforms_used": [
+        "Deliveroo",
+        "Just Eat"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699067"
+  },
+  "P029": {
+    "participant_id": "P029",
+    "name": "Samuel",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699060",
+        "file_name": "Samuel"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Samuel",
+      "age": "20",
+      "gender": "Man",
+      "university": "Nottingham Trent University",
+      "university_city": "Nottingham",
+      "current_location": "Nottingham",
+      "year_of_study": "1st year",
+      "living_situation": "University halls",
+      "order_frequency": "More than once a week",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat",
+        "GoPuff"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699060"
+  },
+  "P030": {
+    "participant_id": "P030",
+    "name": "Barnaby",
+    "segment": "in_home",
+    "interview_type": "in_home",
+    "discussion_guide": "in_home",
+    "has_order_observation": true,
+    "has_diary": false,
+    "session": null,
+    "recruitment_source": "ResearchBods",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699065",
+        "file_name": "Barnaby"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "name": "Barnaby",
+      "age": "21",
+      "gender": "Man",
+      "university": "University of Nottingham",
+      "university_city": "Nottingham",
+      "current_location": "Nottingham",
+      "year_of_study": "2nd year",
+      "living_situation": "Shared house",
+      "order_frequency": "Weekly",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats",
+        "Just Eat"
+      ],
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "file_id": "28699065"
+  },
+  "_diary_study_participants": [
+    "P018",
+    "P002",
+    "P003",
+    "P004",
+    "P005",
+    "P007",
+    "P006",
+    "P017",
+    "P010",
+    "P022",
+    "P024",
+    "P009",
+    "P011",
+    "P012",
+    "P015"
+  ],
+  "_in_home_participants": [
+    "P025",
+    "P026",
+    "P027",
+    "P028",
+    "P029",
+    "P030"
+  ],
+  "P031": {
+    "participant_id": "P031",
+    "name": "Apollo Musibi",
+    "segment": "postgraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Thu 19 Feb, 1:30-2:30pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28386154,
+        "file_name": "Apollo",
+        "duration_seconds": 3510
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": null
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Postgrad",
+        "row": 5
+      }
+    },
+    "profile": {
+      "age": "26-29",
+      "gender": "Man",
+      "year_of_study": "N/A",
+      "university": "University College Dublin",
+      "university_city": "Dublin",
+      "current_location": "Dublin",
+      "contact_hours": "6-10 hrs",
+      "living_situation": "Living in university halls",
+      "food_habits": "Cook at home",
+      "order_frequency": "Less than every 3 months",
+      "current_subscription": "None",
+      "past_subscriptions": "None",
+      "platforms_used": [
+        "Deliveroo",
+        "Uber Eats"
+      ],
+      "academic_stage": "postgraduate"
+    }
+  },
+  "P032": {
+    "participant_id": "P032",
+    "name": "Francesca Buga",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Fri 20 Feb, 5:00-6:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": 28386152,
+        "file_name": "Francesca",
+        "duration_seconds": 2377
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": null
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Undergrad",
+        "row": 18
+      }
+    },
+    "profile": {
+      "age": "20-22",
+      "gender": "Woman",
+      "year_of_study": "Final year",
+      "university": "Dublin City University",
+      "university_city": "Dublin",
+      "current_location": "Dublin",
+      "contact_hours": "11-15 hrs",
+      "living_situation": "Living with parents",
+      "food_habits": "Eat easy/pre-prepared meals",
+      "order_frequency": "Less than every 3 months",
+      "current_subscription": "None",
+      "past_subscriptions": "Uber One",
+      "platforms_used": [
+        "Deliveroo",
+        "Just Eat"
+      ],
+      "academic_stage": "undergraduate"
+    }
+  },
+  "P034": {
+    "participant_id": "P034",
+    "name": "Jade Kosché",
+    "segment": "postgraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "session": "Mon 23 Feb, 12:00-1:00pm",
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "file_id": "28699025",
+        "file_name": "Jade"
+      },
+      "diary": null,
+      "notes": {
+        "source": "google_docs",
+        "master_doc_id": "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q",
+        "cached_at": null
+      },
+      "profile": {
+        "source": "google_sheets",
+        "sheet_id": "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM",
+        "sheet_name": "Postgrad",
+        "row": 6
+      }
+    },
+    "profile": {
+      "age": "26-29",
+      "gender": "Woman",
+      "year_of_study": "N/A",
+      "university": "University of Oxford",
+      "university_city": "Oxford",
+      "current_location": "Oxford",
+      "contact_hours": "21-25 hrs",
+      "living_situation": "Living in university halls",
+      "food_habits": "Order takeaway",
+      "order_frequency": "Every few days",
+      "current_subscription": "Deliveroo Plus",
+      "past_subscriptions": "Deliveroo Plus",
+      "platforms_used": [
+        "Deliveroo"
+      ],
+      "academic_stage": "postgraduate"
+    },
+    "file_id": "28699025"
+  },
+  "P035": {
+    "name": "Salma",
+    "file_id": "28744386",
+    "interview_type": "online",
+    "segment": "undergraduate",
+    "profile": {
+      "name": "Salma",
+      "university": "University of Bath",
+      "segment": "undergraduate",
+      "academic_stage": "undergraduate"
+    },
+    "sources": {
+      "transcript": {
+        "marvin_file_id": "28744386",
+        "cached_at": "data/processed/transcripts/28744386_Salma.json"
+      },
+      "interview": {
+        "source": "marvin",
+        "file_id": "28744386",
+        "file_name": "Salma"
+      }
+    }
+  },
+  "P036": {
+    "participant_id": "P036",
+    "name": "Maya",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "moderator": "self",
+    "session": null,
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": "28837634",
+        "file_name": "Maya"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "age": null,
+      "gender": null,
+      "year_of_study": "1st year",
+      "university": "University of Bath",
+      "university_city": "Bath",
+      "current_location": "Bath",
+      "contact_hours": null,
+      "living_situation": "Living in university halls",
+      "food_habits": null,
+      "order_frequency": null,
+      "current_subscription": null,
+      "past_subscriptions": null,
+      "platforms_used": [],
+      "academic_stage": "undergraduate",
+      "halls_name": "Quads",
+      "flatmates_count": 9
+    },
+    "file_id": "28837634"
+  },
+  "P037": {
+    "participant_id": "P037",
+    "name": "Sofia",
+    "segment": "undergraduate",
+    "interview_type": "online",
+    "discussion_guide": "online_v2",
+    "has_order_observation": false,
+    "has_diary": false,
+    "moderator": "self",
+    "session": null,
+    "sources": {
+      "interview": {
+        "source": "marvin",
+        "project_id": 51271,
+        "file_id": "28837633",
+        "file_name": "Sofia"
+      },
+      "diary": null,
+      "notes": null,
+      "profile": null
+    },
+    "profile": {
+      "age": null,
+      "gender": null,
+      "year_of_study": "1st year",
+      "university": "University of Bath",
+      "university_city": "Bath",
+      "current_location": "Bath",
+      "contact_hours": null,
+      "living_situation": "Living in university halls",
+      "food_habits": null,
+      "order_frequency": null,
+      "current_subscription": null,
+      "past_subscriptions": null,
+      "platforms_used": [],
+      "academic_stage": "undergraduate",
+      "halls_name": "Quads",
+      "flatmates_count": 9
+    },
+    "file_id": "28837633"
+  }
+}

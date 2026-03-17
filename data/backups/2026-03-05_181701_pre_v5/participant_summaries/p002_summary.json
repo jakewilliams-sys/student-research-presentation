@@ -1,0 +1,94 @@
+{
+  "participant_id": "P002",
+  "summary": "Rory is a 26-29 year old medical student who has created a highly systematized approach to food that prioritizes efficiency over enjoyment. Having transitioned from dentistry to medicine, he operates with the pragmatic mindset of someone managing multiple demands - full-time medical placement, part-time dental work, and business interests. His food strategy is built around outsourcing: meal prep deliveries for weekday dinners, repetitive lunch preparation, and strategic use of delivery apps when his systems break down. He approaches food decisions with the same analytical framework he applies to everything else, from loyalty programs to subscription services. What's striking is his complete separation of cooking from daily life - it exists only as a social activity for entertaining others, never for personal nourishment or pleasure. His relationship with delivery apps mirrors his broader approach to life: highly optimized, loyalty-driven when it serves his efficiency goals, but ultimately transactional rather than emotional.",
+  "personality_notes": "Analytical and efficiency-focused communicator who gives detailed, structured responses. Approaches decisions systematically and shows strong optimization mindset. Pragmatic rather than emotional in his explanations.",
+  "food_relationship": "Food is purely functional - a problem to be solved through systematic outsourcing rather than a source of pleasure or creativity.",
+  "key_moments": [
+    {
+      "timestamp": "23:20",
+      "description": "Describes cooking as 'almost never' except when entertaining others",
+      "significance": "Reveals complete separation between food as fuel vs food as social activity"
+    },
+    {
+      "timestamp": "38:50",
+      "description": "Admits to 'terrible habit' of eating same lunch for months until sick of it",
+      "significance": "Shows tension between claimed lack of food stress and actual problematic patterns"
+    },
+    {
+      "timestamp": "81:50",
+      "description": "Explains comprehensive Uber ecosystem loyalty strategy",
+      "significance": "Demonstrates how he systematizes all life decisions, including food delivery"
+    }
+  ],
+  "what_not_said": [
+    "Any emotional connection to food or cooking",
+    "Family food traditions or influences",
+    "Food as pleasure or enjoyment",
+    "Any health considerations beyond convenience"
+  ],
+  "initial_hypotheses": [
+    "Food decisions are driven entirely by efficiency optimization rather than taste or health",
+    "His systematic approach may mask underlying food relationship issues or avoidance",
+    "Delivery apps succeed with him when they integrate into broader life systems rather than standalone food solutions",
+    "His 'terrible habit' comment suggests some awareness that his food patterns aren't ideal but no motivation to change"
+  ],
+  "questions_for_coding": [
+    "How do highly systematic users like Rory evaluate food delivery platforms differently?",
+    "What role does ecosystem integration play in platform loyalty for efficiency-focused users?",
+    "How do users rationalize problematic food patterns while claiming no stress?",
+    "What triggers cause systematic food approaches to break down and require delivery?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: And I'm also someone that if there's not stuff going on and I'm not learning, then I'm going to go home and do something else or study from home type of thing.\n",
+      "document_index": 0,
+      "document_title": "P002 - P002 - Interview Transcript",
+      "start_char_index": 1995,
+      "end_char_index": 2162,
+      "participant_id": "P002",
+      "participant_name": "P002"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Yeah, probably like 6, 6:30.\nspk_0: I subscribe to like a meal prep plan thing.\nspk_0: So for Monday to Friday I just have like meals delivered on a Monday and then I just heat them up in the evenings.\nspk_0: Yeah, great.\n",
+      "document_index": 0,
+      "document_title": "P002 - P002 - Interview Transcript",
+      "start_char_index": 7433,
+      "end_char_index": 7662,
+      "participant_id": "P002",
+      "participant_name": "P002"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: Like almost never. I only really cook if it's like I'm cooking for someone or people are coming over, which is maybe like once every two, three months or something like that.\n",
+      "document_index": 0,
+      "document_title": "P002 - P002 - Interview Transcript",
+      "start_char_index": 10723,
+      "end_char_index": 10905,
+      "participant_id": "P002",
+      "participant_name": "P002"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "None are really that stressful.\nspk_0: Like my lunches are pretty like low, like intervention, I don't have to do much for them.\nspk_0: And I also have a terrible habit of basically just making the same thing for months at a time until I get sick of it and then just change something else.\nspk_0: So then it means that I'm basically every night I'm just making the same thing for lunch the next day.\nspk_0: And then as we've already discussed that my dinners are already like delivered.\nspk_0: So I don't think any meal really like stresses me out.\n",
+      "document_index": 0,
+      "document_title": "P002 - P002 - Interview Transcript",
+      "start_char_index": 13852,
+      "end_char_index": 14401,
+      "participant_id": "P002",
+      "participant_name": "P002"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: So the reason, obviously I have Uber one, but basically the reason that I now use Uber for essentially everything is because they have now integrated with like you can buy your plane tickets, you can buy train tickets, you can buy Eurostar tickets, like they.\nspk_0: And you can hire cars and stuff as well as order a taxi or order food.\nspk_0: So. And then because I have Uber one, you then get credits back and then you also, you can link your BA account and you can get Avios on it as well.\nspk_0: So that's why I basically just use Uber for everything because you get all those additional perks on it and then with the Uber one you get, that's what gives you the credits, I think.\nspk_0: But you then get like the credits backward discounted rates and you get free delivery, that type of thing.\nspk_0: So for another company for me to switch, they would have to be a lot more than just being like a food delivery app.\nspk_0: Like I use Uber Eats more than anything else, but I use it because I was already using Uber for everything else.\n",
+      "document_index": 0,
+      "document_title": "P002 - P002 - Interview Transcript",
+      "start_char_index": 31841,
+      "end_char_index": 32890,
+      "participant_id": "P002",
+      "participant_name": "P002"
+    }
+  ],
+  "_citation_count": 5
+}

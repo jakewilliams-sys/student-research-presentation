@@ -1,0 +1,385 @@
+{
+  "participant_id": "P018",
+  "scout_name": "Louise H",
+  "scout_id": "2668243",
+  "segment": "Postgrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 22:58:27 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Brought in food from home to work",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Studying or working",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With colleagues"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With partner",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 21:56:59 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Brought in food from home to work",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With a colleague"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Uber Eats",
+        "why_ordered": "I was coming home late from work and fancied something which and easy. \nI chose this restaurant because it was quick and I got a deal for 2 with it. \nI used Uber eats because I have uber one so get free deliveries and discounts.",
+        "reasons": [
+          "Time / convenience",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "For my food today, for breakfast, I ate, like, zero percent fat Greek yogurt and fruit on top with a side of kiwi, and a protein shake. This is a very typical breakfast. I have this pretty much every day, near enough. Sometimes not on the weekends, but this is a very, very typical day to day food for me, because I like getting my protein in early in the morning because I feel like it fuels me for the day. It's a very quick way of getting my protein in, very tasty way. I really enjoy that breakfast. I also like it because it's quick. I was going to work, so I wanted something easy, quick that's gonna fill me up for the day. For my lunch, I had a I had leftovers from last night. I had, like, a barbecue style chicken with broccoli and potatoes from leftovers from last night. This is quite common. Most of the time, I will take food from the night before to work. This was quick, cheap. It's, you know, quite cheap for me to bring food in. I don't get that long on my break for work, so it's quite easy for me to cook the night before, warm it up and work, and then bring it in. And, again, kind of like I am trying to focus on my protein goals, so that was a good way of me getting some protein in middle of the day. For dinner, I had, I ordered Uber Eats. I had a cheeseburger and chips with a chocolate milkshake. I decided to use Uber Eats because I am an Uber One member. So I got free delivery, and I think I get some sort of deal with that. The burgers that I the deal that I ordered was two burgers for twenty eight pound, two burgers and chips for twenty eight pound. This was for me and my partner, so it was a a good deal because it worked out well because we both, you know, got home late. And it was quick, easy, relatively cheap. The food came well. It was nice. It was a bit of a cheat cheat meal for us. I had planned to cook food, but I got home late and wanted just something easy and comforting, and that was the best option. And, yeah, that's that's what I ate today. This I would say it mostly reflects my typical day to day habits, in terms of my lunch and my breakfast because I often I have something high in protein, especially in the morning. So Greek yogurt is a very good way of getting that in. In terms of the evening, sometimes sometimes I'll order out. Like, today, I got home very late from work, and I was quite tired. And I wanted something comforting and nice, so I ordered out. But sometimes I also you know, it's cheaper for me just to cook it at home, so I don't want to eat out too much and, like, order in food as much. So, it kind of really varies. But I'm not working tomorrow, so it's more of a treat meal, if anything."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 21:20:52 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Brought food prepared at home with me in the car",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 20:27:21 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Bought food from a takeaway",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So this weekend, I've come away, to see some friends from uni. So today, I woke up late, and was kind of running late to meet my friend. So I didn't have a chance to eat breakfast. So I had, quite a late lunch. This weekend, we've me and my friends have driven down to the seaside to Swansea to have a weekend away. On the way, my friend and I, we were hauled up to a shop, and we just got some bits. But I didn't really have any breakfast. So I got the Lunchable to have on the way because it's cheap. It was quick. And that was something important to me. I didn't want it to pay a lot. I wanted something easy, hassle free. I wouldn't say that's normal for me. I haven't had Lunchable for a long time, but it was something that was cheap at the time. Normally, I'd have something high protein in the morning. But where I woke up late, it was kinda rushing. I also wasn't particularly hungry on the way down because I just was in the car. Then we got here. We explored for a little bit. And now we've come back to our Airbnb and had the fish and chips for dinner, which we know is quite a bigger dinner. This isn't probably a normal day of what I'd eat normally, but it matched the circumstances where I'm not at home and out of my routine. Normally, I'd focus on having, like, quite a high protein meal, in the morning for breakfast and then something for lunch. But where I was out of my routine it was something different. And the price was quite important for me like I didn't want to pay a lot of money on the way so therefore I got the Lunchable. The fish and chips we picked up we just grabbed them from a local fish and chip shop we didn't order them on an app we didn't, telephone before nothing like that we just walked into the fish and chip shop and ordered there."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 16:26:45 +0000",
+      "breakfast": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With partner",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 12:36:35 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Brough leftovers into work from last night",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Studying or working"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With partner",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 18:39:56 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With partner",
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "Today was a somewhat typical day. I started my day off by having shredded wheat, cereal and a coffee at home. For lunch, I met my Nan and we had Nando's. I only wanted a little meal because I feel like Nando's give quite good quite big portions and It's cheaper. The kids meal is only six pound fifty. I believe so it's a bit cheaper, and we shared a side of Halloumi Halloumi fries, or Halloumi slices. And then for dinner, I am at my partner's house. So she cooked for me. We had gnocchi with a beef ragu sauce. So, yeah, somewhat typical. Typical. It was a bit of a different day in some regards because I was working from home today. So I had a bit more flexibility with my timings. So You know, I probably wouldn't normally go out to eat in in the middle in the middle of the week, but where I was working from home, I Didn't have any kind of commitment with deadlines in terms of university and work. I was able to go and meet my nan for lunch For breakfast, I don't normally have cereal but where I was in meeting my Nan for lunch and eating out for lunch I didn't want to have too big of a breakfast And my dinner I've not actually really had the sort of gnocchi that we had but we had kind of fried gnocchi with beef ragu We have had fried gnocchi before but not in a sort of ragu sauce So that was something different than we tried. I do really like trying kind of new foods So if I see something online, so for example, this recipe was something that we saw online On TikTok. I feel like I get a lot of inspiration for my food from TikTok for meals to cook at home and also to eat out so I'd say this in terms of it wasn't a massively average day because I didn't I wasn't working in in the office. But in terms of how I decided my food, I'd say it was a very typical day. Like it does reflect my day typical day to day food habits in the sense of I chose to go to Nando's and have a kids meal because of price and budget and this is when I hold really important like I value good good value food and good price and things like that. And in terms of cooking at home, I'd say this is a very typical thing for me to do most nights I cook at home. Even myself or my family, like a family member or my partner if I'm at her house, she'll cook. So I do often cook at home and I do enjoy cooking. However, I get a lot of inspiration from social media Specifically TikTok or Instagram, but definitely TikTok. So this was a recipe that I saw on TikTok. We both liked it and thought let's cook it for dinner tonight for her family and for me So that's kind of the food choices that I made. In terms of cereal, I don't really eat cereal normally, but it was cheap. It was easy. It was something that I had in the house and quick because I was working from home. So I wanted to go on with some work in the morning. And I also didn't want to have too heavy of a meal. I would say the only difference from today in terms of my normal day to day kind of meals are I normally focus a lot around protein. I like to get a protein shake in the morning or a yogurt, protein yogurt, something like that. But I didn't really focus on that today. Mainly because just of I hadn't really thought about it. I just I was at home. I wasn't really doing anything that I needed like a high protein meal full. Like I wasn't gonna be tired or hungry. And I was gonna have a big lunch, so I knew that I didn't need to be too full in the morning. But yeah, it was a typical rough kind of day to day but Different in the sense that I was working from home, but the decisions that I made were quite typical for me"
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 1,
+    "delivery_orders": 1,
+    "delivery_apps_used": [
+      "Uber Eats"
+    ],
+    "top_reasons": [
+      "Time / convenience",
+      "Price / budget",
+      "Habit / routine",
+      "Socialising",
+      "Studying or working"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

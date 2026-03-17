@@ -1,0 +1,130 @@
+{
+  "deep_dive_id": "DD_003",
+  "focus": "Social influence mechanisms beyond group ordering",
+  "findings": {
+    "hypothesis_tested": "Social influence on food delivery operates through multiple mechanisms beyond group ordering, with different mechanisms being more powerful for different personas and contexts",
+    "verdict": "CONFIRMED - Multiple distinct social influence mechanisms identified with clear persona and context patterns",
+    "evidence": [
+      {
+        "mechanism": "peer_validation_seeking",
+        "segments": [
+          {
+            "participant_id": "P001",
+            "text": "I'm really bad at responding on social media, so I don't spend, like, a lot of time texting. But I guess other platforms, like Discord, just for college work... I would be contacting people in my class on that a lot as well.",
+            "context": "Animation student using Discord for class coordination - peer connection through academic channels",
+            "influence_type": "peer_validation_seeking"
+          },
+          {
+            "participant_id": "P016",
+            "text": "Blank street is a big one. Matcha a lot of times from there. But because I saw it on TikTok and I was like, I do really want to try that and I was influenced by it and I did.",
+            "context": "Direct social media influence leading to purchase - validation through trying trending items",
+            "influence_type": "social_media_validation"
+          }
+        ]
+      },
+      {
+        "mechanism": "flatmate_lifestyle_modeling",
+        "segments": [
+          {
+            "participant_id": "P007",
+            "text": "I mean, a lot of the time we'll cook together or, you know, we'll cook individual meals, but we'll all be cooking together or we'll do the food shop together, but it will always be sort of on an individual basis.",
+            "context": "8-person house with synchronized but individual food decisions - modeling without direct coordination",
+            "influence_type": "lifestyle_modeling"
+          },
+          {
+            "participant_id": "P025",
+            "text": "But a lot of the time, my flatmate and I just make dinners together. There's only two of us, so it just makes sense.",
+            "context": "Close flatmate relationship influencing daily food decisions through convenience and companionship",
+            "influence_type": "convenience_companionship"
+          }
+        ]
+      },
+      {
+        "mechanism": "social_occasion_creation",
+        "segments": [
+          {
+            "participant_id": "P016",
+            "text": "So like say pancake day, for example, we'll all get the ingredients together and then do it together... Or like we'll probably do like Galentine's as well.",
+            "context": "Creating special occasions that justify group food experiences",
+            "influence_type": "occasion_creation"
+          },
+          {
+            "participant_id": "P027",
+            "text": "No, I feel like on the weekend is when I end up, like, I don't know, like going out for food or ordering food or something. Or, like, we'll have plans and stuff, and then we'll, like, go out for food.",
+            "context": "Weekend social plans naturally incorporating food decisions",
+            "influence_type": "social_planning"
+          }
+        ]
+      },
+      {
+        "mechanism": "parental_influence_persistence",
+        "segments": [
+          {
+            "participant_id": "P001",
+            "text": "My mom does a lot of the cooking, but she's very busy. Like, both my parents are working full-time as well, so, like, a lot of the time we would have to order food home.",
+            "context": "Living at home - parental decisions directly influencing delivery habits",
+            "influence_type": "direct_parental_control"
+          }
+        ]
+      },
+      {
+        "mechanism": "social_media_trend_following",
+        "segments": [
+          {
+            "participant_id": "P003",
+            "text": "I quite often like search for like recipes and stuff. So because I've searched them, they'll come up quite a lot. Whereas I don't use Instagram much, so it doesn't really like this. I don't have kind of a tailored algorithm, whereas I definitely do on Tick Tock.",
+            "context": "Algorithm-driven content exposure creating food inspiration and trends",
+            "influence_type": "algorithmic_influence"
+          },
+          {
+            "participant_id": "P016",
+            "text": "Yeah, like I'll look up like recipes and stuff for ideas as well... Oh yeah, I do see a couple of those. Yeah. If there's like pop up events around Manchester.",
+            "context": "Social media driving awareness of local food events and trends",
+            "influence_type": "local_trend_awareness"
+          }
+        ]
+      }
+    ],
+    "new_insight": "Social influence operates through five distinct mechanisms with clear persona patterns: 1) Peer validation seeking (strongest among intensive course students like P001), 2) Flatmate lifestyle modeling (dominant in larger houses like P007's 8-person setup), 3) Social occasion creation (common among social students like P016), 4) Parental influence persistence (for home-living students like P001), and 5) Social media trend following (universal but varies by platform engagement). The power of each mechanism correlates with living situation, course intensity, and social media usage patterns.",
+    "persona_mechanism_mapping": {
+      "intensive_course_students": {
+        "primary_mechanism": "peer_validation_seeking",
+        "evidence": "P001 uses Discord for class coordination, creating peer connections that could influence food choices during long college days",
+        "delivery_opportunity": "Target during high-stress project periods when peer validation and convenience intersect"
+      },
+      "large_house_dwellers": {
+        "primary_mechanism": "flatmate_lifestyle_modeling",
+        "evidence": "P007's 8-person house shows synchronized individual decisions - people model each other's timing and choices without explicit coordination",
+        "delivery_opportunity": "Target one influential flatmate to create modeling behavior for others"
+      },
+      "social_planners": {
+        "primary_mechanism": "social_occasion_creation",
+        "evidence": "P016 and P027 both create food-centered social occasions, from special days to weekend plans",
+        "delivery_opportunity": "Promote group ordering features and occasion-specific deals"
+      },
+      "home_living_students": {
+        "primary_mechanism": "parental_influence_persistence",
+        "evidence": "P001 shows direct parental control over food decisions including delivery",
+        "delivery_opportunity": "Family-friendly messaging and value positioning for household orders"
+      },
+      "high_social_media_users": {
+        "primary_mechanism": "social_media_trend_following",
+        "evidence": "P016's Blank Street matcha purchase directly from TikTok influence shows strong social media responsiveness",
+        "delivery_opportunity": "Partner with trending food content creators and leverage algorithm targeting"
+      }
+    },
+    "mechanism_interaction_patterns": [
+      {
+        "interaction": "flatmate_modeling + social_media_trends",
+        "evidence": "P025 cooks with flatmate but also mentions treating self to 'nice food' - social media trends likely influence what constitutes 'nice'",
+        "implication": "Social media sets aspirations, flatmates provide permission/validation to act on them"
+      },
+      {
+        "interaction": "peer_validation + convenience",
+        "evidence": "P001's intensive course creates peer bonds through shared struggle, making convenience solutions more socially acceptable",
+        "implication": "High-stress academic periods make peer-validated convenience choices more powerful"
+      }
+    ],
+    "recommendation_update": "Develop persona-specific social influence strategies: 1) For intensive course students, create peer-to-peer referral programs activated during high-stress periods, 2) For large houses, implement 'house influencer' programs targeting one key flatmate, 3) For social planners, enhance group ordering features with occasion-specific promotions, 4) For home-living students, develop family value messaging, 5) For high social media users, invest in trending content partnerships and algorithm optimization. The key insight is that social influence is not one-size-fits-all but requires matching mechanism to persona and context."
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "_metadata": {
+    "created_at": "2026-02-26T17:35:02.917277+00:00",
+    "last_updated": "2026-02-27T01:23:08.164187+00:00",
+    "agent_names": [
+      "summary",
+      "analysis",
+      "triangulation",
+      "persona",
+      "insight",
+      "quality",
+      "advocate"
+    ]
+  },
+  "participants": {
+    "P001": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:35:02.920415+00:00",
+        "completed_at": "2026-02-26T17:35:38.593870+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p001_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T18:04:31.978286+00:00",
+        "completed_at": "2026-02-26T18:11:58.766314+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p001_coded.json"
+      }
+    },
+    "P002": {},
+    "P003": {},
+    "P004": {},
+    "P005": {},
+    "P006": {},
+    "P007": {},
+    "P008": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:39:30.464816+00:00",
+        "completed_at": "2026-02-26T17:40:14.497527+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p008_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T19:34:56.914058+00:00",
+        "completed_at": "2026-02-26T19:42:42.720408+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p008_coded.json"
+      }
+    },
+    "P009": {},
+    "P010": {},
+    "P011": {},
+    "P012": {},
+    "P013": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:42:52.833685+00:00",
+        "completed_at": "2026-02-26T17:43:33.867078+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p013_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T22:14:14.959508+00:00",
+        "completed_at": "2026-02-26T22:19:49.360189+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p013_coded.json"
+      }
+    },
+    "P015": {},
+    "P016": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:44:24.330192+00:00",
+        "completed_at": "2026-02-26T17:45:05.583586+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p016_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T23:52:05.125359+00:00",
+        "completed_at": "2026-02-26T23:58:21.342439+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p016_coded.json"
+      }
+    },
+    "P017": {},
+    "P018": {},
+    "P019": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:46:23.745135+00:00",
+        "completed_at": "2026-02-26T17:46:56.825351+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p019_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:06:29.592460+00:00",
+        "completed_at": "2026-02-27T00:08:12.502743+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p019_coded.json"
+      }
+    },
+    "P020": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:46:56.826209+00:00",
+        "completed_at": "2026-02-26T17:47:37.506572+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p020_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T22:26:38.630345+00:00",
+        "completed_at": "2026-02-26T22:30:12.728977+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p020_coded.json"
+      }
+    },
+    "P021": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:47:37.507054+00:00",
+        "completed_at": "2026-02-26T17:48:17.770255+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p021_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T21:42:31.441922+00:00",
+        "completed_at": null
+      }
+    },
+    "P022": {},
+    "P023": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:48:53.841481+00:00",
+        "completed_at": "2026-02-26T17:49:34.004099+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p023_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T22:37:55.148367+00:00",
+        "completed_at": "2026-02-26T22:41:14.976645+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p023_coded.json"
+      }
+    },
+    "P024": {},
+    "P025": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:50:09.263750+00:00",
+        "completed_at": "2026-02-26T17:50:47.587876+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p025_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:08:12.506048+00:00",
+        "completed_at": "2026-02-27T00:13:10.195063+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p025_coded.json"
+      }
+    },
+    "P026": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:50:47.588449+00:00",
+        "completed_at": "2026-02-26T17:51:31.164010+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p026_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:13:10.198326+00:00",
+        "completed_at": "2026-02-27T00:16:20.227089+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p026_coded.json"
+      }
+    },
+    "P027": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:51:31.164577+00:00",
+        "completed_at": "2026-02-26T17:52:07.575005+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p027_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:16:20.230654+00:00",
+        "completed_at": "2026-02-27T00:24:06.825327+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p027_coded.json"
+      }
+    },
+    "P028": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:52:07.575681+00:00",
+        "completed_at": "2026-02-26T17:52:48.491166+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p028_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:24:06.828905+00:00",
+        "completed_at": "2026-02-27T00:26:23.978857+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p028_coded.json"
+      }
+    },
+    "P029": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:52:48.492295+00:00",
+        "completed_at": "2026-02-26T17:53:26.343328+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p029_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:26:23.981771+00:00",
+        "completed_at": "2026-02-27T00:32:46.306490+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p029_coded.json"
+      }
+    },
+    "P030": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:53:26.344373+00:00",
+        "completed_at": "2026-02-26T17:54:15.550755+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p030_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:32:46.308774+00:00",
+        "completed_at": "2026-02-27T00:39:47.893639+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p030_coded.json"
+      }
+    },
+    "P031": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:54:15.551920+00:00",
+        "completed_at": "2026-02-26T17:54:52.733799+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p031_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T22:47:52.864470+00:00",
+        "completed_at": "2026-02-26T22:50:38.401281+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p031_coded.json"
+      }
+    },
+    "P032": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:54:52.735001+00:00",
+        "completed_at": "2026-02-26T17:55:27.305422+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p032_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-26T22:50:38.402088+00:00",
+        "completed_at": "2026-02-26T22:57:10.955029+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p032_coded.json"
+      }
+    },
+    "P034": {
+      "summary": {
+        "status": "completed",
+        "started_at": "2026-02-26T17:55:27.306704+00:00",
+        "completed_at": "2026-02-26T17:56:04.544365+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/participant_summaries/p034_summary.json"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:39:47.896097+00:00",
+        "completed_at": "2026-02-27T00:44:42.182932+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p034_coded.json"
+      }
+    },
+    "P035": {
+      "summary": {
+        "status": "completed"
+      },
+      "analysis": {
+        "status": "completed",
+        "started_at": "2026-02-27T00:44:42.185864+00:00",
+        "completed_at": "2026-02-27T00:48:31.889354+00:00",
+        "output_path": "/Users/jakewilliams/Desktop/Student folder/student-research-analysis/data/processed/coded_segments/p035_coded.json"
+      }
+    }
+  }
+}

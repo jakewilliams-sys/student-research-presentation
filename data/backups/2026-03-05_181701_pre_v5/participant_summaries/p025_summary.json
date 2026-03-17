@@ -1,0 +1,172 @@
+{
+  "participant_id": "P025",
+  "summary": "P025 is a third-year student who presents as thoughtful and self-aware about their habits, often critiquing their own behaviours with refreshing honesty. They describe themselves as 'quite relaxed' about money but demonstrate a strategic approach to spending - cutting costs on regular items while allowing treats like holidays, Lego, and occasional takeaways. Their relationship with food is notably complex: they genuinely enjoy cooking as stress relief and find themselves 'quite a good cook,' yet struggle significantly with grocery shopping, describing it as 'chaos' and 'quite stressful.' This creates an interesting tension where they have the skills and desire to cook but lack the planning and shopping organisation to support it consistently. P025 lives with one flatmate and they share cooking duties, creating a collaborative food environment that works well for them. Their delivery usage is measured and intentional - once every two weeks, typically triggered by specific circumstances like returning from weekends away or hangover recovery. They show strong brand loyalty to Deliveroo, partly through habit and partly because certain restaurants (like Wingstop) are exclusive to the platform, though they acknowledge this loyalty isn't based on systematic comparison.",
+  "personality_notes": "Articulate and self-reflective, often critiquing their own behaviours ('I'm awful at shopping,' 'It probably shouldn't be'). Honest about contradictions and limitations. Measured in responses, thinks before speaking.",
+  "food_relationship": "Enjoys cooking as stress relief but struggles with meal planning and finds grocery shopping chaotic and stressful, leading to strategic but infrequent delivery use.",
+  "key_moments": [
+    {
+      "timestamp": "1-133 to 1-137",
+      "description": "Describes the 'chaos' of shopping when hungry after exercise, wanting to get home quickly to cook and eat",
+      "significance": "Reveals the emotional and practical triggers that make delivery appealing - when the effort of shopping feels overwhelming"
+    },
+    {
+      "timestamp": "1-171",
+      "description": "Mentions getting sushi when hungover, noting 'which seems like a little weird'",
+      "significance": "Shows self-awareness about their choices and willingness to acknowledge when their behaviour might seem unusual"
+    },
+    {
+      "timestamp": "1-514 to 1-515",
+      "description": "Admits they probably should compare apps more but typically just use one: 'It probably shouldn't be, because it means I'm not really comparing'",
+      "significance": "Demonstrates honest self-reflection about potentially suboptimal habits"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned financial stress or significant money worries despite being a student",
+    "Didn't discuss social pressure around food choices or delivery use",
+    "No mention of dietary restrictions or health considerations in food choices"
+  ],
+  "initial_hypotheses": [
+    "P025 represents a 'strategic but convenience-driven' user who makes deliberate choices about when to use delivery but defaults to familiar platforms without comparison shopping",
+    "Their cooking enjoyment combined with shopping stress suggests delivery serves as a backup solution rather than a primary food strategy",
+    "Their measured approach to delivery frequency (once every two weeks) indicates strong self-regulation and budget consciousness"
+  ],
+  "questions_for_coding": [
+    "How do cooking skills and enjoyment interact with delivery usage patterns?",
+    "What role does grocery shopping stress play in driving delivery orders?",
+    "How does brand loyalty develop through habit versus conscious choice?",
+    "What specific emotional and practical triggers convert consideration into orders?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, I think for me personally, I know that I've got something lined up now, so I'm not necessarily too stressed about money.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 296,
+      "end_char_index": 428,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I'd say that I'm quite relaxed.\nspk_1: Like, I won't shop at, like, expensive places like M&S for, like, groceries, for example, but I will also treat myself to nicer things.\nspk_1: So, I'll cut costs where I can on the regular things.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 443,
+      "end_char_index": 679,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I do like cooking, yeah.\nspk_1: I just hate washing up.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 2650,
+      "end_char_index": 2706,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's worth saying, but it's like...\nspk_1: it's a full stress.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 2912,
+      "end_char_index": 2982,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It sort of takes you out from when you're...\nspk_1: when you're doing, like, work all day.\nspk_1: It's just something different that you can focus on.\nspk_1: You're not really focusing on everything else with your cooking.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 2994,
+      "end_char_index": 3217,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Takeout is something that I get every time...\nspk_1: once every two weeks, and so, yeah, it'd be if we're...\nspk_1: So I actually have a lot...\nspk_1: We've got... ",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 3703,
+      "end_char_index": 3874,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So if one of us has been away for the weekend, like back home or something, it would usually be that spurring...\nspk_1: I really kind of wanted to make something this evening...\nspk_1: ordering. There's a few times if we've been out with our friends, because we've got the same friendship group, it would be like, quite hungover.\nspk_1: Do we really want to make lunch or something like that?\nspk_1: Should we just order something easy?\nspk_1: Like, we both really like sushi, so we tend to get sushi hungover, which seems like a little weird.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 8959,
+      "end_char_index": 9510,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But I'm awful at shopping, so I...\nspk_1: I'm always forgetting to...\nspk_1: to buy something or pick something up.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 5697,
+      "end_char_index": 5820,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: But a lot of the time, because I find stuff and I'm like...\nspk_1: I can't shop hungry.\nspk_1: I've been on a run, and I'm shopping after that.\nspk_1: That's chaos! Because I want to get back, make something for dinner, and eat it.\nspk_1: And I'm also really wholesome, looking at everything, like I need to take that off the shelf.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 6853,
+      "end_char_index": 7193,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "I find shopping quite stressful.\nspk_1: So it's just... it's...\nspk_1: I don't really like it every week.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 7218,
+      "end_char_index": 7324,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It's also one that I've used the most, I think.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 18234,
+      "end_char_index": 18282,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think that's a big part of me going to delivery.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 18434,
+      "end_char_index": 18492,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Fairly typical. It probably shouldn't be, because it means I'm not really comparing.\n",
+      "document_index": 0,
+      "document_title": "P025 - P025 - Interview Transcript",
+      "start_char_index": 31838,
+      "end_char_index": 31930,
+      "participant_id": "P025",
+      "participant_name": "P025"
+    }
+  ],
+  "_citation_count": 13
+}

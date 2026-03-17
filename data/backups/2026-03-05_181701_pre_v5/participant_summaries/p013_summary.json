@@ -1,0 +1,114 @@
+{
+  "participant_id": "P013",
+  "summary": "Josh is an 18-19 year old first-year medicine student living in university halls with four flatmates, operating on an impressively tight food budget of £15-20 per week total. He presents as a thoughtful, budget-conscious young man who has developed sophisticated money-saving strategies around food - from hunting reduced sections at Morrison's to price-comparing delivery apps down to 50p differences. His relationship with food is notably mature for his age: he genuinely enjoys cooking as a creative hobby and experiments with recipes he finds online, viewing it as an affordable way to explore and create something meaningful for himself and his family when home.\n\nDespite his careful budgeting, Josh has established a clear weekly ritual of treating himself to takeaway every Friday, which he frames as a reward for eating healthily during the week and 'something to work towards.' This suggests food delivery serves an important emotional function beyond mere convenience - it's his weekly moment of indulgence and choice freedom. His delivery behaviour is highly price-driven and methodical: he consistently compares between Just Eat and Deliveroo, preferring Just Eat for its cheaper prices and more independent restaurant options over chain fast food. The contradiction between his profile data (monthly ordering, no platforms used) and his actual weekly Friday routine suggests either social desirability bias in initial screening or genuine uncertainty about how to categorise his consistent but limited usage pattern.",
+  "personality_notes": "Articulate but modest communicator who tends to downplay his achievements and routines as 'boring.' Shows analytical thinking in his systematic approach to food decisions and price comparison. Appears genuine and unpretentious, with occasional scattered responses suggesting he's thinking through answers in real-time rather than giving rehearsed responses.",
+  "food_relationship": "Views cooking as an enjoyable creative hobby and uses delivery strategically as a weekly Friday treat within a highly disciplined £15-20 weekly food budget.",
+  "key_moments": [
+    {
+      "timestamp": "Multiple references",
+      "description": "Repeatedly emphasizes extreme price sensitivity, comparing apps down to 50p differences",
+      "significance": "Reveals the depth of his budget constraints and how this drives all food decisions"
+    },
+    {
+      "timestamp": "1-228 to 1-233",
+      "description": "Describes last takeaway order triggered by mother offering £10, leading to biryani and chocolate cake choice",
+      "significance": "Shows family financial support enables his treats and reveals his decision-making process when budget constraints are lifted"
+    },
+    {
+      "timestamp": "1-292 to 1-295",
+      "description": "Explains why he doesn't use grocery delivery despite attractive offers - spending over £10 creates too much food and waste",
+      "significance": "Demonstrates sophisticated understanding of his consumption patterns and storage limitations"
+    }
+  ],
+  "what_not_said": [
+    "Social eating or group orders with flatmates despite living with four others",
+    "Any mention of financial stress or hardship despite extreme budget consciousness",
+    "Discussion of nutritional concerns or health considerations beyond 'eating healthily'",
+    "Details about his medicine studies' impact on eating patterns beyond time constraints"
+  ],
+  "initial_hypotheses": [
+    "His Friday takeaway ritual serves as crucial emotional regulation and reward system within strict budgeting",
+    "Price sensitivity may be driven by family financial constraints rather than just student budget consciousness",
+    "His cooking hobby provides both creative outlet and practical cost-saving strategy",
+    "The discrepancy between profile and actual usage suggests complexity in how students categorize their delivery behavior"
+  ],
+  "questions_for_coding": [
+    "How do students balance emotional needs (treats, rewards) with financial constraints?",
+    "What role does family financial support play in delivery ordering decisions?",
+    "How do students define 'occasional' vs 'regular' usage when it comes to delivery apps?",
+    "What drives the choice between cooking as hobby vs convenience when time-pressed?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "That's quite boring, to be honest.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 1401,
+      "end_char_index": 1436,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Yeah, I managed to forget.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 2876,
+      "end_char_index": 2903,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's like a hobby that I enjoy as like a way that you can kind of like, experiment.\nspk_1: But it's quite a cheap way to kind of experiment.\nspk_1: So, like, I don't know, it's just something I find enjoyable to do and to try different ways to make certain things or make things for my parents if I'm at home and things like that.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 6363,
+      "end_char_index": 6701,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: I need to go\nspk_1: maybe like £20 maximum.\nspk_1: 15. Yeah, 15. I'll say 15.\nspk_1: About that. Yeah.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 8784,
+      "end_char_index": 8894,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: A lot of this stuff that I've seen online where I've seen like a certain recipe or it might just be what's also like on offer and certain shops as well.\nspk_1: Like if I get to Morrison's and the Reduced section has like a bunch of a certain type of vegetable.\nspk_1: I might want to cook something related to that, for example.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 5479,
+      "end_char_index": 5815,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Normally every Friday.\nspk_1: I always like to treat myself to, like, some kind of takeout, so probably about once a week or so.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 6784,
+      "end_char_index": 6920,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Every time I say whichever one's cheapest, even like 50p to me, it's like the both delivery companies are almost the same.\nspk_1: You'll get the same item.\nspk_1: So it's just which one saving me the most money.\n",
+      "document_index": 0,
+      "document_title": "P013 - P013 - Interview Transcript",
+      "start_char_index": 19079,
+      "end_char_index": 19298,
+      "participant_id": "P013",
+      "participant_name": "P013"
+    }
+  ],
+  "_citation_count": 7
+}

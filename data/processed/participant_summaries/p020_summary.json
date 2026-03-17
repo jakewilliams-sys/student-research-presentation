@@ -1,0 +1,114 @@
+{
+  "participant_id": "P020",
+  "summary": "P020 is a recent graduate working at Ocado who has developed an intensely controlled relationship with food that serves as both creative outlet and anxiety management. She takes complete ownership of all household food decisions and cooking, spending an hour daily in the kitchen which she describes as a 'technology-free sanctuary.' However, this control masks significant decision-making anxiety - she visits Lidl almost daily (250 times last year) because she cannot plan meals in advance, creating a paradox of someone who loves cooking but struggles with food decisions. Her relationship with delivery is highly strategic and infrequent (once monthly), driven by specific cravings for foods she cannot make at home, particularly Malaysian cuisine. She demonstrates remarkable loyalty to Uber Eats despite working for a competitor (Ocado), suggesting her food choices are driven by personal preference rather than professional alignment. The transition from student to working life has given her more structure and kitchen ownership, leading to increased cooking and decreased delivery usage. She exhibits a fascinating split between functional eating (work lunches where she doesn't taste food due to social distractions) and deeply intentional cooking at home.",
+  "personality_notes": "Articulate and self-reflective communicator who readily admits to contradictions and struggles. Shows analytical thinking about her own behavior patterns. Demonstrates both control-seeking tendencies and decision-making anxiety.",
+  "food_relationship": "Food serves as both creative sanctuary and source of daily anxiety, with cooking providing technology-free mindfulness while meal planning creates compulsive shopping behaviors.",
+  "key_moments": [
+    {
+      "timestamp": "Not specified",
+      "description": "Admits to visiting Lidl 250 times in one year, sometimes daily, due to inability to plan meals ahead",
+      "significance": "Reveals the extent of her decision-making anxiety around food despite loving to cook"
+    },
+    {
+      "timestamp": "Not specified",
+      "description": "Describes cooking as 'technology-free sanctuary' where she's very focused and not looking at screens",
+      "significance": "Shows cooking serves as mindfulness practice and escape from digital overwhelm"
+    },
+    {
+      "timestamp": "Not specified",
+      "description": "Admits working for Ocado but not shopping there, calling it 'a sign'",
+      "significance": "Demonstrates personal preferences override professional loyalty, suggesting authentic rather than socially desirable responses"
+    }
+  ],
+  "what_not_said": [
+    "Why she doesn't shop at Ocado despite working there",
+    "Details about her partner's food preferences or input",
+    "Specific reasons for her meal planning anxiety",
+    "Whether the daily shopping is financially sustainable"
+  ],
+  "initial_hypotheses": [
+    "Her cooking serves as anxiety management and control mechanism in an otherwise structured work life",
+    "The daily shopping pattern may be unsustainable and could drive future behavior change toward meal planning or delivery",
+    "Her strategic, infrequent delivery usage suggests she may be an untapped opportunity for platforms if they could solve her meal planning anxiety",
+    "The disconnect between her professional role and personal shopping habits suggests strong personal preferences that override convenience"
+  ],
+  "questions_for_coding": [
+    "How do other participants balance cooking enjoyment with meal planning anxiety?",
+    "Is the 'technology-free sanctuary' aspect of cooking common among this demographic?",
+    "Do other Ocado employees show similar disconnects between work and personal shopping?",
+    "How does the transition from student to graduate affect food control and decision-making patterns?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I honestly, I think I struggle a lot in terms of deciding what to eat.\nspk_1: Obviously Instagram is one of my biggest inspiration, kind of hub of what to eat.\nspk_1: But sometimes it just doesn't hit the spot or I don't really know what I want to eat, so that becomes tricky.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 9500,
+      "end_char_index": 9784,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I do.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 1325,
+      "end_char_index": 1338,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I cook. I'm the, I.\nspk_1: I am the main responsible for cooking.\nspk_1: So I do all the grocery.\nspk_1: I decide what we eat.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 1452,
+      "end_char_index": 1586,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: To be fair, I really like cooking because it's a space where it's almost technology free.\nspk_1: You're very, very focused on doing some things.\nspk_1: I'm always multitasking because I cook multiple things at the same time.\nspk_1: But yeah, it's just a nice space for yourself, getting distracted.\nspk_1: And I'm not looking at the screen, which is great.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 11912,
+      "end_char_index": 12276,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So they have this Lidl wrapped like a Spotify wrapped.\nspk_1: I think there was a month I went to the supermarket every single day.\nspk_1: Like I've been to Lidl like 250 times last year.\nspk_1: And that's because I can't decide on what I cook.\nspk_1: Like what I have for the next day.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 11556,
+      "end_char_index": 11850,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I mean even I, I work for Ocado and I don't really shop there.\nspk_1: I think that is a sign in terms of takeaway.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 12617,
+      "end_char_index": 12739,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "It always feels functional when I'm eating lunch at work.\nspk_1: I don't know why, because I guess it's more of.\nspk_1: It's similar to sociable, but not in a way that when you're eating work lunch, it might just be a me thing, but I don't taste the food I'm eating when I'm chatting to other people.\nspk_1: Especially with colleagues like you.\nspk_1: It's such a loud environment.\nspk_1: There's so much people you're eating and chatting and listening at the same time to a point where you're not really focusing on the food.\nspk_1: So at that point, I'm just eating.\nspk_1: And I've noticed that a lot of times, and hence I don't really care what I bring to the office a lot of times just because I know if I like it, if I don't like it, I'll still eat it.\n",
+      "document_index": 0,
+      "document_title": "P020 - P020 - Interview Transcript",
+      "start_char_index": 14754,
+      "end_char_index": 15513,
+      "participant_id": "P020",
+      "participant_name": "P020"
+    }
+  ],
+  "_citation_count": 7
+}

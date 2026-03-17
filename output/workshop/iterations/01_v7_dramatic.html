@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Food & Delivery Research — What do you think you know?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0E0E0E;
+      --bg-reveal: #161614;
+      --text: #E8E5DC;
+      --text-secondary: #7D7972;
+      --accent: #00CCBD;
+      --badge-pumpkin: #FF7C43;
+      --badge-mustard: #FFE066;
+      --badge-green: #85DE5E;
+      --ease: cubic-bezier(0.16, 1, 0.3, 1);
+      --duration: 550ms;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: 'Figtree', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .deck {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 2rem;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(8px);
+      transition: opacity var(--duration) var(--ease),
+                  transform var(--duration) var(--ease),
+                  visibility var(--duration);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .slide {
+        transition: opacity 0.01ms, visibility 0.01ms;
+      }
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    /* Title slide */
+    .slide--title {
+      text-align: center;
+    }
+
+    .slide--title .overline {
+      font-family: 'Figtree', sans-serif;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .slide--title .headline {
+      font-family: 'Lora', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      line-height: 1.15;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .slide--title .title-line {
+      width: 40px;
+      height: 2px;
+      background: var(--accent);
+      margin: 0 auto 2rem;
+    }
+
+    .slide--title .subtitle {
+      font-family: 'Figtree', sans-serif;
+      font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+      color: var(--text-secondary);
+      max-width: 520px;
+      line-height: 1.6;
+      margin-bottom: 2.5rem;
+    }
+
+    .slide--title .method-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      justify-content: center;
+      font-family: 'Figtree', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .slide--title .method-stats span {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    /* Context slide */
+    .slide--context {
+      text-align: center;
+    }
+
+    .slide--context .lead {
+      font-family: 'Lora', serif;
+      font-weight: 700;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      margin-bottom: 1.5rem;
+    }
+
+    .slide--context .stats {
+      font-family: 'Figtree', sans-serif;
+      font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 480px;
+    }
+
+    /* Framing slide */
+    .slide--framing {
+      text-align: center;
+    }
+
+    .slide--framing p {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+      line-height: 1.6;
+      max-width: 560px;
+    }
+
+    .slide--framing p + p {
+      margin-top: 1rem;
+      color: var(--text-secondary);
+    }
+
+    /* Assumption slides */
+    .slide--assumption {
+      text-align: center;
+      position: relative;
+    }
+
+    .slide--assumption .statement-counter {
+      font-family: 'Figtree', sans-serif;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    .slide--assumption .statement-number-bg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Figtree', sans-serif;
+      font-weight: 800;
+      font-size: 20rem;
+      color: var(--text);
+      opacity: 0.03;
+      pointer-events: none;
+      line-height: 1;
+    }
+
+    .slide--assumption .statement-text {
+      font-family: 'Lora', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      line-height: 1.2;
+      position: relative;
+      z-index: 1;
+      max-width: 90%;
+    }
+
+    .slide--assumption .discuss {
+      font-family: 'Figtree', sans-serif;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-top: 2rem;
+    }
+
+    /* Reveal slides */
+    .slide--reveal {
+      background: var(--bg-reveal);
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: clamp(2rem, 6vw, 4rem);
+    }
+
+    .slide--reveal .reveal-content {
+      max-width: 600px;
+      text-align: left;
+    }
+
+    .slide--reveal .badge {
+      display: inline-block;
+      font-family: 'Figtree', sans-serif;
+      font-weight: 600;
+      font-size: 0.75rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+
+    .slide--reveal .badge--pumpkin {
+      background: rgba(255, 124, 67, 0.2);
+      color: var(--badge-pumpkin);
+    }
+
+    .slide--reveal .badge--mustard {
+      background: rgba(255, 224, 102, 0.2);
+      color: var(--badge-mustard);
+    }
+
+    .slide--reveal .badge--green {
+      background: rgba(133, 222, 94, 0.2);
+      color: var(--badge-green);
+    }
+
+    .slide--reveal .headline {
+      font-family: 'Lora', serif;
+      font-weight: 700;
+      font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+      line-height: 1.35;
+      margin-bottom: 1rem;
+    }
+
+    .slide--reveal .body {
+      font-family: 'Figtree', sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    .slide--reveal .source {
+      font-family: 'Figtree', sans-serif;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      opacity: 0.8;
+    }
+
+    /* Transition slide */
+    .slide--transition {
+      text-align: center;
+    }
+
+    .slide--transition p {
+      font-family: 'Lora', serif;
+      font-style: italic;
+      font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+      line-height: 1.5;
+    }
+
+    /* Progress bar */
+    .progress-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background: var(--accent);
+      transform-origin: left;
+      z-index: 100;
+    }
+
+    /* Nav hint */
+    .nav-hint {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      font-family: 'Figtree', sans-serif;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      opacity: 0.7;
+      z-index: 100;
+    }
+
+    .slide-counter {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      font-family: 'Figtree', sans-serif;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--accent);
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div class="deck">
+    <!-- Title -->
+    <section class="slide slide--title active" data-index="0">
+      <p class="overline">Student Food & Delivery Research</p>
+      <h1 class="headline">What do you think you know?</h1>
+      <div class="title-line"></div>
+      <p class="subtitle">Before we share what we found, let's test some assumptions about how students eat, order, and choose platforms.</p>
+      <div class="method-stats">
+        <span>35</span> Interviews · <span>6</span> In-home visits · <span>15</span> Diary participants · <span>315</span> Meal occasions
+      </div>
+    </section>
+
+    <!-- Context -->
+    <section class="slide slide--context" data-index="1">
+      <p class="lead">How we got here</p>
+      <p class="stats">35 participants (UG, PG, graduate segments), 315 meal occasions (seven days), 6 in-home visits</p>
+    </section>
+
+    <!-- Framing -->
+    <section class="slide slide--framing" data-index="2">
+      <p>We're going to show you five statements about students.</p>
+      <p>For each one, discuss whether you think it's true.</p>
+    </section>
+
+    <!-- A1 -->
+    <section class="slide slide--assumption" data-index="3">
+      <span class="statement-number-bg">01</span>
+      <p class="statement-counter">Statement 01</p>
+      <p class="statement-text">Students cook consistently throughout the week.</p>
+      <p class="discuss">Discuss</p>
+    </section>
+
+    <!-- R1 -->
+    <section class="slide slide--reveal" data-index="4">
+      <div class="reveal-content">
+        <span class="badge badge--mustard">It depends on the day</span>
+        <h2 class="headline">Home cooking drops from 71% on weekdays to 43% on weekends — a 29-point collapse.</h2>
+        <p class="body">Students do cook most of their meals during the week. But from Friday onwards, routines break down. Social plans override cooking intentions, fridges empty out, and tiredness from the week takes over. The weekend is a completely different food landscape.</p>
+        <p class="source">Diary study, n=15 · 315 meal occasions tracked</p>
+      </div>
+    </section>
+
+    <!-- A2 -->
+    <section class="slide slide--assumption" data-index="5">
+      <span class="statement-number-bg">02</span>
+      <p class="statement-counter">Statement 02</p>
+      <p class="statement-text">Food delivery is a regular part of student life.</p>
+      <p class="discuss">Discuss</p>
+    </section>
+
+    <!-- R2 -->
+    <section class="slide slide--reveal" data-index="6">
+      <div class="reveal-content">
+        <span class="badge badge--pumpkin">Not what we found</span>
+        <h2 class="headline">Delivery represents just 3.5% of actual meals eaten — despite students thinking about it constantly.</h2>
+        <p class="body">Students talk about delivery at length. They compare platforms, describe decision-making processes, weigh up costs. But when we tracked what they actually ate for a week, delivery barely registered. The gap between consideration and action is enormous.</p>
+        <p class="source">Diary study, n=15 · 11 delivery orders across 315 meal slots</p>
+      </div>
+    </section>
+
+    <!-- A3 -->
+    <section class="slide slide--assumption" data-index="7">
+      <span class="statement-number-bg">03</span>
+      <p class="statement-counter">Statement 03</p>
+      <p class="statement-text">Students order delivery for themselves, as a personal treat.</p>
+      <p class="discuss">Discuss</p>
+    </section>
+
+    <!-- R3 -->
+    <section class="slide slide--reveal" data-index="8">
+      <div class="reveal-content">
+        <span class="badge badge--pumpkin">Not the primary driver</span>
+        <h2 class="headline">Social context is the strongest behavioural driver. Group ordering drives both frequency and platform choice.</h2>
+        <p class="body">Delivery orders cluster around group situations — Friday nights with flatmates, post-night-out hunger, shared meals. One person's subscription covers the group order. Even the decision of which platform to use becomes collaborative, with friends comparing fees side by side.</p>
+        <p class="source">31 quotes from 22 participants · High confidence</p>
+      </div>
+    </section>
+
+    <!-- A4 -->
+    <section class="slide slide--assumption" data-index="9">
+      <span class="statement-number-bg">04</span>
+      <p class="statement-counter">Statement 04</p>
+      <p class="statement-text">Students are loyal to one delivery platform.</p>
+      <p class="discuss">Discuss</p>
+    </section>
+
+    <!-- R4 -->
+    <section class="slide slide--reveal" data-index="10">
+      <div class="reveal-content">
+        <span class="badge badge--pumpkin">Not what we found</span>
+        <h2 class="headline">Students are radically platform-agnostic. Price comparison is a group sport — three apps open, fees compared side by side.</h2>
+        <p class="body">Students are radically platform-agnostic. Price comparison is a group sport — three apps open, fees compared side by side.</p>
+        <p class="source">16 quotes from 20 participants</p>
+      </div>
+    </section>
+
+    <!-- A5 -->
+    <section class="slide slide--assumption" data-index="11">
+      <span class="statement-number-bg">05</span>
+      <p class="statement-counter">Statement 05</p>
+      <p class="statement-text">Students who subscribe to delivery platforms use them regularly.</p>
+      <p class="discuss">Discuss</p>
+    </section>
+
+    <!-- R5 -->
+    <section class="slide slide--reveal" data-index="12">
+      <div class="reveal-content">
+        <span class="badge badge--pumpkin">Not what we found</span>
+        <h2 class="headline">Many students hold subscriptions they barely use — kept 'just in case' or forgotten entirely.</h2>
+        <p class="body">Students sign up during promotional periods or when a friend shares an offer, then keep the subscription running out of inertia. Some can't remember which platforms they're subscribed to. Others justify the cost by saying they'll 'use it more next month.' The subscription doesn't drive regular ordering — it just sits there, a low-level background cost that rarely converts into habitual behaviour.</p>
+        <p class="source">Subscription discussed by 28 of 35 participants · Low active usage relative to sign-up rate</p>
+      </div>
+    </section>
+
+    <!-- Transition -->
+    <section class="slide slide--transition" data-index="13">
+      <p>So if that's what we assumed — what's actually going on?</p>
+    </section>
+  </div>
+
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="slide-counter" id="slideCounter">1 / 14</div>
+  <div class="nav-hint">← → or click to advance</div>
+
+  <script>
+    (function() {
+      const slides = document.querySelectorAll('.slide');
+      const progressBar = document.getElementById('progressBar');
+      const slideCounter = document.getElementById('slideCounter');
+      let currentIndex = 0;
+      const totalSlides = slides.length;
+
+      function goTo(index) {
+        if (index < 0 || index >= totalSlides) return;
+        currentIndex = index;
+        slides.forEach((s, i) => s.classList.toggle('active', i === currentIndex));
+        progressBar.style.transform = `scaleX(${(currentIndex + 1) / totalSlides})`;
+        slideCounter.textContent = `${currentIndex + 1} / ${totalSlides}`;
+      }
+
+      function next() { goTo(currentIndex + 1); }
+      function prev() { goTo(currentIndex - 1); }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
+        else if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+      });
+
+      document.addEventListener('click', (e) => {
+        const w = window.innerWidth;
+        if (e.clientX > w * 0.6) next();
+        else if (e.clientX < w * 0.4) prev();
+      });
+
+      goTo(0);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+{
+  "participant_id": "P007",
+  "scout_name": "Joshua W",
+  "scout_id": "2485369",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 19:52:58 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 20:30:08 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So this morning, I ate a sort of overnight oats mix. I make it the night before. It's just a mixture of porridge or porridge oats and milk with some chia seeds and a bit of sugar. And then in the morning, I put some sort of like chocolate spread in just to give it a bit of bit of flavor. I do that. It's cheap. It's it's easy. It's just part of my routine now, really. It's nice and quick in the morning. I just, yeah, I wake up. I go get out of the fridge and eat, and it takes about five minutes. It only takes about a minute to make the night before. So a combination of cheap, routine, easy. I like the taste of it. It's quite healthy as well. Just porridge oats and milk and a bit of chia seeds. And then lunch, I made a bagel this morning. It was a chicken and cucumber. I also had a banana and a chocolate bar with it. It's quite standard lunch for me. I typically buy in my weekly food shop on Monday, I typically buy sandwich making stuff. It's not always chicken or cucumber. It's normally cheese, churros, so that sort of thing. And I'll try and make at least three of my lunches, using that stuff. It's again, I'm just in that routine. It's quite cheap to do. I like this taste of the sandwich. Yeah. It's not particularly healthy or anything. It's just just part of my routine, and I like to save a bit of money by not buying food on campus or, from a cafe or something. Like, maybe once or twice a week I'll do it. So I like to save a bit of money, but I just the majority of my my lunch is making it home. And then for dinner, I had leftover pasta. So I sort of meal prepped on Tuesday night, and I made three portions of pasta. There's a bit left over actually still. So I cooked that on Tuesday. It's now Thursday. So I had the leftovers last night and tonight. And I've still got a bit left over, so I'll probably have that dinner tomorrow as well. Again, same reasons as as the the lunch and breakfast. You know? It just saves me a lot of time meal prepping, making a lot of portions at once. It's cheap. It's convenient. And, again, this week, I was having chicken tomato pasta, which I like. You know? Made quite a lot of union. I've it's part of my routine. Sort of it's part of my, like oh, I don't know how to how to say it. Like, a cooking schedule. It's part of my rotate meal rotation. It's something I make very often. So, yeah, it was quite a routine day today. Very budget day. No eat no eating out or at restaurants or cafes. Breakfast and lunch, I ate on my own because I was up earlier. And I was in the library for lunch, whereas with dinner, I ate it with a housemate, while she was cooking. So that was nice. That was quite sociable. So, yeah, that was that was today's, meals. And yeah."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 21:32:13 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-21",
+      "date_submitted": "2026-02-21 13:41:47 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": "So this morning, I had pancakes with my girlfriend, because we didn't see each other on pancake day. And we cooked them at home because it was more cost effective than going out, and we didn't have a lot of time. Didn't eat that with any of my housemates. And then for lunch, we had a big lunch with sorry. With leftovers from last night's burritos. That was in my room with my girlfriend, so we're out my housemates again. Again, cost saving, using leftovers. Convenient. And then we went to a, like, a rave event from four to eleven, and I knew that wasn't gonna be food options. So that's why we had big lunch, big breakfast. And then I've come home and had a bowl of cereal. So that was, like, my main meal in the evening. So I wasn't really hungry. So I had a big lunch, big breakfast. So all three of those, again, were quite cost saving, quite cost effective. I I anticipate maybe tomorrow I'll go have food or something like that, but this week's been quite quite routine, quite convenient, and quite budget. So, yeah, that's why I had those three meals today."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 23:08:29 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 22:49:39 +0000",
+      "breakfast": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine",
+          "Craving / comfort",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "With housemates",
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 21:53:43 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Price / budget",
+          "Habit / routine",
+          "Health reasons"
+        ],
+        "ate_with": [
+          "With housemates"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So this morning, I I woke up late. I was a bit ill, so I didn't have time for breakfast, and I wasn't also really feeling it. I didn't feel too hungry. So I skipped breakfast, and I went straight into uni. Luckily, the night before, I'd made a sandwich or a bagel. So I took that into uni with me, and I had that in one of the uni buildings on my own after a group meeting and a couple of lectures. So I had that on my own. And for dinner, I cooked. I got back at about five ish. I had done my food shop yesterday, so I had plenty of stuff to cook. And I also had plenty of time before I was planning to go out about half seven, so I had about two and a half hours to cook. So partly for health reasons, I like to have salmon. Fish is just healthy in general. But, yeah, it was most this week has been very this week and last week have been quite a a budget week. Normally, I would have sort of had a takeaway or some food out at a restaurant, but just the way this study's lined up with my week, I've ended up having quite a budget saving week. So, again, I was cooking at home. I find it doesn't take me too long. I like to buy I like to cook meals that don't take too long. So Simon is just, like, sort of put it in the oven and the chips with the air fryer, then it was quite an easy meal. So it was half my thoughts of time saving point of view. So that was a price and budget. You know, I'd already done the food shop yesterday, so I had a lot of food that needed cooking. So yeah. So it was skip skip breakfast, Didn't have time. Woke up late, and I was a bit ill, so I didn't really feel like eating. Lunch I'd made the night before. I ate that on my own, and then dinner, I ate with my housemates. So, yeah, that was my that was my meal for dinner."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 2,
+    "delivery_orders": 0,
+    "delivery_apps_used": [],
+    "top_reasons": [
+      "Price / budget",
+      "Habit / routine",
+      "Time / convenience",
+      "Craving / comfort",
+      "Health reasons"
+    ],
+    "most_common_source": "Cooked at home"
+  }
+}

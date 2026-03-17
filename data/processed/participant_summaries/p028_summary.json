@@ -1,0 +1,124 @@
+{
+  "participant_id": "P028",
+  "summary": "Anya is a pragmatic third-year student whose relationship with food and delivery is heavily shaped by financial constraints and mental health needs. Unlike many students, she receives limited loan support due to her father's recent pay rise putting her just over the threshold, forcing her to work significantly more than peers. This creates a careful, budget-conscious approach to spending where delivery becomes a calculated reward rather than casual convenience. Her food routine is minimal and functional - skipping breakfast, having leftovers for lunch (often from her mother's cooking since she works nearby), and relying on ready meals for dinner. She describes herself as someone who doesn't go out much, saving money in that area but occasionally treating herself to delivery as emotional regulation.\n\nWhat's particularly striking about Anya is the anxiety she experiences around the actual delivery process - worrying about drivers finding her house, getting the wrong code, and preferring the 'leave at door' option to avoid social interaction. This social discomfort extends to her living situation where she orders alone and eats separately from flatmates, though they sometimes coincidentally order at the same time. Her delivery decisions are driven by emotional states (tiredness, stress, feeling down) and she explicitly frames it as a 'little reward' after difficult weeks. The frequency has increased recently but remains controlled at once every 1-2 weeks to a month, always with an eye on getting leftovers to extend value.",
+  "personality_notes": "Reserved and direct communicator who gives concise, practical answers. Shows signs of social anxiety around delivery interactions and prefers minimal social engagement. Analytical about spending decisions and demonstrates self-awareness about her financial constraints.",
+  "food_relationship": "Functional and minimal approach to food - skips breakfast, relies on leftovers and ready meals, with delivery serving as controlled emotional reward rather than regular convenience.",
+  "key_moments": [
+    {
+      "timestamp": "1-81",
+      "description": "When asked what prompts delivery orders, gives blunt one-word answer: 'Laziness'",
+      "significance": "Shows honest, unfiltered communication style and practical view of delivery motivations"
+    },
+    {
+      "timestamp": "1-280-1-282",
+      "description": "Describes getting 'fairly stressed' about delivery, worrying about drivers finding the house and getting wrong codes",
+      "significance": "Reveals significant social anxiety around delivery process that contrasts with convenience narrative"
+    },
+    {
+      "timestamp": "1-244",
+      "description": "Links delivery ordering to mental health and exam stress as override to budget concerns",
+      "significance": "Shows delivery serves as emotional regulation tool, important enough to override financial constraints"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned enjoying cooking or food as pleasure",
+    "Avoided discussing relationships with flatmates beyond practical arrangements",
+    "Did not elaborate on what 'feeling down' specifically means",
+    "Never mentioned friends or social eating beyond work colleague (mother)"
+  ],
+  "initial_hypotheses": [
+    "Delivery serves as accessible mental health coping mechanism for students with limited social support",
+    "Financial constraints create more intentional, value-focused delivery behavior rather than eliminating it",
+    "Social anxiety may be driving preference for delivery over in-person food acquisition",
+    "Students with irregular work schedules may rely more heavily on convenience food solutions"
+  ],
+  "questions_for_coding": [
+    "How do financial constraints shape delivery frequency vs. emotional need?",
+    "What role does social anxiety play in food delivery preferences among students?",
+    "How do students balance mental health needs with budget limitations?",
+    "What delivery features specifically address social anxiety concerns?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Anya Boerley... I'm studying at Nottingham Trent University in my third year.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 941,
+      "end_char_index": 1026,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, mine's a little different than a lot of students.\nspk_1: I don't tend to go out very much at all, so I tend to save money there.\nspk_1: But I also don't get a lot for loans because, you know, a recent pay rise due to my father has the worst timing...\nspk_1: because I'm just over the limit for a certain amount of loan.\nspk_1: So, I'm required to work a lot more than a lot of other students.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 2641,
+      "end_char_index": 3045,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, I don't tend to eat breakfast at all.\nspk_1: I tend to do an earlier, like, bigger lunch.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 3276,
+      "end_char_index": 3377,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "And then, for dinner, I'll often have things like ready meals or make, like, chips and meatballs and stuff like that.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 3456,
+      "end_char_index": 3574,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Laziness.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 5215,
+      "end_char_index": 5232,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Moment so often be like, I'm tired...\nspk_1: Let's say at the end of the week, sometimes I can't be able to cook.\nspk_1: Or like, if I'm feeling down...\nspk_1: Yeah, I'll often do it if I have, like, I've had quite a busy or stressful week as, like, a little reward.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 9758,
+      "end_char_index": 10032,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So the actual delivery, it's...\nspk_1: I get fairly stressed.\nspk_1: It's like, are they gonna find the right place?\nspk_1: What if, like, I somehow...\nspk_1: It's the anxiety of somehow getting the wrong code, despite the fact we're only given one code.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 20179,
+      "end_char_index": 20441,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, that's more tied to things like mental health and, like, if I'm failing exams...\nspk_1: stuff like that.\n",
+      "document_index": 0,
+      "document_title": "P028 - P028 - Interview Transcript",
+      "start_char_index": 17145,
+      "end_char_index": 17263,
+      "participant_id": "P028",
+      "participant_name": "P028"
+    }
+  ],
+  "_citation_count": 8
+}

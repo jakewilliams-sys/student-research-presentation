@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Their Order — Dashboard Zoom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-cream: #f8f6f1;
+      --text-dark: #2c2a25;
+      --text-muted: #5c5a55;
+      --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+      --optimizer: #1d7775;
+      --optimizer-soft: #e8f3f3;
+      --social: #b07328;
+      --social-soft: #f7f0e4;
+      --balancer: #3a7a55;
+      --balancer-soft: #e9f3ed;
+      --dependent: #6454a4;
+      --dependent-soft: #efedf7;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background: var(--bg-cream);
+      color: var(--text-dark);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Title overlay */
+    .title-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      background: var(--bg-cream);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: clamp(1.5rem, 4vw, 3rem);
+      cursor: pointer;
+      transition: opacity 0.5s var(--ease-out-quart);
+    }
+
+    .title-overlay.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .title-overlay h1 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 400;
+      text-align: center;
+      line-height: 1.1;
+      margin-bottom: 0.5em;
+    }
+
+    .title-overlay .subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 0.25em;
+    }
+
+    .title-overlay .intro {
+      font-size: clamp(0.9rem, 2vw, 1rem);
+      color: var(--text-muted);
+      font-weight: 400;
+      opacity: 0.9;
+    }
+
+    .title-overlay .hint {
+      margin-top: 2em;
+      font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
+
+    /* Main container */
+    .main {
+      min-height: 100vh;
+      padding: clamp(1.5rem, 4vw, 3rem);
+    }
+
+    /* Overview dashboard */
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: clamp(1rem, 3vw, 2rem);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: clamp(2rem, 5vw, 4rem);
+    }
+
+    @media (max-width: 600px) {
+      .dashboard {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .persona-card {
+      aspect-ratio: 4/3;
+      border-radius: 12px;
+      padding: clamp(1.25rem, 3vw, 2rem);
+      cursor: pointer;
+      transition: transform 0.4s var(--ease-out-quart), box-shadow 0.4s var(--ease-out-quart);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(44, 42, 37, 0.08);
+    }
+
+    .persona-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 40px rgba(44, 42, 37, 0.12);
+    }
+
+    .persona-card.visited {
+      opacity: 0.85;
+    }
+
+    .persona-card.visited::after {
+      content: '';
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+      opacity: 0.5;
+    }
+
+    .persona-card .accent-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+    }
+
+    .persona-card h3 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.5rem, 3.5vw, 2rem);
+      font-weight: 400;
+      margin-bottom: 0.25em;
+      margin-top: 0.5em;
+    }
+
+    .persona-card .tagline {
+      font-size: clamp(0.8rem, 1.8vw, 0.95rem);
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 1em;
+    }
+
+    .persona-card .quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      font-style: italic;
+      line-height: 1.4;
+      opacity: 0.95;
+    }
+
+    .persona-card .cite {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.75rem;
+      font-style: normal;
+      opacity: 0.6;
+      margin-top: 0.5em;
+    }
+
+    /* View Comparison button */
+    .view-comparison-wrap {
+      text-align: center;
+      margin-top: clamp(2rem, 5vw, 3rem);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.5s var(--ease-out-quart), transform 0.5s var(--ease-out-quart);
+    }
+
+    .view-comparison-wrap.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .view-comparison-btn {
+      display: inline-block;
+      padding: 0.875rem 2rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--bg-cream);
+      background: var(--text-dark);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s var(--ease-out-quart), background 0.2s;
+    }
+
+    .view-comparison-btn:hover {
+      background: #3d3b36;
+      transform: scale(1.02);
+    }
+
+    /* Zoomed journey container */
+    .journey-zoom {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background: var(--bg-cream);
+      display: none;
+      flex-direction: column;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s var(--ease-out-quart);
+    }
+
+    .journey-zoom.active {
+      display: flex;
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .journey-zoom .stage-slides {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .journey-zoom .stage-slide {
+      position: absolute;
+      inset: 0;
+      padding: clamp(2rem, 6vw, 4rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 800px;
+      margin: 0 auto;
+      opacity: 0;
+      transform: translateX(30px);
+      pointer-events: none;
+      transition: opacity 0.5s var(--ease-out-quart), transform 0.5s var(--ease-out-quart);
+    }
+
+    .journey-zoom .stage-slide.active {
+      opacity: 1;
+      transform: translateX(0);
+      pointer-events: auto;
+    }
+
+    .journey-zoom .stage-slide .stage-label {
+      font-size: clamp(0.75rem, 1.5vw, 0.85rem);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5em;
+      opacity: 0.7;
+    }
+
+    .journey-zoom .stage-slide h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 400;
+      margin-bottom: 0.5em;
+    }
+
+    .journey-zoom .stage-slide .emotion-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 6px;
+      margin-bottom: 1.5em;
+    }
+
+    .journey-zoom .stage-slide .context {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      line-height: 1.6;
+      color: var(--text-dark);
+      margin-bottom: 1.5em;
+    }
+
+    .journey-zoom .stage-slide .quote-block {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.1rem, 2.2vw, 1.35rem);
+      font-style: italic;
+      line-height: 1.5;
+      padding-left: 1rem;
+      border-left: 3px solid currentColor;
+      opacity: 0.95;
+    }
+
+    .journey-zoom .stage-slide .quote-cite {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.8rem;
+      font-style: normal;
+      opacity: 0.6;
+      margin-top: 0.5em;
+    }
+
+    /* Journey nav bar */
+    .journey-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem clamp(1.5rem, 4vw, 3rem);
+      background: rgba(248, 246, 241, 0.95);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-top: 1px solid rgba(44, 42, 37, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      z-index: 60;
+    }
+
+    .back-btn {
+      padding: 0.5rem 1rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-dark);
+      background: transparent;
+      border: 1px solid rgba(44, 42, 37, 0.2);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .back-btn:hover {
+      background: rgba(44, 42, 37, 0.06);
+      border-color: rgba(44, 42, 37, 0.3);
+    }
+
+    .stage-indicator {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .stage-dots {
+      display: flex;
+      gap: 0.35rem;
+    }
+
+    .stage-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(44, 42, 37, 0.2);
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .stage-dot.active {
+      background: currentColor;
+      transform: scale(1.2);
+    }
+
+    .stage-dot.visited {
+      background: rgba(44, 42, 37, 0.4);
+    }
+
+    .persona-mini-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-right: 0.75rem;
+      min-width: 80px;
+    }
+
+    .nav-arrows {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .nav-arrow {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(44, 42, 37, 0.2);
+      border-radius: 6px;
+      background: transparent;
+      cursor: pointer;
+      color: var(--text-dark);
+      font-size: 1.2rem;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .nav-arrow:hover:not(:disabled) {
+      background: rgba(44, 42, 37, 0.06);
+      border-color: rgba(44, 42, 37, 0.3);
+    }
+
+    .nav-arrow:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* Comparison section */
+    .comparison-section {
+      display: none;
+      padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 4vw, 3rem);
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .comparison-section.visible {
+      display: block;
+    }
+
+    .comparison-section h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      margin-bottom: 0.5em;
+    }
+
+    .comparison-section .stage-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 2em;
+    }
+
+    .comparison-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      .comparison-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .comparison-card {
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid rgba(44, 42, 37, 0.08);
+      border-left: 4px solid;
+    }
+
+    .comparison-card.outlier {
+      border-left-width: 6px;
+    }
+
+    .comparison-card .persona-name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 1.25rem;
+      margin-bottom: 0.25em;
+    }
+
+    .comparison-card .emotion {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 0.5em;
+    }
+
+    .comparison-card .quote {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.4;
+      margin-bottom: 0.5em;
+    }
+
+    .comparison-card .cite {
+      font-size: 0.75rem;
+      opacity: 0.6;
+    }
+
+    /* Closing section */
+    .closing-section {
+      padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 4vw, 3rem);
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .closing-section h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 400;
+      margin-bottom: 1em;
+      line-height: 1.3;
+    }
+
+    .closing-section p {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      line-height: 1.7;
+      color: var(--text-dark);
+    }
+
+    .back-to-overview {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .back-to-overview:hover {
+      color: var(--text-dark);
+    }
+
+    /* Zoom animation - card expands to fill */
+    .persona-card.zooming {
+      position: fixed;
+      z-index: 100;
+      margin: 0 !important;
+      transition: all 0.6s var(--ease-out-quart);
+    }
+
+    .persona-card.zooming-out {
+      transition: all 0.5s var(--ease-out-quart);
+    }
+  </style>
+</head>
+<body>
+  <!-- Title overlay -->
+  <div class="title-overlay" id="titleOverlay">
+    <h1>Follow Their Order</h1>
+    <p class="subtitle">Four students. Six stages. One ordering journey.</p>
+    <p class="intro">Same app. Four completely different experiences.</p>
+    <p class="hint">Click anywhere to begin</p>
+  </div>
+
+  <!-- Main dashboard -->
+  <main class="main">
+    <div class="dashboard" id="dashboard">
+      <!-- Persona cards injected by JS -->
+    </div>
+
+    <div class="view-comparison-wrap" id="viewComparisonWrap">
+      <button class="view-comparison-btn" id="viewComparisonBtn">View Comparison</button>
+    </div>
+  </main>
+
+  <!-- Journey zoom view -->
+  <div class="journey-zoom" id="journeyZoom">
+    <div class="stage-slides" id="stageSlides">
+      <!-- Stage slides injected by JS -->
+    </div>
+    <nav class="journey-nav" id="journeyNav">
+      <button class="back-btn" id="backBtn">← Back to overview</button>
+      <div class="stage-indicator">
+        <span class="persona-mini-label" id="personaMiniLabel"></span>
+        <div class="stage-dots" id="stageDots"></div>
+      </div>
+      <div class="nav-arrows">
+        <button class="nav-arrow" id="prevStage" aria-label="Previous stage">←</button>
+        <button class="nav-arrow" id="nextStage" aria-label="Next stage">→</button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Comparison section -->
+  <section class="comparison-section" id="comparisonSection">
+    <div class="stage-label" id="comparisonStageLabel"></div>
+    <h2 id="comparisonHeading"></h2>
+    <div class="comparison-cards" id="comparisonCards"></div>
+    <div style="text-align: center;">
+      <button class="view-comparison-btn" id="toClosingBtn">Continue to closing</button>
+    </div>
+  </section>
+
+  <!-- Closing section -->
+  <section class="closing-section" id="closingSection">
+    <h2 id="closingHeading"></h2>
+    <p id="closingBody"></p>
+    <button class="back-to-overview" id="backToOverview">← Back to overview</button>
+  </section>
+
+  <script>
+    (function() {
+      const DATA = {
+        "title": "Follow Their Order",
+        "subtitle": "Four students. Six stages. One ordering journey.",
+        "intro": "Same app. Four completely different experiences.",
+        "stages": ["Trigger", "Decision", "Order", "Wait", "Meal", "After"],
+        "stageNames": ["Deciding to order", "Choosing where & what", "Placing the order", "Waiting for delivery", "Eating the food", "After the meal"],
+        "closing": {
+          "heading": "What happens between wanting to order and actually ordering?",
+          "body": "Four students. Four journeys. But every one of them considered Deliveroo. The question isn't whether students want to order. It's what happens in the gap."
+        },
+        "personas": [
+          {"id": "optimizer", "name": "The Pragmatic Optimizer", "shortName": "Optimizer", "color": "#1d7775", "colorSoft": "#e8f3f3", "tagline": "Systematic efficiency meets strategic deal-hunting", "introQuote": {"text": "Ordering a takeaway after an exam… that's an enjoyable meal. It's like a reward. You've earned it.", "cite": "P007"}, "stages": [{"name": "Deciding to order", "emotion": "Comfort", "score": "4/5", "context": "It's Thursday evening. Lectures are done, the library is closed, and tomorrow's assignment can wait. The thought of cooking crosses their mind — and is immediately weighed against the effort.", "quote": {"text": "It sort of takes you out from when you're doing, like, work all day. It's just something different that you can focus on.", "cite": "P025"}}, {"name": "Choosing where & what", "emotion": "Stress", "score": "2/5", "context": "Three apps open. Delivery fees compared. Menu prices cross-referenced. The minimum order threshold means adding a drink they don't really want to hit £15.", "quote": {"text": "I try to make it about £15 to save delivery fees… it makes some changes in my delivery order.", "cite": "P012"}}, {"name": "Placing the order", "emotion": "Excitement", "score": "5/5", "context": "The calculation is complete. The order is placed. For a brief moment, the optimisation stops and something simpler takes over: anticipation. The fee was managed. The reward is incoming.", "quote": null}, {"name": "Waiting for delivery", "emotion": "Neutral", "score": "3/5", "context": "Twenty-five minutes. Time to do something else. The waiting barely registers — the emotional work was in the decision, not the delivery.", "quote": null}, {"name": "Eating the food", "emotion": "Comfort", "score": "4/5", "context": "The food arrives exactly as expected. No surprises, no disappointment. The meal is eaten with quiet satisfaction — a small, earned reward after a calculated decision.", "quote": null}, {"name": "After the meal", "emotion": "Excitement", "score": "5/5", "context": "Worth it. The math checked out. The fee was saved. The reward was earned. A productive day capped with a strategic indulgence.", "quote": {"text": "Whether that's through a productive day or I've gone on a long hike or something. Where you've earned it.", "cite": "P007"}}]},
+          {"id": "social", "name": "The Social Orderer", "shortName": "Social", "color": "#b07328", "colorSoft": "#f7f0e4", "tagline": "Group dynamics drive delivery decisions", "introQuote": {"text": "Oh, it's like an unspoken ritual… We're not meant to call it a 'ritual,' but it definitely is.", "cite": "P001"}, "stages": [{"name": "Deciding to order", "emotion": "Stress", "score": "2/5", "context": "A friend mentions food. Another one pulls out their phone. The seed is planted. Now it's not about whether to order — it's about being part of the moment.", "quote": {"text": "I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my head.", "cite": "P015"}}, {"name": "Choosing where & what", "emotion": "Stress", "score": "2/5", "context": "Everyone has opinions. Different restaurants, different cuisines, different apps. Someone needs to take charge — but deciding for the group means absorbing the blame if it's wrong.", "quote": {"text": "Something about takeaways at home even with friends don't feel as social. Whereas if you're out and about together it feels more social for some reason.", "cite": "P022"}}, {"name": "Placing the order", "emotion": "Connection", "score": "5/5", "context": "One phone, one account, one subscription splitting the cost. The order goes in and for a moment, the group is aligned: this is their Friday night.", "quote": {"text": "I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or four.", "cite": "P009"}}, {"name": "Waiting for delivery", "emotion": "Neutral", "score": "3/5", "context": "The group shifts to something else — a show, a conversation, a game. The food is coming. That's all that matters right now.", "quote": null}, {"name": "Eating the food", "emotion": "Guilt", "score": "2/5", "context": "The food is eaten. The social energy fades. And then, quietly: was that too much? The guilt doesn't come from the food — it comes from eating it alone with your thoughts.", "quote": {"text": "When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your own.", "cite": "P001"}}, {"name": "After the meal", "emotion": "Comfort", "score": "4/5", "context": "It's done. Plates stacked, containers binned. The evening settles into the kind of comfort that only comes from a shared routine. Next Friday, the same thing will happen.", "quote": null}]},
+          {"id": "balancer", "name": "The Budget Balancer", "shortName": "Balancer", "color": "#3a7a55", "colorSoft": "#e9f3ed", "tagline": "Careful financial management meets occasional treats", "introQuote": {"text": "I'm not really the kind of person that likes having subscriptions anyway because I just don't… like money coming out.", "cite": "P023"}, "stages": [{"name": "Deciding to order", "emotion": "Stress", "score": "2/5", "context": "The internal negotiation begins. Has it been long enough since the last order? Is there food in the fridge? Is this a genuine craving or just convenience? Three conditions must be met before permission is granted.", "quote": {"text": "Justified is probably just when it's been a while, if it's something I've been feeling like having, and if it's time to do another grocery shop.", "cite": "P005"}}, {"name": "Choosing where & what", "emotion": "Comfort", "score": "4/5", "context": "When the answer is yes, there's relief. The guilt of deciding to order is replaced by the comfort of choosing well — finding the right deal, the right restaurant, the right amount. The hard part is over.", "quote": null}, {"name": "Placing the order", "emotion": "Frustration", "score": "2/5", "context": "Then the price hits. Delivery fee. Service fee. The total climbs past the comfortable threshold. Subscriptions that promise savings feel like another cost to justify.", "quote": null}, {"name": "Waiting for delivery", "emotion": "Neutral", "score": "3/5", "context": "The emotional weight was in the decision. Now there's just time. The waiting is empty — not anxious, not excited, just neutral.", "quote": null}, {"name": "Eating the food", "emotion": "Indifference", "score": "3/5", "context": "The food is fine. It's eaten without ceremony. For the Budget Balancer, the drama was in the permission to order, not in the eating. This stage is emotionally flat — and that flatness is the insight.", "quote": null}, {"name": "After the meal", "emotion": "Comfort", "score": "4/5", "context": "It's over. The money is spent. And in the quiet aftermath, there's a gentle comfort: it was a while since the last one. It was justified.", "quote": {"text": "I've had quite a busy or stressful week as, like, a little reward.", "cite": "P028"}}]},
+          {"id": "dependent", "name": "The Convenience Dependent", "shortName": "Dependent", "color": "#6454a4", "colorSoft": "#efedf7", "tagline": "Delivery as essential life infrastructure", "introQuote": {"text": "Usually, when I'm not at home, I'm always ordering off Just Eat, Deliveroo, or UberEats, ordering to the friend's house. About pretty much five times a week.", "cite": "P006"}, "stages": [{"name": "Deciding to order", "emotion": "Frustration", "score": "2/5", "context": "The cereal is gone. The milk is out. The shop is a twenty-minute walk in February rain. The frustration isn't about food — it's about everything else getting in the way of eating.", "quote": {"text": "I started noticing that we're running out of cereal, eggs, milk, porridge… I didn't feel like going down to the shop… and I didn't have the time.", "cite": "P006"}}, {"name": "Choosing where & what", "emotion": "Comfort", "score": "4/5", "context": "The decision is barely a decision. The app is already open. The regular order is right there. The only real choice is which platform has the better deal tonight.", "quote": {"text": "I have one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time.", "cite": "P036"}}, {"name": "Placing the order", "emotion": "Connection", "score": "5/5", "context": "The order is placed — from a friend's house, between lectures, coordinated with a flatmate. Delivery isn't an event. It's infrastructure. The positive feeling comes from the routine itself working smoothly.", "quote": null}, {"name": "Waiting for delivery", "emotion": "Frustration", "score": "2/5", "context": "The driver can't find the college entrance. The pin drop is wrong. The food sits at a gate while a phone call sorts out what a map couldn't.", "quote": {"text": "It's kind of difficult getting the deliveries actually where you want them. Maybe it's just the setup here at Oxford and the different colleges.", "cite": "P034"}}, {"name": "Eating the food", "emotion": "Comfort", "score": "4/5", "context": "Hot food, couch, winter evening. For a moment, everything makes sense. The convenience was worth it.", "quote": {"text": "Definitely winter. I think that's probably what started it… just not wanting to leave the house as much.", "cite": "P029"}}, {"name": "After the meal", "emotion": "Stress", "score": "2/5", "context": "Then the bank notification arrives. Ninety pounds this week. Maybe more. The spending is visible, the pattern undeniable. Tomorrow it'll happen again.", "quote": {"text": "I'd say about… I don't want to lie… about 90 to 100 quid just alone on food, maybe even more.", "cite": "P006"}}]}
+        ],
+        "comparison": {
+          "stage": "Placing the order",
+          "heading": "Same moment. Four reactions.",
+          "cards": [
+            {"persona": "The Pragmatic Optimizer", "emotion": "Excitement", "positive": true, "score": "5 / 5", "quote": "It's like a reward. You've earned it.", "cite": "P007", "color": "#1d7775"},
+            {"persona": "The Social Orderer", "emotion": "Connection", "positive": true, "score": "5 / 5", "quote": "I ordered from my account all together and then we split it.", "cite": "P009", "color": "#b07328"},
+            {"persona": "The Budget Balancer", "emotion": "Frustration", "positive": false, "score": "2 / 5", "quote": "I just don't like money coming out.", "cite": "P023", "color": "#3a7a55", "outlier": true},
+            {"persona": "The Convenience Dependent", "emotion": "Connection", "positive": true, "score": "5 / 5", "quote": "About pretty much five times a week.", "cite": "P006", "color": "#6454a4"}
+          ]
+        }
+      };
+
+      const visited = new Set();
+      let currentPersona = null;
+      let currentStage = 0;
+
+      const titleOverlay = document.getElementById('titleOverlay');
+      const dashboard = document.getElementById('dashboard');
+      const viewComparisonWrap = document.getElementById('viewComparisonWrap');
+      const viewComparisonBtn = document.getElementById('viewComparisonBtn');
+      const journeyZoom = document.getElementById('journeyZoom');
+      const stageSlides = document.getElementById('stageSlides');
+      const comparisonSection = document.getElementById('comparisonSection');
+      const closingSection = document.getElementById('closingSection');
+
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      function renderDashboard() {
+        dashboard.innerHTML = DATA.personas.map((p, i) => {
+          const q = p.introQuote;
+          const qHtml = q ? `<blockquote class="quote">${q.text}</blockquote><cite class="cite">${q.cite}</cite>` : '';
+          return `
+            <div class="persona-card" data-persona-id="${p.id}" data-index="${i}" style="background: ${p.colorSoft}; color: ${p.color};">
+              <div class="accent-bar" style="background: ${p.color};"></div>
+              <h3>${p.name}</h3>
+              <p class="tagline">${p.tagline}</p>
+              ${qHtml}
+            </div>`;
+        }).join('');
+      }
+
+      function renderStageSlides(persona) {
+        stageSlides.innerHTML = persona.stages.map((s, i) => {
+          const q = s.quote;
+          const qHtml = q ? `<blockquote class="quote-block">${q.text}<cite class="quote-cite">${q.cite}</cite></blockquote>` : '';
+          return `
+            <div class="stage-slide" data-index="${i}" style="color: ${persona.color};">
+              <span class="stage-label">Stage ${i + 1} of 6</span>
+              <h2>${s.name}</h2>
+              <span class="emotion-badge" style="background: ${persona.colorSoft}; color: ${persona.color};">${s.emotion} · ${s.score}</span>
+              <p class="context">${s.context}</p>
+              ${qHtml}
+            </div>`;
+        }).join('');
+      }
+
+      function renderStageDots() {
+        const dots = document.getElementById('stageDots');
+        const persona = DATA.personas.find(p => p.id === currentPersona);
+        if (!persona) return;
+        dots.innerHTML = persona.stages.map((_, i) =>
+          `<span class="stage-dot ${i === currentStage ? 'active' : ''} ${i < currentStage ? 'visited' : ''}" data-index="${i}"></span>`
+        ).join('');
+      }
+
+      function showStage(index) {
+        const persona = DATA.personas.find(p => p.id === currentPersona);
+        currentStage = index;
+        document.querySelectorAll('.stage-slide').forEach((el, i) => {
+          el.classList.toggle('active', i === index);
+        });
+        renderStageDots();
+        document.getElementById('prevStage').disabled = index === 0;
+        document.getElementById('nextStage').disabled = !persona || index === persona.stages.length - 1;
+      }
+
+      function openJourney(personaId) {
+        const persona = DATA.personas.find(p => p.id === personaId);
+        if (!persona) return;
+        currentPersona = personaId;
+        currentStage = 0;
+
+        const card = document.querySelector(`.persona-card[data-persona-id="${personaId}"]`);
+        if (card && !prefersReducedMotion) {
+          const rect = card.getBoundingClientRect();
+          card.classList.add('zooming');
+          card.style.transform = `translate(${-rect.left}px, ${-rect.top}px) scale(${window.innerWidth / rect.width}, ${window.innerHeight / rect.height})`;
+          card.style.borderRadius = '0';
+          card.style.width = rect.width + 'px';
+          card.style.height = rect.height + 'px';
+          card.style.left = rect.left + 'px';
+          card.style.top = rect.top + 'px';
+
+          setTimeout(() => {
+            card.style.transition = 'none';
+            card.style.cssText = '';
+            card.classList.remove('zooming');
+            card.style.display = 'none';
+            journeyZoom.classList.add('active');
+            journeyZoom.style.setProperty('--persona-color', persona.color);
+            document.getElementById('journeyNav').style.color = persona.color;
+            document.getElementById('personaMiniLabel').textContent = persona.shortName;
+            document.getElementById('personaMiniLabel').style.color = persona.color;
+            renderStageSlides(persona);
+            renderStageDots();
+            showStage(0);
+            document.getElementById('prevStage').disabled = true;
+            document.getElementById('nextStage').disabled = persona.stages.length === 1;
+          }, 600);
+        } else {
+          journeyZoom.classList.add('active');
+          journeyZoom.style.setProperty('--persona-color', persona.color);
+          document.getElementById('journeyNav').style.color = persona.color;
+          document.getElementById('personaMiniLabel').textContent = persona.shortName;
+          document.getElementById('personaMiniLabel').style.color = persona.color;
+          renderStageSlides(persona);
+          renderStageDots();
+          showStage(0);
+          document.getElementById('prevStage').disabled = true;
+          document.getElementById('nextStage').disabled = persona.stages.length === 1;
+        }
+      }
+
+      function closeJourney() {
+        journeyZoom.classList.remove('active');
+        currentPersona = null;
+        renderDashboard();
+        updateVisitedState();
+        checkAllVisited();
+      }
+
+      function updateVisitedState() {
+        document.querySelectorAll('.persona-card').forEach(card => {
+          if (visited.has(card.dataset.personaId)) card.classList.add('visited');
+          else card.classList.remove('visited');
+        });
+      }
+
+      function checkAllVisited() {
+        if (visited.size === 4) viewComparisonWrap.classList.add('visible');
+      }
+
+      function renderComparison() {
+        const c = DATA.comparison;
+        document.getElementById('comparisonStageLabel').textContent = c.stage;
+        document.getElementById('comparisonHeading').textContent = c.heading;
+        document.getElementById('comparisonCards').innerHTML = c.cards.map(card =>
+          `<div class="comparison-card ${card.outlier ? 'outlier' : ''}" style="border-left-color: ${card.color}; background: ${card.color}22;">
+            <div class="persona-name" style="color: ${card.color};">${card.persona}</div>
+            <div class="emotion" style="color: ${card.color};">${card.emotion} · ${card.score}</div>
+            <blockquote class="quote">${card.quote}</blockquote>
+            <cite class="cite">${card.cite}</cite>
+          </div>`
+        ).join('');
+      }
+
+      titleOverlay.addEventListener('click', () => {
+        titleOverlay.classList.add('hidden');
+      });
+
+      dashboard.addEventListener('click', (e) => {
+        const card = e.target.closest('.persona-card');
+        if (card) {
+          visited.add(card.dataset.personaId);
+          openJourney(card.dataset.personaId);
+        }
+      });
+
+      document.getElementById('backBtn').addEventListener('click', closeJourney);
+
+      document.getElementById('prevStage').addEventListener('click', () => {
+        if (currentStage > 0) showStage(currentStage - 1);
+      });
+
+      document.getElementById('nextStage').addEventListener('click', () => {
+        const persona = DATA.personas.find(p => p.id === currentPersona);
+        if (persona && currentStage < persona.stages.length - 1) showStage(currentStage + 1);
+      });
+
+      viewComparisonBtn.addEventListener('click', () => {
+        document.querySelector('.main').style.display = 'none';
+        journeyZoom.classList.remove('active');
+        renderComparison();
+        comparisonSection.classList.add('visible');
+        comparisonSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      document.getElementById('toClosingBtn').addEventListener('click', () => {
+        comparisonSection.classList.remove('visible');
+        document.getElementById('closingHeading').textContent = DATA.closing.heading;
+        document.getElementById('closingBody').textContent = DATA.closing.body;
+        closingSection.scrollIntoView({ behavior: 'smooth' });
+      });
+
+      document.getElementById('backToOverview').addEventListener('click', () => {
+        document.querySelector('.main').style.display = '';
+        comparisonSection.classList.remove('visible');
+        closingSection.style.display = 'none';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (!currentPersona) return;
+        const persona = DATA.personas.find(p => p.id === currentPersona);
+        if (e.key === 'ArrowLeft') {
+          if (currentStage > 0) showStage(currentStage - 1);
+        } else if (e.key === 'ArrowRight') {
+          if (persona && currentStage < persona.stages.length - 1) showStage(currentStage + 1);
+        } else if (e.key === 'Escape') {
+          closeJourney();
+        }
+      });
+
+      renderDashboard();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+{
+  "participant_id": "P026",
+  "summary": "Boba is a pragmatic, financially comfortable student who has fully integrated delivery into her daily routine as a time-saving solution rather than an indulgence. Unlike many students, she has significant work experience and financial stability from her previous career in dental nursing, which allows her to spend £25 on herself without concern while her peers are more constrained by student loans. Her relationship with food is entirely functional - she orders delivery for most meals (breakfast from Gregg's, lunch from Subway/McDonald's, dinner varies) and cooks only about three times per week, describing herself as a 'terrible cook' who 'can't be bothered' after long days combining university and McDonald's management work.\n\nWhat's striking about Boba is her matter-of-fact acceptance of her delivery-heavy lifestyle, showing little guilt or justification that other students might feel. She's developed sophisticated app preferences, particularly favoring Gopuff for groceries due to its 24/7 availability and unique product range, while maintaining subscriptions to both Uber One and Deliveroo Plus. Her approach is highly systematic - she uses 'buy it again' features, compares apps when motivated, and has clear preferences for different meal types on different platforms. Despite mentioning recent attempts to 'cut down' due to skin concerns, her actual behavior shows no real change, suggesting this is more aspirational than actionable.",
+  "personality_notes": "Direct, practical communicator who gives short, factual responses. Shows no emotional investment in food choices - everything is framed in terms of convenience and efficiency. Confident about her financial position and unapologetic about her delivery habits.",
+  "food_relationship": "Food is purely functional fuel - delivery is her default solution for most meals, with cooking relegated to occasional necessity when she 'can't be bothered' to order.",
+  "key_moments": [
+    {
+      "timestamp": "Throughout interview",
+      "description": "Consistently describes delivery as routine rather than treat - 'It's always a Gregg's', 'I lean towards Subway or McDonald's'",
+      "significance": "Shows how normalized delivery has become in her daily routine, contrasting with typical student guilt around frequent ordering"
+    },
+    {
+      "timestamp": "Live order section",
+      "description": "Demonstrates sophisticated app navigation, immediately going to 'buy it again' section and showing clear brand preferences",
+      "significance": "Reveals the habitual, systematic nature of her ordering - this is practiced behavior, not spontaneous decision-making"
+    },
+    {
+      "timestamp": "Financial discussion",
+      "description": "States she wouldn't mind spending £25 on herself because money will 'come back', unlike peers who rely on student loans",
+      "significance": "Key differentiator - her work background gives her financial confidence that shapes her entire relationship with delivery"
+    }
+  ],
+  "what_not_said": [
+    "Health implications of delivery-heavy diet",
+    "Social aspects of eating with friends",
+    "Any emotional connection to food",
+    "Environmental concerns about packaging/delivery",
+    "Cooking as enjoyment or creativity"
+  ],
+  "initial_hypotheses": [
+    "Financial security from work experience removes typical student barriers to frequent delivery use",
+    "Delivery has become so normalized it's no longer seen as indulgent but as basic meal provision",
+    "Busy schedule combining university and management work creates genuine time pressure that justifies convenience",
+    "App loyalty is driven by functional benefits rather than brand attachment"
+  ],
+  "questions_for_coding": [
+    "How does work experience/financial stability change student delivery behavior compared to loan-dependent peers?",
+    "What role does time pressure from multiple commitments play in delivery normalization?",
+    "How do students develop sophisticated app preferences and switching behaviors?",
+    "What's the difference between aspirational behavior change ('trying to cut down') and actual behavior change?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So, I'm Boba... I'm studying at Unius Alford.\nspk_1: I do prosthetics and orthotics.\nspk_1: I did do nursing last year.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 225,
+      "end_char_index": 352,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think I might look like a student...\nspk_1: I will say that because I get minutes bursar, and I get full battle.\nspk_1: And I did work, but with that, I did...\nspk_1: Because before I came to uni, I did an actual...\nspk_1: I did dental nursing.\nspk_1: So I had a full-on, full-time job.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 5318,
+      "end_char_index": 5614,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "But I think I'm quite lucky as a student.\nspk_1: I don't feel like I'm skint or anything.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 5876,
+      "end_char_index": 5966,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I think I'm all right.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 6029,
+      "end_char_index": 6059,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Whereas I wouldn't mind spending 25 pounds on myself because I don't...\nspk_1: I don't fit. I feel like it's going to come back.\nspk_1: Whereas they're leaning more on the student loan.\nspk_1: Whereas I'm... yeah, leaning less.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 6581,
+      "end_char_index": 6816,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It's always a Gregg's.\nspk_1: Yeah... it's always a Gregg's.\nspk_1: I don't like any of the breakfast, so it's always a Gregg's.\nspk_1: Or I just won't eat because I've just had a good time dinner.\nspk_1: I lean towards Subway or McDonald's.\nspk_1: It's really bad for it, so I'll order again.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 8047,
+      "end_char_index": 8348,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I probably cook about three times a week.\nspk_1: And the rest... this thingy?\nspk_1: Yeah, definitely!\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 9436,
+      "end_char_index": 9546,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Recently, I've tried to cut down on eating loads because I know that I'm going to bed after...\nspk_1: I'm acne, I'm trying to calm it down, so I'll try and cook them, but I'm a terrible cook, and by that point, I can't actually be bothered.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 8348,
+      "end_char_index": 8596,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Like, I lean towards Gopuff.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 3705,
+      "end_char_index": 3741,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So I would go and go up off now.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 20986,
+      "end_char_index": 21026,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_0: And why GoPuff?\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 46459,
+      "end_char_index": 46482,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "Just because of the convenience of it...\nspk_1: and 24/7, the price isn't bad at all.\n",
+      "document_index": 0,
+      "document_title": "P026 - P026 - Interview Transcript",
+      "start_char_index": 46495,
+      "end_char_index": 46581,
+      "participant_id": "P026",
+      "participant_name": "P026"
+    }
+  ],
+  "_citation_count": 12
+}

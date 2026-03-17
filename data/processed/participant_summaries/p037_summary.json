@@ -1,0 +1,116 @@
+{
+  "participant_id": "P037",
+  "summary": "P037 is a first-year international management student at Bath living in Quads halls with 9 flatmates. She presents as conscientious and health-focused, cooking elaborate meals from scratch twice weekly with careful attention to nutritional balance (protein, carbs, vegetables). Her food relationship is characterised by a tension between her health aspirations and the practical realities of student life - she spends up to 1.5 hours making dinner while stressing about lost study time and delayed sleep. She's embraced online grocery delivery as a time-saving solution, ordering weekly either individually or in small groups with flatmates, primarily through supermarket websites rather than delivery apps. Her approach to food delivery is highly strategic and price-driven - she will switch platforms for any amount of savings and actively hunts for vouchers and discounts. Despite her health-conscious cooking, she treats restaurant delivery as a weekend indulgence, triggered mainly by offers, special occasions, or when she doesn't feel like cooking. Notably, she has unique insight into the delivery ecosystem, having worked as an Uber Eats driver with her mother during COVID - an experience that made her acutely aware of the economics and time investment involved.",
+  "personality_notes": "Eager to please and somewhat uncertain in conversation, asking for validation ('Is that good?'). Methodical and health-conscious but also pragmatic about student constraints. Price-sensitive to an extreme degree - will switch apps for £1-2 savings. Organised with meal planning but stressed about time management.",
+  "food_relationship": "Health-conscious home cook who uses delivery strategically for convenience (groceries) and treats (restaurant food), with strong price sensitivity driving all decisions.",
+  "key_moments": [
+    {
+      "timestamp": "25:00",
+      "description": "Reveals she worked as Uber Eats driver with her mum during COVID",
+      "significance": "Provides unique insider perspective on delivery economics and rider experience that influences her current usage patterns"
+    },
+    {
+      "timestamp": "24:30",
+      "description": "Describes spending 1.5 hours making dinner while stressing about lost study time",
+      "significance": "Captures the core tension between her health aspirations and student time pressures"
+    },
+    {
+      "timestamp": "55:00",
+      "description": "States she'll switch apps for 'any amount' of money saved",
+      "significance": "Reveals extreme price sensitivity that drives platform choice over brand loyalty"
+    }
+  ],
+  "what_not_said": [
+    "Never mentions eating breakfast despite detailed daily routine",
+    "Doesn't discuss food waste despite elaborate meal prep",
+    "Avoids mentioning specific amounts spent on restaurant delivery",
+    "No discussion of dietary restrictions or food allergies"
+  ],
+  "initial_hypotheses": [
+    "Her rider experience makes her more empathetic to delivery workers but also more cost-conscious about fees",
+    "Health-conscious identity conflicts with student budget constraints, creating internal tension",
+    "Group ordering behaviour may be driven more by cost-splitting than social bonding",
+    "Weekend delivery treats may be psychological reward for weekday cooking discipline"
+  ],
+  "questions_for_coding": [
+    "How does her rider experience influence her tipping behaviour and platform choice?",
+    "What triggers the switch from 'I should cook healthy food' to 'I'll order delivery'?",
+    "How does she navigate the social dynamics of group ordering in a 10-person flat?",
+    "Does her extreme price sensitivity extend to other areas of student spending?"
+  ],
+  "_citations": [
+    {
+      "cited_text": "Do you want to know about, like, my hobbies as well? Is that good?\n",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 469,
+      "end_char_index": 536,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "So what we've done more often recently is doing food orders together. It kind of saves some time from going into town and doing a food shop that way. So we'll... if it's from, like, Sainsbury's or Tesco's, we'll all have, like, one computer, and then one person will do the big order, and then we'll separate the cost. ",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 2363,
+      "end_char_index": 2682,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "But other than that, I use, like, online food orders, like, probably weekly. I think it's so much more convenient!\n",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 2745,
+      "end_char_index": 2860,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "spk_1: So, I generally cook everything from scratch, or at least I try to be a little bit more health-conscious. So, I'll usually try and get, you know, every single component: like I get my protein, my carbs, and my vegetables. And if it's not vegetables in that meal, then I'll have fruit in place of that to eat after. ",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 8176,
+      "end_char_index": 8498,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "I make it all myself rather than having freezer food or pre-packaged food. I think it's just like... it makes me feel better about the food choices that I'm making.\n",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 8550,
+      "end_char_index": 8715,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "So, for example, last night I think I spent, like, an hour and... like almost an hour and a half making dinner. And that's, like, stressful because I'm like, I could be getting work done right, right now! And I was like, this is pushing back my sleep as well. So that's definitely the most stressful meal of the week. ",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 9770,
+      "end_char_index": 10088,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "spk_1: I feel like... any amount. Any amount of money... yeah.\n",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 23667,
+      "end_char_index": 23730,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "spk_1: I actually was a writer once. Yeah, I did it... like, this is actually so funny. I did it during COVID with my mom. ",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 35743,
+      "end_char_index": 35866,
+      "participant_id": "P037"
+    },
+    {
+      "cited_text": "But we, like, did that for a whole two days. Yeah, just me and my mom. Like, it was kind of a fun experience. Yeah!\n",
+      "document_title": "Interview Transcript — P037",
+      "document_index": 0,
+      "start_char_index": 36066,
+      "end_char_index": 36182,
+      "participant_id": "P037"
+    }
+  ],
+  "_citation_count": 9
+}

@@ -1,0 +1,207 @@
+# =============================================================================
+# Data Source Configuration
+# =============================================================================
+# Hardcoded IDs for all external data sources used by the student research
+# analysis system. Includes Google Workspace documents, Marvin interview
+# transcripts, and Glean strategic context.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Marvin - Interview Transcripts & Summaries
+# ---------------------------------------------------------------------------
+marvin:
+  project_id: 51271
+  project_name: "Student research"
+  total_files: 14
+  description: "Video recordings with auto-generated transcripts and AI summaries"
+  interviews:
+    - file_id: 27587832
+      name: "Lee"
+      participant_id: "P001"
+      duration_seconds: 2932
+    - file_id: 28386497
+      name: "Aayush"
+      participant_id: "P009"
+      duration_seconds: 2349
+    - file_id: 28386498
+      name: "Dearbhla"
+      participant_id: "P010"
+      duration_seconds: 3216
+    - file_id: 28395856
+      name: "Mrugesh"
+      participant_id: "P011"
+      duration_seconds: 2760
+    - file_id: 28395857
+      name: "Suryansh"
+      participant_id: "P012"
+      duration_seconds: 2729
+    - file_id: 28386496
+      name: "Josh"
+      participant_id: "P013"
+      duration_seconds: 2381
+    - file_id: 28328447
+      name: "Jill"
+      participant_id: "P017"
+      duration_seconds: 3469
+    - file_id: 28328446
+      name: "Jenna"
+      participant_id: "P020"
+      duration_seconds: 3263
+    - file_id: 27587834
+      name: "James"
+      participant_id: "P021"
+      duration_seconds: 2623
+    - file_id: 28328244
+      name: "Katie"
+      participant_id: "P022"
+      duration_seconds: 2690
+    - file_id: 27587833
+      name: "Alexandra"
+      participant_id: "P023"
+      duration_seconds: 2702
+    - file_id: 28386154
+      name: "Apollo"
+      participant_id: "P031"
+      duration_seconds: 3510
+    - file_id: 28386152
+      name: "Francesca"
+      participant_id: "P032"
+      duration_seconds: 2377
+    - file_id: 28386151
+      name: "Amy"
+      participant_id: "P033"
+      duration_seconds: 2228
+  pending_participants:
+    - "P002 - Rory Carrie"
+    - "P003 - Indiana Kenyon"
+    - "P004 - Sian Webber"
+    - "P005 - Chika Sivakaran"
+    - "P006 - Adam P"
+    - "P007 - Joshua Williamson"
+    - "P008 - Manoj Bhandari"
+    - "P014 - Alexander O'Mahoney"
+    - "P015 - Evan Dummett"
+    - "P016 - Aimee Billington"
+    - "P018 - Louise Hawkins"
+    - "P019 - Gita Prabhandhari"
+    - "P024 - Edna Paulo"
+    - "P034 - Jade Kosché"
+    - "P025-P030 - In-home participants"
+
+# ---------------------------------------------------------------------------
+# Google Workspace
+# ---------------------------------------------------------------------------
+
+google_workspace:
+
+  # ---------------------------------------------------------------------------
+  # Participant Data
+  # ---------------------------------------------------------------------------
+  participant_spreadsheet:
+    id: "1ZNtV5wbv3XlnZ-td5wbeSYLxRGrTVbx9PdLbDi411WM"
+    description: "Participants - Student Research"
+    sheets:
+      - name: "Overview"
+        purpose: "Summary counts by location, gender, age"
+      - name: "Undergrad"
+        purpose: "16 undergraduate participant profiles"
+      - name: "Postgrad"
+        purpose: "3 postgraduate participant profiles"
+      - name: "Early grad"
+        purpose: "5 early graduate participant profiles"
+      - name: "Diary Study"
+        purpose: "15 diary study participant tracking"
+      - name: "Tasks to be done"
+        purpose: "Project management tasks"
+
+  # ---------------------------------------------------------------------------
+  # Researcher Notes
+  # ---------------------------------------------------------------------------
+  researcher_notes:
+    master_doc:
+      id: "1mhq-XzOXj6wt-zjCDvqi2L5DHyiNMumoM0wMHc92X5Q"
+      description: "Student Research Note Taking"
+      type: "tabbed_doc"
+      tab_format: "Session N - Name (ID: xxx)"
+      sections_per_tab:
+        - "Background"
+        - "Living situation"
+        - "Social media"
+        - "Meals"
+        - "Ordering"
+        - "Grocery"
+        - "Stress"
+        - "Perceptions"
+        - "Competition"
+        - "Subscription"
+
+    individual_notes:
+      - id: "1mkReKnsl8UcrS9U22_fEWnW5Ep4-YaBNdeHm3GOG2ps"
+        description: "Lee - Session 6 notes"
+        participant: "Lee R"
+      - id: "1Kbh2K1KerdL5-TALLCGuNOBoDlJndcN-By4SarAELwk"
+        description: "James - Session 3 notes"
+        participant: "James Olivier"
+      - id: "17ByADXaUYomMNHTY-oxQGt--VX61uy7pGkTY7X7r0xw"
+        description: "Alexandra - Session 7 notes"
+        participant: "Alexandra Thacker"
+
+  # ---------------------------------------------------------------------------
+  # Discussion Guides
+  # ---------------------------------------------------------------------------
+  discussion_guides:
+    online_v2:
+      id: "1ewkMbNcs79KHp0dGIDUzVy9QaT50f8zL421LuSrnkCQ"
+      description: "Student Research - Discussion Guide V2"
+      interview_type: "online"
+      participant_count: 24
+    in_home:
+      id: "1B7RhsvEB7ynIGYYALAqyvQHX44D--iCqFfS26qHLQVA"
+      description: "Student Research - In-home Discussion Guide"
+      interview_type: "in_home"
+      participant_count: 6
+      unique_sections:
+        - name: "Live Order (Behavioural Deep Dive)"
+          duration_minutes: 12
+          purpose: "Observe real-time ordering decision process"
+      strategic_objectives:
+        - "Acquisition: How do students discover and sign up for delivery?"
+        - "Real-time choice/loyalty: What drives platform choice in the moment?"
+        - "Subscription value: How do students perceive Plus Silver?"
+        - "Graduate retention: What changes when students graduate?"
+
+  # ---------------------------------------------------------------------------
+  # Business Context Sources
+  # ---------------------------------------------------------------------------
+  business_context_sources:
+    plus_bible:
+      id: "1jPTzi0prgytY_T3hmWtcsPrmDHo5XCWQ8iwfDd6bRgc"
+      description: "Deliveroo Plus & Loyalty — Agent Context Bible"
+      content_type: "strategy_document"
+      sections: 14
+      synthesised_from: 18
+    previous_wad:
+      id: "1_3_ejuh7LxNDmVRa6eksI97M9gqGFaDRDnY7mZa_9IQ"
+      description: "From Deadlines to Nights Out (WAD Sept 2025)"
+      content_type: "previous_research"
+    research_proposal:
+      id: "15zhH3crTnDByGmSpwa5YaR3ExmpZ-ul3Pacaa3xTZSg"
+      description: "Research Proposal: Understanding Student Food and Delivery Habits"
+      content_type: "brief"
+    participant_profiles_deck:
+      id: "1S6fgk4UG_EF1cn7dRB0yolgCwTs8e3w-VTgt69_oWJo"
+      description: "Student Research - Participant Profiles & Overview - Feb'26"
+      content_type: "presentation"
+
+  # ---------------------------------------------------------------------------
+  # Glean MCP Sources (supplementary, queried at runtime)
+  # ---------------------------------------------------------------------------
+  glean_sources:
+    students_y3_launch:
+      query: "Students Y3 Launch"
+      presentation_id: "1umFAgxdp2NnKRMIWXgZB8lnHz62BykJnrMAC6IDDYQo"
+      description: "Student proposition metrics, competitive positioning, Y2 learnings"
+      use_for:
+        - "Competitive context refresh"
+        - "Strategic metric validation"
+        - "Y2 learning cross-reference"

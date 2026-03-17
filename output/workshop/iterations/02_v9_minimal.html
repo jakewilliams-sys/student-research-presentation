@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What the Research Shows</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0C0C0C;
+  --text: #EAEAE0;
+  --text-secondary: rgba(234,234,224,0.45);
+  --text-tertiary: rgba(234,234,224,0.25);
+  --badge-teal: rgba(0,204,189,0.5);
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
+  --dur: 400ms;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Instrument Sans', system-ui, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* ============================================
+   SLIDE SYSTEM
+   ============================================ */
+.slide {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 clamp(3rem, 12vw, 10rem);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--dur) var(--ease);
+  background: var(--bg);
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+
+.slide-inner {
+  max-width: 520px;
+  width: 100%;
+}
+
+/* ============================================
+   CHAPTER TITLE SLIDES
+   ============================================ */
+.chapter-counter {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-secondary);
+  margin-bottom: 1.8rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.15s;
+}
+.chapter-slide.active .chapter-counter { opacity: 1; }
+
+.chapter-headline {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.25s;
+}
+.chapter-slide.active .chapter-headline { opacity: 1; }
+
+.chapter-sub {
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+  max-width: 44ch;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.4s;
+}
+.chapter-slide.active .chapter-sub { opacity: 1; }
+
+/* ============================================
+   FINDING SLIDES
+   ============================================ */
+.finding-label {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: var(--badge-teal);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.1s;
+}
+.finding-slide.active .finding-label { opacity: 1; }
+
+.finding-headline {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: clamp(1.4rem, 2.8vw, 2.1rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.6rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.2s;
+}
+.finding-slide.active .finding-headline { opacity: 1; }
+
+.finding-body {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 44ch;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.35s;
+}
+.finding-slide.active .finding-body { opacity: 1; }
+
+.finding-source {
+  font-size: 0.62rem;
+  color: var(--text-tertiary);
+  margin-top: 1.6rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.5s;
+}
+.finding-slide.active .finding-source { opacity: 1; }
+
+/* ============================================
+   QUOTE SLIDES
+   ============================================ */
+.quote-slide .slide-inner { max-width: 520px; }
+
+.quote-text {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
+  font-weight: 400;
+  line-height: 1.45;
+  font-style: italic;
+  padding-left: 1.8rem;
+  border-left: 1px solid rgba(234,234,224,0.15);
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.2s;
+}
+.quote-slide.active .quote-text { opacity: 1; }
+
+.quote-cite {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+  padding-left: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.4s;
+}
+.quote-slide.active .quote-cite { opacity: 1; }
+
+.quote-context {
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  padding-left: 1.8rem;
+  margin-top: 0.4rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.5s;
+}
+.quote-slide.active .quote-context { opacity: 1; }
+
+/* ============================================
+   DATA SLIDES
+   ============================================ */
+.data-slide .slide-inner { max-width: 520px; }
+
+.data-title {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.15s;
+}
+.data-slide.active .data-title { opacity: 1; }
+
+/* --- Say-Do Comparison --- */
+.saydo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.3s;
+}
+.data-slide.active .saydo-grid { opacity: 1; }
+
+.saydo-item {
+  padding: 1.2rem 0;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.saydo-name {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.7rem;
+}
+.saydo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+.saydo-tag {
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+  font-weight: 600;
+}
+.saydo-val {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  text-align: right;
+  color: var(--text-secondary);
+}
+.saydo-val.did { color: var(--text); font-weight: 600; }
+
+/* --- Bar Charts --- */
+.bar-section {
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.3s;
+}
+.data-slide.active .bar-section { opacity: 1; }
+
+.bar-section-label {
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  margin-top: 1.5rem;
+}
+.bar-section-label:first-child { margin-top: 0; }
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.bar-name {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  width: 90px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.bar-track {
+  flex: 1;
+  height: 26px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.65rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--bg);
+  background: var(--text);
+  width: 0;
+  transition: width 0.75s var(--ease) 0.5s;
+}
+.data-slide.active .bar-fill { width: var(--w); }
+
+/* Bar opacity variants: 100%, 60%, 40%, 35%, 25% */
+.bar-fill.op-100 { background: rgba(234,234,224,1); }
+.bar-fill.op-60 { background: rgba(234,234,224,0.6); }
+.bar-fill.op-40 { background: rgba(234,234,224,0.4); }
+.bar-fill.op-35 { background: rgba(234,234,224,0.35); }
+.bar-fill.op-25 { background: rgba(234,234,224,0.25); }
+
+/* --- Stats Row --- */
+.stats-row {
+  display: flex;
+  gap: 3.5rem;
+  margin-top: 2.5rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.6s;
+}
+.data-slide.active .stats-row { opacity: 1; }
+
+.stat-num {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+.stat-desc {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  margin-top: 0.3rem;
+  line-height: 1.45;
+  max-width: 14ch;
+}
+
+/* --- Emotion Chips --- */
+.emotion-list {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.8rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.5s;
+}
+.data-slide.active .emotion-list { opacity: 1; }
+
+.emotion-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 3px;
+  font-size: 0.68rem;
+  border: 1px solid;
+  background: transparent;
+}
+.emotion-tag .e-n {
+  font-weight: 700;
+  color: var(--text);
+}
+.emotion-tag .e-l {
+  color: var(--text-secondary);
+}
+
+/* Opacity hierarchy for emotion chips */
+.emotion-tag.op-100 { border-color: rgba(234,234,224,1); }
+.emotion-tag.op-60 { border-color: rgba(234,234,224,0.6); }
+.emotion-tag.op-40 { border-color: rgba(234,234,224,0.4); }
+.emotion-tag.op-25 { border-color: rgba(234,234,224,0.25); }
+
+/* ============================================
+   BRIDGE SLIDE
+   ============================================ */
+.bridge-headline {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.2s;
+}
+.bridge-slide.active .bridge-headline { opacity: 1; }
+
+.bridge-sub {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  margin-top: 1.2rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.45s;
+}
+.bridge-slide.active .bridge-sub { opacity: 1; }
+
+/* ============================================
+   DATA SOURCE ANNOTATION
+   ============================================ */
+.data-source {
+  font-size: 0.6rem;
+  color: var(--text-tertiary);
+  margin-top: 1.5rem;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease) 0.8s;
+}
+.data-slide.active .data-source { opacity: 1; }
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+.progress-bar {
+  position: fixed;
+  bottom: 0; left: 0;
+  height: 1px;
+  width: 0;
+  background: rgba(234,234,224,0.25);
+  z-index: 100;
+  transition: width 0.45s var(--ease);
+}
+.slide-counter {
+  position: fixed;
+  bottom: 1rem; right: 1.5rem;
+  font-size: 0.55rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  z-index: 100;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+}
+.nav-hint {
+  position: fixed;
+  bottom: 2.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.58rem;
+  color: var(--text-tertiary);
+  z-index: 100;
+  transition: opacity 0.8s;
+  opacity: 0.6;
+}
+.nav-hint.hidden { opacity: 0; }
+
+/* ============================================
+   ACCESSIBILITY & RESPONSIVE
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+@media (max-width: 640px) {
+  .slide { padding: 0 1.8rem; }
+  .saydo-grid { grid-template-columns: 1fr; }
+  .stats-row { flex-direction: column; gap: 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================ -->
+<!-- CHAPTER 1: The Say-Do Gap                    -->
+<!-- ============================================ -->
+
+<div class="slide chapter-slide active">
+  <div class="slide-inner">
+    <p class="chapter-counter">Chapter 1</p>
+    <h2 class="chapter-headline">The gap between what students say and what they&nbsp;do</h2>
+    <p class="chapter-sub">Students describe themselves as organised cooks who eat regularly. The diary study tells a different story.</p>
+  </div>
+</div>
+
+<!-- Say-Do Data -->
+<div class="slide data-slide">
+  <div class="slide-inner">
+    <h2 class="data-title">What they told us vs. what the diary showed</h2>
+    <div class="saydo-grid">
+      <div class="saydo-item">
+        <div class="saydo-name">Suryansh</div>
+        <div class="saydo-row"><span class="saydo-tag">Said</span><span class="saydo-val said">"I cook 50% of the time"</span></div>
+        <div class="saydo-row"><span class="saydo-tag">Diary</span><span class="saydo-val did">29% home-cooked meals</span></div>
+      </div>
+      <div class="saydo-item">
+        <div class="saydo-name">Sian</div>
+        <div class="saydo-row"><span class="saydo-tag">Said</span><span class="saydo-val said">"I'm a newly breakfast convert"</span></div>
+        <div class="saydo-row"><span class="saydo-tag">Diary</span><span class="saydo-val did">Skipped breakfast 3 of 7 days</span></div>
+      </div>
+      <div class="saydo-item">
+        <div class="saydo-name">Joshua W</div>
+        <div class="saydo-row"><span class="saydo-tag">Said</span><span class="saydo-val said">"I get takeaway once a week"</span></div>
+        <div class="saydo-row"><span class="saydo-tag">Diary</span><span class="saydo-val did">Zero delivery orders in 7 days</span></div>
+      </div>
+      <div class="saydo-item">
+        <div class="saydo-name">Mrugesh</div>
+        <div class="saydo-row"><span class="saydo-tag">Said</span><span class="saydo-val said">"I cook 50% of my meals"</span></div>
+        <div class="saydo-row"><span class="saydo-tag">Diary</span><span class="saydo-val did">29% home-cooked meals</span></div>
+      </div>
+    </div>
+    <p class="data-source">50 say-do discrepancies identified across 15 diary participants</p>
+  </div>
+</div>
+
+<!-- Insight -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">Why this matters</p>
+    <h2 class="finding-headline">This isn't about students lying. It's aspiration meeting&nbsp;reality.</h2>
+    <p class="finding-body">Students genuinely believe they cook more and order less than they actually do. This gap between self-image and behaviour means we can't rely on what students tell us about their habits. Across 35 interviews, 110 tensions were identified between what participants claimed and how they actually behaved — spanning health, cost, routine, and identity.</p>
+    <p class="finding-source">110 tensions across 33 of 35 participants</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"I really like cooking, so I do watch a lot of Gordon Ramsay myself. I do follow food influencers, restaurants as well, and all of that."</p>
+    <p class="quote-cite">— Adam</p>
+    <p class="quote-context">Adam later described ordering delivery multiple times per week. His diary showed heavy reliance on takeaway.</p>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- CHAPTER 2: The Weekend Collapse              -->
+<!-- ============================================ -->
+
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Chapter 2</p>
+    <h2 class="chapter-headline">The weekend collapse</h2>
+    <p class="chapter-sub">From Friday onwards, cooking routines fall apart. But students don't replace cooking with delivery — they replace it with everything else.</p>
+  </div>
+</div>
+
+<!-- Bar Chart -->
+<div class="slide data-slide">
+  <div class="slide-inner">
+    <h2 class="data-title">How meals change from weekday to weekend</h2>
+
+    <div class="bar-section">
+      <p class="bar-section-label">Weekday (Mon–Fri)</p>
+      <div class="bar-row">
+        <span class="bar-name">Home-cooked</span>
+        <div class="bar-track"><div class="bar-fill op-100" style="--w:56%">56%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Skipped</span>
+        <div class="bar-track"><div class="bar-fill op-60" style="--w:18%">18%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Eating out</span>
+        <div class="bar-track"><div class="bar-fill op-40" style="--w:12%">12%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Convenience</span>
+        <div class="bar-track"><div class="bar-fill op-35" style="--w:11%">11%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Delivery</span>
+        <div class="bar-track"><div class="bar-fill op-25" style="--w:3%">3%</div></div>
+      </div>
+
+      <p class="bar-section-label">Weekend (Sat–Sun)</p>
+      <div class="bar-row">
+        <span class="bar-name">Home-cooked</span>
+        <div class="bar-track"><div class="bar-fill op-100" style="--w:39%">39%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Skipped</span>
+        <div class="bar-track"><div class="bar-fill op-60" style="--w:33%">33%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Eating out</span>
+        <div class="bar-track"><div class="bar-fill op-40" style="--w:14%">14%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Convenience</span>
+        <div class="bar-track"><div class="bar-fill op-35" style="--w:7%">7%</div></div>
+      </div>
+      <div class="bar-row">
+        <span class="bar-name">Delivery</span>
+        <div class="bar-track"><div class="bar-fill op-25" style="--w:7%">7%</div></div>
+      </div>
+    </div>
+
+    <p class="data-source">Diary study, n=15 · Weekday: 225 meal slots · Weekend: 90 meal slots · Percentages of all meal slots</p>
+  </div>
+</div>
+
+<!-- Insight -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">The opportunity</p>
+    <h2 class="finding-headline">The weekend isn't just when students stop cooking. It's when their entire routine breaks&nbsp;down.</h2>
+    <p class="finding-body">Social plans override cooking intentions. Fridges empty out by Saturday. Tiredness from the week accumulates. Meal skipping nearly doubles — from 18% to 33% of all meal slots. Delivery rises from 3% to 7%, but students are more likely to default to eating out, grabbing convenience food, or simply not eating. The weekend gap is where delivery could win, but it's currently losing to inaction.</p>
+    <p class="finding-source">17-percentage-point drop in home cooking · Diary study, n=15</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"It was actually Friday night. I was by myself and it was a really long week and I had no food in the fridge. I was like, I'm just gonna have my takeaway this week on&nbsp;Friday."</p>
+    <p class="quote-cite">— Dearbhla</p>
+    <p class="quote-context">Final-year undergraduate, Dublin. Orders weekly — almost always on Friday evenings.</p>
+  </div>
+</div>
+
+<!-- Quote 2 -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"Weekends I'd spend a little bit more time cooking or I'd always definitely have some sort of either go out somewhere to eat or get a takeaway in. Yeah, because the weeks are long and you kind of get sick of&nbsp;cooking."</p>
+    <p class="quote-cite">— Dearbhla</p>
+    <p class="quote-context">The weekend represents choice paralysis — cooking, eating out, and delivery all compete for the same moment.</p>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- CHAPTER 3: It's a Group Decision             -->
+<!-- ============================================ -->
+
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Chapter 3</p>
+    <h2 class="chapter-headline">It's a group decision</h2>
+    <p class="chapter-sub">Social context is the strongest behavioural driver — not convenience, not hunger, not habit.</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"I sat next to my mate, and he was like, 'Oh, I just think I'm going to order something.' And that's all, like, planted a seed in my&nbsp;head."</p>
+    <p class="quote-cite">— Evan</p>
+    <p class="quote-context">1st-year undergraduate, Southampton. The trigger isn't hunger — it's social contagion.</p>
+  </div>
+</div>
+
+<!-- Finding -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">How group ordering actually works</p>
+    <h2 class="finding-headline">One friend mentions food. Then three apps open. Then one account pays for&nbsp;everyone.</h2>
+    <p class="finding-body">The ordering process is deeply social. A flatmate suggests food → the group debates restaurants → someone with a subscription offers their account → one order is placed → costs are split afterwards. Platform choice happens collaboratively, with friends comparing delivery fees and promotions across apps in real time. The person with the best subscription effectively chooses the platform for the group.</p>
+    <p class="finding-source">31 quotes from 22 participants · High confidence</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"I ordered from my account. I have a membership, so I ordered from my account all together and then we split it in like three or&nbsp;four."</p>
+    <p class="quote-cite">— Aayush</p>
+    <p class="quote-context">Final-year undergraduate, London. One subscription serves the whole flat.</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"Oh, it's like an unspoken ritual… We're not meant to call it a 'ritual,' but it definitely&nbsp;is."</p>
+    <p class="quote-cite">— Lee</p>
+    <p class="quote-context">2nd-year undergraduate, Dublin. Friday night ordering has become embedded routine — automatic, expected, shared.</p>
+  </div>
+</div>
+
+<!-- Guilt Finding -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">The guilt factor</p>
+    <h2 class="finding-headline">Group ordering doesn't just drive frequency. It reduces&nbsp;guilt.</h2>
+    <p class="finding-body">Ordering alone carries guilt — students feel they "should" be cooking, saving money, eating healthier. But in a group context, delivery becomes normalised. It's a social activity, not an indulgence. The shared decision distributes responsibility, and the split cost feels more justifiable than a solo order.</p>
+    <p class="finding-source">Guilt tagged 86 times across all participants · Drops significantly in social contexts</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"When you're going out with friends, it doesn't feel as bad getting a pizza. It feels more like a social thing rather than ordering it to your house and eating it on your&nbsp;own."</p>
+    <p class="quote-cite">— Lee</p>
+    <p class="quote-context">The same food, ordered the same way, feels fundamentally different depending on who's around.</p>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- CHAPTER 4: Consideration vs. Conversion      -->
+<!-- ============================================ -->
+
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Chapter 4</p>
+    <h2 class="chapter-headline">Delivery usage is tiny. Something is blocking&nbsp;conversion.</h2>
+    <p class="chapter-sub">Just 3.8% of meal slots involved delivery — yet the emotional friction around ordering is intense.</p>
+  </div>
+</div>
+
+<!-- Contrast Data -->
+<div class="slide data-slide">
+  <div class="slide-inner">
+    <h2 class="data-title">Delivery usage in the diary week</h2>
+    <div class="stats-row">
+      <div class="stat-block">
+        <div class="stat-num">3.8%</div>
+        <div class="stat-desc">of all meal slots were delivery</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">12</div>
+        <div class="stat-desc">delivery orders across 315 meal slots</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">5 of 15</div>
+        <div class="stat-desc">diary participants placed zero delivery orders</div>
+      </div>
+    </div>
+    <p class="data-source">Diary study, n=15 · 315 meal slots across 7 days</p>
+  </div>
+</div>
+
+<!-- Barriers -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">What's blocking them</p>
+    <h2 class="finding-headline">It's not an awareness problem. Something stops them from&nbsp;converting.</h2>
+    <p class="finding-body">The emotional journey data reveals what gets in the way. When students consider ordering, the dominant emotions aren't excitement or anticipation — they're stress (169 mentions) and frustration (144 mentions). Price anxiety, guilt about spending, the mental effort of comparing platforms, and the nagging feeling that cooking is what they "should" be doing all create friction between wanting to order and actually doing it.</p>
+    <p class="finding-source">1,344 emotion-tagged segments across 35 participants</p>
+  </div>
+</div>
+
+<!-- Emotions Data -->
+<div class="slide data-slide">
+  <div class="slide-inner">
+    <h2 class="data-title">The emotional landscape of ordering</h2>
+    <p class="finding-body" style="margin-bottom:1.5rem;">When filtering out routine indifference, the emotions that dominate the ordering process are negative. Excitement exists — but stress, frustration, and guilt outweigh it.</p>
+    <div class="emotion-list">
+      <div class="emotion-tag op-100"><span class="e-n">169</span><span class="e-l">Stress</span></div>
+      <div class="emotion-tag op-100"><span class="e-n">144</span><span class="e-l">Frustration</span></div>
+      <div class="emotion-tag op-60"><span class="e-n">140</span><span class="e-l">Comfort</span></div>
+      <div class="emotion-tag op-60"><span class="e-n">104</span><span class="e-l">Excitement</span></div>
+      <div class="emotion-tag op-40"><span class="e-n">86</span><span class="e-l">Guilt</span></div>
+      <div class="emotion-tag op-40"><span class="e-n">67</span><span class="e-l">Connection</span></div>
+      <div class="emotion-tag op-25"><span class="e-n">59</span><span class="e-l">Relief</span></div>
+    </div>
+    <p class="data-source">1,344 emotion-tagged segments · Indifference (521) filtered as noise · Across 35 participants</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"I try to make it about £15 to save delivery fees… it makes some changes in my delivery&nbsp;order."</p>
+    <p class="quote-cite">— Suryansh</p>
+    <p class="quote-context">The mental arithmetic of fees, thresholds, and value erodes the simple pleasure of ordering food.</p>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- CHAPTER 5: Not All Students Are the Same     -->
+<!-- ============================================ -->
+
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Chapter 5</p>
+    <h2 class="chapter-headline">Not all students are the&nbsp;same</h2>
+    <p class="chapter-sub">Academic stage shapes the relationship with delivery more than age, gender, or location.</p>
+  </div>
+</div>
+
+<!-- Finding -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">Academic stage segmentation</p>
+    <h2 class="finding-headline">Undergraduates order as emotional reward. Postgraduates order for practical&nbsp;convenience.</h2>
+    <p class="finding-body">For undergraduates, delivery is tied to emotion — the Friday night treat, the post-exam reward, the "I've earned it" moment. It's social, celebratory, and guilt-laden. For postgraduates, it's pragmatic — time-saving, schedule-driven, and evaluated on health and value. The same product serves fundamentally different emotional needs depending on where a student is in their academic journey.</p>
+    <p class="finding-source">24 quotes from 27 participants · Medium confidence</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"Ordering a takeaway after an exam… that's an enjoyable meal. It's like a reward. You've earned&nbsp;it."</p>
+    <p class="quote-cite">— Joshua W</p>
+    <p class="quote-context">Final-year undergraduate, Manchester. Delivery as emotional reward — tied to achievement and occasion.</p>
+  </div>
+</div>
+
+<!-- Quote -->
+<div class="slide quote-slide">
+  <div class="slide-inner">
+    <p class="quote-text">"I guess, like, price is probably most important. Also, on a PhD budget, it's like they're not really paying you very&nbsp;much."</p>
+    <p class="quote-cite">— Jade</p>
+    <p class="quote-context">PhD student, Oxford. Delivery as practical calculation — evaluated on cost and utility, not emotion.</p>
+  </div>
+</div>
+
+<!-- Bridge Finding -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label">What this means</p>
+    <h2 class="finding-headline">You can't market to "students" as a single group. The triggers, barriers, and value perceptions are&nbsp;different.</h2>
+    <p class="finding-body">Our research identified four distinct behavioural personas — each with different ordering triggers, emotional drivers, and pain points. But before we meet them, we need to understand the competitive landscape they're navigating: the subscriptions, the platforms, and what's actually driving platform choice.</p>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- CLOSING: Bridge                              -->
+<!-- ============================================ -->
+
+<div class="slide bridge-slide">
+  <div class="slide-inner">
+    <h2 class="bridge-headline">Now that we understand the landscape — what are they choosing&nbsp;between?</h2>
+    <p class="bridge-sub">Next: Plus, Uber One, and the subscription battleground →</p>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="progress-bar" id="progress"></div>
+<div class="slide-counter" id="counter"></div>
+<div class="nav-hint" id="navHint">Arrow keys or click to navigate</div>
+
+<script>
+(function() {
+  var slides = Array.from(document.querySelectorAll('.slide'));
+  var total = slides.length;
+  var current = 0;
+  var progressEl = document.getElementById('progress');
+  var counterEl = document.getElementById('counter');
+  var hintEl = document.getElementById('navHint');
+
+  function show(idx) {
+    if (idx < 0 || idx >= total) return;
+
+    // Reset bar fills on current slide before leaving
+    slides[current].querySelectorAll('.bar-fill').forEach(function(b) {
+      b.style.width = '0';
+    });
+
+    slides[current].classList.remove('active');
+    slides[idx].classList.add('active');
+    current = idx;
+
+    // Clear inline width on incoming slide's bars so they animate in
+    slides[idx].querySelectorAll('.bar-fill').forEach(function(b) {
+      b.style.width = '';
+    });
+
+    progressEl.style.width = ((idx + 1) / total * 100) + '%';
+    counterEl.textContent = (idx + 1) + ' / ' + total;
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); show(current + 1); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); show(current - 1); }
+    if (e.key === 'Home') { e.preventDefault(); show(0); }
+    if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('button') || e.target.closest('a')) return;
+    var w = window.innerWidth;
+    if (e.clientX > w * 0.6) show(current + 1);
+    else if (e.clientX < w * 0.4) show(current - 1);
+  });
+
+  setTimeout(function() { hintEl.classList.add('hidden'); }, 3500);
+  show(0);
+})();
+</script>
+</body>
+</html>

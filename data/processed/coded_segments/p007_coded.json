@@ -1,0 +1,2181 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P007_INT_001",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I live with. I think there's eight in my house. So typical student sort of house share set up. Maybe a bit bigger than typical, but yeah, pretty, pretty standard student sort of student lifestyle, I'd say.",
+      "timestamp": "1-12:1-15",
+      "research_objective_codes": [
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "typical",
+          "standard"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i live with i think there's eight in my house so typical student sort of house share set up maybe a bit bigger than typical but yeah pretty pretty standard student sort of student lifestyle i'd say"
+      }
+    },
+    {
+      "segment_id": "P007_INT_002",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Everyone individually. We've got plenty of fridge space and stuff, so everyone buys their own, does their own food shop. And I mean, a lot of the time we'll cook together or, you know, we'll cook individual meals, but we'll all be cooking together or we'll do the food shop together, but it will always be sort of on an individual basis.",
+      "timestamp": "1-62:1-64",
+      "research_objective_codes": [
+        "RO1_eating_moments.how_does_accommodation_type_shape_eating"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "individual"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "everyone individually we've got plenty of fridge space and stuff so everyone buys their own does their own food shop and i mean a lot of the time we'll cook together or you know we'll cook individual meals but we'll all be cooking together or we'll do the food shop together but it will always be sor"
+      }
+    },
+    {
+      "segment_id": "P007_INT_003",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So breakfast I'll pretty much always have at home. Unless it's. I'd say after. After an hour is. Or occasionally I'll go for like breakfast with my girlfriend. It's typically I'll probably have some sort of like overnight oats, sort of like a yogurt, porridge, milk with like berries, some seeds and stuff. And that's typically my like Monday to Friday breakfast. It's, you know, it's easy, quick, eat it in the morning, get out the door.",
+      "timestamp": "1-160:1-167",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "morning"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "routine"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time",
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so breakfast i'll pretty much always have at home unless it's i'd say after after an hour is or occasionally i'll go for like breakfast with my girlfriend it's typically i'll probably have some sort of like overnight oats sort of like a yogurt porridge milk with like berries some seeds and stuff and"
+      }
+    },
+    {
+      "segment_id": "P007_INT_004",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So I'll normally sort of meal prep on a Monday, but then I'd say one or two nights a week I'll get some form of like food out, whether that's at a restaurant or a takeaway or like ordering it. But I'd say at least like, at least five nights a week I've like cooked at home maybe two or three portions of like a meal prep",
+      "timestamp": "1-177:1-178",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Diary shows zero delivery orders across 7 days, contradicting 'one or two nights a week' claim",
+        "language_pattern": [
+          "meal prep"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i'll normally sort of meal prep on a monday but then i'd say one or two nights a week i'll get some form of like food out whether that's at a restaurant or a takeaway or like ordering it but i'd say at least like at least five nights a week i've like cooked at home maybe two or three portions of "
+      }
+    },
+    {
+      "segment_id": "P007_INT_005",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I kind of. I switch between it being like an enjoyable task and. And like putting like sort of pride into the. Into the food. I mean, it just been something that I just, you know, like a sustenance sort of thing. I'd say in quiet periods in the house, I, you know, if it's only me or one of a person that it becomes like a nice task to cook.",
+      "timestamp": "1-211:1-216",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "pride",
+          "nice"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "social_context"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i kind of i switch between it being like an enjoyable task and and like putting like sort of pride into the into the food i mean it just been something that i just you know like a sustenance sort of thing i'd say in quiet periods in the house i you know if it's only me or one of a person that it bec"
+      }
+    },
+    {
+      "segment_id": "P007_INT_006",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "But obviously with eight people in the house, and I'm sure this is the case, a lot of students living with six to eight people. I think that's quite a normal setup. It can be quite over stimulating and overwhelming cooking when there's like four or five of you in there. Especially these. I mean, these houses aren't big. There's sort of lots of bedrooms crammed into one. So the kitchens end up being small. There's not a proper dining room or people are sort of eating and working and cooking all in the same space.",
+      "timestamp": "1-217:1-224",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "frustration"
+        ],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "overwhelming",
+          "overstimulating"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but obviously with eight people in the house and i'm sure this is the case a lot of students living with six to eight people i think that's quite a normal setup it can be quite over stimulating and overwhelming cooking when there's like four or five of you in there especially these i mean these hous"
+      }
+    },
+    {
+      "segment_id": "P007_INT_007",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So I'd say sometimes if it's. If I know there's a lot of us about, it's more of like I just bang some stuff on a tray, you know, get it in the oven for 20 minutes and then sort of eat like somewhere else. But when there's been times, you know, like in the last year or two, I've spent a lot more time at uni over the holidays. So I've had sort of. The house is this. There's like two of us in the house. So then I sort of know it's going to be quiet and I'll have a drink whilst cooking and it will be like a nice sort of experience.",
+      "timestamp": "1-225:1-231",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "joy"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "holiday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "nice experience"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "social_context"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i'd say sometimes if it's if i know there's a lot of us about it's more of like i just bang some stuff on a tray you know get it in the oven for 20 minutes and then sort of eat like somewhere else but when there's been times you know like in the last year or two i've spent a lot more time at uni "
+      }
+    },
+    {
+      "segment_id": "P007_INT_008",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, definitely in those busier periods in the house, it. Cooking becomes less of. They're gonna probably more likely to want to eat out or get a takeaway or something.",
+      "timestamp": "1-233:1-235",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "social_context"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah definitely in those busier periods in the house it cooking becomes less of they're gonna probably more likely to want to eat out or get a takeaway or something"
+      }
+    },
+    {
+      "segment_id": "P007_INT_009",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I don't. I. I've only done grocery deliveries once. I'd say under five times, definitely. And it's normally been taken advantage of. Some sort of like delivery offer or. I know it's quite common for, I think, like, I'd say like Sainsbury's delivery I did one year, they were just doing a good like 15 pound off reorder over like 60 pounds, stuff like that.",
+      "timestamp": "1-241:1-246",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "taken advantage"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i don't i i've only done grocery deliveries once i'd say under five times definitely and it's normally been taken advantage of some sort of like delivery offer or i know it's quite common for i think like i'd say like sainsbury's delivery i did one year they were just doing a good like 15 pound off "
+      }
+    },
+    {
+      "segment_id": "P007_INT_010",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Whether I go, I'd say more of the time, I'd say 80 of the time, I'm going in store to pick it up. I live in an area with loads and loads of takeaways and obviously being in Manchester, like, if I'm coming back from a night out, that's probably the main, main time I'd get a takeaway. So coming out, coming home, sorry, from drinks and you're on the bus, you're passing so many takeaways. On the walk back to mine, you're passing so many takeaway says it's a lot easier just to go in.",
+      "timestamp": "1-250:1-253",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "late_night"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "whether i go i'd say more of the time i'd say 80 of the time i'm going in store to pick it up i live in an area with loads and loads of takeaways and obviously being in manchester like if i'm coming back from a night out that's probably the main main time i'd get a takeaway so coming out coming home"
+      }
+    },
+    {
+      "segment_id": "P007_INT_011",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I'd say, like I said the once a week, I'd say probably, yeah, majority of them are in, in store because I feel like paying the delivery fee and stuff is pointless when you can walk.",
+      "timestamp": "1-254",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Claims 'once a week' but diary shows zero delivery orders",
+        "language_pattern": [
+          "pointless"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd say like i said the once a week i'd say probably yeah majority of them are in in store because i feel like paying the delivery fee and stuff is pointless when you can walk"
+      }
+    },
+    {
+      "segment_id": "P007_INT_012",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "But I think the main case for all of us is like Sunday hangover or something. Ordering food and then. Or like I've had past, like after an exam or something, you know, order, you know, then I'll order something different and something that's a bit further away",
+      "timestamp": "1-257:1-259",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "flatmates",
+        "temporal": [
+          "weekend",
+          "exam_period"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but i think the main case for all of us is like sunday hangover or something ordering food and then or like i've had past like after an exam or something you know order you know then i'll order something different and something that's a bit further away"
+      }
+    },
+    {
+      "segment_id": "P007_INT_013",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I think for me, ordering something off an app is more of a treat, I think, um, that's how I see it really, as, as ordering and delivering stuff is put. It's more of like a reward than a regular part of my like eating cupboards.",
+      "timestamp": "1-261:1-262",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "treat",
+          "reward"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think for me ordering something off an app is more of a treat i think um that's how i see it really as as ordering and delivering stuff is put it's more of like a reward than a regular part of my like eating cupboards"
+      }
+    },
+    {
+      "segment_id": "P007_INT_014",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, I, I mean, I'm on all three, so I'm always getting sort of deals sent through and stuff. And as a student, there's always even More stuff available. So, you know, if, if I've not got a particular one sticker. I mean, last week I ordered a Chinese steak right here in Sheffield. I had like a 10 pound off code on UberEats.",
+      "timestamp": "1-265:1-269",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats",
+          "deliveroo",
+          "justeat"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "Uses all three apps and compares deals",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i i mean i'm on all three so i'm always getting sort of deals sent through and stuff and as a student there's always even more stuff available so you know if if i've not got a particular one sticker i mean last week i ordered a chinese steak right here in sheffield i had like a 10 pound off cod"
+      }
+    },
+    {
+      "segment_id": "P007_INT_015",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So that was a case of, okay, I'll just look on UberEats because I know I've got about 10 pound like Uber credits, but typically if I didn't have like one like standout thing, I just have a quick scan on all of them because I know like some rests, like some takeaways aren't on certain apps and obviously the delivery fees vary and all that. So yeah, I'd say it's, it's a case of looking at all three and that's. I have a standout offer.",
+      "timestamp": "1-269:1-272",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [],
+        "platform": [
+          "ubereats",
+          "deliveroo",
+          "justeat"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "Actively compares all three platforms for best deals",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 2,
+        "uniqueness": 4,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so that was a case of okay i'll just look on ubereats because i know i've got about 10 pound like uber credits but typically if i didn't have like one like standout thing i just have a quick scan on all of them because i know like some rests like some takeaways aren't on certain apps and obviously t"
+      }
+    },
+    {
+      "segment_id": "P007_INT_016",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Then again, like I said with ordering a takeaway after, you know, sort of after an exam or something like that, that's, that's an enjoyable meal. It's like a reward. You've earned it. And for me, I like, I like doing exercise. So I think when I know I've like, let's say I order a takeaway on a Saturday and I've gone to the gym that day or gone for a run or something and it's like I like that feeling of the meals I enjoy the most are when I've sort of earned it.",
+      "timestamp": "1-290:1-294",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend",
+          "exam_period"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "reward",
+          "earned",
+          "deserve"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "then again like i said with ordering a takeaway after you know sort of after an exam or something like that that's that's an enjoyable meal it's like a reward you've earned it and for me i like i like doing exercise so i think when i know i've like let's say i order a takeaway on a saturday and i've"
+      }
+    },
+    {
+      "segment_id": "P007_INT_017",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "You know what I mean? Whether that's through like a productive day or, you know, I've gone on a long hike or something. Something like that, yes. Where I've, I think yeah, where I've earned it I think is what I'd say is the most enjoyable meal for me.",
+      "timestamp": "1-295:1-298",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "earned"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "you know what i mean whether that's through like a productive day or you know i've gone on a long hike or something something like that yes where i've i think yeah where i've earned it i think is what i'd say is the most enjoyable meal for me"
+      }
+    },
+    {
+      "segment_id": "P007_INT_018",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I think I'd probably like between 45 and 50 quid. I'd say it used to be a lot less in previous years but this year I've sort of come with the mindset of like, you know, it's important your diet and what you eat and stuff. Like it's not something to scrimp on really.",
+      "timestamp": "1-316:1-318",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think i'd probably like between 45 and 50 quid i'd say it used to be a lot less in previous years but this year i've sort of come with the mindset of like you know it's important your diet and what you eat and stuff like it's not something to scrimp on really"
+      }
+    },
+    {
+      "segment_id": "P007_INT_019",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So my like sort of meal prep and lunches and breakfast stuff actually isn't that expensive. Which leaves, which I prefer because it leaves me a bit of money for takeaway for one sort of takeaway or meal out a week sort of thing. So that's kind of the mindset I go with.",
+      "timestamp": "1-321:1-323",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so my like sort of meal prep and lunches and breakfast stuff actually isn't that expensive which leaves which i prefer because it leaves me a bit of money for takeaway for one sort of takeaway or meal out a week sort of thing so that's kind of the mindset i go with"
+      }
+    },
+    {
+      "segment_id": "P007_INT_020",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Like growing up, like we would typically have a takeaway once a week. So it kind of feels like something I'm like, I don't know, print up like program for. It feels like something I'm used to and I'm not always like the first few years of uni, I've not done that. But yeah, this year I've been busier and stuff and it just feels like, it feels quite routine for me now.",
+      "timestamp": "1-344:1-347",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "family",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "routine",
+          "programmed"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "like growing up like we would typically have a takeaway once a week so it kind of feels like something i'm like i don't know print up like program for it feels like something i'm used to and i'm not always like the first few years of uni i've not done that but yeah this year i've been busier and stu"
+      }
+    },
+    {
+      "segment_id": "P007_INT_021",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, definitely either like a reward, like I said, for exams or some form of bike. I don't know, I'd like my hiking. So if I've been for it, been for a long hike or something like that, then as a reward for sort of exercise or work. And then the other reason would be like after sort of a night out",
+      "timestamp": "1-351:1-354",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "joy"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "late_night",
+          "exam_period"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "reward"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah definitely either like a reward like i said for exams or some form of bike i don't know i'd like my hiking so if i've been for it been for a long hike or something like that then as a reward for sort of exercise or work and then the other reason would be like after sort of a night out"
+      }
+    },
+    {
+      "segment_id": "P007_INT_022",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So I got back from, so I went out in Leeds, got the train from Leeds to Sheffield to my girlfriend's house. She didn't particularly have much food and I knew I had that sort of 10 pound credit. We both fancied a Chinese and it was a case of okay, go on. UberEats filter for Chinese takeaways, speak to sort of housemates. They regularly get a Chinese so they know that the best sort of spots around here.",
+      "timestamp": "1-365:1-369",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [
+          "late_night"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price",
+          "convenience"
+        ],
+        "influence": [
+          "partner",
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i got back from so i went out in leeds got the train from leeds to sheffield to my girlfriend's house she didn't particularly have much food and i knew i had that sort of 10 pound credit we both fancied a chinese and it was a case of okay go on ubereats filter for chinese takeaways speak to sort "
+      }
+    },
+    {
+      "segment_id": "P007_INT_023",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, I'd say in both my house in Manchester and in Chef and my girlfriend's house at Chef Builders. We both have quite sociable houses, so it's quite common. I mean, in my house we don't have like a. We just have like a breakfast bathing, obviously, with eight of us, like, you can only have two people that. But we'll quite. It'll be common that even if we don't all eat at the same time, we'll be sat in the living room and someone will be eating",
+      "timestamp": "1-389:1-393",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "flatmates",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "sociable"
+        ],
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "flatmates"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i'd say in both my house in manchester and in chef and my girlfriend's house at chef builders we both have quite sociable houses so it's quite common i mean in my house we don't have like a we just have like a breakfast bathing obviously with eight of us like you can only have two people that b"
+      }
+    },
+    {
+      "segment_id": "P007_INT_024",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, definitely. I'd say first and second year of uni just didn't have as much money. So takeaways, obviously, is like the. The obvious thing to sort of call out in that regard. It's obviously an expensive hobby or habit to have.",
+      "timestamp": "1-400:1-404",
+      "research_objective_codes": [
+        "RO4_post_graduation.how_do_changing_finances_and_living_situ"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "expensive hobby"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah definitely i'd say first and second year of uni just didn't have as much money so takeaways obviously is like the the obvious thing to sort of call out in that regard it's obviously an expensive hobby or habit to have"
+      }
+    },
+    {
+      "segment_id": "P007_INT_025",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Last year with my. I was working last year full time. So then I think that's when it started to, like, increase a bit also. Like, see, I mean, when I was working a lot harder than I had in previous years, so it sort of felt like there was a. There was that sort of double incentive of more money and being more tired.",
+      "timestamp": "1-405:1-408",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "double incentive"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "last year with my i was working last year full time so then i think that's when it started to like increase a bit also like see i mean when i was working a lot harder than i had in previous years so it sort of felt like there was a there was that sort of double incentive of more money and being more"
+      }
+    },
+    {
+      "segment_id": "P007_INT_026",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So it's like, you know those first few months where I'm getting used to working 9 to 5, like in an office, it's like suddenly, oh, I don't have much time to cook at all. And it was like that sort of like rebalancing. But obviously I got used to it because it's just life. Everyone. Everyone has to work 9 to 5 at some point or something like that.",
+      "timestamp": "1-409:1-413",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "rebalancing"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so it's like you know those first few months where i'm getting used to working 9 to 5 like in an office it's like suddenly oh i don't have much time to cook at all and it was like that sort of like rebalancing but obviously i got used to it because it's just life everyone everyone has to work 9 to 5"
+      }
+    },
+    {
+      "segment_id": "P007_INT_027",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Honestly probably goes back to like when I was younger we just always did food shop in person. Like I don't know. My mom's always been against ordering stuff in. I don't know whether that's just like she thinks it's like lazy or she wants to buy. Also quite like to choose. I like to see what I'm buying.",
+      "timestamp": "1-427:1-432",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "family",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "quality"
+        ],
+        "influence": [
+          "family"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "honestly probably goes back to like when i was younger we just always did food shop in person like i don't know my mom's always been against ordering stuff in i don't know whether that's just like she thinks it's like lazy or she wants to buy also quite like to choose i like to see what i'm buying"
+      }
+    },
+    {
+      "segment_id": "P007_INT_028",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "But I think it's just more a case of like if when I think of ordering food online I think of like a big, a big order and I'm often only spending so you know, like I said 20 quid on a Monday and then a few top up shops. If I think it's always felt a little bit overkill to me either I've, that's why I've sort of take used deals in the past because if I'm only spending 20 quid, you know, a delivery 3 fee of like 2, 3, 4 pounds is like, it just feels a bit overkill for the amount of food I buy.",
+      "timestamp": "1-456:1-457",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "overkill"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but i think it's just more a case of like if when i think of ordering food online i think of like a big a big order and i'm often only spending so you know like i said 20 quid on a monday and then a few top up shops if i think it's always felt a little bit overkill to me either i've that's why i've "
+      }
+    },
+    {
+      "segment_id": "P007_INT_029",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I mean it's easy to say like student deals, but obviously if the app is just for students and you know, that's not a great business model, I think maybe something like recurring, like I said, I don't, I don't eat that much so a bowl corner doesn't appeal to me. But if I would have, I could have like a weekly sort of rotate and maybe like let's say in a month you get week one, week two, week three, four",
+      "timestamp": "1-467:1-468",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 4,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i mean it's easy to say like student deals but obviously if the app is just for students and you know that's not a great business model i think maybe something like recurring like i said i don't i don't eat that much so a bowl corner doesn't appeal to me but if i would have i could have like a weekl"
+      }
+    },
+    {
+      "segment_id": "P007_INT_030",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So I think what I mentioned with like the way I could see myself using the delivery app would be if I could sort of have like a. A set plan each month that I don't need to think about. It just comes on like a Monday that would suit me really well.",
+      "timestamp": "1-485:1-486",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i think what i mentioned with like the way i could see myself using the delivery app would be if i could sort of have like a a set plan each month that i don't need to think about it just comes on like a monday that would suit me really well"
+      }
+    },
+    {
+      "segment_id": "P007_INT_031",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "A combination of things, I think, depending on what I'm doing that way, how busy I am that week, how bad the weather is. Land. No one wants to do a food shop when it's chucking it down or it's windy or it's horrible. I'd honestly say like autumn and winter, like delivery just, just obviously feels so much better in Britain when it's horrible, say 90 of the time.",
+      "timestamp": "1-513:1-516",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "a combination of things i think depending on what i'm doing that way how busy i am that week how bad the weather is land no one wants to do a food shop when it's chucking it down or it's windy or it's horrible i'd honestly say like autumn and winter like delivery just just obviously feels so much be"
+      }
+    },
+    {
+      "segment_id": "P007_INT_032",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I'd say I'm always trying to take advantage of office and promotions. That's quite a big factor for me. I think it's like rational behavior to. If you see a more expensive place that's on offer versus something that's always priced even if it's lower, I think I'd still want to buy the higher quality one that's on offer.",
+      "timestamp": "1-530:1-533",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "rational behavior"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "quality"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'd say i'm always trying to take advantage of office and promotions that's quite a big factor for me i think it's like rational behavior to if you see a more expensive place that's on offer versus something that's always priced even if it's lower i think i'd still want to buy the higher quality one"
+      }
+    },
+    {
+      "segment_id": "P007_INT_033",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, I'd say speed is important to be fair because there's nothing worse than. I'd actually argue that speed is probably like right up there with office. Because if you order on an app and it takes like an hour, it's like I might as well have just gone and got it myself.",
+      "timestamp": "1-543:1-545",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah i'd say speed is important to be fair because there's nothing worse than i'd actually argue that speed is probably like right up there with office because if you order on an app and it takes like an hour it's like i might as well have just gone and got it myself"
+      }
+    },
+    {
+      "segment_id": "P007_INT_034",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I think when I order it's like I'm, I'm hungry when I order. I'm not one to like, it's always like. I'd say it's quite often a spur of the moment thing, me ordering on an app. So speed is quite important.",
+      "timestamp": "1-546:1-549",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.how_does_the_decision_process_work_from_"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "spur of the moment"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think when i order it's like i'm i'm hungry when i order i'm not one to like it's always like i'd say it's quite often a spur of the moment thing me ordering on an app so speed is quite important"
+      }
+    },
+    {
+      "segment_id": "P007_INT_035",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "And also, also, I've never really been incentivized by sort of like a subscription. I know like Uber 1 or I think it's called where there's like extra stuff for the food side as well. I don't think I've ever been. Been tempted by subscriptions just because my like ordering habits just aren't regular enough to justify it.",
+      "timestamp": "1-556:1-559",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "Mentions Uber One subscription",
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "and also also i've never really been incentivized by sort of like a subscription i know like uber 1 or i think it's called where there's like extra stuff for the food side as well i don't think i've ever been been tempted by subscriptions just because my like ordering habits just aren't regular enou"
+      }
+    },
+    {
+      "segment_id": "P007_INT_036",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Oh, I wasn't actually aware of that to be fair. Like. Okay, I would definitely considered. I've just never looked into the subscriptions even from like a student perspective just because I've never once thought they'd really apply to me. But obviously hearing that. Yeah, I would definitely look into that after hearing that.",
+      "timestamp": "1-573:1-578",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "surprise"
+        ],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh i wasn't actually aware of that to be fair like okay i would definitely considered i've just never looked into the subscriptions even from like a student perspective just because i've never once thought they'd really apply to me but obviously hearing that yeah i would definitely look into that af"
+      }
+    },
+    {
+      "segment_id": "P007_INT_037",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Whereas right now I sort of bounce between all three depending on what promotions and offers are on. So I don't think I see myself ever getting a subscription for any of them just because I think I get a good enough deals from just, you know, using all three, if that makes sense. Whereas yeah, if I had a subscription, I'd only use one.",
+      "timestamp": "1-600:1-602",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": [
+          "deliveroo",
+          "ubereats",
+          "justeat"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "bounce between"
+        ],
+        "competitive": "Actively switches between all three platforms for best deals",
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "whereas right now i sort of bounce between all three depending on what promotions and offers are on so i don't think i see myself ever getting a subscription for any of them just because i think i get a good enough deals from just you know using all three if that makes sense whereas yeah if i had a "
+      }
+    },
+    {
+      "segment_id": "P007_INT_038",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I think presence on like campus, I mean domino's do a great. Everyone knows about the domino student stuff. I mean every like sort of fresh isn't what refreshes we probably want to call it in sort of January. They always have a big. They have branding everywhere, workers everywhere handing out discount codes and stuff.",
+      "timestamp": "1-605:1-609",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "freshers"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "Domino's campus presence as benchmark",
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think presence on like campus i mean domino's do a great everyone knows about the domino student stuff i mean every like sort of fresh isn't what refreshes we probably want to call it in sort of january they always have a big they have branding everywhere workers everywhere handing out discount co"
+      }
+    },
+    {
+      "segment_id": "P007_INT_039",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So I'd say for the delivery apps just, just presence on campus at like sort of freshers fairs and stuff like that. I think that's the quickest way to like for people to see because I'm like with digital marketing stuff like you know, a lot of people might see it but you know, do they like actually see it? Is it like, okay, I've seen it just skip like whereas when you see something in person, I think you really, like, consider it.",
+      "timestamp": "1-616:1-618",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "freshers"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i'd say for the delivery apps just just presence on campus at like sort of freshers fairs and stuff like that i think that's the quickest way to like for people to see because i'm like with digital marketing stuff like you know a lot of people might see it but you know do they like actually see i"
+      }
+    },
+    {
+      "segment_id": "P007_INT_040",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "So I'd say free delivery first, always on offer second, and then cash back third. Because I just think, I think cashback's a bit of like a poorly understood topic around students as well. I think it's definitely something that, you know, people who have jobs and people who spend a lot more money take advantage of cash back a lot.",
+      "timestamp": "1-698:1-700",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "poorly understood"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so i'd say free delivery first always on offer second and then cash back third because i just think i think cashback's a bit of like a poorly understood topic around students as well i think it's definitely something that you know people who have jobs and people who spend a lot more money take advan"
+      }
+    },
+    {
+      "segment_id": "P007_INT_041",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "Yeah, like I said when I was working full time last year, like that, that increase. And then the job that I'm planning to go into has exams that need to be revised for outside of work hours. So I am probably planning on more. And then I could definitely see myself ordering online groceries at that point. Just because that extra hour every week or whatever would be crucial in terms of revision for exams.",
+      "timestamp": "1-734:1-738",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah like i said when i was working full time last year like that that increase and then the job that i'm planning to go into has exams that need to be revised for outside of work hours so i am probably planning on more and then i could definitely see myself ordering online groceries at that point j"
+      }
+    },
+    {
+      "segment_id": "P007_INT_042",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "But yeah, I see just as the standard like sort of income effect, just I will have more money, touch wood. Therefore I probably will spend more on takeaways. So I can definitely see it increasing in years after uni.",
+      "timestamp": "1-743:1-745",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "income effect"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "but yeah i see just as the standard like sort of income effect just i will have more money touch wood therefore i probably will spend more on takeaways so i can definitely see it increasing in years after uni"
+      }
+    },
+    {
+      "segment_id": "P007_INT_043",
+      "participant_id": "P007",
+      "source": "interview",
+      "text": "I think like I was harking on about before, about the Domino stuff. I think that sort of aggressive like campaign around sort of September and January and then potentially like an additional one around exam seasons and sort of well January and I think it's sort of May, early June.",
+      "timestamp": "1-756:1-757",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "freshers",
+          "exam_period"
+        ],
+        "platform": [
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "aggressive campaign"
+        ],
+        "competitive": "Domino's seasonal campaigns as benchmark",
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think like i was harking on about before about the domino stuff i think that sort of aggressive like campaign around sort of september and january and then potentially like an additional one around exam seasons and sort of well january and i think it's sort of may early june"
+      }
+    },
+    {
+      "segment_id": "P007_DIARY_001",
+      "participant_id": "P007",
+      "source": "diary_reflection",
+      "text": "So this morning, I ate a sort of overnight oats mix. I make it the night before. It's just a mixture of porridge or porridge oats and milk with some chia seeds and a bit of sugar. And then in the morning, I put some sort of like chocolate spread in just to give it a bit of bit of flavor. I do that. It's cheap. It's it's easy. It's just part of my routine now, really. It's nice and quick in the morning. I just, yeah, I wake up. I go get out of the fridge and eat, and it takes about five minutes.",
+      "timestamp": "diary_day2",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "morning",
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "routine",
+          "cheap",
+          "easy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "time",
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P007_DIARY_002",
+      "participant_id": "P007",
+      "source": "diary_reflection",
+      "text": "And then for dinner, I had leftover pasta. So I sort of meal prepped on Tuesday night, and I made three portions of pasta. There's a bit left over actually still. So I cooked that on Tuesday. It's now Thursday. So I had the leftovers last night and tonight. And I've still got a bit left over, so I'll probably have that dinner tomorrow as well. Again, same reasons as as the the lunch and breakfast. You know? It just saves me a lot of time meal prepping, making a lot of portions",
+      "timestamp": "diary_day2",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "flatmates",
+        "temporal": [
+          "evening",
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "meal prepped",
+          "saves time"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time",
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P007_DIARY_003",
+      "participant_id": "P007",
+      "source": "diary_reflection",
+      "text": "So this morning, I had pancakes with my girlfriend, because we didn't see each other on pancake day. And we cooked them at home because it was more cost effective than going out, and we didn't have a lot of time.",
+      "timestamp": "diary_day4",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "morning",
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "cost effective"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "time"
+        ],
+        "influence": [
+          "partner"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 3,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P007_DIARY_004",
+      "participant_id": "P007",
+      "source": "diary_reflection",
+      "text": "And then we went to a, like, a rave event from four to eleven, and I knew that wasn't gonna be food options. So that's why we had big lunch, big breakfast. And then I've come home and had a bowl of cereal. So that was, like, my main meal in the evening. So I wasn't really hungry. So I had a big lunch, big breakfast. So all three of those, again, were quite cost saving, quite cost effective.",
+      "timestamp": "diary_day4",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "partner",
+        "temporal": [
+          "evening",
+          "weekend"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "cost saving",
+          "cost effective"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P007_DIARY_005",
+      "participant_id": "P007",
+      "source": "diary_reflection",
+      "text": "So this morning, I I woke up late. I was a bit ill, so I didn't have time for breakfast, and I wasn't also really feeling it. I didn't feel too hungry. So I skipped breakfast, and I went straight into uni.",
+      "timestamp": "diary_day7",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [
+          "morning",
+          "weekday"
+        ],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    },
+    {
+      "segment_id": "P007_DIARY_006",
+      "participant_id": "P007",
+      "source": "diary_reflection",
+      "text": "Normally, I would have sort of had a takeaway or some food out at a restaurant, but just the way this study's lined up with my week, I've ended up having quite a budget saving week.",
+      "timestamp": "diary_day7",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [],
+        "social_context": "alone",
+        "temporal": [],
+        "platform": []
+      },
+      "enrichment_tags": {
+        "tension": "Acknowledges this week was unusually budget-focused, implying normal weeks include more takeaways",
+        "language_pattern": [
+          "budget saving"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "DIARY_SOURCE",
+        "similarity": null,
+        "best_match": "(diary data — not verified against interview transcript)"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "social_kitchen_friction",
+      "description": "Kitchen overcrowding in shared student housing creates stress that drives delivery ordering as an escape mechanism"
+    },
+    {
+      "theme_name": "earned_reward_psychology",
+      "description": "Delivery framed as something that must be 'earned' through exercise, work, or achievement rather than everyday convenience"
+    },
+    {
+      "theme_name": "multi_platform_deal_arbitrage",
+      "description": "Strategic switching between all delivery platforms to maximize promotional value rather than platform loyalty"
+    },
+    {
+      "theme_name": "subscription_awareness_gap",
+      "description": "Poor awareness of student-specific subscription benefits despite being target demographic"
+    },
+    {
+      "theme_name": "delivery_frequency_say_do_gap",
+      "description": "Claimed delivery frequency significantly higher than actual behavior revealed in diary data"
+    }
+  ],
+  "coding_summary": "Josh represents a highly structured, budget-conscious student whose delivery behavior is driven more by social friction and reward psychology than convenience. Key findings: 1) Kitchen overcrowding in his 8-person house creates stress that drives takeaway ordering as an escape, 2) He frames delivery as an 'earned reward' rather than routine convenience, 3) He strategically arbitrages deals across all three platforms rather than showing loyalty, 4) Despite being target demographic, he was unaware of student subscription benefits, 5) His diary revealed zero delivery orders across 7 days, contradicting his interview claim of ordering 'once a week', suggesting actual frequency is much lower than stated.",
+  "coverage_gaps": [
+    {
+      "research_objective": "RO4_post_graduation.does_the_value_equation_for_delivery_shi",
+      "reason": "Josh provided limited insight into how value perception might change post-graduation beyond basic income effects"
+    },
+    {
+      "research_objective": "RO3_emotional_social.is_there_stigma_around_solo_ordering_or_",
+      "reason": "Josh did not express any stigma around ordering behavior, suggesting this may not be a concern for him"
+    }
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_0: I'd say in quiet periods in the house, I, you know, if it's only me or one of a person that it becomes like a nice task to cook.\nspk_0: But obviously with eight people in the house, and I'm sure this is the case, a lot of students living with six to eight people.\nspk_0: I think that's quite a normal setup.\nspk_0: It can be quite over stimulating and overwhelming cooking when there's like four or five of you in there.\nspk_0: Especially these. I mean, these houses aren't big.\nspk_0: There's sort of lots of bedrooms crammed into one.\nspk_0: So the kitchens end up being small.\nspk_0: There's not a proper dining room or people are sort of eating and working and cooking all in the same space.\nspk_0: So I'd say sometimes if it's.\nspk_0: If I know there's a lot of us about, it's more of like I just bang some stuff on a tray, you know, get it in the oven for 20 minutes and then sort of eat like somewhere else.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 13470,
+      "end_char_index": 14392,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: I think for me, ordering something off an app is more of a treat, I think, um, that's how I see it really, as, as ordering and delivering stuff is put.\nspk_0: It's more of like a reward than a regular part of my like eating cupboards.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 17160,
+      "end_char_index": 17402,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: Then again, like I said with ordering a takeaway after, you know, sort of after an exam or something like that, that's, that's an enjoyable meal.\nspk_0: It's like a reward.\nspk_0: You've earned it. And for me, I like, I like doing exercise.\nspk_0: So I think when I know I've like, let's say I order a takeaway on a Saturday and I've gone to the gym that day or gone for a run or something and it's like I like that feeling of the meals I enjoy the most are when I've sort of earned it.\nspk_0: You know what I mean?\nspk_0: Whether that's through like a productive day or, you know, I've gone on a long hike or something.\nspk_0: Something like that, yes.\nspk_0: Where I've, I think yeah, where I've earned it I think is what I'd say is the most enjoyable meal for me.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 19502,
+      "end_char_index": 20276,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: Yeah, I, I mean, I'm on all three, so I'm always getting sort of deals sent through and stuff.\nspk_0: And as a student, there's always even More stuff available.\nspk_0: So, you know, if, if I've not got a particular one sticker.\nspk_0: I mean, last week I ordered a Chinese steak right here in Sheffield.\nspk_0: I had like a 10 pound off code on UberEats.\nspk_0: So that was a case of, okay, I'll just look on UberEats because I know I've got about 10 pound like Uber credits, but typically if I didn't have like one like standout thing, I just have a quick scan on all of them because I know like some rests, like some takeaways aren't on certain apps and obviously the delivery fees vary and all that.\nspk_0: So yeah, I'd say it's, it's a case of looking at all three and that's.\nspk_0: I have a standout offer.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 17559,
+      "end_char_index": 18380,
+      "participant_id": "P007"
+    },
+    {
+      "cited_text": "spk_0: Oh, I wasn't actually aware of that to be fair.\nspk_0: Like. Okay, I would definitely considered.\nspk_0: I've just never looked into the subscriptions even from like a student perspective just because I've never once thought they'd really apply to me.\nspk_0: But obviously hearing that.\nspk_0: Yeah, I would definitely look into that after hearing that.\n",
+      "document_title": "Interview Transcript — P007",
+      "document_index": 0,
+      "start_char_index": 43203,
+      "end_char_index": 43564,
+      "participant_id": "P007"
+    }
+  ],
+  "_citation_count": 5,
+  "participant_id": "P007",
+  "_ro_coverage": {
+    "RO1_eating_moments": 11,
+    "RO3_emotional_social": 6,
+    "RO2_delivery_triggers": 16,
+    "RO5_engagement_opps": 11,
+    "RO4_post_graduation": 5
+  }
+}

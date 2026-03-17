@@ -1,0 +1,1039 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P017_INT_001",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I'm definitely more of eating out person or, you know, getting takeaway person that I am a cooking person. Although I'm trying to change that this year.",
+      "timestamp": "1:16-1:17",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "Contradicts professional dietitian identity",
+        "language_pattern": [
+          "trying to change"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'm definitely more of eating out person or you know getting takeaway person that i am a cooking person although i'm trying to change that this year"
+      }
+    },
+    {
+      "segment_id": "P017_INT_002",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "if I'm doing my course in the evening, I'd probably be more inclined to get a takeaway because I've less time between say finishing up work, you know, the kind of lecture starting and then you know, we can kind. I can kind of order it and have it while the lecture is ongoing. And that would be delivery for sure.",
+      "timestamp": "1:192-1:194",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening",
+          "weekday"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "time pressure"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time",
+          "convenience"
+        ],
+        "influence": [
+          "academic_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if i'm doing my course in the evening i'd probably be more inclined to get a takeaway because i've less time between say finishing up work you know the kind of lecture starting and then you know we can kind i can kind of order it and have it while the lecture is ongoing and that would be delivery fo"
+      }
+    },
+    {
+      "segment_id": "P017_INT_003",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I actually am a dietitian as well. So yeah, I, well, I tried to follow the, you know, dietitians or the least misinformationy people out there.",
+      "timestamp": "1:149-1:150",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "Professional knowledge vs personal behavior",
+        "language_pattern": [
+          "professional identity"
+        ],
+        "competitive": null,
+        "value_component": [
+          "health"
+        ],
+        "influence": [
+          "professional_training"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 5,
+        "uniqueness": 5,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i actually am a dietitian as well so yeah i well i tried to follow the you know dietitians or the least misinformationy people out there"
+      }
+    },
+    {
+      "segment_id": "P017_INT_004",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "Yeah, but it just encouraged me to eat way too much takeaway, so I deleted it.",
+      "timestamp": "1:711",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt",
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "self-regulation"
+        ],
+        "competitive": null,
+        "value_component": [
+          "health",
+          "control"
+        ],
+        "influence": [
+          "self_awareness"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah but it just encouraged me to eat way too much takeaway so i deleted it"
+      }
+    },
+    {
+      "segment_id": "P017_INT_005",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I definitely used to Get a lot more healthy takeaways. And like, I used to only get like, sushi and Camille Thai and, like, you know, kind of healthy options, but now I'm a little bit like, oh, you know, whatever.",
+      "timestamp": "1:497-1:499",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "resignation"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "Health standards deteriorating over time",
+        "language_pattern": [
+          "whatever",
+          "used to"
+        ],
+        "competitive": null,
+        "value_component": [
+          "health",
+          "convenience"
+        ],
+        "influence": [
+          "time_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i definitely used to get a lot more healthy takeaways and like i used to only get like sushi and camille thai and like you know kind of healthy options but now i'm a little bit like oh you know whatever"
+      }
+    },
+    {
+      "segment_id": "P017_INT_006",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "Will you always go and get a takeaway in the thought process of. I. I'll have some leftovers for lunch. Yeah, always. Yeah.",
+      "timestamp": "1:98-1:102",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "always",
+          "strategic"
+        ],
+        "competitive": null,
+        "value_component": [
+          "efficiency"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "will you always go and get a takeaway in the thought process of i i'll have some leftovers for lunch yeah always yeah"
+      }
+    },
+    {
+      "segment_id": "P017_INT_007",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "Oh, definitely dinner. Like dinner, dinner on the day that, like, I have my college course as well is definitely the worst.",
+      "timestamp": "1:316-1:317",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening",
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "worst",
+          "definitely"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": [
+          "academic_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh definitely dinner like dinner dinner on the day that like i have my college course as well is definitely the worst"
+      }
+    },
+    {
+      "segment_id": "P017_INT_008",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "It's just because I don't have any time to prepare it. So, like, you know, you're kind of like torn between, like, I'm actually starving right now and I'm like sat here on a lecture, you know, and then, yeah, like, I should be eating healthy.",
+      "timestamp": "1:319-1:321",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "Immediate hunger vs health knowledge",
+        "language_pattern": [
+          "torn",
+          "should"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time",
+          "health"
+        ],
+        "influence": [
+          "professional_knowledge"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it's just because i don't have any time to prepare it so like you know you're kind of like torn between like i'm actually starving right now and i'm like sat here on a lecture you know and then yeah like i should be eating healthy"
+      }
+    },
+    {
+      "segment_id": "P017_INT_009",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I think, like, timing, you know, well, if I'm hungover or if I have. If I'm poor on time, like, you know, say in a college evening or. Yeah, just time that I'm really busy.",
+      "timestamp": "1:403-1:405",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend",
+          "evening"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "poor on time"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time",
+          "convenience"
+        ],
+        "influence": [
+          "hangover",
+          "academic_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think like timing you know well if i'm hungover or if i have if i'm poor on time like you know say in a college evening or yeah just time that i'm really busy"
+      }
+    },
+    {
+      "segment_id": "P017_INT_010",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "If I've like been out the night before, I'm inclined to, you know, kind of get like a bougie or something for lunch. That would be like my dream. Yeah. Like hangover cure.",
+      "timestamp": "1:212-1:215",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend",
+          "afternoon"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "dream",
+          "cure"
+        ],
+        "competitive": null,
+        "value_component": [
+          "comfort"
+        ],
+        "influence": [
+          "hangover"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if i've like been out the night before i'm inclined to you know kind of get like a bougie or something for lunch that would be like my dream yeah like hangover cure"
+      }
+    },
+    {
+      "segment_id": "P017_INT_011",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "It always just had the most things on it here. Like you know, the things that I would like the local Chinese place was on it at the start I think and then it, it stopped spin on it and then it went back on and then I realized they had their own thing that was cheaper.",
+      "timestamp": "1:588-1:590",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": [
+          "deliveroo",
+          "other"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "Platform vs restaurant direct apps",
+        "value_component": [
+          "selection",
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it always just had the most things on it here like you know the things that i would like the local chinese place was on it at the start i think and then it it stopped spin on it and then it went back on and then i realized they had their own thing that was cheaper"
+      }
+    },
+    {
+      "segment_id": "P017_INT_012",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I think like the time that takes Also the delivery fee, I hate when there's a delivery fee and I like when it's like, you know, order €15 in this free delivery.",
+      "timestamp": "1:607-1:608",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "hate"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price",
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think like the time that takes also the delivery fee i hate when there's a delivery fee and i like when it's like you know order 15 in this free delivery"
+      }
+    },
+    {
+      "segment_id": "P017_INT_013",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I feel like I don't, like, trust the deals ever because it's always like, oh, well, because this is a small order. You have like, now €5 fee because it's a small order plus €5 delivery. And I'm like, and that's €15. Could just order the full price thing.",
+      "timestamp": "1:477-1:481",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "don't trust"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i feel like i don't like trust the deals ever because it's always like oh well because this is a small order you have like now 5 fee because it's a small order plus 5 delivery and i'm like and that's 15 could just order the full price thing"
+      }
+    },
+    {
+      "segment_id": "P017_INT_014",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I probably would not do it for 2 Euro. You know, it'll probably have to be a good amount. But then like, how, like, as in, if I want to take away, I'm not going like pricing around all of the things.",
+      "timestamp": "1:677-1:679",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "Price switching threshold",
+        "value_component": [
+          "convenience",
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i probably would not do it for 2 euro you know it'll probably have to be a good amount but then like how like as in if i want to take away i'm not going like pricing around all of the things"
+      }
+    },
+    {
+      "segment_id": "P017_INT_015",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "So what made me subscribe was. Well, it was just convenience and like, you know, some of my friends had it, and then I was like, that's actually great. That's actually, you know, when I weigh that up against the number of takeaways, that I guess that's actually like good value.",
+      "timestamp": "1:747-1:749",
+      "research_objective_codes": [
+        "RO3_emotional_social.how_do_flatmates_friends_and_partners_in"
+      ],
+      "context_tags": {
+        "emotion": [
+          "connection"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "general"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so what made me subscribe was well it was just convenience and like you know some of my friends had it and then i was like that's actually great that's actually you know when i weigh that up against the number of takeaways that i guess that's actually like good value"
+      }
+    },
+    {
+      "segment_id": "P017_INT_016",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "Oh, no, I'm not. I never knew that. Would that change your consideration? Yeah, maybe. Actually, I didn't realize that.",
+      "timestamp": "1:754-1:758",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "surprise"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "never knew"
+        ],
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh no i'm not i never knew that would that change your consideration yeah maybe actually i didn't realize that"
+      }
+    },
+    {
+      "segment_id": "P017_INT_017",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I think it just encourages me to order because, like, now I have to be a little bit more intentional and I'm like, okay, like every time I order, it's like costing me, which is like, you know, a hit. So it's kind of like. Right. Be more like intentional about it and kind of plan it out a little bit more, kind of. Or spread it out a bit more.",
+      "timestamp": "1:901-1:905",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "intentional",
+          "hit"
+        ],
+        "competitive": null,
+        "value_component": [
+          "control"
+        ],
+        "influence": [
+          "self_regulation"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think it just encourages me to order because like now i have to be a little bit more intentional and i'm like okay like every time i order it's like costing me which is like you know a hit so it's kind of like right be more like intentional about it and kind of plan it out a little bit more kind o"
+      }
+    },
+    {
+      "segment_id": "P017_INT_018",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "Well, it'll probably get better when I finish my post grad because I won't have those heavy days like where I'm kind of like online from 9 to 9, literally. So I would hope that they will improve.",
+      "timestamp": "1:892-1:893",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "anticipation"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "9 to 9"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": [
+          "academic_schedule"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "well it'll probably get better when i finish my post grad because i won't have those heavy days like where i'm kind of like online from 9 to 9 literally so i would hope that they will improve"
+      }
+    },
+    {
+      "segment_id": "P017_INT_019",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "I think offer student discounts, like through the app when you're ordering online. Because, like, a lot of the, like, bougieman stuff order or like, offer student discount anyway. Now maybe that's part of the silver package that I don't have. But yeah, from my perspective, I can't get that at the moment.",
+      "timestamp": "1:914-1:917",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think offer student discounts like through the app when you're ordering online because like a lot of the like bougieman stuff order or like offer student discount anyway now maybe that's part of the silver package that i don't have but yeah from my perspective i can't get that at the moment"
+      }
+    },
+    {
+      "segment_id": "P017_INT_020",
+      "participant_id": "P017",
+      "source": "interview",
+      "text": "Maybe if they had a few more healthier options. Yeah, I think that would. And I know they're obviously limited by what the restaurants offer, but, like, you know, if they had a few more brands on there that were kind of more health food brands.",
+      "timestamp": "1:921-1:923",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "general"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "Professional knowledge vs platform limitations",
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "health"
+        ],
+        "influence": [
+          "professional_knowledge"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 3,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "maybe if they had a few more healthier options yeah i think that would and i know they're obviously limited by what the restaurants offer but like you know if they had a few more brands on there that were kind of more health food brands"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "professional_identity_conflict",
+      "description": "Health professionals experiencing tension between their professional knowledge and personal convenience behaviors"
+    },
+    {
+      "theme_name": "subscription_self_regulation",
+      "description": "Users actively managing their own behavioral triggers by cancelling subscriptions to control ordering frequency"
+    },
+    {
+      "theme_name": "deteriorating_standards",
+      "description": "Food quality standards declining over time due to increased time pressure and life demands"
+    },
+    {
+      "theme_name": "strategic_leftovers",
+      "description": "Intentional ordering with next-day meal planning in mind as efficiency strategy"
+    }
+  ],
+  "coding_summary": "P017 represents a unique case of a health professional (dietitian) who relies heavily on food delivery despite professional knowledge. Key findings include: (1) Time pressure from work+study schedule is the primary delivery trigger, (2) She demonstrates sophisticated self-regulation by cancelling Deliveroo Plus to control ordering frequency, (3) Her food standards have deteriorated over time from healthy options to 'whatever', (4) She strategically orders with leftovers in mind for next-day meals, (5) Professional identity creates internal conflict but doesn't override convenience needs, (6) Social influence from friends drove initial subscription adoption, (7) She shows awareness gaps about student benefits despite being a postgrad student.",
+  "coverage_gaps": [
+    {
+      "research_objective": "RO3_emotional_social.is_there_stigma_around_solo_ordering_or_",
+      "reason": "P017 lives alone and orders solo frequently - no stigma expressed, appears normalized for her lifestyle"
+    }
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_1: I actually am a dietitian as well.\nspk_1: So yeah, I, well, I tried to follow the, you know, dietitians or the least misinformationy people out there.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 8076,
+      "end_char_index": 8234,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: But I'm definitely more of eating out person or, you know, getting takeaway person that I am a cooking person.\nspk_1: Although I'm trying to change that this year.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 4006,
+      "end_char_index": 4177,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: And then for in the evenings, like if I'm doing my course in the evening, I'd probably be more inclined to get a takeaway because I've less time between say finishing up work, you know, the kind of lecture starting and then you know, we can kind.\nspk_1: I can kind of order it and have it while the lecture is ongoing.\nspk_1: And that would be delivery for sure.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 10950,
+      "end_char_index": 11320,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: Yeah, but it just encouraged me to eat way too much takeaway, so I deleted it.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 42421,
+      "end_char_index": 42507,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "Like, I think I used to be.\nspk_1: I definitely used to Get a lot more healthy takeaways.\nspk_1: And like, I used to only get like, sushi and Camille Thai and, like, you know, kind of healthy options, but now I'm a little bit like, oh, you know, whatever.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 28909,
+      "end_char_index": 29165,
+      "participant_id": "P017"
+    },
+    {
+      "cited_text": "spk_1: Yeah, always. Yeah.\n",
+      "document_title": "Interview Transcript — P017",
+      "document_index": 0,
+      "start_char_index": 5615,
+      "end_char_index": 5642,
+      "participant_id": "P017"
+    }
+  ],
+  "_citation_count": 6,
+  "participant_id": "P017",
+  "_ro_coverage": {
+    "RO1_eating_moments": 3,
+    "RO2_delivery_triggers": 5,
+    "RO3_emotional_social": 3,
+    "RO5_engagement_opps": 6,
+    "RO4_post_graduation": 3
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "participant_id": "P005",
+  "scout_name": "Chika S",
+  "scout_id": "2668430",
+  "segment": "Undergrad",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-18",
+      "date_submitted": "2026-02-18 06:27:55 +0000",
+      "breakfast": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Deliveroo",
+        "why_ordered": "i had a nap once i arrived at my boyfriend’s accommodation, as he was ill we decided to order nandos for dinner",
+        "reasons": [
+          "Time / convenience",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 2,
+      "date": "2026-02-19",
+      "date_submitted": "2026-02-19 22:39:04 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "leftovers from yesterday’s food delivery + cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Craving / comfort"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": "So I don't usually eat breakfast, which is why I skipped it today. I woke up, around a normal time, like, somewhere between nine and ten. And I usually don't feel that hungry. I do usually have, like, a cup of tea and just leave it at that. So yesterday, because I ordered Nando's, I still had some spicy rice left over and some of my, mum's, like, pre made food that I just heat in the oven. So I had her lamb and spicy rice for lunch, and then I really wanted to make lasagna for dinner. So I popped over to Lidl, bought all the ingredients, and then came back and made lasagna to eat for dinner. This usually does follow my day to day. I don't usually feel that hungry in the morning, and I tend to eat, either lunch or dinner as like a lighter meal than the other. It just depends on how hungry I am, what time it is and yeah because my lunch and dinner times usually vary depending on what I do in the day."
+    },
+    {
+      "day": 3,
+      "date": "2026-02-20",
+      "date_submitted": "2026-02-20 21:25:55 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Eating out (restaurant / cafe)",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Time / convenience",
+          "Price / budget",
+          "Socialising"
+        ],
+        "ate_with": [
+          "With friends"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 4,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 00:40:07 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": "So due to having an event the day before, I ended up staying awake until seven AM on that day, so I didn't have any breakfast. I got in the car. It's a four hour car journey. I fell asleep the entire journey. I got home around here at twelve PM ish and fell asleep again until five PM. So I don't have breakfast and I don't have lunch, which is why both these meals are skipped. I also don't feel hungry, so it personally, it didn't make a difference to me. I also had another party the same day. So once I woke up, I had a few brioche buns. And I wouldn't call that a meal. And then I went to the party, and I got there around nine. And I stayed there again until six AM, so I didn't eat any proper meals during the day. That doesn't usually reflect on my day to day eating skills. I habits even. I usually at least eat one meal. I breakfast is usually something I skipped or I usually have something that combines lunch and dinner, but this was more just snacks than it was very basically brioche ones, but that's it."
+    },
+    {
+      "day": 5,
+      "date": "2026-02-22",
+      "date_submitted": "2026-02-22 23:43:53 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "dinner": {
+        "source": "Food delivery app",
+        "category": "Restaurant/café delivery - Pre-prepared meal",
+        "delivery_app": "Deliveroo",
+        "why_ordered": "me and my boyfriend came home at 6am that day and slept until 5pm, once we cleaned up we didnt feel like making late lunch/early dinner and decided to order instead as we were craving food from our cuisine (south asian). we chose deliveroo due to the free delivery and because we saw a restaurant on here as an option a while ago and we remembered it was on deliveroo",
+        "reasons": [
+          "Craving / comfort",
+          "Didn’t feel like cooking"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 6,
+      "date": "2026-02-23",
+      "date_submitted": "2026-02-23 16:41:45 +0000",
+      "breakfast": {
+        "source": "Supermarket / convenience store",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "Alone"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With partner"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": null
+    },
+    {
+      "day": 7,
+      "date": "2026-02-24",
+      "date_submitted": "2026-02-24 22:03:59 +0000",
+      "breakfast": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "lunch": {
+        "source": "Cooked at home",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [
+          "Habit / routine"
+        ],
+        "ate_with": [
+          "With family"
+        ],
+        "has_photo": true,
+        "skipped": false
+      },
+      "dinner": {
+        "source": "Skipped this meal",
+        "category": null,
+        "delivery_app": null,
+        "why_ordered": null,
+        "reasons": [],
+        "ate_with": [],
+        "has_photo": false,
+        "skipped": true
+      },
+      "daily_reflection": "So today, I traveled home, which is why I didn't eat any breakfast. I usually just have a tea in the morning. And, again, breakfast is not usually something I eat anyway. And, for lunch, my mom made food, which was string hoppers, mutton curry, and I had a mutton roll as well. And, yeah, I just had some business to do at home. So I came back to uni, and I didn't eat dinner. I just had some snacks. And I've just been a bit also I didn't feel like cooking anything. Didn't really feel like eating, which is today's food. Usually, again, I usually do skip breakfast, but it's usually lunch or dinner will be something more fitting or yeah. One of them will end up being skipped. I do try to have something for dinner, but I just don't feel like it today. So it's not usually like my day today, but can be, like, can be submitted to one of my day to days."
+    }
+  ],
+  "summary_stats": {
+    "total_meals_logged": 21,
+    "total_skipped": 11,
+    "delivery_orders": 2,
+    "delivery_apps_used": [
+      "Deliveroo"
+    ],
+    "top_reasons": [
+      "Time / convenience",
+      "Habit / routine",
+      "Didn’t feel like cooking",
+      "Craving / comfort",
+      "Socialising"
+    ],
+    "most_common_source": "Eating out (restaurant / cafe)"
+  }
+}

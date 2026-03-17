@@ -1,0 +1,1560 @@
+{
+  "tensions": [
+    {
+      "participant_id": "P028",
+      "segment_id": "P028_INT_011",
+      "text": "Yeah, that's more tied to things like mental health and, like, if I'm failing exams... stuff like that.",
+      "tension": "P028_INT_010",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P034",
+      "segment_id": "P034_INT_004",
+      "text": "Lunch... I try to bring some food with me if I've made anything, like meal-planned, but I'm not always super great about that. And then if I don't, then I just, like, try to go to one of the restaurants around.",
+      "tension": "P034_INT_121",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P034",
+      "segment_id": "P034_INT_043",
+      "text": "Delivery? Yeah. Still like my associations... It's better for food delivery, and I've had good experiences with them in general. Like, no one's stolen my food off of it! And this thing that you told me about... the free delivery service.",
+      "tension": "P034_INT_042",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P003",
+      "segment_id": "P003_INT_010",
+      "text": "I know what I like and I like what I know with cooking. In an ideal world, I would experiment a little bit more, but at the minute, I don't really have the time. And it's not something that's too important to me. Like, I really like food and I really like eating, but I'm someone that can, like, eat the same things over and over again and, like, not get bored of it.",
+      "tension": "Claims to 'really like food and eating' but describes purely utilitarian relationship",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P003",
+      "segment_id": "P003_DIARY_001",
+      "text": "So today, I didn't eat as much as I normally do. I actually skipped both breakfast and lunch and just had a small snack, which was a sliced avocado. That's something I normally eat, but I would eat it with other things. The reason I didn't eat that much today until the evening is because I wasn't really feeling that well until the evening, until dinner time.",
+      "tension": "Diary shows frequent meal skipping vs interview claim of regular eating",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P003",
+      "segment_id": "P003_DIARY_003",
+      "text": "Today, I ate, not that much. Just a banana for breakfast and then some leftover food from yesterday for lunch. I normally eat more than this, and I normally don't skip dinner. The reason I skipped dinner today was because I fell asleep in the afternoon and had quite a long nap because I worked all day yesterday. I had a ten hour shift, until fairly late. So, yeah, so I I slept quite a lot this afternoon. And when I woke up, I didn't really feel like having dinner, so it's not reflective of what I usually eat.",
+      "tension": "Diary shows frequent meal skipping and irregular eating vs interview claims",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P012",
+      "segment_id": "P012_INT_003",
+      "text": "But I'd say we do it like 50, 50. For me it's 50. 50. I cook 50% of the time. I order food online 50% of the time.",
+      "tension": "Diary shows only 1 delivery order in 7 days, contradicting 50/50 claim",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P012",
+      "segment_id": "P012_INT_009",
+      "text": "So it's like when I wake up, when I have oily 9ams, I mostly just have either like granola with some yogurt and some fruits. Then when I'm at uni, obviously I can't cook here. So it's like either I like eat something outside nearby or I order something here at the library.",
+      "tension": "Diary shows frequent breakfast skipping contradicting this routine",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P012",
+      "segment_id": "P012_INT_017",
+      "text": "I'd say lunch is more social for me because I have it with my friends here at the university. And for functional, say I have my breakfast. Like I try to track my breakfast every day, like every nutrients in my breakfast, like the protein, the carbs, the everything.",
+      "tension": "Claims to track breakfast daily but diary shows frequent skipping",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P012",
+      "segment_id": "P012_DIARY_002",
+      "text": "So today in the morning, I skipped my breakfast because I had my lectures early. Then in the afternoon, I just bought something from Tesco, like, a meal leaf from Tesco. Had it. It was, like, a protein shake, a wrap, a chicken tikka wrap, and, protein fudge, I guess, for snacks.",
+      "tension": "Contradicts interview claim of regular breakfast routine",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P012",
+      "segment_id": "P012_DIARY_003",
+      "text": "So today was our weekend, and it was Saturday, so I woke up late. I woke up around twelve PM, I guess. So I skip I basically skipped the breakfast. Then I went out with my partner on a date. So it's like every weekend we go on a date.",
+      "tension": "Shows frequent breakfast skipping pattern",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P012",
+      "segment_id": "P012_DIARY_004",
+      "text": "So today, I skipped my breakfast again because being a student, it is, like, one of the most common habit for me that I skipped my breakfast on a regular basis because I had lectures early in the morning, so I had to go to the campus to attend the lectures.",
+      "tension": "Directly contradicts interview claim of tracking breakfast daily",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P025",
+      "segment_id": "P025_INT_004",
+      "text": "But I'm awful at shopping, so I... I'm always forgetting to... to buy something or pick something up... I can't shop hungry. I've been on a run, and I'm shopping after that. That's chaos! Because I want to get back, make something for dinner, and eat it... I find shopping quite stressful. So it's just... it's... I don't really like it every week.",
+      "tension": "1-54:1-58",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P025",
+      "segment_id": "P025_INT_010",
+      "text": "I'd say having more... having more time might mean ordering less. I've also got less money. So, I'd say that is a big issue. It's... it is quite expensive.",
+      "tension": "1-8:1-12",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P020",
+      "segment_id": "P020_INT_011",
+      "text": "So I always, almost all the time just do the prep when I'm about to cook because I never know what I'm eating the next day. So I can't really meal prep for the day ahead. So I, I will, I think I go to the supermarket maybe like it's either once a day or once every two days. And the amount of times I pop by is, is wild when I see my. Because I. My local one is Lidl. So they have this Lidl wrapped like a Spotify wrapped. I think there was a month I went to the supermarket every single day. Like I've been to Lidl like 250 times last year. And that's because I can't decide on what I cook. Like what I have for the next day.",
+      "tension": "P020_INT_010",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P017",
+      "segment_id": "P017_INT_001",
+      "text": "I'm definitely more of eating out person or, you know, getting takeaway person that I am a cooking person. Although I'm trying to change that this year.",
+      "tension": "Professional dietitian identity conflicts with actual eating behavior",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P017",
+      "segment_id": "P017_INT_002",
+      "text": "I actually am a dietitian as well. So yeah, I, well, I tried to follow the, you know, dietitians or the least misinformationy people out there.",
+      "tension": "Professional knowledge vs personal behavior - dietitian who orders takeaway frequently",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P017",
+      "segment_id": "P017_INT_005",
+      "text": "It's just because I don't have any time to prepare it. So, like, you know, you're kind of like torn between, like, I'm actually starving right now and I'm like sat here on a lecture, you know, and then, yeah, like, I should be eating healthy. Like, you know, I should kind of, you know, prepare something and whatever. But then you're kind of like, well, it's actually going to take me half an hour to prepare that, and then it's going to take half an hour to cook. And, you know, it's like everything is just time, and half an hour is probably even like under an underestimate of the time to prepare. It's like, you know, everything takes. Takes time. And also, having the correct ingredients first requires a bit of preparation in advance. That you have to have the right ingredients and all of that kind of stuff.",
+      "tension": "Professional knowledge ('I should be eating healthy') vs practical constraints",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P017",
+      "segment_id": "P017_INT_006",
+      "text": "Yeah, but it just encouraged me to eat way too much takeaway, so I deleted it.",
+      "tension": "Value recognition vs self-control - cancelled despite good value",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P017",
+      "segment_id": "P017_INT_009",
+      "text": "I'd say either a Saturday when I've been out on the Friday, or like a Tuesday. I feel like a Tuesday and a Thursday kind. You know, like the Wednesday because I'm in the office is a little bit different because usually I'm like, you know, oh, come home. And like, I won't eat out because I usually have eaten out for lunch. So I'm like, usually won't get a delivery. And then. Yeah, so probably be Tuesday, Thursday, and like, Monday. You're like, it's Monday. Like, I can't get a takeaway, so. And Friday I do. Yeah. So I'd say Saturday during the day or a Tuesday or Thursday evening.",
+      "tension": "Monday guilt vs weekend permission",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P017",
+      "segment_id": "P017_DIARY_003",
+      "text": "So I didn't get, I didn't get one this evening, even though I was on my own, which I would probably usually do. But, yeah, I wasn't in the mood to cook, too much. And, yeah, this is fairly reflective of a normal kind of evening day for me.",
+      "tension": "Usually orders when alone but didn't this time - shows variability in solo ordering",
+      "category": "Social Pressure vs Individual Choice"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_006",
+      "text": "I really like cooking, so I do watch a lot of Gordon Ramsay myself. I do follow food influencers, restaurants as well, and all of that.",
+      "tension": "contradicts later statements about not having time to cook",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_011",
+      "text": "Weekends, I go out by myself, and I go to the place physically. It's like if I'm going for a takeaway or a restaurant, I go in myself and with the social group.",
+      "tension": "contrasts weekday delivery dependency with weekend social dining",
+      "category": "Social Pressure vs Individual Choice"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_014",
+      "text": "Oh, maybe twice a week... Definitely twice a week. I wouldn't say more.",
+      "tension": "contrasts with earlier statement about loving cooking",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_015",
+      "text": "So, I do enjoy cooking, but I don't have the time to do it. So, I like to throw in the pan myself... cook... cook a nice dinner, like spaghetti bolognese or a curry. Like, I like cooking myself, but I just don't have the time to do it.",
+      "tension": "repeated contradiction between loving cooking and not having time",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_023",
+      "text": "Something quick... so maybe McDonald's: a burger, fries. Like, I need to cut myself down and go into healthy... healthier. But yeah, mostly those stuff. Yeah, or like a roll or a wrap... something like that.",
+      "tension": "acknowledges unhealthy choices while continuing them",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_024",
+      "text": "I'd say about... I don't want to lie... I'm saying about 90 to 100 quid just alone on food, maybe even more, but I'd have to check. But I definitely know it's 100 and more!",
+      "tension": "high spending despite claiming to be money-conscious",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_025",
+      "text": "So, I'd say 90%... no, maybe 80% is on the takeaways, 20% on the groceries, and then going out without including that... I'd say it's like another €40 on top of it if I'm getting drinks as well.",
+      "tension": "massive proportion of spending on takeaways",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_027",
+      "text": "So, during weekdays, Monday to Friday, and like weekends, maybe once... but I try to avoid it on weekends because I like going out more on weekends when I have time.",
+      "tension": "contrasts weekday delivery dependency with weekend social preference",
+      "category": "Social Pressure vs Individual Choice"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_034",
+      "text": "Maybe... maybe the delivery fees, because the shopper is kind of a bit far, and I do have the subscription, but it's around 2 to 3 Euros. That... so it kind of, like, throws me off when I know I can just walk down instead of being lazy.",
+      "tension": "acknowledges laziness as a factor while feeling guilty about it",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_035",
+      "text": "No, if it goes over, then it just goes over. But I like to, like, keep it under the 30 amounts, pretty much.",
+      "tension": "flexible budgeting despite claiming to be money-conscious",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_039",
+      "text": "Feel justified... maybe guilty because I like... I used to tip the delivery drivers, and I'm kind of feeling bad because I know they can see on their screens that you're not, like, putting in a tip or, like, something like that. So I'm kind of feeling guilty, and as well, most of the time, like, I feel bad for myself because I'm, like, staying at home, not going out most of the time because I don't have the time. And I'm like, I know I have the time to do this, get the food, but instead, I'm just ordering from the place.",
+      "tension": "complex guilt around tipping, time management, and lifestyle choices",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_041",
+      "text": "So, I'm looking for something not too expensive... something that's medium range, that wouldn't hurt the bank or anything like that. So, yeah, that would be mostly the price... something that's not too expensive.",
+      "tension": "claims price consciousness while spending €140/week on food",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_050",
+      "text": "I'd probably go for Deliveroo... so the cheaper one, even though it's the euro. But still, I'd like to save the euro, maybe put it towards the tip. So, yeah.",
+      "tension": "says Deliveroo but means the cheaper option (which would be Uber in this scenario)",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_063",
+      "text": "I'm a... really, I'm really picky on money. Like, I'm a saver. Like, if I see something on promotion or reduced, I'm always buying it. Like, if I see the juices on promotion, reduced, or in a promotion, then yeah, I'm going into the shop, and I'm buying it. So yeah, I kind of like to save my money.",
+      "tension": "claims to be money-conscious while spending €140/week on food",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_070",
+      "text": "Uber, unfortunately... but it wouldn't have my favorite restaurants. But, on price, then... yeah, Uber would definitely take over!",
+      "tension": "torn between price advantage and restaurant preference",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_INT_077",
+      "text": "I say part-time jobs... definitely have, like, some insurance, definitely stable income. You're getting paid on, narrowly... you're on a contract. But the thing I like is you're kind of freelancing on Uber and delivery. You're just... whenever you want. You don't have a face time when you want to deliver, anything like that. So yeah, it's simple!",
+      "tension": "acknowledges benefits of freelancing despite earlier concerns",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_DIARY_002",
+      "text": "So today was actually a different day because I was with my family at home. So most of the time, I'm always adding takeout or takeout pretty much or quick food on the ground. But this morning and also yesterday, my food was cooked at home. I did go out to a restaurant yesterday, and I did have McDonald's as well today. So my morning was breakfast done for me, which was easy. And then during lunch, also, I had my food done. And then for night, we decided to have McDonald's because I was kinda craving it.",
+      "tension": "contrasts home family eating with Dublin delivery dependency",
+      "category": "Dependency vs Control"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_DIARY_003",
+      "text": "And, yeah, and, yeah, I was just craving it. No. Not really. This doesn't affect this doesn't it does kinda because I am going towards the fast food, but because as I told, like, the guy when I was doing the survey, there isn't much takeout spots than like, the McDonald's was twenty minutes away, but it was worth going because I'm not in Dublin. I'm back in the house. So yeah.",
+      "tension": "acknowledges different food behavior at home vs Dublin",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_DIARY_004",
+      "text": "So this morning, I had breakfast, something sweet, something nice to eat. I usually don't have sweet breakfast, but I was craving a sweet breakfast this morning because I'm here at my parents' house for this week. And because I'm a bit under the weather, I skipped lunch. And at nighttime, I had we went out with the family and my partner to a restaurant. So would this reflect my day to day habits? Not really.",
+      "tension": "explicitly states this doesn't reflect daily habits",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P006",
+      "segment_id": "P006_DIARY_005",
+      "text": "So today this morning, I woke up early because I had online classes. So I decided to have a quick breakfast, which was cereal, milk, and a cup of tea. And there's just something quick and easy to do, and I didn't have food until I had no snacks, no nothing, just water myself like usual. I didn't have anything until lunchtime. Yes. Until lunchtime, I had sausages. I went down to the local butcher's because I haven't been there for a long time, and I just don't love with their fucking food. Sorry about my language, but their food is delicious and everything. And I was just craving it, for yeah. For dinner, I have a pizza. I mean, I should cut down on the pizzas, but yeah. So it does kinda reflect my typical day to day. But because I'm doing it from home, it kind of varies because I usually get, like, meal deals or snacks quick to go and stuff like that.",
+      "tension": "acknowledges pizza guilt while continuing the behavior",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P031",
+      "segment_id": "P031_INT_003",
+      "text": "So first of all, being bored of eating the same thing on a daily basis, like, the food is great. I have no problem with it, but sometimes it just gets boring and you want to eat something else. Another thing is maybe laziness. Like I mentioned, I cook on a daily basis, so maybe on this particular day, I just. I don't want to cook. I just want to get a meal prepared by someone else and just delivered to me.",
+      "tension": "segment_001",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P001",
+      "segment_id": "P001_INT_016",
+      "text": "Oh, it's like an unspoken ritual... We're not meant to call it a 'ritual,' but it definitely is.",
+      "tension": "P001_INT_016 vs family awareness of dependency",
+      "category": "Dependency vs Control"
+    },
+    {
+      "participant_id": "P036",
+      "segment_id": "P036_INT_003",
+      "text": "I have, like, one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time because we prefer not to eat, like, completely alone. But our flat is also very social, so anytime I go in the kitchen, it's almost guaranteed I'm gonna have someone to eat with. That's just my main priority, no matter who it is...",
+      "tension": "Strong social eating preference contradicts individual food decision-making",
+      "category": "Social Pressure vs Individual Choice"
+    },
+    {
+      "participant_id": "P036",
+      "segment_id": "P036_INT_005",
+      "text": "A lot on TikTok, I would say... always, like, searching recipes and stuff for inspo.",
+      "tension": "Searches for recipe inspiration despite purely functional cooking attitude",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P036",
+      "segment_id": "P036_INT_010",
+      "text": "I don't love eating the same thing over and over, so I kind of try to have ingredients that I can make in a bunch of ways because I tried the whole meal-prepping route, and then I just got so, like, redundant. I was like, I can't keep eating the same thing over and over.",
+      "tension": "Seeks variety despite functional cooking approach",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P036",
+      "segment_id": "P036_INT_015",
+      "text": "So, at the beginning of uni, I would do like a weekly food shop, but now it's kind of like I'll do a really big food shop, and then for the rest of the month, basically, I'm not really going and doing another big food shop. I'm just picking up things as they run out... like I need this, I'll go grab this.",
+      "tension": "Shopping pattern evolution shows adaptation to university life",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P036",
+      "segment_id": "P036_INT_017",
+      "text": "I would say it's a part of my normal spending, but, like, it is a treat... Like, I do really like delivery over going somewhere. But that's why it's part of my normal spending, because I think it's worth it.",
+      "tension": "Delivery is simultaneously normal spending and a treat",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P027",
+      "segment_id": "P027_INT_009",
+      "text": "I think, like, obviously, because this... like, arguing out when I'm at home... I order so much more food than when I'm here.",
+      "tension": "1:81",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P027",
+      "segment_id": "P027_INT_047",
+      "text": "But if I'm gonna order something at uni, it would be like... I know what I've been craving... I know what I want.",
+      "tension": "1:515",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P010",
+      "segment_id": "P010_INT_038",
+      "text": "It is really expensive. Like that pizza I got order ordered there for that was something ends up €32. Like I can't believe I'm spending this but at the same time it is. Yeah, it's a treat.",
+      "tension": "cost_vs_treat_justification",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P010",
+      "segment_id": "P010_DIARY_002",
+      "text": "It's not completely far removed, but I am actually working from home completely this week. Normally, on Thursdays, I'm in the office. So, like bake making baked oats in the morning, I usually wouldn't unless I'm working from home. It usually be something quicker like overnight oats or I'd have premade like, egg and bacon bagels.",
+      "tension": "wfh_vs_office_eating_patterns",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P010",
+      "segment_id": "P010_DIARY_007",
+      "text": "And then for lunch, I ate in the canteen, because I wasn't prepped enough today to, bring my own lunch, which I normally do. So I got a ham and cheese toastie in the canteen in work.",
+      "tension": "meal_prep_failure",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P009",
+      "segment_id": "P009_INT_005",
+      "text": "Yeah, it's my mom and dad. Like both of them. And sometimes, sometimes I, I cook al. But yeah, it's mainly my mom and dad.",
+      "tension": "Contradicts diary data showing he cooks most meals",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P009",
+      "segment_id": "P009_INT_012",
+      "text": "I would say like once a week obviously. Like to be honest, because it's only once my day. I have a day off. So. Yeah. And if I really feel to cook, then only I cook. So I would say yeah, once a week.",
+      "tension": "Major contradiction with diary showing daily home cooking",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P009",
+      "segment_id": "P009_DIARY_002",
+      "text": "I think it actually reflected my daily habit apart from the lunch because I usually have proper lunch, like, any meals or, like, with with roasted chicken or rice and all. But apart from that, that's, like, my daily routine unless I, like, order it from outside, for the dinner.",
+      "tension": "Contradicts interview claim of cooking once a week",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P009",
+      "segment_id": "P009_DIARY_005",
+      "text": "I think, yeah, that like, on a usual day, I would have lunch. I would be eating lunch, the one I have skipped today, but as it was, a long shift today for me, I've run jobs, so I didn't have my lunch, like, the second meal of my day. So that's the only thing that's, like, different from my daily routine. Otherwise, yeah, that's, like, my meal that's, like, my go to habit and, like, my usual routine. So, like, light breakfast and lunch, and then a bit of heavy and some, some good dinner to end the day. That's it.",
+      "tension": "Contradicts interview claim of cooking once a week",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P009",
+      "segment_id": "P009_DIARY_006",
+      "text": "And, like, apart from missing the lunch again, like, I know I said this before, but apart from missing the lunch, I think that's, like, my normal routine. And, yeah, of course, like, I don't eat out outside food, that much. But, yeah, it was like we were, like, too tired and, like, we were we had a plan to go somewhere out to eat Indian food, so we just went to eat it today.",
+      "tension": "Contradicts interview claim of cooking once a week",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P009",
+      "segment_id": "P009_DIARY_007",
+      "text": "Apart from that, like, my usual breakfast is like this only, just like a light breakfast with tea or coffee. And I might have lunch sometimes. Sometimes I skip it. Depends on my class and, like, my lectures. And about the dinner, mostly it's like as you may have noticed, mostly it's like home cooked meals only. But today, we try we decided to go out.",
+      "tension": "Major contradiction with interview claim of cooking once a week",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P015",
+      "segment_id": "P015_DIARY_003",
+      "text": "Then for lunch, after I got in from my lecture, which is a long four hour lecture, I was really tired. And there wasn't much food in the cupboard, and I couldn't really, be bothered to go to the shop and get something to eat. So I pardon me, used a I mean, used Uber Eats to order a takeaway. So I got, some chicken and rice from a noodle bar, and I don't normally order this early into the day.",
+      "tension": "Interview claims 1-2 orders per week but diary shows more restrained behavior",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P022",
+      "segment_id": "P022_INT_060",
+      "text": "Yeah, always. Like, it's free delivery. Even if I know it's like, it's free, but it's not because the order is absorbed. The price, like free delivery always just feels better.",
+      "tension": "knows_free_delivery_isnt_really_free_but_still_prefers_it",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P004",
+      "segment_id": "P004_INT_020",
+      "text": "Functional is breakfast because I'm a newly breakfast convert. Like generally I didn't used to eat breakfast, but you know, I've read that there are so many benefits to eating breakfast to stop you being hungry in the day and all that jazz. So breakfast is functional. Like I have to make myself like eat breakfast.",
+      "tension": "Claims to be 'newly breakfast convert' but diary shows skipped breakfast 3/7 days",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P004",
+      "segment_id": "P004_INT_024",
+      "text": "It's honestly probably if they did like a. I don't know if you've seen like Spotify wrapped where they tell you your stats for what you've listened to for the year, but if they did that for delivery, I think that would come up top every single year because it's honestly my favorite. And because, like, I'm not originally from Bristol, they don't, they don't have that like near I. Where I live at home. So it's, it's like I'm kind of just. Yeah, it's my go to. I'm a bit obsessed.",
+      "tension": "Extreme emotional attachment to Greek food contradicts rational price-focused framing",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P004",
+      "segment_id": "P004_DIARY_001",
+      "text": "So for breakfast I had yogurt and fruit fiber, some grapes, and some nuts because I like protein, and gotta get some fruit and veg in. And I have the same breakfast pretty much every day. And then for lunch, I had stuffed peppers with some chicken just to make sure I got some protein in again. I stuffed peppers quite a lot because it's quite quick and easy. It's quite yummy. It's hot. I like hot food. It's nutritious. And then for dinner, I had dumplings with my flatmates because we're celebrating Lunar New Year. And that is not something I would normally do, but they were delicious.",
+      "tension": "Claims 'same breakfast pretty much every day' but skipped breakfast 3/7 days",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P004",
+      "segment_id": "P004_DIARY_002",
+      "text": "So for breakfast today, I actually skipped this meal because I ran out of time because I was going to the gym with a friend early this morning, which I do quite regularly because, generally, I I only eat breakfast if I have the time to. And then for lunch, I had cottage cheese on toast, which is something new. I'm trying to increase my protein intake and some crisps and a yogurt because I was still hungry because I didn't have breakfast.",
+      "tension": "Contradicts interview claim of being 'newly breakfast convert' - admits only eating breakfast 'if I have the time to'",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P018",
+      "segment_id": "P018_INT_010",
+      "text": "I do, I do, I follow a few. I try and save recipes when I can and like try and recreate them. They often get just saved and then I'll think about going back to them or I'll send them like I'll be like oh I should make this or like you know like me and my partner send it to her and I'll be like oh we should make this. And then we sometimes do sometime.",
+      "tension": "Says they save recipes and plan to make them but admits they 'sometimes do sometime' - classic intention-action gap",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P018",
+      "segment_id": "P018_INT_033",
+      "text": "I'd say maybe like 60 pound totaling of the week, 70 pound totaling the week around that. Maybe a bit less then eating out. If I'd probably say like an average is like maybe once a week I eat out and I get a takeaway maybe once every two weeks. So that's probably normally around 20 pound, probably. And then like another like 30 pound to eat out.",
+      "tension": "Says she orders once a week earlier but now says once every two weeks",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P018",
+      "segment_id": "P018_INT_041",
+      "text": "In terms of takeaways, I'd say I would mainly order like probably like Chinese or Indian, Things like that. Like I probably wouldn't really go for like a McDonald's on an Uber. It depends. Like sometimes I'm coming back late from like a night out, I'm ordering Uber. A McDonald's on Uber Eats. So it depends on like convenience.",
+      "tension": "Says she wouldn't order McDonald's then immediately contradicts herself",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P018",
+      "segment_id": "P018_INT_083",
+      "text": "Because I think for me, like, it's convincing me to, like. Like, I. I don't know. Like for me, I mean, it's the convenience of obviously getting the food delivered, but it's also like, I could already just make that food. So I'm like, you know, there's something else to think. Oh, well, I'm saving a bit of money. I'm not saving money at all here, but in my head I'm saving money, you know, like, I'm like, oh, well, it's free delivery. It's not as expensive as I thought it would be. You know, like, it's kind of like another push for me to just go, I'll order it. And it just makes it more like, reasonable in my head, I guess.",
+      "tension": "Acknowledges she's not actually saving money but feels like she is",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P018",
+      "segment_id": "P018_DIARY_002",
+      "text": "I had planned to cook food, but I got home late and wanted just something easy and comforting, and that was the best option.",
+      "tension": "Had planned to cook but delivery became the fallback",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P021",
+      "segment_id": "P021_INT_007",
+      "text": "When I'm cooking for both of us, it's all from scratch. When it's just myself... she's a whale or something. I sometimes just... lazy and have, like, a... I guess, yeah, ready meal type thing sometimes, or something from a jar or whatever. But yeah, when I'm cooking for other people, it always has to be from scratch.",
+      "tension": "1:114-1:117 vs social cooking standards",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P016",
+      "segment_id": "P016_INT_006",
+      "text": "No, I do it individually.",
+      "tension": "P016_INT_004",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P016",
+      "segment_id": "P016_INT_032",
+      "text": "I don't use it enough.",
+      "tension": "P016_INT_028",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P016",
+      "segment_id": "P016_INT_052",
+      "text": "Yeah, I prefer trying new things.",
+      "tension": "P016_INT_021",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P016",
+      "segment_id": "P016_INT_092",
+      "text": "Probably like four or five times a month maybe.",
+      "tension": "P016_INT_028",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P016",
+      "segment_id": "P016_INT_102",
+      "text": "Probably slightly more. Because I'll have like, the time to, like, I can work around it more to probably add more, if that makes sense.",
+      "tension": "P016_INT_101",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P007",
+      "segment_id": "P007_INT_004",
+      "text": "So I'll normally sort of meal prep on a Monday, but then I'd say one or two nights a week I'll get some form of like food out, whether that's at a restaurant or a takeaway or like ordering it. But I'd say at least like, at least five nights a week I've like cooked at home maybe two or three portions of like a meal prep",
+      "tension": "Diary shows zero delivery orders across 7 days, contradicting 'one or two nights a week' claim",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P007",
+      "segment_id": "P007_INT_011",
+      "text": "I'd say, like I said the once a week, I'd say probably, yeah, majority of them are in, in store because I feel like paying the delivery fee and stuff is pointless when you can walk.",
+      "tension": "Claims 'once a week' but diary shows zero delivery orders",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P007",
+      "segment_id": "P007_DIARY_006",
+      "text": "Normally, I would have sort of had a takeaway or some food out at a restaurant, but just the way this study's lined up with my week, I've ended up having quite a budget saving week.",
+      "tension": "Acknowledges this week was unusually budget-focused, implying normal weeks include more takeaways",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P030",
+      "segment_id": "P030_INT_004",
+      "text": "I cook more than I order now. At the start of eating, I ordered a bit more just because I had that freedom of spending... when I had the money.",
+      "tension": "P030_INT_002",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P030",
+      "segment_id": "P030_INT_007",
+      "text": "Probably two to three times a week, then just a bit more because... just freedom of spending.",
+      "tension": "P030_INT_005",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P029",
+      "segment_id": "P029_INT_007",
+      "text": "Because I've not lived alone before this, so you sort of figure it out by yourself... and it's fun.",
+      "tension": "1:85-1:86",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P035",
+      "segment_id": "P035_INT_015",
+      "text": "Yeah... at this point... yeah. Side things started off as a treat. Maybe it's just a bit of a habit.",
+      "tension": "1-165 vs habit formation",
+      "category": "Treat vs Routine"
+    },
+    {
+      "participant_id": "P035",
+      "segment_id": "P035_INT_039",
+      "text": "But yeah, I would say I would want to spend less on food and potentially, like, cook more on weekends as well. If I had to kind of, like, make an adjustment, that's what I would... I would do. But yeah, I would say probably less... less food delivery next year potentially.",
+      "tension": "1-448 vs cost concerns",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P002",
+      "segment_id": "P002_INT_004",
+      "text": "Cooking for me would be like you're actually like preparing something. So you're like, you're chopping the vegetables and you're cooking the meat and you're putting all together, you're making the sauce, that type of thing. So like you're actually putting like the ingredients together to make Something.",
+      "tension": "understands_cooking_but_avoids_it",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P002",
+      "segment_id": "P002_INT_005",
+      "text": "Like almost never. I only really cook if it's like I'm cooking for someone or people are coming over, which is maybe like once every two, three months or something like that.",
+      "tension": "understands_cooking_but_avoids_it",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P002",
+      "segment_id": "P002_INT_010",
+      "text": "Delivery? I have, I think this must be included with my prime or something. So I have like Deliveroo Silver. I think I don't actually entirely know what that gets me. I do have it and I do use it every now and then, but it would mostly be if it was a restaurant that isn't on Uber. I would then check Deliveroo.",
+      "tension": "has_subscription_but_unclear_benefits",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P002",
+      "segment_id": "P002_INT_042",
+      "text": "Not as much as I thought it would, probably. And I think that's because they say like free delivery and reduced service fees and they are like, they show you. But also sometimes even the reduced service fees, they're still adding on like £2 or whatever. So that's fine. Like it's £2 that you would have spent whether or not you had the subscription, but not as much as I thought I would or thought that it might.",
+      "tension": "subscription_expectations_vs_reality",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P002",
+      "segment_id": "P002_DIARY_001",
+      "text": "So today past couple of days actually been pretty busy. But today, particularly, I was at uni in the morning, then I had a doctor's appointment across the city, and then I had to go back to uni for a meeting in the afternoon, and then literally got home at, like, yeah, like, half four, quarter to five or something. So I'm not usually a breakfast person anyway, but I definitely didn't have breakfast today. Normally, when I've been at uni, I would have had lunch, but because I had, like, doctor's appointments and thing and I was, like, across the city, I didn't have lunch today.",
+      "tension": "skips_meals_when_busy",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P013",
+      "segment_id": "P013_INT_057",
+      "text": "Yes and no. I might not. Just because I'm not maybe. Yes, because I feel I'm not sure if I have a job after. I might have less time afterwards to, for example, go and get something to eat. But then certainly I might have nothing to do because it'd be like no assignments or anything. Of course, what to do. So I might find out more time like that to get something.",
+      "tension": "contradictory_expectations",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P024",
+      "segment_id": "P024_INT_001",
+      "text": "So in the mornings I don't really eat. I kind of skip breakfast. When I go to work, I go to work four hours. If it's an evening shift and I come home and I'm tired, I sometimes order a lot of food or if I'm not tired, I'll cook something small. But on the days where I do work in the morning I do try and cook myself. But the majority of the time recently I've just been ordering.",
+      "tension": "Claims to cook frequently but admits 'majority of the time recently I've just been ordering'",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P024",
+      "segment_id": "P024_INT_004",
+      "text": "Cooking means actually making something because I don't really like making quick meals. If I cook, it's something that I'm going to like and enjoy. So I wouldn't be like this type of. Because I know a lot of people like to make quick meals, but I'm not the type of person. If I'm going to cook and spend time to cook, I'll actually make a decent meal. That takes a while. Yeah, essentially it's just a nice filling meal.",
+      "tension": "Aspirational cooking identity - wants elaborate meals but often lacks energy",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P024",
+      "segment_id": "P024_DIARY_002",
+      "text": "So in terms of my meals today, they were all based on how I was feeling and what I was craving at the time. So in the morning, I actually ate something really quickly before I went to work, which was a cheerio. It's something I really don't really have. Sometimes I don't have breakfast, but, otherwise, I do always have something that's gonna wake me up in the morning.",
+      "tension": "Says sometimes skips breakfast but needs something to wake up",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P024",
+      "segment_id": "P024_DIARY_003",
+      "text": "I've realized even throughout this diary that I have done a lot of takeaways, and I think my aim will be more to cook at home more as I have today. I think today, I just felt like another craving of eating something sweet, so, I decided to make a carbonara, meal.",
+      "tension": "Realizes high takeaway usage, wants to cook more but still driven by cravings",
+      "category": "Health vs Convenience"
+    },
+    {
+      "participant_id": "P008",
+      "segment_id": "P008_INT_025",
+      "text": "Yeah, at that time when I was in uni, I said I gained a lot of weight and I think I was around 71, 72 when before I started the uni and after I eat a lot from outside my weight gone to around 80, 85. So I need to lose that. And after that I just think oh, I need to, I need to maintain my weight or I'll be obese so which I don't want to be. And for that need to eat some. You need to eat healthy food. So that influenced me.",
+      "tension": "1:327",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P032",
+      "segment_id": "P032_INT_016",
+      "text": "Groceries? Not that often because I have like a little very close to my house, and so it doesn't really make sense. Takeaway would probably be maybe once or twice a week. Sometimes. Not every week, though.",
+      "tension": "P032_INT_016 vs profile claim of 'less than every 3 months'",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P032",
+      "segment_id": "P032_INT_053",
+      "text": "But I don't really compare them. Like it's kind of like it's always delivery and if delivery doesn't have what I want then just. It is my second option. Like I wouldn't really compare. Like it would all. I probably should compare. But it kind of like delivers the first option.",
+      "tension": "P032_INT_053 vs claims of price sensitivity",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P005",
+      "segment_id": "P005_DIARY_003",
+      "text": "So I don't usually eat breakfast, which is why I skipped it today. I woke up, around a normal time, like, somewhere between nine and ten. And I usually don't feel that hungry. I do usually have, like, a cup of tea and just leave it at that.",
+      "tension": "contradicts_interview_pastry_mention",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P037",
+      "segment_id": "P037_INT_014",
+      "text": "I feel like the most stressful meals are definitely dinner. It is very time-consuming to make dinner because, with lunch, it can be something a bit more simple, like... just like a Greek yogurt bowl or something like that. But for dinner, I'm trying to get, like, everything in. So, for example, last night I think I spent, like, an hour and... like almost an hour and a half making dinner. And that's, like, stressful because I'm like, I could be getting work done right, right now! And I was like, this is pushing back my sleep as well. So that's definitely the most stressful meal of the week.",
+      "tension": "Health aspirations vs time pressure - wants nutritious meals but stressed about time cost",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P037",
+      "segment_id": "P037_INT_037",
+      "text": "I think, in terms of food, it doesn't matter to me that much. I feel like I... as a uni student, you can't be very picky with, you know, kind of like the quality of certain foods... I feel like. So that's where I'm, like, willing to even take, like, 1 or 2 pounds off and switch to the other kind.",
+      "tension": "Health-conscious identity vs budget constraints - compromises quality for price",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P037",
+      "segment_id": "P037_INT_038",
+      "text": "But I think the thing that is more important for me is certain things, like cosmetics and, like, certain, like, bath and body type of products, where I need, like, a specific kind of those things. And I think if it's, like, one or two pounds off for the off-brand, I would still stick with the more expensive one if it meant that I could get the one I wanted.",
+      "tension": "Price sensitivity varies by category - flexible on food, rigid on personal care",
+      "category": "Cost-Value Paradox"
+    },
+    {
+      "participant_id": "P026",
+      "segment_id": "P026_INT_002",
+      "text": "Because before I came to uni, I did an actual... I did dental nursing. So I had a full-on, full-time job. So I got... I also got my car. I got everything, like a life set out.",
+      "tension": "1-107",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P026",
+      "segment_id": "P026_INT_004",
+      "text": "I feel like a lot of my other mates... so, for example, like, they wouldn't choose a Domino's, do you know what I mean? Like that... or if they did, it's more like it would need to be a bigger group so they can get a deal on it.",
+      "tension": "1:90-1:94",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P026",
+      "segment_id": "P026_INT_010",
+      "text": "Recently, I've tried to cut down on eating loads because I know that I'm going to bed after... I'm acne, I'm trying to calm it down, so I'll try and cook them, but I'm a terrible cook, and by that point, I can't actually be bothered.",
+      "tension": "1:151-1:153",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P026",
+      "segment_id": "P026_INT_012",
+      "text": "I probably cook about three times a week. And the rest... this thingy? Yeah, definitely!",
+      "tension": "1:138",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P026",
+      "segment_id": "P026_INT_030",
+      "text": "Yeah, I think I'd still pay for it. Yeah... I think I know that.",
+      "tension": "1:1022-1:1025",
+      "category": "Other Contradictions"
+    },
+    {
+      "participant_id": "P011",
+      "segment_id": "P011_INT_010",
+      "text": "And after four I'd go back home, hit the gym at five and till six thirty. So about six thirty I'd come back home from the gym and start cooking. And I'm done with my dinner everything by eight.",
+      "tension": "Claims regular cooking routine but diary shows minimal home cooking",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P011",
+      "segment_id": "P011_INT_011",
+      "text": "Cook? I think I wouldn't say most of the times. About 50%, I guess.",
+      "tension": "Claims 50% cooking but diary shows only 6 home-cooked meals in 7 days, predominantly eating out",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P011",
+      "segment_id": "P011_INT_015",
+      "text": "It's about two to three times a week.",
+      "tension": "Claims 2-3 times weekly but diary shows only 1 delivery order in 7 days",
+      "category": "Say-Do Gap"
+    },
+    {
+      "participant_id": "P011",
+      "segment_id": "P011_DIARY_002",
+      "text": "In the breakfast, I ate some fruits and yogurt and made a smoothie out of apple, carrot, and some lemon juice, because I didn't wanna eat much before, I went to the sauna. In the afternoon, I went to the sauna with my friends and then went to, two restaurants straight out and had had a pizza. Yep. Had a pizza. I shared the pizza with some of my friends. And then we went to the campus for some work. And, yeah, and then after we got back home from campus, one of my front friends called, where whether I wanted to get some food in a nearby restaurant. And I was like, yeah. Okay. So we went there, and it was an Indian place. And that is why we went there. And we were done with all the meals today.",
+      "tension": "Diary shows predominantly social eating out vs claimed 50% cooking",
+      "category": "Health vs Convenience"
+    }
+  ],
+  "grouped": {
+    "Other Contradictions": [
+      {
+        "participant_id": "P028",
+        "segment_id": "P028_INT_011",
+        "text": "Yeah, that's more tied to things like mental health and, like, if I'm failing exams... stuff like that.",
+        "tension": "P028_INT_010",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P034",
+        "segment_id": "P034_INT_004",
+        "text": "Lunch... I try to bring some food with me if I've made anything, like meal-planned, but I'm not always super great about that. And then if I don't, then I just, like, try to go to one of the restaurants around.",
+        "tension": "P034_INT_121",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P034",
+        "segment_id": "P034_INT_043",
+        "text": "Delivery? Yeah. Still like my associations... It's better for food delivery, and I've had good experiences with them in general. Like, no one's stolen my food off of it! And this thing that you told me about... the free delivery service.",
+        "tension": "P034_INT_042",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P012",
+        "segment_id": "P012_INT_003",
+        "text": "But I'd say we do it like 50, 50. For me it's 50. 50. I cook 50% of the time. I order food online 50% of the time.",
+        "tension": "Diary shows only 1 delivery order in 7 days, contradicting 50/50 claim",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P012",
+        "segment_id": "P012_DIARY_003",
+        "text": "So today was our weekend, and it was Saturday, so I woke up late. I woke up around twelve PM, I guess. So I skip I basically skipped the breakfast. Then I went out with my partner on a date. So it's like every weekend we go on a date.",
+        "tension": "Shows frequent breakfast skipping pattern",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P025",
+        "segment_id": "P025_INT_004",
+        "text": "But I'm awful at shopping, so I... I'm always forgetting to... to buy something or pick something up... I can't shop hungry. I've been on a run, and I'm shopping after that. That's chaos! Because I want to get back, make something for dinner, and eat it... I find shopping quite stressful. So it's just... it's... I don't really like it every week.",
+        "tension": "1-54:1-58",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P025",
+        "segment_id": "P025_INT_010",
+        "text": "I'd say having more... having more time might mean ordering less. I've also got less money. So, I'd say that is a big issue. It's... it is quite expensive.",
+        "tension": "1-8:1-12",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P020",
+        "segment_id": "P020_INT_011",
+        "text": "So I always, almost all the time just do the prep when I'm about to cook because I never know what I'm eating the next day. So I can't really meal prep for the day ahead. So I, I will, I think I go to the supermarket maybe like it's either once a day or once every two days. And the amount of times I pop by is, is wild when I see my. Because I. My local one is Lidl. So they have this Lidl wrapped like a Spotify wrapped. I think there was a month I went to the supermarket every single day. Like I've been to Lidl like 250 times last year. And that's because I can't decide on what I cook. Like what I have for the next day.",
+        "tension": "P020_INT_010",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P017",
+        "segment_id": "P017_INT_009",
+        "text": "I'd say either a Saturday when I've been out on the Friday, or like a Tuesday. I feel like a Tuesday and a Thursday kind. You know, like the Wednesday because I'm in the office is a little bit different because usually I'm like, you know, oh, come home. And like, I won't eat out because I usually have eaten out for lunch. So I'm like, usually won't get a delivery. And then. Yeah, so probably be Tuesday, Thursday, and like, Monday. You're like, it's Monday. Like, I can't get a takeaway, so. And Friday I do. Yeah. So I'd say Saturday during the day or a Tuesday or Thursday evening.",
+        "tension": "Monday guilt vs weekend permission",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_039",
+        "text": "Feel justified... maybe guilty because I like... I used to tip the delivery drivers, and I'm kind of feeling bad because I know they can see on their screens that you're not, like, putting in a tip or, like, something like that. So I'm kind of feeling guilty, and as well, most of the time, like, I feel bad for myself because I'm, like, staying at home, not going out most of the time because I don't have the time. And I'm like, I know I have the time to do this, get the food, but instead, I'm just ordering from the place.",
+        "tension": "complex guilt around tipping, time management, and lifestyle choices",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_077",
+        "text": "I say part-time jobs... definitely have, like, some insurance, definitely stable income. You're getting paid on, narrowly... you're on a contract. But the thing I like is you're kind of freelancing on Uber and delivery. You're just... whenever you want. You don't have a face time when you want to deliver, anything like that. So yeah, it's simple!",
+        "tension": "acknowledges benefits of freelancing despite earlier concerns",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_DIARY_003",
+        "text": "And, yeah, and, yeah, I was just craving it. No. Not really. This doesn't affect this doesn't it does kinda because I am going towards the fast food, but because as I told, like, the guy when I was doing the survey, there isn't much takeout spots than like, the McDonald's was twenty minutes away, but it was worth going because I'm not in Dublin. I'm back in the house. So yeah.",
+        "tension": "acknowledges different food behavior at home vs Dublin",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_DIARY_005",
+        "text": "So today this morning, I woke up early because I had online classes. So I decided to have a quick breakfast, which was cereal, milk, and a cup of tea. And there's just something quick and easy to do, and I didn't have food until I had no snacks, no nothing, just water myself like usual. I didn't have anything until lunchtime. Yes. Until lunchtime, I had sausages. I went down to the local butcher's because I haven't been there for a long time, and I just don't love with their fucking food. Sorry about my language, but their food is delicious and everything. And I was just craving it, for yeah. For dinner, I have a pizza. I mean, I should cut down on the pizzas, but yeah. So it does kinda reflect my typical day to day. But because I'm doing it from home, it kind of varies because I usually get, like, meal deals or snacks quick to go and stuff like that.",
+        "tension": "acknowledges pizza guilt while continuing the behavior",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P031",
+        "segment_id": "P031_INT_003",
+        "text": "So first of all, being bored of eating the same thing on a daily basis, like, the food is great. I have no problem with it, but sometimes it just gets boring and you want to eat something else. Another thing is maybe laziness. Like I mentioned, I cook on a daily basis, so maybe on this particular day, I just. I don't want to cook. I just want to get a meal prepared by someone else and just delivered to me.",
+        "tension": "segment_001",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P036",
+        "segment_id": "P036_INT_015",
+        "text": "So, at the beginning of uni, I would do like a weekly food shop, but now it's kind of like I'll do a really big food shop, and then for the rest of the month, basically, I'm not really going and doing another big food shop. I'm just picking up things as they run out... like I need this, I'll go grab this.",
+        "tension": "Shopping pattern evolution shows adaptation to university life",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P027",
+        "segment_id": "P027_INT_009",
+        "text": "I think, like, obviously, because this... like, arguing out when I'm at home... I order so much more food than when I'm here.",
+        "tension": "1:81",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P027",
+        "segment_id": "P027_INT_047",
+        "text": "But if I'm gonna order something at uni, it would be like... I know what I've been craving... I know what I want.",
+        "tension": "1:515",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P010",
+        "segment_id": "P010_DIARY_002",
+        "text": "It's not completely far removed, but I am actually working from home completely this week. Normally, on Thursdays, I'm in the office. So, like bake making baked oats in the morning, I usually wouldn't unless I'm working from home. It usually be something quicker like overnight oats or I'd have premade like, egg and bacon bagels.",
+        "tension": "wfh_vs_office_eating_patterns",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P010",
+        "segment_id": "P010_DIARY_007",
+        "text": "And then for lunch, I ate in the canteen, because I wasn't prepped enough today to, bring my own lunch, which I normally do. So I got a ham and cheese toastie in the canteen in work.",
+        "tension": "meal_prep_failure",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P022",
+        "segment_id": "P022_INT_060",
+        "text": "Yeah, always. Like, it's free delivery. Even if I know it's like, it's free, but it's not because the order is absorbed. The price, like free delivery always just feels better.",
+        "tension": "knows_free_delivery_isnt_really_free_but_still_prefers_it",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P004",
+        "segment_id": "P004_DIARY_002",
+        "text": "So for breakfast today, I actually skipped this meal because I ran out of time because I was going to the gym with a friend early this morning, which I do quite regularly because, generally, I I only eat breakfast if I have the time to. And then for lunch, I had cottage cheese on toast, which is something new. I'm trying to increase my protein intake and some crisps and a yogurt because I was still hungry because I didn't have breakfast.",
+        "tension": "Contradicts interview claim of being 'newly breakfast convert' - admits only eating breakfast 'if I have the time to'",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P018",
+        "segment_id": "P018_INT_041",
+        "text": "In terms of takeaways, I'd say I would mainly order like probably like Chinese or Indian, Things like that. Like I probably wouldn't really go for like a McDonald's on an Uber. It depends. Like sometimes I'm coming back late from like a night out, I'm ordering Uber. A McDonald's on Uber Eats. So it depends on like convenience.",
+        "tension": "Says she wouldn't order McDonald's then immediately contradicts herself",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P016",
+        "segment_id": "P016_INT_006",
+        "text": "No, I do it individually.",
+        "tension": "P016_INT_004",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P016",
+        "segment_id": "P016_INT_032",
+        "text": "I don't use it enough.",
+        "tension": "P016_INT_028",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P016",
+        "segment_id": "P016_INT_052",
+        "text": "Yeah, I prefer trying new things.",
+        "tension": "P016_INT_021",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P016",
+        "segment_id": "P016_INT_092",
+        "text": "Probably like four or five times a month maybe.",
+        "tension": "P016_INT_028",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P016",
+        "segment_id": "P016_INT_102",
+        "text": "Probably slightly more. Because I'll have like, the time to, like, I can work around it more to probably add more, if that makes sense.",
+        "tension": "P016_INT_101",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P007",
+        "segment_id": "P007_INT_004",
+        "text": "So I'll normally sort of meal prep on a Monday, but then I'd say one or two nights a week I'll get some form of like food out, whether that's at a restaurant or a takeaway or like ordering it. But I'd say at least like, at least five nights a week I've like cooked at home maybe two or three portions of like a meal prep",
+        "tension": "Diary shows zero delivery orders across 7 days, contradicting 'one or two nights a week' claim",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P030",
+        "segment_id": "P030_INT_004",
+        "text": "I cook more than I order now. At the start of eating, I ordered a bit more just because I had that freedom of spending... when I had the money.",
+        "tension": "P030_INT_002",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P030",
+        "segment_id": "P030_INT_007",
+        "text": "Probably two to three times a week, then just a bit more because... just freedom of spending.",
+        "tension": "P030_INT_005",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P029",
+        "segment_id": "P029_INT_007",
+        "text": "Because I've not lived alone before this, so you sort of figure it out by yourself... and it's fun.",
+        "tension": "1:85-1:86",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P002",
+        "segment_id": "P002_DIARY_001",
+        "text": "So today past couple of days actually been pretty busy. But today, particularly, I was at uni in the morning, then I had a doctor's appointment across the city, and then I had to go back to uni for a meeting in the afternoon, and then literally got home at, like, yeah, like, half four, quarter to five or something. So I'm not usually a breakfast person anyway, but I definitely didn't have breakfast today. Normally, when I've been at uni, I would have had lunch, but because I had, like, doctor's appointments and thing and I was, like, across the city, I didn't have lunch today.",
+        "tension": "skips_meals_when_busy",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P013",
+        "segment_id": "P013_INT_057",
+        "text": "Yes and no. I might not. Just because I'm not maybe. Yes, because I feel I'm not sure if I have a job after. I might have less time afterwards to, for example, go and get something to eat. But then certainly I might have nothing to do because it'd be like no assignments or anything. Of course, what to do. So I might find out more time like that to get something.",
+        "tension": "contradictory_expectations",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P008",
+        "segment_id": "P008_INT_025",
+        "text": "Yeah, at that time when I was in uni, I said I gained a lot of weight and I think I was around 71, 72 when before I started the uni and after I eat a lot from outside my weight gone to around 80, 85. So I need to lose that. And after that I just think oh, I need to, I need to maintain my weight or I'll be obese so which I don't want to be. And for that need to eat some. You need to eat healthy food. So that influenced me.",
+        "tension": "1:327",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P032",
+        "segment_id": "P032_INT_016",
+        "text": "Groceries? Not that often because I have like a little very close to my house, and so it doesn't really make sense. Takeaway would probably be maybe once or twice a week. Sometimes. Not every week, though.",
+        "tension": "P032_INT_016 vs profile claim of 'less than every 3 months'",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P005",
+        "segment_id": "P005_DIARY_003",
+        "text": "So I don't usually eat breakfast, which is why I skipped it today. I woke up, around a normal time, like, somewhere between nine and ten. And I usually don't feel that hungry. I do usually have, like, a cup of tea and just leave it at that.",
+        "tension": "contradicts_interview_pastry_mention",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P026",
+        "segment_id": "P026_INT_002",
+        "text": "Because before I came to uni, I did an actual... I did dental nursing. So I had a full-on, full-time job. So I got... I also got my car. I got everything, like a life set out.",
+        "tension": "1-107",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P026",
+        "segment_id": "P026_INT_004",
+        "text": "I feel like a lot of my other mates... so, for example, like, they wouldn't choose a Domino's, do you know what I mean? Like that... or if they did, it's more like it would need to be a bigger group so they can get a deal on it.",
+        "tension": "1:90-1:94",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P026",
+        "segment_id": "P026_INT_010",
+        "text": "Recently, I've tried to cut down on eating loads because I know that I'm going to bed after... I'm acne, I'm trying to calm it down, so I'll try and cook them, but I'm a terrible cook, and by that point, I can't actually be bothered.",
+        "tension": "1:151-1:153",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P026",
+        "segment_id": "P026_INT_012",
+        "text": "I probably cook about three times a week. And the rest... this thingy? Yeah, definitely!",
+        "tension": "1:138",
+        "category": "Other Contradictions"
+      },
+      {
+        "participant_id": "P026",
+        "segment_id": "P026_INT_030",
+        "text": "Yeah, I think I'd still pay for it. Yeah... I think I know that.",
+        "tension": "1:1022-1:1025",
+        "category": "Other Contradictions"
+      }
+    ],
+    "Say-Do Gap": [
+      {
+        "participant_id": "P003",
+        "segment_id": "P003_INT_010",
+        "text": "I know what I like and I like what I know with cooking. In an ideal world, I would experiment a little bit more, but at the minute, I don't really have the time. And it's not something that's too important to me. Like, I really like food and I really like eating, but I'm someone that can, like, eat the same things over and over again and, like, not get bored of it.",
+        "tension": "Claims to 'really like food and eating' but describes purely utilitarian relationship",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P012",
+        "segment_id": "P012_INT_017",
+        "text": "I'd say lunch is more social for me because I have it with my friends here at the university. And for functional, say I have my breakfast. Like I try to track my breakfast every day, like every nutrients in my breakfast, like the protein, the carbs, the everything.",
+        "tension": "Claims to track breakfast daily but diary shows frequent skipping",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_050",
+        "text": "I'd probably go for Deliveroo... so the cheaper one, even though it's the euro. But still, I'd like to save the euro, maybe put it towards the tip. So, yeah.",
+        "tension": "says Deliveroo but means the cheaper option (which would be Uber in this scenario)",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P015",
+        "segment_id": "P015_DIARY_003",
+        "text": "Then for lunch, after I got in from my lecture, which is a long four hour lecture, I was really tired. And there wasn't much food in the cupboard, and I couldn't really, be bothered to go to the shop and get something to eat. So I pardon me, used a I mean, used Uber Eats to order a takeaway. So I got, some chicken and rice from a noodle bar, and I don't normally order this early into the day.",
+        "tension": "Interview claims 1-2 orders per week but diary shows more restrained behavior",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P004",
+        "segment_id": "P004_INT_020",
+        "text": "Functional is breakfast because I'm a newly breakfast convert. Like generally I didn't used to eat breakfast, but you know, I've read that there are so many benefits to eating breakfast to stop you being hungry in the day and all that jazz. So breakfast is functional. Like I have to make myself like eat breakfast.",
+        "tension": "Claims to be 'newly breakfast convert' but diary shows skipped breakfast 3/7 days",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P004",
+        "segment_id": "P004_DIARY_001",
+        "text": "So for breakfast I had yogurt and fruit fiber, some grapes, and some nuts because I like protein, and gotta get some fruit and veg in. And I have the same breakfast pretty much every day. And then for lunch, I had stuffed peppers with some chicken just to make sure I got some protein in again. I stuffed peppers quite a lot because it's quite quick and easy. It's quite yummy. It's hot. I like hot food. It's nutritious. And then for dinner, I had dumplings with my flatmates because we're celebrating Lunar New Year. And that is not something I would normally do, but they were delicious.",
+        "tension": "Claims 'same breakfast pretty much every day' but skipped breakfast 3/7 days",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P018",
+        "segment_id": "P018_INT_010",
+        "text": "I do, I do, I follow a few. I try and save recipes when I can and like try and recreate them. They often get just saved and then I'll think about going back to them or I'll send them like I'll be like oh I should make this or like you know like me and my partner send it to her and I'll be like oh we should make this. And then we sometimes do sometime.",
+        "tension": "Says they save recipes and plan to make them but admits they 'sometimes do sometime' - classic intention-action gap",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P018",
+        "segment_id": "P018_INT_033",
+        "text": "I'd say maybe like 60 pound totaling of the week, 70 pound totaling the week around that. Maybe a bit less then eating out. If I'd probably say like an average is like maybe once a week I eat out and I get a takeaway maybe once every two weeks. So that's probably normally around 20 pound, probably. And then like another like 30 pound to eat out.",
+        "tension": "Says she orders once a week earlier but now says once every two weeks",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P007",
+        "segment_id": "P007_INT_011",
+        "text": "I'd say, like I said the once a week, I'd say probably, yeah, majority of them are in, in store because I feel like paying the delivery fee and stuff is pointless when you can walk.",
+        "tension": "Claims 'once a week' but diary shows zero delivery orders",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P024",
+        "segment_id": "P024_INT_001",
+        "text": "So in the mornings I don't really eat. I kind of skip breakfast. When I go to work, I go to work four hours. If it's an evening shift and I come home and I'm tired, I sometimes order a lot of food or if I'm not tired, I'll cook something small. But on the days where I do work in the morning I do try and cook myself. But the majority of the time recently I've just been ordering.",
+        "tension": "Claims to cook frequently but admits 'majority of the time recently I've just been ordering'",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P024",
+        "segment_id": "P024_DIARY_002",
+        "text": "So in terms of my meals today, they were all based on how I was feeling and what I was craving at the time. So in the morning, I actually ate something really quickly before I went to work, which was a cheerio. It's something I really don't really have. Sometimes I don't have breakfast, but, otherwise, I do always have something that's gonna wake me up in the morning.",
+        "tension": "Says sometimes skips breakfast but needs something to wake up",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P011",
+        "segment_id": "P011_INT_010",
+        "text": "And after four I'd go back home, hit the gym at five and till six thirty. So about six thirty I'd come back home from the gym and start cooking. And I'm done with my dinner everything by eight.",
+        "tension": "Claims regular cooking routine but diary shows minimal home cooking",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P011",
+        "segment_id": "P011_INT_011",
+        "text": "Cook? I think I wouldn't say most of the times. About 50%, I guess.",
+        "tension": "Claims 50% cooking but diary shows only 6 home-cooked meals in 7 days, predominantly eating out",
+        "category": "Say-Do Gap"
+      },
+      {
+        "participant_id": "P011",
+        "segment_id": "P011_INT_015",
+        "text": "It's about two to three times a week.",
+        "tension": "Claims 2-3 times weekly but diary shows only 1 delivery order in 7 days",
+        "category": "Say-Do Gap"
+      }
+    ],
+    "Treat vs Routine": [
+      {
+        "participant_id": "P003",
+        "segment_id": "P003_DIARY_001",
+        "text": "So today, I didn't eat as much as I normally do. I actually skipped both breakfast and lunch and just had a small snack, which was a sliced avocado. That's something I normally eat, but I would eat it with other things. The reason I didn't eat that much today until the evening is because I wasn't really feeling that well until the evening, until dinner time.",
+        "tension": "Diary shows frequent meal skipping vs interview claim of regular eating",
+        "category": "Treat vs Routine"
+      },
+      {
+        "participant_id": "P003",
+        "segment_id": "P003_DIARY_003",
+        "text": "Today, I ate, not that much. Just a banana for breakfast and then some leftover food from yesterday for lunch. I normally eat more than this, and I normally don't skip dinner. The reason I skipped dinner today was because I fell asleep in the afternoon and had quite a long nap because I worked all day yesterday. I had a ten hour shift, until fairly late. So, yeah, so I I slept quite a lot this afternoon. And when I woke up, I didn't really feel like having dinner, so it's not reflective of what I usually eat.",
+        "tension": "Diary shows frequent meal skipping and irregular eating vs interview claims",
+        "category": "Treat vs Routine"
+      },
+      {
+        "participant_id": "P012",
+        "segment_id": "P012_INT_009",
+        "text": "So it's like when I wake up, when I have oily 9ams, I mostly just have either like granola with some yogurt and some fruits. Then when I'm at uni, obviously I can't cook here. So it's like either I like eat something outside nearby or I order something here at the library.",
+        "tension": "Diary shows frequent breakfast skipping contradicting this routine",
+        "category": "Treat vs Routine"
+      },
+      {
+        "participant_id": "P012",
+        "segment_id": "P012_DIARY_002",
+        "text": "So today in the morning, I skipped my breakfast because I had my lectures early. Then in the afternoon, I just bought something from Tesco, like, a meal leaf from Tesco. Had it. It was, like, a protein shake, a wrap, a chicken tikka wrap, and, protein fudge, I guess, for snacks.",
+        "tension": "Contradicts interview claim of regular breakfast routine",
+        "category": "Treat vs Routine"
+      },
+      {
+        "participant_id": "P012",
+        "segment_id": "P012_DIARY_004",
+        "text": "So today, I skipped my breakfast again because being a student, it is, like, one of the most common habit for me that I skipped my breakfast on a regular basis because I had lectures early in the morning, so I had to go to the campus to attend the lectures.",
+        "tension": "Directly contradicts interview claim of tracking breakfast daily",
+        "category": "Treat vs Routine"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_DIARY_004",
+        "text": "So this morning, I had breakfast, something sweet, something nice to eat. I usually don't have sweet breakfast, but I was craving a sweet breakfast this morning because I'm here at my parents' house for this week. And because I'm a bit under the weather, I skipped lunch. And at nighttime, I had we went out with the family and my partner to a restaurant. So would this reflect my day to day habits? Not really.",
+        "tension": "explicitly states this doesn't reflect daily habits",
+        "category": "Treat vs Routine"
+      },
+      {
+        "participant_id": "P035",
+        "segment_id": "P035_INT_015",
+        "text": "Yeah... at this point... yeah. Side things started off as a treat. Maybe it's just a bit of a habit.",
+        "tension": "1-165 vs habit formation",
+        "category": "Treat vs Routine"
+      }
+    ],
+    "Health vs Convenience": [
+      {
+        "participant_id": "P017",
+        "segment_id": "P017_INT_001",
+        "text": "I'm definitely more of eating out person or, you know, getting takeaway person that I am a cooking person. Although I'm trying to change that this year.",
+        "tension": "Professional dietitian identity conflicts with actual eating behavior",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P017",
+        "segment_id": "P017_INT_002",
+        "text": "I actually am a dietitian as well. So yeah, I, well, I tried to follow the, you know, dietitians or the least misinformationy people out there.",
+        "tension": "Professional knowledge vs personal behavior - dietitian who orders takeaway frequently",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P017",
+        "segment_id": "P017_INT_005",
+        "text": "It's just because I don't have any time to prepare it. So, like, you know, you're kind of like torn between, like, I'm actually starving right now and I'm like sat here on a lecture, you know, and then, yeah, like, I should be eating healthy. Like, you know, I should kind of, you know, prepare something and whatever. But then you're kind of like, well, it's actually going to take me half an hour to prepare that, and then it's going to take half an hour to cook. And, you know, it's like everything is just time, and half an hour is probably even like under an underestimate of the time to prepare. It's like, you know, everything takes. Takes time. And also, having the correct ingredients first requires a bit of preparation in advance. That you have to have the right ingredients and all of that kind of stuff.",
+        "tension": "Professional knowledge ('I should be eating healthy') vs practical constraints",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_006",
+        "text": "I really like cooking, so I do watch a lot of Gordon Ramsay myself. I do follow food influencers, restaurants as well, and all of that.",
+        "tension": "contradicts later statements about not having time to cook",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_014",
+        "text": "Oh, maybe twice a week... Definitely twice a week. I wouldn't say more.",
+        "tension": "contrasts with earlier statement about loving cooking",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_015",
+        "text": "So, I do enjoy cooking, but I don't have the time to do it. So, I like to throw in the pan myself... cook... cook a nice dinner, like spaghetti bolognese or a curry. Like, I like cooking myself, but I just don't have the time to do it.",
+        "tension": "repeated contradiction between loving cooking and not having time",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_023",
+        "text": "Something quick... so maybe McDonald's: a burger, fries. Like, I need to cut myself down and go into healthy... healthier. But yeah, mostly those stuff. Yeah, or like a roll or a wrap... something like that.",
+        "tension": "acknowledges unhealthy choices while continuing them",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P036",
+        "segment_id": "P036_INT_005",
+        "text": "A lot on TikTok, I would say... always, like, searching recipes and stuff for inspo.",
+        "tension": "Searches for recipe inspiration despite purely functional cooking attitude",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P036",
+        "segment_id": "P036_INT_010",
+        "text": "I don't love eating the same thing over and over, so I kind of try to have ingredients that I can make in a bunch of ways because I tried the whole meal-prepping route, and then I just got so, like, redundant. I was like, I can't keep eating the same thing over and over.",
+        "tension": "Seeks variety despite functional cooking approach",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P009",
+        "segment_id": "P009_INT_005",
+        "text": "Yeah, it's my mom and dad. Like both of them. And sometimes, sometimes I, I cook al. But yeah, it's mainly my mom and dad.",
+        "tension": "Contradicts diary data showing he cooks most meals",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P009",
+        "segment_id": "P009_INT_012",
+        "text": "I would say like once a week obviously. Like to be honest, because it's only once my day. I have a day off. So. Yeah. And if I really feel to cook, then only I cook. So I would say yeah, once a week.",
+        "tension": "Major contradiction with diary showing daily home cooking",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P009",
+        "segment_id": "P009_DIARY_002",
+        "text": "I think it actually reflected my daily habit apart from the lunch because I usually have proper lunch, like, any meals or, like, with with roasted chicken or rice and all. But apart from that, that's, like, my daily routine unless I, like, order it from outside, for the dinner.",
+        "tension": "Contradicts interview claim of cooking once a week",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P009",
+        "segment_id": "P009_DIARY_005",
+        "text": "I think, yeah, that like, on a usual day, I would have lunch. I would be eating lunch, the one I have skipped today, but as it was, a long shift today for me, I've run jobs, so I didn't have my lunch, like, the second meal of my day. So that's the only thing that's, like, different from my daily routine. Otherwise, yeah, that's, like, my meal that's, like, my go to habit and, like, my usual routine. So, like, light breakfast and lunch, and then a bit of heavy and some, some good dinner to end the day. That's it.",
+        "tension": "Contradicts interview claim of cooking once a week",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P009",
+        "segment_id": "P009_DIARY_006",
+        "text": "And, like, apart from missing the lunch again, like, I know I said this before, but apart from missing the lunch, I think that's, like, my normal routine. And, yeah, of course, like, I don't eat out outside food, that much. But, yeah, it was like we were, like, too tired and, like, we were we had a plan to go somewhere out to eat Indian food, so we just went to eat it today.",
+        "tension": "Contradicts interview claim of cooking once a week",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P009",
+        "segment_id": "P009_DIARY_007",
+        "text": "Apart from that, like, my usual breakfast is like this only, just like a light breakfast with tea or coffee. And I might have lunch sometimes. Sometimes I skip it. Depends on my class and, like, my lectures. And about the dinner, mostly it's like as you may have noticed, mostly it's like home cooked meals only. But today, we try we decided to go out.",
+        "tension": "Major contradiction with interview claim of cooking once a week",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P018",
+        "segment_id": "P018_DIARY_002",
+        "text": "I had planned to cook food, but I got home late and wanted just something easy and comforting, and that was the best option.",
+        "tension": "Had planned to cook but delivery became the fallback",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P021",
+        "segment_id": "P021_INT_007",
+        "text": "When I'm cooking for both of us, it's all from scratch. When it's just myself... she's a whale or something. I sometimes just... lazy and have, like, a... I guess, yeah, ready meal type thing sometimes, or something from a jar or whatever. But yeah, when I'm cooking for other people, it always has to be from scratch.",
+        "tension": "1:114-1:117 vs social cooking standards",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P002",
+        "segment_id": "P002_INT_004",
+        "text": "Cooking for me would be like you're actually like preparing something. So you're like, you're chopping the vegetables and you're cooking the meat and you're putting all together, you're making the sauce, that type of thing. So like you're actually putting like the ingredients together to make Something.",
+        "tension": "understands_cooking_but_avoids_it",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P002",
+        "segment_id": "P002_INT_005",
+        "text": "Like almost never. I only really cook if it's like I'm cooking for someone or people are coming over, which is maybe like once every two, three months or something like that.",
+        "tension": "understands_cooking_but_avoids_it",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P024",
+        "segment_id": "P024_INT_004",
+        "text": "Cooking means actually making something because I don't really like making quick meals. If I cook, it's something that I'm going to like and enjoy. So I wouldn't be like this type of. Because I know a lot of people like to make quick meals, but I'm not the type of person. If I'm going to cook and spend time to cook, I'll actually make a decent meal. That takes a while. Yeah, essentially it's just a nice filling meal.",
+        "tension": "Aspirational cooking identity - wants elaborate meals but often lacks energy",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P024",
+        "segment_id": "P024_DIARY_003",
+        "text": "I've realized even throughout this diary that I have done a lot of takeaways, and I think my aim will be more to cook at home more as I have today. I think today, I just felt like another craving of eating something sweet, so, I decided to make a carbonara, meal.",
+        "tension": "Realizes high takeaway usage, wants to cook more but still driven by cravings",
+        "category": "Health vs Convenience"
+      },
+      {
+        "participant_id": "P011",
+        "segment_id": "P011_DIARY_002",
+        "text": "In the breakfast, I ate some fruits and yogurt and made a smoothie out of apple, carrot, and some lemon juice, because I didn't wanna eat much before, I went to the sauna. In the afternoon, I went to the sauna with my friends and then went to, two restaurants straight out and had had a pizza. Yep. Had a pizza. I shared the pizza with some of my friends. And then we went to the campus for some work. And, yeah, and then after we got back home from campus, one of my front friends called, where whether I wanted to get some food in a nearby restaurant. And I was like, yeah. Okay. So we went there, and it was an Indian place. And that is why we went there. And we were done with all the meals today.",
+        "tension": "Diary shows predominantly social eating out vs claimed 50% cooking",
+        "category": "Health vs Convenience"
+      }
+    ],
+    "Cost-Value Paradox": [
+      {
+        "participant_id": "P017",
+        "segment_id": "P017_INT_006",
+        "text": "Yeah, but it just encouraged me to eat way too much takeaway, so I deleted it.",
+        "tension": "Value recognition vs self-control - cancelled despite good value",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_024",
+        "text": "I'd say about... I don't want to lie... I'm saying about 90 to 100 quid just alone on food, maybe even more, but I'd have to check. But I definitely know it's 100 and more!",
+        "tension": "high spending despite claiming to be money-conscious",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_025",
+        "text": "So, I'd say 90%... no, maybe 80% is on the takeaways, 20% on the groceries, and then going out without including that... I'd say it's like another €40 on top of it if I'm getting drinks as well.",
+        "tension": "massive proportion of spending on takeaways",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_034",
+        "text": "Maybe... maybe the delivery fees, because the shopper is kind of a bit far, and I do have the subscription, but it's around 2 to 3 Euros. That... so it kind of, like, throws me off when I know I can just walk down instead of being lazy.",
+        "tension": "acknowledges laziness as a factor while feeling guilty about it",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_035",
+        "text": "No, if it goes over, then it just goes over. But I like to, like, keep it under the 30 amounts, pretty much.",
+        "tension": "flexible budgeting despite claiming to be money-conscious",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_041",
+        "text": "So, I'm looking for something not too expensive... something that's medium range, that wouldn't hurt the bank or anything like that. So, yeah, that would be mostly the price... something that's not too expensive.",
+        "tension": "claims price consciousness while spending €140/week on food",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_063",
+        "text": "I'm a... really, I'm really picky on money. Like, I'm a saver. Like, if I see something on promotion or reduced, I'm always buying it. Like, if I see the juices on promotion, reduced, or in a promotion, then yeah, I'm going into the shop, and I'm buying it. So yeah, I kind of like to save my money.",
+        "tension": "claims to be money-conscious while spending €140/week on food",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_070",
+        "text": "Uber, unfortunately... but it wouldn't have my favorite restaurants. But, on price, then... yeah, Uber would definitely take over!",
+        "tension": "torn between price advantage and restaurant preference",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P036",
+        "segment_id": "P036_INT_017",
+        "text": "I would say it's a part of my normal spending, but, like, it is a treat... Like, I do really like delivery over going somewhere. But that's why it's part of my normal spending, because I think it's worth it.",
+        "tension": "Delivery is simultaneously normal spending and a treat",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P010",
+        "segment_id": "P010_INT_038",
+        "text": "It is really expensive. Like that pizza I got order ordered there for that was something ends up €32. Like I can't believe I'm spending this but at the same time it is. Yeah, it's a treat.",
+        "tension": "cost_vs_treat_justification",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P004",
+        "segment_id": "P004_INT_024",
+        "text": "It's honestly probably if they did like a. I don't know if you've seen like Spotify wrapped where they tell you your stats for what you've listened to for the year, but if they did that for delivery, I think that would come up top every single year because it's honestly my favorite. And because, like, I'm not originally from Bristol, they don't, they don't have that like near I. Where I live at home. So it's, it's like I'm kind of just. Yeah, it's my go to. I'm a bit obsessed.",
+        "tension": "Extreme emotional attachment to Greek food contradicts rational price-focused framing",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P018",
+        "segment_id": "P018_INT_083",
+        "text": "Because I think for me, like, it's convincing me to, like. Like, I. I don't know. Like for me, I mean, it's the convenience of obviously getting the food delivered, but it's also like, I could already just make that food. So I'm like, you know, there's something else to think. Oh, well, I'm saving a bit of money. I'm not saving money at all here, but in my head I'm saving money, you know, like, I'm like, oh, well, it's free delivery. It's not as expensive as I thought it would be. You know, like, it's kind of like another push for me to just go, I'll order it. And it just makes it more like, reasonable in my head, I guess.",
+        "tension": "Acknowledges she's not actually saving money but feels like she is",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P007",
+        "segment_id": "P007_DIARY_006",
+        "text": "Normally, I would have sort of had a takeaway or some food out at a restaurant, but just the way this study's lined up with my week, I've ended up having quite a budget saving week.",
+        "tension": "Acknowledges this week was unusually budget-focused, implying normal weeks include more takeaways",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P035",
+        "segment_id": "P035_INT_039",
+        "text": "But yeah, I would say I would want to spend less on food and potentially, like, cook more on weekends as well. If I had to kind of, like, make an adjustment, that's what I would... I would do. But yeah, I would say probably less... less food delivery next year potentially.",
+        "tension": "1-448 vs cost concerns",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P002",
+        "segment_id": "P002_INT_010",
+        "text": "Delivery? I have, I think this must be included with my prime or something. So I have like Deliveroo Silver. I think I don't actually entirely know what that gets me. I do have it and I do use it every now and then, but it would mostly be if it was a restaurant that isn't on Uber. I would then check Deliveroo.",
+        "tension": "has_subscription_but_unclear_benefits",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P002",
+        "segment_id": "P002_INT_042",
+        "text": "Not as much as I thought it would, probably. And I think that's because they say like free delivery and reduced service fees and they are like, they show you. But also sometimes even the reduced service fees, they're still adding on like £2 or whatever. So that's fine. Like it's £2 that you would have spent whether or not you had the subscription, but not as much as I thought I would or thought that it might.",
+        "tension": "subscription_expectations_vs_reality",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P032",
+        "segment_id": "P032_INT_053",
+        "text": "But I don't really compare them. Like it's kind of like it's always delivery and if delivery doesn't have what I want then just. It is my second option. Like I wouldn't really compare. Like it would all. I probably should compare. But it kind of like delivers the first option.",
+        "tension": "P032_INT_053 vs claims of price sensitivity",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P037",
+        "segment_id": "P037_INT_014",
+        "text": "I feel like the most stressful meals are definitely dinner. It is very time-consuming to make dinner because, with lunch, it can be something a bit more simple, like... just like a Greek yogurt bowl or something like that. But for dinner, I'm trying to get, like, everything in. So, for example, last night I think I spent, like, an hour and... like almost an hour and a half making dinner. And that's, like, stressful because I'm like, I could be getting work done right, right now! And I was like, this is pushing back my sleep as well. So that's definitely the most stressful meal of the week.",
+        "tension": "Health aspirations vs time pressure - wants nutritious meals but stressed about time cost",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P037",
+        "segment_id": "P037_INT_037",
+        "text": "I think, in terms of food, it doesn't matter to me that much. I feel like I... as a uni student, you can't be very picky with, you know, kind of like the quality of certain foods... I feel like. So that's where I'm, like, willing to even take, like, 1 or 2 pounds off and switch to the other kind.",
+        "tension": "Health-conscious identity vs budget constraints - compromises quality for price",
+        "category": "Cost-Value Paradox"
+      },
+      {
+        "participant_id": "P037",
+        "segment_id": "P037_INT_038",
+        "text": "But I think the thing that is more important for me is certain things, like cosmetics and, like, certain, like, bath and body type of products, where I need, like, a specific kind of those things. And I think if it's, like, one or two pounds off for the off-brand, I would still stick with the more expensive one if it meant that I could get the one I wanted.",
+        "tension": "Price sensitivity varies by category - flexible on food, rigid on personal care",
+        "category": "Cost-Value Paradox"
+      }
+    ],
+    "Social Pressure vs Individual Choice": [
+      {
+        "participant_id": "P017",
+        "segment_id": "P017_DIARY_003",
+        "text": "So I didn't get, I didn't get one this evening, even though I was on my own, which I would probably usually do. But, yeah, I wasn't in the mood to cook, too much. And, yeah, this is fairly reflective of a normal kind of evening day for me.",
+        "tension": "Usually orders when alone but didn't this time - shows variability in solo ordering",
+        "category": "Social Pressure vs Individual Choice"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_011",
+        "text": "Weekends, I go out by myself, and I go to the place physically. It's like if I'm going for a takeaway or a restaurant, I go in myself and with the social group.",
+        "tension": "contrasts weekday delivery dependency with weekend social dining",
+        "category": "Social Pressure vs Individual Choice"
+      },
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_INT_027",
+        "text": "So, during weekdays, Monday to Friday, and like weekends, maybe once... but I try to avoid it on weekends because I like going out more on weekends when I have time.",
+        "tension": "contrasts weekday delivery dependency with weekend social preference",
+        "category": "Social Pressure vs Individual Choice"
+      },
+      {
+        "participant_id": "P036",
+        "segment_id": "P036_INT_003",
+        "text": "I have, like, one main flatmate that I usually coordinate with, like when our lectures are, when we'll go to the gym, and so that we try to eat around the same time because we prefer not to eat, like, completely alone. But our flat is also very social, so anytime I go in the kitchen, it's almost guaranteed I'm gonna have someone to eat with. That's just my main priority, no matter who it is...",
+        "tension": "Strong social eating preference contradicts individual food decision-making",
+        "category": "Social Pressure vs Individual Choice"
+      }
+    ],
+    "Dependency vs Control": [
+      {
+        "participant_id": "P006",
+        "segment_id": "P006_DIARY_002",
+        "text": "So today was actually a different day because I was with my family at home. So most of the time, I'm always adding takeout or takeout pretty much or quick food on the ground. But this morning and also yesterday, my food was cooked at home. I did go out to a restaurant yesterday, and I did have McDonald's as well today. So my morning was breakfast done for me, which was easy. And then during lunch, also, I had my food done. And then for night, we decided to have McDonald's because I was kinda craving it.",
+        "tension": "contrasts home family eating with Dublin delivery dependency",
+        "category": "Dependency vs Control"
+      },
+      {
+        "participant_id": "P001",
+        "segment_id": "P001_INT_016",
+        "text": "Oh, it's like an unspoken ritual... We're not meant to call it a 'ritual,' but it definitely is.",
+        "tension": "P001_INT_016 vs family awareness of dependency",
+        "category": "Dependency vs Control"
+      }
+    ]
+  }
+}

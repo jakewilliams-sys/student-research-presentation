@@ -1,0 +1,105 @@
+{
+  "participant_id": "P012",
+  "summary": "Yash is a highly organised, deal-savvy final-year computer science student who approaches food with the same systematic thinking he applies to his tech studies. He presents himself as someone who has mastered the student food game - claiming a perfect 50/50 split between cooking and ordering, maintaining a substantial £150-200 weekly food budget, and strategically gaming multiple subscription services he got for free. His communication style is precise and quantified, often breaking down his habits into percentages and systems. However, beneath this controlled exterior lies a more chaotic reality. His diary reveals frequent breakfast skipping, impulsive social eating, and decision-making driven more by convenience and promotions than the balanced approach he describes. He's genuinely enthusiastic about cooking from scratch when he has time, follows Indian food creators for recipe inspiration, and takes his nutrition seriously (tracking macros, high-protein focus). Yet he's also completely comfortable with the delivery ecosystem, viewing it as a practical tool rather than a luxury. His relationship with food is fundamentally transactional - he's constantly calculating deals, comparing apps, and optimising for value, treating the entire food delivery landscape like a system to be hacked.",
+  "personality_notes": "Systematic, precise communicator who quantifies everything. Confident and articulate but tends to present an idealised version of his habits. Shows genuine enthusiasm when discussing deals and optimisation strategies.",
+  "food_relationship": "Food is a system to be optimised - he balances cooking from scratch with strategic use of delivery apps, always seeking the best deals and maximum convenience.",
+  "key_moments": [
+    {
+      "timestamp": "14:32",
+      "description": "Explains his exact 50/50 cooking vs ordering split with mathematical precision",
+      "significance": "Reveals his systematic approach to food but also suggests some social desirability bias in how he frames his habits"
+    },
+    {
+      "timestamp": "47:30",
+      "description": "Details his £150-200 weekly food budget without hesitation",
+      "significance": "Shows he has significant disposable income for a student and isn't particularly price-sensitive despite deal-seeking behavior"
+    },
+    {
+      "timestamp": "62:15",
+      "description": "Reveals he got both major subscriptions for free through promotions",
+      "significance": "Demonstrates his skill at gaming the system and explains his positive subscription attitudes"
+    }
+  ],
+  "what_not_said": [
+    "Never mentioned financial stress or budgeting concerns despite being a student",
+    "Didn't discuss any negative experiences with delivery apps",
+    "Avoided talking about unhealthy eating patterns or guilt around food choices"
+  ],
+  "initial_hypotheses": [
+    "His systematic approach to food reflects his computer science background and personality",
+    "High disposable income allows him to be deal-seeking rather than truly price-sensitive",
+    "Free subscriptions have created artificially positive attitudes toward delivery services",
+    "His quantified self-description may not match actual behavior patterns"
+  ],
+  "questions_for_coding": [
+    "How do students with high disposable income use delivery differently?",
+    "What role do free/promotional subscriptions play in creating loyalty?",
+    "How does systematic personality type interact with food delivery usage?",
+    "What's the relationship between claimed vs actual cooking frequency?"
+  ],
+  "diary_summary": "Actual eating pattern shows frequent breakfast skipping (4/7 days), regular social eating, and only 1 delivery order during the week, suggesting more cooking and less ordering than his claimed 50/50 split.",
+  "say_do_gaps": [
+    "Claims regular breakfast routine but skipped breakfast 4 out of 7 days",
+    "Describes 50/50 cooking vs ordering split but diary shows much more cooking (only 1 delivery order in 7 days)",
+    "Presents controlled, systematic approach but diary reflections reveal more impulsive, convenience-driven decisions"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_0: But I'd say we do it like 50, 50.\nspk_0: For me it's 50. 50.\nspk_0: I cook 50% of the time.\nspk_0: I order food online 50% of the time.\n",
+      "document_title": "Interview Transcript — P012",
+      "document_index": 0,
+      "start_char_index": 3934,
+      "end_char_index": 4077,
+      "participant_id": "P012"
+    },
+    {
+      "cited_text": "spk_0: Okay, so right now I got Uber Eats, just eats and deliver.\nspk_0: So it's not like I have any preference.\nspk_0: It's like wherever I get better deals, I'll order from there.\n",
+      "document_title": "Interview Transcript — P012",
+      "document_index": 0,
+      "start_char_index": 5157,
+      "end_char_index": 5339,
+      "participant_id": "P012"
+    },
+    {
+      "cited_text": "spk_0: Again, whenever I see a good promotion online, I order and majority of the time I order grocery online.\nspk_0: So it's like majority of the times because the other thing would be either I'm too lazy to go take the groceries myself or you know, like just I'm not getting enough time to go there, buy the groceries and come back.\n",
+      "document_title": "Interview Transcript — P012",
+      "document_index": 0,
+      "start_char_index": 10759,
+      "end_char_index": 11094,
+      "participant_id": "P012"
+    },
+    {
+      "cited_text": "spk_0: 150 to 200 pounds weekly.\nspk_0: Okay, yeah, 200. ",
+      "document_title": "Interview Transcript — P012",
+      "document_index": 0,
+      "start_char_index": 14212,
+      "end_char_index": 14269,
+      "participant_id": "P012"
+    },
+    {
+      "cited_text": "spk_0: Yeah, I have the delivery Student one.\nspk_0: I guess it's Silver plus only.\nspk_0: And for Uber one I have the subscription.\nspk_0: I got it from like Disney plus promotion or something.\nspk_0: Like I have A whole year of Uber 1 on them.\n",
+      "document_title": "Interview Transcript — P012",
+      "document_index": 0,
+      "start_char_index": 18832,
+      "end_char_index": 19078,
+      "participant_id": "P012"
+    },
+    {
+      "cited_text": "spk_0: So it's like when I wake up, when I have oily 9ams, I mostly just have either like granola with some yogurt and some fruits.\n",
+      "document_title": "Interview Transcript — P012",
+      "document_index": 0,
+      "start_char_index": 7782,
+      "end_char_index": 7914,
+      "participant_id": "P012"
+    },
+    {
+      "cited_text": "Deliveroo Student & Young Adult Research\n1. ",
+      "document_title": "Moderator Summary",
+      "document_index": 1,
+      "start_char_index": 0,
+      "end_char_index": 44,
+      "participant_id": "P012"
+    }
+  ],
+  "_citation_count": 7
+}

@@ -1,0 +1,106 @@
+{
+  "participant_id": "P001",
+  "summary": "Lee is a highly articulate second-year animation student living in a busy household where both parents work full-time, creating a dynamic where takeaway becomes a practical necessity rather than indulgence. Their communication style is thoughtful and detailed, often providing context and reasoning behind their choices. They demonstrate a mature understanding of their family's constraints and their own role within the household food ecosystem. Lee's relationship with food delivery is deeply pragmatic—shaped by intensive college schedules, family logistics, and budget consciousness. They've developed sophisticated mental frameworks around when takeaway feels justified versus guilty, with social context playing a crucial role in legitimizing these choices. There's a notable tension between their desire for convenience and their awareness of making 'good' food choices, which manifests in detailed explanations about why certain decisions make sense.",
+  "personality_notes": "Articulate, thoughtful, and analytical. Provides detailed context and reasoning. Shows maturity in understanding family dynamics and personal constraints. Slightly defensive about food choices, suggesting some internal conflict about takeaway habits.",
+  "food_relationship": "Food delivery serves as a practical family safety net when busy schedules collide, with Friday takeaways functioning as an 'unspoken ritual' that balances convenience with guilt through social legitimization.",
+  "key_moments": [
+    {
+      "timestamp": "Around 1-200",
+      "description": "Lee describes Friday takeaway as an 'unspoken ritual' but immediately corrects themselves saying 'We're not meant to call it a ritual, but it definitely is'",
+      "significance": "Reveals internal conflict about normalizing takeaway habits - they recognize the pattern but feel they shouldn't acknowledge it as routine"
+    },
+    {
+      "timestamp": "Around 1-216-1-227",
+      "description": "Recounts neighbor stealing their Just Eat delivery and having to reorder from their usual Chinese place",
+      "significance": "This negative experience with aggregator apps reinforced their preference for direct ordering and highlights trust issues with apartment deliveries"
+    },
+    {
+      "timestamp": "Around 1-143-1-146",
+      "description": "Explains how takeaway with friends feels 'not as guilty' and 'more sociable' compared to ordering alone",
+      "significance": "Shows how social context legitimizes food choices that might otherwise feel problematic - key insight into guilt management"
+    }
+  ],
+  "what_not_said": [
+    "Never discussed personal cooking skills or interest in learning to cook",
+    "Avoided mentioning specific health concerns about takeaway frequency",
+    "Did not elaborate on what makes parents 'too busy' to cook regularly",
+    "Never mentioned specific dietary preferences or restrictions"
+  ],
+  "initial_hypotheses": [
+    "Lee uses detailed explanations as a way to justify food choices that they feel conflicted about",
+    "The 'unspoken ritual' comment suggests family awareness of takeaway frequency but reluctance to acknowledge dependency",
+    "Social eating serves as moral permission for choices that feel problematic when done alone",
+    "Bad delivery experience created lasting trust issues with aggregator platforms",
+    "Student budget consciousness drives sophisticated value calculations around food spending"
+  ],
+  "questions_for_coding": [
+    "How do students manage guilt around convenience food choices?",
+    "What role does social context play in legitimizing takeaway decisions?",
+    "How do negative delivery experiences shape platform loyalty?",
+    "What are the family dynamics around takeaway as a household solution?",
+    "How do students balance convenience needs with health/budget concerns?"
+  ],
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, so I'm a second-year animation student at IDT.\nspk_1: So, it's a full-time course.\nspk_1: So, I'm in college four days out of five, and it's really intensive...\nspk_1: so I come in at nine in the morning and then I go home at like five, five or six.\nspk_1: And yeah, it's a very project-heavy course.\nspk_1: So, there's a lot of overtime, a lot of staying at college past the, like, class hours.\n",
+      "document_index": 0,
+      "document_title": "P001 - P001 - Interview Transcript",
+      "start_char_index": 201,
+      "end_char_index": 610,
+      "participant_id": "P001",
+      "participant_name": "P001"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: It would be my... my parents.\nspk_1: My mom does a lot of the cooking, but she's very busy.\nspk_1: Like, both my parents are working full-time as well, so, like, a lot of the time we would have to order food home.\n",
+      "document_index": 0,
+      "document_title": "P001 - P001 - Interview Transcript",
+      "start_char_index": 3010,
+      "end_char_index": 3231,
+      "participant_id": "P001",
+      "participant_name": "P001"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Well, I haven't ordered for them in a while.\nspk_1: We usually order directly from, like, the places we go to, but we wanted to try something new.\n",
+      "document_index": 0,
+      "document_title": "P001 - P001 - Interview Transcript",
+      "start_char_index": 16179,
+      "end_char_index": 16333,
+      "participant_id": "P001",
+      "participant_name": "P001"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: So we ordered from there, and we haven't ordered from there because our neighbor...\nspk_1: actually, I live in an apartment, and our neighbor took our takeaway that day.\nspk_1: And yeah, we were...\nspk_1: we were told like, oh, well, that was about it.\n",
+      "document_index": 0,
+      "document_title": "P001 - P001 - Interview Transcript",
+      "start_char_index": 16548,
+      "end_char_index": 16808,
+      "participant_id": "P001",
+      "participant_name": "P001"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I'd say so, yeah...\nspk_0: Is that, like, a ritual in the house?\nspk_1: Oh, it's like an unspoken ritual...\nspk_1: We're not meant to call it a 'ritual,' but it definitely is.\n",
+      "document_index": 0,
+      "document_title": "P001 - P001 - Interview Transcript",
+      "start_char_index": 15385,
+      "end_char_index": 15568,
+      "participant_id": "P001",
+      "participant_name": "P001"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: I guess, like, getting takeaway with friends or, like, I feel like when you're going out with friends, it's not as...\nspk_1: like, it doesn't feel as bad getting a pizza or getting a spice bag.\nspk_1: And, like, it definitely feels more like a social thing, being able to...\nspk_1: like, rather than, like, ordering it to your house and, like, eating it on your own.\nspk_1: Being able to go somewhere and sit at, like, a table with people and, like...\nspk_1: I don't know, that feels a lot more sociable.\nspk_1: It feels much more like...\nspk_1: not as guilty.\n",
+      "document_index": 0,
+      "document_title": "P001 - P001 - Interview Transcript",
+      "start_char_index": 11311,
+      "end_char_index": 11879,
+      "participant_id": "P001",
+      "participant_name": "P001"
+    }
+  ],
+  "_citation_count": 6
+}

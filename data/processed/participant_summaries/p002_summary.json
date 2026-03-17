@@ -1,0 +1,113 @@
+{
+  "participant_id": "P002",
+  "summary": "Rory is a 26-29 year old medical student who has engineered a highly systematised approach to food that prioritises efficiency over engagement. Having returned to university after working as a dentist for four years, he operates with the pragmatism of someone who views food primarily as fuel for a demanding schedule. His weekday eating is almost entirely automated through a meal prep service he's used for three years, combined with repetitive lunch preparation that he describes as making 'the same thing for months at a time until I get sick of it.' This systematic approach extends to his delivery habits, where he's deeply embedded in the Uber ecosystem not just for food, but for transport, travel booking, and other services, creating a comprehensive platform lock-in that would be difficult for competitors to break.\n\nWhat's particularly striking about Rory is the contrast between his articulate understanding of cooking ('you're chopping the vegetables and you're cooking the meat and you're putting all together, you're making the sauce') and his complete avoidance of it in practice ('almost never'). He only cooks when entertaining others, perhaps 'once every two, three months.' His food choices are driven by convenience and habit rather than pleasure or exploration, though he becomes more social and indulgent on weekends. Despite his systematic approach, he maintains a relaxed attitude toward spending and doesn't track his food budget closely, suggesting someone who has optimised for time and mental energy rather than cost.",
+  "personality_notes": "Articulate, systematic, and pragmatic. Speaks in a measured, analytical way with clear explanations. Shows the efficiency-focused mindset of someone balancing demanding medical studies with part-time dental work. Not particularly expressive about food or emotional topics.",
+  "food_relationship": "Food is primarily functional fuel managed through systematic meal prep services and repetitive habits, with minimal cooking or culinary engagement except for occasional social occasions.",
+  "key_moments": [
+    {
+      "timestamp": "23:00-25:30",
+      "description": "Detailed explanation of his 3-year relationship with Prep Kitchen meal service",
+      "significance": "Reveals the depth of his systematised approach to food - this isn't a recent convenience but a long-term lifestyle choice that defines his entire weekday eating pattern"
+    },
+    {
+      "timestamp": "29:45-30:15",
+      "description": "Defines cooking very specifically but admits to 'almost never' doing it",
+      "significance": "Shows the gap between understanding and practice - he knows what cooking is but has completely opted out of it in his daily life"
+    },
+    {
+      "timestamp": "81:30-83:00",
+      "description": "Explains comprehensive Uber ecosystem integration across transport, travel, and food",
+      "significance": "Demonstrates how platform lock-in works in practice - switching would require replacing multiple integrated services, not just food delivery"
+    }
+  ],
+  "what_not_said": [
+    "Any emotional connection to food or cooking",
+    "Concerns about nutrition or health despite being a medical student",
+    "Interest in food culture or trying new cuisines",
+    "Any mention of food bringing joy or pleasure beyond weekend social occasions"
+  ],
+  "initial_hypotheses": [
+    "Represents the 'optimised efficiency' segment - users who have systematically removed food decision-making from their daily routine",
+    "Platform ecosystem effects are stronger than individual app features for retention",
+    "Medical/healthcare students may be particularly prone to functional food relationships due to time pressures",
+    "Meal prep services may be competing more directly with delivery than traditional cooking"
+  ],
+  "questions_for_coding": [
+    "How do systematic meal prep users interact with delivery services differently?",
+    "What role does delivery play when primary food systems (meal prep) break down?",
+    "How does professional/academic identity influence food relationship?",
+    "What would it take to break strong platform ecosystem lock-in?"
+  ],
+  "diary_summary": "Rory's 7-day diary perfectly aligns with his interview self-description, showing a highly consistent pattern of skipping breakfast daily, relying heavily on his meal prep service for dinners, and having minimal variety in his eating routine.",
+  "say_do_gaps": [
+    "No significant gaps found - his diary behaviour closely matches his interview descriptions, particularly around never eating breakfast and relying on meal prep services",
+    "His claim of ordering delivery 'about once a week' wasn't reflected in the diary week (0 delivery orders), but this could be normal weekly variation"
+  ],
+  "_citations": [
+    {
+      "cited_text": "spk_0: Yeah, so I currently am a student.\nspk_0: I went back to uni in September last year, so I'm now studying medicine.\nspk_0: I previously done dentistry and worked for a few years and now, yeah, I'll say gone back to medicine.\nspk_0: So I'm on like an accelerated program for dental graduates.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 476,
+      "end_char_index": 774,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: Yeah, probably like 6, 6:30.\nspk_0: I subscribe to like a meal prep plan thing.\nspk_0: So for Monday to Friday I just have like meals delivered on a Monday and then I just heat them up in the evenings.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 7433,
+      "end_char_index": 7642,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: Um, so I'm with prep kitchen.\nspk_0: Um, I tried a few different ones.\nspk_0: I've settled with them.\nspk_0: I've been, I don't know how long I've used them now, like three years or something.\nspk_0: Um, but I just find it really easy and I like them.\nspk_0: Um, and I just do five meals.\nspk_0: So I just do like Monday to Friday essentially because usually at the weekend either like make something or go out, something like that.\nspk_0: Um, but yeah, so just Monday to Friday, so five meals.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 7824,
+      "end_char_index": 8326,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: Cooking for me would be like you're actually like preparing something.\nspk_0: So you're like, you're chopping the vegetables and you're cooking the meat and you're putting all together, you're making the sauce, that type of thing.\nspk_0: So like you're actually putting like the ingredients together to make Something.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 10351,
+      "end_char_index": 10677,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: Like almost never. I only really cook if it's like I'm cooking for someone or people are coming over, which is maybe like once every two, three months or something like that.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 10723,
+      "end_char_index": 10905,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: So the reason, obviously I have Uber one, but basically the reason that I now use Uber for essentially everything is because they have now integrated with like you can buy your plane tickets, you can buy train tickets, you can buy Eurostar tickets, like they.\nspk_0: And you can hire cars and stuff as well as order a taxi or order food.\nspk_0: So. And then because I have Uber one, you then get credits back and then you also, you can link your BA account and you can get Avios on it as well.\nspk_0: So that's why I basically just use Uber for everything because you get all those additional perks on it and then with the Uber one you get, that's what gives you the credits, I think.\nspk_0: But you then get like the credits backward discounted rates and you get free delivery, that type of thing.\nspk_0: So for another company for me to switch, they would have to be a lot more than just being like a food delivery app.\nspk_0: Like I use Uber Eats more than anything else, but I use it because I was already using Uber for everything else.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 31841,
+      "end_char_index": 32890,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: So I'm not a breakfast person particularly during the weekday.\nspk_0: So I don't have breakfast.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 6524,
+      "end_char_index": 6628,
+      "participant_id": "P002"
+    },
+    {
+      "cited_text": "spk_0: One is if I just actually can't be bothered to do anything.\nspk_0: And that is literally just like turn on the oven or if I just like, don't have anything in, like, finish the meals, whatever.\nspk_0: But more often than not, it'll just be like, there's food in the fridge, but it doesn't really fancy.\nspk_0: It can't be bothered like going to the shop or like making anything.\nspk_0: And if it's like a Friday or a Saturday, I'm like, well, it's the weekend as well.\nspk_0: Like, it's nice, like, yeah, that type of thing.\n",
+      "document_title": "Interview Transcript — P002",
+      "document_index": 0,
+      "start_char_index": 19386,
+      "end_char_index": 19917,
+      "participant_id": "P002"
+    }
+  ],
+  "_citation_count": 8
+}

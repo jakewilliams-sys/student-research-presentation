@@ -1,0 +1,2071 @@
+{
+  "coded_segments": [
+    {
+      "segment_id": "P008_INT_001",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I recently grabbed my. I just graduated on this December and at the moment I'm working full time.",
+      "timestamp": "1:14",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "transition"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "recent_graduate"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": [
+          "university"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 3.0,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i recently grabbed my i just graduated on this december and at the moment i'm working full time"
+      }
+    },
+    {
+      "segment_id": "P008_INT_002",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I'm only on Instagram.",
+      "timestamp": "1:44",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "indifference"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'm only on instagram"
+      }
+    },
+    {
+      "segment_id": "P008_INT_003",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Yeah, just I was, it was like a habit of using TikTok too much so I completely delete that. So at the moment it's quite nice. I'm just busy with my work so just getting some time.",
+      "timestamp": "1:57-1:59",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "habit"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah just i was it was like a habit of using tiktok too much so i completely delete that so at the moment it's quite nice i'm just busy with my work so just getting some time"
+      }
+    },
+    {
+      "segment_id": "P008_INT_004",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Just it makes me hungry. Most of the time I use on the Instagram I usually use at the night time and that makes me hungry and it, it forces me to use some uber eat or just eat to order some food. And for that purpose I don't like it",
+      "timestamp": "1:69-1:71",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [
+          "temptation",
+          "frustration"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "evening",
+          "late_night"
+        ],
+        "platform": [
+          "ubereats",
+          "justeat"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "forces"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": [
+          "social_media"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "just it makes me hungry most of the time i use on the instagram i usually use at the night time and that makes me hungry and it it forces me to use some uber eat or just eat to order some food and for that purpose i don't like it"
+      }
+    },
+    {
+      "segment_id": "P008_INT_005",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "in my area there are a lot of Nepalese restaurant as well so most of the time sometimes if I'm lazy to cook at home I'll just simply pop into the restaurant or order from the ubereats Apart from that usually before to cook home cooking cook at home so it will be more healthy earlier option so I'll prefer that one",
+      "timestamp": "1:76",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO1_eating_moments.what_role_does_cooking_campus_food_and_d"
+      ],
+      "context_tags": {
+        "emotion": [
+          "laziness"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "lazy"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "health"
+        ],
+        "influence": [
+          "cultural_food"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "in my area there are a lot of nepalese restaurant as well so most of the time sometimes if i'm lazy to cook at home i'll just simply pop into the restaurant or order from the ubereats apart from that usually before to cook home cooking cook at home so it will be more healthy earlier option so i'll p"
+      }
+    },
+    {
+      "segment_id": "P008_INT_006",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Basically I wake up around 6 to 6:30 and go for a maybe half an hour two hour around and after that after coming from that I took shower and packed some salad for the lunch at office and my office started 8:30. From 8:30 to 4:30 I'll be at the work and to reach at work it will probably take me about half an hour so after reaching from home I'll just prepare some meal for myself I just eat maybe one or two times a day not too much trying to maintain or maintain my weight",
+      "timestamp": "1:77",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "discipline"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "morning"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "maintain"
+        ],
+        "competitive": null,
+        "value_component": [
+          "health"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.6,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "basically i wake up around 6 to 6 30 and go for a maybe half an hour two hour around and after that after coming from that i took shower and packed some salad for the lunch at office and my office started 8 30 from 8 30 to 4 30 i'll be at the work and to reach at work it will probably take me about "
+      }
+    },
+    {
+      "segment_id": "P008_INT_007",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I would say every day. And apart from that, maybe especially on Saturday, Sunday I don't cook. I go. I'll go out to have lunch or dinner sometime with my friends. Apart from that, Monday to Friday after coming from the office, I usually cook for myself.",
+      "timestamp": "1:91-1:96",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros",
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "routine"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "weekend"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "social"
+        ],
+        "influence": [
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.66,
+        "best_match": "maybe one one more month to cope up with the corporate world great so you've just freshly graduated uni has helped you find this job and you've only started a month ago yeah great okay so how often then are you cooking i would say every day okay and apart from that"
+      }
+    },
+    {
+      "segment_id": "P008_INT_008",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Sometimes boring, sometimes stress, sometimes stress relief. That depends on what I cook.",
+      "timestamp": "1:98-1:99",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "sometimes boring sometimes stress sometimes stress relief that depends on what i cook"
+      }
+    },
+    {
+      "segment_id": "P008_INT_009",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Stressful for me. It will be a healthy meal. Sometimes some kind of salad or baked one that's for me stressed. And in Nepalese cuisine there is one food, Momos, I think in your language you guys call dumplings. Oh yes, that one we may. I make by myself at the home. So that is stress relief for me.",
+      "timestamp": "1:102-1:108",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "relief"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "stress relief"
+        ],
+        "competitive": null,
+        "value_component": [
+          "cultural_connection"
+        ],
+        "influence": [
+          "cultural_background"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 5,
+        "overall": 4.8,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "stressful for me it will be a healthy meal sometimes some kind of salad or baked one that's for me stressed and in nepalese cuisine there is one food momos i think in your language you guys call dumplings oh yes that one we may i make by myself at the home so that is stress relief for me"
+      }
+    },
+    {
+      "segment_id": "P008_INT_010",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "When food feels functional will be Monday to Friday and Saturday Sunday it will be like three comforting. That on the Saturday, Sunday I don't count calories, so I don't mind that.",
+      "timestamp": "1:121-1:123",
+      "research_objective_codes": [
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "weekend"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.67,
+        "best_match": "trying to get you to give me a scenario of when food feels functional when food feels functional will be monday to friday and saturday sunday it will be like three comforting nice that on the saturday"
+      }
+    },
+    {
+      "segment_id": "P008_INT_011",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I think it'll be. Goes around 100 to 200. Mostly. Mostly that goes. Cool. That cost goes when I go to the out. When I go out for the dinner, that is the most part. Apart from that, only if we count only in the groceries. It will be like 30 to 40 pounds on the grocery for the typical week.",
+      "timestamp": "1:162-1:170",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "awareness"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.65,
+        "best_match": "food as a whole package in the typical week so that's groceries takeaways and eating out i think it'll be goes around 100 to 200 okay mostly mostly that goes cool that cost goes when i go to the out when i go out for the dinner that is the most part apart from that only if we count only in the groce"
+      }
+    },
+    {
+      "segment_id": "P008_INT_012",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I think on takeaway that will be like once, once, once or twice a week. So it will be around maybe 40 to 45 pound around that.",
+      "timestamp": "1:174-1:175",
+      "research_objective_codes": [
+        "RO1_eating_moments.when_where_and_how_do_students_eat_acros"
+      ],
+      "context_tags": {
+        "emotion": [
+          "routine"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekly"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "price"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i think on takeaway that will be like once once once or twice a week so it will be around maybe 40 to 45 pound around that"
+      }
+    },
+    {
+      "segment_id": "P008_INT_013",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "If it's like Friday and I don't want to cook, it will be like pizza from the one one brand. It's called Tops Pizza. And there is one specific order. I like it. That's the only one thing. And apart from that, the most of the food I eat is Nepalese food. And I mostly order from the same restaurant.",
+      "timestamp": "1:187-1:193",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO1_eating_moments.what_are_the_distinct_eating_occasions_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "fatigue"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekend",
+          "friday"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "cultural_connection"
+        ],
+        "influence": [
+          "cultural_background"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if it's like friday and i don't want to cook it will be like pizza from the one one brand it's called tops pizza and there is one specific order i like it that's the only one thing and apart from that the most of the food i eat is nepalese food and i mostly order from the same restaurant"
+      }
+    },
+    {
+      "segment_id": "P008_INT_014",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "If I'm too much tired from the work, I think that will be Typically sometimes it will be Tuesday or Wednesday. This in the middle of the week I feel some kind of stressed or tired from the work. This I think these two weeks, these two days in a week that's the typical days if I'm most likely to order",
+      "timestamp": "1:198-1:199",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "fatigue"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "weekday",
+          "midweek"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": [
+          "work_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if i'm too much tired from the work i think that will be typically sometimes it will be tuesday or wednesday this in the middle of the week i feel some kind of stressed or tired from the work this i think these two weeks these two days in a week that's the typical days if i'm most likely to order"
+      }
+    },
+    {
+      "segment_id": "P008_INT_015",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "last time it was when my girlfriend visited visit to my home and she was craving for Nepalese food and I think it was like on the Saturday or Sunday it was just raining. As you know in the UK from the January it's always raining. So to go to the outside and have some dinner to the outside is kind of a miserable going outside. So we just order the Neapolis food and enjoy it at our comfort of our home.",
+      "timestamp": "1:208-1:211",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia",
+        "RO3_emotional_social.how_does_social_context_alone_vs_group_c"
+      ],
+      "context_tags": {
+        "emotion": [
+          "comfort",
+          "connection"
+        ],
+        "social_context": "partner",
+        "temporal": [
+          "weekend"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "comfort"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "social",
+          "cultural_connection"
+        ],
+        "influence": [
+          "partner",
+          "weather"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "last time it was when my girlfriend visited visit to my home and she was craving for nepalese food and i think it was like on the saturday or sunday it was just raining as you know in the uk from the january it's always raining so to go to the outside and have some dinner to the outside is kind of a"
+      }
+    },
+    {
+      "segment_id": "P008_INT_016",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "It mostly it will be Uber Eats because in that. In the Uber eats there is one I think I haven't used some kind of a coupon a delivery in the only groceries so I have the some kind of a coupon left on the Uber Eats. I would use that to finish my coupon and get some discount while ordering the groceries.",
+      "timestamp": "1:217-1:219",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "pragmatic"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "ubereats",
+        "value_component": [
+          "discount"
+        ],
+        "influence": [
+          "promotions"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 3,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it mostly it will be uber eats because in that in the uber eats there is one i think i haven't used some kind of a coupon a delivery in the only groceries so i have the some kind of a coupon left on the uber eats i would use that to finish my coupon and get some discount while ordering the groceries"
+      }
+    },
+    {
+      "segment_id": "P008_INT_017",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "just a discount bit. Apart from that I'll go. I. I will personally go to the in the maybe some kind of farmer market or Lidl Tesco. That's the if some if in the app if they give some kind of a promotion or a discounted while delivering I. I would say that's the only time I'm gonna use the delivery app.",
+      "timestamp": "1:231-1:234",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr"
+      ],
+      "context_tags": {
+        "emotion": [
+          "pragmatic"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "discount"
+        ],
+        "influence": [
+          "promotions"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "just a discount bit apart from that i'll go i i will personally go to the in the maybe some kind of farmer market or lidl tesco that's the if some if in the app if they give some kind of a promotion or a discounted while delivering i i would say that's the only time i'm gonna use the delivery app"
+      }
+    },
+    {
+      "segment_id": "P008_INT_018",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "The only discount bit apart from that, I wouldn't say I wouldn't use delivery for groceries. And sometimes, as I already said, if I miss some kind of ingredient to my food that's I have to order my. That I have to order or otherwise I need to go to the. Go to the shop. So if I feel I'm just too tired to go, then I'll just use that for. Just for a bit. Just for maybe one or two times.",
+      "timestamp": "1:244-1:250",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "fatigue"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "the only discount bit apart from that i wouldn't say i wouldn't use delivery for groceries and sometimes as i already said if i miss some kind of ingredient to my food that's i have to order my that i have to order or otherwise i need to go to the go to the shop so if i feel i'm just too tired to go"
+      }
+    },
+    {
+      "segment_id": "P008_INT_019",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "If I. If I forget some kind of ingredient to the dish and I have to delivery, then that will make me feel guilty. Mostly most of the things is I already make a list, even if I make a list and if I. If when you make a list and you forget some kind of a ingredient in your. In the dish, which is main important, and that will make me make you feel like, oh, I forget this. That will make me feel like that.",
+      "timestamp": "1:265-1:269",
+      "research_objective_codes": [
+        "RO3_emotional_social.what_emotions_are_associated_with_orderi"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "if i if i forget some kind of ingredient to the dish and i have to delivery then that will make me feel guilty mostly most of the things is i already make a list even if i make a list and if i if when you make a list and you forget some kind of a ingredient in your in the dish which is main importan"
+      }
+    },
+    {
+      "segment_id": "P008_INT_020",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Did you use the delivery apps while you were a student? I know it wasn't that long ago a lot.",
+      "timestamp": "1:281-1:282",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "acknowledgment"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "student_period"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "did you use the delivery apps while you were a student i know it wasn't that long ago a lot"
+      }
+    },
+    {
+      "segment_id": "P008_INT_021",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Uber and Deliveroo. Both.",
+      "timestamp": "1:285-1:286",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "neutral"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "student_period"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "ubereats_deliveroo",
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.8,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "uber and deliveroo both"
+      }
+    },
+    {
+      "segment_id": "P008_INT_022",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Both subscriptions for Uber 1 and delivery for that one. I already. I only have Uber 1. Which kind of. It was like a free delivery plus some kind of, I think 1 or 2% discount from the total price. And I think it did save some kind of money. It did save a. I wouldn't say a lot, but some kind of. Some. It will. It did save some chunks of money in that bill.",
+      "timestamp": "1:294-1:303",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO5_engagement_opps.what_role_can_plus_silver_play_in_acquis"
+      ],
+      "context_tags": {
+        "emotion": [
+          "satisfaction"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "student_period"
+        ],
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "ubereats",
+        "value_component": [
+          "discount",
+          "free_delivery"
+        ],
+        "influence": [
+          "student_benefits"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.65,
+        "best_match": "you have the both subscriptions for uber 1 and delivery for that one i already i only have uber 1 okay which kind of it was like a free delivery plus some kind of i think 1 or 2 discount from the total price and i think it did save some kind of money it did save a i wouldn't say a lot but some kind "
+      }
+    },
+    {
+      "segment_id": "P008_INT_023",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "that's the main thing that I use Uber too much when I was in uni.",
+      "timestamp": "1:327",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "acknowledgment"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "student_period"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "too much"
+        ],
+        "competitive": "ubereats",
+        "value_component": [
+          "student_benefits"
+        ],
+        "influence": [
+          "subscription"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "that's the main thing that i use uber too much when i was in uni"
+      }
+    },
+    {
+      "segment_id": "P008_INT_024",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Yes, it did. It will say like there is some kind of. I just turn on the notification for the Uber one Uber and it will pop the notification like you have some kind of a coupon that you haven't used that will pop into my mess in the feed. So that influenced me to use. At that time, I was so busy with my study assignments deadlines, so didn't have time to cook proper meals. So that influenced a lot.",
+      "timestamp": "1:331-1:336",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "pressure"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "student_period",
+          "exam_period"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "influenced"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "time"
+        ],
+        "influence": [
+          "notifications",
+          "academic_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yes it did it will say like there is some kind of i just turn on the notification for the uber one uber and it will pop the notification like you have some kind of a coupon that you haven't used that will pop into my mess in the feed so that influenced me to use at that time i was so busy with my st"
+      }
+    },
+    {
+      "segment_id": "P008_INT_025",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Yeah, at that time when I was in uni, I said I gained a lot of weight and I think I was around 71, 72 when before I started the uni and after I eat a lot from outside my weight gone to around 80, 85. So I need to lose that. And after that I just think oh, I need to, I need to maintain my weight or I'll be obese so which I don't want to be. And for that need to eat some. You need to eat healthy food. So that influenced me.",
+      "timestamp": "1:341-1:345",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af",
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt",
+          "determination"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "post_graduation"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": "1:327",
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "health"
+        ],
+        "influence": [
+          "health_concerns"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.6,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "yeah at that time when i was in uni i said i gained a lot of weight and i think i was around 71 72 when before i started the uni and after i eat a lot from outside my weight gone to around 80 85 so i need to lose that and after that i just think oh i need to i need to maintain my weight or i'll be o"
+      }
+    },
+    {
+      "segment_id": "P008_INT_026",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "That was one part of my life at the when I was uni, I was too, too busy with my schedules. Now at the moment I don't. I just have to work maybe for the eight, eight and a half hour. So apart from that I have time to cook me cook food and take care of my body. When I was in uni I didn't have, I did have time but it will like it will be too much hassle in the uni when you have work as well uni assignment deadlines. This just makes me too much tired to cook.",
+      "timestamp": "1:346-1:351",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af",
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "relief",
+          "fatigue"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "student_period",
+          "post_graduation"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "too much hassle",
+          "too much tired"
+        ],
+        "competitive": null,
+        "value_component": [
+          "time",
+          "convenience"
+        ],
+        "influence": [
+          "academic_pressure",
+          "work_pressure"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "that was one part of my life at the when i was uni i was too too busy with my schedules now at the moment i don't i just have to work maybe for the eight eight and a half hour so apart from that i have time to cook me cook food and take care of my body when i was in uni i didn't have i did have time"
+      }
+    },
+    {
+      "segment_id": "P008_INT_027",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Oh, I would say that, that from the using Uber Eat, I haven't used, I haven't stopped completely. But that has significantly reduced that one once I started to working.",
+      "timestamp": "1:355-1:356",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af"
+      ],
+      "context_tags": {
+        "emotion": [
+          "control"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "post_graduation"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "significantly reduced"
+        ],
+        "competitive": null,
+        "value_component": null,
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "oh i would say that that from the using uber eat i haven't used i haven't stopped completely but that has significantly reduced that one once i started to working"
+      }
+    },
+    {
+      "segment_id": "P008_INT_028",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "It is basically habits that unintentionally become my habit when I was in uni. So at the moment I'm trying to maintain, I'm trying, trying to lose weight and I would say when you order from the restaurant it will be too much calories and it will be, I would say if I order from the outside I will, in my mind there will be like oh, this has this much oil, this much calories. So I would prefer eating home at the moment.",
+      "timestamp": "1:362-1:364",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_habits_persist_intensify_or_fade_af",
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "awareness",
+          "guilt"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "post_graduation"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "habit",
+          "too much calories"
+        ],
+        "competitive": null,
+        "value_component": [
+          "health"
+        ],
+        "influence": [
+          "health_consciousness"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "it is basically habits that unintentionally become my habit when i was in uni so at the moment i'm trying to maintain i'm trying trying to lose weight and i would say when you order from the restaurant it will be too much calories and it will be i would say if i order from the outside i will in my m"
+      }
+    },
+    {
+      "segment_id": "P008_INT_029",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I would say five. Because mostly I use that one.",
+      "timestamp": "1:382-1:384",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison"
+      ],
+      "context_tags": {
+        "emotion": [
+          "loyalty"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "ubereats",
+        "value_component": [
+          "familiarity"
+        ],
+        "influence": [
+          "usage_frequency"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 3,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.4,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "UNVERIFIED",
+        "similarity": 0.49,
+        "best_match": "would say that okay how would you how would you rate uber out of five"
+      }
+    },
+    {
+      "segment_id": "P008_INT_030",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "that put you off one time with we me and my friend were comparing with delivery, which platform delivery the fast and he was ordering from the UberEats. He was ordering from the. We were ordering from the same restaurant and the distance was same. We just use different platform and he, he used Uber Eats and I use Deliveroo. So his food came around 10 to 15 minutes. My mine one took around 30, 35 minutes for the one order to reach I think from my home it was just maybe 10 to 15 minutes of distance and same for the same goes for my friend as well. We were at the same house. So after that incident I. I've significantly reduced the use of delivery.",
+      "timestamp": "1:404-1:411",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison",
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [
+          "frustration",
+          "disappointment"
+        ],
+        "social_context": "friends",
+        "temporal": null,
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "significantly reduced"
+        ],
+        "competitive": "deliveroo_vs_ubereats",
+        "value_component": [
+          "speed"
+        ],
+        "influence": [
+          "friends",
+          "direct_comparison"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 5,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "that put you off one time with we me and my friend were comparing with delivery which platform delivery the fast and he was ordering from the ubereats he was ordering from the we were ordering from the same restaurant and the distance was same we just use different platform and he he used uber eats "
+      }
+    },
+    {
+      "segment_id": "P008_INT_031",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I'll go for the Uber. Even if was in the, in the, in the app in the Uber. Say it's like 10 pound. 10, maybe 1 pound expensive. I would prefer Uber.",
+      "timestamp": "1:427-1:431",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison",
+        "RO5_engagement_opps.brand_perception"
+      ],
+      "context_tags": {
+        "emotion": [
+          "loyalty"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "ubereats_preference",
+        "value_component": [
+          "brand_loyalty"
+        ],
+        "influence": [
+          "past_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i'll go for the uber even if was in the in the in the app in the uber say it's like 10 pound 10 maybe 1 pound expensive i would prefer uber"
+      }
+    },
+    {
+      "segment_id": "P008_INT_032",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I haven't think like that, but because of that one incident it will take me some time to move from Uber to deliver.",
+      "timestamp": "1:433",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [
+          "hesitation"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "switching_resistance",
+        "value_component": [
+          "trust"
+        ],
+        "influence": [
+          "past_negative_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i haven't think like that but because of that one incident it will take me some time to move from uber to deliver"
+      }
+    },
+    {
+      "segment_id": "P008_INT_033",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "at this time I'll give a chance to the delivery then. If that will be the same mistake again, then I'm going to completely delete the app.",
+      "timestamp": "1:437-1:439",
+      "research_objective_codes": [
+        "RO5_engagement_opps.switching_behaviour"
+      ],
+      "context_tags": {
+        "emotion": [
+          "conditional_trust"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "conditional_switching",
+        "value_component": [
+          "reliability"
+        ],
+        "influence": [
+          "price_threshold"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.2,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "PARAPHRASED",
+        "similarity": 0.68,
+        "best_match": "was then 3 pounds cheaper on delivery than an uber and how much will be the time same time at this time i'll give a chance to the delivery then okay if"
+      }
+    },
+    {
+      "segment_id": "P008_INT_034",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Because if I subscribe to the, subscribe to these promotions. Uber, it's a Uber one. I would mostly order from the out. So that's kind of a habit. When I was in Unique, it says like it is cheaper on your. Put your. When you put your. When you order all of your car, when you order, when you just put in the dishes on the, on your cart. And when you said without uber, with Uber 1 and without Uber 1 you say some kind of a price difference while ordering it. So it will be most likely I'm gonna order the food if once I graduate from the uni, I just cancel the Uber one.",
+      "timestamp": "1:448-1:457",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "awareness",
+          "control"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "post_graduation"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "habit"
+        ],
+        "competitive": null,
+        "value_component": [
+          "self_control"
+        ],
+        "influence": [
+          "subscription_psychology"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 3,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "because if i subscribe to the subscribe to these promotions uber it's a uber one i would mostly order from the out so that's kind of a habit when i was in unique it says like it is cheaper on your put your when you put your when you order all of your car when you order when you just put in the dishe"
+      }
+    },
+    {
+      "segment_id": "P008_INT_035",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "So it will be like a different price range. So this is just to control my mind that I don't want to eat out now too much. And just for the. Maybe I just use maybe in a week. Maybe one or two times. One or two times a week. So at that time I would say it's okay even if I don't pay for the Uber one. So I can handle that.",
+      "timestamp": "1:459-1:466",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform",
+        "RO2_delivery_triggers.what_barriers_prevent_ordering_cost_guil"
+      ],
+      "context_tags": {
+        "emotion": [
+          "control",
+          "discipline"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "post_graduation"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "control my mind",
+          "too much"
+        ],
+        "competitive": null,
+        "value_component": [
+          "self_control"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 5,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "so it will be like a different price range so this is just to control my mind that i don't want to eat out now too much and just for the maybe i just use maybe in a week maybe one or two times one or two times a week so at that time i would say it's okay even if i don't pay for the uber one so i can"
+      }
+    },
+    {
+      "segment_id": "P008_INT_036",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I would say yes. Most of the time it will be like you got a free delivery or some kind of a promise on going on the Uber one. So that just influenced to spend more money. And after I think as soon as, as soon as I graduate from the uni, I just cancelled Uber 1 because I was gaining too much weight and it didn't look good on me. So because of that reason, my health, my own health reason as well, I just have to cancel the Uber one.",
+      "timestamp": "1:471-1:475",
+      "research_objective_codes": [
+        "RO2_delivery_triggers.what_role_do_promotions_deals_and_subscr",
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "guilt",
+          "determination"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "post_graduation"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "influenced to spend more",
+          "too much weight"
+        ],
+        "competitive": null,
+        "value_component": [
+          "health"
+        ],
+        "influence": [
+          "subscription_psychology",
+          "health_concerns"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 5,
+        "uniqueness": 4,
+        "overall": 4.4,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i would say yes most of the time it will be like you got a free delivery or some kind of a promise on going on the uber one so that just influenced to spend more money and after i think as soon as as soon as i graduate from the uni i just cancelled uber 1 because i was gaining too much weight and it"
+      }
+    },
+    {
+      "segment_id": "P008_INT_037",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Maybe once I get to. Maybe once I become more healthier, maybe once I lose my weight, maybe I'll go back to the Uber one. But at the moment I would say no.",
+      "timestamp": "1:477-1:479",
+      "research_objective_codes": [
+        "RO4_post_graduation.what_drives_continued_or_lapsed_platform"
+      ],
+      "context_tags": {
+        "emotion": [
+          "hope",
+          "determination"
+        ],
+        "social_context": "alone",
+        "temporal": [
+          "future"
+        ],
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "health_goals"
+        ],
+        "influence": [
+          "future_projection"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 5,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 4,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "maybe once i get to maybe once i become more healthier maybe once i lose my weight maybe i'll go back to the uber one but at the moment i would say no"
+      }
+    },
+    {
+      "segment_id": "P008_INT_038",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Because of our schedules it's just too much hectic and most of the most of these I have seen with my friends as well. We are too lazy when we are in a uni. I would say that because we always have to some maybe we are working we are always in a uni and dealing with our timetables and our assignments deadline exams. Maybe at the time it did feel right and I would say it does give some sense of student mostly people mostly like to eat when they are too much hungry.",
+      "timestamp": "1:583-1:586",
+      "research_objective_codes": [
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s",
+        "RO2_delivery_triggers.what_are_the_primary_triggers_time_socia"
+      ],
+      "context_tags": {
+        "emotion": [
+          "stress",
+          "fatigue"
+        ],
+        "social_context": "friends",
+        "temporal": [
+          "student_period",
+          "exam_period"
+        ],
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "too much hectic",
+          "too lazy",
+          "too much hungry"
+        ],
+        "competitive": null,
+        "value_component": [
+          "convenience",
+          "time"
+        ],
+        "influence": [
+          "academic_pressure",
+          "friends"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 5,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 4.0,
+        "recommendation": "HIGH"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "because of our schedules it's just too much hectic and most of the most of these i have seen with my friends as well we are too lazy when we are in a uni i would say that because we always have to some maybe we are working we are always in a uni and dealing with our timetables and our assignments de"
+      }
+    },
+    {
+      "segment_id": "P008_INT_039",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "They are friendly and they are nice without handling the foot. And I don't have my muscle memory. I don't have that incident where delivery driver messed up. Yeah, I think they just always on point, always on time and they most of the most of the delivery driver from the Uber they are always in maybe one or two minutes earlier. That's the one thing that I love from the over.",
+      "timestamp": "1:602-1:606",
+      "research_objective_codes": [
+        "RO5_engagement_opps.brand_perception"
+      ],
+      "context_tags": {
+        "emotion": [
+          "satisfaction",
+          "appreciation"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "always on point",
+          "always on time"
+        ],
+        "competitive": "ubereats",
+        "value_component": [
+          "reliability",
+          "speed"
+        ],
+        "influence": [
+          "rider_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 4,
+        "representativeness": 4,
+        "emotional_resonance": 4,
+        "uniqueness": 3,
+        "overall": 3.8,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "they are friendly and they are nice without handling the foot and i don't have my muscle memory i don't have that incident where delivery driver messed up yeah i think they just always on point always on time and they most of the most of the delivery driver from the uber they are always in maybe one"
+      }
+    },
+    {
+      "segment_id": "P008_INT_040",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "Being a rider is like a fix on a flexible time. You can just some. You can clock in and clock out as you wish. But apart from the other part time it will. It is not so flexible or you need to be in this time on the. You need to be in. You need to clock in this time and you can get out on the certain. In this. Some kind of duration of time. So I think it will be if I choose between these two, it will be just like. Just for the flexible of time. Nothing more than that.",
+      "timestamp": "1:654-1:666",
+      "research_objective_codes": [
+        "RO5_engagement_opps.what_product_features_would_increase_rel"
+      ],
+      "context_tags": {
+        "emotion": [
+          "pragmatic"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": [
+          "flexible"
+        ],
+        "competitive": null,
+        "value_component": [
+          "flexibility"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 3,
+        "vividness": 2,
+        "representativeness": 4,
+        "emotional_resonance": 2,
+        "uniqueness": 2,
+        "overall": 2.6,
+        "recommendation": "LOW"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "being a rider is like a fix on a flexible time you can just some you can clock in and clock out as you wish but apart from the other part time it will it is not so flexible or you need to be in this time on the you need to be in you need to clock in this time and you can get out on the certain in th"
+      }
+    },
+    {
+      "segment_id": "P008_INT_041",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "I don't know about the other delivery but Uber is doing in my. In my perspective Uber is doing quite well. And I for the other one on the further delivery I didn't give too much attention maybe because of that one incident which I already explained to you. And for the delivery I think they can promote some kind of a discounted item that may change the student mind.",
+      "timestamp": "1:682-1:685",
+      "research_objective_codes": [
+        "RO5_engagement_opps.competitive_comparison",
+        "RO5_engagement_opps.how_should_messaging_evolve_across_the_s"
+      ],
+      "context_tags": {
+        "emotion": [
+          "loyalty",
+          "suggestion"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": [
+          "ubereats",
+          "deliveroo"
+        ]
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": "ubereats_vs_deliveroo",
+        "value_component": [
+          "discount"
+        ],
+        "influence": [
+          "past_negative_experience"
+        ]
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 3,
+        "overall": 3.4,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "i don't know about the other delivery but uber is doing in my in my perspective uber is doing quite well and i for the other one on the further delivery i didn't give too much attention maybe because of that one incident which i already explained to you and for the delivery i think they can promote "
+      }
+    },
+    {
+      "segment_id": "P008_INT_042",
+      "participant_id": "P008",
+      "source": "interview",
+      "text": "One thing it will be saving time and another thing they just you don't have to go out and you don't have to cook. That's the. That I think most of. For most of the people like it will be like they don't have to cook cooked cook, home. And apart from that I think they have covered all the basics of what the most of the general public needs.",
+      "timestamp": "1:692-1:696",
+      "research_objective_codes": [
+        "RO5_engagement_opps.which_moments_are_most_receptive_to_deli"
+      ],
+      "context_tags": {
+        "emotion": [
+          "pragmatic"
+        ],
+        "social_context": "alone",
+        "temporal": null,
+        "platform": null
+      },
+      "enrichment_tags": {
+        "tension": null,
+        "language_pattern": null,
+        "competitive": null,
+        "value_component": [
+          "time",
+          "convenience"
+        ],
+        "influence": null
+      },
+      "quote_quality": {
+        "clarity": 4,
+        "vividness": 3,
+        "representativeness": 4,
+        "emotional_resonance": 3,
+        "uniqueness": 2,
+        "overall": 3.2,
+        "recommendation": "MEDIUM"
+      },
+      "_quote_verification": {
+        "status": "VERIFIED",
+        "similarity": 1.0,
+        "best_match": "one thing it will be saving time and another thing they just you don't have to go out and you don't have to cook that's the that i think most of for most of the people like it will be like they don't have to cook cooked cook home and apart from that i think they have covered all the basics of what t"
+      }
+    }
+  ],
+  "emergent_themes": [
+    {
+      "theme_name": "deliberate_subscription_cancellation",
+      "description": "Participants cancelling subscriptions as a form of self-control rather than due to financial constraints - using friction as a behavioral management tool"
+    },
+    {
+      "theme_name": "social_media_ordering_trigger",
+      "description": "Food content on social media platforms directly triggering ordering behavior, leading some participants to actively avoid such content"
+    },
+    {
+      "theme_name": "cultural_food_stress_relief",
+      "description": "Traditional/cultural foods serving as stress relief and emotional regulation, contrasting with healthy Western food being perceived as stressful to prepare"
+    },
+    {
+      "theme_name": "single_incident_platform_loyalty",
+      "description": "One negative experience with a competitor platform creating lasting loyalty to preferred platform, even when price differences exist"
+    },
+    {
+      "theme_name": "health_conscious_restriction",
+      "description": "Post-graduation shift from convenience-driven to health-driven food decisions, with delivery seen as obstacle to health goals rather than financial constraint"
+    }
+  ],
+  "coding_summary": "P008 represents a fascinating case of deliberate behavioral management post-graduation. Manoj demonstrates sophisticated self-awareness about his ordering triggers (social media, fatigue, notifications) and has implemented systematic restrictions (cancelled subscriptions, deleted TikTok, avoided food content) to support his health goals. His relationship with food is culturally nuanced - traditional Nepalese cooking provides stress relief while healthy Western meals feel stressful. A single negative experience with Deliveroo has created lasting loyalty to Uber Eats, showing how platform switching can be driven by isolated incidents rather than systematic comparison. His post-graduation transformation from heavy user to restricted user is health-motivated rather than financially driven, suggesting he may return to delivery apps once health goals are achieved.",
+  "coverage_gaps": [
+    "RO3_emotional_social.is_there_stigma_around_solo_ordering_or_ - P008 lives alone and orders solo regularly without expressing stigma concerns",
+    "RO4_post_graduation.does_the_value_equation_for_delivery_shi - While P008 discusses habit changes post-graduation, he doesn't explicitly compare value perceptions between student and working life periods"
+  ],
+  "participant_id": "P008",
+  "_ro_coverage": {
+    "RO4_post_graduation": 13,
+    "RO5_engagement_opps": 18,
+    "RO2_delivery_triggers": 19,
+    "RO1_eating_moments": 7,
+    "RO3_emotional_social": 4
+  },
+  "_quote_verification_summary": {
+    "verified": 34,
+    "paraphrased": 8,
+    "unverified": 0
+  },
+  "_citations": [
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Yeah, at that time when I was in uni, I said I gained a lot of weight and I think I was around 71, 72 when before I started the uni and after I eat a lot from outside my weight gone to around 80, 85.\nspk_1: So I need to lose that.\nspk_1: And after that I just think oh, I need to, I need to maintain my weight or I'll be obese so which I don't want to be.\nspk_1: And for that need to eat some.\nspk_1: You need to eat healthy food.\nspk_1: So that influenced me.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 18431,
+      "end_char_index": 18899,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Because if I subscribe to the, subscribe to these promotions.\nspk_1: Uber, it's a Uber one.\nspk_1: I would mostly order from the out.\nspk_1: So that's kind of a habit.\nspk_1: When I was in Unique, it says like it is cheaper on your.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 25193,
+      "end_char_index": 25433,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And after I think as soon as, as soon as I graduate from the uni, I just cancelled Uber 1 because I was gaining too much weight and it didn't look good on me.\nspk_1: So because of that reason, my health, my own health reason as well, I just have to cancel the Uber one.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 26578,
+      "end_char_index": 26855,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Just it makes me hungry.\nspk_1: Most of the time I use on the Instagram I usually use at the night time and that makes me hungry and it, it forces me to use some uber eat or just eat to order some food.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 2605,
+      "end_char_index": 2815,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: Sometimes boring, sometimes stress, sometimes stress relief.\nspk_1: That depends on what I cook.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 6149,
+      "end_char_index": 6253,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "spk_1: And in Nepalese cuisine there is one food, Momos, I think in your language you guys call dumplings.\nspk_1: Oh yes, that one we may.\nspk_1: I make by myself at the home.\nspk_1: So that is stress relief for me.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 6467,
+      "end_char_index": 6683,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    },
+    {
+      "type": "char_location",
+      "cited_text": "So what was the main issue then\nspk_1: that put you off one time with we me and my friend were comparing with delivery, which platform delivery the fast and he was ordering from the UberEats.\nspk_1: He was ordering from the.\nspk_1: We were ordering from the same restaurant and the distance was same.\nspk_1: We just use different platform and he, he used Uber Eats and I use Deliveroo.\nspk_1: So his food came around 10 to 15 minutes.\nspk_1: My mine one took around 30, 35 minutes for the one order to reach I think from my home it was just maybe 10 to 15 minutes of distance and same for the same goes for my friend as well.\nspk_1: We were at the same house.\nspk_1: So after that incident I.\nspk_1: I've significantly reduced the use of delivery.\n",
+      "document_index": 0,
+      "document_title": "P008 - P008 - Interview Transcript",
+      "start_char_index": 22767,
+      "end_char_index": 23515,
+      "participant_id": "P008",
+      "participant_name": "P008"
+    }
+  ],
+  "_citation_count": 7
+}
