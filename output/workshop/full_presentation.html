@@ -809,67 +809,27 @@ body {
 }
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
-/* ---- FUNNEL CHART ---- */
-.funnel-grid {
-  margin-top: 1.5rem;
+/* ---- DUAL FUNNEL ---- */
+.dual-funnel-wrap {
+  margin-top: 1rem;
   opacity: 0;
   transform: translateY(12px);
   transition: opacity var(--duration) var(--ease) 0.3s, transform var(--duration) var(--ease) 0.3s;
 }
-.data-slide.active .funnel-grid { opacity: 1; transform: none; }
-
-.funnel-row {
-  display: grid;
-  grid-template-columns: 140px 1fr 1fr;
-  gap: 0.6rem;
-  align-items: center;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--rule);
+.data-slide.active .dual-funnel-wrap { opacity: 1; transform: none; }
+.dual-funnel-wrap svg { width: 100%; height: auto; display: block; }
+.dual-funnel-wrap .funnel-brand-label {
+  font-family: var(--sans); font-size: 12px; font-weight: 700; text-anchor: middle;
 }
-.funnel-row:last-child { border-bottom: none; }
-.funnel-stage {
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  color: var(--text-secondary);
-  text-align: right;
-  padding-right: 0.8rem;
+.dual-funnel-wrap .funnel-stage-label {
+  font-family: var(--sans); font-size: 9px; fill: var(--text-tertiary); text-anchor: middle; font-weight: 500;
 }
-.funnel-bar-wrap {
-  height: 22px;
-  background: var(--bar-track);
-  border-radius: 2px;
-  overflow: hidden;
-  position: relative;
+.dual-funnel-wrap .funnel-val {
+  font-family: var(--sans); font-size: 10px; font-weight: 700; fill: #fff; text-anchor: middle;
 }
-.funnel-bar {
-  height: 100%;
-  border-radius: 2px;
-  display: flex;
-  align-items: center;
-  padding: 0 0.5rem;
-  font-size: 0.62rem;
-  font-weight: 700;
-  color: var(--text);
-  font-variant-numeric: tabular-nums;
-  width: 0;
-  transition: width 0.75s var(--ease) 0.4s;
-}
-.data-slide.active .funnel-bar { width: var(--w); }
-.funnel-legend {
-  display: flex;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  font-family: var(--sans);
-  font-size: 0.62rem;
-  color: var(--text-tertiary);
-}
-.funnel-legend-dot {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  margin-right: 0.4rem;
-  position: relative;
+.dual-funnel-wrap .funnel-connector { opacity: 0.2; }
+.dual-funnel-wrap .funnel-flip-label {
+  font-family: var(--sans); font-size: 8px; font-weight: 700; fill: var(--pumpkin); text-anchor: middle;
   top: 1px;
 }
 
@@ -957,7 +917,6 @@ body {
   .slide { padding-left: 2rem; padding-right: 2rem; }
   .chapter-bar { gap: 0.5rem; padding: 0 1rem; }
   .chapter-bar-item { font-size: 0.5rem; }
-  .funnel-row { grid-template-columns: 90px 1fr 1fr; }
   .cvp-row { grid-template-columns: 100px 1fr 40px; }
   .data-slide.has-insight { grid-template-columns: 1fr; }
   .insight-panel { border-left: none; border-top: 1px solid var(--rule); padding: 1.5rem 2rem 0; }
@@ -3808,36 +3767,58 @@ body {
 <div class="slide data-slide has-insight">
   <div class="slide-inner">
     <h2 class="data-title">Brand funnel: awareness to preference</h2>
-    <div class="funnel-legend">
-      <span><span class="funnel-legend-dot" style="background:var(--teal)"></span>Deliveroo</span>
-      <span><span class="funnel-legend-dot" style="background:#34A853"></span>Uber Eats</span>
-    </div>
-    <div class="funnel-grid">
-      <div class="funnel-row">
-        <span class="funnel-stage">Top-of-mind</span>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:86%;background:var(--teal);color:#fff">32.4%</div></div>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:70%;background:#34A853;color:#fff">26.5%</div></div>
-      </div>
-      <div class="funnel-row">
-        <span class="funnel-stage">Spontaneous</span>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:86%;background:var(--teal);color:#fff">64.9%</div></div>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:85%;background:#34A853;color:#fff">64.3%</div></div>
-      </div>
-      <div class="funnel-row">
-        <span class="funnel-stage">Prompted</span>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:97%;background:var(--teal);color:#fff">91.5%</div></div>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:99%;background:#34A853;color:#fff">93.7%</div></div>
-      </div>
-      <div class="funnel-row">
-        <span class="funnel-stage">Consideration</span>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:70%;background:var(--teal);color:#fff">66.5%</div></div>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:72%;background:#34A853;color:#fff">67.9%</div></div>
-      </div>
-      <div class="funnel-row">
-        <span class="funnel-stage">Preference</span>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:35%;background:var(--teal);color:#fff">33.5%</div></div>
-        <div class="funnel-bar-wrap"><div class="funnel-bar" style="--w:37%;background:#34A853;color:#fff">35.0%</div></div>
-      </div>
+    <div class="dual-funnel-wrap">
+      <svg viewBox="0 0 470 230" aria-label="Side-by-side brand funnels comparing Deliveroo and Uber Eats from prompted awareness to preference">
+        <!-- Brand names -->
+        <text class="funnel-brand-label" x="100" y="22" style="fill:var(--teal)">Deliveroo</text>
+        <text class="funnel-brand-label" x="370" y="22" style="fill:#34A853">Uber Eats</text>
+
+        <!-- Deliveroo connectors (narrowing taper between tiers) -->
+        <polygon class="funnel-connector" points="27,68 48,76 27,76" fill="var(--teal)"/>
+        <polygon class="funnel-connector" points="173,68 152,76 173,76" fill="var(--teal)"/>
+        <polygon class="funnel-connector" points="47,140 74,148 47,148" fill="var(--teal)"/>
+        <polygon class="funnel-connector" points="153,140 126,148 153,148" fill="var(--teal)"/>
+
+        <!-- Deliveroo bars -->
+        <rect x="27" y="40" width="146" height="28" rx="3" fill="var(--teal)" opacity="0.85"/>
+        <text class="funnel-val" x="100" y="58">91.5%</text>
+        <rect x="48" y="76" width="104" height="28" rx="3" fill="var(--teal)" opacity="0.85"/>
+        <text class="funnel-val" x="100" y="94">64.9%</text>
+        <rect x="47" y="112" width="106" height="28" rx="3" fill="var(--teal)" opacity="0.85"/>
+        <text class="funnel-val" x="100" y="130">66.5%</text>
+        <rect x="74" y="148" width="52" height="28" rx="3" fill="var(--teal)" opacity="0.85"/>
+        <text class="funnel-val" x="100" y="166">32.4%</text>
+        <rect x="73" y="184" width="54" height="28" rx="3" fill="var(--teal)" opacity="0.85"/>
+        <text class="funnel-val" x="100" y="202">33.5%</text>
+
+        <!-- Stage labels (center) -->
+        <text class="funnel-stage-label" x="235" y="58">Prompted</text>
+        <text class="funnel-stage-label" x="235" y="94">Spontaneous</text>
+        <text class="funnel-stage-label" x="235" y="130">Consideration</text>
+        <text class="funnel-stage-label" x="235" y="166">Top-of-mind</text>
+        <text class="funnel-stage-label" x="235" y="202">Preference</text>
+
+        <!-- UE connectors -->
+        <polygon class="funnel-connector" points="295,68 319,76 295,76" fill="#34A853"/>
+        <polygon class="funnel-connector" points="445,68 422,76 445,76" fill="#34A853"/>
+        <polygon class="funnel-connector" points="316,140 349,148 316,148" fill="#34A853"/>
+        <polygon class="funnel-connector" points="425,140 391,148 425,148" fill="#34A853"/>
+
+        <!-- UE bars -->
+        <rect x="295" y="40" width="150" height="28" rx="3" fill="#34A853" opacity="0.85"/>
+        <text class="funnel-val" x="370" y="58">93.7%</text>
+        <rect x="319" y="76" width="102" height="28" rx="3" fill="#34A853" opacity="0.85"/>
+        <text class="funnel-val" x="370" y="94">64.3%</text>
+        <rect x="316" y="112" width="108" height="28" rx="3" fill="#34A853" opacity="0.85"/>
+        <text class="funnel-val" x="370" y="130">67.9%</text>
+        <rect x="349" y="148" width="42" height="28" rx="3" fill="#34A853" opacity="0.85"/>
+        <text class="funnel-val" x="370" y="166">26.5%</text>
+        <rect x="342" y="184" width="56" height="28" rx="3" fill="#34A853" opacity="0.85"/>
+        <text class="funnel-val" x="370" y="202">35.0%</text>
+
+        <!-- Flip annotation at preference level -->
+        <text class="funnel-flip-label" x="235" y="224">&#x25C0; UE overtakes at preference &#x25B6;</text>
+      </svg>
     </div>
     <p class="data-source">YouGov Brand Tracker Q1–Q4 2025 averages · Student segment · The Consideration→Preference drop-off is ~49–64% for all brands</p>
   </div>
