@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Food &amp; Delivery Research — Deliveroo Plus</title>
+<title>Student Food &amp; Delivery Research — Deliveroo Plus (Inline Recommendations)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,600;0,16..72,700;1,16..72,400&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -2754,9 +2754,34 @@ body {
 }
 .chapter-slide.active .chapter-sub { opacity: 1; transform: none; }
 
+} /* close .sec-5 nesting — opp styles below are global so they work inline */
+
 /* ============================================
    OPPORTUNITY DETAIL SLIDES
    ============================================ */
+.opp-slide,
+.opp-hero-slide {
+  background: linear-gradient(135deg, #F7F4EC 0%, #EDE9DF 100%);
+  border-left: 4px solid var(--accent);
+  padding-top: 132px;
+}
+.opp-slide::before,
+.opp-hero-slide::before {
+  content: 'OPPORTUNITY';
+  position: absolute;
+  top: 90px;
+  left: calc(15vw - 2px);
+  font-family: var(--sans);
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  color: #00594C;
+  opacity: 0;
+  transition: opacity 0.4s var(--ease) 0.05s;
+}
+.opp-slide.active::before,
+.opp-hero-slide.active::before { opacity: 1; }
+
 .opp-slide .slide-inner {
   max-width: 720px;
 }
@@ -3179,7 +3204,7 @@ body {
   .quote-panel { position: static; transform: none; width: 100%; margin-top: 1.5rem; }
   .opp-grid, .opp-grid { grid-template-columns: 1fr !important; }
   .opp-grid .opp-card { grid-column: auto !important; }
-}
+  .opp-slide::before, .opp-hero-slide::before { left: 2.2rem; }
 }
 
 /* ============================================
@@ -4015,6 +4040,27 @@ body {
   </div>
 </div>
 
+<!-- INLINE OPP 1: WIN THE GROUP MOMENT -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority high">High</span>
+    <p class="opp-label" style="color: var(--pumpkin)">Opportunity 1 · The social opportunity</p>
+    <h2 class="opp-headline">Design for the group, not the&nbsp;individual.</h2>
+    <ul class="opp-actions">
+      <li>Develop collaborative group ordering with shared carts, split payment, and group decision tools</li>
+      <li>Shift student marketing from individual convenience to social enablement — "order together" rather than "order for yourself"</li>
+      <li>Target Thursday–Friday social planning moments when the weekend ordering decision is being made</li>
+    </ul>
+    <p class="opp-evidence">Social influence is the primary delivery trigger · Home cooking drops 17 points from weekday to weekend · Group dynamics drive the majority of ordering decisions</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"It's always a group decision. One person suggests it, and then everyone's like, yeah, let's just get a&nbsp;Deliveroo."</p>
+        <p class="inline-quote-cite">— Evan</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- S6: FINDING 3 TITLE -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
@@ -4452,6 +4498,27 @@ body {
   </div>
 </div>
 
+<!-- INLINE OPP 2: BUILD VALUE BEYOND FOOD -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority critical">Critical</span>
+    <p class="opp-label" style="color: var(--blueberry)">Opportunity 2 · The ecosystem gap</p>
+    <h2 class="opp-headline">Give Plus a reason to exist between delivery&nbsp;orders.</h2>
+    <ul class="opp-actions">
+      <li>Explore strategic partnerships — entertainment, lifestyle, or campus services — that create value outside of food delivery</li>
+      <li>Create a visible "what you've earned" touchpoint — credits, rewards, or perks that remind students the subscription exists between orders</li>
+      <li>Position Plus as part of student life, not just part of ordering — the subscription should feel present even when students aren't hungry</li>
+    </ul>
+    <p class="opp-evidence">35% of Uber One discussants cite transport as the reason they subscribe · Plus currently has no value driver outside food</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Uber One also comes with not just food delivery discounts, but also Uber ride discounts. So I think that's why I loved it&nbsp;more."</p>
+        <p class="inline-quote-cite">— Sian</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- THE ONBOARDING GAP — VERIFICATION & SIGN-UP -->
 <div class="slide finding-slide">
   <div class="slide-inner">
@@ -4459,6 +4526,27 @@ body {
     <h2 class="finding-headline">How students find Plus is fundamentally different to how they find Uber&nbsp;One.</h2>
     <p class="finding-body">Uber One is discoverable in-app: free trials surface automatically, and students are already in the Uber ecosystem for taxis. Plus requires students to find it through a third party — Amazon Prime, Student Beans, or Unidays — creating passive subscribers who never connect with the product inside the Deliveroo app. The sign-up journey is disconnected from the ordering experience.</p>
     <p class="finding-source">38% of Plus/Silver discussants can't explain what it gives them · Uber One discoverable in-app · Plus requires third-party acquisition</p>
+  </div>
+</div>
+
+<!-- INLINE OPP 3: ACTIVATE SILVER SUBSCRIBERS -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority high">High</span>
+    <p class="opp-label" style="color: var(--apple)">Opportunity 3 · The onboarding opportunity</p>
+    <h2 class="opp-headline">Turn passive subscribers into active&nbsp;ones.</h2>
+    <ul class="opp-actions">
+      <li>Create an active onboarding flow for Prime-acquired Silver subscribers — show them what they have and what it saves them</li>
+      <li>Build a savings dashboard that surfaces the value of their subscription after each order</li>
+      <li>Design a clear upgrade path from Silver to paid Plus, timed to when students are seeing the benefits</li>
+    </ul>
+    <p class="opp-evidence">38% of those who discussed Plus/Silver can't explain what it gives them · Prime creates subscribers but not engagement</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"I think this must be included with my Prime or something. I don't actually entirely know what that gets&nbsp;me."</p>
+        <p class="inline-quote-cite">— Rory</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -4561,6 +4649,35 @@ body {
 </div>
 
 
+<!-- INLINE OPP 4: MAKE FREE DELIVERY FREE -->
+<div class="slide opp-hero-slide">
+  <div class="slide-inner">
+    <span class="opp-priority critical">Critical</span>
+    <p class="opp-label" style="color: var(--teal)">Opportunity 4 · Make "free delivery" genuinely free</p>
+    <div class="opp-hero-stat-row">
+      <div class="opp-hero-num">47</div>
+      <div class="opp-hero-context">
+        <div class="opp-hero-context-main">mentions of free delivery — more than every other benefit combined</div>
+        <div class="opp-hero-context-sub">
+          <span>27 service fee complaints</span>
+          <span>15 minimum order frustrations</span>
+        </div>
+      </div>
+    </div>
+    <ul class="opp-hero-actions">
+      <li>Remove or absorb service fees for Plus subscribers so the saving is felt immediately at checkout</li>
+      <li>Lower or remove minimum order thresholds — solo student orders (£8–12) currently fall below the £15–25 floor</li>
+      <li>Lead all Plus messaging with "free delivery on every order" as the singular, unambiguous hero benefit</li>
+    </ul>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"To me, the best thing is that it scratches off the delivery fees. Most of the time it's above £2. So you're saving £2 every&nbsp;time."</p>
+        <p class="inline-quote-cite">— Mrugesh</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- S11: FINDING 4 TITLE -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
@@ -4605,6 +4722,27 @@ body {
       <div class="inline-quote">
         <p class="inline-quote-text">"I sort of bounce between all three depending on what promotions and offers are on. So I don't think I see myself ever getting a subscription for any of them just because I get good enough deals from using all&nbsp;three."</p>
         <p class="inline-quote-cite">— Joshua W · Final-year undergraduate, Manchester</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- INLINE OPP 5: FLEX WITH THE STUDENT CALENDAR -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority medium">Medium</span>
+    <p class="opp-label" style="color: var(--mustard)">Opportunity 5 · The engagement cycle</p>
+    <h2 class="opp-headline">Keep the habit alive across the academic&nbsp;year.</h2>
+    <ul class="opp-actions">
+      <li>Re-engagement campaigns at the start of each term — the ordering habit resets every time students return from a break</li>
+      <li>Freshers acquisition: the start of university is the peak receptivity window — double down on this as the primary sign-up moment</li>
+      <li>Design for the fact that what looks like churn is often strategic — students use free trials during peak ordering and cancel during quiet periods. The subscription is serving its purpose.</li>
+    </ul>
+    <p class="opp-evidence">3–4 non-ordering windows per year · UberOne free trial churn as strategic behaviour · 9 freshers-related acquisition moments identified</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Depending on where I live after… whether I go back home or move to another city… it will really change based on what I'm doing with my life, whether I've got a job or whether I'm still&nbsp;studying."</p>
+        <p class="inline-quote-cite">— Evan · Graduation as inflection point</p>
       </div>
     </div>
   </div>
@@ -4658,6 +4796,28 @@ body {
   </div>
 </div>
 
+<!-- INLINE OPP 6: BUILD THE GRADUATION BRIDGE -->
+<div class="slide opp-slide">
+  <div class="slide-inner">
+    <span class="opp-priority high">High</span>
+    <p class="opp-label" style="color: var(--pumpkin)">Opportunity 6 · The retention window</p>
+    <h2 class="opp-headline">Ease graduates into paid Plus before they default to Uber&nbsp;One.</h2>
+    <ul class="opp-actions">
+      <li>Create a loyalty-based graduation offer — however many orders a student has made, give them X months of discounted or free Plus after graduation. It will feel cheap compared to when they were a student with a salary.</li>
+      <li>Build an account transition flow — students currently can't move from their student email to a regular email. There's no mechanism to retain their order history, preferences, or subscription status.</li>
+      <li>Send a push notification or email at the end of the academic year — "You're graduating soon. Don't lose your Plus benefits. Transition your account now."</li>
+      <li>Consider a standard post-graduation rate as V1, with personalised loyalty-based offers as V2</li>
+    </ul>
+    <p class="opp-evidence">No current graduation strategy · Plus Silver expires after 3 years with no transition · UberOne subscribers face zero transition friction · Critical budget-adjustment window for new graduates</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"They could kind of do like a graduation promotion… if they made it so that if you ordered in a certain period of time, then you kept that Silver Plus for a certain amount of months… like a time period&nbsp;thing."</p>
+        <p class="inline-quote-cite">— Barnaby · 2nd-year undergraduate, Nottingham</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- S14b: REGIONAL VARIATION — DUBLIN -->
 <div class="slide finding-slide">
   <div class="slide-inner">
@@ -4691,44 +4851,36 @@ body {
 <!-- S15: BRIDGE -->
 <div class="slide bridge-slide">
   <div class="slide-inner">
-    <h2 class="bridge-headline">The landscape is clear. The barriers are real. So what do we&nbsp;do?</h2>
-    <p class="bridge-sub">Next: Recommendations for Deliveroo Plus →</p>
+    <h2 class="bridge-headline">You've seen the evidence and the actions. Here's the full&nbsp;picture.</h2>
+    <p class="bridge-sub">Next: All six opportunities at a glance →</p>
   </div>
 </div>
 </div>
 
-<!-- ===== SECTION 5: RECOMMENDATIONS ===== -->
+<!-- ===== SECTION 5: OPPORTUNITY SUMMARY ===== -->
 <div class="sec-5">
-<nav class="chapter-bar" id="chapterBar" aria-label="Opportunity navigation">
-  <span class="chapter-bar-item" data-chapter="1">Free Delivery</span>
-  <span class="chapter-bar-item" data-chapter="2">Beyond Food</span>
-  <span class="chapter-bar-item" data-chapter="3">Group Moment</span>
-  <span class="chapter-bar-item" data-chapter="4">Student Calendar</span>
-  <span class="chapter-bar-item" data-chapter="5">Onboarding</span>
-  <span class="chapter-bar-item" data-chapter="6">Graduation Bridge</span>
-</nav>
 
 <!-- SECTION DIVIDER -->
 <div class="slide section-divider">
   <div class="slide-inner">
     <p class="section-divider-part">Part Six</p>
-    <h1 class="section-divider-title">Where to go from&nbsp;here</h1>
-    <p class="section-divider-sub">Six opportunities shaped by what students told us — each one tied directly to a research finding.</p>
+    <h1 class="section-divider-title">The complete&nbsp;picture</h1>
+    <p class="section-divider-sub">You've seen each opportunity alongside its evidence. Here they are together — prioritised and ready for discussion.</p>
     <div class="section-divider-rule"></div>
   </div>
 </div>
 
-<!-- S1: OVERVIEW -->
+<!-- S1: OVERVIEW GRID -->
 <div class="slide overview-slide">
   <div class="slide-inner">
-    <h2 class="overview-title">Six opportunities</h2>
-    <p class="overview-sub">Each one grounded in the research. Each one actionable.</p>
+    <h2 class="overview-title">Six opportunities at a glance</h2>
+    <p class="overview-sub">Each one was presented inline after the finding that supports it.</p>
     <div class="opp-grid">
-      <div class="opp-card" style="border-top-color:var(--teal)">
-        <span class="opp-priority critical">Critical</span>
+      <div class="opp-card" style="border-top-color:var(--pumpkin)">
+        <span class="opp-priority high">High</span>
         <div class="opp-card-num">01</div>
-        <div class="opp-card-title">Make "free delivery" feel&nbsp;free</div>
-        <div class="opp-card-desc">Service fees and minimum orders undermine the core promise.</div>
+        <div class="opp-card-title">Win the group&nbsp;moment</div>
+        <div class="opp-card-desc">Delivery is a social decision. The product should reflect that.</div>
       </div>
       <div class="opp-card" style="border-top-color:var(--blueberry)">
         <span class="opp-priority critical">Critical</span>
@@ -4736,23 +4888,23 @@ body {
         <div class="opp-card-title">Build value beyond&nbsp;food</div>
         <div class="opp-card-desc">Uber One's value extends beyond food. Plus needs its own version of that anchor.</div>
       </div>
-      <div class="opp-card" style="border-top-color:var(--pumpkin)">
+      <div class="opp-card" style="border-top-color:var(--apple)">
         <span class="opp-priority high">High</span>
         <div class="opp-card-num">03</div>
-        <div class="opp-card-title">Win the group&nbsp;moment</div>
-        <div class="opp-card-desc">Delivery is a social decision. The product should reflect that.</div>
+        <div class="opp-card-title">Activate Silver&nbsp;subscribers</div>
+        <div class="opp-card-desc">Students who got Plus through Prime don't know what they have.</div>
+      </div>
+      <div class="opp-card" style="border-top-color:var(--teal)">
+        <span class="opp-priority critical">Critical</span>
+        <div class="opp-card-num">04</div>
+        <div class="opp-card-title">Make "free delivery" feel&nbsp;free</div>
+        <div class="opp-card-desc">Service fees and minimum orders undermine the core promise.</div>
       </div>
       <div class="opp-card" style="border-top-color:var(--mustard)">
         <span class="opp-priority medium">Medium</span>
-        <div class="opp-card-num">04</div>
+        <div class="opp-card-num">05</div>
         <div class="opp-card-title">Flex with the student&nbsp;calendar</div>
         <div class="opp-card-desc">Students disengage over holidays and the habit resets. Re-engagement each term is the challenge.</div>
-      </div>
-      <div class="opp-card" style="border-top-color:var(--apple)">
-        <span class="opp-priority high">High</span>
-        <div class="opp-card-num">05</div>
-        <div class="opp-card-title">Activate Silver&nbsp;subscribers</div>
-        <div class="opp-card-desc">Students who got Plus through Prime don't know what they have.</div>
       </div>
       <div class="opp-card" style="border-top-color:var(--pumpkin)">
         <span class="opp-priority high">High</span>
@@ -4764,210 +4916,16 @@ body {
   </div>
 </div>
 
-<!-- S2: OPPORTUNITY 1 TITLE -->
-<div class="slide chapter-slide">
-  <div class="slide-inner">
-    <p class="chapter-counter">Opportunity 1</p>
-    <h2 class="chapter-headline">Make "free delivery" genuinely&nbsp;free</h2>
-    <p class="chapter-sub">Free delivery is the foundation of the Plus proposition. But service fees and minimum order thresholds are diluting the promise before students feel the value.</p>
-  </div>
-</div>
-
-<!-- S3: OPPORTUNITY 1 DETAIL (hero stat layout) -->
-<div class="slide opp-hero-slide">
-  <div class="slide-inner">
-    <span class="opp-priority critical">Critical</span>
-    <div class="opp-hero-stat-row">
-      <div class="opp-hero-num">47</div>
-      <div class="opp-hero-context">
-        <div class="opp-hero-context-main">mentions of free delivery — more than every other benefit combined</div>
-        <div class="opp-hero-context-sub">
-          <span>27 service fee complaints</span>
-          <span>15 minimum order frustrations</span>
-        </div>
-      </div>
-    </div>
-    <ul class="opp-hero-actions">
-      <li>Remove or absorb service fees for Plus subscribers so the saving is felt immediately at checkout</li>
-      <li>Lower or remove minimum order thresholds — solo student orders (£8–12) currently fall below the £15–25 floor</li>
-      <li>Lead all Plus messaging with "free delivery on every order" as the singular, unambiguous hero benefit</li>
-    </ul>
-    <p class="opp-hero-evidence">Experience Gaps</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"To me, the best thing is that it scratches off the delivery fees. Most of the time it's above £2. So you're saving £2 every&nbsp;time."</p>
-        <p class="inline-quote-cite">— Mrugesh</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S4: OPPORTUNITY 2 TITLE -->
-<div class="slide chapter-slide">
-  <div class="slide-inner">
-    <p class="chapter-counter">Opportunity 2</p>
-    <h2 class="chapter-headline">Build value beyond&nbsp;food</h2>
-    <p class="chapter-sub">Uber One's advantage isn't food — it's transport. Plus needs its own version of that anchor to make the subscription feel valuable between orders.</p>
-  </div>
-</div>
-
-<!-- S5: OPPORTUNITY 2 DETAIL -->
-<div class="slide opp-slide">
-  <div class="slide-inner">
-    <span class="opp-priority critical">Critical</span>
-    <p class="opp-label" style="color: var(--blueberry)">The ecosystem gap</p>
-    <h2 class="opp-headline">Give Plus a reason to exist between delivery&nbsp;orders.</h2>
-    <ul class="opp-actions">
-      <li>Explore strategic partnerships — entertainment, lifestyle, or campus services — that create value outside of food delivery</li>
-      <li>Create a visible "what you've earned" touchpoint — credits, rewards, or perks that remind students the subscription exists between orders</li>
-      <li>Position Plus as part of student life, not just part of ordering — the subscription should feel present even when students aren't hungry</li>
-    </ul>
-    <p class="opp-evidence">35% of Uber One discussants cite transport as the reason they subscribe · Plus currently has no value driver outside food</p>
-    <p class="opp-linkback" style="color:var(--blueberry)">Value Gap</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"Uber One also comes with not just food delivery discounts, but also Uber ride discounts. So I think that's why I loved it&nbsp;more."</p>
-        <p class="inline-quote-cite">— Sian</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S6: OPPORTUNITY 3 TITLE -->
-<div class="slide chapter-slide">
-  <div class="slide-inner">
-    <p class="chapter-counter">Opportunity 3</p>
-    <h2 class="chapter-headline">Win the group&nbsp;moment</h2>
-    <p class="chapter-sub">Delivery isn't an individual decision. It's a flatmate, a group chat, a Friday night negotiation. The product should meet students where the decision actually happens.</p>
-  </div>
-</div>
-
-<!-- S7: OPPORTUNITY 3 DETAIL -->
-<div class="slide opp-slide">
-  <div class="slide-inner">
-    <span class="opp-priority high">High</span>
-    <p class="opp-label" style="color: var(--pumpkin)">The social opportunity</p>
-    <h2 class="opp-headline">Design for the group, not the&nbsp;individual.</h2>
-    <ul class="opp-actions">
-      <li>Develop collaborative group ordering with shared carts, split payment, and group decision tools</li>
-      <li>Shift student marketing from individual convenience to social enablement — "order together" rather than "order for yourself"</li>
-      <li>Target Thursday–Friday social planning moments when the weekend ordering decision is being made</li>
-    </ul>
-    <p class="opp-evidence">Social influence is the primary delivery trigger · Home cooking drops 17 points from weekday to weekend · Group dynamics drive the majority of ordering decisions</p>
-    <p class="opp-linkback" style="color:var(--pumpkin)">Group Decision · Weekend Collapse</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"It's always a group decision. One person suggests it, and then everyone's like, yeah, let's just get a&nbsp;Deliveroo."</p>
-        <p class="inline-quote-cite">— Evan</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S8: OPPORTUNITY 4 TITLE -->
-<div class="slide chapter-slide">
-  <div class="slide-inner">
-    <p class="chapter-counter">Opportunity 4</p>
-    <h2 class="chapter-headline">Flex with the student&nbsp;calendar</h2>
-    <p class="chapter-sub">The subscription is free — but attention isn't. Students disengage completely over holidays, and each new term requires re-building the habit. Graduation is the moment when real churn happens.</p>
-  </div>
-</div>
-
-<!-- S9: OPPORTUNITY 4 DETAIL -->
-<div class="slide opp-slide">
-  <div class="slide-inner">
-    <span class="opp-priority medium">Medium</span>
-    <p class="opp-label" style="color: var(--mustard)">The engagement cycle</p>
-    <h2 class="opp-headline">Keep the habit alive across the academic&nbsp;year.</h2>
-    <ul class="opp-actions">
-      <li>Re-engagement campaigns at the start of each term — the ordering habit resets every time students return from a break</li>
-      <li>Freshers acquisition: the start of university is the peak receptivity window — double down on this as the primary sign-up moment</li>
-      <li>Design for the fact that what looks like churn is often strategic — students use free trials during peak ordering and cancel during quiet periods. The subscription is serving its purpose.</li>
-    </ul>
-    <p class="opp-evidence">3–4 non-ordering windows per year · UberOne free trial churn as strategic behaviour · 9 freshers-related acquisition moments identified</p>
-    <p class="opp-linkback" style="color:var(--mustard)">Student Calendar · Engagement Cycle</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"Depending on where I live after… whether I go back home or move to another city… it will really change based on what I'm doing with my life, whether I've got a job or whether I'm still&nbsp;studying."</p>
-        <p class="inline-quote-cite">— Evan · Graduation as inflection point</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S10: OPPORTUNITY 5 TITLE -->
-<div class="slide chapter-slide">
-  <div class="slide-inner">
-    <p class="chapter-counter">Opportunity 5</p>
-    <h2 class="chapter-headline">Activate Silver&nbsp;subscribers</h2>
-    <p class="chapter-sub">Students who got Plus through Prime are already subscribers. They just don't know what they have — or why it matters.</p>
-  </div>
-</div>
-
-<!-- S11: OPPORTUNITY 5 DETAIL -->
-<div class="slide opp-slide">
-  <div class="slide-inner">
-    <span class="opp-priority high">High</span>
-    <p class="opp-label" style="color: var(--apple)">The onboarding opportunity</p>
-    <h2 class="opp-headline">Turn passive subscribers into active&nbsp;ones.</h2>
-    <ul class="opp-actions">
-      <li>Create an active onboarding flow for Prime-acquired Silver subscribers — show them what they have and what it saves them</li>
-      <li>Build a savings dashboard that surfaces the value of their subscription after each order</li>
-      <li>Design a clear upgrade path from Silver to paid Plus, timed to when students are seeing the benefits</li>
-    </ul>
-    <p class="opp-evidence">38% of those who discussed Plus/Silver can't explain what it gives them · Prime creates subscribers but not engagement</p>
-    <p class="opp-linkback" style="color:var(--apple)">Experience Gaps · Onboarding</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"I think this must be included with my Prime or something. I don't actually entirely know what that gets&nbsp;me."</p>
-        <p class="inline-quote-cite">— Rory</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S12: OPPORTUNITY 6 TITLE -->
-<div class="slide chapter-slide">
-  <div class="slide-inner">
-    <p class="chapter-counter">Opportunity 6</p>
-    <h2 class="chapter-headline">Build the graduation&nbsp;bridge</h2>
-    <p class="chapter-sub">The undergrad-to-graduate transition is a critical window. Students are adjusting to a new budget, and we need to insert into it — or risk losing them to Uber One's frictionless continuity.</p>
-  </div>
-</div>
-
-<!-- S13: OPPORTUNITY 6 DETAIL -->
-<div class="slide opp-slide">
-  <div class="slide-inner">
-    <span class="opp-priority high">High</span>
-    <p class="opp-label" style="color: var(--pumpkin)">The retention window</p>
-    <h2 class="opp-headline">Ease graduates into paid Plus before they default to Uber&nbsp;One.</h2>
-    <ul class="opp-actions">
-      <li>Create a loyalty-based graduation offer — however many orders a student has made, give them X months of discounted or free Plus after graduation. It will feel cheap compared to when they were a student with a salary.</li>
-      <li>Build an account transition flow — students currently can't move from their student email to a regular email. There's no mechanism to retain their order history, preferences, or subscription status.</li>
-      <li>Send a push notification or email at the end of the academic year — "You're graduating soon. Don't lose your Plus benefits. Transition your account now."</li>
-      <li>Consider a standard post-graduation rate as V1, with personalised loyalty-based offers as V2</li>
-    </ul>
-    <p class="opp-evidence">No current graduation strategy · Plus Silver expires after 3 years with no transition · UberOne subscribers face zero transition friction · Critical budget-adjustment window for new graduates</p>
-    <p class="opp-linkback" style="color:var(--pumpkin)">Graduate Transition · Engagement Cycle</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"They could kind of do like a graduation promotion… if they made it so that if you ordered in a certain period of time, then you kept that Silver Plus for a certain amount of months… like a time period&nbsp;thing."</p>
-        <p class="inline-quote-cite">— Barnaby · 2nd-year undergraduate, Nottingham</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S14: CLOSING -->
+<!-- S2: CLOSING -->
 <div class="slide closing-slide">
   <div class="slide-inner">
     <h2 class="closing-headline">Six opportunities. One&nbsp;question.</h2>
     <ol class="closing-list">
-      <li><span style="color:var(--teal)">Make "free delivery" feel free</span> <span class="closing-priority critical">Critical</span></li>
-      <li><span style="color:var(--blueberry)">Build value beyond food</span> <span class="closing-priority critical">Critical</span></li>
       <li><span style="color:var(--pumpkin)">Win the group moment</span> <span class="closing-priority high">High</span></li>
-      <li><span style="color:var(--mustard)">Flex with the student calendar</span> <span class="closing-priority medium">Medium</span></li>
+      <li><span style="color:var(--blueberry)">Build value beyond food</span> <span class="closing-priority critical">Critical</span></li>
       <li><span style="color:var(--apple)">Activate Silver subscribers</span> <span class="closing-priority high">High</span></li>
+      <li><span style="color:var(--teal)">Make "free delivery" feel free</span> <span class="closing-priority critical">Critical</span></li>
+      <li><span style="color:var(--mustard)">Flex with the student calendar</span> <span class="closing-priority medium">Medium</span></li>
       <li><span style="color:var(--pumpkin)">Build the graduation bridge</span> <span class="closing-priority high">High</span></li>
     </ol>
     <p class="closing-prompt">Which of these resonates most with what you're seeing?</p>
@@ -5467,19 +5425,17 @@ var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
   var barEls = {
     bt: document.querySelector('.sec-bt .chapter-bar'),
     2: document.querySelector('.sec-2 .chapter-bar'),
-    3: document.querySelector('.sec-3 .chapter-bar'),
-    5: document.querySelector('.sec-5 .chapter-bar')
+    3: document.querySelector('.sec-3 .chapter-bar')
   };
 
   var chapterMaps = {
     bt: [0, 1,1, 2,2, 3,3, 4,4, 0],
-    2: [0, 1,1,1, 2,2,2, 3,3,3,3,3, 4,4, 5,5,5, 0],
-    3: [0, 1,1,1,1, 2,2,2, 3,3,3,3, 4,4,4, 0],
-    5: [0, 0, 1,1, 2,2, 3,3, 4,4, 5,5, 0]
+    2: [0, 1,1,1, 2,2,2, 2, 3,3,3,3,3, 4,4, 5,5,5, 0],
+    3: [0, 1,1, 2,2,2,2, 2, 3, 3, 4,4, 5,5,5,5, 5, 6,6,6, 6, 0,0, 0, 0, 0]
   };
 
   function hideAllBars() {
-    ['bt',2,3,5].forEach(function(k) {
+    ['bt',2,3].forEach(function(k) {
       if (barEls[k]) barEls[k].style.opacity = '0';
     });
   }
