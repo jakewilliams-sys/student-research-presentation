@@ -160,6 +160,7 @@ body {
 }
 .slide.active .title-sub { opacity: 1; transform: none; }
 
+
 .method-row {
   display: flex;
   gap: 2rem;
@@ -431,6 +432,85 @@ body {
 
 
 /* ============================================
+   JOURNEY PANELS (agenda slide)
+   ============================================ */
+.journey-panels {
+  display: flex;
+  gap: 4px;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  inset: 0;
+}
+
+.journey-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.2rem;
+  position: relative;
+  opacity: 0;
+  transform: scaleY(0.92);
+  transform-origin: center;
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+
+.slide.active .journey-panel:nth-child(1) { transition-delay: 0.08s; }
+.slide.active .journey-panel:nth-child(2) { transition-delay: 0.16s; }
+.slide.active .journey-panel:nth-child(3) { transition-delay: 0.24s; }
+.slide.active .journey-panel:nth-child(4) { transition-delay: 0.32s; }
+.slide.active .journey-panel:nth-child(5) { transition-delay: 0.40s; }
+.slide.active .journey-panel:nth-child(6) { transition-delay: 0.48s; }
+.slide.active .journey-panel { opacity: 1; transform: none; }
+
+.journey-panel::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+}
+
+.journey-panel[data-color="grey"]     { background: rgba(158,151,141,0.07); }
+.journey-panel[data-color="grey"]::before     { background: var(--text-tertiary); }
+.journey-panel[data-color="teal"]     { background: rgba(0,133,124,0.06); }
+.journey-panel[data-color="teal"]::before     { background: var(--teal); }
+.journey-panel[data-color="blue"]     { background: rgba(91,142,196,0.07); }
+.journey-panel[data-color="blue"]::before     { background: var(--blueberry); }
+.journey-panel[data-color="orange"]   { background: rgba(212,96,58,0.06); }
+.journey-panel[data-color="orange"]::before   { background: var(--pumpkin); }
+.journey-panel[data-color="green"]    { background: rgba(90,158,74,0.07); }
+.journey-panel[data-color="green"]::before    { background: var(--apple); }
+
+.journey-panel-num {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 1.4rem;
+  opacity: 0.12;
+}
+
+.journey-panel-name {
+  font-family: var(--serif);
+  font-size: clamp(0.9rem, 1.6vw, 1.15rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.journey-panel-desc {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  max-width: 16ch;
+}
+
+/* ============================================
    ACCESSIBILITY & RESPONSIVE
    ============================================ */
 
@@ -443,6 +523,10 @@ body {
   .full-slide { padding: 0 1.8rem; }
   .context-stats { flex-direction: column; gap: 2rem; }
   .method-row { flex-direction: column; gap: 1.2rem; }
+  .journey-panels { flex-direction: column; gap: 2px; }
+  .journey-panel { flex: none; padding: 1.2rem; flex-direction: row; gap: 1rem; justify-content: flex-start; }
+  .journey-panel-num { font-size: 1.4rem; margin-bottom: 0; }
+  .journey-panel::before { width: 4px; height: 100%; top: 0; left: 0; right: auto; bottom: 0; }
 }
 }
 
@@ -3295,6 +3379,7 @@ body {
 .slide.active .journey-panel:nth-child(3) { transition-delay: 0.24s; }
 .slide.active .journey-panel:nth-child(4) { transition-delay: 0.32s; }
 .slide.active .journey-panel:nth-child(5) { transition-delay: 0.40s; }
+.slide.active .journey-panel:nth-child(6) { transition-delay: 0.48s; }
 .slide.active .journey-panel { opacity: 1; transform: none; }
 
 .journey-panel::before {
@@ -3538,6 +3623,42 @@ body {
   </div>
 </div>
 
+<!-- S1b: Agenda -->
+<div class="slide">
+  <div class="journey-panels">
+    <div class="journey-panel" data-color="grey">
+      <div class="journey-panel-num">01</div>
+      <div class="journey-panel-name">Assumptions</div>
+      <div class="journey-panel-desc">Test what you think you know</div>
+    </div>
+    <div class="journey-panel" data-color="teal">
+      <div class="journey-panel-num">02</div>
+      <div class="journey-panel-name">Brand Tracker</div>
+      <div class="journey-panel-desc">The landscape at scale</div>
+    </div>
+    <div class="journey-panel" data-color="teal">
+      <div class="journey-panel-num">03</div>
+      <div class="journey-panel-name">Findings</div>
+      <div class="journey-panel-desc">What the research showed</div>
+    </div>
+    <div class="journey-panel" data-color="orange">
+      <div class="journey-panel-num">04</div>
+      <div class="journey-panel-name">Personas</div>
+      <div class="journey-panel-desc">Meet the students</div>
+    </div>
+    <div class="journey-panel" data-color="blue">
+      <div class="journey-panel-num">05</div>
+      <div class="journey-panel-name">Plus &amp; Competition</div>
+      <div class="journey-panel-desc">The subscription landscape</div>
+    </div>
+    <div class="journey-panel" data-color="green">
+      <div class="journey-panel-num">06</div>
+      <div class="journey-panel-name">Opportunities</div>
+      <div class="journey-panel-desc">Where we go from here</div>
+    </div>
+  </div>
+</div>
+
 <!-- S2: Context -->
 <div class="slide full-slide">
   <div class="full-inner" style="max-width:800px">
@@ -3562,7 +3683,7 @@ body {
 <!-- S3: Framing -->
 <div class="slide full-slide">
   <div class="full-inner" style="max-width:660px">
-    <h2 class="framing-headline">We're going to show you five statements about&nbsp;students.</h2>
+    <h2 class="framing-headline">We're going to show you three statements about&nbsp;students.</h2>
     <p class="framing-instruction">For each one, discuss whether you think it's true.</p>
   </div>
 </div>
@@ -3570,7 +3691,7 @@ body {
 <!-- S4: Assumption 1 -->
 <div class="slide split-slide assumption-slide">
   <div class="split-left">
-    <p class="split-counter">Statement 1 of 5</p>
+    <p class="split-counter">Statement 1 of 3</p>
     <h2 class="split-statement">"Students cook consistently throughout the&nbsp;week."</h2>
     <p class="split-cta">Discuss — then click to reveal.</p>
   </div>
@@ -3582,7 +3703,7 @@ body {
 <!-- S5: Reveal 1 -->
 <div class="slide split-slide reveal-slide">
   <div class="split-left">
-    <p class="split-counter">Statement 1 of 5</p>
+    <p class="split-counter">Statement 1 of 3</p>
     <h2 class="split-statement">"Students cook consistently throughout the&nbsp;week."</h2>
     <p class="split-cta">Discuss — then click to reveal.</p>
   </div>
@@ -3597,8 +3718,8 @@ body {
 <!-- S6: Assumption 2 -->
 <div class="slide split-slide assumption-slide">
   <div class="split-left">
-    <p class="split-counter">Statement 2 of 5</p>
-    <h2 class="split-statement">"Food delivery is a regular part of student&nbsp;life."</h2>
+    <p class="split-counter">Statement 2 of 3</p>
+    <h2 class="split-statement">"Students order delivery for themselves, as a personal&nbsp;treat."</h2>
     <p class="split-cta">Discuss — then click to reveal.</p>
   </div>
   <div class="split-right">
@@ -3606,37 +3727,10 @@ body {
   </div>
 </div>
 
-<!-- S7: Reveal 2 -->
-<div class="slide split-slide reveal-slide">
-  <div class="split-left">
-    <p class="split-counter">Statement 2 of 5</p>
-    <h2 class="split-statement">"Food delivery is a regular part of student&nbsp;life."</h2>
-    <p class="split-cta">Discuss — then click to reveal.</p>
-  </div>
-  <div class="split-right">
-    <span class="reveal-badge partial">Yes — but less than you'd think</span>
-    <h2 class="reveal-headline">Students do order regularly — but delivery is still a small fraction of what they actually&nbsp;eat.</h2>
-    <p class="reveal-body">Ordering a few times a month feels regular to students, and it is. But when we tracked every meal over a week, delivery accounted for just 3.8% of all meals eaten. Students think about delivery constantly — comparing platforms, weighing up costs, debating options — yet the gap between how much headspace delivery occupies and how often it actually happens is&nbsp;striking.</p>
-    <p class="reveal-source">Diary study, n=15 · 12 delivery orders across 315 meal slots</p>
-  </div>
-</div>
-
-<!-- S8: Assumption 3 -->
-<div class="slide split-slide assumption-slide">
-  <div class="split-left">
-    <p class="split-counter">Statement 3 of 5</p>
-    <h2 class="split-statement">"Students order delivery for themselves, as a personal&nbsp;treat."</h2>
-    <p class="split-cta">Discuss — then click to reveal.</p>
-  </div>
-  <div class="split-right">
-    <span class="big-number">3</span>
-  </div>
-</div>
-
 <!-- S9: Reveal 3 -->
 <div class="slide split-slide reveal-slide">
   <div class="split-left">
-    <p class="split-counter">Statement 3 of 5</p>
+    <p class="split-counter">Statement 2 of 3</p>
     <h2 class="split-statement">"Students order delivery for themselves, as a personal&nbsp;treat."</h2>
     <p class="split-cta">Discuss — then click to reveal.</p>
   </div>
@@ -3648,49 +3742,22 @@ body {
   </div>
 </div>
 
-<!-- S10: Assumption 4 -->
+<!-- S10: Assumption 3 -->
 <div class="slide split-slide assumption-slide">
   <div class="split-left">
-    <p class="split-counter">Statement 4 of 5</p>
-    <h2 class="split-statement">"Students are loyal to one delivery&nbsp;platform."</h2>
-    <p class="split-cta">Discuss — then click to reveal.</p>
-  </div>
-  <div class="split-right">
-    <span class="big-number">4</span>
-  </div>
-</div>
-
-<!-- S11: Reveal 4 -->
-<div class="slide split-slide reveal-slide">
-  <div class="split-left">
-    <p class="split-counter">Statement 4 of 5</p>
-    <h2 class="split-statement">"Students are loyal to one delivery&nbsp;platform."</h2>
-    <p class="split-cta">Discuss — then click to reveal.</p>
-  </div>
-  <div class="split-right">
-    <span class="reveal-badge false">Not what we found</span>
-    <h2 class="reveal-headline">Students are radically platform-agnostic. Price comparison is a group sport — three apps open, fees compared side by&nbsp;side.</h2>
-    <p class="reveal-body">Students hold multiple subscriptions across platforms, switch freely based on price and promotions, and treat platform choice as a per-order decision rather than a commitment. Loyalty is almost non-existent — the cheapest option wins every time.</p>
-    <p class="reveal-source">16 quotes from 20 participants</p>
-  </div>
-</div>
-
-<!-- S12: Assumption 5 -->
-<div class="slide split-slide assumption-slide">
-  <div class="split-left">
-    <p class="split-counter">Statement 5 of 5</p>
+    <p class="split-counter">Statement 3 of 3</p>
     <h2 class="split-statement">"Students who subscribe to delivery platforms use them&nbsp;regularly."</h2>
     <p class="split-cta">Discuss — then click to reveal.</p>
   </div>
   <div class="split-right">
-    <span class="big-number">5</span>
+    <span class="big-number">3</span>
   </div>
 </div>
 
 <!-- S13: Reveal 5 -->
 <div class="slide split-slide reveal-slide">
   <div class="split-left">
-    <p class="split-counter">Statement 5 of 5</p>
+    <p class="split-counter">Statement 3 of 3</p>
     <h2 class="split-statement">"Students who subscribe to delivery platforms use them&nbsp;regularly."</h2>
     <p class="split-cta">Discuss — then click to reveal.</p>
   </div>
@@ -3910,7 +3977,7 @@ body {
   <div class="slide-inner">
     <p class="section-divider-part">Part Three</p>
     <h1 class="section-divider-title">What we&nbsp;found</h1>
-    <p class="section-divider-sub">Four findings from 35 interviews, 6 in-home visits, and 315 diary-tracked meal occasions.</p>
+    <p class="section-divider-sub">Five findings from 35 interviews, 6 in-home visits, and 315 diary-tracked meal occasions.</p>
     <div class="section-divider-rule"></div>
   </div>
 </div>
@@ -4129,7 +4196,7 @@ body {
 <!-- CVP DATA (moved from Brand Tracker section) -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">Brand Perception</p>
+    <p class="chapter-counter">Finding 4</p>
     <h2 class="chapter-headline">Deliveroo's CVP is declining. Uber Eats is holding&nbsp;steady.</h2>
     <p class="chapter-sub">Six key perception attributes declined between Q1 and Q4 2025 — while Uber Eats showed no significant movement. We're seeing early signs of this shift impacting brand preference.</p>
   </div>
@@ -4203,16 +4270,16 @@ body {
   </div>
 </div>
 
-<!-- S10: FINDING 4 TITLE -->
+<!-- S10: FINDING 5 TITLE -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">Finding 4</p>
+    <p class="chapter-counter">Finding 5</p>
     <h2 class="chapter-headline">Not all students are the&nbsp;same</h2>
     <p class="chapter-sub">Academic stage shapes the relationship with delivery more than age, gender, or location.</p>
   </div>
 </div>
 
-<!-- S11: FINDING 4 INSIGHT -->
+<!-- S11: FINDING 5 INSIGHT -->
 <div class="slide finding-slide">
   <div class="slide-inner">
     <p class="finding-label" style="color: var(--teal)">Academic stage segmentation</p>
@@ -4232,12 +4299,42 @@ body {
   </div>
 </div>
 
-<!-- S12: FINDING 4 BRIDGE -->
+<!-- S12: FINDING 5 BRIDGE -->
 <div class="slide finding-slide">
   <div class="slide-inner">
     <p class="finding-label" style="color: var(--teal)">What this means</p>
     <h2 class="finding-headline">You can't market to "students" as a single group. The triggers, barriers, and value perceptions are&nbsp;different.</h2>
     <p class="finding-body">Our research identified four distinct behavioural personas — each with different ordering triggers, emotional drivers, and pain points. Let's meet them.</p>
+  </div>
+</div>
+
+<!-- REGIONAL VARIATION — DUBLIN -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--blueberry)">Regional variation</p>
+    <h2 class="finding-headline">Themes are consistent across regions — but Dublin is an&nbsp;outlier.</h2>
+    <p class="finding-body" style="margin-bottom:1rem">Core themes are consistent across all cities. Dublin is the exception — with structural differences that may need a separate&nbsp;approach.</p>
+    <div style="margin:0.8rem 0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.8rem">
+      <div style="padding:0.8rem;border-radius:8px;background:rgba(91,142,196,0.06);border-top:3px solid var(--blueberry)">
+        <p style="font-family:var(--sans);font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--blueberry);margin:0 0 0.4rem">Location</p>
+        <p style="font-family:var(--sans);font-size:0.76rem;line-height:1.45;color:var(--text-mid);margin:0">Students commute in — city promos may not reach them</p>
+      </div>
+      <div style="padding:0.8rem;border-radius:8px;background:rgba(91,142,196,0.06);border-top:3px solid var(--blueberry)">
+        <p style="font-family:var(--sans);font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--blueberry);margin:0 0 0.4rem">Cost</p>
+        <p style="font-family:var(--sans);font-size:0.76rem;line-height:1.45;color:var(--text-mid);margin:0">Higher cost of living intensifies price sensitivity</p>
+      </div>
+      <div style="padding:0.8rem;border-radius:8px;background:rgba(91,142,196,0.06);border-top:3px solid var(--blueberry)">
+        <p style="font-family:var(--sans);font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--blueberry);margin:0 0 0.4rem">Data gap</p>
+        <p style="font-family:var(--sans);font-size:0.76rem;line-height:1.45;color:var(--text-mid);margin:0">No YouGov student filter for Ireland — qual findings only</p>
+      </div>
+    </div>
+    <p class="finding-source">6 Dublin participants · Qualitative observations · No quantitative regional comparison available</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Being in Dublin is very expensive. Like it's extremely expensive, especially for me. So I had to make those tough&nbsp;choices."</p>
+        <p class="inline-quote-cite">— Apollo · Masters student, UCD Dublin</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -4335,6 +4432,7 @@ body {
   <span class="chapter-bar-item" data-chapter="4">Free Delivery</span>
   <span class="chapter-bar-item" data-chapter="5">Experience Gaps</span>
   <span class="chapter-bar-item" data-chapter="6">Price + Friction</span>
+  <span class="chapter-bar-item" data-chapter="7">Graduation</span>
 </nav>
 
 <!-- SECTION DIVIDER -->
@@ -4350,7 +4448,7 @@ body {
 <!-- PLUS AWARENESS (moved from Brand Tracker section) -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">The awareness gap</p>
+    <p class="chapter-counter">Finding 1</p>
     <h2 class="chapter-headline">Students know "free delivery." They don't know&nbsp;Plus.</h2>
     <p class="chapter-sub">Uber One leads Plus on subscription awareness in every quarter. And the only Plus benefit students can name is the one that removes a fee.</p>
   </div>
@@ -4379,10 +4477,10 @@ body {
   </div>
 </div>
 
-<!-- S1: FINDING 1 TITLE -->
+<!-- S1: FINDING 2 TITLE -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">Finding 1</p>
+    <p class="chapter-counter">Finding 2</p>
     <h2 class="chapter-headline">Uber One's value is felt beyond food. There's an opportunity for Plus to close that&nbsp;gap.</h2>
     <p class="chapter-sub">Both platforms have comparable trial rates. But Uber One benefits from a multi-service ecosystem that makes its value more immediately obvious to students.</p>
   </div>
@@ -4452,22 +4550,51 @@ body {
   </div>
 </div>
 
-<!-- THE ONBOARDING GAP — VERIFICATION & SIGN-UP -->
-<div class="slide finding-slide">
+<!-- FINDING 3: THE ONBOARDING GAP -->
+<div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="finding-label" style="color: var(--pumpkin)">The onboarding gap</p>
-    <h2 class="finding-headline">How students find Plus is fundamentally different to how they find Uber&nbsp;One.</h2>
-    <p class="finding-body">Uber One is discoverable in-app: free trials surface automatically, and students are already in the Uber ecosystem for taxis. Plus requires students to find it through a third party — Amazon Prime, Student Beans, or Unidays — creating passive subscribers who never connect with the product inside the Deliveroo app. The sign-up journey is disconnected from the ordering experience.</p>
-    <p class="finding-source">38% of Plus/Silver discussants can't explain what it gives them · Uber One discoverable in-app · Plus requires third-party acquisition</p>
+    <p class="chapter-counter">Finding 3</p>
+    <h2 class="chapter-headline">How students find Plus is fundamentally different to how they find Uber&nbsp;One</h2>
+    <p class="chapter-sub">Uber One is discoverable in-app. Plus requires students to find it through a third party — creating passive subscribers who never connect with the product.</p>
   </div>
 </div>
 
-<!-- S4+5: FREE DELIVERY — COMBINED TITLE & CHART -->
+<div class="slide finding-slide">
+  <div class="slide-inner">
+    <p class="finding-label" style="color: var(--pumpkin)">The onboarding gap</p>
+    <h2 class="finding-headline">Plus's third-party acquisition creates subscribers who don't know they're&nbsp;subscribers.</h2>
+    <p class="finding-body">Uber One is discoverable in-app: free trials surface automatically, and students are already in the Uber ecosystem for taxis. Plus requires students to find it through a third party — Amazon Prime, Student Beans, or Unidays — creating passive subscribers who never connect with the product inside the Deliveroo app. The sign-up journey is disconnected from the ordering experience.</p>
+    <p class="finding-source">38% of Plus/Silver discussants can't explain what it gives them · Uber One discoverable in-app · Plus requires third-party acquisition</p>
+    <div class="quote-panel">
+      <div class="inline-quote">
+        <p class="inline-quote-text">"I think this must be included with my Prime or something. I don't actually entirely know what that gets&nbsp;me."</p>
+        <p class="inline-quote-cite">— Rory · Holds Deliveroo Silver via Prime</p>
+      </div>
+      <div class="inline-quote">
+        <p class="inline-quote-text">"UberEats is typically after a night out. I don't know if it's because I get an Uber home… oh, I see UberEats in the top corner of that, and I'm thinking, oh, that's… I forget McDonald's right&nbsp;now!"</p>
+        <p class="inline-quote-cite">— James · 3rd-year undergraduate, Manchester Met — the Uber ecosystem creates automatic moments</p>
+      </div>
+      <div class="inline-quote">
+        <p class="inline-quote-text">"Deliveroo Plus, I don't really know about, to be&nbsp;honest."</p>
+        <p class="inline-quote-cite">— Katie</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S4: FINDING 4 TITLE -->
+<div class="slide chapter-slide">
+  <div class="slide-inner">
+    <p class="chapter-counter">Finding 4</p>
+    <h2 class="chapter-headline">Free delivery is the benefit students care about&nbsp;most</h2>
+    <p class="chapter-sub">We gave students a list of subscription benefits and asked them to rank what mattered. One benefit consistently came out on top.</p>
+  </div>
+</div>
+
+<!-- S5: FINDING 3 DATA -->
 <div class="slide data-slide">
   <div class="slide-inner">
-    <p class="chapter-counter" style="font-family:var(--sans);font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin-bottom:0.6rem">Finding 2</p>
-    <h2 class="data-title" style="font-size:clamp(1.2rem,2.2vw,1.6rem);margin-bottom:0.3rem">Free delivery is the benefit students care about most</h2>
-    <p style="font-family:var(--sans);font-size:0.85rem;line-height:1.5;color:var(--text-mid);max-width:52ch;margin:0 auto 1.5rem">We gave students a list of subscription benefits and asked them to rank what mattered. One benefit consistently came out on&nbsp;top.</p>
+    <h2 class="data-title">Subscription benefit ranking</h2>
     <div class="bar-section">
       <p class="bar-section-label">Selections from a provided list · 35 participants</p>
       <div class="bar-row"><span class="bar-name">Free delivery</span><div class="bar-track"><div class="bar-fill" style="--w:88%;background:var(--teal)"></div><div class="bar-label"><span class="bar-mentions">47 mentions</span><span class="bar-participants">21 participants</span></div></div></div>
@@ -4480,7 +4607,7 @@ body {
   </div>
 </div>
 
-<!-- S6: FINDING 2 INSIGHT -->
+<!-- S6: FINDING 4 INSIGHT -->
 <div class="slide finding-slide">
   <div class="slide-inner">
     <p class="finding-label" style="color: var(--teal)">What this means for Plus</p>
@@ -4500,10 +4627,10 @@ body {
   </div>
 </div>
 
-<!-- S7: FINDING 3 TITLE -->
+<!-- S7: FINDING 5 TITLE -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">Finding 3</p>
+    <p class="chapter-counter">Finding 5</p>
     <h2 class="chapter-headline">There's friction between the promise and the&nbsp;experience</h2>
     <p class="chapter-sub">Students love the idea of free delivery — but service fees, minimum order thresholds, and benefit confusion are getting in the way.</p>
   </div>
@@ -4561,16 +4688,16 @@ body {
 </div>
 
 
-<!-- S11: FINDING 4 TITLE -->
+<!-- S11: FINDING 6 TITLE -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">Finding 4</p>
+    <p class="chapter-counter">Finding 6</p>
     <h2 class="chapter-headline">Students are price-driven — but the lowest price doesn't always&nbsp;win</h2>
     <p class="chapter-sub">Price matters enormously to students. But restaurant availability, habit, and low appetite for comparison effort mean that the cheapest option doesn't automatically get the order.</p>
   </div>
 </div>
 
-<!-- S12: FINDING 4 INSIGHT -->
+<!-- S12: FINDING 6 INSIGHT -->
 <div class="slide finding-slide">
   <div class="slide-inner">
     <p class="finding-label" style="color: var(--blueberry)">Price + friction</p>
@@ -4594,7 +4721,7 @@ body {
   </div>
 </div>
 
-<!-- S13: FINDING 4 CHURN -->
+<!-- S13: FINDING 6 CHURN -->
 <div class="slide finding-slide">
   <div class="slide-inner">
     <p class="finding-label" style="color: var(--blueberry)">The engagement gap</p>
@@ -4613,7 +4740,7 @@ body {
 <!-- S14a: THE GRADUATE TRANSITION -->
 <div class="slide chapter-slide">
   <div class="slide-inner">
-    <p class="chapter-counter">The graduate transition</p>
+    <p class="chapter-counter">Finding 7</p>
     <h2 class="chapter-headline">The three-year window closes — and we have no plan for what happens&nbsp;next.</h2>
     <p class="chapter-sub">Graduates shift to more structured lifestyles. Delivery becomes a weekend habit, sometimes lunches. But Uber One's transport advantage only gets stronger — and Deliveroo currently has no mechanism to retain them.</p>
   </div>
@@ -4653,36 +4780,6 @@ body {
       <div class="inline-quote">
         <p class="inline-quote-text">"I book all my trains in Uber and I get trains a lot, so then there's less pressure on the food&nbsp;side."</p>
         <p class="inline-quote-cite">— Joshua W · Final-year undergraduate, Manchester — transport lock-in extends beyond university</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- S14b: REGIONAL VARIATION — DUBLIN -->
-<div class="slide finding-slide">
-  <div class="slide-inner">
-    <p class="finding-label" style="color: var(--blueberry)">Regional variation</p>
-    <h2 class="finding-headline">Themes are consistent across regions — but Dublin is an&nbsp;outlier.</h2>
-    <p class="finding-body" style="margin-bottom:1rem">Core themes are consistent across all cities. Dublin is the exception — with structural differences that may need a separate&nbsp;approach.</p>
-    <div style="margin:0.8rem 0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.8rem">
-      <div style="padding:0.8rem;border-radius:8px;background:rgba(91,142,196,0.06);border-top:3px solid var(--blueberry)">
-        <p style="font-family:var(--sans);font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--blueberry);margin:0 0 0.4rem">Location</p>
-        <p style="font-family:var(--sans);font-size:0.76rem;line-height:1.45;color:var(--text-mid);margin:0">Students commute in — city promos may not reach them</p>
-      </div>
-      <div style="padding:0.8rem;border-radius:8px;background:rgba(91,142,196,0.06);border-top:3px solid var(--blueberry)">
-        <p style="font-family:var(--sans);font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--blueberry);margin:0 0 0.4rem">Cost</p>
-        <p style="font-family:var(--sans);font-size:0.76rem;line-height:1.45;color:var(--text-mid);margin:0">Higher cost of living intensifies price sensitivity</p>
-      </div>
-      <div style="padding:0.8rem;border-radius:8px;background:rgba(91,142,196,0.06);border-top:3px solid var(--blueberry)">
-        <p style="font-family:var(--sans);font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--blueberry);margin:0 0 0.4rem">Data gap</p>
-        <p style="font-family:var(--sans);font-size:0.76rem;line-height:1.45;color:var(--text-mid);margin:0">No YouGov student filter for Ireland — qual findings only</p>
-      </div>
-    </div>
-    <p class="finding-source">6 Dublin participants · Qualitative observations · No quantitative regional comparison available</p>
-    <div class="quote-panel">
-      <div class="inline-quote">
-        <p class="inline-quote-text">"Being in Dublin is very expensive. Like it's extremely expensive, especially for me. So I had to make those tough&nbsp;choices."</p>
-        <p class="inline-quote-cite">— Apollo · Masters student, UCD Dublin</p>
       </div>
     </div>
   </div>
@@ -5473,9 +5570,9 @@ var STAGES = ['Trigger', 'Decision', 'Order', 'Wait', 'Meal', 'After'];
 
   var chapterMaps = {
     bt: [0, 1,1, 2,2, 3,3, 4,4, 0],
-    2: [0, 1,1,1, 2,2,2, 3,3,3,3,3, 4,4, 5,5,5, 0],
-    3: [0, 1,1,1,1, 2,2,2, 3,3,3,3, 4,4,4, 0],
-    5: [0, 0, 1,1, 2,2, 3,3, 4,4, 5,5, 0]
+    2: [0, 1,1,1, 2,2,2, 3,3,3,3,3, 4,4, 5,5,5, 0, 0],
+    3: [0, 1,1, 2,2,2,2, 3,3, 4,4,4, 5,5,5,5, 6,6,6, 7,7, 0],
+    5: [0, 0, 1,1, 2,2, 3,3, 4,4, 5,5, 6,6, 0]
   };
 
   function hideAllBars() {
